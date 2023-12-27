@@ -1,0 +1,2025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogNumberPad</class>
+ <widget class="QDialog" name="DialogNumberPad">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>540</width>
+    <height>666</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>540</width>
+    <height>576</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>552</width>
+    <height>666</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>-1</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">数字键盘</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+QDialog
+{
+	background-color:transparent;
+};
+font: 28px &quot;微软雅黑&quot;;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayoutDialog">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frameTitle">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>58</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>58</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame#frameTitle
+{
+	background-color: transparent;
+	border-image: url(:/img/widget/DialogTitle.png) 0 12 0 12;
+	border-left: 12px transparent;
+	border-right: 12px transparent;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayoutTitle">
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="labelTitle">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>60</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel#labelTitle
+{
+	color: white;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="text">
+         <string>数字键盘</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="xPushButton" name="pushButtonClose">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>45</width>
+          <height>45</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>45</width>
+          <height>45</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#pushButtonClose:!pressed
+{
+	border-image: url(:/img/widget/BtnCloseNormal.png);
+}
+
+QPushButton#pushButtonClose:pressed
+{
+	border-image: url(:/img/widget/BtnClosePress.png);
+}
+</string>
+        </property>
+        <property name="text">
+         <string notr="true"/>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frameMainArea">
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame#frameMainArea
+{
+	background-color: rgba(100, 100, 100, 210);
+}
+
+QLineEdit
+{
+	border-image: url(:/img/widget/EditBox.png) 10 10 10 10;
+	border-top: 10px transparent;
+	border-right: 10px transparent;
+	border-bottom: 10px transparent;
+	border-left: 10px transparent;
+}
+
+QPushButton
+{
+	border-top: 5px transprant;
+	border-right: 5px transprant;
+	border-bottom: 8px transprant;
+	border-left: 5px transprant;
+}
+QPushButton[IsRed = true]:pressed 
+{
+	color: white;
+	border-image: url(:/img/widget/key_red_tapped.png) 5 5 8 5;
+}
+
+QPushButton[IsRed = true]:!pressed 
+{
+	color: white;
+	border-image: url(:/img/widget/key_red.png) 5 5 8 5;
+}
+QPushButton:pressed 
+{
+	border-image: url(:/img/widget/key_white_tapped.png) 5 5 8 5;
+}
+
+QPushButton:!pressed 
+{
+	border-image: url(:/img/widget/key_white.png) 5 5 8 5;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="verticalSpacing">
+       <number>4</number>
+      </property>
+      <property name="margin">
+       <number>8</number>
+      </property>
+      <item row="4" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <item>
+         <widget class="xPushButton" name="Key1">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="Key2">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">2</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="Key3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">3</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="Key0">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::NoContextMenu</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">0</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeyEnter">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true"/>
+          </property>
+          <property name="icon">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/key/KeyEnter.png</normaloff>:/img/key/KeyEnter.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <property name="checked">
+           <bool>false</bool>
+          </property>
+          <property name="IsRed" stdset="0">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="6" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <property name="spacing">
+         <number>8</number>
+        </property>
+        <item>
+         <widget class="xPushButton" name="KeyExt">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">A</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeyWait">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>待机点</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeyCat">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>取物点</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeyRel">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>置物点</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeyVar">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>变量</string>
+          </property>
+          <property name="checkable">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <property name="spacing">
+         <number>8</number>
+        </property>
+        <item>
+         <widget class="xPushButton" name="KeyPHor">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">X</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeyPVer">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">Y</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeyTrv">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">Z</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeyRVer">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">Y2</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeyRHor">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">X2</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <item>
+         <widget class="xPushButton" name="Key7">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">7</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="Key8">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">8</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="Key9">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">9</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeySign">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">+/-</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeyAC">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">AC</string>
+          </property>
+          <property name="IsRed" stdset="0">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="inputMask">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string notr="true"/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>false</bool>
+        </property>
+        <property name="placeholderText">
+         <string notr="true"/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="labelMessage">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string notr="true"/>
+        </property>
+        <property name="margin">
+         <number>4</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="spacing">
+         <number>10</number>
+        </property>
+        <item>
+         <widget class="xPushButton" name="Key4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">4</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="Key5">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">5</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="Key6">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">6</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeyDOT">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">.</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="KeyDEL">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>90</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string notr="true">DEL</string>
+          </property>
+          <property name="IsRed" stdset="0">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>xPushButton</class>
+   <extends>QPushButton</extends>
+   <header>xpushbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="xPad.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButtonClose</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>233</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>273</x>
+     <y>36</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyEnter</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>225</x>
+     <y>279</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>273</x>
+     <y>289</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Key0</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>Key0Click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>93</x>
+     <y>327</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>104</x>
+     <y>453</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Key1</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>Key1Click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>39</x>
+     <y>136</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-99</x>
+     <y>136</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Key2</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>Key2Click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>109</x>
+     <y>142</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-22</x>
+     <y>142</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Key3</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>Key3Click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>161</x>
+     <y>143</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-9</x>
+     <y>155</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Key4</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>Key4Click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>39</x>
+     <y>202</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-7</x>
+     <y>184</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Key5</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>Key5Click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>93</x>
+     <y>199</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-20</x>
+     <y>193</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Key6</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>Key6Click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>156</x>
+     <y>199</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-102</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Key7</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>Key7Click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>39</x>
+     <y>251</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-48</x>
+     <y>248</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Key8</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>Key8Click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>101</x>
+     <y>262</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-103</x>
+     <y>256</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Key9</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>Key9Click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>169</x>
+     <y>268</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-74</x>
+     <y>264</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyDOT</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyDotClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>160</x>
+     <y>320</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>168</x>
+     <y>403</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeySign</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeySignClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>29</x>
+     <y>326</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>53</x>
+     <y>441</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyAC</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyClrClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>230</x>
+     <y>136</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>367</x>
+     <y>136</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyDEL</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyDelClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>231</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>380</x>
+     <y>205</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyCat</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyCatClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>52</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyRel</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyRelClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>146</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyWait</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyWaitClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>164</x>
+     <y>609</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyCat</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>52</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyRel</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>146</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyWait</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>164</x>
+     <y>609</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyPHor</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyPHorClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>502</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyPHor</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>502</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyPVer</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyPVerClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>274</x>
+     <y>502</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyPVer</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>274</x>
+     <y>502</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyRHor</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>595</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyRHor</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyRHorClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>595</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyRVer</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyRVerClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>274</x>
+     <y>595</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyRVer</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>274</x>
+     <y>595</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyTrv</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>452</x>
+     <y>502</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyExt</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>452</x>
+     <y>595</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyTrv</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyTrvClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>452</x>
+     <y>502</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyExt</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyExtClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>452</x>
+     <y>595</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>KeyVar</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>DialogNumberPad</receiver>
+   <slot>KeyVarToggled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>476</x>
+     <y>609</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>269</x>
+     <y>332</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Key0Click()</slot>
+  <slot>Key1Click()</slot>
+  <slot>Key2Click()</slot>
+  <slot>Key3Click()</slot>
+  <slot>Key4Click()</slot>
+  <slot>Key5Click()</slot>
+  <slot>Key6Click()</slot>
+  <slot>Key7Click()</slot>
+  <slot>Key8Click()</slot>
+  <slot>Key9Click()</slot>
+  <slot>KeyDotClick()</slot>
+  <slot>KeySignClick()</slot>
+  <slot>KeyClrClick()</slot>
+  <slot>KeyDelClick()</slot>
+  <slot>KeyCatClick()</slot>
+  <slot>KeyRelClick()</slot>
+  <slot>KeyWaitClick()</slot>
+  <slot>KeyPHorClick()</slot>
+  <slot>KeyPVerClick()</slot>
+  <slot>KeyRHorClick()</slot>
+  <slot>KeyRVerClick()</slot>
+  <slot>KeyTrvClick()</slot>
+  <slot>KeyExtClick()</slot>
+  <slot>KeyVarToggled(bool)</slot>
+ </slots>
+</ui>

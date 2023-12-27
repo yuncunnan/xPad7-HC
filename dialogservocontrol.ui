@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogServoControl</class>
+ <widget class="QDialog" name="DialogServoControl">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>525</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>525</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>-1</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">伺服手动控制</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 28px &quot;微软雅黑&quot;;</string>
+  </property>
+  <property name="modal">
+   <bool>true</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayoutForm">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frameTitle">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame#frameTitle
+{
+	background-color: transparent;
+	border-image: url(:/img/widget/DialogTitle.png) 0 12 0 12;
+	border-left: 12px transparent;
+	border-right: 12px transparent;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayoutTitle">
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="labelTitle">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel#labelTitle
+{
+	color: white;
+}</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="text">
+         <string notr="true">伺服手动控制</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="xPushButton" name="pushButtonClose">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#pushButtonClose:!pressed
+{
+	border-image: url(:/img/widget/BtnCloseNormal.png);
+}
+
+QPushButton#pushButtonClose:pressed
+{
+	border-image: url(:/img/widget/BtnClosePress.png);
+}
+</string>
+        </property>
+        <property name="text">
+         <string notr="true"/>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QFrame" name="frameAxis">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame#frameAxis
+{
+	background-color: rgb(234, 234, 234);
+}
+/* Set check buttons style */
+QPushButton:!checked
+{
+	border-image: url(:/img/widget/key_white.png) 5 5 8 5;
+	border-top: 5px transparent;
+	border-right: 5px transparent;
+	border-bottom: 8px transparent;
+	border-left: 5px transparent;
+}
+QPushButton:checked
+{
+	border-image: url(:/img/widget/key_white_tapped.png) 5 5 8 5;
+	border-top: 5px transparent;
+	border-right: 5px transparent;
+	border-bottom: 8px transparent;
+	border-left: 5px transparent;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayoutAxis">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>3</number>
+      </property>
+      <property name="topMargin">
+       <number>3</number>
+      </property>
+      <property name="rightMargin">
+       <number>3</number>
+      </property>
+      <property name="bottomMargin">
+       <number>2</number>
+      </property>
+      <item>
+       <widget class="xPushButton" name="radioPaHor">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string notr="true"/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="xPushButton" name="radioPaVer">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string notr="true"/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="xPushButton" name="radioTrv">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string notr="true"/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="xPushButton" name="radioRaHor">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string notr="true"/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="xPushButton" name="radioRaVer">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string notr="true"/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="xPushButton" name="radioExt">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string notr="true"/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="autoExclusive">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QFrame" name="frame">
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="IsMainArea" stdset="0">
+      <bool>true</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="verticalSpacing">
+       <number>4</number>
+      </property>
+      <property name="margin">
+       <number>5</number>
+      </property>
+      <item row="0" column="0" rowspan="2">
+       <widget class="QGroupBox" name="groupDec">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="title">
+         <string notr="true">-</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayoutCtrlCcw">
+         <property name="leftMargin">
+          <number>5</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>5</number>
+         </property>
+         <property name="bottomMargin">
+          <number>5</number>
+         </property>
+         <item>
+          <widget class="xPixmapButton" name="BtnMoveCcw">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>110</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>210</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::StrongFocus</enum>
+           </property>
+           <property name="text">
+            <string notr="true"/>
+           </property>
+           <property name="icon">
+            <iconset resource="xPad.qrc">
+             <normaloff>:/img/48X48/MoveCcwNormal.png</normaloff>:/img/48X48/MoveCcwNormal.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>48</width>
+             <height>48</height>
+            </size>
+           </property>
+           <property name="autoRepeat">
+            <bool>false</bool>
+           </property>
+           <property name="autoRepeatDelay">
+            <number>200</number>
+           </property>
+           <property name="autoRepeatInterval">
+            <number>10</number>
+           </property>
+           <property name="imageNormal">
+            <pixmap resource="xPad.qrc">:/img/widget/BtnBoxNormal.png</pixmap>
+           </property>
+           <property name="imagePress">
+            <pixmap resource="xPad.qrc">:/img/widget/BtnBoxPress.png</pixmap>
+           </property>
+           <property name="borderTop">
+            <number>8</number>
+           </property>
+           <property name="borderRight">
+            <number>8</number>
+           </property>
+           <property name="borderBottom">
+            <number>8</number>
+           </property>
+           <property name="borderLeft">
+            <number>8</number>
+           </property>
+           <property name="contentAlignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="xPixmapButton" name="BtnShiftMoveCcw">
+           <property name="minimumSize">
+            <size>
+             <width>110</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>110</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::StrongFocus</enum>
+           </property>
+           <property name="text">
+            <string notr="true"/>
+           </property>
+           <property name="icon">
+            <iconset resource="xPad.qrc">
+             <normaloff>:/img/48X48/ShiftCcwNormal.png</normaloff>:/img/48X48/ShiftCcwNormal.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>48</width>
+             <height>48</height>
+            </size>
+           </property>
+           <property name="imageNormal">
+            <pixmap resource="xPad.qrc">:/img/widget/BtnBoxNormal.png</pixmap>
+           </property>
+           <property name="imagePress">
+            <pixmap resource="xPad.qrc">:/img/widget/BtnBoxPress.png</pixmap>
+           </property>
+           <property name="borderTop">
+            <number>8</number>
+           </property>
+           <property name="borderRight">
+            <number>8</number>
+           </property>
+           <property name="borderBottom">
+            <number>8</number>
+           </property>
+           <property name="borderLeft">
+            <number>8</number>
+           </property>
+           <property name="contentAlignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="3" rowspan="2">
+       <widget class="QGroupBox" name="groupAdd">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="title">
+         <string notr="true">+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayoutCtrlCw">
+         <property name="leftMargin">
+          <number>5</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>5</number>
+         </property>
+         <property name="bottomMargin">
+          <number>5</number>
+         </property>
+         <item>
+          <widget class="xPixmapButton" name="BtnShiftMoveCw">
+           <property name="minimumSize">
+            <size>
+             <width>110</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>110</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::StrongFocus</enum>
+           </property>
+           <property name="text">
+            <string notr="true"/>
+           </property>
+           <property name="icon">
+            <iconset resource="xPad.qrc">
+             <normaloff>:/img/48X48/ShiftCwNormal.png</normaloff>:/img/48X48/ShiftCwNormal.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>48</width>
+             <height>48</height>
+            </size>
+           </property>
+           <property name="imageNormal">
+            <pixmap resource="xPad.qrc">:/img/widget/BtnBoxNormal.png</pixmap>
+           </property>
+           <property name="imagePress">
+            <pixmap resource="xPad.qrc">:/img/widget/BtnBoxPress.png</pixmap>
+           </property>
+           <property name="borderTop">
+            <number>8</number>
+           </property>
+           <property name="borderRight">
+            <number>8</number>
+           </property>
+           <property name="borderBottom">
+            <number>8</number>
+           </property>
+           <property name="borderLeft">
+            <number>8</number>
+           </property>
+           <property name="contentAlignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="xPixmapButton" name="BtnMoveCw">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>110</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>210</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::StrongFocus</enum>
+           </property>
+           <property name="text">
+            <string notr="true"/>
+           </property>
+           <property name="icon">
+            <iconset resource="xPad.qrc">
+             <normaloff>:/img/48X48/MoveCwNormal.png</normaloff>:/img/48X48/MoveCwNormal.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>48</width>
+             <height>48</height>
+            </size>
+           </property>
+           <property name="autoRepeat">
+            <bool>false</bool>
+           </property>
+           <property name="autoRepeatDelay">
+            <number>200</number>
+           </property>
+           <property name="autoRepeatInterval">
+            <number>10</number>
+           </property>
+           <property name="imageNormal">
+            <pixmap resource="xPad.qrc">:/img/widget/BtnBoxNormal.png</pixmap>
+           </property>
+           <property name="imagePress">
+            <pixmap resource="xPad.qrc">:/img/widget/BtnBoxPress.png</pixmap>
+           </property>
+           <property name="borderTop">
+            <number>8</number>
+           </property>
+           <property name="borderRight">
+            <number>8</number>
+           </property>
+           <property name="borderBottom">
+            <number>8</number>
+           </property>
+           <property name="borderLeft">
+            <number>8</number>
+           </property>
+           <property name="contentAlignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="5" column="0" colspan="4">
+       <widget class="Line" name="line2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0" colspan="4">
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::NoFrame</enum>
+        </property>
+        <property name="lineWidth">
+         <number>0</number>
+        </property>
+        <property name="currentIndex">
+         <number>4</number>
+        </property>
+        <widget class="QWidget" name="pagePaHor">
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>-1</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="BtnPaHorBegin">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>模内安全区起点</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <spacer name="horizontalSpacerPgPaHor">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="BtnPaHorEnd">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>模内安全区终点</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="pagePaVer">
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>-1</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="BtnPaVerWait">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>模内上位待机点</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <spacer name="horizontalSpacerPgPaVer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="BtnPaVerCat">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>模内下行取物点</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="pageTrv">
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>-1</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="BtnTrvCat">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>横行模内取物点</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <spacer name="horizontalSpacerPgTrv">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="BtnTrvRel">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>横行模外置物点</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="pageRaHor">
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>-1</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="BtnRaVerWait">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>模内上位待机点</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <spacer name="horizontalSpacerPgRaHor">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>211</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="BtnRaVerCat">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>模内下行取物点</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="pageRaVer">
+         <property name="font">
+          <font>
+           <family>微软雅黑</family>
+           <pointsize>-1</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="BtnRaHorBegin">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>模内安全区起点</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <spacer name="horizontalSpacerPgRaVer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>211</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="0" column="2">
+           <widget class="QPushButton" name="BtnRaHorEnd">
+            <property name="minimumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>70</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>模内安全区终点</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="pageExt"/>
+       </widget>
+      </item>
+      <item row="0" column="1" colspan="2" alignment="Qt::AlignHCenter">
+       <widget class="xSpinBox" name="spinBoxSpeed">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::ClickFocus</enum>
+        </property>
+        <property name="wrapping">
+         <bool>false</bool>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+        <property name="buttonSymbols">
+         <enum>QAbstractSpinBox::NoButtons</enum>
+        </property>
+        <property name="specialValueText">
+         <string notr="true"/>
+        </property>
+        <property name="keyboardTracking">
+         <bool>false</bool>
+        </property>
+        <property name="suffix">
+         <string notr="true">%</string>
+        </property>
+        <property name="prefix">
+         <string notr="true"/>
+        </property>
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>50</number>
+        </property>
+        <property name="value">
+         <number>10</number>
+        </property>
+        <property name="HasBtn" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0" colspan="2">
+       <widget class="xIndicator" name="LedSafePaUp">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="iconOn">
+         <iconset resource="xPad.qrc">
+          <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
+        </property>
+        <property name="iconOff">
+         <iconset resource="xPad.qrc">
+          <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>正臂上下轴原点</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1" colspan="2" alignment="Qt::AlignHCenter">
+       <widget class="xDoubleSpinBox" name="doubleSpinBoxShift">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>200</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::ClickFocus</enum>
+        </property>
+        <property name="wrapping">
+         <bool>false</bool>
+        </property>
+        <property name="frame">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+        <property name="buttonSymbols">
+         <enum>QAbstractSpinBox::NoButtons</enum>
+        </property>
+        <property name="specialValueText">
+         <string/>
+        </property>
+        <property name="keyboardTracking">
+         <bool>false</bool>
+        </property>
+        <property name="suffix">
+         <string notr="true">mm</string>
+        </property>
+        <property name="decimals">
+         <number>2</number>
+        </property>
+        <property name="minimum">
+         <double>0.010000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>10.000000000000000</double>
+        </property>
+        <property name="singleStep">
+         <double>0.010000000000000</double>
+        </property>
+        <property name="value">
+         <double>0.010000000000000</double>
+        </property>
+        <property name="HasBtn" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="4">
+       <widget class="Line" name="line1">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <widget class="xIndicator" name="LedSafeOut">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="iconOn">
+         <iconset resource="xPad.qrc">
+          <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
+        </property>
+        <property name="iconOff">
+         <iconset resource="xPad.qrc">
+          <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>横行轴原点</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2" colspan="2">
+       <widget class="xIndicator" name="LedSafeRaUp">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="iconOn">
+         <iconset resource="xPad.qrc">
+          <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
+        </property>
+        <property name="iconOff">
+         <iconset resource="xPad.qrc">
+          <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>副臂上下轴原点</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2" colspan="2">
+       <widget class="xIndicator" name="LedSafeIn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="iconOn">
+         <iconset resource="xPad.qrc">
+          <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
+        </property>
+        <property name="iconOff">
+         <iconset resource="xPad.qrc">
+          <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>横行安全区</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>xIndicator</class>
+   <extends>QWidget</extends>
+   <header>xindicator.h</header>
+  </customwidget>
+  <customwidget>
+   <class>xPixmapButton</class>
+   <extends>QWidget</extends>
+   <header>xpixmapbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>xPushButton</class>
+   <extends>QPushButton</extends>
+   <header>xpushbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>xSpinBox</class>
+   <extends>QSpinBox</extends>
+   <header>xspinbox.h</header>
+   <slots>
+    <signal>clicked()</signal>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>xDoubleSpinBox</class>
+   <extends>QDoubleSpinBox</extends>
+   <header>xdoublespinbox.h</header>
+   <slots>
+    <signal>clicked()</signal>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="xPad.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButtonClose</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>638</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>576</x>
+     <y>34</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBoxSpeed</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>inputSpeed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>409</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>234</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doubleSpinBoxShift</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>inputShift()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>409</x>
+     <y>201</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioPaHor</sender>
+   <signal>released()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>setCurServo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>110</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-133</x>
+     <y>78</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioPaVer</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>setCurServo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>217</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>169</x>
+     <y>-47</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioTrv</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>setCurServo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>324</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>-76</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioRaHor</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>setCurServo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>432</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>366</x>
+     <y>-69</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioRaVer</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>setCurServo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>539</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>456</x>
+     <y>-33</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioExt</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>setCurServo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>646</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>581</x>
+     <y>-75</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnShiftMoveCcw</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>SvShiftCcw()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>180</x>
+     <y>161</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>346</x>
+     <y>485</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnShiftMoveCw</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>SvShiftCw()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>493</x>
+     <y>171</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>346</x>
+     <y>448</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnPaHorBegin</sender>
+   <signal>pressed()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>toPaHorSafeBegin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>462</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnPaHorEnd</sender>
+   <signal>pressed()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>toPaHorSafeEnd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>550</x>
+     <y>462</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnPaVerWait</sender>
+   <signal>pressed()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>toPaVerWaitPos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>139</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnPaVerCat</sender>
+   <signal>pressed()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>toPaVetCatPos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>559</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnTrvRel</sender>
+   <signal>pressed()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>toTrvRelPos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>559</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnTrvCat</sender>
+   <signal>pressed()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>toTrvCatPos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>139</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnRaVerWait</sender>
+   <signal>pressed()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>toRaVerWaitPos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>139</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnRaVerCat</sender>
+   <signal>pressed()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>toRaVerCatPos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>559</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnRaHorEnd</sender>
+   <signal>pressed()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>toRaHorSafeEnd()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>559</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnRaHorBegin</sender>
+   <signal>pressed()</signal>
+   <receiver>DialogServoControl</receiver>
+   <slot>toRaHorSafeBegin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>139</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>349</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>SvMoveCcw()</slot>
+  <slot>SvMoveCw()</slot>
+  <slot>SvShiftCcw()</slot>
+  <slot>SvShiftCw()</slot>
+  <slot>SvMoveStop()</slot>
+  <slot>inputSpeed()</slot>
+  <slot>inputShift()</slot>
+  <slot>toPaHorSafeBegin()</slot>
+  <slot>toPaHorSafeEnd()</slot>
+  <slot>toPaVerWaitPos()</slot>
+  <slot>toPaVetCatPos()</slot>
+  <slot>toTrvCatPos()</slot>
+  <slot>toTrvRelPos()</slot>
+  <slot>setCurServo()</slot>
+  <slot>toRaHorSafeBegin()</slot>
+  <slot>toRaHorSafeEnd()</slot>
+  <slot>toRaVerWaitPos()</slot>
+  <slot>toRaVerCatPos()</slot>
+ </slots>
+</ui>

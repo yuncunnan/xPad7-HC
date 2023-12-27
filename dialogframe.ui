@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogFrame</class>
+ <widget class="QDialog" name="DialogFrame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>1280</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>1280</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>1280</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>-1</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">主窗口框架</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/* Set the dialog background color */
+
+QDialog#DialogFrame
+{
+	font-size: 33px;
+	background-color: rgb(64, 64, 64);
+}
+
+/* Set the dialog title style */
+QLabel#labelMainTitle
+{
+	color: rgb(0, 0, 0);
+	background-image: url(:/img/widget/FrameTitle.png);
+}
+QPushButton#pushButtonOrigin:!pressed,
+QPushButton#pushButtonStatus:!pressed,
+QPushButton#pushButtonPgm:!pressed,
+QPushButton#pushButtonUsr:!pressed,
+QPushButton#pushButtonDateTime:!pressed,
+QPushButton#pushButtonSpd:!pressed
+{
+	color: white;
+	border-image: url(:/img/widget/TitleBtnNormal.png);
+	font-size: 28px;
+}
+QPushButton#pushButtonOrigin:pressed,
+QPushButton#pushButtonStatus:pressed,
+QPushButton#pushButtonPgm:pressed,
+QPushButton#pushButtonUsr:pressed,
+QPushButton#pushButtonDateTime:pressed,
+QPushButton#pushButtonSpd:pressed
+{
+	color: white;
+	border-image: url(:/img/widget/TitleBtnPress.png);
+
+}
+/* Set message display box style */
+/*
+QLabel#labelMessage
+{
+	color: red;
+	border-image: url(:/img/widget/MessageBox.png) 6 6 6 6;
+	border-top: 6px transprant;
+	border-right: 6px transprant;
+	border-bottom: 6px transprant;
+	border-left: 6px transprant;
+}
+*/
+/* Set the servo position display style */
+QPushButton[IsSrvCtrl = &quot;true&quot;]:!pressed:!flat
+{
+	border-image: url(:/img/widget/ServoBtnNormal.png);
+}
+QPushButton[IsSrvCtrl = &quot;true&quot;]:pressed:!flat
+{
+	border-image: url(:/img/widget/ServoBtnPress.png);
+}
+QPushButton[IsSrvCtrl = &quot;true&quot;]:!pressed:flat
+{
+	border-image: url(:/img/widget/ServoBtnNormalGreen.png);
+}
+QPushButton[IsSrvCtrl = &quot;true&quot;]:pressed:flat
+{
+	border-image: url(:/img/widget/ServoBtnPressGreen.png);
+}
+/* Set the buttom function button style */
+QToolButton#pushButtonF1,
+QToolButton#pushButtonF2,
+QToolButton#pushButtonF3,
+QToolButton#pushButtonF4,
+QToolButton#pushButtonF5,
+QToolButton#pushButtonF6
+{
+	background-color: qlineargradient(spread:pad, x1:0.00568182, y1:1, x2:0, y2:0, stop:0 rgba(4, 4, 4, 255), stop:1 rgba(61, 61, 61, 255));
+}
+
+QToolButton#pushButtonF1:!pressed ,
+QToolButton#pushButtonF2:!pressed ,
+QToolButton#pushButtonF3:!pressed ,
+QToolButton#pushButtonF4:!pressed ,
+QToolButton#pushButtonF5:!pressed ,
+QToolButton#pushButtonF6:!pressed
+{
+	color: white;
+	border-image: null;
+	border: transprant;
+	font-size: 33px;
+}
+QToolButton#pushButtonF1:pressed ,
+QToolButton#pushButtonF2:pressed ,
+QToolButton#pushButtonF3:pressed ,
+QToolButton#pushButtonF4:pressed ,
+QToolButton#pushButtonF5:pressed ,
+QToolButton#pushButtonF6:pressed
+{
+	color: rgba(61, 255, 61, 255);
+	border-image: url(:/img/widget/TabPress.png) 6 6 6 6;
+	border-top: 10px transprant;
+	border-right: 6px transprant;
+	border-bottom: 6px transprant;
+	border-left: 6px transprant;
+}
+
+
+
+
+
+</string>
+  </property>
+  <widget class="QToolButton" name="pushButtonF1">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>1200</y>
+     <width>134</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>134</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>134</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>运行</string>
+   </property>
+   <property name="icon">
+    <iconset resource="xPad.qrc">
+     <normaloff>:/img/48X48/BtnAuto.png</normaloff>:/img/48X48/BtnAuto.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="pushButtonF2">
+   <property name="geometry">
+    <rect>
+     <x>134</x>
+     <y>1200</y>
+     <width>133</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>133</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>133</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>端口</string>
+   </property>
+   <property name="icon">
+    <iconset resource="xPad.qrc">
+     <normaloff>:/img/48X48/BtnManual.png</normaloff>:/img/48X48/BtnManual.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="pushButtonF3">
+   <property name="geometry">
+    <rect>
+     <x>267</x>
+     <y>1200</y>
+     <width>133</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>133</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>133</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>功能</string>
+   </property>
+   <property name="icon">
+    <iconset resource="xPad.qrc">
+     <normaloff>:/img/48X48/BtnFun.png</normaloff>:/img/48X48/BtnFun.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="pushButtonF5">
+   <property name="geometry">
+    <rect>
+     <x>533</x>
+     <y>1200</y>
+     <width>133</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>133</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>133</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">padding: 2px;</string>
+   </property>
+   <property name="text">
+    <string>报警</string>
+   </property>
+   <property name="icon">
+    <iconset resource="xPad.qrc">
+     <normaloff>:/img/48X48/BtnAlmF.png</normaloff>:/img/48X48/BtnAlmF.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="pushButtonF4">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>1200</y>
+     <width>133</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>133</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>133</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>教导</string>
+   </property>
+   <property name="icon">
+    <iconset resource="xPad.qrc">
+     <normaloff>:/img/48X48/BtnTeach.png</normaloff>:/img/48X48/BtnTeach.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelWarning">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>800</width>
+     <height>981</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>800</width>
+     <height>981</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>800</width>
+     <height>981</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+	background-color: rgba(0, 0, 0, 180);
+	color: white;
+}
+</string>
+   </property>
+   <property name="text">
+    <string notr="true"/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <property name="margin">
+    <number>80</number>
+   </property>
+  </widget>
+  <widget class="xPushButton" name="svPhorPos">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>1060</y>
+     <width>267</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>267</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 28px;</string>
+   </property>
+   <property name="text">
+    <string notr="true">正引拔 0000.00</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <property name="IsSrvCtrl" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="xPushButton" name="svPverPos">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>268</x>
+     <y>1060</y>
+     <width>267</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>267</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 28px;</string>
+   </property>
+   <property name="text">
+    <string notr="true">正上下 0000.00</string>
+   </property>
+   <property name="flat">
+    <bool>false</bool>
+   </property>
+   <property name="IsSrvCtrl" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="xPushButton" name="svTravPos">
+   <property name="geometry">
+    <rect>
+     <x>531</x>
+     <y>1060</y>
+     <width>267</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>267</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 28px;</string>
+   </property>
+   <property name="text">
+    <string notr="true">横行 0000.00</string>
+   </property>
+   <property name="IsSrvCtrl" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="xPushButton" name="svRhorPos">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>1130</y>
+     <width>267</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>267</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 28px;</string>
+   </property>
+   <property name="text">
+    <string notr="true">副引拔 0000.00</string>
+   </property>
+   <property name="IsSrvCtrl" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="xPushButton" name="svRverPos">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>268</x>
+     <y>1130</y>
+     <width>267</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>267</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 28px;</string>
+   </property>
+   <property name="text">
+    <string notr="true">副上下 0000.00</string>
+   </property>
+   <property name="IsSrvCtrl" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="xPushButton" name="svExtePos">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>531</x>
+     <y>1130</y>
+     <width>267</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>267</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>70</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 28px;</string>
+   </property>
+   <property name="text">
+    <string notr="true">扩展 0000.00</string>
+   </property>
+   <property name="IsSrvCtrl" stdset="0">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="pushButtonF6">
+   <property name="geometry">
+    <rect>
+     <x>666</x>
+     <y>1200</y>
+     <width>133</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>133</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>133</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="LinearGradientPattern">
+        <gradient startx="0.005681820000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+         <gradientstop position="0.000000000000000">
+          <color alpha="255">
+           <red>4</red>
+           <green>4</green>
+           <blue>4</blue>
+          </color>
+         </gradientstop>
+         <gradientstop position="1.000000000000000">
+          <color alpha="255">
+           <red>61</red>
+           <green>61</green>
+           <blue>61</blue>
+          </color>
+         </gradientstop>
+        </gradient>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="LinearGradientPattern">
+        <gradient startx="0.005681820000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+         <gradientstop position="0.000000000000000">
+          <color alpha="255">
+           <red>4</red>
+           <green>4</green>
+           <blue>4</blue>
+          </color>
+         </gradientstop>
+         <gradientstop position="1.000000000000000">
+          <color alpha="255">
+           <red>61</red>
+           <green>61</green>
+           <blue>61</blue>
+          </color>
+         </gradientstop>
+        </gradient>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="LinearGradientPattern">
+        <gradient startx="0.005681820000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+         <gradientstop position="0.000000000000000">
+          <color alpha="255">
+           <red>4</red>
+           <green>4</green>
+           <blue>4</blue>
+          </color>
+         </gradientstop>
+         <gradientstop position="1.000000000000000">
+          <color alpha="255">
+           <red>61</red>
+           <green>61</green>
+           <blue>61</blue>
+          </color>
+         </gradientstop>
+        </gradient>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="LinearGradientPattern">
+        <gradient startx="0.005681820000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+         <gradientstop position="0.000000000000000">
+          <color alpha="255">
+           <red>4</red>
+           <green>4</green>
+           <blue>4</blue>
+          </color>
+         </gradientstop>
+         <gradientstop position="1.000000000000000">
+          <color alpha="255">
+           <red>61</red>
+           <green>61</green>
+           <blue>61</blue>
+          </color>
+         </gradientstop>
+        </gradient>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="LinearGradientPattern">
+        <gradient startx="0.005681820000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+         <gradientstop position="0.000000000000000">
+          <color alpha="255">
+           <red>4</red>
+           <green>4</green>
+           <blue>4</blue>
+          </color>
+         </gradientstop>
+         <gradientstop position="1.000000000000000">
+          <color alpha="255">
+           <red>61</red>
+           <green>61</green>
+           <blue>61</blue>
+          </color>
+         </gradientstop>
+        </gradient>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="LinearGradientPattern">
+        <gradient startx="0.005681820000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+         <gradientstop position="0.000000000000000">
+          <color alpha="255">
+           <red>4</red>
+           <green>4</green>
+           <blue>4</blue>
+          </color>
+         </gradientstop>
+         <gradientstop position="1.000000000000000">
+          <color alpha="255">
+           <red>61</red>
+           <green>61</green>
+           <blue>61</blue>
+          </color>
+         </gradientstop>
+        </gradient>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Button">
+       <brush brushstyle="LinearGradientPattern">
+        <gradient startx="0.005681820000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+         <gradientstop position="0.000000000000000">
+          <color alpha="255">
+           <red>4</red>
+           <green>4</green>
+           <blue>4</blue>
+          </color>
+         </gradientstop>
+         <gradientstop position="1.000000000000000">
+          <color alpha="255">
+           <red>61</red>
+           <green>61</green>
+           <blue>61</blue>
+          </color>
+         </gradientstop>
+        </gradient>
+       </brush>
+      </colorrole>
+      <colorrole role="Text">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="ButtonText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Base">
+       <brush brushstyle="LinearGradientPattern">
+        <gradient startx="0.005681820000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+         <gradientstop position="0.000000000000000">
+          <color alpha="255">
+           <red>4</red>
+           <green>4</green>
+           <blue>4</blue>
+          </color>
+         </gradientstop>
+         <gradientstop position="1.000000000000000">
+          <color alpha="255">
+           <red>61</red>
+           <green>61</green>
+           <blue>61</blue>
+          </color>
+         </gradientstop>
+        </gradient>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="LinearGradientPattern">
+        <gradient startx="0.005681820000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+         <gradientstop position="0.000000000000000">
+          <color alpha="255">
+           <red>4</red>
+           <green>4</green>
+           <blue>4</blue>
+          </color>
+         </gradientstop>
+         <gradientstop position="1.000000000000000">
+          <color alpha="255">
+           <red>61</red>
+           <green>61</green>
+           <blue>61</blue>
+          </color>
+         </gradientstop>
+        </gradient>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>主页</string>
+   </property>
+   <property name="icon">
+    <iconset resource="xPad.qrc">
+     <normaloff>:/img/48X48/BtnHome.png</normaloff>:/img/48X48/BtnHome.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+  </widget>
+  <widget class="xPushButton" name="pushButtonUsr">
+   <property name="geometry">
+    <rect>
+     <x>428</x>
+     <y>0</y>
+     <width>145</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>145</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>130</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 28px;</string>
+   </property>
+   <property name="text">
+    <string notr="true">高级管理员</string>
+   </property>
+  </widget>
+  <widget class="xPushButton" name="pushButtonDateTime">
+   <property name="geometry">
+    <rect>
+     <x>572</x>
+     <y>0</y>
+     <width>159</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>159</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>140</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string notr="true">2012-01-01
+00:00:00</string>
+   </property>
+  </widget>
+  <widget class="xPushButton" name="pushButtonSpd">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>0</y>
+     <width>70</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>70</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>70</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string notr="true"/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="xPushButton" name="pushButtonOrigin">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>60</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>60</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>60</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string notr="true"/>
+   </property>
+   <property name="icon">
+    <iconset resource="xPad.qrc">
+     <normaloff>:/img/32X32/OriginNoRef.png</normaloff>:/img/32X32/OriginNoRef.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButtonStatus">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>0</y>
+     <width>141</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>60</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>500</width>
+     <height>1000</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string notr="true"/>
+   </property>
+   <property name="icon">
+    <iconset resource="xPad.qrc">
+     <normaloff>:/img/32X32/Manual.png</normaloff>:/img/32X32/Manual.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>48</width>
+     <height>48</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="xPushButton" name="pushButtonPgm">
+   <property name="geometry">
+    <rect>
+     <x>199</x>
+     <y>0</y>
+     <width>230</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>340</width>
+     <height>80</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>-1</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>当前程序：</string>
+   </property>
+  </widget>
+  <zorder>pushButtonUsr</zorder>
+  <zorder>pushButtonDateTime</zorder>
+  <zorder>pushButtonSpd</zorder>
+  <zorder>pushButtonOrigin</zorder>
+  <zorder>pushButtonStatus</zorder>
+  <zorder>pushButtonPgm</zorder>
+  <zorder>pushButtonF1</zorder>
+  <zorder>pushButtonF2</zorder>
+  <zorder>pushButtonF3</zorder>
+  <zorder>pushButtonF5</zorder>
+  <zorder>pushButtonF4</zorder>
+  <zorder>labelWarning</zorder>
+  <zorder>svPhorPos</zorder>
+  <zorder>svPverPos</zorder>
+  <zorder>svTravPos</zorder>
+  <zorder>svRhorPos</zorder>
+  <zorder>svRverPos</zorder>
+  <zorder>svExtePos</zorder>
+  <zorder>pushButtonF6</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>xPushButton</class>
+   <extends>QPushButton</extends>
+   <header>xpushbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="xPad.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButtonDateTime</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogFrame</receiver>
+   <slot>SetupDateTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>695</x>
+     <y>34</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonOrigin</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogFrame</receiver>
+   <slot>ReturnToOrigin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>30</x>
+     <y>34</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>49</x>
+     <y>135</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonUsr</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogFrame</receiver>
+   <slot>UserManager()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>563</x>
+     <y>34</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>564</x>
+     <y>-44</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonPgm</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogFrame</receiver>
+   <slot>programFiles()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>194</x>
+     <y>31</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>196</x>
+     <y>-32</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonSpd</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogFrame</receiver>
+   <slot>SetupSpeed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>762</x>
+     <y>14</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>848</x>
+     <y>21</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonF1</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogFrame</receiver>
+   <slot>BtnAutoClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>66</x>
+     <y>1234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>639</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonF2</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogFrame</receiver>
+   <slot>BtnManualClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>200</x>
+     <y>1234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>639</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonF3</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogFrame</receiver>
+   <slot>BtnMenuClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>333</x>
+     <y>1234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>639</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonF4</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogFrame</receiver>
+   <slot>BtnTeachClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>466</x>
+     <y>1234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>639</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonF5</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogFrame</receiver>
+   <slot>BtnAlmClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>599</x>
+     <y>1234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>639</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonF6</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogFrame</receiver>
+   <slot>BtnEscClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>732</x>
+     <y>1234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>639</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonStatus</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogFrame</receiver>
+   <slot>btnStatusClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>130</x>
+     <y>39</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>639</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>BtnMenuClick()</slot>
+  <slot>BtnEscClick()</slot>
+  <slot>BtnAlmClick()</slot>
+  <slot>BtnManualClick()</slot>
+  <slot>BtnAutoClick()</slot>
+  <slot>SetupDateTime()</slot>
+  <slot>BtnServoClick()</slot>
+  <slot>SvPhorCtrl()</slot>
+  <slot>SvPverCtrl()</slot>
+  <slot>SvTravCtrl()</slot>
+  <slot>ReturnToOrigin()</slot>
+  <slot>UserManager()</slot>
+  <slot>programFiles()</slot>
+  <slot>BtnTeachClick()</slot>
+  <slot>test()</slot>
+  <slot>SetupSpeed()</slot>
+  <slot>btnStatusClick()</slot>
+ </slots>
+</ui>

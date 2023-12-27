@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Formmenu</class>
+ <widget class="QWidget" name="Formmenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>490</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>400</width>
+    <height>490</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>490</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">功能画面</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayoutForm">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frameMenu">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/* Set the toolbutton style */
+
+QToolButton
+{
+/*	color: white;*/
+	
+	background-color: rgb(220, 220, 220);
+}
+QToolButton:!pressed
+{
+
+/*	border-image: url(:/img/widget/ServoBtnNormal.png) 12 12 12 12;*/
+	border-top: 12px transparent;
+	border-right: 12px transparent;
+	border-bottom: 12px transparent;
+	border-left: 12px transparent;
+}
+
+
+QToolButton:pressed
+{
+/*	border-image: url(:/img/widget/ServoBtnNormal.png) 12 12 12 12;*/
+	border-top: 12px transparent;
+	border-right: 12px transparent;
+	border-bottom: 12px transparent;
+	border-left: 12px transparent;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="IsMainArea" stdset="0">
+      <bool>true</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <property name="spacing">
+       <number>5</number>
+      </property>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="toolButtonVarInit">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>195</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>195</width>
+          <height>98</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>程序初始化</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../xPad.qrc">
+          <normaloff>:/img/64X64/ElecGear.png</normaloff>:/img/64X64/ElecGear.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="toolButtonUiSetup">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>195</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>195</width>
+          <height>98</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>界面设置</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../xPad.qrc">
+          <normaloff>:/img/64X64/UiSetup.png</normaloff>:/img/64X64/UiSetup.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QPushButton" name="toolButtonInformation">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>195</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>195</width>
+          <height>98</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>系统信息</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../xPad.qrc">
+          <normaloff>:/img/64X64/Information.png</normaloff>:/img/64X64/Information.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="toolButtonSyslog">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>195</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>195</width>
+          <height>98</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>系统日志</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../xPad.qrc">
+          <normaloff>:/img/64X64/LogViewer.png</normaloff>:/img/64X64/LogViewer.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="toolButtonIO">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>195</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>195</width>
+          <height>98</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>端口设置</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../xPad.qrc">
+          <normaloff>:/img/64X64/IOPort.png</normaloff>:/img/64X64/IOPort.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="toolButtonSystem">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>195</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>195</width>
+          <height>98</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>系统设置</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../xPad.qrc">
+          <normaloff>:/img/64X64/System.png</normaloff>:/img/64X64/System.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="toolButtonServo">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>195</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>195</width>
+          <height>98</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>伺服设置</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../xPad.qrc">
+          <normaloff>:/img/64X64/Servo.png</normaloff>:/img/64X64/Servo.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="toolButtonManufactory">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>195</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>195</width>
+          <height>98</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>软件升级</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../xPad.qrc">
+          <normaloff>:/img/64X64/SoftwareUpdate.png</normaloff>:/img/64X64/SoftwareUpdate.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QPushButton" name="toolButtonOption">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>195</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>195</width>
+          <height>98</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string> 程序配置</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../xPad.qrc">
+          <normaloff>:/img/64X64/Option.png</normaloff>:/img/64X64/Option.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="toolButtonAdj">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>195</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>195</width>
+          <height>98</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>18</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>调位操作</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../xPad.qrc">
+          <normaloff>:/img/64X64/Adjustment.png</normaloff>:/img/64X64/Adjustment.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>64</width>
+          <height>64</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../xPad.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>toolButtonVarInit</sender>
+   <signal>clicked()</signal>
+   <receiver>Formmenu</receiver>
+   <slot>BtnVarInit()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>600</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>402</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButtonUiSetup</sender>
+   <signal>clicked()</signal>
+   <receiver>Formmenu</receiver>
+   <slot>BtnUiSetup()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>600</x>
+     <y>296</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>402</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButtonSyslog</sender>
+   <signal>clicked()</signal>
+   <receiver>Formmenu</receiver>
+   <slot>BtnSystemLog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>600</x>
+     <y>490</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>402</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButtonInformation</sender>
+   <signal>clicked()</signal>
+   <receiver>Formmenu</receiver>
+   <slot>BtnInformation()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>600</x>
+     <y>683</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>402</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButtonSystem</sender>
+   <signal>clicked()</signal>
+   <receiver>Formmenu</receiver>
+   <slot>BtnSystemClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>204</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>402</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButtonServo</sender>
+   <signal>clicked()</signal>
+   <receiver>Formmenu</receiver>
+   <slot>BtnServoClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>204</x>
+     <y>296</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>402</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButtonManufactory</sender>
+   <signal>clicked()</signal>
+   <receiver>Formmenu</receiver>
+   <slot>BtnManufacturer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>204</x>
+     <y>490</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>402</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButtonAdj</sender>
+   <signal>clicked()</signal>
+   <receiver>Formmenu</receiver>
+   <slot>BtnAdjustClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>204</x>
+     <y>683</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>402</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButtonOption</sender>
+   <signal>clicked()</signal>
+   <receiver>Formmenu</receiver>
+   <slot>BtnOption()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>204</x>
+     <y>877</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>402</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButtonIO</sender>
+   <signal>clicked()</signal>
+   <receiver>Formmenu</receiver>
+   <slot>BtnIOSetup()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>598</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>BtnServoClick()</slot>
+  <slot>BtnSystemClick()</slot>
+  <slot>BtnAdjustClick()</slot>
+  <slot>BtnUiSetup()</slot>
+  <slot>BtnInformation()</slot>
+  <slot>BtnManufacturer()</slot>
+  <slot>BtnSystemLog()</slot>
+  <slot>BtnOption()</slot>
+  <slot>BtnVarInit()</slot>
+  <slot>BtnIOSetup()</slot>
+ </slots>
+</ui>

@@ -1,0 +1,3344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormBtnQuick</class>
+ <widget class="QWidget" name="FormBtnQuick">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>624</width>
+    <height>270</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>624</width>
+    <height>270</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>624</width>
+    <height>270</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>-1</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">伺服定位</string>
+  </property>
+  <property name="toolTip">
+   <string notr="true"/>
+  </property>
+  <property name="statusTip">
+   <string notr="true"/>
+  </property>
+  <property name="whatsThis">
+   <string notr="true"/>
+  </property>
+  <property name="accessibleName">
+   <string notr="true"/>
+  </property>
+  <property name="accessibleDescription">
+   <string notr="true"/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 28px &quot;微软雅黑&quot;;</string>
+  </property>
+  <property name="windowFilePath">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frameBtnQuick">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>624</width>
+       <height>270</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="IsMainArea" stdset="0">
+      <bool>true</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QStackedWidget" name="stackedWidget">
+        <property name="minimumSize">
+         <size>
+          <width>624</width>
+          <height>270</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>624</width>
+          <height>270</height>
+         </size>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="PageAxis">
+         <property name="minimumSize">
+          <size>
+           <width>624</width>
+           <height>270</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>624</width>
+           <height>270</height>
+          </size>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="0" column="1">
+           <widget class="QLabel" name="labelPage">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>1/6</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLabel" name="labelAxis">
+              <property name="minimumSize">
+               <size>
+                <width>110</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>选择手臂：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="checkBoxPA">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>130</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>正臂</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="checkBoxRA">
+              <property name="minimumSize">
+               <size>
+                <width>130</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>181</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>副臂</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLabel" name="labelFetchPro">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>取成品治具：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="cBoxFetchPro">
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <item>
+               <property name="text">
+                <string>吸具1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>吸具2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>抱具1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>抱具2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>抱具3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>抱具4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y09</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y12</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y13</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y14</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y15</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y16</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="checkBoxFetchPro">
+              <property name="minimumSize">
+               <size>
+                <width>150</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>181</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>检测</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="3" column="0" colspan="2">
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="labelFetchRun">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>取水口治具：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="cBoxFetchRun">
+              <property name="minimumSize">
+               <size>
+                <width>250</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <item>
+               <property name="text">
+                <string>吸具1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>吸具2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>抱具1</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>抱具2</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>抱具3</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>抱具4</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y09</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y10</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y11</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y12</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y13</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y14</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y15</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>EM1-Y16</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="checkBoxFetchRun">
+              <property name="minimumSize">
+               <size>
+                <width>150</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>181</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>检测</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="4" column="0">
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="PageWait">
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelWaitRotate">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>倒角状态：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QCheckBox" name="checkBoxWaitRotate">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>水平</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="labelWaitTrv">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>横行轴：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="xLineEdit" name="BoxWaitTrv">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelWaitPHor">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>正引拔轴：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="xLineEdit" name="BoxWaitPHor">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="labelWaitPVer">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>正上下轴：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="xLineEdit" name="BoxWaitPVer">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelWaitRHor">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>副引拔轴：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="xLineEdit" name="BoxWaitRHor">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelWaitRVer">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>副上下轴：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="xLineEdit" name="BoxWaitRVer">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0" colspan="4">
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <item>
+             <widget class="QLabel" name="labelWaitRarm">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>气动副臂：</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="labelWaitRarmState">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>后退</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="xIndicatorButton" name="btnRet">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>后退</string>
+              </property>
+              <property name="iconOn" stdset="0">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+              </property>
+              <property name="iconOff" stdset="0">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+              </property>
+              <property name="contentAlignLeft" stdset="0">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="xIndicatorButton" name="btnAdv">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>前进</string>
+              </property>
+              <property name="iconOn" stdset="0">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+              </property>
+              <property name="iconOff" stdset="0">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+              </property>
+              <property name="contentAlignLeft" stdset="0">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="0" column="0" colspan="4">
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QPushButton" name="BtnWaitSync">
+              <property name="minimumSize">
+               <size>
+                <width>80</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/32X32/Sync.png</normaloff>:/img/32X32/Sync.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>48</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="labelWait">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>       待机参数设置</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLabel" name="labelPage_2">
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>2/6</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="PageFetch">
+         <property name="minimumSize">
+          <size>
+           <width>624</width>
+           <height>270</height>
+          </size>
+         </property>
+         <widget class="QGroupBox" name="groupBoxProduct">
+          <property name="geometry">
+           <rect>
+            <x>9</x>
+            <y>60</y>
+            <width>301</width>
+            <height>201</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="title">
+           <string>成品位置设置</string>
+          </property>
+          <widget class="QLabel" name="labelFetchPHor">
+           <property name="geometry">
+            <rect>
+             <x>1</x>
+             <y>55</y>
+             <width>135</width>
+             <height>45</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>45</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>正引拔轴：</string>
+           </property>
+          </widget>
+          <widget class="xLineEdit" name="BoxFetchPHor">
+           <property name="geometry">
+            <rect>
+             <x>142</x>
+             <y>55</y>
+             <width>150</width>
+             <height>45</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>45</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>150</width>
+             <height>45</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="xLineEdit" name="BoxFetchPVer">
+           <property name="geometry">
+            <rect>
+             <x>142</x>
+             <y>129</y>
+             <width>150</width>
+             <height>45</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>45</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>150</width>
+             <height>45</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+           </property>
+           <property name="readOnly">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QLabel" name="labelFetchPVer">
+           <property name="geometry">
+            <rect>
+             <x>1</x>
+             <y>129</y>
+             <width>135</width>
+             <height>45</height>
+            </rect>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>19</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>45</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>正上下轴：</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QStackedWidget" name="stackedWidget_fetch">
+          <property name="geometry">
+           <rect>
+            <x>310</x>
+            <y>60</y>
+            <width>311</width>
+            <height>211</height>
+           </rect>
+          </property>
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="page">
+           <widget class="QGroupBox" name="groupBoxWaste">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>20</y>
+              <width>310</width>
+              <height>138</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="title">
+             <string>水口位置设置</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_6">
+             <property name="margin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QLabel" name="labelFetchRHor">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>20</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <pointsize>-1</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>副引拔轴：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="xLineEdit" name="BoxFetchRHor">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>150</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>150</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <pointsize>-1</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="labelFetchRVer">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>20</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <pointsize>-1</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>副上下轴：</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="xLineEdit" name="BoxFetchRVer">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>150</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>150</width>
+                 <height>45</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <pointsize>-1</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_2">
+           <layout class="QGridLayout" name="gridLayout_5">
+            <item row="0" column="0">
+             <widget class="QLabel" name="labelFetchRarm">
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>气动副臂:</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="labelFetchRarmState">
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>前进</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="xIndicatorButton" name="btnAdv_2">
+              <property name="minimumSize">
+               <size>
+                <width>80</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>前进</string>
+              </property>
+              <property name="iconOn" stdset="0">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+              </property>
+              <property name="iconOff" stdset="0">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+              </property>
+              <property name="contentAlignLeft" stdset="0">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="xIndicatorButton" name="btnRet_2">
+              <property name="minimumSize">
+               <size>
+                <width>80</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>后退</string>
+              </property>
+              <property name="iconOn" stdset="0">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+              </property>
+              <property name="iconOff" stdset="0">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+              </property>
+              <property name="contentAlignLeft" stdset="0">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="xIndicatorButton" name="btnAsc">
+              <property name="minimumSize">
+               <size>
+                <width>80</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>上升</string>
+              </property>
+              <property name="iconOn" stdset="0">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+              </property>
+              <property name="iconOff" stdset="0">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+              </property>
+              <property name="contentAlignLeft" stdset="0">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="xIndicatorButton" name="btnDec">
+              <property name="minimumSize">
+               <size>
+                <width>80</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>下降</string>
+              </property>
+              <property name="iconOn" stdset="0">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+              </property>
+              <property name="iconOff" stdset="0">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+              </property>
+              <property name="contentAlignLeft" stdset="0">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QLabel" name="labelPage_3">
+          <property name="geometry">
+           <rect>
+            <x>571</x>
+            <y>10</y>
+            <width>44</width>
+            <height>36</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>3/6</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+          </property>
+         </widget>
+         <widget class="QWidget" name="layoutWidget">
+          <property name="geometry">
+           <rect>
+            <x>6</x>
+            <y>10</y>
+            <width>611</width>
+            <height>47</height>
+           </rect>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QPushButton" name="BtnFetchSync">
+             <property name="minimumSize">
+              <size>
+               <width>80</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>150</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="xPad.qrc">
+               <normaloff>:/img/32X32/Sync.png</normaloff>:/img/32X32/Sync.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>48</width>
+               <height>48</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="labelFetch">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>微软雅黑</family>
+               <pointsize>-1</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>取物参数设置</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <spacer name="horizontalSpacer_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="PageRotate">
+         <layout class="QGridLayout" name="gridLayout_9">
+          <property name="margin">
+           <number>2</number>
+          </property>
+          <property name="spacing">
+           <number>2</number>
+          </property>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_2">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>4/6</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="4" column="0">
+           <spacer name="verticalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBoxMatrix">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>使用矩阵</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBoxWasteRotateFirst">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>先放水口</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="PageReleasePro">
+         <layout class="QGridLayout" name="gridLayout_10">
+          <item row="0" column="0" colspan="4">
+           <layout class="QGridLayout" name="gridLayout_7">
+            <item row="0" column="0">
+             <widget class="QPushButton" name="BtnProductSync">
+              <property name="minimumSize">
+               <size>
+                <width>80</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/32X32/Sync.png</normaloff>:/img/32X32/Sync.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>48</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="labelProduct">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>       放成品参数设置</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <spacer name="horizontalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="label_3">
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>5/6</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelProductRotate">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>倒角状态：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QCheckBox" name="checkBoxProductRotate">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>水平</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelProductTrv">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>横行轴：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="xLineEdit" name="BoxProductTrv">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelProductPHor">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>正引拔轴：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="xLineEdit" name="BoxProductPHor">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelProductPVer">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>正上下轴：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="xLineEdit" name="BoxProductPVer">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0" colspan="4">
+           <spacer name="verticalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>609</width>
+              <height>109</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </widget>
+        <widget class="QWidget" name="PageReleaseRun">
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="0" column="0" colspan="4">
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QPushButton" name="BtnWasteSync">
+              <property name="minimumSize">
+               <size>
+                <width>80</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>150</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="xPad.qrc">
+                <normaloff>:/img/32X32/Sync.png</normaloff>:/img/32X32/Sync.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>48</width>
+                <height>48</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="labelWaste">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>45</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>       放水口参数设置</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_6">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>6/6</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="labelWasteRotate">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>倒角状态：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QCheckBox" name="checkBoxWasteRotate">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>水平</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="labelWasteTrv">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>横行轴：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="xLineEdit" name="BoxWasteTrv">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="labelWasteRHor">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>副引拔轴：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="xLineEdit" name="BoxWasteRHor">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="labelWasteRVer">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>副上下轴：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="xLineEdit" name="BoxWasteRVer">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>45</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="labelWaste_2">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>气动副臂：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLabel" name="labelWasteState">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>下降</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="xIndicatorButton" name="btnAsc_2">
+            <property name="minimumSize">
+             <size>
+              <width>80</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>上升</string>
+            </property>
+            <property name="iconOn" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+            </property>
+            <property name="iconOff" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+            </property>
+            <property name="contentAlignLeft" stdset="0">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="xIndicatorButton" name="btnDec_2">
+            <property name="minimumSize">
+             <size>
+              <width>80</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>下降</string>
+            </property>
+            <property name="iconOn" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+            </property>
+            <property name="iconOff" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+            </property>
+            <property name="contentAlignLeft" stdset="0">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>xLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>xlineedit.h</header>
+   <slots>
+    <signal>clicked()</signal>
+    <slot>inputIP()</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>xIndicatorButton</class>
+   <extends>QPushButton</extends>
+   <header>xindicatorbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>checkBoxPA</tabstop>
+  <tabstop>checkBoxRA</tabstop>
+  <tabstop>cBoxFetchPro</tabstop>
+  <tabstop>checkBoxFetchPro</tabstop>
+  <tabstop>cBoxFetchRun</tabstop>
+  <tabstop>checkBoxFetchRun</tabstop>
+  <tabstop>checkBoxWaitRotate</tabstop>
+  <tabstop>BoxWaitTrv</tabstop>
+  <tabstop>BoxWaitRHor</tabstop>
+  <tabstop>BoxWaitPHor</tabstop>
+  <tabstop>BoxWaitPVer</tabstop>
+  <tabstop>BtnWaitSync</tabstop>
+  <tabstop>BoxWaitRVer</tabstop>
+  <tabstop>BtnFetchSync</tabstop>
+  <tabstop>BoxFetchPHor</tabstop>
+  <tabstop>BoxFetchPVer</tabstop>
+  <tabstop>BoxFetchRHor</tabstop>
+  <tabstop>BoxFetchRVer</tabstop>
+  <tabstop>BtnProductSync</tabstop>
+  <tabstop>checkBoxProductRotate</tabstop>
+  <tabstop>BoxProductTrv</tabstop>
+  <tabstop>BoxProductPHor</tabstop>
+  <tabstop>BoxProductPVer</tabstop>
+  <tabstop>BtnWasteSync</tabstop>
+  <tabstop>checkBoxWasteRotate</tabstop>
+  <tabstop>BoxWasteTrv</tabstop>
+  <tabstop>BoxWasteRHor</tabstop>
+  <tabstop>BoxWasteRVer</tabstop>
+ </tabstops>
+ <resources>
+  <include location="xPad.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>BtnFetchSync</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>syncFetchPos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>81</x>
+     <y>26</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnProductSync</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>syncProductPos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>81</x>
+     <y>26</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnWaitSync</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>syncWaitPos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>81</x>
+     <y>26</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnWasteSync</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>syncWastePos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>81</x>
+     <y>26</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxWaitPHor</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputWaitPaHor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxWaitPVer</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputWaitPaVer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>542</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxWaitRHor</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputWaitRaHor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>211</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxWaitRVer</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputWaitRaVer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>542</x>
+     <y>211</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxWaitTrv</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputWaitTrv()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxFetchPHor</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputFetchPaHor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>234</x>
+     <y>151</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxFetchPVer</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputFetchPaVer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>234</x>
+     <y>197</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxFetchRHor</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputFetchRaHor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>541</x>
+     <y>151</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxFetchRVer</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputFetchRaVer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>541</x>
+     <y>197</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxProductPHor</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputProductPaHor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxProductPVer</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputProductPaVer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>542</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxProductTrv</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputProductTrv()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxWasteRHor</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputWasteRaHor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxWasteRVer</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputWasteRaVer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>542</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxWasteTrv</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>inputWasteTrv()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>235</x>
+     <y>119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>158</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBoxPA</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>checkPAStateChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>55</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBoxRA</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>checkRAStateChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>55</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBoxMatrix</sender>
+   <signal>stateChanged(int)</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>checkMatrixChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>158</x>
+     <y>79</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnRet</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>btnAdvClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>237</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnAdv</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>btnAdvClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>547</x>
+     <y>237</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnAdv_2</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>btnAdvClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>410</x>
+     <y>84</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnRet_2</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>btnAdvClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>237</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnAsc</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>btnAscClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>84</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnAsc_2</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>btnAscClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>395</x>
+     <y>237</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnDec</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>btnAscClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>582</x>
+     <y>84</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnDec_2</sender>
+   <signal>clicked()</signal>
+   <receiver>FormBtnQuick</receiver>
+   <slot>btnAscClick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>547</x>
+     <y>237</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>clickPagePrev()</slot>
+  <slot>clickPageNext()</slot>
+  <slot>syncWaitPos()</slot>
+  <slot>syncFetchPos()</slot>
+  <slot>syncProductPos()</slot>
+  <slot>syncWastePos()</slot>
+  <slot>inputWaitPaHor()</slot>
+  <slot>inputWaitPaVer()</slot>
+  <slot>inputWaitTrv()</slot>
+  <slot>inputWaitRaHor()</slot>
+  <slot>inputWaitRaVer()</slot>
+  <slot>inputFetchPaHor()</slot>
+  <slot>inputFetchPaVer()</slot>
+  <slot>inputFetchTrv()</slot>
+  <slot>inputFetchRaHor()</slot>
+  <slot>inputFetchRaVer()</slot>
+  <slot>inputProductPaHor()</slot>
+  <slot>inputProductPaVer()</slot>
+  <slot>inputProductTrv()</slot>
+  <slot>inputWasteTrv()</slot>
+  <slot>inputWasteRaHor()</slot>
+  <slot>inputWasteRaVer()</slot>
+  <slot>checkPAStateChanged(int)</slot>
+  <slot>checkRAStateChanged(int)</slot>
+  <slot>checkMatrixChanged(int)</slot>
+  <slot>btnAdvClick()</slot>
+  <slot>checkBoxRunnerUseStateChanged(int)</slot>
+  <slot>btnAscClick()</slot>
+ </slots>
+</ui>

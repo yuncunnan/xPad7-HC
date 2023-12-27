@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormOption</class>
+ <widget class="QWidget" name="FormOption">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>981</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>981</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>981</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>-1</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">界面设置画面</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 28px &quot;微软雅黑&quot;;</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frameoption">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="IsMainArea" stdset="0">
+      <bool>true</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item row="0" column="0" colspan="2">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="xPixmapButton" name="BtnOption00">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn0</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption01">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn1</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption02">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn2</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="xPixmapButton" name="BtnOption03">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn3</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption04">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Bt4</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption05">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn5</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="0" colspan="2">
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="xPixmapButton" name="BtnOption09">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn9</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption10">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn10</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption11">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn11</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="4" column="0" colspan="2">
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="xPixmapButton" name="BtnOption12">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn12</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption13">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn13</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption14">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn14</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="xPixmapButton" name="BtnOption06">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn6</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption07">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn7</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption08">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn8</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="7" column="0" colspan="2">
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <widget class="xPixmapButton" name="BtnOption21">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn21</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption22">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn22</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="6" column="0" colspan="2">
+       <layout class="QHBoxLayout" name="horizontalLayout_8">
+        <item>
+         <widget class="xPixmapButton" name="BtnOption18">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn18</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption19">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn19</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption20">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn20</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="5" column="0" colspan="2">
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="xPixmapButton" name="BtnOption15">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn15</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption16">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn16</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnOption17">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string notr="true">Btn17</string>
+          </property>
+          <property name="imageNormal">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap>:/img/widget/Null.png</pixmap>
+          </property>
+          <property name="indicator">
+           <bool>true</bool>
+          </property>
+          <property name="stateOn">
+           <bool>false</bool>
+          </property>
+          <property name="iconIndicator">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/SwitchOff.png</normaloff>
+            <normalon>:/img/widget/SwitchOn.png</normalon>:/img/widget/SwitchOff.png</iconset>
+          </property>
+          <property name="iconIndicatorSize">
+           <size>
+            <width>75</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="9" column="0">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="9" column="1">
+       <widget class="xPushButton" name="pushButtonOK">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>保存</string>
+        </property>
+        <property name="icon">
+         <iconset resource="xPad.qrc">
+          <normaloff>:/img/32X32/Save.png</normaloff>:/img/32X32/Save.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+        <property name="IsBoxBtn" stdset="0">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0" colspan="2">
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>xPixmapButton</class>
+   <extends>QWidget</extends>
+   <header>xpixmapbutton.h</header>
+   <slots>
+    <signal>clicked()</signal>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>xPushButton</class>
+   <extends>QPushButton</extends>
+   <header>xpushbutton.h</header>
+   <slots>
+    <slot>KeyADDClick()</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="xPad.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>inputScrSaver()</slot>
+  <slot>inputLight()</slot>
+  <slot>inputBellFreq()</slot>
+  <slot>acceptSettings()</slot>
+  <slot>lightChange(int)</slot>
+  <slot>setBellBox()</slot>
+  <slot>reCalibrate()</slot>
+  <slot>vibrationClick(bool)</slot>
+ </slots>
+</ui>

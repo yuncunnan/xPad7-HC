@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormWallpaper</class>
+ <widget class="QWidget" name="FormWallpaper">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>981</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>981</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>981</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>-1</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 28px &quot;微软雅黑&quot;;</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QFrame" name="frameWallpaper">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>630</y>
+        <width>801</width>
+        <height>352</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: qlineargradient(spread:pad, x1:0.987682, y1:0.983, x2:1, y2:0, stop:0 rgba(12, 0, 184, 255), stop:1 rgba(255, 255, 255, 255));</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="FuShiTong_page">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="xIndicator" name="LedX05">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="iconOn">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
+            </property>
+            <property name="iconOff">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string notr="true">抱具2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="xIndicator" name="LedX02">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="iconOn">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
+            </property>
+            <property name="iconOff">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string notr="true">吸具1</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="xIndicatorButton" name="BtnY05">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>180</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string notr="true">抱具2-E1Y06</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>14</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="iconOn" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+            </property>
+            <property name="iconOff" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+            </property>
+            <property name="contentAlignLeft" stdset="0">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="xIndicatorButton" name="BtnY02">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>180</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string notr="true">吸具1-E1Y03</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>14</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="iconOn" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+            </property>
+            <property name="iconOff" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+            </property>
+            <property name="contentAlignLeft" stdset="0">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="xIndicator" name="LedX06">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="iconOn">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
+            </property>
+            <property name="iconOff">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string notr="true">抱具3</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="xIndicator" name="LedX03">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="iconOn">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
+            </property>
+            <property name="iconOff">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string notr="true">吸具2</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="xIndicatorButton" name="BtnY06">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>180</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string notr="true">抱具3-E1Y07</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>14</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="iconOn" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+            </property>
+            <property name="iconOff" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+            </property>
+            <property name="contentAlignLeft" stdset="0">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="xIndicatorButton" name="BtnY03">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>180</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string notr="true">吸具2-E1Y04</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>14</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="iconOn" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+            </property>
+            <property name="iconOff" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+            </property>
+            <property name="contentAlignLeft" stdset="0">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="xIndicator" name="LedX07">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="iconOn">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
+            </property>
+            <property name="iconOff">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string notr="true">抱具4</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="xIndicator" name="LedX04">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="iconOn">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
+            </property>
+            <property name="iconOff">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string notr="true">抱具1</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="xIndicatorButton" name="BtnY07">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>180</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string notr="true">抱具4-E1Y08</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>14</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="iconOn" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+            </property>
+            <property name="iconOff" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+            </property>
+            <property name="contentAlignLeft" stdset="0">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="xIndicatorButton" name="BtnY04">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>180</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string notr="true">抱具1-E1Y05</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>14</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="iconOn" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+            </property>
+            <property name="iconOff" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+            </property>
+            <property name="contentAlignLeft" stdset="0">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="xIndicator" name="LedX00">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="iconOn">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
+            </property>
+            <property name="iconOff">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string notr="true">水平到位</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="xIndicator" name="LedX01">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>250</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="iconOn">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
+            </property>
+            <property name="iconOff">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string notr="true">垂直到位</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="xIndicatorButton" name="BtnY00">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>888</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string notr="true">主臂倒平</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>14</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="iconOn" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+            </property>
+            <property name="iconOff" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+            </property>
+            <property name="contentAlignLeft" stdset="0">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="xIndicatorButton" name="BtnY01">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>888</width>
+              <height>60</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string notr="true">主臂倒直</string>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>14</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="iconOn" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+            </property>
+            <property name="iconOff" stdset="0">
+             <iconset resource="xPad.qrc">
+              <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+            </property>
+            <property name="contentAlignLeft" stdset="0">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2"/>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>xIndicator</class>
+   <extends>QWidget</extends>
+   <header>xindicator.h</header>
+  </customwidget>
+  <customwidget>
+   <class>xIndicatorButton</class>
+   <extends>QPushButton</extends>
+   <header>xindicatorbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="xPad.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>BtnY00</sender>
+   <signal>clicked()</signal>
+   <receiver>FormWallpaper</receiver>
+   <slot>btnclick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>937</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnY01</sender>
+   <signal>clicked()</signal>
+   <receiver>FormWallpaper</receiver>
+   <slot>btnclick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>719</x>
+     <y>937</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnY02</sender>
+   <signal>clicked()</signal>
+   <receiver>FormWallpaper</receiver>
+   <slot>btnclick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>719</x>
+     <y>712</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnY03</sender>
+   <signal>clicked()</signal>
+   <receiver>FormWallpaper</receiver>
+   <slot>btnclick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>719</x>
+     <y>787</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnY04</sender>
+   <signal>clicked()</signal>
+   <receiver>FormWallpaper</receiver>
+   <slot>btnclick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>719</x>
+     <y>862</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnY05</sender>
+   <signal>clicked()</signal>
+   <receiver>FormWallpaper</receiver>
+   <slot>btnclick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>712</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnY06</sender>
+   <signal>clicked()</signal>
+   <receiver>FormWallpaper</receiver>
+   <slot>btnclick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>787</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnY07</sender>
+   <signal>clicked()</signal>
+   <receiver>FormWallpaper</receiver>
+   <slot>btnclick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>862</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btnclick()</slot>
+ </slots>
+</ui>

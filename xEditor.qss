@@ -1,0 +1,218 @@
+/* Set frame background color */
+QFrame[IsMainArea = true]
+{
+	background-color: rgb(234, 234, 234);
+}
+/* Set the radio button style */
+QRadioButton::indicator
+{
+     width: 32px;
+     height: 32px;
+}
+QRadioButton::indicator:unchecked
+{
+	image: url(:/img/widget/radioOff.png);
+}
+QRadioButton::indicator:unchecked:disabled
+{
+	image: url(:/img/widget/radioOffDis.png);
+}
+QRadioButton::indicator:checked
+{
+	image: url(:/img/widget/radioOn.png);
+}
+QRadioButton::indicator:checked:disabled
+{
+	image: url(:/img/widget/radioOnDis.png);
+}
+/* Set the check box style */
+QCheckBox::indicator
+{
+     width: 32px;
+     height: 32px;
+}
+QCheckBox::indicator:unchecked
+{
+	image: url(:/img/widget/checkOff.png);
+}
+QCheckBox::indicator:unchecked:disabled
+{
+	image: url(:/img/widget/checkOffDis.png);
+}
+QCheckBox::indicator:checked
+{
+	image: url(:/img/widget/checkOn.png);
+}
+QCheckBox::indicator:checked:disabled
+{
+	image: url(:/img/widget/checkOnDis.png);
+}
+/* Set the normal button style */
+QPushButton:!pressed
+{
+	border-image: url(:/img/widget/ButtonNormal.png) 12 12 12 12;
+	border-top: 12px transparent;
+	border-right: 12px transparent;
+	border-bottom: 12px transparent;
+	border-left: 12px transparent;
+}
+QPushButton:pressed
+{
+	border-image: url(:/img/widget/ButtonPress.png) 12 12 12 12;
+	border-top: 12px transparent;
+	border-right: 12px transparent;
+	border-bottom: 12px transparent;
+	border-left: 12px transparent;
+}
+/* Set the box buttons style */
+QPushButton[IsBoxBtn = true]:!pressed
+{
+	color: white;
+	border-image: url(:/img/widget/BtnBoxNormal.png) 12 12 12 12;
+	border-top: 12px transparent;
+	border-right: 12px transparent;
+	border-bottom: 12px transparent;
+	border-left: 12px transparent;
+}
+QPushButton[IsBoxBtn = true]:pressed
+{
+	color: white;
+	border-image: url(:/img/widget/BtnBoxPress.png) 12 12 12 12;
+	border-top: 12px transparent;
+	border-right: 12px transparent;
+	border-bottom: 12px transparent;
+	border-left: 12px transparent;
+}
+/* Set the spin box and line edit sytle */
+QSpinBox[HasBtn = true], QDoubleSpinBox[HasBtn = true],
+QDateEdit[HasBtn = true], QTimeEdit[HasBtn = true], QDateTimeEdit[HasBtn = true]
+{
+	border-image: url(:/img/widget/spinBox.png) 5;
+	border-width: 5px;
+}
+QSpinBox[HasBtn = true]:disabled, QDoubleSpinBox[HasBtn = true]:disabled,
+QDateEdit[HasBtn = true]:disabled, QTimeEdit[HasBtn = true]:disabled, QDateTimeEdit[HasBtn = true]:disabled
+{
+	border-image: url(:/img/widget/spinBoxDis.png) 5;
+}
+QSpinBox[HasBtn = true]:focus, QDoubleSpinBox[HasBtn = true]:focus,
+QDateEdit[HasBtn = true]:focus, QTimeEdit[HasBtn = true]:focus, QDateTimeEdit[HasBtn = true]:focus
+{
+	border-image: url(:/img/widget/spinBoxFocus.png) 5;
+}
+QSpinBox[HasBtn = true]::up-button, QDoubleSpinBox[HasBtn = true]::up-button,
+QDateEdit[HasBtn = true]::up-button, QTimeEdit[HasBtn = true]::up-button, QDateTimeEdit[HasBtn = true]::up-button
+{
+	subcontrol-origin: border;
+	subcontrol-position: right center;
+	width: 30px;
+	height: 30px;
+	border-image: url(:/img/widget/spinRn.png) 5;
+	border-width: 5px;
+}
+QSpinBox[HasBtn = true]::up-button:focus, QDoubleSpinBox[HasBtn = true]::up-button:focus,
+QDateEdit[HasBtn = true]::up-button:focus, QTimeEdit[HasBtn = true]::up-button:focus, QDateTimeEdit[HasBtn = true]::up-button:focus
+{
+	border-image: url(:/img/widget/spinRnFocus.png) 5;
+}
+QSpinBox[HasBtn = true]::up-button:pressed, QDoubleSpinBox[HasBtn = true]::up-button:pressed,
+QDateEdit[HasBtn = true]::up-button:pressed, QTimeEdit[HasBtn = true]::up-button:pressed, QDateTimeEdit[HasBtn = true]::up-button:pressed
+{
+	border-image: url(:/img/widget/spinRp.png) 5;
+}
+QSpinBox[HasBtn = true]::up-arrow, QDoubleSpinBox[HasBtn = true]::up-arrow,
+QDateEdit[HasBtn = true]::up-arrow, QTimeEdit[HasBtn = true]::up-arrow, QDateTimeEdit[HasBtn = true]::up-arrow
+{
+	image: url(:/img/widget/spinUpBlack.png);
+	width: 17px;
+	height: 17px;
+}
+QSpinBox[HasBtn = true]::up-arrow:disabled, QDoubleSpinBox[HasBtn = true]::up-arrow:disabled,
+QSpinBox[HasBtn = true]::up-arrow:off, QDoubleSpinBox[HasBtn = true]::up-arrow:off,
+QDateEdit[HasBtn = true]::up-arrow:disabled, QTimeEdit[HasBtn = true]::up-arrow:disabled, QDateTimeEdit[HasBtn = true]::up-arrow:disabled,
+QDateEdit[HasBtn = true]::up-arrow:off, QTimeEdit[HasBtn = true]::up-arrow:off, QDateTimeEdit[HasBtn = true]::up-arrow:off
+{
+	image: url(:/img/widget/spinUp.png);
+}
+QSpinBox[HasBtn = true]::down-button, QDoubleSpinBox[HasBtn = true]::down-button,
+QDateEdit[HasBtn = true]::down-button, QTimeEdit[HasBtn = true]::down-button, QDateTimeEdit[HasBtn = true]::down-button
+{
+	subcontrol-origin: border;
+	subcontrol-position: left center;
+	width: 30px;
+	height: 30px;
+	border-image: url(:/img/widget/spinLn.png) 5;
+	border-width: 5px;
+}
+QSpinBox[HasBtn = true]::down-button:focus, QDoubleSpinBox[HasBtn = true]::down-button:focus,
+QDateEdit[HasBtn = true]::down-button:focus, QTimeEdit[HasBtn = true]::down-button:focus, QDateTimeEdit[HasBtn = true]::down-button:focus
+{
+	border-image: url(:/img/widget/spinLnFocus.png) 5;
+}
+QSpinBox[HasBtn = true]::down-button:pressed, QDoubleSpinBox[HasBtn = true]::down-button:pressed,
+QDateEdit[HasBtn = true]::down-button:pressed, QTimeEdit[HasBtn = true]::down-button:pressed, QDateTimeEdit[HasBtn = true]::down-button:pressed
+{
+	border-image: url(:/img/widget/spinLp.png) 5;
+}
+QSpinBox[HasBtn = true]::down-arrow, QDoubleSpinBox[HasBtn = true]::down-arrow,
+QDateEdit[HasBtn = true]::down-arrow, QTimeEdit[HasBtn = true]::down-arrow, QDateTimeEdit[HasBtn = true]::down-arrow
+{
+	image: url(:/img/widget/spinDwnBlack.png);
+	width: 17px;
+	height: 17px;
+}
+QSpinBox[HasBtn = true]::down-arrow:disabled, QDoubleSpinBox[HasBtn = true]::down-arrow:disabled,
+QSpinBox[HasBtn = true]::down-arrow:off, QDoubleSpinBox[HasBtn = true]::down-arrow:off,
+QDateEdit[HasBtn = true]::down-arrow:disabled, QTimeEdit[HasBtn = true]::down-arrow:disabled, QDateTimeEdit[HasBtn = true]::down-arrow:disabled,
+QDateEdit[HasBtn = true]::down-arrow:off, QTimeEdit[HasBtn = true]::down-arrow:off, QDateTimeEdit[HasBtn = true]::down-arrow:off
+{
+	image: url(:/img/widget/spinDwn.png);
+}
+
+QSpinBox[HasBtn = false], QDoubleSpinBox[HasBtn = false],
+QDateEdit[HasBtn = false], QTimeEdit[HasBtn = false], QDateTimeEdit[HasBtn = false],
+QLineEdit
+{
+	border-width: 6px;
+}
+QSpinBox[HasBtn = false]:disabled, QDoubleSpinBox[HasBtn = false]:disabled,
+QDateEdit[HasBtn = false]:disabled, QTimeEdit[HasBtn = false]:disabled, QDateTimeEdit[HasBtn = false]:disabled,
+QLineEdit:disabled
+{
+	border-image: url(:/img/widget/TextBoxDisable.png) 6;
+}
+QSpinBox[HasBtn = false]:enabled:!focus, QDoubleSpinBox[HasBtn = false]:enabled:!focus,
+QDateEdit[HasBtn = false]:enabled:!focus, QTimeEdit[HasBtn = false]:enabled:!focus, QDateTimeEdit[HasBtn = false]:enabled:!focus,
+QLineEdit:enabled:!focus
+{
+	border-image: url(:/img/widget/TextBoxNormal.png) 6;
+}
+QSpinBox[HasBtn = false]:enabled:focus, QDoubleSpinBox[HasBtn = false]:enabled:focus,
+QDateEdit[HasBtn = false]:enabled:focus, QTimeEdit[HasBtn = false]:enabled:focus, QDateTimeEdit[HasBtn = false]:enabled:focus,
+QLineEdit:enabled:focus
+{
+	border-image: url(:/img/widget/TextBoxFocus.png) 6;
+}
+
+/* Set the header view style */
+QHeaderView::down-arrow
+{
+	width: 32px;
+	height: 32px;
+	image: url(:/img/32X32/SortDescend.png);
+}
+QHeaderView::up-arrow
+{
+	width: 32px;
+	height: 32px;
+	image: url(:/img/32X32/SortAscend.png);
+}
+/* Set message display box style */
+QLabel[HasBorder = true]
+{
+	border-image: url(:/img/widget/TextBoxNormal.png) 6 6 6 6;
+	border-top: 6px transprant;
+	border-right: 6px transprant;
+	border-bottom: 6px transprant;
+	border-left: 6px transprant;
+}

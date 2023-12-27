@@ -1,0 +1,1844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormTeach</class>
+ <widget class="QWidget" name="FormTeach">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>981</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>981</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>981</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑</family>
+    <pointsize>-1</pointsize>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">教导画面</string>
+  </property>
+  <property name="toolTip">
+   <string notr="true"/>
+  </property>
+  <property name="statusTip">
+   <string notr="true"/>
+  </property>
+  <property name="whatsThis">
+   <string notr="true"/>
+  </property>
+  <property name="accessibleName">
+   <string notr="true"/>
+  </property>
+  <property name="accessibleDescription">
+   <string notr="true"/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 28px &quot;微软雅黑&quot;;</string>
+  </property>
+  <property name="windowFilePath">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayoutForm">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frameTeach">
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="IsMainArea" stdset="0">
+      <bool>true</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <property name="horizontalSpacing">
+       <number>2</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>4</number>
+      </property>
+      <property name="margin">
+       <number>2</number>
+      </property>
+      <item row="1" column="0" colspan="2">
+       <widget class="QTableView" name="tableView_teach">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>790</width>
+          <height>500</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>790</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="toolTip">
+         <string notr="true"/>
+        </property>
+        <property name="statusTip">
+         <string notr="true"/>
+        </property>
+        <property name="whatsThis">
+         <string notr="true"/>
+        </property>
+        <property name="accessibleName">
+         <string notr="true"/>
+        </property>
+        <property name="accessibleDescription">
+         <string notr="true"/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTableView
+{
+	selection-background-color: rgb(64, 168, 255);
+	background-color: rgb(234, 234, 234);
+	alternate-background-color: rgb(255, 255, 128);
+	gridline-color: rgb(168, 180, 168);
+}
+</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Plain</enum>
+        </property>
+        <property name="lineWidth">
+         <number>1</number>
+        </property>
+        <property name="midLineWidth">
+         <number>0</number>
+        </property>
+        <property name="verticalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOn</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="autoScroll">
+         <bool>false</bool>
+        </property>
+        <property name="autoScrollMargin">
+         <number>32</number>
+        </property>
+        <property name="editTriggers">
+         <set>QAbstractItemView::DoubleClicked</set>
+        </property>
+        <property name="tabKeyNavigation">
+         <bool>false</bool>
+        </property>
+        <property name="showDropIndicator" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="dragDropOverwriteMode">
+         <bool>false</bool>
+        </property>
+        <property name="alternatingRowColors">
+         <bool>true</bool>
+        </property>
+        <property name="selectionMode">
+         <enum>QAbstractItemView::SingleSelection</enum>
+        </property>
+        <property name="selectionBehavior">
+         <enum>QAbstractItemView::SelectRows</enum>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>34</width>
+          <height>34</height>
+         </size>
+        </property>
+        <property name="verticalScrollMode">
+         <enum>QAbstractItemView::ScrollPerItem</enum>
+        </property>
+        <property name="horizontalScrollMode">
+         <enum>QAbstractItemView::ScrollPerItem</enum>
+        </property>
+        <property name="showGrid">
+         <bool>true</bool>
+        </property>
+        <property name="gridStyle">
+         <enum>Qt::SolidLine</enum>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+        <property name="cornerButtonEnabled">
+         <bool>false</bool>
+        </property>
+        <attribute name="horizontalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderHighlightSections">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="horizontalHeaderStretchLastSection">
+         <bool>true</bool>
+        </attribute>
+        <attribute name="verticalHeaderVisible">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderDefaultSectionSize">
+         <number>50</number>
+        </attribute>
+        <attribute name="verticalHeaderHighlightSections">
+         <bool>false</bool>
+        </attribute>
+        <attribute name="verticalHeaderMinimumSectionSize">
+         <number>50</number>
+        </attribute>
+       </widget>
+      </item>
+      <item row="2" column="0" colspan="2">
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="spacing">
+         <number>9</number>
+        </property>
+        <item>
+         <widget class="xPushButton" name="BtnTechMoveU">
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string>上移</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="autoDefault">
+           <bool>false</bool>
+          </property>
+          <property name="default">
+           <bool>false</bool>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="BtnTechMoveD">
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string>下移</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="BtnTechDelete">
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string>删除</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="BtnTest">
+          <property name="minimumSize">
+           <size>
+            <width>80</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>120</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="text">
+           <string>试</string>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>45</width>
+            <height>45</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacerBtns">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="xPushButton" name="BtnTechSeparate">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>130</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>180</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>分解</string>
+          </property>
+          <property name="icon">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/action/Separate.png</normaloff>:/img/action/Separate.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xPushButton" name="BtnTechCombine">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>130</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>180</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>组合</string>
+          </property>
+          <property name="icon">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/action/Combine.png</normaloff>:/img/action/Combine.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="xPixmapButton" name="BtnTechPrgOk">
+          <property name="minimumSize">
+           <size>
+            <width>120</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>135</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="ButtonText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="ButtonText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>255</red>
+                <green>255</green>
+                <blue>255</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="ButtonText">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>159</red>
+                <green>158</green>
+                <blue>158</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::NoFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>修改</string>
+          </property>
+          <property name="icon">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/32X32/Save.png</normaloff>:/img/32X32/Save.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>32</width>
+            <height>32</height>
+           </size>
+          </property>
+          <property name="imageNormal">
+           <pixmap resource="xPad.qrc">:/img/widget/BtnBoxNormal.png</pixmap>
+          </property>
+          <property name="imagePress">
+           <pixmap resource="xPad.qrc">:/img/widget/BtnBoxPress.png</pixmap>
+          </property>
+          <property name="borderTop">
+           <number>8</number>
+          </property>
+          <property name="borderRight">
+           <number>8</number>
+          </property>
+          <property name="borderBottom">
+           <number>8</number>
+          </property>
+          <property name="borderLeft">
+           <number>8</number>
+          </property>
+          <property name="contentAlignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item row="3" column="0">
+       <widget class="QWidget" name="widgetMenu" native="true">
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>320</height>
+         </size>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <property name="margin">
+          <number>0</number>
+         </property>
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QWidget" name="widgetPara" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>600</width>
+             <height>270</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>790</width>
+             <height>320</height>
+            </size>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_5">
+            <property name="horizontalSpacing">
+             <number>6</number>
+            </property>
+            <property name="verticalSpacing">
+             <number>4</number>
+            </property>
+            <property name="margin">
+             <number>0</number>
+            </property>
+            <item row="0" column="0">
+             <widget class="QGroupBox" name="groupBoxInstruction">
+              <property name="title">
+               <string/>
+              </property>
+              <widget class="QWidget" name="layoutWidget">
+               <property name="geometry">
+                <rect>
+                 <x>7</x>
+                 <y>188</y>
+                 <width>620</width>
+                 <height>72</height>
+                </rect>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <item>
+                 <widget class="QPushButton" name="BtnVacuum">
+                  <property name="minimumSize">
+                   <size>
+                    <width>150</width>
+                    <height>70</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>-1</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>治具</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="xPad.qrc">
+                    <normaloff>:/img/34X34/Fixture.png</normaloff>:/img/34X34/Fixture.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>32</width>
+                    <height>32</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="BtnWait">
+                  <property name="minimumSize">
+                   <size>
+                    <width>150</width>
+                    <height>70</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>-1</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>等待</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="xPad.qrc">
+                    <normaloff>:/img/34X34/Wait.png</normaloff>:/img/34X34/Wait.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>32</width>
+                    <height>32</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="BtnDelay">
+                  <property name="minimumSize">
+                   <size>
+                    <width>150</width>
+                    <height>70</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>-1</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>延时</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="xPad.qrc">
+                    <normaloff>:/img/action/Delay.png</normaloff>:/img/action/Delay.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>32</width>
+                    <height>32</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="BtnOther">
+                  <property name="minimumSize">
+                   <size>
+                    <width>150</width>
+                    <height>70</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>-1</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>其他</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="xPad.qrc">
+                    <normaloff>:/img/34X34/funcOther.png</normaloff>:/img/34X34/funcOther.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>32</width>
+                    <height>32</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget">
+               <property name="geometry">
+                <rect>
+                 <x>7</x>
+                 <y>100</y>
+                 <width>621</width>
+                 <height>72</height>
+                </rect>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <item>
+                 <widget class="QPushButton" name="BtnIMM">
+                  <property name="minimumSize">
+                   <size>
+                    <width>150</width>
+                    <height>70</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>-1</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>注塑机</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="xPad.qrc">
+                    <normaloff>:/img/34X34/Imm.png</normaloff>:/img/34X34/Imm.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>32</width>
+                    <height>32</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="BtnMExtOut">
+                  <property name="minimumSize">
+                   <size>
+                    <width>150</width>
+                    <height>70</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>-1</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>扩展输出</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="xPad.qrc">
+                    <normaloff>:/img/34X34/ExtOutput.png</normaloff>:/img/34X34/ExtOutput.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>32</width>
+                    <height>32</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="BtnRun">
+                  <property name="minimumSize">
+                   <size>
+                    <width>150</width>
+                    <height>70</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>-1</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>副臂气动</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="xPad.qrc">
+                    <normaloff>:/img/34X34/Ra.png</normaloff>:/img/34X34/Ra.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>32</width>
+                    <height>32</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget">
+               <property name="geometry">
+                <rect>
+                 <x>7</x>
+                 <y>12</y>
+                 <width>621</width>
+                 <height>72</height>
+                </rect>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <item>
+                 <widget class="QPushButton" name="BtnPos">
+                  <property name="minimumSize">
+                   <size>
+                    <width>150</width>
+                    <height>70</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>-1</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>轴定位</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="xPad.qrc">
+                    <normaloff>:/img/34X34/PaHorAbs.png</normaloff>:/img/34X34/PaHorAbs.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>32</width>
+                    <height>32</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="BtnMatrix">
+                  <property name="minimumSize">
+                   <size>
+                    <width>150</width>
+                    <height>70</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>-1</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>矩阵</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="xPad.qrc">
+                    <normaloff>:/img/34X34/Matrix.png</normaloff>:/img/34X34/Matrix.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>32</width>
+                    <height>32</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="BtnPro">
+                  <property name="minimumSize">
+                   <size>
+                    <width>150</width>
+                    <height>70</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>微软雅黑</family>
+                    <pointsize>-1</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>正臂气动</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="xPad.qrc">
+                    <normaloff>:/img/34X34/Pa.png</normaloff>:/img/34X34/Pa.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>32</width>
+                    <height>32</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <property name="spacing">
+            <number>8</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="BtnPrev">
+             <property name="minimumSize">
+              <size>
+               <width>150</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>微软雅黑</family>
+               <pointsize>-1</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>上一页</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="BtnNext">
+             <property name="minimumSize">
+              <size>
+               <width>150</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>微软雅黑</family>
+               <pointsize>-1</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>下一页</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="BtnOK">
+             <property name="minimumSize">
+              <size>
+               <width>150</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>45</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>微软雅黑</family>
+               <pointsize>-1</pointsize>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>完成</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QGroupBox" name="groupBoxMain">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>320</height>
+         </size>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <layout class="QGridLayout" name="gridLayout">
+         <property name="leftMargin">
+          <number>6</number>
+         </property>
+         <property name="topMargin">
+          <number>2</number>
+         </property>
+         <property name="rightMargin">
+          <number>6</number>
+         </property>
+         <property name="bottomMargin">
+          <number>2</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="BtnMain">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>主菜单</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="BtnQuick">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>快速教导</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="BtnInsert">
+           <property name="minimumSize">
+            <size>
+             <width>150</width>
+             <height>70</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>微软雅黑</family>
+             <pointsize>-1</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>插入动作</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="2">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>9</number>
+        </property>
+        <property name="sizeConstraint">
+         <enum>QLayout::SetMinimumSize</enum>
+        </property>
+        <item>
+         <widget class="xIndicatorButton" name="BtnProcess1">
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>进程1</string>
+          </property>
+          <property name="iconOn" stdset="0">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+          </property>
+          <property name="iconOff" stdset="0">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+          </property>
+          <property name="contentAlignLeft" stdset="0">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xIndicatorButton" name="BtnProcess2">
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>进程2</string>
+          </property>
+          <property name="iconOn" stdset="0">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+          </property>
+          <property name="iconOff" stdset="0">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+          </property>
+          <property name="contentAlignLeft" stdset="0">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="xIndicatorButton" name="BtnProcess3">
+          <property name="minimumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>150</width>
+            <height>70</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>微软雅黑</family>
+            <pointsize>-1</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>进程3</string>
+          </property>
+          <property name="iconOn" stdset="0">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/buttonOn.png</normaloff>:/img/widget/buttonOn.png</iconset>
+          </property>
+          <property name="iconOff" stdset="0">
+           <iconset resource="xPad.qrc">
+            <normaloff>:/img/widget/buttonOff.png</normaloff>:/img/widget/buttonOff.png</iconset>
+          </property>
+          <property name="contentAlignLeft" stdset="0">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>xPixmapButton</class>
+   <extends>QWidget</extends>
+   <header>xpixmapbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>xPushButton</class>
+   <extends>QPushButton</extends>
+   <header>xpushbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>xIndicatorButton</class>
+   <extends>QPushButton</extends>
+   <header>xindicatorbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="xPad.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>BtnTechDelete</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>RemoveCode()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>267</x>
+     <y>404</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>142</x>
+     <y>369</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnTechMoveU</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>MoveUp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>105</x>
+     <y>404</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>373</x>
+     <y>387</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnTechMoveD</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>MoveDown()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>159</x>
+     <y>404</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>376</x>
+     <y>368</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnTechPrgOk</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>EditProgramSlot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>375</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>371</x>
+     <y>498</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnTechCombine</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>CodeCombine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>335</x>
+     <y>375</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>203</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnTechSeparate</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>CodeSeparate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>391</x>
+     <y>375</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>203</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnInsert</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnInsert()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>719</x>
+     <y>824</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnMain</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnmenu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>719</x>
+     <y>748</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnQuick</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnQuick()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>714</x>
+     <y>916</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnIMM</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnIMM()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>378</x>
+     <y>870</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnMExtOut</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnMExtout()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>583</x>
+     <y>870</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnMatrix</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnMatrix()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>583</x>
+     <y>784</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnOther</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnOther()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>787</x>
+     <y>956</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnPos</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnPos()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>378</x>
+     <y>784</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnPro</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnPro()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>787</x>
+     <y>784</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnRun</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnRun()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>787</x>
+     <y>870</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnVacuum</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnVacuum()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>378</x>
+     <y>956</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnWait</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnWait()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>878</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnPrev</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickPagePrev()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>105</x>
+     <y>954</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnNext</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickPageNext()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>954</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnOK</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickQuickOK()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>528</x>
+     <y>954</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnTest</sender>
+   <signal>pressed()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>test_order()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>310</x>
+     <y>617</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnTest</sender>
+   <signal>released()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>stop_test()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>310</x>
+     <y>617</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tableView_teach</sender>
+   <signal>clicked(QModelIndex)</signal>
+   <receiver>FormTeach</receiver>
+   <slot>tableViewClicked(QModelIndex)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>397</x>
+     <y>328</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnDelay</sender>
+   <signal>clicked()</signal>
+   <receiver>FormTeach</receiver>
+   <slot>clickBtnDelay()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>397</x>
+     <y>881</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>InsertCode()</slot>
+  <slot>RemoveCode()</slot>
+  <slot>MoveUp()</slot>
+  <slot>MoveDown()</slot>
+  <slot>BackCurrent()</slot>
+  <slot>SaveProgramSlot()</slot>
+  <slot>CodeCombine()</slot>
+  <slot>CodeSeparate()</slot>
+  <slot>clickBtnInsert()</slot>
+  <slot>clickBtnmenu()</slot>
+  <slot>clickBtnPos()</slot>
+  <slot>clickBtnIMM()</slot>
+  <slot>clickBtnVacuum()</slot>
+  <slot>clickBtnMatrix()</slot>
+  <slot>clickBtnWait()</slot>
+  <slot>clickBtnOther()</slot>
+  <slot>clickBtnMExtout()</slot>
+  <slot>clickBtnAssist()</slot>
+  <slot>EditProgramSlot()</slot>
+  <slot>clickBtnPro()</slot>
+  <slot>clickBtnRun()</slot>
+  <slot>clickBtnQuick()</slot>
+  <slot>clickPagePrev()</slot>
+  <slot>clickPageNext()</slot>
+  <slot>clickQuickOK()</slot>
+  <slot>test_order()</slot>
+  <slot>stop_test()</slot>
+  <slot>tableViewClicked(QModelIndex)</slot>
+  <slot>clickBtnDelay()</slot>
+ </slots>
+</ui>
