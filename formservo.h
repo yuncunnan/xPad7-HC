@@ -1,4 +1,4 @@
-﻿#ifndef FORMSERVO_H
+#ifndef FORMSERVO_H
 #define FORMSERVO_H
 
 #include <QVector>
@@ -85,7 +85,9 @@ private:
     QButtonGroup *pBtnPage;                // 选择按钮组
 
     QButtonGroup *pRBtnSVDev;               //伺服驱动器参数
-
+    QButtonGroup *pRBtnSVSelect;            //伺服驱动器地址
+    bool ReadSVDev;                         //读取参数是否成功
+    QTimer *time;                           //用于查询驱动器参数的定时器
 
 	void retranslateUi(void);				// 更新界面字符串翻译
 	void setPermissions(void);				// 根据当前用户权限设置界面
@@ -133,6 +135,13 @@ private slots:
 	void InputExtAcc(void);
     void InputHomeSpd(void);
     void InputHomeSpdSlow(void);
+    // 驱动器其它参数
+    void InputParaID(void);
+    void InputSetValue(void);
+    void BtnReadClick(void);
+    void BtnWriteClick(void);
+    void QuerySVDev(void);
+    void currentChanged(int page);
     // 输入安全区位置
     void InputTrvInS(void);
     void InputTrvInE(void);

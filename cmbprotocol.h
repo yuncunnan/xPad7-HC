@@ -1,4 +1,4 @@
-﻿#ifndef CMBPROTOCOL_H
+#ifndef CMBPROTOCOL_H
 #define CMBPROTOCOL_H
 
 #include <QFileInfo>
@@ -65,6 +65,8 @@ class QTimer;
 #define COMMAND_DOOR_QUERY          19	// 信易安全门询问
 #define COMMAND_ALLIMMOUT		21	//塑机信号全输出
 #define COMMAND_FUN_UI              22 //版本指令。告知主板操作器有的功能
+#define COMMAND_SDO_RTU             26 //CAN sdo_RTU命令
+
 // ********************************************
 #define SET_ABS_HOME                1   // 设置绝对值编码器原点
 #define CLR_ABS_HOME                0   // 清除绝对值编码器原点
@@ -588,6 +590,7 @@ public:
 	static bool GetExtBoard(quint8 idx) { return ((ExtBoardState >> idx) & 0x0001) != 0; }
 	static uint16_t GetSysState(void) { return SystemState; }
 	int8_t ReadRunState(void);
+    int16_t ReadSDOPara(void);
     static uint16_t GetRunState(void) { return RunningState; }
 	uint16_t GetRunType(void) { return RunningType; }
 	uint16_t GetHomeState(void) { return HomeState; }						// 得到机械手原点状态(是否经过原点复归,是否在原点位置)
@@ -645,6 +648,7 @@ public:
     int8_t CommandVisionTest(quint16 idx);
     int8_t CommandIMMOut(uint8_t on);
     int8_t CommandFUNUI(quint32 idx);
+    int8_t CommandDVS_CanRtu(uint16_t adr, uint16_t data, uint16_t cmd, uint16_t servoID);
     // ********************************************
 	// 参数读接口
 	// ********************************************

@@ -137,7 +137,7 @@
          <enum>QTabWidget::Rounded</enum>
         </property>
         <property name="currentIndex">
-         <number>1</number>
+         <number>2</number>
         </property>
         <property name="iconSize">
          <size>
@@ -204,7 +204,7 @@
               <number>2</number>
              </property>
              <item>
-              <widget class="xIndicator" name="LedHor1Origin" native="true">
+              <widget class="xIndicator" name="LedHor1Origin">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -232,27 +232,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>原点</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedHor1CcwL" native="true">
+              <widget class="xIndicator" name="LedHor1CcwL">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -280,27 +280,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>负限</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedHor1CwL" native="true">
+              <widget class="xIndicator" name="LedHor1CwL">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -328,27 +328,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>正限</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedHor1Alm" native="true">
+              <widget class="xIndicator" name="LedHor1Alm">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -376,27 +376,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>报警</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedHor1On" native="true">
+              <widget class="xIndicator" name="LedHor1On">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -424,21 +424,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedRedOn.png</normaloff>:/img/widget/LedRedOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>使能</string>
                </property>
               </widget>
@@ -468,7 +468,7 @@
               <number>2</number>
              </property>
              <item>
-              <widget class="xIndicator" name="LedExtOrigin" native="true">
+              <widget class="xIndicator" name="LedExtOrigin">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -496,27 +496,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>原点</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedExtCcwL" native="true">
+              <widget class="xIndicator" name="LedExtCcwL">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -544,27 +544,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>负限</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedExtCwL" native="true">
+              <widget class="xIndicator" name="LedExtCwL">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -592,27 +592,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>正限</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedExtAlm" native="true">
+              <widget class="xIndicator" name="LedExtAlm">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -640,27 +640,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>报警</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedExtOn" native="true">
+              <widget class="xIndicator" name="LedExtOn">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -688,21 +688,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedRedOn.png</normaloff>:/img/widget/LedRedOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>使能</string>
                </property>
               </widget>
@@ -732,7 +732,7 @@
               <number>2</number>
              </property>
              <item>
-              <widget class="xIndicator" name="LedHorOrigin" native="true">
+              <widget class="xIndicator" name="LedHorOrigin">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -760,27 +760,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>原点</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedHorCcwL" native="true">
+              <widget class="xIndicator" name="LedHorCcwL">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -808,27 +808,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>负限</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedHorCwL" native="true">
+              <widget class="xIndicator" name="LedHorCwL">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -856,27 +856,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>正限</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedHorAlm" native="true">
+              <widget class="xIndicator" name="LedHorAlm">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -904,27 +904,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>报警</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedHorOn" native="true">
+              <widget class="xIndicator" name="LedHorOn">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -952,21 +952,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedRedOn.png</normaloff>:/img/widget/LedRedOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>使能</string>
                </property>
               </widget>
@@ -996,7 +996,7 @@
               <number>2</number>
              </property>
              <item>
-              <widget class="xIndicator" name="LedVerOrigin" native="true">
+              <widget class="xIndicator" name="LedVerOrigin">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1024,27 +1024,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>原点</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedVerCcwL" native="true">
+              <widget class="xIndicator" name="LedVerCcwL">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1072,27 +1072,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>负限</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedVerCwL" native="true">
+              <widget class="xIndicator" name="LedVerCwL">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1120,27 +1120,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>正限</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedVerAlm" native="true">
+              <widget class="xIndicator" name="LedVerAlm">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1168,27 +1168,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>报警</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedVerOn" native="true">
+              <widget class="xIndicator" name="LedVerOn">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1216,21 +1216,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedRedOn.png</normaloff>:/img/widget/LedRedOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>使能</string>
                </property>
               </widget>
@@ -1260,7 +1260,7 @@
               <number>2</number>
              </property>
              <item>
-              <widget class="xIndicator" name="LedTravelOrigin" native="true">
+              <widget class="xIndicator" name="LedTravelOrigin">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1288,27 +1288,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>原点</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedTravelCcwL" native="true">
+              <widget class="xIndicator" name="LedTravelCcwL">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1336,27 +1336,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>负限</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedTravelCwL" native="true">
+              <widget class="xIndicator" name="LedTravelCwL">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1384,27 +1384,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>正限</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedTravelAlm" native="true">
+              <widget class="xIndicator" name="LedTravelAlm">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1432,27 +1432,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>报警</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedTravelOn" native="true">
+              <widget class="xIndicator" name="LedTravelOn">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1480,21 +1480,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedRedOn.png</normaloff>:/img/widget/LedRedOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>使能</string>
                </property>
               </widget>
@@ -1524,7 +1524,7 @@
               <number>2</number>
              </property>
              <item>
-              <widget class="xIndicator" name="LedVer1Origin" native="true">
+              <widget class="xIndicator" name="LedVer1Origin">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1552,27 +1552,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>原点</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedVer1CcwL" native="true">
+              <widget class="xIndicator" name="LedVer1CcwL">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1600,27 +1600,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>负限</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedVer1CwL" native="true">
+              <widget class="xIndicator" name="LedVer1CwL">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1648,27 +1648,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>正限</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedVer1Alm" native="true">
+              <widget class="xIndicator" name="LedVer1Alm">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1696,27 +1696,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>报警</string>
                </property>
               </widget>
              </item>
              <item>
-              <widget class="xIndicator" name="LedVer1On" native="true">
+              <widget class="xIndicator" name="LedVer1On">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -1744,21 +1744,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedRedOn.png</normaloff>:/img/widget/LedRedOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>使能</string>
                </property>
               </widget>
@@ -1769,7 +1769,7 @@
           <item row="8" column="0">
            <layout class="QGridLayout" name="gridLayoutSignal">
             <item row="0" column="0">
-             <widget class="xIndicator" name="LedSafeIn" native="true">
+             <widget class="xIndicator" name="LedSafeIn">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                 <horstretch>0</horstretch>
@@ -1797,27 +1797,27 @@
                 <bold>false</bold>
                </font>
               </property>
-              <property name="iconOn" stdset="0">
+              <property name="iconOn">
                <iconset resource="xPad.qrc">
                 <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
               </property>
-              <property name="iconOff" stdset="0">
+              <property name="iconOff">
                <iconset resource="xPad.qrc">
                 <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
               </property>
-              <property name="iconSize" stdset="0">
+              <property name="iconSize">
                <size>
                 <width>40</width>
                 <height>40</height>
                </size>
               </property>
-              <property name="text" stdset="0">
+              <property name="text">
                <string notr="true">横行安全区</string>
               </property>
              </widget>
             </item>
             <item row="0" column="1">
-             <widget class="xIndicator" name="LedSafOut" native="true">
+             <widget class="xIndicator" name="LedSafOut">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                 <horstretch>0</horstretch>
@@ -1845,30 +1845,30 @@
                 <bold>false</bold>
                </font>
               </property>
-              <property name="iconOn" stdset="0">
+              <property name="iconOn">
                <iconset resource="xPad.qrc">
                 <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
               </property>
-              <property name="iconOff" stdset="0">
+              <property name="iconOff">
                <iconset resource="xPad.qrc">
                 <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
               </property>
-              <property name="iconSize" stdset="0">
+              <property name="iconSize">
                <size>
                 <width>40</width>
                 <height>40</height>
                </size>
               </property>
-              <property name="text" stdset="0">
+              <property name="text">
                <string notr="true">横行模外安全区</string>
               </property>
-              <property name="On" stdset="0">
+              <property name="On">
                <bool>false</bool>
               </property>
              </widget>
             </item>
             <item row="1" column="0">
-             <widget class="xIndicator" name="LedSafePaUp" native="true">
+             <widget class="xIndicator" name="LedSafePaUp">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                 <horstretch>0</horstretch>
@@ -1896,27 +1896,27 @@
                 <bold>false</bold>
                </font>
               </property>
-              <property name="iconOn" stdset="0">
+              <property name="iconOn">
                <iconset resource="xPad.qrc">
                 <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
               </property>
-              <property name="iconOff" stdset="0">
+              <property name="iconOff">
                <iconset resource="xPad.qrc">
                 <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
               </property>
-              <property name="iconSize" stdset="0">
+              <property name="iconSize">
                <size>
                 <width>40</width>
                 <height>40</height>
                </size>
               </property>
-              <property name="text" stdset="0">
+              <property name="text">
                <string notr="true">正臂上位安全区</string>
               </property>
              </widget>
             </item>
             <item row="1" column="1">
-             <widget class="xIndicator" name="LedSafeRaUp" native="true">
+             <widget class="xIndicator" name="LedSafeRaUp">
               <property name="sizePolicy">
                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                 <horstretch>0</horstretch>
@@ -1944,21 +1944,21 @@
                 <bold>false</bold>
                </font>
               </property>
-              <property name="iconOn" stdset="0">
+              <property name="iconOn">
                <iconset resource="xPad.qrc">
                 <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
               </property>
-              <property name="iconOff" stdset="0">
+              <property name="iconOff">
                <iconset resource="xPad.qrc">
                 <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
               </property>
-              <property name="iconSize" stdset="0">
+              <property name="iconSize">
                <size>
                 <width>40</width>
                 <height>40</height>
                </size>
               </property>
-              <property name="text" stdset="0">
+              <property name="text">
                <string notr="true">副臂上位安全区</string>
               </property>
              </widget>
@@ -2044,7 +2044,7 @@
                 </spacer>
                </item>
                <item row="1" column="0">
-                <widget class="xIndicator" name="LedHEmc" native="true">
+                <widget class="xIndicator" name="LedHEmc">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -2072,21 +2072,21 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedRedOn.png</normaloff>:/img/widget/LedRedOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">允许关模保护</string>
                  </property>
                 </widget>
@@ -2362,7 +2362,7 @@
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="xIndicator" name="LedHMaf" native="true">
+                <widget class="xIndicator" name="LedHMaf">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -2390,21 +2390,21 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedRedOn.png</normaloff>:/img/widget/LedRedOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">模区安全保护</string>
                  </property>
                 </widget>
@@ -2576,7 +2576,7 @@
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="xIndicator" name="LedMaf" native="true">
+                <widget class="xIndicator" name="LedMaf">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -2604,21 +2604,21 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedRedOn.png</normaloff>:/img/widget/LedRedOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">模区安全</string>
                  </property>
                 </widget>
@@ -2693,7 +2693,6 @@
               </layout>
              </item>
             </layout>
-            <zorder>LedHMaf</zorder>
             <zorder></zorder>
            </widget>
           </item>
@@ -2718,7 +2717,7 @@
              <item row="0" column="0">
               <layout class="QGridLayout" name="gridLayout_3">
                <item row="3" column="0">
-                <widget class="xIndicator" name="LedAuto" native="true">
+                <widget class="xIndicator" name="LedAuto">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -2746,27 +2745,27 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">注塑机全自动</string>
                  </property>
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="xIndicator" name="LedEsm" native="true">
+                <widget class="xIndicator" name="LedEsm">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -2794,27 +2793,27 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">塑机紧急停止</string>
                  </property>
                 </widget>
                </item>
                <item row="2" column="0">
-                <widget class="xIndicator" name="LedMop" native="true">
+                <widget class="xIndicator" name="LedMop">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -2842,27 +2841,27 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">开模完成</string>
                  </property>
                 </widget>
                </item>
                <item row="4" column="0">
-                <widget class="xIndicator" name="LedEbp" native="true">
+                <widget class="xIndicator" name="LedEbp">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -2890,27 +2889,27 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">顶针后退到位</string>
                  </property>
                 </widget>
                </item>
                <item row="5" column="0">
-                <widget class="xIndicator" name="LedC1p1" native="true">
+                <widget class="xIndicator" name="LedC1p1">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -2938,27 +2937,27 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">抽芯1位置1</string>
                  </property>
                 </widget>
                </item>
                <item row="6" column="0">
-                <widget class="xIndicator" name="LedC2p1" native="true">
+                <widget class="xIndicator" name="LedC2p1">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -2986,27 +2985,27 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">抽芯2位置1</string>
                  </property>
                 </widget>
                </item>
                <item row="1" column="0">
-                <widget class="xIndicator" name="LedRej" native="true">
+                <widget class="xIndicator" name="LedRej">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -3034,21 +3033,21 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">成型不良</string>
                  </property>
                 </widget>
@@ -3071,7 +3070,7 @@
              <item row="0" column="1">
               <layout class="QGridLayout" name="gridLayout_9">
                <item row="3" column="0">
-                <widget class="xIndicator" name="LedImop" native="true">
+                <widget class="xIndicator" name="LedImop">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -3099,27 +3098,27 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">开模中间</string>
                  </property>
                 </widget>
                </item>
                <item row="4" column="0">
-                <widget class="xIndicator" name="LedEfp" native="true">
+                <widget class="xIndicator" name="LedEfp">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -3147,27 +3146,27 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">顶针前进到位</string>
                  </property>
                 </widget>
                </item>
                <item row="6" column="0">
-                <widget class="xIndicator" name="LedC2p2" native="true">
+                <widget class="xIndicator" name="LedC2p2">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -3195,27 +3194,27 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">抽芯2位置2</string>
                  </property>
                 </widget>
                </item>
                <item row="1" column="0">
-                <widget class="xIndicator" name="LedMcp" native="true">
+                <widget class="xIndicator" name="LedMcp">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -3243,27 +3242,27 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">关模完成</string>
                  </property>
                 </widget>
                </item>
                <item row="0" column="0">
-                <widget class="xIndicator" name="LedSdm" native="true">
+                <widget class="xIndicator" name="LedSdm">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -3291,27 +3290,27 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">塑机安全设备</string>
                  </property>
                 </widget>
                </item>
                <item row="2" column="0">
-                <widget class="xIndicator" name="LedMmop" native="true">
+                <widget class="xIndicator" name="LedMmop">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -3339,27 +3338,27 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">塑机中板模确认</string>
                  </property>
                 </widget>
                </item>
                <item row="5" column="0">
-                <widget class="xIndicator" name="LedC1p2" native="true">
+                <widget class="xIndicator" name="LedC1p2">
                  <property name="sizePolicy">
                   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                    <horstretch>0</horstretch>
@@ -3387,21 +3386,21 @@
                    <bold>false</bold>
                   </font>
                  </property>
-                 <property name="iconOn" stdset="0">
+                 <property name="iconOn">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                  </property>
-                 <property name="iconOff" stdset="0">
+                 <property name="iconOff">
                   <iconset resource="xPad.qrc">
                    <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                  </property>
-                 <property name="iconSize" stdset="0">
+                 <property name="iconSize">
                   <size>
                    <width>40</width>
                    <height>40</height>
                   </size>
                  </property>
-                 <property name="text" stdset="0">
+                 <property name="text">
                   <string notr="true">抽芯1位置2</string>
                  </property>
                 </widget>
@@ -3774,7 +3773,7 @@
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="xIndicator" name="LedX00" native="true">
+                 <widget class="xIndicator" name="LedX00">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -3802,27 +3801,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X00</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX02" native="true">
+                 <widget class="xIndicator" name="LedX02">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -3850,27 +3849,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X02</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX04" native="true">
+                 <widget class="xIndicator" name="LedX04">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -3898,27 +3897,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X04</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX06" native="true">
+                 <widget class="xIndicator" name="LedX06">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -3946,27 +3945,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X06</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX08" native="true">
+                 <widget class="xIndicator" name="LedX08">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -3994,27 +3993,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X08</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX10" native="true">
+                 <widget class="xIndicator" name="LedX10">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4042,27 +4041,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X10</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX12" native="true">
+                 <widget class="xIndicator" name="LedX12">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4090,27 +4089,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X12</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX14" native="true">
+                 <widget class="xIndicator" name="LedX14">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4138,27 +4137,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X14</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX16" native="true">
+                 <widget class="xIndicator" name="LedX16">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4186,27 +4185,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X16</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX18" native="true">
+                 <widget class="xIndicator" name="LedX18">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4234,27 +4233,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X18</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX20" native="true">
+                 <widget class="xIndicator" name="LedX20">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4282,27 +4281,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X20</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX22" native="true">
+                 <widget class="xIndicator" name="LedX22">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4330,27 +4329,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X22</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX24" native="true">
+                 <widget class="xIndicator" name="LedX24">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4378,27 +4377,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X24</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX26" native="true">
+                 <widget class="xIndicator" name="LedX26">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4426,27 +4425,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X26</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX28" native="true">
+                 <widget class="xIndicator" name="LedX28">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4474,27 +4473,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X28</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX30" native="true">
+                 <widget class="xIndicator" name="LedX30">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4522,27 +4521,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X30</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX32" native="true">
+                 <widget class="xIndicator" name="LedX32">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4570,27 +4569,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X32</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX34" native="true">
+                 <widget class="xIndicator" name="LedX34">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4618,27 +4617,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X34</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX36" native="true">
+                 <widget class="xIndicator" name="LedX36">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4666,27 +4665,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X36</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX38" native="true">
+                 <widget class="xIndicator" name="LedX38">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4714,27 +4713,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X38</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX40" native="true">
+                 <widget class="xIndicator" name="LedX40">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4762,27 +4761,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X40</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX42" native="true">
+                 <widget class="xIndicator" name="LedX42">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4810,27 +4809,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X42</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX44" native="true">
+                 <widget class="xIndicator" name="LedX44">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4858,27 +4857,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X44</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX46" native="true">
+                 <widget class="xIndicator" name="LedX46">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4906,21 +4905,21 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X46</string>
                   </property>
                  </widget>
@@ -4946,7 +4945,7 @@
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="xIndicator" name="LedX01" native="true">
+                 <widget class="xIndicator" name="LedX01">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -4974,27 +4973,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X01</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX03" native="true">
+                 <widget class="xIndicator" name="LedX03">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5022,27 +5021,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X03</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX05" native="true">
+                 <widget class="xIndicator" name="LedX05">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5070,27 +5069,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X05</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX07" native="true">
+                 <widget class="xIndicator" name="LedX07">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5118,27 +5117,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X07</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX09" native="true">
+                 <widget class="xIndicator" name="LedX09">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5166,27 +5165,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X09</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX11" native="true">
+                 <widget class="xIndicator" name="LedX11">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5214,27 +5213,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X11</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX13" native="true">
+                 <widget class="xIndicator" name="LedX13">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5262,27 +5261,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X13</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX15" native="true">
+                 <widget class="xIndicator" name="LedX15">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5310,27 +5309,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X15</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX17" native="true">
+                 <widget class="xIndicator" name="LedX17">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5358,27 +5357,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X17</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX19" native="true">
+                 <widget class="xIndicator" name="LedX19">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5406,27 +5405,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X19</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX21" native="true">
+                 <widget class="xIndicator" name="LedX21">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5454,27 +5453,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X21</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX23" native="true">
+                 <widget class="xIndicator" name="LedX23">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5502,27 +5501,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X23</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX25" native="true">
+                 <widget class="xIndicator" name="LedX25">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5550,27 +5549,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X25</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX27" native="true">
+                 <widget class="xIndicator" name="LedX27">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5598,27 +5597,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X27</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX29" native="true">
+                 <widget class="xIndicator" name="LedX29">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5646,27 +5645,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X29</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX31" native="true">
+                 <widget class="xIndicator" name="LedX31">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5694,27 +5693,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X31</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX33" native="true">
+                 <widget class="xIndicator" name="LedX33">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5742,27 +5741,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X33</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX35" native="true">
+                 <widget class="xIndicator" name="LedX35">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5790,27 +5789,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X35</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX37" native="true">
+                 <widget class="xIndicator" name="LedX37">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5838,27 +5837,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X37</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX39" native="true">
+                 <widget class="xIndicator" name="LedX39">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5886,27 +5885,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X39</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX41" native="true">
+                 <widget class="xIndicator" name="LedX41">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5934,27 +5933,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X41</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX43" native="true">
+                 <widget class="xIndicator" name="LedX43">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -5982,27 +5981,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X43</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX45" native="true">
+                 <widget class="xIndicator" name="LedX45">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -6030,27 +6029,27 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X45</string>
                   </property>
                  </widget>
                 </item>
                 <item>
-                 <widget class="xIndicator" name="LedX47" native="true">
+                 <widget class="xIndicator" name="LedX47">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                     <horstretch>0</horstretch>
@@ -6078,21 +6077,21 @@
                     <bold>false</bold>
                    </font>
                   </property>
-                  <property name="iconOn" stdset="0">
+                  <property name="iconOn">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                   </property>
-                  <property name="iconOff" stdset="0">
+                  <property name="iconOff">
                    <iconset resource="xPad.qrc">
                     <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                   </property>
-                  <property name="iconSize" stdset="0">
+                  <property name="iconSize">
                    <size>
                     <width>40</width>
                     <height>40</height>
                    </size>
                   </property>
-                  <property name="text" stdset="0">
+                  <property name="text">
                    <string notr="true">Input.X47</string>
                   </property>
                  </widget>
@@ -8822,7 +8821,7 @@
             </property>
             <layout class="QGridLayout" name="gridLayout_7">
              <item row="0" column="0">
-              <widget class="xIndicator" name="LedPressure" native="true">
+              <widget class="xIndicator" name="LedPressure">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -8850,27 +8849,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string notr="true">气压低检测信号</string>
                </property>
               </widget>
              </item>
              <item row="1" column="0" colspan="3">
-              <widget class="xIndicator" name="LedDwnSafe" native="true">
+              <widget class="xIndicator" name="LedDwnSafe">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -8898,27 +8897,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string notr="true">手臂模外下行安全检测信号</string>
                </property>
               </widget>
              </item>
              <item row="2" column="0" colspan="2">
-              <widget class="xIndicator" name="LedPaHor" native="true">
+              <widget class="xIndicator" name="LedPaHor">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -8946,21 +8945,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string notr="true">正臂水平到位 X01 </string>
                </property>
               </widget>
@@ -9033,7 +9032,7 @@
               </widget>
              </item>
              <item row="3" column="0" colspan="2">
-              <widget class="xIndicator" name="LedPaVer" native="true">
+              <widget class="xIndicator" name="LedPaVer">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -9061,21 +9060,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string notr="true">正臂垂直到位 X02 </string>
                </property>
               </widget>
@@ -9145,7 +9144,7 @@
               </widget>
              </item>
              <item row="4" column="0" colspan="2">
-              <widget class="xIndicator" name="LedRaHor" native="true">
+              <widget class="xIndicator" name="LedRaHor">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -9173,21 +9172,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>副臂水平到位-X10 </string>
                </property>
               </widget>
@@ -9260,7 +9259,7 @@
               </widget>
              </item>
              <item row="5" column="0" colspan="2">
-              <widget class="xIndicator" name="LedRaVer" native="true">
+              <widget class="xIndicator" name="LedRaVer">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -9288,21 +9287,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string>副臂垂直到位-X11 </string>
                </property>
               </widget>
@@ -9372,7 +9371,7 @@
               </widget>
              </item>
              <item row="6" column="0">
-              <widget class="xIndicator" name="LedRaAsc" native="true">
+              <widget class="xIndicator" name="LedRaAsc">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -9400,27 +9399,27 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string notr="true">副臂上位 X13 </string>
                </property>
               </widget>
              </item>
              <item row="7" column="0">
-              <widget class="xIndicator" name="LedRaDes" native="true">
+              <widget class="xIndicator" name="LedRaDes">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -9448,21 +9447,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string notr="true">副臂下位 X14 </string>
                </property>
               </widget>
@@ -9532,7 +9531,7 @@
               </widget>
              </item>
              <item row="8" column="0">
-              <widget class="xIndicator" name="LedRaAdv" native="true">
+              <widget class="xIndicator" name="LedRaAdv">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -9560,21 +9559,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string notr="true">副臂前进 X15</string>
                </property>
               </widget>
@@ -9644,7 +9643,7 @@
               </widget>
              </item>
              <item row="9" column="0">
-              <widget class="xIndicator" name="LedRaRet" native="true">
+              <widget class="xIndicator" name="LedRaRet">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -9672,21 +9671,21 @@
                  <bold>false</bold>
                 </font>
                </property>
-               <property name="iconOn" stdset="0">
+               <property name="iconOn">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
                </property>
-               <property name="iconOff" stdset="0">
+               <property name="iconOff">
                 <iconset resource="xPad.qrc">
                  <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
                </property>
-               <property name="iconSize" stdset="0">
+               <property name="iconSize">
                 <size>
                  <width>40</width>
                  <height>40</height>
                 </size>
                </property>
-               <property name="text" stdset="0">
+               <property name="text">
                 <string notr="true">副臂后退 X16</string>
                </property>
               </widget>
@@ -9823,7 +9822,7 @@
            </spacer>
           </item>
           <item row="3" column="0">
-           <widget class="xIndicator" name="LedBeepLed" native="true">
+           <widget class="xIndicator" name="LedBeepLed">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -9851,27 +9850,27 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconOn" stdset="0">
+            <property name="iconOn">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
-            <property name="iconOff" stdset="0">
+            <property name="iconOff">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string notr="true">报警器</string>
             </property>
            </widget>
           </item>
           <item row="2" column="0">
-           <widget class="xIndicator" name="LedAlmLed" native="true">
+           <widget class="xIndicator" name="LedAlmLed">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -9899,27 +9898,27 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconOn" stdset="0">
+            <property name="iconOn">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
-            <property name="iconOff" stdset="0">
+            <property name="iconOff">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string notr="true">报警灯</string>
             </property>
            </widget>
           </item>
           <item row="1" column="0">
-           <widget class="xIndicator" name="LedActLed" native="true">
+           <widget class="xIndicator" name="LedActLed">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -9947,21 +9946,21 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconOn" stdset="0">
+            <property name="iconOn">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
-            <property name="iconOff" stdset="0">
+            <property name="iconOff">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string notr="true">运行灯</string>
             </property>
            </widget>
@@ -11501,6 +11500,11 @@
  </widget>
  <customwidgets>
   <customwidget>
+   <class>xIndicator</class>
+   <extends>QWidget</extends>
+   <header>xindicator.h</header>
+  </customwidget>
+  <customwidget>
    <class>xDoubleSpinBox</class>
    <extends>QDoubleSpinBox</extends>
    <header>xdoublespinbox.h</header>
@@ -11512,11 +11516,6 @@
    <class>xIndicatorButton</class>
    <extends>QPushButton</extends>
    <header>xindicatorbutton.h</header>
-  </customwidget>
-  <customwidget>
-   <class>xIndicator</class>
-   <extends>QWidget</extends>
-   <header>xindicator.h</header>
   </customwidget>
  </customwidgets>
  <resources>

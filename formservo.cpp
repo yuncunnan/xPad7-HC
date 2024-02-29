@@ -1,4 +1,4 @@
-﻿#if defined(Q_WS_QWS)
+#if defined(Q_WS_QWS)
 #include <unistd.h>
 #endif
 #include <QSettings>
@@ -30,6 +30,11 @@
 #define ENCODER_DELTA_A2        3
 #define ENCODER_PANASONIC_A6	4
 #define ENCODER_SINSERVO_SS 	5
+
+#define AxisPA                  0x0000
+#define AxisP3                  0x0100
+#define AxisP4                  0x0200
+#define AxisPS                  0x1000
 
 extern DialogFrame *pDialogMain;
 
@@ -94,6 +99,18 @@ Formservo::Formservo(CMBProtocol *modbus, QWidget *parent) :	QWidget(parent), ui
     pRBtnSVDev->addButton(ui->radioRVerDEV,AXES_IDX_A);
     pRBtnSVDev->addButton(ui->radioRHorDEV,AXES_IDX_B);
     connect(pRBtnSVDev, SIGNAL(buttonClicked(int)), this, SLOT(updataSvDevPara(int)));
+
+    pRBtnSVSelect = new QButtonGroup;
+    pRBtnSVSelect->addButton(ui->radioSelectAxisPA,AxisPA);
+    pRBtnSVSelect->addButton(ui->radioSelectAxisP3,AxisP3);
+    pRBtnSVSelect->addButton(ui->radioSelectAxisP4,AxisP4);
+    pRBtnSVSelect->addButton(ui->radioSelectAxisPS,AxisPS);
+
+    //构造轮询计时器
+    time = new QTimer(this);
+    ReadSVDev = true;
+    ui->radioPower->setEnabled(false);
+    connect(ui->tabWidgetSvDev,SIGNAL(currentChanged(int)),this,SLOT(currentChanged(int)));
 }
 
 Formservo::~Formservo()
@@ -102,6 +119,8 @@ Formservo::~Formservo()
 //	StrDirection.clear();
     delete pBtnPage;
     delete pRBtnSVDev;
+    delete time;
+
 }
 
 void Formservo::changeEvent(QEvent *e)
@@ -1502,9 +1521,9 @@ void Formservo::GetHomeType(uint8_t idx)
     if (idx > MAX_AXIS_NUM) return;
     if(pModbus->GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
     {
-        if(((ServoPara.m_home_mode >> (idx*2)) &3) == 2)
-            m_HomeType[idx]->setCurrentIndex(1); // 每个轴占2位
-        else
+//        if(((ServoPara.m_home_mode >> (idx*2)) &3) == 2)              // 20240228 放开限制
+//            m_HomeType[idx]->setCurrentIndex(1); // 每个轴占2位
+//        else
             m_HomeType[idx]->setCurrentIndex((ServoPara.m_home_mode >> (idx*2)) &3); // 每个轴占2位
     }
     else
@@ -1517,9 +1536,9 @@ void Formservo::SetHomeType(uint8_t idx)
     ServoPara.m_home_mode &= ~(3 <<(idx*2));
     if(pModbus->GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
     {
-        if(m_HomeType[idx]->currentIndex() == 1)//0：不归原点。1：原点加Z。2：原点 。五轴主板特殊处理
-            ServoPara.m_home_mode |= 2<< (idx*2) ;
-        else
+//        if(m_HomeType[idx]->currentIndex() == 1)//0：不归原点。1：原点加Z。2：原点 。五轴主板特殊处理    // 20240228 放开限制
+//            ServoPara.m_home_mode |= 2<< (idx*2) ;
+//        else
             ServoPara.m_home_mode |= m_HomeType[idx]->currentIndex()<< (idx*2) ;
     }
     else
@@ -2164,9 +2183,25 @@ bool Formservo::EnterForm(void)
 //        }
 //    }
     if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_DVS)
-        ui->groupBoxSvDev->setVisible(true);
+    {
+        ui->tabWidgetSvDev->setVisible(true);
+        ui->radioPower->setVisible(true);
+        ui->radioPHorDEV->setVisible(true);
+        ui->radioPVerDEV->setVisible(true);
+        ui->radioTRVDEV->setVisible(true);
+        ui->radioRHorDEV->setVisible(true);
+        ui->radioRVerDEV->setVisible(true);
+    }
     else
-        ui->groupBoxSvDev->setVisible(false);
+    {
+        ui->radioPower->setVisible(false);
+        ui->radioPHorDEV->setVisible(false);
+        ui->radioPVerDEV->setVisible(false);
+        ui->radioTRVDEV->setVisible(false);
+        ui->radioRHorDEV->setVisible(false);
+        ui->radioRVerDEV->setVisible(false);
+        ui->tabWidgetSvDev->setVisible(false);
+    }
     if(CMBProtocol::GetPaHorNotUse())
     {
         ui->radioPHorDEV->setEnabled(false);
@@ -2184,6 +2219,8 @@ bool Formservo::EnterForm(void)
     // 连接信号槽
     connect(pModbus, SIGNAL(signal_InputChange()), this, SLOT(InputMain()));
     connect(this->parent(), SIGNAL(userChange()), this, SLOT(userChange()));
+    connect(time,SIGNAL(timeout()),this,SLOT(QuerySVDev()));
+    time->start(1000);
 	// 显示界面
 //    show();
 	return true;
@@ -2212,6 +2249,8 @@ bool Formservo::ExitForm(void)
 	// 取消信号槽连接
 	disconnect(pModbus, SIGNAL(signal_InputChange()), this, SLOT(InputMain()));
 	disconnect(this->parent(), SIGNAL(userChange()), this, SLOT(userChange()));
+    disconnect(time,SIGNAL(timeout()),this,SLOT(QuerySVDev()));
+
 	// 隐藏界面
 //	hide();
 	return true;
@@ -2434,6 +2473,85 @@ void Formservo::InputHomeSpdSlow(void)
     int value;
     if (numberPad.DoForm(value, ui->BoxHomeSpeedSlow->minimum(), ui->BoxHomeSpeedSlow->maximum()) == QDialog::Accepted)
         ui->BoxHomeSpeedSlow->setValue(value);
+}
+
+void Formservo::InputParaID()
+{
+    DialogNumberPad numberPad;
+    int value;
+    if(ui->radioSelectAxisPS->isChecked())
+    {
+        if (numberPad.DoForm(value, 0, 20) == QDialog::Accepted)
+        {
+            ui->BoxParaID->setValue(value);
+        }
+    }
+    else
+    {
+        if (numberPad.DoForm(value, 0, 255) == QDialog::Accepted)
+        {
+            ui->BoxParaID->setValue(value);
+        }
+    }
+}
+
+void Formservo::InputSetValue()
+{
+    DialogNumberPad numberPad;
+    int value;
+    if (numberPad.DoForm(value, ui->BoxSetValue->minimum(), ui->BoxSetValue->maximum()) == QDialog::Accepted)
+        ui->BoxSetValue->setValue(value);
+}
+
+void Formservo::BtnReadClick()
+{
+    uint16_t adr, data, cmd = 0x0100, servoID;
+    adr = pRBtnSVSelect->checkedId() | ui->BoxParaID->value();
+    data = ui->BoxSetValue->value();
+    servoID = pRBtnSVDev->checkedId();
+    if(pModbus->CommandDVS_CanRtu(adr, data, cmd, servoID) == SENDMSG_RET_ACK)
+        ReadSVDev = false;
+}
+
+void Formservo::BtnWriteClick()
+{
+    uint16_t adr, data, cmd = 0x1000, servoID;
+    adr = pRBtnSVSelect->checkedId() | ui->BoxParaID->value();
+    data = ui->BoxSetValue->value();
+    servoID = pRBtnSVDev->checkedId();
+    if(ui->radioSelectAxisPA->isChecked())
+    {
+        if((adr == (AxisPA|5))||(adr == (AxisPA|6))||(adr == (AxisPA|7))||(adr == (AxisPA|8))||(adr == (AxisPA|9))||(adr == (AxisPA|19))||(adr == (AxisPA|63)))
+        {
+            xMessageBox::DoWarning(tr("系统提示"),tr("常用参数请到常用参数栏设置！"));
+            return;
+        }
+    }
+    pModbus->CommandDVS_CanRtu(adr, data, cmd, servoID);
+}
+
+void Formservo::QuerySVDev()
+{
+    if(!ReadSVDev)
+    {
+        if(pModbus->ReadSDOPara())
+        {
+            ui->BoxCurrentValue->setValue(pModbus->ReadReg16(COMMAND_SDO_RDDATA));
+            ReadSVDev = true;
+        }
+    }
+}
+
+void Formservo::currentChanged(int page)
+{
+    if(ui->tabWidgetSvDev->currentIndex() == 1)
+    {
+        ui->radioPower->setEnabled(true);
+    }
+    else
+    {
+        ui->radioPower->setEnabled(false);
+    }
 }
 
 void Formservo::InputTrvAcc(void)

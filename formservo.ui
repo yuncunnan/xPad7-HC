@@ -50,43 +50,6 @@
    <property name="spacing">
     <number>2</number>
    </property>
-   <item row="0" column="0">
-    <widget class="xPushButton" name="radioSafe">
-     <property name="minimumSize">
-      <size>
-       <width>160</width>
-       <height>70</height>
-      </size>
-     </property>
-     <property name="maximumSize">
-      <size>
-       <width>16777215</width>
-       <height>70</height>
-      </size>
-     </property>
-     <property name="font">
-      <font>
-       <family>微软雅黑</family>
-       <pointsize>-1</pointsize>
-       <weight>50</weight>
-       <italic>false</italic>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="focusPolicy">
-      <enum>Qt::NoFocus</enum>
-     </property>
-     <property name="text">
-      <string>安全区1</string>
-     </property>
-     <property name="checkable">
-      <bool>true</bool>
-     </property>
-     <property name="autoExclusive">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
    <item row="2" column="0" colspan="7">
     <widget class="QFrame" name="frameServo">
      <property name="sizePolicy">
@@ -135,21 +98,8 @@
       <property name="spacing">
        <number>0</number>
       </property>
-      <item row="2" column="0">
-       <spacer name="horizontalSpacer">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>677</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
       <item row="1" column="0">
-       <spacer name="verticalSpacer_9">
+       <spacer name="verticalSpacer_4">
         <property name="orientation">
          <enum>Qt::Vertical</enum>
         </property>
@@ -160,102 +110,6 @@
          </size>
         </property>
        </spacer>
-      </item>
-      <item row="2" column="1">
-       <widget class="xPixmapButton" name="pushButtonOK" native="true">
-        <property name="minimumSize">
-         <size>
-          <width>150</width>
-          <height>70</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>150</width>
-          <height>70</height>
-         </size>
-        </property>
-        <property name="palette">
-         <palette>
-          <active>
-           <colorrole role="ButtonText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>255</red>
-              <green>255</green>
-              <blue>255</blue>
-             </color>
-            </brush>
-           </colorrole>
-          </active>
-          <inactive>
-           <colorrole role="ButtonText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>255</red>
-              <green>255</green>
-              <blue>255</blue>
-             </color>
-            </brush>
-           </colorrole>
-          </inactive>
-          <disabled>
-           <colorrole role="ButtonText">
-            <brush brushstyle="SolidPattern">
-             <color alpha="255">
-              <red>159</red>
-              <green>158</green>
-              <blue>158</blue>
-             </color>
-            </brush>
-           </colorrole>
-          </disabled>
-         </palette>
-        </property>
-        <property name="font">
-         <font>
-          <family>微软雅黑</family>
-          <pointsize>-1</pointsize>
-          <weight>50</weight>
-          <italic>false</italic>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="focusPolicy">
-         <enum>Qt::NoFocus</enum>
-        </property>
-        <property name="text" stdset="0">
-         <string>保存</string>
-        </property>
-        <property name="icon" stdset="0">
-         <iconset resource="xPad.qrc">
-          <normaloff>:/img/32X32/Save.png</normaloff>:/img/32X32/Save.png</iconset>
-        </property>
-        <property name="iconSize" stdset="0">
-         <size>
-          <width>32</width>
-          <height>32</height>
-         </size>
-        </property>
-        <property name="imageNormal" stdset="0">
-         <pixmap resource="xPad.qrc">:/img/widget/BtnBoxNormal.png</pixmap>
-        </property>
-        <property name="imagePress" stdset="0">
-         <pixmap resource="xPad.qrc">:/img/widget/BtnBoxPress.png</pixmap>
-        </property>
-        <property name="borderTop" stdset="0">
-         <number>8</number>
-        </property>
-        <property name="borderRight" stdset="0">
-         <number>8</number>
-        </property>
-        <property name="borderBottom" stdset="0">
-         <number>8</number>
-        </property>
-        <property name="borderLeft" stdset="0">
-         <number>8</number>
-        </property>
-       </widget>
       </item>
       <item row="0" column="0" colspan="2">
        <widget class="QStackedWidget" name="stackedWidget">
@@ -290,7 +144,7 @@
          </font>
         </property>
         <property name="currentIndex">
-         <number>7</number>
+         <number>3</number>
         </property>
         <widget class="QWidget" name="stackedWidgetPage1">
          <layout class="QGridLayout" name="gridLayout_14">
@@ -499,7 +353,7 @@
            </widget>
           </item>
           <item row="4" column="0">
-           <widget class="xIndicator" name="LedSafeOut" native="true">
+           <widget class="xIndicator" name="LedSafeOut">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -527,21 +381,21 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconOn" stdset="0">
+            <property name="iconOn">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
-            <property name="iconOff" stdset="0">
+            <property name="iconOff">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>横行模外安全区域</string>
             </property>
            </widget>
@@ -1001,7 +855,7 @@
            </widget>
           </item>
           <item row="6" column="0">
-           <widget class="xIndicator" name="LedSafeIn2" native="true">
+           <widget class="xIndicator" name="LedSafeIn2">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -1029,27 +883,27 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconOn" stdset="0">
+            <property name="iconOn">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
-            <property name="iconOff" stdset="0">
+            <property name="iconOff">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>副臂横行模内安全区域</string>
             </property>
            </widget>
           </item>
           <item row="8" column="0">
-           <widget class="xIndicator" name="labelTrvWaitPos" native="true">
+           <widget class="xIndicator" name="labelTrvWaitPos">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -1077,13 +931,13 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>横行轴原点复归后待机位置</string>
             </property>
            </widget>
@@ -1136,7 +990,7 @@
            </widget>
           </item>
           <item row="7" column="0">
-           <widget class="xIndicator" name="LedSafeOut2" native="true">
+           <widget class="xIndicator" name="LedSafeOut2">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -1164,21 +1018,21 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconOn" stdset="0">
+            <property name="iconOn">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
-            <property name="iconOff" stdset="0">
+            <property name="iconOff">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>横行轴外安全区域2</string>
             </property>
            </widget>
@@ -1312,7 +1166,7 @@
            </widget>
           </item>
           <item row="5" column="0">
-           <widget class="xIndicator" name="LedSafeIn" native="true">
+           <widget class="xIndicator" name="LedSafeIn">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -1340,27 +1194,27 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconOn" stdset="0">
+            <property name="iconOn">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
-            <property name="iconOff" stdset="0">
+            <property name="iconOff">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>正臂横行模内安全区域</string>
             </property>
            </widget>
           </item>
           <item row="2" column="0">
-           <widget class="xIndicator" name="labelPaSafeHor" native="true">
+           <widget class="xIndicator" name="labelPaSafeHor">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -1388,13 +1242,13 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>正臂引拔模内安全区域</string>
             </property>
            </widget>
@@ -1434,7 +1288,7 @@
            </widget>
           </item>
           <item row="1" column="0">
-           <widget class="xIndicator" name="LedSafePaUp" native="true">
+           <widget class="xIndicator" name="LedSafePaUp">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -1462,21 +1316,21 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconOn" stdset="0">
+            <property name="iconOn">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
-            <property name="iconOff" stdset="0">
+            <property name="iconOff">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>正臂上行位置安全区域</string>
             </property>
            </widget>
@@ -1546,7 +1400,7 @@
            </widget>
           </item>
           <item row="3" column="0">
-           <widget class="xIndicator" name="LedSafePaHor" native="true">
+           <widget class="xIndicator" name="LedSafePaHor">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -1574,13 +1428,13 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>正臂引拔横行安全区域</string>
             </property>
            </widget>
@@ -2127,7 +1981,7 @@
            </widget>
           </item>
           <item row="4" column="0" colspan="2">
-           <widget class="xIndicator" name="LedSafeRot" native="true">
+           <widget class="xIndicator" name="LedSafeRot">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -2155,13 +2009,13 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>副臂上下(倒角)模内安全区域</string>
             </property>
            </widget>
@@ -2295,7 +2149,7 @@
            </widget>
           </item>
           <item row="5" column="0" colspan="2">
-           <widget class="xIndicator" name="LedSafeTrv" native="true">
+           <widget class="xIndicator" name="LedSafeTrv">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -2323,13 +2177,13 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>副臂上下(倒角)横行安全区域</string>
             </property>
            </widget>
@@ -2766,7 +2620,7 @@
            </widget>
           </item>
           <item row="1" column="0" colspan="2">
-           <widget class="xIndicator" name="LedSafeRaUp" native="true">
+           <widget class="xIndicator" name="LedSafeRaUp">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -2794,27 +2648,27 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconOn" stdset="0">
+            <property name="iconOn">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
-            <property name="iconOff" stdset="0">
+            <property name="iconOff">
              <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>副臂上行位置安全区域</string>
             </property>
            </widget>
           </item>
           <item row="2" column="0" colspan="2">
-           <widget class="xIndicator" name="labelRaSafeHor" native="true">
+           <widget class="xIndicator" name="labelRaSafeHor">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -2842,19 +2696,19 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>副臂引拔模内安全区域</string>
             </property>
            </widget>
           </item>
           <item row="3" column="0" colspan="2">
-           <widget class="xIndicator" name="LedSafeRaHor" native="true">
+           <widget class="xIndicator" name="LedSafeRaHor">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -2882,19 +2736,19 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>副臂引拔横行安全区域</string>
             </property>
            </widget>
           </item>
           <item row="6" column="0" colspan="2">
-           <widget class="xIndicator" name="LedSafeExtMold" native="true">
+           <widget class="xIndicator" name="LedSafeExtMold">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -2922,19 +2776,19 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>扩展轴模内安全区域</string>
             </property>
            </widget>
           </item>
           <item row="7" column="0" colspan="2">
-           <widget class="xIndicator" name="LedSafeExt" native="true">
+           <widget class="xIndicator" name="LedSafeExt">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -2962,13 +2816,13 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="iconSize" stdset="0">
+            <property name="iconSize">
              <size>
               <width>40</width>
               <height>40</height>
              </size>
             </property>
-            <property name="text" stdset="0">
+            <property name="text">
              <string>扩展轴横行安全区域</string>
             </property>
            </widget>
@@ -14092,183 +13946,8 @@
          </layout>
         </widget>
         <widget class="QWidget" name="stackedWidgetPage10">
-         <layout class="QGridLayout" name="gridLayout_18">
-          <item row="0" column="0">
-           <widget class="QGroupBox" name="groupBoxHome">
-            <property name="font">
-             <font>
-              <family>微软雅黑</family>
-              <pointsize>-1</pointsize>
-              <weight>50</weight>
-              <italic>false</italic>
-              <bold>false</bold>
-             </font>
-            </property>
-            <property name="layoutDirection">
-             <enum>Qt::LeftToRight</enum>
-            </property>
-            <property name="title">
-             <string>原点快速速度</string>
-            </property>
-            <widget class="xSpinBox" name="BoxHomeSpeed">
-             <property name="geometry">
-              <rect>
-               <x>85</x>
-               <y>36</y>
-               <width>250</width>
-               <height>50</height>
-              </rect>
-             </property>
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="minimumSize">
-              <size>
-               <width>250</width>
-               <height>50</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>250</width>
-               <height>50</height>
-              </size>
-             </property>
-             <property name="font">
-              <font>
-               <family>微软雅黑</family>
-               <pointsize>-1</pointsize>
-               <weight>50</weight>
-               <italic>false</italic>
-               <bold>false</bold>
-              </font>
-             </property>
-             <property name="focusPolicy">
-              <enum>Qt::ClickFocus</enum>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-             </property>
-             <property name="buttonSymbols">
-              <enum>QAbstractSpinBox::NoButtons</enum>
-             </property>
-             <property name="specialValueText">
-              <string notr="true"/>
-             </property>
-             <property name="keyboardTracking">
-              <bool>false</bool>
-             </property>
-             <property name="suffix">
-              <string notr="true">%</string>
-             </property>
-             <property name="prefix">
-              <string extracomment="伺服位置的前缀，翻译时注意长度，要缩写！"/>
-             </property>
-             <property name="minimum">
-              <number>1</number>
-             </property>
-             <property name="maximum">
-              <number>10</number>
-             </property>
-             <property name="value">
-              <number>10</number>
-             </property>
-             <property name="HasBtn" stdset="0">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </widget>
-          </item>
-          <item row="0" column="1">
-           <widget class="QGroupBox" name="groupBoxHome2">
-            <property name="font">
-             <font>
-              <family>微软雅黑</family>
-              <pointsize>-1</pointsize>
-              <weight>50</weight>
-              <italic>false</italic>
-              <bold>false</bold>
-             </font>
-            </property>
-            <property name="title">
-             <string>原点慢速速度</string>
-            </property>
-            <widget class="xSpinBox" name="BoxHomeSpeedSlow">
-             <property name="geometry">
-              <rect>
-               <x>120</x>
-               <y>36</y>
-               <width>250</width>
-               <height>50</height>
-              </rect>
-             </property>
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
-             </property>
-             <property name="minimumSize">
-              <size>
-               <width>250</width>
-               <height>50</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>250</width>
-               <height>50</height>
-              </size>
-             </property>
-             <property name="font">
-              <font>
-               <family>微软雅黑</family>
-               <pointsize>-1</pointsize>
-               <weight>50</weight>
-               <italic>false</italic>
-               <bold>false</bold>
-              </font>
-             </property>
-             <property name="focusPolicy">
-              <enum>Qt::ClickFocus</enum>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-             </property>
-             <property name="buttonSymbols">
-              <enum>QAbstractSpinBox::NoButtons</enum>
-             </property>
-             <property name="specialValueText">
-              <string notr="true"/>
-             </property>
-             <property name="keyboardTracking">
-              <bool>false</bool>
-             </property>
-             <property name="suffix">
-              <string notr="true">%</string>
-             </property>
-             <property name="prefix">
-              <string extracomment="伺服位置的前缀，翻译时注意长度，要缩写！"/>
-             </property>
-             <property name="minimum">
-              <number>1</number>
-             </property>
-             <property name="maximum">
-              <number>5</number>
-             </property>
-             <property name="value">
-              <number>5</number>
-             </property>
-             <property name="HasBtn" stdset="0">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </widget>
-          </item>
-          <item row="1" column="0" colspan="2">
+         <layout class="QGridLayout" name="gridLayout_26">
+          <item row="1" column="0" colspan="4">
            <widget class="QGroupBox" name="groupBoxEncoder">
             <property name="font">
              <font>
@@ -14283,74 +13962,21 @@
              <string>绝对值编码器</string>
             </property>
             <layout class="QGridLayout" name="gridLayout_13">
-             <property name="margin">
+             <property name="leftMargin">
               <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>9</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>9</number>
              </property>
              <property name="spacing">
               <number>0</number>
              </property>
-             <item row="2" column="2">
-              <widget class="QPushButton" name="SetHomeEncoder">
-               <property name="minimumSize">
-                <size>
-                 <width>150</width>
-                 <height>70</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>250</width>
-                 <height>70</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>设置编码器原点</string>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="2">
-              <widget class="QCheckBox" name="cBExtEncoder">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>180</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>16777215</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>扩展轴</string>
-               </property>
-              </widget>
-             </item>
              <item row="0" column="2">
               <widget class="QCheckBox" name="cBTrvEncoder">
                <property name="sizePolicy">
@@ -14382,6 +14008,34 @@
                </property>
                <property name="text">
                 <string>横行轴</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2">
+              <widget class="QPushButton" name="SetHomeEncoder">
+               <property name="minimumSize">
+                <size>
+                 <width>150</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>250</width>
+                 <height>70</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <pointsize>-1</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>设置编码器原点</string>
                </property>
               </widget>
              </item>
@@ -14419,8 +14073,8 @@
                </property>
               </widget>
              </item>
-             <item row="1" column="1">
-              <widget class="QCheckBox" name="cBRaVerEncoder">
+             <item row="1" column="2">
+              <widget class="QCheckBox" name="cBExtEncoder">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -14449,7 +14103,7 @@
                 </font>
                </property>
                <property name="text">
-                <string>副上下轴</string>
+                <string>扩展轴</string>
                </property>
               </widget>
              </item>
@@ -14493,6 +14147,40 @@
                 </size>
                </property>
               </spacer>
+             </item>
+             <item row="1" column="1">
+              <widget class="QCheckBox" name="cBRaVerEncoder">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>180</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <pointsize>-1</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>副上下轴</string>
+               </property>
+              </widget>
              </item>
              <item row="0" column="1">
               <widget class="QCheckBox" name="cBPaVerEncoder">
@@ -14565,8 +14253,8 @@
             </layout>
            </widget>
           </item>
-          <item row="2" column="0" colspan="2">
-           <widget class="QGroupBox" name="groupBoxSvDev">
+          <item row="0" column="2" colspan="2">
+           <widget class="QGroupBox" name="groupBoxHome2">
             <property name="font">
              <font>
               <family>微软雅黑</family>
@@ -14576,131 +14264,18 @@
               <bold>false</bold>
              </font>
             </property>
-            <property name="title">
-             <string>驱动器参数</string>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
             </property>
-            <layout class="QGridLayout" name="gridLayout_19">
+            <property name="title">
+             <string>原点快速速度</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_27">
+             <property name="horizontalSpacing">
+              <number>7</number>
+             </property>
              <item row="0" column="1">
-              <widget class="QLabel" name="label_PA5">
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>PA5速度环比例增益</string>
-               </property>
-              </widget>
-             </item>
-             <item row="0" column="0" rowspan="7">
-              <layout class="QVBoxLayout" name="verticalLayout">
-               <item>
-                <widget class="QRadioButton" name="radioPHorDEV">
-                 <property name="font">
-                  <font>
-                   <family>微软雅黑</family>
-                   <pointsize>-1</pointsize>
-                   <weight>50</weight>
-                   <italic>false</italic>
-                   <bold>false</bold>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>PaHor</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QRadioButton" name="radioPVerDEV">
-                 <property name="font">
-                  <font>
-                   <family>微软雅黑</family>
-                   <pointsize>-1</pointsize>
-                   <weight>50</weight>
-                   <italic>false</italic>
-                   <bold>false</bold>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>PaVer</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QRadioButton" name="radioTRVDEV">
-                 <property name="font">
-                  <font>
-                   <family>微软雅黑</family>
-                   <pointsize>-1</pointsize>
-                   <weight>50</weight>
-                   <italic>false</italic>
-                   <bold>false</bold>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>Trv</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QRadioButton" name="radioRHorDEV">
-                 <property name="font">
-                  <font>
-                   <family>微软雅黑</family>
-                   <pointsize>-1</pointsize>
-                   <weight>50</weight>
-                   <italic>false</italic>
-                   <bold>false</bold>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>RaHor</string>
-                 </property>
-                </widget>
-               </item>
-               <item>
-                <widget class="QRadioButton" name="radioRVerDEV">
-                 <property name="font">
-                  <font>
-                   <family>微软雅黑</family>
-                   <pointsize>-1</pointsize>
-                   <weight>50</weight>
-                   <italic>false</italic>
-                   <bold>false</bold>
-                  </font>
-                 </property>
-                 <property name="text">
-                  <string>RaVer</string>
-                 </property>
-                </widget>
-               </item>
-              </layout>
-             </item>
-             <item row="1" column="1">
-              <widget class="QLabel" name="label_PA6">
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>PA6速度积分常数</string>
-               </property>
-              </widget>
-             </item>
-             <item row="1" column="2">
-              <widget class="xSpinBox" name="BoxPA6_DEV">
+              <widget class="xSpinBox" name="BoxHomeSpeedSlow">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -14744,497 +14319,1526 @@
                 <bool>false</bool>
                </property>
                <property name="suffix">
-                <string notr="true"/>
+                <string notr="true">%</string>
                </property>
                <property name="prefix">
-                <string/>
+                <string extracomment="伺服位置的前缀，翻译时注意长度，要缩写！"/>
                </property>
                <property name="minimum">
                 <number>1</number>
                </property>
                <property name="maximum">
-                <number>3000</number>
+                <number>10</number>
                </property>
                <property name="value">
-                <number>1</number>
+                <number>10</number>
                </property>
                <property name="HasBtn" stdset="0">
                 <bool>true</bool>
                </property>
               </widget>
              </item>
-             <item row="0" column="2">
-              <widget class="xSpinBox" name="BoxPA5_DEV">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
+             <item row="0" column="0">
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
                </property>
-               <property name="minimumSize">
+               <property name="sizeHint" stdset="0">
                 <size>
-                 <width>250</width>
-                 <height>50</height>
+                 <width>40</width>
+                 <height>20</height>
                 </size>
                </property>
-               <property name="maximumSize">
-                <size>
-                 <width>250</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="focusPolicy">
-                <enum>Qt::ClickFocus</enum>
-               </property>
-               <property name="alignment">
-                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-               </property>
-               <property name="buttonSymbols">
-                <enum>QAbstractSpinBox::NoButtons</enum>
-               </property>
-               <property name="specialValueText">
-                <string notr="true"/>
-               </property>
-               <property name="keyboardTracking">
-                <bool>false</bool>
-               </property>
-               <property name="suffix">
-                <string notr="true"/>
-               </property>
-               <property name="prefix">
-                <string/>
-               </property>
-               <property name="minimum">
-                <number>5</number>
-               </property>
-               <property name="maximum">
-                <number>2000</number>
-               </property>
-               <property name="value">
-                <number>5</number>
-               </property>
-               <property name="HasBtn" stdset="0">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="2">
-              <widget class="xSpinBox" name="BoxPA8_DEV">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>250</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>250</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="focusPolicy">
-                <enum>Qt::ClickFocus</enum>
-               </property>
-               <property name="alignment">
-                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-               </property>
-               <property name="buttonSymbols">
-                <enum>QAbstractSpinBox::NoButtons</enum>
-               </property>
-               <property name="specialValueText">
-                <string notr="true"/>
-               </property>
-               <property name="keyboardTracking">
-                <bool>false</bool>
-               </property>
-               <property name="suffix">
-                <string notr="true"/>
-               </property>
-               <property name="prefix">
-                <string/>
-               </property>
-               <property name="minimum">
-                <number>20</number>
-               </property>
-               <property name="maximum">
-                <number>500</number>
-               </property>
-               <property name="value">
-                <number>20</number>
-               </property>
-               <property name="HasBtn" stdset="0">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="1">
-              <widget class="QLabel" name="label_PA7">
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>PA7转矩滤波器</string>
-               </property>
-              </widget>
-             </item>
-             <item row="3" column="1">
-              <widget class="QLabel" name="label_PA8">
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>PA8速度检测滤波器</string>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="2">
-              <widget class="xSpinBox" name="BoxPA9_DEV">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>250</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>250</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="focusPolicy">
-                <enum>Qt::ClickFocus</enum>
-               </property>
-               <property name="alignment">
-                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-               </property>
-               <property name="buttonSymbols">
-                <enum>QAbstractSpinBox::NoButtons</enum>
-               </property>
-               <property name="specialValueText">
-                <string notr="true"/>
-               </property>
-               <property name="keyboardTracking">
-                <bool>false</bool>
-               </property>
-               <property name="suffix">
-                <string notr="true"/>
-               </property>
-               <property name="prefix">
-                <string/>
-               </property>
-               <property name="minimum">
-                <number>0</number>
-               </property>
-               <property name="maximum">
-                <number>1000</number>
-               </property>
-               <property name="value">
-                <number>1</number>
-               </property>
-               <property name="HasBtn" stdset="0">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="1">
-              <widget class="QLabel" name="label_PA19">
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>PA19位置平滑滤波</string>
-               </property>
-              </widget>
-             </item>
-             <item row="4" column="1">
-              <widget class="QLabel" name="label_PA9">
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>PA9位置比例增益</string>
-               </property>
-              </widget>
-             </item>
-             <item row="5" column="2">
-              <widget class="xSpinBox" name="BoxPA19_DEV">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>250</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>250</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="focusPolicy">
-                <enum>Qt::ClickFocus</enum>
-               </property>
-               <property name="alignment">
-                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-               </property>
-               <property name="buttonSymbols">
-                <enum>QAbstractSpinBox::NoButtons</enum>
-               </property>
-               <property name="specialValueText">
-                <string notr="true"/>
-               </property>
-               <property name="keyboardTracking">
-                <bool>false</bool>
-               </property>
-               <property name="suffix">
-                <string notr="true"/>
-               </property>
-               <property name="prefix">
-                <string/>
-               </property>
-               <property name="minimum">
-                <number>5</number>
-               </property>
-               <property name="maximum">
-                <number>2000</number>
-               </property>
-               <property name="value">
-                <number>5</number>
-               </property>
-               <property name="HasBtn" stdset="0">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="1">
-              <widget class="QLabel" name="label_PA63">
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="text">
-                <string>PA63负载惯量比</string>
-               </property>
-              </widget>
-             </item>
-             <item row="6" column="2">
-              <widget class="xSpinBox" name="BoxPA63_DEV">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>250</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>250</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="focusPolicy">
-                <enum>Qt::ClickFocus</enum>
-               </property>
-               <property name="alignment">
-                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-               </property>
-               <property name="buttonSymbols">
-                <enum>QAbstractSpinBox::NoButtons</enum>
-               </property>
-               <property name="specialValueText">
-                <string notr="true"/>
-               </property>
-               <property name="keyboardTracking">
-                <bool>false</bool>
-               </property>
-               <property name="suffix">
-                <string notr="true"/>
-               </property>
-               <property name="prefix">
-                <string/>
-               </property>
-               <property name="minimum">
-                <number>1</number>
-               </property>
-               <property name="maximum">
-                <number>500</number>
-               </property>
-               <property name="value">
-                <number>1</number>
-               </property>
-               <property name="HasBtn" stdset="0">
-                <bool>true</bool>
-               </property>
-              </widget>
-             </item>
-             <item row="2" column="2">
-              <widget class="xSpinBox" name="BoxPA7_DEV">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>250</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>250</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="focusPolicy">
-                <enum>Qt::ClickFocus</enum>
-               </property>
-               <property name="alignment">
-                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-               </property>
-               <property name="buttonSymbols">
-                <enum>QAbstractSpinBox::NoButtons</enum>
-               </property>
-               <property name="specialValueText">
-                <string notr="true"/>
-               </property>
-               <property name="keyboardTracking">
-                <bool>false</bool>
-               </property>
-               <property name="suffix">
-                <string notr="true"/>
-               </property>
-               <property name="prefix">
-                <string/>
-               </property>
-               <property name="minimum">
-                <number>20</number>
-               </property>
-               <property name="maximum">
-                <number>500</number>
-               </property>
-               <property name="value">
-                <number>20</number>
-               </property>
-               <property name="HasBtn" stdset="0">
-                <bool>true</bool>
-               </property>
-              </widget>
+              </spacer>
              </item>
             </layout>
            </widget>
+          </item>
+          <item row="0" column="0" colspan="2">
+           <widget class="QGroupBox" name="groupBoxHome">
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="title">
+             <string>原点快速速度</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_25">
+             <property name="horizontalSpacing">
+              <number>7</number>
+             </property>
+             <item row="0" column="1">
+              <widget class="xSpinBox" name="BoxHomeSpeed">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>250</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>250</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <pointsize>-1</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::ClickFocus</enum>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+               </property>
+               <property name="buttonSymbols">
+                <enum>QAbstractSpinBox::NoButtons</enum>
+               </property>
+               <property name="specialValueText">
+                <string notr="true"/>
+               </property>
+               <property name="keyboardTracking">
+                <bool>false</bool>
+               </property>
+               <property name="suffix">
+                <string notr="true">%</string>
+               </property>
+               <property name="prefix">
+                <string extracomment="伺服位置的前缀，翻译时注意长度，要缩写！"/>
+               </property>
+               <property name="minimum">
+                <number>1</number>
+               </property>
+               <property name="maximum">
+                <number>10</number>
+               </property>
+               <property name="value">
+                <number>10</number>
+               </property>
+               <property name="HasBtn" stdset="0">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <layout class="QGridLayout" name="gridLayout_18">
+            <item row="0" column="0">
+             <widget class="QRadioButton" name="radioPHorDEV">
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>PaHor</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QRadioButton" name="radioPVerDEV">
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>PaVer</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QRadioButton" name="radioTRVDEV">
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Trv</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QRadioButton" name="radioRHorDEV">
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>RaHor</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QRadioButton" name="radioRVerDEV">
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>RaVer</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="0">
+             <widget class="QRadioButton" name="radioPower">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>微软雅黑</family>
+                <pointsize>-1</pointsize>
+                <weight>50</weight>
+                <italic>false</italic>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>电源</string>
+              </property>
+              <property name="checked">
+               <bool>false</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item row="3" column="1" colspan="3">
+           <widget class="QTabWidget" name="tabWidgetSvDev">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <family>微软雅黑</family>
+              <pointsize>-1</pointsize>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <widget class="QWidget" name="tabWidgetSvDevPage1">
+             <attribute name="title">
+              <string>常用参数</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_19">
+              <item row="4" column="2">
+               <widget class="xSpinBox" name="BoxPA9_DEV">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::ClickFocus</enum>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="specialValueText">
+                 <string notr="true"/>
+                </property>
+                <property name="keyboardTracking">
+                 <bool>false</bool>
+                </property>
+                <property name="suffix">
+                 <string notr="true"/>
+                </property>
+                <property name="prefix">
+                 <string/>
+                </property>
+                <property name="minimum">
+                 <number>0</number>
+                </property>
+                <property name="maximum">
+                 <number>1000</number>
+                </property>
+                <property name="value">
+                 <number>1</number>
+                </property>
+                <property name="HasBtn" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
+               <widget class="QLabel" name="label_PA19">
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>PA19位置平滑滤波</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="2">
+               <widget class="xSpinBox" name="BoxPA19_DEV">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::ClickFocus</enum>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="specialValueText">
+                 <string notr="true"/>
+                </property>
+                <property name="keyboardTracking">
+                 <bool>false</bool>
+                </property>
+                <property name="suffix">
+                 <string notr="true"/>
+                </property>
+                <property name="prefix">
+                 <string/>
+                </property>
+                <property name="minimum">
+                 <number>5</number>
+                </property>
+                <property name="maximum">
+                 <number>2000</number>
+                </property>
+                <property name="value">
+                 <number>5</number>
+                </property>
+                <property name="HasBtn" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="xSpinBox" name="BoxPA7_DEV">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::ClickFocus</enum>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="specialValueText">
+                 <string notr="true"/>
+                </property>
+                <property name="keyboardTracking">
+                 <bool>false</bool>
+                </property>
+                <property name="suffix">
+                 <string notr="true"/>
+                </property>
+                <property name="prefix">
+                 <string/>
+                </property>
+                <property name="minimum">
+                 <number>20</number>
+                </property>
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="value">
+                 <number>20</number>
+                </property>
+                <property name="HasBtn" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="1">
+               <widget class="QLabel" name="label_PA63">
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>PA63负载惯量比</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="2">
+               <widget class="xSpinBox" name="BoxPA8_DEV">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::ClickFocus</enum>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="specialValueText">
+                 <string notr="true"/>
+                </property>
+                <property name="keyboardTracking">
+                 <bool>false</bool>
+                </property>
+                <property name="suffix">
+                 <string notr="true"/>
+                </property>
+                <property name="prefix">
+                 <string/>
+                </property>
+                <property name="minimum">
+                 <number>20</number>
+                </property>
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="value">
+                 <number>20</number>
+                </property>
+                <property name="HasBtn" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="1">
+               <widget class="QLabel" name="label_PA7">
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>PA7转矩滤波器</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QLabel" name="label_PA9">
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>PA9位置比例增益</string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="2">
+               <widget class="xSpinBox" name="BoxPA63_DEV">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::ClickFocus</enum>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="specialValueText">
+                 <string notr="true"/>
+                </property>
+                <property name="keyboardTracking">
+                 <bool>false</bool>
+                </property>
+                <property name="suffix">
+                 <string notr="true"/>
+                </property>
+                <property name="prefix">
+                 <string/>
+                </property>
+                <property name="minimum">
+                 <number>1</number>
+                </property>
+                <property name="maximum">
+                 <number>500</number>
+                </property>
+                <property name="value">
+                 <number>1</number>
+                </property>
+                <property name="HasBtn" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QLabel" name="label_PA8">
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>PA8速度检测滤波器</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="2">
+               <widget class="xSpinBox" name="BoxPA5_DEV">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::ClickFocus</enum>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="specialValueText">
+                 <string notr="true"/>
+                </property>
+                <property name="keyboardTracking">
+                 <bool>false</bool>
+                </property>
+                <property name="suffix">
+                 <string notr="true"/>
+                </property>
+                <property name="prefix">
+                 <string/>
+                </property>
+                <property name="minimum">
+                 <number>5</number>
+                </property>
+                <property name="maximum">
+                 <number>2000</number>
+                </property>
+                <property name="value">
+                 <number>5</number>
+                </property>
+                <property name="HasBtn" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="label_PA6">
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>PA6速度积分常数</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLabel" name="label_PA5">
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>PA5速度环比例增益</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="xSpinBox" name="BoxPA6_DEV">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::ClickFocus</enum>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="specialValueText">
+                 <string notr="true"/>
+                </property>
+                <property name="keyboardTracking">
+                 <bool>false</bool>
+                </property>
+                <property name="suffix">
+                 <string notr="true"/>
+                </property>
+                <property name="prefix">
+                 <string/>
+                </property>
+                <property name="minimum">
+                 <number>1</number>
+                </property>
+                <property name="maximum">
+                 <number>3000</number>
+                </property>
+                <property name="value">
+                 <number>1</number>
+                </property>
+                <property name="HasBtn" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="tab">
+             <attribute name="title">
+              <string>其他参数</string>
+             </attribute>
+             <layout class="QGridLayout" name="gridLayout_20">
+              <item row="0" column="0">
+               <widget class="QRadioButton" name="radioSelectAxisPA">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>180</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>PA-</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1" colspan="2">
+               <widget class="QRadioButton" name="radioSelectAxisP3">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>180</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>P3-</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="3">
+               <widget class="QRadioButton" name="radioSelectAxisP4">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>180</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>P4-</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="4">
+               <widget class="QRadioButton" name="radioSelectAxisPS">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>180</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>PS-</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0" colspan="2">
+               <widget class="QLabel" name="labelParaID">
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>参数地址</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2" colspan="2">
+               <widget class="xSpinBox" name="BoxParaID">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::ClickFocus</enum>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="specialValueText">
+                 <string notr="true"/>
+                </property>
+                <property name="keyboardTracking">
+                 <bool>false</bool>
+                </property>
+                <property name="suffix">
+                 <string notr="true"/>
+                </property>
+                <property name="prefix">
+                 <string extracomment="伺服位置的前缀，翻译时注意长度，要缩写！"/>
+                </property>
+                <property name="minimum">
+                 <number>0</number>
+                </property>
+                <property name="maximum">
+                 <number>255</number>
+                </property>
+                <property name="value">
+                 <number>0</number>
+                </property>
+                <property name="HasBtn" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0" colspan="2">
+               <widget class="QLabel" name="labelCurrentValue">
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>当前值</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2" colspan="2">
+               <widget class="xSpinBox" name="BoxCurrentValue">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::ClickFocus</enum>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="specialValueText">
+                 <string notr="true"/>
+                </property>
+                <property name="keyboardTracking">
+                 <bool>false</bool>
+                </property>
+                <property name="suffix">
+                 <string notr="true"/>
+                </property>
+                <property name="prefix">
+                 <string extracomment="伺服位置的前缀，翻译时注意长度，要缩写！"/>
+                </property>
+                <property name="minimum">
+                 <number>0</number>
+                </property>
+                <property name="maximum">
+                 <number>65535</number>
+                </property>
+                <property name="value">
+                 <number>0</number>
+                </property>
+                <property name="HasBtn" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="0" colspan="2">
+               <widget class="QLabel" name="labelSetValue">
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>设定值</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="2" colspan="2">
+               <widget class="xSpinBox" name="BoxSetValue">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="focusPolicy">
+                 <enum>Qt::ClickFocus</enum>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                </property>
+                <property name="buttonSymbols">
+                 <enum>QAbstractSpinBox::NoButtons</enum>
+                </property>
+                <property name="specialValueText">
+                 <string notr="true"/>
+                </property>
+                <property name="keyboardTracking">
+                 <bool>false</bool>
+                </property>
+                <property name="suffix">
+                 <string notr="true"/>
+                </property>
+                <property name="prefix">
+                 <string extracomment="伺服位置的前缀，翻译时注意长度，要缩写！"/>
+                </property>
+                <property name="minimum">
+                 <number>0</number>
+                </property>
+                <property name="maximum">
+                 <number>65535</number>
+                </property>
+                <property name="value">
+                 <number>0</number>
+                </property>
+                <property name="HasBtn" stdset="0">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0" colspan="2">
+               <widget class="QPushButton" name="BtnRead">
+                <property name="minimumSize">
+                 <size>
+                  <width>150</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>读取</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2" colspan="2">
+               <widget class="QPushButton" name="BtnWrite">
+                <property name="minimumSize">
+                 <size>
+                  <width>150</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>250</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>微软雅黑</family>
+                  <pointsize>-1</pointsize>
+                  <weight>50</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>写入</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <spacer name="verticalSpacer_11">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
           </item>
          </layout>
         </widget>
        </widget>
       </item>
+      <item row="3" column="1">
+       <widget class="xPixmapButton" name="pushButtonOK">
+        <property name="minimumSize">
+         <size>
+          <width>150</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>150</width>
+          <height>70</height>
+         </size>
+        </property>
+        <property name="palette">
+         <palette>
+          <active>
+           <colorrole role="ButtonText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+          </active>
+          <inactive>
+           <colorrole role="ButtonText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>255</red>
+              <green>255</green>
+              <blue>255</blue>
+             </color>
+            </brush>
+           </colorrole>
+          </inactive>
+          <disabled>
+           <colorrole role="ButtonText">
+            <brush brushstyle="SolidPattern">
+             <color alpha="255">
+              <red>159</red>
+              <green>158</green>
+              <blue>158</blue>
+             </color>
+            </brush>
+           </colorrole>
+          </disabled>
+         </palette>
+        </property>
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>-1</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="text">
+         <string>保存</string>
+        </property>
+        <property name="icon">
+         <iconset resource="xPad.qrc">
+          <normaloff>:/img/32X32/Save.png</normaloff>:/img/32X32/Save.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
+        </property>
+        <property name="imageNormal">
+         <pixmap resource="xPad.qrc">:/img/widget/BtnBoxNormal.png</pixmap>
+        </property>
+        <property name="imagePress">
+         <pixmap resource="xPad.qrc">:/img/widget/BtnBoxPress.png</pixmap>
+        </property>
+        <property name="borderTop">
+         <number>8</number>
+        </property>
+        <property name="borderRight">
+         <number>8</number>
+        </property>
+        <property name="borderBottom">
+         <number>8</number>
+        </property>
+        <property name="borderLeft">
+         <number>8</number>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <spacer name="verticalSpacer_9">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
      </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="xPushButton" name="radioSafe">
+     <property name="minimumSize">
+      <size>
+       <width>160</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>安全区1</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="xPushButton" name="radioSafe2">
+     <property name="minimumSize">
+      <size>
+       <width>160</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>安全区2</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="4">
+    <widget class="xPushButton" name="radioPaHor">
+     <property name="minimumSize">
+      <size>
+       <width>160</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>微软雅黑</family>
+       <pointsize>-1</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string>正引拔轴</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
     </widget>
    </item>
    <item row="1" column="5">
@@ -15274,8 +15878,8 @@
      </property>
     </widget>
    </item>
-   <item row="1" column="4">
-    <widget class="xPushButton" name="radioExt">
+   <item row="0" column="5">
+    <widget class="xPushButton" name="radioPaVer">
      <property name="minimumSize">
       <size>
        <width>160</width>
@@ -15301,7 +15905,7 @@
       <enum>Qt::NoFocus</enum>
      </property>
      <property name="text">
-      <string>扩展轴</string>
+      <string>正上下轴</string>
      </property>
      <property name="checkable">
       <bool>true</bool>
@@ -15385,8 +15989,8 @@
      </property>
     </widget>
    </item>
-   <item row="1" column="0">
-    <widget class="xPushButton" name="radioTrv">
+   <item row="1" column="4">
+    <widget class="xPushButton" name="radioExt">
      <property name="minimumSize">
       <size>
        <width>160</width>
@@ -15412,81 +16016,7 @@
       <enum>Qt::NoFocus</enum>
      </property>
      <property name="text">
-      <string>横行轴</string>
-     </property>
-     <property name="checkable">
-      <bool>true</bool>
-     </property>
-     <property name="autoExclusive">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item row="0" column="5">
-    <widget class="xPushButton" name="radioPaVer">
-     <property name="minimumSize">
-      <size>
-       <width>160</width>
-       <height>70</height>
-      </size>
-     </property>
-     <property name="maximumSize">
-      <size>
-       <width>16777215</width>
-       <height>70</height>
-      </size>
-     </property>
-     <property name="font">
-      <font>
-       <family>微软雅黑</family>
-       <pointsize>-1</pointsize>
-       <weight>50</weight>
-       <italic>false</italic>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="focusPolicy">
-      <enum>Qt::NoFocus</enum>
-     </property>
-     <property name="text">
-      <string>正上下轴</string>
-     </property>
-     <property name="checkable">
-      <bool>true</bool>
-     </property>
-     <property name="autoExclusive">
-      <bool>true</bool>
-     </property>
-    </widget>
-   </item>
-   <item row="0" column="4">
-    <widget class="xPushButton" name="radioPaHor">
-     <property name="minimumSize">
-      <size>
-       <width>160</width>
-       <height>70</height>
-      </size>
-     </property>
-     <property name="maximumSize">
-      <size>
-       <width>16777215</width>
-       <height>70</height>
-      </size>
-     </property>
-     <property name="font">
-      <font>
-       <family>微软雅黑</family>
-       <pointsize>-1</pointsize>
-       <weight>50</weight>
-       <italic>false</italic>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="focusPolicy">
-      <enum>Qt::NoFocus</enum>
-     </property>
-     <property name="text">
-      <string>正引拔轴</string>
+      <string>扩展轴</string>
      </property>
      <property name="checkable">
       <bool>true</bool>
@@ -15533,8 +16063,8 @@
      </property>
     </widget>
    </item>
-   <item row="0" column="2">
-    <widget class="xPushButton" name="radioSafe2">
+   <item row="1" column="0">
+    <widget class="xPushButton" name="radioTrv">
      <property name="minimumSize">
       <size>
        <width>160</width>
@@ -15560,7 +16090,7 @@
       <enum>Qt::NoFocus</enum>
      </property>
      <property name="text">
-      <string>安全区2</string>
+      <string>横行轴</string>
      </property>
      <property name="checkable">
       <bool>true</bool>
@@ -15574,14 +16104,6 @@
  </widget>
  <customwidgets>
   <customwidget>
-   <class>xPushButton</class>
-   <extends>QPushButton</extends>
-   <header>xpushbutton.h</header>
-   <slots>
-    <slot>KeyADDClick()</slot>
-   </slots>
-  </customwidget>
-  <customwidget>
    <class>xIndicator</class>
    <extends>QWidget</extends>
    <header>xindicator.h</header>
@@ -15592,6 +16114,14 @@
    <header>xpixmapbutton.h</header>
    <slots>
     <signal>clicked()</signal>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>xPushButton</class>
+   <extends>QPushButton</extends>
+   <header>xpushbutton.h</header>
+   <slots>
+    <slot>KeyADDClick()</slot>
    </slots>
   </customwidget>
   <customwidget>
@@ -17656,14 +18186,14 @@
    </hints>
   </connection>
   <connection>
-   <sender>BoxHomeSpeedSlow</sender>
+   <sender>BtnRead</sender>
    <signal>clicked()</signal>
    <receiver>Formservo</receiver>
-   <slot>InputHomeSpdSlow()</slot>
+   <slot>BtnReadClick()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>124</x>
-     <y>168</y>
+     <x>275</x>
+     <y>851</y>
     </hint>
     <hint type="destinationlabel">
      <x>399</x>
@@ -17672,14 +18202,14 @@
    </hints>
   </connection>
   <connection>
-   <sender>BoxPA19_DEV</sender>
+   <sender>BtnWrite</sender>
    <signal>clicked()</signal>
    <receiver>Formservo</receiver>
-   <slot>InputSvDevPara()</slot>
+   <slot>BtnWriteClick()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>655</x>
-     <y>816</y>
+     <x>515</x>
+     <y>851</y>
     </hint>
     <hint type="destinationlabel">
      <x>399</x>
@@ -17688,14 +18218,14 @@
    </hints>
   </connection>
   <connection>
-   <sender>BoxPA5_DEV</sender>
+   <sender>BoxParaID</sender>
    <signal>clicked()</signal>
    <receiver>Formservo</receiver>
-   <slot>InputSvDevPara()</slot>
+   <slot>InputParaID()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>655</x>
-     <y>536</y>
+     <x>523</x>
+     <y>641</y>
     </hint>
     <hint type="destinationlabel">
      <x>399</x>
@@ -17704,78 +18234,14 @@
    </hints>
   </connection>
   <connection>
-   <sender>BoxPA63_DEV</sender>
+   <sender>BoxSetValue</sender>
    <signal>clicked()</signal>
    <receiver>Formservo</receiver>
-   <slot>InputSvDevPara()</slot>
+   <slot>InputSetValue()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>655</x>
-     <y>872</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>399</x>
-     <y>490</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>BoxPA6_DEV</sender>
-   <signal>clicked()</signal>
-   <receiver>Formservo</receiver>
-   <slot>InputSvDevPara()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>655</x>
-     <y>592</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>399</x>
-     <y>490</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>BoxPA7_DEV</sender>
-   <signal>clicked()</signal>
-   <receiver>Formservo</receiver>
-   <slot>InputSvDevPara()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>655</x>
-     <y>648</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>399</x>
-     <y>490</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>BoxPA8_DEV</sender>
-   <signal>clicked()</signal>
-   <receiver>Formservo</receiver>
-   <slot>InputSvDevPara()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>655</x>
-     <y>704</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>399</x>
-     <y>490</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>BoxPA9_DEV</sender>
-   <signal>clicked()</signal>
-   <receiver>Formservo</receiver>
-   <slot>InputSvDevPara()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>655</x>
-     <y>760</y>
+     <x>523</x>
+     <y>781</y>
     </hint>
     <hint type="destinationlabel">
      <x>399</x>
@@ -17930,5 +18396,9 @@
   <slot>InputSafePaTrvE()</slot>
   <slot>InputHomeSpdSlow()</slot>
   <slot>InputSvDevPara()</slot>
+  <slot>InputParaID()</slot>
+  <slot>InputSetValue()</slot>
+  <slot>BtnReadClick()</slot>
+  <slot>BtnWriteClick()</slot>
  </slots>
 </ui>

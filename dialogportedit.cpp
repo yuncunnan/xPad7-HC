@@ -645,13 +645,22 @@ void DialogPortEdit::InitInPortName()
         ui->tableWidget_In->setItem(EM1_X02,1,new QTableWidgetItem(QString::fromUtf8("抱具3-X18")));
         ui->tableWidget_In->setItem(EM1_X03,1,new QTableWidgetItem(QString::fromUtf8("抱具4-X19")));
         ui->tableWidget_In->setItem(EM1_X04,1,new QTableWidgetItem(QString::fromUtf8("Main-X20")));
+#if (FACTORY == FA_BEISHITE_CN)
+        ui->tableWidget_In->setItem(EM1_X05,1,new QTableWidgetItem(QString::fromUtf8("副臂夹-X21")));
+#else
         ui->tableWidget_In->setItem(EM1_X05,1,new QTableWidgetItem(QString::fromUtf8("Main-X21")));
+#endif
         ui->tableWidget_In->setItem(EM1_X06,1,new QTableWidgetItem(QString::fromUtf8("Main-X22")));
         ui->tableWidget_In->setItem(EM1_X07,1,new QTableWidgetItem(QString::fromUtf8("Main-X23")));
         ui->tableWidget_In->setItem(EM1_X08,1,new QTableWidgetItem(QString::fromUtf8("Main-X24")));
         ui->tableWidget_In->setItem(EM1_X09,1,new QTableWidgetItem(QString::fromUtf8("Main-X25")));
+#if (FACTORY == FA_BEISHITE_CN)
+        ui->tableWidget_In->setItem(EM1_X10,1,new QTableWidgetItem(QString::fromUtf8("吸3-X26")));
+        ui->tableWidget_In->setItem(EM1_X11,1,new QTableWidgetItem(QString::fromUtf8("吸4-X27")));
+#else
         ui->tableWidget_In->setItem(EM1_X10,1,new QTableWidgetItem(QString::fromUtf8("Main-X26")));
         ui->tableWidget_In->setItem(EM1_X11,1,new QTableWidgetItem(QString::fromUtf8("Main-X27")));
+#endif
 
         ui->tableWidget_In->setItem(EM1_X12,1,new QTableWidgetItem(QString::fromUtf8("EM1-X01")));
         ui->tableWidget_In->setItem(EM1_X13,1,new QTableWidgetItem(QString::fromUtf8("EM1-X02")));
@@ -1529,13 +1538,25 @@ void DialogPortEdit::InitOutPortName()
 
         ui->tableWidget_Out->setItem(EM1_Y00,1,new QTableWidgetItem(QString::fromUtf8("抱具4-Y16")));
         ui->tableWidget_Out->setItem(EM1_Y01,1,new QTableWidgetItem(QString::fromUtf8("Main-Y17")));
+#if (FACTORY == FA_BEISHITE_CN)
+        ui->tableWidget_Out->setItem(EM1_Y02,1,new QTableWidgetItem(QString::fromUtf8("副臂夹Y18")));
+        ui->tableWidget_Out->setItem(EM1_Y03,1,new QTableWidgetItem(QString::fromUtf8("刀1Y19")));
+        ui->tableWidget_Out->setItem(EM1_Y04,1,new QTableWidgetItem(QString::fromUtf8("刀2Y20")));
+
+#else
         ui->tableWidget_Out->setItem(EM1_Y02,1,new QTableWidgetItem(QString::fromUtf8("Main-Y18")));
         ui->tableWidget_Out->setItem(EM1_Y03,1,new QTableWidgetItem(QString::fromUtf8("Main-Y19")));
         ui->tableWidget_Out->setItem(EM1_Y04,1,new QTableWidgetItem(QString::fromUtf8("Main-Y20")));
+#endif
         ui->tableWidget_Out->setItem(EM1_Y05,1,new QTableWidgetItem(QString::fromUtf8("Main-Y21")));
         ui->tableWidget_Out->setItem(EM1_Y06,1,new QTableWidgetItem(QString::fromUtf8("Main-Y22")));
+#if (FACTORY == FA_BEISHITE_CN)
+        ui->tableWidget_Out->setItem(EM1_Y07,1,new QTableWidgetItem(QString::fromUtf8("吸3Y23")));
+        ui->tableWidget_Out->setItem(EM1_Y08,1,new QTableWidgetItem(QString::fromUtf8("吸4Y24")));
+#else
         ui->tableWidget_Out->setItem(EM1_Y07,1,new QTableWidgetItem(QString::fromUtf8("Main-Y23")));
         ui->tableWidget_Out->setItem(EM1_Y08,1,new QTableWidgetItem(QString::fromUtf8("Main-Y24")));
+#endif
         ui->tableWidget_Out->setItem(EM1_Y09,1,new QTableWidgetItem(QString::fromUtf8("Main-Y25")));
         ui->tableWidget_Out->setItem(EM1_Y10,1,new QTableWidgetItem(QString::fromUtf8("Main-Y26")));
         ui->tableWidget_Out->setItem(EM1_Y11,1,new QTableWidgetItem(QString::fromUtf8("Main-Y27")));

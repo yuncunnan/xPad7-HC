@@ -1,4 +1,4 @@
-﻿#include "xconfig.h"
+#include "xconfig.h"
 
 #ifndef __MODBUSADDR_H__
 #define __MODBUSADDR_H__
@@ -58,6 +58,8 @@
 #define COMMAND_PARA2							0x0031
 #define COMMAND_PARA1							0x0032
 #define COMMAND									0x0033
+#define COMMAND_SDO_RDDATA                      0X0034//SDO读取的数据
+#define COMMAND_SDO_RDOK                        0X0035//主板SDO读取成功标志
 
 ////////////////////////////////////////////////////////////////////////////
 //Version

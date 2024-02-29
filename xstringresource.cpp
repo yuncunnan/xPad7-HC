@@ -367,7 +367,7 @@ void xStringResource::initAlarmSolutionRes(void)
         << tr("[248]")
         << tr("[249]")
         << tr("[250]")
-        << tr("[251]")
+        << tr("[251] 驱动器电源模块报警")
         << tr("[252]")
         << tr("[253]")
         << tr("[254]")
@@ -682,7 +682,7 @@ void xStringResource::initAlarmSolutionRes(void)
         << tr("[248]")
         << tr("[249]")
         << tr("[250]")
-        << tr("[251]")
+        << tr("[251] 驱动器电源模块报警")
         << tr("[252]")
         << tr("[253]")
         << tr("[254]")
@@ -1776,7 +1776,7 @@ void xStringResource::initAlarmRes(void)
         << tr("[248]")
         << tr("[249]")
         << tr("[250]")
-        << tr("[251]")
+        << tr("[251] 驱动器电源模块报警")
         << tr("[252]")
         << tr("[253]")
         << tr("[254]")
@@ -2261,7 +2261,7 @@ void xStringResource::initAlarmRes(void)
         << tr("[248]")
         << tr("[249]")
         << tr("[250]")
-        << tr("[251]")
+        << tr("[251] 驱动器电源模块报警")
         << tr("[252]")
         << tr("[253]")
         << tr("[254]")
@@ -3385,7 +3385,7 @@ void xStringResource::initAlarmRes(void)
         << tr("[248]")
         << tr("[249]")
         << tr("[250]")
-        << tr("[251]")
+        << tr("[251] 驱动器电源模块报警")
         << tr("[252]")
         << tr("[253]")
         << tr("[254]")
@@ -3641,8 +3641,13 @@ void xStringResource::initIoVarRes(quint8 lan)
     }
 	inputVarName[MAIN_VAR_X24] = nameCfg.value(curLan + QString("MAIN_VAR_X24"), "Main").toString();
 	inputVarName[MAIN_VAR_X25] = nameCfg.value(curLan + QString("MAIN_VAR_X25"), "Main").toString();
-	inputVarName[MAIN_VAR_X26] = nameCfg.value(curLan + QString("MAIN_VAR_X26"), "Main").toString();
+#if (FACTORY == FA_BEISHITE_CN)
+    inputVarName[MAIN_VAR_X26] = nameCfg.value(curLan + QString("MAIN_VAR_X26"), tr("吸3")).toString();
+    inputVarName[MAIN_VAR_X27] = nameCfg.value(curLan + QString("MAIN_VAR_X27"), tr("吸4")).toString();
+#else
+    inputVarName[MAIN_VAR_X26] = nameCfg.value(curLan + QString("MAIN_VAR_X26"), "Main").toString();
     inputVarName[MAIN_VAR_X27] = nameCfg.value(curLan + QString("MAIN_VAR_X27"), "Main").toString();
+#endif
     inputVarName[MAIN_VAR_X28] = nameCfg.value(curLan + QString("MAIN_VAR_X28"), "Main").toString();
     inputVarName[MAIN_VAR_X29] = nameCfg.value(curLan + QString("MAIN_VAR_X29"), "Main").toString();
     inputVarName[MAIN_VAR_X30] = nameCfg.value(curLan + QString("MAIN_VAR_X30"), "Main").toString();
@@ -4153,12 +4158,22 @@ void xStringResource::initIoVarRes(quint8 lan)
 //        outputVarName[MAIN_VAR_Y16] = nameCfg.value(curLan + QString("MAIN_VAR_Y16"), tr("1号上下气缸")).toString();
 //        outputVarName[MAIN_VAR_Y17] = nameCfg.value(curLan + QString("MAIN_VAR_Y17"), tr("2号上下气缸")).toString();
 //        outputVarName[MAIN_VAR_Y18] = nameCfg.value(curLan + QString("MAIN_VAR_Y18"), tr("允许抓料")).toString();
+#if (FACTORY == FA_BEISHITE_CN)
+        outputVarName[MAIN_VAR_Y19] = nameCfg.value(curLan + QString("MAIN_VAR_Y19"), tr("刀1")).toString();
+        outputVarName[MAIN_VAR_Y20] = nameCfg.value(curLan + QString("MAIN_VAR_Y20"), tr("刀2")).toString();
+#else
         outputVarName[MAIN_VAR_Y19] = nameCfg.value(curLan + QString("MAIN_VAR_Y19"), "Main").toString();
         outputVarName[MAIN_VAR_Y20] = nameCfg.value(curLan + QString("MAIN_VAR_Y20"), "Main").toString();
+#endif
         outputVarName[MAIN_VAR_Y21] = nameCfg.value(curLan + QString("MAIN_VAR_Y21"), "Main").toString();
         outputVarName[MAIN_VAR_Y22] = nameCfg.value(curLan + QString("MAIN_VAR_Y22"), "Main").toString();
+#if (FACTORY == FA_BEISHITE_CN)
+        outputVarName[MAIN_VAR_Y23] = nameCfg.value(curLan + QString("MAIN_VAR_Y23"), tr("吸3")).toString();
+        outputVarName[MAIN_VAR_Y24] = nameCfg.value(curLan + QString("MAIN_VAR_Y24"), tr("吸4")).toString();
+#else
         outputVarName[MAIN_VAR_Y23] = nameCfg.value(curLan + QString("MAIN_VAR_Y23"), "Main").toString();
         outputVarName[MAIN_VAR_Y24] = nameCfg.value(curLan + QString("MAIN_VAR_Y24"), "Main").toString();
+#endif
         outputVarName[MAIN_VAR_Y25] = nameCfg.value(curLan + QString("MAIN_VAR_Y25"), "Main").toString();
         outputVarName[MAIN_VAR_Y26] = nameCfg.value(curLan + QString("MAIN_VAR_Y26"), "Main").toString();
         outputVarName[MAIN_VAR_Y27] = nameCfg.value(curLan + QString("MAIN_VAR_Y27"), "Main").toString();

@@ -1,4 +1,4 @@
-﻿#include <QtCore/QDebug>
+#include <QtCore/QDebug>
 #include <QtCore/QTimer>
 #include <QSettings>
 #include <QWSServer>
@@ -452,8 +452,27 @@ int8_t CMBProtocol::ReadRunState(void)
 		}
 	}
 #endif
-	return ret;
+    return ret;
 }
+
+int16_t CMBProtocol::ReadSDOPara()
+{
+#if PENDANT_PROTOCOL
+    if(SendMsg(COMMAND_SDO_RDDATA,COMMAND_SDO_RDOK,TRUE) == SENDMSG_RET_ACK)
+    {
+        qDebug()<<m_mbaddrspace[COMMAND_SDO_RDOK]<<' '<<m_mbaddrspace[COMMAND_SDO_RDDATA];
+        SendMsg(COMMAND_SDO_RDOK,COMMAND_SDO_RDOK,FALSE);
+        if(m_mbaddrspace[COMMAND_SDO_RDOK])
+        {
+            m_mbaddrspace[COMMAND_SDO_RDOK]=0;
+            return true;
+        }
+        else
+            return false;
+    }
+#endif
+}
+
 // 消息发送
 int8_t CMBProtocol::SendMsg(uint16_t begin, uint16_t end, uint8_t read, int retry)
 {
@@ -1888,6 +1907,21 @@ int8_t CMBProtocol::CommandFUNUI(quint32 idx)
     return SENDMSG_RET_ACK;
 #endif
 }
+
+int8_t CMBProtocol::CommandDVS_CanRtu(uint16_t adr, uint16_t data, uint16_t cmd, uint16_t servoID)
+{
+#if PENDANT_PROTOCOL
+    m_mbaddrspace[COMMAND_PARA4] = servoID;//轴地址
+    m_mbaddrspace[COMMAND_PARA3] = cmd;//命令
+    m_mbaddrspace[COMMAND_PARA2] = data;//内容
+    m_mbaddrspace[COMMAND_PARA1] = adr;//地址
+    m_mbaddrspace[COMMAND] = COMMAND_SDO_RTU;
+    return SendMsg(COMMAND_PARA4, COMMAND, FALSE);
+#else
+    return SENDMSG_RET_ACK;
+#endif
+}
+
 void CMBProtocol::ChangeSafePos_Inmold_Outmold(bool home_inmold)
 {
     uint16_t temp1, temp2, temp3, temp4;
