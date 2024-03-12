@@ -40,7 +40,7 @@
 #define HONGKONG			81	// 香港特别行政区
 #define MACAO				82	// 澳门特别行政区
 // 定义厂商 ID
-#define FA_SINROBOT			(0)                             // 标准版
+#define FA_SINROBOT			(0)                             // 标准版XYZ
 #define FA_SINROBOT_JC		(1)                             // 机床版
 #define FA_SINROBOT_CN		(2)                             // 标准版_中文軸名稱
 #define FA_SINROBOT_HC		(3)                             // HC操作方式
@@ -127,7 +127,7 @@
 
 
 // 定义当前厂商 ID
-#define FACTORY				FA_VICTOR_SPECIAL//FA_SINROBOT_CN//FA_BEISHITE_CN//FA_VICTOR_SPECIAL
+#define FACTORY				FA_SINROBOT//FA_VICTOR_SPECIAL//FA_SINROBOT_CN//FA_BEISHITE_CN//FA_VICTOR_SPECIAL
 
 // 定义用户权限
 #define PER_SRV_ORG			0
