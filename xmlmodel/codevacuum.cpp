@@ -326,6 +326,38 @@ void CodeVacuum::UpdateBaseMember()
         }
         else
         {
+#if FACTORY == FA_BEISHITE_CN           // 罗林坤——倍适特需要显示端口名全称，之前只显示后三位
+            if ((m_outbmp>>0)&1)
+                strvacuum = xStringResource::GetVarName(EM1_VAR_Y02);
+            else
+                strvacuum = ("");
+            if ((m_outbmp>>1)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y03);
+            if ((m_outbmp>>2)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y04);
+            if ((m_outbmp>>3)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y05);
+            if ((m_outbmp>>4)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y06);
+            if ((m_outbmp>>5)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y07);
+            if ((m_outbmp>>6)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y08);
+            if ((m_outbmp>>7)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y09);
+            if ((m_outbmp>>8)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y10);
+            if ((m_outbmp>>9)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y11);
+            if ((m_outbmp>>10)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y12);
+            if ((m_outbmp>>11)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y13);
+            if ((m_outbmp>>12)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y14);
+            if ((m_outbmp>>13)&1)
+                strvacuum += xStringResource::GetVarName(EM1_VAR_Y15);
+#else
             if ((m_outbmp>>0)&1)
                 strvacuum = xStringResource::GetVarName(EM1_VAR_Y02).right(3);
             else
@@ -356,6 +388,7 @@ void CodeVacuum::UpdateBaseMember()
                 strvacuum += xStringResource::GetVarName(EM1_VAR_Y14).right(3);
             if ((m_outbmp>>13)&1)
                 strvacuum += xStringResource::GetVarName(EM1_VAR_Y15).right(3);
+#endif
         }
 
     }
