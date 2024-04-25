@@ -462,13 +462,14 @@ void FormActLoopMatrix::UpdateWidgetState()
             ui->BoxHorInt->setEnabled(false);
             ui->BoxVerInt->setEnabled(false);
             ui->BoxTrvInt->setEnabled(false);
-
             ui->BtnHorSync->setEnabled(false);
             ui->BtnTrvSync->setEnabled(false);
             ui->BtnVerSync->setEnabled(false);
+#if FACTORY != FA_XIONGCHUANG
             ui->BoxHorPos->setEnabled(false);
             ui->BoxVerPos->setEnabled(false);
             ui->BoxTrvPos->setEnabled(false);
+#endif
             ui->BoxLowDis->setEnabled(false);
             ui->checkBoxTrvRot->setEnabled(false);
             ui->checkBox_ConveyorUse->setEnabled(false);

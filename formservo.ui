@@ -144,7 +144,7 @@
          </font>
         </property>
         <property name="currentIndex">
-         <number>3</number>
+         <number>9</number>
         </property>
         <widget class="QWidget" name="stackedWidgetPage1">
          <layout class="QGridLayout" name="gridLayout_14">
@@ -14268,7 +14268,7 @@
              <enum>Qt::LeftToRight</enum>
             </property>
             <property name="title">
-             <string>原点快速速度</string>
+             <string>原点慢速速度</string>
             </property>
             <layout class="QGridLayout" name="gridLayout_27">
              <property name="horizontalSpacing">
@@ -18242,6 +18242,22 @@
     <hint type="sourcelabel">
      <x>523</x>
      <y>781</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>490</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BoxHomeSpeedSlow</sender>
+   <signal>clicked()</signal>
+   <receiver>Formservo</receiver>
+   <slot>InputHomeSpdSlow()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>226</y>
     </hint>
     <hint type="destinationlabel">
      <x>399</x>
