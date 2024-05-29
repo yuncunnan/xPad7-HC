@@ -48,24 +48,30 @@
 #define SUB_FUN_ENCODER				0x0020          // 编码器
 #define SUB_FUN_EUROMAP				0x0040          // 欧规版
 #define SUB_FUN_LOCK_ALARM          0x0080          // 错误锁定
+
 #define SUB_FUN_KEYMAP				0x0100          // 按键
 #define SUB_FUN_SDIR				0x0200          // 方向设置
 #define SUB_LOOP_INTERVAL			0x0400          // 循环定位间隔
 #define SUB_VACUUM					0x0800          // 治具组
+
 #define SUB_DOOR_RESET				0x2000          // 增加取物失败时，开关安全门程序结束
 #define SUB_3_AXES					0x4000          // 有此功能，去读取物理上存在几个轴
 #define SUB_IN_ANTI_CHECK_HOME_TAIL_LOOP_FREE			0x8000	// 检测扩展输入无信号//原点归位找前后端参数/单轴循环定位的自由点模式
-#define SUB_FUN_JERK                0x00010000      // 有此功能暴露jerk选项
+
+#define SUB_FUN2_JERK               0x00010000      // 有此功能暴露jerk选项
 #define SUB_FUN2_IO_BMP             0x00020000      // io口映射功能
 #define SUB_FUN2_WAIT_VAR2          0x00040000      // 等待指令带大于小于功能
 #define SUB_FUN2_EXT_POS            0x00080000      // 扩展定位指令,使用时路径就不要用了
+
 #define SUB_FUN2_ROTATE             0x00100000      // 增加横行倒角选项
 #define SUB_FUN2_X_B_TRAVE_SAFE		0x00200000  	// 增加引拔轴横行时安全区选项 for v3.26
 #define SUB_FUN2_VISION             0x00400000      // 视觉功能
 #define SUB_FUN2_IFTIME             0x00800000      // IF指令超时时间功能
+
 #define SUB_FUN2_CAN_IMM            0x02000000      //Canopen IMM板功能
 #define SUB_FUN2_MBVISION           0x04000000      //MB视觉功能
 #define SUB_FUN2_LOOP_MATRIX		0x08000000      // loopmatrix指令输送带功能
+
 #define SUB_FUN2_LOOP_MATRIX_EXT    0x10000000      //矩阵增加各轴速度
 #define SUB_DOOR_QUERY				0x20000000      // 信易安全门询问（信易专用）
 #define SUB_FUN2_MAIN64_BITS        0x40000000      // 主板IO64位

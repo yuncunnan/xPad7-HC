@@ -655,7 +655,9 @@ public:
 	int8_t ReadPwd(const uint8_t user, QByteArray &pwd);					// 读取指定用户的密码
 	int8_t ReadVersion(void);												// 读取版本信息
 	int8_t ReadPirate(void);												// 读取系统授权信息
-	int8_t ReadFunctions(void);												// 读取系统功能列表
+
+    int8_t WriteFunctions(void);											// 查询系统功能列表
+    int8_t ReadFunctions(void);												// 读取系统功能列表
 	int8_t ReadFactory(void);												// 读取厂商ID
 	int8_t ReadHome(void);													// 读取原点复归设置
     static void GetHome(quint16 (&home)[HOME_DEF_MAX]);

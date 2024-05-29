@@ -602,6 +602,9 @@ uint8_t CMBProtocol::InitSystemStatus(void)
     // 读取系统授权信息
 	if (ReadPirate() != SENDMSG_RET_ACK)
         return COM_INIT_COM_ERR;
+    // 查询系统功能列表
+    if (WriteFunctions() != SENDMSG_RET_ACK)
+        return COM_INIT_COM_ERR;
 	// 读取系统功能列表
 	if (ReadFunctions() != SENDMSG_RET_ACK)
 		return COM_INIT_COM_ERR;
@@ -2105,6 +2108,26 @@ int8_t CMBProtocol::ReadPirate(void)
 #endif
 	return ret;
 }
+
+// 查询系统功能列表
+int8_t CMBProtocol::WriteFunctions()
+{
+    int8_t ret = SENDMSG_RET_ACK;
+    quint32 fun = ((quint32)(SUB_FUN_TMC429 | SUB_FUN_ENCODER | SUB_FUN_EUROMAP | SUB_FUN_LOCK_ALARM
+                             | SUB_FUN_KEYMAP | SUB_FUN_SDIR | SUB_LOOP_INTERVAL | SUB_VACUUM
+                             | SUB_DOOR_RESET | SUB_3_AXES | SUB_IN_ANTI_CHECK_HOME_TAIL_LOOP_FREE
+                             | SUB_FUN2_JERK | SUB_FUN2_IO_BMP | SUB_FUN2_WAIT_VAR2 | SUB_FUN2_EXT_POS
+                             | SUB_FUN2_ROTATE | SUB_FUN2_X_B_TRAVE_SAFE | SUB_FUN2_VISION | SUB_FUN2_IFTIME
+                             | SUB_FUN2_CAN_IMM | SUB_FUN2_MBVISION | SUB_FUN2_LOOP_MATRIX
+                             | SUB_FUN2_LOOP_MATRIX_EXT | SUB_DOOR_QUERY | SUB_FUN2_MAIN64_BITS));
+#if PENDANT_PROTOCOL
+    m_mbaddrspace[VERSION_SUB_FUN] = fun;
+    m_mbaddrspace[VERSION_SUB_FUN2] = fun>>16;
+    ret = SendMsg(VERSION_SUB_FUN, VERSION_SUB_FUN2,false);
+#endif
+    return ret;
+}
+
 // 读取系统功能列表
 int8_t CMBProtocol::ReadFunctions(void)
 {

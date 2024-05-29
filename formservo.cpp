@@ -874,7 +874,7 @@ bool Formservo::isModified(void)
 		if (ServoPara.m_software_max_len_a != ServoParaBak.m_software_max_len_a)			parModify |= ((quint64)1 << LOG_SOFTWARE_MAX_LEN_A);
 		if (ServoPara.m_software_max_len_c != ServoParaBak.m_software_max_len_c)			parModify |= ((quint64)1 << LOG_SOFTWARE_MAX_LEN_C);
 		// 伺服速度和加速度
-        if (pModbus->GetFunctions(SUB_FUN_JERK))
+        if (pModbus->GetFunctions(SUB_FUN2_JERK))
         {
             if (ServoPara.m_xmax_jerk != ServoParaBak.m_xmax_jerk)                          return true;
             if (ServoPara.m_ymax_jerk != ServoParaBak.m_ymax_jerk)                          return true;
@@ -1692,7 +1692,7 @@ bool Formservo::EnterForm(void)
         ui->labelTrvDir->setVisible(false);
         ui->checkBoxTrvDir->setVisible(false);
     }
-    if (pModbus->GetFunctions(SUB_FUN_JERK))
+    if (pModbus->GetFunctions(SUB_FUN2_JERK))
     {
         ui->labelPaHorJerk->setVisible(true);
         ui->BoxPaHorJerk->setVisible(true);
