@@ -64,6 +64,7 @@ int FormActOperate::GetPara()
 void FormActOperate::SetType(int type)
 {
 	pOpr->button(type)->setChecked(true);
+    idChanged(type);
 }
 
 int FormActOperate::GetType()
