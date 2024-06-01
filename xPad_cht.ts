@@ -5,22 +5,22 @@
 <context>
     <name>CMBProtocol</name>
     <message>
-        <location filename="cmbprotocol.cpp" line="385"/>
+        <location filename="cmbprotocol.cpp" line="391"/>
         <source>系统警告</source>
         <translation>系統警告</translation>
     </message>
     <message>
-        <location filename="cmbprotocol.cpp" line="385"/>
+        <location filename="cmbprotocol.cpp" line="391"/>
         <source>无法连接通讯端口！</source>
         <translation>無法連接通訊端口！</translation>
     </message>
     <message>
-        <location filename="cmbprotocol.cpp" line="737"/>
+        <location filename="cmbprotocol.cpp" line="762"/>
         <source>错误</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="cmbprotocol.cpp" line="737"/>
+        <location filename="cmbprotocol.cpp" line="762"/>
         <source>系统通讯错误：
 操作器与主控模块无法正常通讯，请关闭系统然后检查通讯链路是否正常。</source>
         <translation>系統通訊錯誤：
@@ -451,40 +451,42 @@
         <location filename="xmlmodel/codeimm.cpp" line="229"/>
         <location filename="xmlmodel/codeimm.cpp" line="239"/>
         <location filename="xmlmodel/codeimm.cpp" line="241"/>
-        <location filename="xmlmodel/codeimm.cpp" line="246"/>
+        <location filename="xmlmodel/codeimm.cpp" line="243"/>
         <location filename="xmlmodel/codeimm.cpp" line="248"/>
-        <location filename="xmlmodel/codeimm.cpp" line="253"/>
-        <location filename="xmlmodel/codeimm.cpp" line="255"/>
-        <location filename="xmlmodel/codeimm.cpp" line="260"/>
-        <location filename="xmlmodel/codeimm.cpp" line="262"/>
-        <location filename="xmlmodel/codeimm.cpp" line="267"/>
-        <location filename="xmlmodel/codeimm.cpp" line="269"/>
-        <location filename="xmlmodel/codeimm.cpp" line="274"/>
-        <location filename="xmlmodel/codeimm.cpp" line="276"/>
-        <location filename="xmlmodel/codeimm.cpp" line="281"/>
-        <location filename="xmlmodel/codeimm.cpp" line="283"/>
+        <location filename="xmlmodel/codeimm.cpp" line="250"/>
+        <location filename="xmlmodel/codeimm.cpp" line="252"/>
+        <location filename="xmlmodel/codeimm.cpp" line="257"/>
+        <location filename="xmlmodel/codeimm.cpp" line="259"/>
+        <location filename="xmlmodel/codeimm.cpp" line="264"/>
+        <location filename="xmlmodel/codeimm.cpp" line="266"/>
+        <location filename="xmlmodel/codeimm.cpp" line="271"/>
+        <location filename="xmlmodel/codeimm.cpp" line="273"/>
+        <location filename="xmlmodel/codeimm.cpp" line="278"/>
+        <location filename="xmlmodel/codeimm.cpp" line="280"/>
         <location filename="xmlmodel/codeimm.cpp" line="285"/>
-        <location filename="xmlmodel/codeimm.cpp" line="290"/>
-        <location filename="xmlmodel/codeimm.cpp" line="292"/>
+        <location filename="xmlmodel/codeimm.cpp" line="287"/>
+        <location filename="xmlmodel/codeimm.cpp" line="289"/>
         <location filename="xmlmodel/codeimm.cpp" line="294"/>
-        <location filename="xmlmodel/codeimm.cpp" line="299"/>
-        <location filename="xmlmodel/codeimm.cpp" line="301"/>
+        <location filename="xmlmodel/codeimm.cpp" line="296"/>
+        <location filename="xmlmodel/codeimm.cpp" line="298"/>
         <location filename="xmlmodel/codeimm.cpp" line="303"/>
-        <location filename="xmlmodel/codeimm.cpp" line="308"/>
-        <location filename="xmlmodel/codeimm.cpp" line="310"/>
+        <location filename="xmlmodel/codeimm.cpp" line="305"/>
+        <location filename="xmlmodel/codeimm.cpp" line="307"/>
         <location filename="xmlmodel/codeimm.cpp" line="312"/>
-        <location filename="xmlmodel/codeimm.cpp" line="317"/>
-        <location filename="xmlmodel/codeimm.cpp" line="319"/>
+        <location filename="xmlmodel/codeimm.cpp" line="314"/>
+        <location filename="xmlmodel/codeimm.cpp" line="316"/>
         <location filename="xmlmodel/codeimm.cpp" line="321"/>
-        <location filename="xmlmodel/codeimm.cpp" line="326"/>
-        <location filename="xmlmodel/codeimm.cpp" line="328"/>
+        <location filename="xmlmodel/codeimm.cpp" line="323"/>
+        <location filename="xmlmodel/codeimm.cpp" line="325"/>
         <location filename="xmlmodel/codeimm.cpp" line="330"/>
-        <location filename="xmlmodel/codeimm.cpp" line="335"/>
-        <location filename="xmlmodel/codeimm.cpp" line="337"/>
+        <location filename="xmlmodel/codeimm.cpp" line="332"/>
+        <location filename="xmlmodel/codeimm.cpp" line="334"/>
         <location filename="xmlmodel/codeimm.cpp" line="339"/>
-        <location filename="xmlmodel/codeimm.cpp" line="344"/>
-        <location filename="xmlmodel/codeimm.cpp" line="346"/>
+        <location filename="xmlmodel/codeimm.cpp" line="341"/>
+        <location filename="xmlmodel/codeimm.cpp" line="343"/>
         <location filename="xmlmodel/codeimm.cpp" line="348"/>
+        <location filename="xmlmodel/codeimm.cpp" line="350"/>
+        <location filename="xmlmodel/codeimm.cpp" line="352"/>
         <source>秒</source>
         <translation>秒</translation>
     </message>
@@ -560,176 +562,186 @@
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="241"/>
+        <source>塑机[等待加工完成] 超时</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xmlmodel/codeimm.cpp" line="243"/>
         <source>塑机[等待开模] 超时</source>
         <translation>塑機[等待開模] 超時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="246"/>
+        <location filename="xmlmodel/codeimm.cpp" line="248"/>
         <source>机床[允许加工启动] 延时</source>
         <translation>機床[允許加工啟動] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="248"/>
+        <location filename="xmlmodel/codeimm.cpp" line="250"/>
+        <source>塑机[允许加工启动] 延时</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xmlmodel/codeimm.cpp" line="252"/>
         <source>塑机[允许关模] 延时</source>
         <translation>塑機[允許關模] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="253"/>
+        <location filename="xmlmodel/codeimm.cpp" line="257"/>
         <source>机床[允许顶针前进] 延时</source>
         <translation>機床[允許頂針前進] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="255"/>
+        <location filename="xmlmodel/codeimm.cpp" line="259"/>
         <source>塑机[允许顶针前进] 延时</source>
         <translation>塑機[允許頂針前進] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="260"/>
+        <location filename="xmlmodel/codeimm.cpp" line="264"/>
         <source>机床[允许顶针后退] 延时</source>
         <translation>機床[允許頂針後退] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="262"/>
+        <location filename="xmlmodel/codeimm.cpp" line="266"/>
         <source>塑机[允许顶针后退] 延时</source>
         <translation>塑機[允許頂針後退] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="267"/>
+        <location filename="xmlmodel/codeimm.cpp" line="271"/>
         <source>机床[禁止顶针前进] 延时</source>
         <translation>機床[禁止頂針前進] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="269"/>
+        <location filename="xmlmodel/codeimm.cpp" line="273"/>
         <source>塑机[禁止顶针前进] 延时</source>
         <translation>塑機[禁止頂針前進] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="274"/>
+        <location filename="xmlmodel/codeimm.cpp" line="278"/>
         <source>机床[禁止顶针后退] 延时</source>
         <translation>機床[禁止頂針後退] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="276"/>
+        <location filename="xmlmodel/codeimm.cpp" line="280"/>
         <source>塑机[禁止顶针后退] 延时</source>
         <translation>塑機[禁止頂針後退] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="281"/>
+        <location filename="xmlmodel/codeimm.cpp" line="285"/>
         <source>塑机[允许中子1进] 延时</source>
         <translation>塑機[允許中子1進] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="283"/>
+        <location filename="xmlmodel/codeimm.cpp" line="287"/>
         <source>机床[允许抽芯1位置1] 延时</source>
         <translation>機床[允許抽芯1位置1] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="285"/>
+        <location filename="xmlmodel/codeimm.cpp" line="289"/>
         <source>塑机[允许抽芯1位置1] 延时</source>
         <translation>塑機[允許抽芯1位置1] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="290"/>
+        <location filename="xmlmodel/codeimm.cpp" line="294"/>
         <source>塑机[允许中子1退] 延时</source>
         <translation>塑機[允許中子1退] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="292"/>
+        <location filename="xmlmodel/codeimm.cpp" line="296"/>
         <source>机床[允许抽芯1位置2] 延时</source>
         <translation>機床[允許抽芯1位置2] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="294"/>
+        <location filename="xmlmodel/codeimm.cpp" line="298"/>
         <source>塑机[允许抽芯1位置2] 延时</source>
         <translation>塑機[允許抽芯1位置2] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="299"/>
+        <location filename="xmlmodel/codeimm.cpp" line="303"/>
         <source>塑机[允许中子2进] 延时</source>
         <translation>塑機[允許中子2進] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="301"/>
+        <location filename="xmlmodel/codeimm.cpp" line="305"/>
         <source>机床[允许抽芯2位置1] 延时</source>
         <translation>機床[允許抽芯2位置1] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="303"/>
+        <location filename="xmlmodel/codeimm.cpp" line="307"/>
         <source>塑机[允许抽芯2位置1] 延时</source>
         <translation>塑機[允許抽芯2位置1] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="308"/>
+        <location filename="xmlmodel/codeimm.cpp" line="312"/>
         <source>塑机[禁止中子1进] 延时</source>
         <translation>塑機[禁止中子1進] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="310"/>
+        <location filename="xmlmodel/codeimm.cpp" line="314"/>
         <source>机床[禁止抽芯1位置1] 延时</source>
         <translation>機床[禁止抽芯1位置1] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="312"/>
+        <location filename="xmlmodel/codeimm.cpp" line="316"/>
         <source>塑机[禁止抽芯1位置1] 延时</source>
         <translation>塑機[禁止抽芯1位置1] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="317"/>
+        <location filename="xmlmodel/codeimm.cpp" line="321"/>
         <source>塑机[禁止中子1退] 延时</source>
         <translation>塑機[禁止中子1退] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="319"/>
+        <location filename="xmlmodel/codeimm.cpp" line="323"/>
         <source>机床[禁止抽芯1位置2] 延时</source>
         <translation>機床[禁止抽芯1位置2] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="321"/>
+        <location filename="xmlmodel/codeimm.cpp" line="325"/>
         <source>塑机[禁止抽芯1位置2] 延时</source>
         <translation>塑機[禁止抽芯1位置2] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="326"/>
+        <location filename="xmlmodel/codeimm.cpp" line="330"/>
         <source>塑机[禁止中子2进] 延时</source>
         <translation>塑機[禁止中子2進] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="328"/>
+        <location filename="xmlmodel/codeimm.cpp" line="332"/>
         <source>机床[禁止抽芯2位置1] 延时</source>
         <translation>機床[禁止抽芯2位置1] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="330"/>
+        <location filename="xmlmodel/codeimm.cpp" line="334"/>
         <source>塑机[禁止抽芯2位置1] 延时</source>
         <translation>塑機[禁止抽芯2位置1] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="335"/>
+        <location filename="xmlmodel/codeimm.cpp" line="339"/>
         <source>塑机[禁止中子2退] 延时</source>
         <translation>塑機[禁止中子2退] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="337"/>
+        <location filename="xmlmodel/codeimm.cpp" line="341"/>
         <source>机床[禁止抽芯2位置2] 延时</source>
         <translation>機床[禁止抽芯2位置2] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="339"/>
+        <location filename="xmlmodel/codeimm.cpp" line="343"/>
         <source>塑机[禁止抽芯2位置2] 延时</source>
         <translation>塑機[禁止抽芯2位置2] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="344"/>
+        <location filename="xmlmodel/codeimm.cpp" line="348"/>
         <source>塑机[允许中子2退] 延时</source>
         <translation>塑機[允許中子2退] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="346"/>
+        <location filename="xmlmodel/codeimm.cpp" line="350"/>
         <source>机床[允许抽芯2位置2] 延时</source>
         <translation>機床[允許抽芯2位置2] 延時</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeimm.cpp" line="348"/>
+        <location filename="xmlmodel/codeimm.cpp" line="352"/>
         <source>塑机[允许抽芯2位置2] 延时</source>
         <translation>塑機[允許抽芯2位置2] 延時</translation>
     </message>
@@ -867,22 +879,24 @@
         <location filename="xmlmodel/codeparm.cpp" line="139"/>
         <location filename="xmlmodel/codeparm.cpp" line="145"/>
         <location filename="xmlmodel/codeparm.cpp" line="147"/>
-        <location filename="xmlmodel/codeparm.cpp" line="150"/>
+        <location filename="xmlmodel/codeparm.cpp" line="149"/>
         <location filename="xmlmodel/codeparm.cpp" line="152"/>
-        <location filename="xmlmodel/codeparm.cpp" line="155"/>
+        <location filename="xmlmodel/codeparm.cpp" line="154"/>
         <location filename="xmlmodel/codeparm.cpp" line="157"/>
+        <location filename="xmlmodel/codeparm.cpp" line="159"/>
+        <location filename="xmlmodel/codeparm.cpp" line="161"/>
         <source>秒</source>
         <translation>秒</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="135"/>
-        <location filename="xmlmodel/codeparm.cpp" line="150"/>
+        <location filename="xmlmodel/codeparm.cpp" line="152"/>
         <source>治具[夹紧] 时间</source>
         <translation>治具[夾緊] 時間</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="137"/>
-        <location filename="xmlmodel/codeparm.cpp" line="152"/>
+        <location filename="xmlmodel/codeparm.cpp" line="154"/>
         <source>治具[松开] 时间</source>
         <translation>治具[鬆開] 時間</translation>
     </message>
@@ -898,16 +912,26 @@
     </message>
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="147"/>
+        <source>正臂[成品旋转] 时间</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xmlmodel/codeparm.cpp" line="149"/>
         <source>正臂[倒平] 时间</source>
         <translation>正臂[倒平] 時間</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeparm.cpp" line="155"/>
+        <location filename="xmlmodel/codeparm.cpp" line="157"/>
         <source>正臂[垂直] 时间</source>
         <translation>正臂[垂直] 時間</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codeparm.cpp" line="157"/>
+        <location filename="xmlmodel/codeparm.cpp" line="159"/>
+        <source>正臂[毛坯旋转] 时间</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xmlmodel/codeparm.cpp" line="161"/>
         <source>正臂[倒直] 时间</source>
         <translation>正臂[倒直] 時間</translation>
     </message>
@@ -1095,8 +1119,10 @@
         <location filename="xmlmodel/coderarm.cpp" line="174"/>
         <location filename="xmlmodel/coderarm.cpp" line="181"/>
         <location filename="xmlmodel/coderarm.cpp" line="183"/>
-        <location filename="xmlmodel/coderarm.cpp" line="190"/>
+        <location filename="xmlmodel/coderarm.cpp" line="185"/>
         <location filename="xmlmodel/coderarm.cpp" line="192"/>
+        <location filename="xmlmodel/coderarm.cpp" line="194"/>
+        <location filename="xmlmodel/coderarm.cpp" line="196"/>
         <source>秒</source>
         <translation>秒</translation>
     </message>
@@ -1124,16 +1150,26 @@
     </message>
     <message>
         <location filename="xmlmodel/coderarm.cpp" line="183"/>
+        <source>副臂[成品旋转] 时间</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xmlmodel/coderarm.cpp" line="185"/>
         <source>副臂[倒平] 时间</source>
         <translation>副臂[倒平] 時間</translation>
     </message>
     <message>
-        <location filename="xmlmodel/coderarm.cpp" line="190"/>
+        <location filename="xmlmodel/coderarm.cpp" line="192"/>
         <source>副臂[垂直] 时间</source>
         <translation>副臂[垂直] 時間</translation>
     </message>
     <message>
-        <location filename="xmlmodel/coderarm.cpp" line="192"/>
+        <location filename="xmlmodel/coderarm.cpp" line="194"/>
+        <source>副臂[毛坯旋转] 时间</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xmlmodel/coderarm.cpp" line="196"/>
         <source>副臂[倒直] 时间</source>
         <translation>副臂[倒直]時間</translation>
     </message>
@@ -1204,7 +1240,7 @@
 <context>
     <name>CodeVacuum</name>
     <message>
-        <location filename="xmlmodel/codevacuum.cpp" line="364"/>
+        <location filename="xmlmodel/codevacuum.cpp" line="397"/>
         <source>未勾选治具动作</source>
         <translation>未勾選治具動作</translation>
     </message>
@@ -1214,8 +1250,8 @@
         <translation type="obsolete">開啟冶具組[</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codevacuum.cpp" line="366"/>
-        <location filename="xmlmodel/codevacuum.cpp" line="368"/>
+        <location filename="xmlmodel/codevacuum.cpp" line="399"/>
+        <location filename="xmlmodel/codevacuum.cpp" line="401"/>
         <source>] 时间</source>
         <translation>] 時間</translation>
     </message>
@@ -1224,18 +1260,18 @@
         <translation type="obsolete">%1</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codevacuum.cpp" line="366"/>
-        <location filename="xmlmodel/codevacuum.cpp" line="368"/>
+        <location filename="xmlmodel/codevacuum.cpp" line="399"/>
+        <location filename="xmlmodel/codevacuum.cpp" line="401"/>
         <source>秒</source>
         <translation>秒</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codevacuum.cpp" line="366"/>
+        <location filename="xmlmodel/codevacuum.cpp" line="399"/>
         <source>开启[</source>
         <translation>開啟[</translation>
     </message>
     <message>
-        <location filename="xmlmodel/codevacuum.cpp" line="368"/>
+        <location filename="xmlmodel/codevacuum.cpp" line="401"/>
         <source>关闭[</source>
         <translation>關閉[</translation>
     </message>
@@ -1340,27 +1376,27 @@
 <context>
     <name>DialogDateTime</name>
     <message>
-        <location filename="dialogdatetime.ui" line="134"/>
+        <location filename="dialogdatetime.ui" line="138"/>
         <source>系统日期时间</source>
         <translation>系統日期時間</translation>
     </message>
     <message>
-        <location filename="dialogdatetime.ui" line="243"/>
+        <location filename="dialogdatetime.ui" line="251"/>
         <source>系统日期：</source>
         <translation>系統日期：</translation>
     </message>
     <message>
-        <location filename="dialogdatetime.ui" line="398"/>
+        <location filename="dialogdatetime.ui" line="411"/>
         <source>系统时间：</source>
         <translation>系統時間：</translation>
     </message>
     <message>
-        <location filename="dialogdatetime.ui" line="466"/>
+        <location filename="dialogdatetime.ui" line="480"/>
         <source>取消</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="dialogdatetime.ui" line="521"/>
+        <location filename="dialogdatetime.ui" line="536"/>
         <source>确定</source>
         <translation>確定</translation>
     </message>
@@ -1368,112 +1404,112 @@
 <context>
     <name>DialogFrame</name>
     <message>
-        <location filename="dialogframe.ui" line="184"/>
+        <location filename="dialogframe.ui" line="188"/>
         <source>运行</source>
         <translation>運行</translation>
     </message>
     <message>
-        <location filename="dialogframe.ui" line="239"/>
+        <location filename="dialogframe.ui" line="240"/>
         <source>端口</source>
         <translation>端口</translation>
     </message>
     <message>
-        <location filename="dialogframe.ui" line="294"/>
+        <location filename="dialogframe.ui" line="292"/>
         <source>功能</source>
         <translation>功能</translation>
     </message>
     <message>
-        <location filename="dialogframe.ui" line="352"/>
+        <location filename="dialogframe.ui" line="347"/>
         <source>报警</source>
         <translation>報警</translation>
     </message>
     <message>
-        <location filename="dialogframe.ui" line="410"/>
-        <location filename="dialogframe.cpp" line="939"/>
-        <location filename="dialogframe.cpp" line="971"/>
-        <location filename="dialogframe.cpp" line="984"/>
-        <location filename="dialogframe.cpp" line="2045"/>
+        <location filename="dialogframe.ui" line="402"/>
+        <location filename="dialogframe.cpp" line="969"/>
+        <location filename="dialogframe.cpp" line="1001"/>
+        <location filename="dialogframe.cpp" line="1014"/>
+        <location filename="dialogframe.cpp" line="2081"/>
         <source>教导</source>
         <translation>教導</translation>
     </message>
     <message>
-        <location filename="dialogframe.ui" line="1071"/>
+        <location filename="dialogframe.ui" line="1060"/>
         <source>主页</source>
         <translation>主頁</translation>
     </message>
     <message>
-        <location filename="dialogframe.ui" line="1358"/>
+        <location filename="dialogframe.ui" line="1337"/>
         <source>当前程序：</source>
         <translation>當前程式：</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="72"/>
+        <location filename="dialogframe.cpp" line="77"/>
         <source>操作器类型：</source>
         <translation>操作器類型：</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="73"/>
+        <location filename="dialogframe.cpp" line="78"/>
         <source>主控模块类型：</source>
         <translation>主控模塊類型：</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="227"/>
+        <location filename="dialogframe.cpp" line="229"/>
         <source>语言</source>
         <translation>語言</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="228"/>
+        <location filename="dialogframe.cpp" line="230"/>
         <source>选项</source>
         <translation>選項</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="365"/>
-        <location filename="dialogframe.cpp" line="370"/>
-        <location filename="dialogframe.cpp" line="1836"/>
-        <location filename="dialogframe.cpp" line="1841"/>
-        <location filename="dialogframe.cpp" line="1846"/>
-        <location filename="dialogframe.cpp" line="1873"/>
+        <location filename="dialogframe.cpp" line="367"/>
+        <location filename="dialogframe.cpp" line="372"/>
+        <location filename="dialogframe.cpp" line="1871"/>
+        <location filename="dialogframe.cpp" line="1876"/>
+        <location filename="dialogframe.cpp" line="1881"/>
+        <location filename="dialogframe.cpp" line="1908"/>
         <source>系统提示</source>
         <translation>系統提示</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="365"/>
+        <location filename="dialogframe.cpp" line="367"/>
         <source>删除原有的触摸屏校准文件失败！
 无法执行重新校准触摸屏操作。</source>
         <translation>刪除原有的觸摸屏校準文件失敗！
 無法執行重新校準觸摸屏操作。</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="370"/>
+        <location filename="dialogframe.cpp" line="372"/>
         <source>请先关闭系统电源，然后重新启动系统进行触摸屏校准操作。</source>
         <translation>請先關閉系統電源，然後重新啓動系統進行觸摸屏校準操作。</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="692"/>
-        <location filename="dialogframe.cpp" line="2232"/>
-        <location filename="dialogframe.cpp" line="2271"/>
-        <location filename="dialogframe.cpp" line="2274"/>
-        <location filename="dialogframe.cpp" line="2284"/>
-        <location filename="dialogframe.cpp" line="2287"/>
-        <location filename="dialogframe.cpp" line="2296"/>
-        <location filename="dialogframe.cpp" line="2351"/>
-        <location filename="dialogframe.cpp" line="2402"/>
-        <location filename="dialogframe.cpp" line="2410"/>
-        <location filename="dialogframe.cpp" line="2436"/>
-        <location filename="dialogframe.cpp" line="2441"/>
-        <location filename="dialogframe.cpp" line="2449"/>
-        <location filename="dialogframe.cpp" line="2454"/>
-        <location filename="dialogframe.cpp" line="2459"/>
-        <location filename="dialogframe.cpp" line="2470"/>
-        <location filename="dialogframe.cpp" line="2475"/>
-        <location filename="dialogframe.cpp" line="2480"/>
+        <location filename="dialogframe.cpp" line="720"/>
+        <location filename="dialogframe.cpp" line="2268"/>
+        <location filename="dialogframe.cpp" line="2307"/>
+        <location filename="dialogframe.cpp" line="2310"/>
+        <location filename="dialogframe.cpp" line="2320"/>
+        <location filename="dialogframe.cpp" line="2323"/>
+        <location filename="dialogframe.cpp" line="2332"/>
+        <location filename="dialogframe.cpp" line="2387"/>
+        <location filename="dialogframe.cpp" line="2438"/>
+        <location filename="dialogframe.cpp" line="2446"/>
+        <location filename="dialogframe.cpp" line="2472"/>
+        <location filename="dialogframe.cpp" line="2477"/>
+        <location filename="dialogframe.cpp" line="2485"/>
+        <location filename="dialogframe.cpp" line="2490"/>
         <location filename="dialogframe.cpp" line="2495"/>
-        <location filename="dialogframe.cpp" line="2502"/>
+        <location filename="dialogframe.cpp" line="2506"/>
+        <location filename="dialogframe.cpp" line="2511"/>
+        <location filename="dialogframe.cpp" line="2516"/>
+        <location filename="dialogframe.cpp" line="2531"/>
+        <location filename="dialogframe.cpp" line="2538"/>
         <source>系统警告</source>
         <translation>系統警告</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="692"/>
+        <location filename="dialogframe.cpp" line="720"/>
         <source>请点击选择相应操作？ 
 点击复位，关闭治具，程序复位至第一条执行， 
 点击继续，程序继续执行。</source>
@@ -1482,208 +1518,208 @@
 點擊繼續，程序繼續執行。</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="937"/>
-        <location filename="dialogframe.cpp" line="969"/>
-        <location filename="dialogframe.cpp" line="986"/>
-        <location filename="dialogframe.cpp" line="1013"/>
-        <location filename="dialogframe.cpp" line="2043"/>
+        <location filename="dialogframe.cpp" line="967"/>
+        <location filename="dialogframe.cpp" line="999"/>
+        <location filename="dialogframe.cpp" line="1016"/>
+        <location filename="dialogframe.cpp" line="1043"/>
+        <location filename="dialogframe.cpp" line="2079"/>
         <source>修改</source>
         <translation>修改</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1756"/>
+        <location filename="dialogframe.cpp" line="1788"/>
         <source>当前程序:</source>
         <translation>当前程式:</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1787"/>
+        <location filename="dialogframe.cpp" line="1822"/>
         <source>高级管理员</source>
         <translation>高級管理員</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1778"/>
-        <location filename="dialogframe.cpp" line="1793"/>
+        <location filename="dialogframe.cpp" line="1813"/>
+        <location filename="dialogframe.cpp" line="1828"/>
         <source>操作员</source>
         <translation>操作員</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="990"/>
-        <location filename="dialogframe.cpp" line="2538"/>
+        <location filename="dialogframe.cpp" line="1020"/>
+        <location filename="dialogframe.cpp" line="2574"/>
         <source>停止</source>
         <translation>停止</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="961"/>
-        <location filename="dialogframe.cpp" line="999"/>
-        <location filename="dialogframe.cpp" line="1007"/>
-        <location filename="dialogframe.cpp" line="2550"/>
-        <location filename="dialogframe.cpp" line="2565"/>
+        <location filename="dialogframe.cpp" line="991"/>
+        <location filename="dialogframe.cpp" line="1029"/>
+        <location filename="dialogframe.cpp" line="1037"/>
+        <location filename="dialogframe.cpp" line="2586"/>
+        <location filename="dialogframe.cpp" line="2601"/>
         <source>手动</source>
         <translation>手動</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="317"/>
+        <location filename="dialogframe.cpp" line="319"/>
         <source>塑机信号全输出</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="317"/>
+        <location filename="dialogframe.cpp" line="319"/>
         <source>确认是否打开全部塑机信号，点击“打开”，信号全输出。点击“关闭”，关闭窗口</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="703"/>
-        <location filename="dialogframe.cpp" line="705"/>
+        <location filename="dialogframe.cpp" line="731"/>
+        <location filename="dialogframe.cpp" line="733"/>
         <source>系统询问</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="703"/>
+        <location filename="dialogframe.cpp" line="731"/>
         <source>取物失败是否继续运行，点击确定，继续运行。点击取消，关闭窗口</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="705"/>
+        <location filename="dialogframe.cpp" line="733"/>
         <source>关闭安全门是否继续运行，点击确定，继续运行。点击取消，关闭窗口</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1020"/>
-        <location filename="dialogframe.cpp" line="2554"/>
+        <location filename="dialogframe.cpp" line="1050"/>
+        <location filename="dialogframe.cpp" line="2590"/>
         <source>全自动</source>
         <translation>全自動</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1026"/>
+        <location filename="dialogframe.cpp" line="1056"/>
         <source>单步</source>
         <translation>單步</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1032"/>
+        <location filename="dialogframe.cpp" line="1062"/>
         <source>单周期</source>
         <translation>單周期</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1039"/>
-        <location filename="dialogframe.cpp" line="2569"/>
+        <location filename="dialogframe.cpp" line="1069"/>
+        <location filename="dialogframe.cpp" line="2605"/>
         <source>自动暂停</source>
         <translation>自动暫停</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1781"/>
+        <location filename="dialogframe.cpp" line="1816"/>
         <source>高级操作员</source>
         <translation>高級操作員</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1784"/>
+        <location filename="dialogframe.cpp" line="1819"/>
         <source>管理员</source>
         <translation>管理員</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1790"/>
+        <location filename="dialogframe.cpp" line="1825"/>
         <source>超级用户</source>
         <translation>超級用戶</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1836"/>
+        <location filename="dialogframe.cpp" line="1871"/>
         <source>正在停止系统全自动运行，请稍候...</source>
         <translation>正在停止系統全自動運行，請稍候...</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1841"/>
+        <location filename="dialogframe.cpp" line="1876"/>
         <source>正在停止系统单周期运行，请稍候...</source>
         <translation>正在停止系統單周期運行，請稍候...</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1846"/>
+        <location filename="dialogframe.cpp" line="1881"/>
         <source>正在停止系统单步运行，请稍候...</source>
         <translation>正在停止系統單步運行，請稍候...</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="1873"/>
+        <location filename="dialogframe.cpp" line="1908"/>
         <source>正在停止当前动作执行，请稍候...</source>
         <translation>正在停止當前動作執行，請稍後...</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2039"/>
+        <location filename="dialogframe.cpp" line="2075"/>
         <source>向导</source>
         <translation>嚮導</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2232"/>
+        <location filename="dialogframe.cpp" line="2268"/>
         <source>调位状态下，不允许执行原点复归操作！</source>
         <translation>調位狀態下，不允許執行原點復歸操作！</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2271"/>
-        <location filename="dialogframe.cpp" line="2284"/>
+        <location filename="dialogframe.cpp" line="2307"/>
+        <location filename="dialogframe.cpp" line="2320"/>
         <source>当机械手在模内并且手臂不在上位安全区域时，不允许执行原点复归操作！</source>
         <translation>當機械手在模內並且手臂不在上位安全區域時，不允許執行原點複歸操作！</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2274"/>
-        <location filename="dialogframe.cpp" line="2287"/>
+        <location filename="dialogframe.cpp" line="2310"/>
+        <location filename="dialogframe.cpp" line="2323"/>
         <source>机械手在模内并且手臂不在上位安全区域，确定要执行原点复归操作吗？</source>
         <translation>機械手在模內並且手臂不在上位安全區域，確定要執行原點復歸操作嗎？</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2296"/>
-        <source>没有开模完信号，不允许执行原点复归操作！</source>
+        <location filename="dialogframe.cpp" line="2332"/>
+        <source>没有加工完成，不允许执行原点复归操作！</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2316"/>
+        <location filename="dialogframe.cpp" line="2352"/>
         <source>原点复归</source>
         <translation>原點複歸</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2351"/>
+        <location filename="dialogframe.cpp" line="2387"/>
         <source>系统只能在手动状态下才能进行程序文件管理操作！</source>
         <translation>系統只能在手動狀態下才能進行程序文件管理操作！</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2402"/>
-        <location filename="dialogframe.cpp" line="2410"/>
+        <location filename="dialogframe.cpp" line="2438"/>
+        <location filename="dialogframe.cpp" line="2446"/>
         <source>没有载入程序文件，不能修改伺服全局速度设置！</source>
         <translation>沒有載入程式文件，不能修改伺服全局速度設置！</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2436"/>
+        <location filename="dialogframe.cpp" line="2472"/>
         <source>装载程序文件出错，不能修改伺服全局速度设置！</source>
         <translation>裝載程式文件出錯，不能修改伺服全局速度設置！</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2441"/>
+        <location filename="dialogframe.cpp" line="2477"/>
         <source>向导生成运行程序出错！</source>
         <translation>嚮導生成運行程式出錯！</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2449"/>
-        <location filename="dialogframe.cpp" line="2470"/>
+        <location filename="dialogframe.cpp" line="2485"/>
+        <location filename="dialogframe.cpp" line="2506"/>
         <source>读取程序版本出错，无法装载程序文件！</source>
         <translation>讀取程式版本出錯，無法裝載程式文件！</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2454"/>
-        <location filename="dialogframe.cpp" line="2475"/>
+        <location filename="dialogframe.cpp" line="2490"/>
+        <location filename="dialogframe.cpp" line="2511"/>
         <source>读取文件格式出错，无法装载程序文件！</source>
         <translation>讀取文件格式出錯，無法裝載程式文件！</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2459"/>
-        <location filename="dialogframe.cpp" line="2480"/>
+        <location filename="dialogframe.cpp" line="2495"/>
+        <location filename="dialogframe.cpp" line="2516"/>
         <source>读取程序文件出错，无法装载程序文件！</source>
         <translation>讀取程式文件出錯，無法裝載程式文件！</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2495"/>
+        <location filename="dialogframe.cpp" line="2531"/>
         <source>上传程序文件参数到主控模块出错，不能修改伺服全局速度设置！
 请检查操作器和主控模块的通讯链路。</source>
         <translation>上傳程式文件參數倒主控模塊出錯，不能修改伺服全局速度設置！
 請檢查操作器和主控模塊的通訊鏈路。</translation>
     </message>
     <message>
-        <location filename="dialogframe.cpp" line="2502"/>
+        <location filename="dialogframe.cpp" line="2538"/>
         <source>主控模块更新当前程序失败，不能修改伺服全局速度设置！
 请检查操作器和主控模块的通讯链路。</source>
         <translation>主控模塊更新當前程式失敗，不能修改伺服全局速度設置！
@@ -1693,37 +1729,37 @@
 <context>
     <name>DialogKeyboard</name>
     <message>
-        <location filename="dialogkeyboard.cpp" line="122"/>
+        <location filename="dialogkeyboard.cpp" line="127"/>
         <source>字符键盘</source>
         <translation>字符鍵盤</translation>
     </message>
     <message>
-        <location filename="dialogkeyboard.cpp" line="131"/>
+        <location filename="dialogkeyboard.cpp" line="136"/>
         <source>输入密码</source>
         <translation>輸入密碼</translation>
     </message>
     <message>
-        <location filename="dialogkeyboard.cpp" line="141"/>
+        <location filename="dialogkeyboard.cpp" line="146"/>
         <source>输入文件名</source>
         <translation>輸入文件名</translation>
     </message>
     <message>
-        <location filename="dialogkeyboard.cpp" line="171"/>
-        <location filename="dialogkeyboard.cpp" line="372"/>
-        <location filename="dialogkeyboard.cpp" line="418"/>
-        <location filename="dialogkeyboard.cpp" line="491"/>
-        <location filename="dialogkeyboard.cpp" line="508"/>
+        <location filename="dialogkeyboard.cpp" line="176"/>
+        <location filename="dialogkeyboard.cpp" line="377"/>
+        <location filename="dialogkeyboard.cpp" line="423"/>
+        <location filename="dialogkeyboard.cpp" line="496"/>
+        <location filename="dialogkeyboard.cpp" line="513"/>
         <source>中文</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="dialogkeyboard.cpp" line="507"/>
-        <location filename="dialogkeyboard.cpp" line="510"/>
+        <location filename="dialogkeyboard.cpp" line="512"/>
+        <location filename="dialogkeyboard.cpp" line="515"/>
         <source>EN</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="dialogkeyboard.ui" line="1180"/>
+        <location filename="dialogkeyboard.ui" line="1204"/>
         <source>&gt;&gt;</source>
         <translation></translation>
     </message>
@@ -1731,7 +1767,7 @@
 <context>
     <name>DialogLogDetail</name>
     <message>
-        <location filename="dialoglogdetail.ui" line="129"/>
+        <location filename="dialoglogdetail.ui" line="139"/>
         <source>记录详细信息</source>
         <translation>記錄詳細信息</translation>
     </message>
@@ -1739,168 +1775,168 @@
 <context>
     <name>DialogLogIo</name>
     <message>
-        <location filename="dialoglogio.ui" line="123"/>
+        <location filename="dialoglogio.ui" line="130"/>
         <source>记录端口状态</source>
         <translation>記錄端口狀態</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="255"/>
+        <location filename="dialoglogio.ui" line="272"/>
         <source>伺服</source>
         <translation>伺服</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="275"/>
+        <location filename="dialoglogio.ui" line="293"/>
         <source>扩展轴</source>
         <translation>擴展軸</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="321"/>
-        <location filename="dialoglogio.ui" line="573"/>
-        <location filename="dialoglogio.ui" line="825"/>
-        <location filename="dialoglogio.ui" line="1077"/>
-        <location filename="dialoglogio.ui" line="1329"/>
-        <location filename="dialoglogio.ui" line="1581"/>
+        <location filename="dialoglogio.ui" line="340"/>
+        <location filename="dialoglogio.ui" line="598"/>
+        <location filename="dialoglogio.ui" line="856"/>
+        <location filename="dialoglogio.ui" line="1114"/>
+        <location filename="dialoglogio.ui" line="1372"/>
+        <location filename="dialoglogio.ui" line="1630"/>
         <source>原点</source>
         <translation>原點</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="368"/>
-        <location filename="dialoglogio.ui" line="620"/>
-        <location filename="dialoglogio.ui" line="872"/>
-        <location filename="dialoglogio.ui" line="1124"/>
-        <location filename="dialoglogio.ui" line="1376"/>
-        <location filename="dialoglogio.ui" line="1675"/>
+        <location filename="dialoglogio.ui" line="388"/>
+        <location filename="dialoglogio.ui" line="646"/>
+        <location filename="dialoglogio.ui" line="904"/>
+        <location filename="dialoglogio.ui" line="1162"/>
+        <location filename="dialoglogio.ui" line="1420"/>
+        <location filename="dialoglogio.ui" line="1726"/>
         <source>负限</source>
         <translation>負限</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="415"/>
-        <location filename="dialoglogio.ui" line="667"/>
-        <location filename="dialoglogio.ui" line="919"/>
-        <location filename="dialoglogio.ui" line="1171"/>
-        <location filename="dialoglogio.ui" line="1423"/>
-        <location filename="dialoglogio.ui" line="1628"/>
+        <location filename="dialoglogio.ui" line="436"/>
+        <location filename="dialoglogio.ui" line="694"/>
+        <location filename="dialoglogio.ui" line="952"/>
+        <location filename="dialoglogio.ui" line="1210"/>
+        <location filename="dialoglogio.ui" line="1468"/>
+        <location filename="dialoglogio.ui" line="1678"/>
         <source>正限</source>
         <translation>正限</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="462"/>
-        <location filename="dialoglogio.ui" line="714"/>
-        <location filename="dialoglogio.ui" line="966"/>
-        <location filename="dialoglogio.ui" line="1218"/>
-        <location filename="dialoglogio.ui" line="1470"/>
-        <location filename="dialoglogio.ui" line="1722"/>
+        <location filename="dialoglogio.ui" line="484"/>
+        <location filename="dialoglogio.ui" line="742"/>
+        <location filename="dialoglogio.ui" line="1000"/>
+        <location filename="dialoglogio.ui" line="1258"/>
+        <location filename="dialoglogio.ui" line="1516"/>
+        <location filename="dialoglogio.ui" line="1774"/>
         <source>报警</source>
         <translation>報警</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="509"/>
-        <location filename="dialoglogio.ui" line="761"/>
-        <location filename="dialoglogio.ui" line="1013"/>
-        <location filename="dialoglogio.ui" line="1265"/>
-        <location filename="dialoglogio.ui" line="1517"/>
-        <location filename="dialoglogio.ui" line="1769"/>
+        <location filename="dialoglogio.ui" line="532"/>
+        <location filename="dialoglogio.ui" line="790"/>
+        <location filename="dialoglogio.ui" line="1048"/>
+        <location filename="dialoglogio.ui" line="1306"/>
+        <location filename="dialoglogio.ui" line="1564"/>
+        <location filename="dialoglogio.ui" line="1822"/>
         <source>使能</source>
         <translation>使能</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="527"/>
+        <location filename="dialoglogio.ui" line="551"/>
         <source>副臂上下轴</source>
         <translation>副臂上下軸</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="779"/>
+        <location filename="dialoglogio.ui" line="809"/>
         <source>副臂引拔轴</source>
         <translation>副臂引拔軸</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="1031"/>
+        <location filename="dialoglogio.ui" line="1067"/>
         <source>正臂上下轴</source>
         <translation>正臂上下軸</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="1283"/>
+        <location filename="dialoglogio.ui" line="1325"/>
         <source>横行轴</source>
         <translation>橫行軸</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="1535"/>
+        <location filename="dialoglogio.ui" line="1583"/>
         <source>正臂引拔轴</source>
         <translation>正臂引拔軸</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="1839"/>
+        <location filename="dialoglogio.ui" line="1893"/>
         <source>正臂上位安全区</source>
         <translation>正臂上位安全區</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="1886"/>
+        <location filename="dialoglogio.ui" line="1941"/>
         <source>副臂上位安全区</source>
         <translation>副臂上位安全區</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="1933"/>
+        <location filename="dialoglogio.ui" line="1989"/>
         <source>横行模外安全区</source>
         <translation>橫行模外安全區</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="1947"/>
+        <location filename="dialoglogio.ui" line="2006"/>
         <location filename="dialoglogio.cpp" line="102"/>
         <source>注塑机</source>
         <translation>注塑機</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="1967"/>
+        <location filename="dialoglogio.ui" line="2027"/>
         <source>输入信号</source>
         <translation>輸入訊號</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="2642"/>
+        <location filename="dialoglogio.ui" line="2717"/>
         <source>输出信号</source>
         <translation>輸出訊號</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="3193"/>
+        <location filename="dialoglogio.ui" line="3279"/>
         <source>扩展输出</source>
         <translation>擴展輸出</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="3213"/>
-        <location filename="dialoglogio.ui" line="7116"/>
-        <location filename="dialoglogio.ui" line="7891"/>
-        <location filename="dialoglogio.ui" line="8669"/>
-        <location filename="dialoglogio.ui" line="9444"/>
+        <location filename="dialoglogio.ui" line="3300"/>
+        <location filename="dialoglogio.ui" line="7291"/>
+        <location filename="dialoglogio.ui" line="8083"/>
+        <location filename="dialoglogio.ui" line="8878"/>
+        <location filename="dialoglogio.ui" line="9670"/>
         <source>扩展模块1</source>
         <translation>擴展模塊1</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="3991"/>
+        <location filename="dialoglogio.ui" line="4095"/>
         <source>扩展模块3</source>
         <translation>擴展模塊2</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="4766"/>
+        <location filename="dialoglogio.ui" line="4887"/>
         <source>扩展模块2</source>
         <translation>擴展模塊3</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="5544"/>
+        <location filename="dialoglogio.ui" line="5682"/>
         <source>扩展模块4</source>
         <translation>擴展模塊4</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="6319"/>
-        <location filename="dialoglogio.ui" line="10222"/>
+        <location filename="dialoglogio.ui" line="6474"/>
+        <location filename="dialoglogio.ui" line="10465"/>
         <source>主控模块</source>
         <translation>主控模塊</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="7096"/>
+        <location filename="dialoglogio.ui" line="7270"/>
         <source>扩展输入</source>
         <translation>擴展輸入</translation>
     </message>
     <message>
-        <location filename="dialoglogio.ui" line="10999"/>
+        <location filename="dialoglogio.ui" line="11261"/>
         <source>其他</source>
         <translation>其他</translation>
     </message>
@@ -1972,7 +2008,7 @@
 <context>
     <name>DialogLogPar</name>
     <message>
-        <location filename="dialoglogpar.ui" line="123"/>
+        <location filename="dialoglogpar.ui" line="130"/>
         <source>记录参数设置状态</source>
         <translation>記錄參數設置狀態</translation>
     </message>
@@ -3014,52 +3050,52 @@
 <context>
     <name>DialogLogQuery</name>
     <message>
-        <location filename="dialoglogquery.ui" line="123"/>
+        <location filename="dialoglogquery.ui" line="130"/>
         <source>日志记录查询</source>
         <translation>日誌記錄查詢</translation>
     </message>
     <message>
-        <location filename="dialoglogquery.ui" line="251"/>
+        <location filename="dialoglogquery.ui" line="265"/>
         <source>显示系统消息日志记录</source>
         <translation>顯示系統消息日誌記錄</translation>
     </message>
     <message>
-        <location filename="dialoglogquery.ui" line="290"/>
+        <location filename="dialoglogquery.ui" line="305"/>
         <source>显示所有日志记录</source>
         <translation>顯示所有日誌記錄</translation>
     </message>
     <message>
-        <location filename="dialoglogquery.ui" line="329"/>
+        <location filename="dialoglogquery.ui" line="345"/>
         <source>显示一般日志记录</source>
         <translation>顯示一般日誌記錄</translation>
     </message>
     <message>
-        <location filename="dialoglogquery.ui" line="383"/>
+        <location filename="dialoglogquery.ui" line="403"/>
         <source>开始时间：</source>
         <translation>開始時間：</translation>
     </message>
     <message>
-        <location filename="dialoglogquery.ui" line="477"/>
+        <location filename="dialoglogquery.ui" line="499"/>
         <source>结束时间：</source>
         <translation>結束時間：</translation>
     </message>
     <message>
-        <location filename="dialoglogquery.ui" line="567"/>
+        <location filename="dialoglogquery.ui" line="591"/>
         <source>按日期查询日志记录</source>
         <translation>按日期查詢日誌記錄</translation>
     </message>
     <message>
-        <location filename="dialoglogquery.ui" line="606"/>
+        <location filename="dialoglogquery.ui" line="631"/>
         <source>显示系统报警日志记录</source>
         <translation>顯示系統報警日誌記錄</translation>
     </message>
     <message>
-        <location filename="dialoglogquery.ui" line="652"/>
+        <location filename="dialoglogquery.ui" line="678"/>
         <source>取消</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="dialoglogquery.ui" line="692"/>
+        <location filename="dialoglogquery.ui" line="719"/>
         <source>确定</source>
         <translation>確定</translation>
     </message>
@@ -3067,27 +3103,27 @@
 <context>
     <name>DialogNumberPad</name>
     <message>
-        <location filename="dialognumberpad.ui" line="137"/>
+        <location filename="dialognumberpad.ui" line="143"/>
         <source>数字键盘</source>
         <translation>數字鍵盤</translation>
     </message>
     <message>
-        <location filename="dialognumberpad.ui" line="564"/>
+        <location filename="dialognumberpad.ui" line="583"/>
         <source>待机点</source>
         <translation>待機點</translation>
     </message>
     <message>
-        <location filename="dialognumberpad.ui" line="603"/>
+        <location filename="dialognumberpad.ui" line="623"/>
         <source>取物点</source>
         <translation>取物點</translation>
     </message>
     <message>
-        <location filename="dialognumberpad.ui" line="642"/>
+        <location filename="dialognumberpad.ui" line="663"/>
         <source>置物点</source>
         <translation>置物點</translation>
     </message>
     <message>
-        <location filename="dialognumberpad.ui" line="681"/>
+        <location filename="dialognumberpad.ui" line="703"/>
         <source>变量</source>
         <translation>變量</translation>
     </message>
@@ -3115,27 +3151,27 @@
 <context>
     <name>DialogOption</name>
     <message>
-        <location filename="dialogoption.ui" line="20"/>
+        <location filename="dialogoption.ui" line="23"/>
         <source>Option定制</source>
         <translation>Option定製</translation>
     </message>
     <message>
-        <location filename="dialogoption.ui" line="76"/>
+        <location filename="dialogoption.ui" line="84"/>
         <source>有效名称：</source>
         <translation>有效名稱：</translation>
     </message>
     <message>
-        <location filename="dialogoption.ui" line="103"/>
+        <location filename="dialogoption.ui" line="112"/>
         <source>无效名称：</source>
         <translation>無效名稱：</translation>
     </message>
     <message>
-        <location filename="dialogoption.ui" line="180"/>
+        <location filename="dialogoption.ui" line="191"/>
         <source>确定</source>
         <translation>確定</translation>
     </message>
     <message>
-        <location filename="dialogoption.ui" line="211"/>
+        <location filename="dialogoption.ui" line="223"/>
         <source>取消</source>
         <translation>取消</translation>
     </message>
@@ -3148,12 +3184,12 @@
         <translation>參數編輯方塊</translation>
     </message>
     <message>
-        <location filename="dialogparaedit.ui" line="98"/>
+        <location filename="dialogparaedit.ui" line="105"/>
         <source>取消</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="dialogparaedit.ui" line="124"/>
+        <location filename="dialogparaedit.ui" line="133"/>
         <source>确定</source>
         <translation>確定</translation>
     </message>
@@ -3166,1132 +3202,1132 @@
         <translation>Dialog</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="50"/>
-        <location filename="dialogportedit.cpp" line="95"/>
+        <location filename="dialogportedit.ui" line="54"/>
+        <location filename="dialogportedit.cpp" line="114"/>
         <source>扩展输入</source>
         <translation>擴展輸入</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="77"/>
-        <location filename="dialogportedit.ui" line="1906"/>
+        <location filename="dialogportedit.ui" line="82"/>
+        <location filename="dialogportedit.ui" line="1912"/>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="90"/>
-        <location filename="dialogportedit.ui" line="1919"/>
+        <location filename="dialogportedit.ui" line="95"/>
+        <location filename="dialogportedit.ui" line="1925"/>
         <source>2</source>
         <translation>2</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="103"/>
-        <location filename="dialogportedit.ui" line="1932"/>
+        <location filename="dialogportedit.ui" line="108"/>
+        <location filename="dialogportedit.ui" line="1938"/>
         <source>3</source>
         <translation>3</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="116"/>
-        <location filename="dialogportedit.ui" line="1945"/>
+        <location filename="dialogportedit.ui" line="121"/>
+        <location filename="dialogportedit.ui" line="1951"/>
         <source>4</source>
         <translation>4</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="129"/>
-        <location filename="dialogportedit.ui" line="1958"/>
+        <location filename="dialogportedit.ui" line="134"/>
+        <location filename="dialogportedit.ui" line="1964"/>
         <source>5</source>
         <translation>5</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="142"/>
-        <location filename="dialogportedit.ui" line="1971"/>
+        <location filename="dialogportedit.ui" line="147"/>
+        <location filename="dialogportedit.ui" line="1977"/>
         <source>6</source>
         <translation>6</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="155"/>
-        <location filename="dialogportedit.ui" line="1984"/>
+        <location filename="dialogportedit.ui" line="160"/>
+        <location filename="dialogportedit.ui" line="1990"/>
         <source>7</source>
         <translation>7</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="168"/>
-        <location filename="dialogportedit.ui" line="1997"/>
+        <location filename="dialogportedit.ui" line="173"/>
+        <location filename="dialogportedit.ui" line="2003"/>
         <source>8</source>
         <translation>8</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="181"/>
-        <location filename="dialogportedit.ui" line="2010"/>
+        <location filename="dialogportedit.ui" line="186"/>
+        <location filename="dialogportedit.ui" line="2016"/>
         <source>9</source>
         <translation>9</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="194"/>
-        <location filename="dialogportedit.ui" line="2023"/>
+        <location filename="dialogportedit.ui" line="199"/>
+        <location filename="dialogportedit.ui" line="2029"/>
         <source>10</source>
         <translation>10</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="207"/>
-        <location filename="dialogportedit.ui" line="2036"/>
+        <location filename="dialogportedit.ui" line="212"/>
+        <location filename="dialogportedit.ui" line="2042"/>
         <source>11</source>
         <translation>11</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="220"/>
-        <location filename="dialogportedit.ui" line="2049"/>
+        <location filename="dialogportedit.ui" line="225"/>
+        <location filename="dialogportedit.ui" line="2055"/>
         <source>12</source>
         <translation>12</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="233"/>
-        <location filename="dialogportedit.ui" line="2062"/>
+        <location filename="dialogportedit.ui" line="238"/>
+        <location filename="dialogportedit.ui" line="2068"/>
         <source>13</source>
         <translation>13</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="246"/>
-        <location filename="dialogportedit.ui" line="2075"/>
+        <location filename="dialogportedit.ui" line="251"/>
+        <location filename="dialogportedit.ui" line="2081"/>
         <source>14</source>
         <translation>14</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="259"/>
-        <location filename="dialogportedit.ui" line="2088"/>
+        <location filename="dialogportedit.ui" line="264"/>
+        <location filename="dialogportedit.ui" line="2094"/>
         <source>15</source>
         <translation>15</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="272"/>
-        <location filename="dialogportedit.ui" line="2101"/>
+        <location filename="dialogportedit.ui" line="277"/>
+        <location filename="dialogportedit.ui" line="2107"/>
         <source>16</source>
         <translation>16</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="285"/>
-        <location filename="dialogportedit.ui" line="2114"/>
+        <location filename="dialogportedit.ui" line="290"/>
+        <location filename="dialogportedit.ui" line="2120"/>
         <source>17</source>
         <translation>17</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="298"/>
-        <location filename="dialogportedit.ui" line="2127"/>
+        <location filename="dialogportedit.ui" line="303"/>
+        <location filename="dialogportedit.ui" line="2133"/>
         <source>18</source>
         <translation>18</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="311"/>
-        <location filename="dialogportedit.ui" line="2140"/>
+        <location filename="dialogportedit.ui" line="316"/>
+        <location filename="dialogportedit.ui" line="2146"/>
         <source>19</source>
         <translation>19</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="324"/>
-        <location filename="dialogportedit.ui" line="2153"/>
+        <location filename="dialogportedit.ui" line="329"/>
+        <location filename="dialogportedit.ui" line="2159"/>
         <source>20</source>
         <translation>20</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="337"/>
-        <location filename="dialogportedit.ui" line="2166"/>
+        <location filename="dialogportedit.ui" line="342"/>
+        <location filename="dialogportedit.ui" line="2172"/>
         <source>21</source>
         <translation>21</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="350"/>
-        <location filename="dialogportedit.ui" line="2179"/>
+        <location filename="dialogportedit.ui" line="355"/>
+        <location filename="dialogportedit.ui" line="2185"/>
         <source>22</source>
         <translation>22</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="363"/>
-        <location filename="dialogportedit.ui" line="2192"/>
+        <location filename="dialogportedit.ui" line="368"/>
+        <location filename="dialogportedit.ui" line="2198"/>
         <source>23</source>
         <translation>23</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="376"/>
-        <location filename="dialogportedit.ui" line="2205"/>
+        <location filename="dialogportedit.ui" line="381"/>
+        <location filename="dialogportedit.ui" line="2211"/>
         <source>24</source>
         <translation>24</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="389"/>
-        <location filename="dialogportedit.ui" line="2218"/>
+        <location filename="dialogportedit.ui" line="394"/>
+        <location filename="dialogportedit.ui" line="2224"/>
         <source>25</source>
         <translation>25</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="402"/>
-        <location filename="dialogportedit.ui" line="2231"/>
+        <location filename="dialogportedit.ui" line="407"/>
+        <location filename="dialogportedit.ui" line="2237"/>
         <source>26</source>
         <translation>26</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="415"/>
-        <location filename="dialogportedit.ui" line="2244"/>
+        <location filename="dialogportedit.ui" line="420"/>
+        <location filename="dialogportedit.ui" line="2250"/>
         <source>27</source>
         <translation>27</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="428"/>
-        <location filename="dialogportedit.ui" line="2257"/>
+        <location filename="dialogportedit.ui" line="433"/>
+        <location filename="dialogportedit.ui" line="2263"/>
         <source>28</source>
         <translation>28</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="441"/>
-        <location filename="dialogportedit.ui" line="2270"/>
+        <location filename="dialogportedit.ui" line="446"/>
+        <location filename="dialogportedit.ui" line="2276"/>
         <source>29</source>
         <translation>29</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="454"/>
-        <location filename="dialogportedit.ui" line="2283"/>
+        <location filename="dialogportedit.ui" line="459"/>
+        <location filename="dialogportedit.ui" line="2289"/>
         <source>30</source>
         <translation>30</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="467"/>
-        <location filename="dialogportedit.ui" line="2296"/>
+        <location filename="dialogportedit.ui" line="472"/>
+        <location filename="dialogportedit.ui" line="2302"/>
         <source>31</source>
         <translation>31</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="480"/>
-        <location filename="dialogportedit.ui" line="2309"/>
+        <location filename="dialogportedit.ui" line="485"/>
+        <location filename="dialogportedit.ui" line="2315"/>
         <source>32</source>
         <translation>32</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="493"/>
-        <location filename="dialogportedit.ui" line="2322"/>
+        <location filename="dialogportedit.ui" line="498"/>
+        <location filename="dialogportedit.ui" line="2328"/>
         <source>33</source>
         <translation>33</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="506"/>
-        <location filename="dialogportedit.ui" line="2335"/>
+        <location filename="dialogportedit.ui" line="511"/>
+        <location filename="dialogportedit.ui" line="2341"/>
         <source>34</source>
         <translation>34</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="519"/>
-        <location filename="dialogportedit.ui" line="2348"/>
+        <location filename="dialogportedit.ui" line="524"/>
+        <location filename="dialogportedit.ui" line="2354"/>
         <source>35</source>
         <translation>35</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="532"/>
-        <location filename="dialogportedit.ui" line="2361"/>
+        <location filename="dialogportedit.ui" line="537"/>
+        <location filename="dialogportedit.ui" line="2367"/>
         <source>36</source>
         <translation>36</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="545"/>
-        <location filename="dialogportedit.ui" line="2374"/>
+        <location filename="dialogportedit.ui" line="550"/>
+        <location filename="dialogportedit.ui" line="2380"/>
         <source>37</source>
         <translation>37</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="558"/>
-        <location filename="dialogportedit.ui" line="2387"/>
+        <location filename="dialogportedit.ui" line="563"/>
+        <location filename="dialogportedit.ui" line="2393"/>
         <source>38</source>
         <translation>38</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="571"/>
-        <location filename="dialogportedit.ui" line="2400"/>
+        <location filename="dialogportedit.ui" line="576"/>
+        <location filename="dialogportedit.ui" line="2406"/>
         <source>39</source>
         <translation>39</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="584"/>
-        <location filename="dialogportedit.ui" line="2413"/>
+        <location filename="dialogportedit.ui" line="589"/>
+        <location filename="dialogportedit.ui" line="2419"/>
         <source>40</source>
         <translation>40</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="597"/>
-        <location filename="dialogportedit.ui" line="2426"/>
+        <location filename="dialogportedit.ui" line="602"/>
+        <location filename="dialogportedit.ui" line="2432"/>
         <source>41</source>
         <translation>41</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="610"/>
-        <location filename="dialogportedit.ui" line="2439"/>
+        <location filename="dialogportedit.ui" line="615"/>
+        <location filename="dialogportedit.ui" line="2445"/>
         <source>42</source>
         <translation>42</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="623"/>
-        <location filename="dialogportedit.ui" line="2452"/>
+        <location filename="dialogportedit.ui" line="628"/>
+        <location filename="dialogportedit.ui" line="2458"/>
         <source>43</source>
         <translation>43</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="636"/>
-        <location filename="dialogportedit.ui" line="2465"/>
+        <location filename="dialogportedit.ui" line="641"/>
+        <location filename="dialogportedit.ui" line="2471"/>
         <source>44</source>
         <translation>44</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="649"/>
-        <location filename="dialogportedit.ui" line="2478"/>
+        <location filename="dialogportedit.ui" line="654"/>
+        <location filename="dialogportedit.ui" line="2484"/>
         <source>45</source>
         <translation>45</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="662"/>
-        <location filename="dialogportedit.ui" line="2491"/>
+        <location filename="dialogportedit.ui" line="667"/>
+        <location filename="dialogportedit.ui" line="2497"/>
         <source>46</source>
         <translation>46</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="675"/>
-        <location filename="dialogportedit.ui" line="2504"/>
+        <location filename="dialogportedit.ui" line="680"/>
+        <location filename="dialogportedit.ui" line="2510"/>
         <source>47</source>
         <translation>47</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="688"/>
-        <location filename="dialogportedit.ui" line="2517"/>
+        <location filename="dialogportedit.ui" line="693"/>
+        <location filename="dialogportedit.ui" line="2523"/>
         <source>48</source>
         <translation>48</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="701"/>
-        <location filename="dialogportedit.ui" line="2530"/>
+        <location filename="dialogportedit.ui" line="706"/>
+        <location filename="dialogportedit.ui" line="2536"/>
         <source>49</source>
         <translation>49</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="714"/>
-        <location filename="dialogportedit.ui" line="2543"/>
+        <location filename="dialogportedit.ui" line="719"/>
+        <location filename="dialogportedit.ui" line="2549"/>
         <source>50</source>
         <translation>50</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="727"/>
-        <location filename="dialogportedit.ui" line="2556"/>
+        <location filename="dialogportedit.ui" line="732"/>
+        <location filename="dialogportedit.ui" line="2562"/>
         <source>51</source>
         <translation>51</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="740"/>
-        <location filename="dialogportedit.ui" line="2569"/>
+        <location filename="dialogportedit.ui" line="745"/>
+        <location filename="dialogportedit.ui" line="2575"/>
         <source>52</source>
         <translation>52</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="753"/>
-        <location filename="dialogportedit.ui" line="2582"/>
+        <location filename="dialogportedit.ui" line="758"/>
+        <location filename="dialogportedit.ui" line="2588"/>
         <source>53</source>
         <translation>53</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="766"/>
-        <location filename="dialogportedit.ui" line="2595"/>
+        <location filename="dialogportedit.ui" line="771"/>
+        <location filename="dialogportedit.ui" line="2601"/>
         <source>54</source>
         <translation>54</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="779"/>
-        <location filename="dialogportedit.ui" line="2608"/>
+        <location filename="dialogportedit.ui" line="784"/>
+        <location filename="dialogportedit.ui" line="2614"/>
         <source>55</source>
         <translation>55</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="792"/>
-        <location filename="dialogportedit.ui" line="2621"/>
+        <location filename="dialogportedit.ui" line="797"/>
+        <location filename="dialogportedit.ui" line="2627"/>
         <source>56</source>
         <translation>56</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="805"/>
-        <location filename="dialogportedit.ui" line="2634"/>
+        <location filename="dialogportedit.ui" line="810"/>
+        <location filename="dialogportedit.ui" line="2640"/>
         <source>57</source>
         <translation>57</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="818"/>
-        <location filename="dialogportedit.ui" line="2647"/>
+        <location filename="dialogportedit.ui" line="823"/>
+        <location filename="dialogportedit.ui" line="2653"/>
         <source>58</source>
         <translation>58</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="831"/>
-        <location filename="dialogportedit.ui" line="2660"/>
+        <location filename="dialogportedit.ui" line="836"/>
+        <location filename="dialogportedit.ui" line="2666"/>
         <source>59</source>
         <translation>59</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="844"/>
-        <location filename="dialogportedit.ui" line="2673"/>
+        <location filename="dialogportedit.ui" line="849"/>
+        <location filename="dialogportedit.ui" line="2679"/>
         <source>60</source>
         <translation>60</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="857"/>
-        <location filename="dialogportedit.ui" line="2686"/>
+        <location filename="dialogportedit.ui" line="862"/>
+        <location filename="dialogportedit.ui" line="2692"/>
         <source>61</source>
         <translation>61</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="870"/>
-        <location filename="dialogportedit.ui" line="2699"/>
+        <location filename="dialogportedit.ui" line="875"/>
+        <location filename="dialogportedit.ui" line="2705"/>
         <source>62</source>
         <translation>62</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="883"/>
-        <location filename="dialogportedit.ui" line="2712"/>
+        <location filename="dialogportedit.ui" line="888"/>
+        <location filename="dialogportedit.ui" line="2718"/>
         <source>63</source>
         <translation>63</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="896"/>
-        <location filename="dialogportedit.ui" line="2725"/>
+        <location filename="dialogportedit.ui" line="901"/>
+        <location filename="dialogportedit.ui" line="2731"/>
         <source>64</source>
         <translation>64</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="909"/>
-        <location filename="dialogportedit.ui" line="2738"/>
+        <location filename="dialogportedit.ui" line="914"/>
+        <location filename="dialogportedit.ui" line="2744"/>
         <source>65</source>
         <translation>65</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="922"/>
-        <location filename="dialogportedit.ui" line="2751"/>
+        <location filename="dialogportedit.ui" line="927"/>
+        <location filename="dialogportedit.ui" line="2757"/>
         <source>66</source>
         <translation>66</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="935"/>
-        <location filename="dialogportedit.ui" line="2764"/>
+        <location filename="dialogportedit.ui" line="940"/>
+        <location filename="dialogportedit.ui" line="2770"/>
         <source>67</source>
         <translation>67</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="948"/>
-        <location filename="dialogportedit.ui" line="2777"/>
+        <location filename="dialogportedit.ui" line="953"/>
+        <location filename="dialogportedit.ui" line="2783"/>
         <source>68</source>
         <translation>68</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="961"/>
-        <location filename="dialogportedit.ui" line="2790"/>
+        <location filename="dialogportedit.ui" line="966"/>
+        <location filename="dialogportedit.ui" line="2796"/>
         <source>69</source>
         <translation>69</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="974"/>
-        <location filename="dialogportedit.ui" line="2803"/>
+        <location filename="dialogportedit.ui" line="979"/>
+        <location filename="dialogportedit.ui" line="2809"/>
         <source>70</source>
         <translation>70</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="987"/>
-        <location filename="dialogportedit.ui" line="2816"/>
+        <location filename="dialogportedit.ui" line="992"/>
+        <location filename="dialogportedit.ui" line="2822"/>
         <source>71</source>
         <translation>71</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1000"/>
-        <location filename="dialogportedit.ui" line="2829"/>
+        <location filename="dialogportedit.ui" line="1005"/>
+        <location filename="dialogportedit.ui" line="2835"/>
         <source>72</source>
         <translation>72</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1013"/>
-        <location filename="dialogportedit.ui" line="2842"/>
+        <location filename="dialogportedit.ui" line="1018"/>
+        <location filename="dialogportedit.ui" line="2848"/>
         <source>73</source>
         <translation>73</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1026"/>
-        <location filename="dialogportedit.ui" line="2855"/>
+        <location filename="dialogportedit.ui" line="1031"/>
+        <location filename="dialogportedit.ui" line="2861"/>
         <source>74</source>
         <translation>74</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1039"/>
-        <location filename="dialogportedit.ui" line="2868"/>
+        <location filename="dialogportedit.ui" line="1044"/>
+        <location filename="dialogportedit.ui" line="2874"/>
         <source>75</source>
         <translation>75</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1052"/>
-        <location filename="dialogportedit.ui" line="2881"/>
+        <location filename="dialogportedit.ui" line="1057"/>
+        <location filename="dialogportedit.ui" line="2887"/>
         <source>76</source>
         <translation>76</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1065"/>
-        <location filename="dialogportedit.ui" line="2894"/>
+        <location filename="dialogportedit.ui" line="1070"/>
+        <location filename="dialogportedit.ui" line="2900"/>
         <source>77</source>
         <translation>77</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1078"/>
-        <location filename="dialogportedit.ui" line="2907"/>
+        <location filename="dialogportedit.ui" line="1083"/>
+        <location filename="dialogportedit.ui" line="2913"/>
         <source>78</source>
         <translation>78</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1091"/>
-        <location filename="dialogportedit.ui" line="2920"/>
+        <location filename="dialogportedit.ui" line="1096"/>
+        <location filename="dialogportedit.ui" line="2926"/>
         <source>79</source>
         <translation>79</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1104"/>
-        <location filename="dialogportedit.ui" line="2933"/>
+        <location filename="dialogportedit.ui" line="1109"/>
+        <location filename="dialogportedit.ui" line="2939"/>
         <source>80</source>
         <translation>80</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1117"/>
-        <location filename="dialogportedit.ui" line="2946"/>
+        <location filename="dialogportedit.ui" line="1122"/>
+        <location filename="dialogportedit.ui" line="2952"/>
         <source>81</source>
         <translation>81</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1130"/>
-        <location filename="dialogportedit.ui" line="2959"/>
+        <location filename="dialogportedit.ui" line="1135"/>
+        <location filename="dialogportedit.ui" line="2965"/>
         <source>82</source>
         <translation>82</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1143"/>
-        <location filename="dialogportedit.ui" line="2972"/>
+        <location filename="dialogportedit.ui" line="1148"/>
+        <location filename="dialogportedit.ui" line="2978"/>
         <source>83</source>
         <translation>83</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1156"/>
-        <location filename="dialogportedit.ui" line="2985"/>
+        <location filename="dialogportedit.ui" line="1161"/>
+        <location filename="dialogportedit.ui" line="2991"/>
         <source>84</source>
         <translation>84</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1169"/>
-        <location filename="dialogportedit.ui" line="2998"/>
+        <location filename="dialogportedit.ui" line="1174"/>
+        <location filename="dialogportedit.ui" line="3004"/>
         <source>85</source>
         <translation>85</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1182"/>
-        <location filename="dialogportedit.ui" line="3011"/>
+        <location filename="dialogportedit.ui" line="1187"/>
+        <location filename="dialogportedit.ui" line="3017"/>
         <source>86</source>
         <translation>86</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1195"/>
-        <location filename="dialogportedit.ui" line="3024"/>
+        <location filename="dialogportedit.ui" line="1200"/>
+        <location filename="dialogportedit.ui" line="3030"/>
         <source>87</source>
         <translation>87</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1208"/>
-        <location filename="dialogportedit.ui" line="3037"/>
+        <location filename="dialogportedit.ui" line="1213"/>
+        <location filename="dialogportedit.ui" line="3043"/>
         <source>88</source>
         <translation>88</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1221"/>
-        <location filename="dialogportedit.ui" line="3050"/>
+        <location filename="dialogportedit.ui" line="1226"/>
+        <location filename="dialogportedit.ui" line="3056"/>
         <source>89</source>
         <translation>89</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1234"/>
-        <location filename="dialogportedit.ui" line="3063"/>
+        <location filename="dialogportedit.ui" line="1239"/>
+        <location filename="dialogportedit.ui" line="3069"/>
         <source>90</source>
         <translation>90</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1247"/>
-        <location filename="dialogportedit.ui" line="3076"/>
+        <location filename="dialogportedit.ui" line="1252"/>
+        <location filename="dialogportedit.ui" line="3082"/>
         <source>91</source>
         <translation>91</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1260"/>
-        <location filename="dialogportedit.ui" line="3089"/>
+        <location filename="dialogportedit.ui" line="1265"/>
+        <location filename="dialogportedit.ui" line="3095"/>
         <source>92</source>
         <translation>92</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1273"/>
-        <location filename="dialogportedit.ui" line="3102"/>
+        <location filename="dialogportedit.ui" line="1278"/>
+        <location filename="dialogportedit.ui" line="3108"/>
         <source>93</source>
         <translation>93</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1286"/>
-        <location filename="dialogportedit.ui" line="3115"/>
+        <location filename="dialogportedit.ui" line="1291"/>
+        <location filename="dialogportedit.ui" line="3121"/>
         <source>94</source>
         <translation>94</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1299"/>
-        <location filename="dialogportedit.ui" line="3128"/>
+        <location filename="dialogportedit.ui" line="1304"/>
+        <location filename="dialogportedit.ui" line="3134"/>
         <source>95</source>
         <translation>95</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1312"/>
-        <location filename="dialogportedit.ui" line="3141"/>
+        <location filename="dialogportedit.ui" line="1317"/>
+        <location filename="dialogportedit.ui" line="3147"/>
         <source>96</source>
         <translation>96</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1325"/>
-        <location filename="dialogportedit.ui" line="3154"/>
+        <location filename="dialogportedit.ui" line="1330"/>
+        <location filename="dialogportedit.ui" line="3160"/>
         <source>97</source>
         <translation>97</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1338"/>
-        <location filename="dialogportedit.ui" line="3167"/>
+        <location filename="dialogportedit.ui" line="1343"/>
+        <location filename="dialogportedit.ui" line="3173"/>
         <source>98</source>
         <translation>98</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1351"/>
-        <location filename="dialogportedit.ui" line="3180"/>
+        <location filename="dialogportedit.ui" line="1356"/>
+        <location filename="dialogportedit.ui" line="3186"/>
         <source>99</source>
         <translation>99</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1364"/>
-        <location filename="dialogportedit.ui" line="3193"/>
+        <location filename="dialogportedit.ui" line="1369"/>
+        <location filename="dialogportedit.ui" line="3199"/>
         <source>100</source>
         <translation>100</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1377"/>
-        <location filename="dialogportedit.ui" line="3206"/>
+        <location filename="dialogportedit.ui" line="1382"/>
+        <location filename="dialogportedit.ui" line="3212"/>
         <source>101</source>
         <translation>101</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1390"/>
-        <location filename="dialogportedit.ui" line="3219"/>
+        <location filename="dialogportedit.ui" line="1395"/>
+        <location filename="dialogportedit.ui" line="3225"/>
         <source>102</source>
         <translation>102</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1403"/>
-        <location filename="dialogportedit.ui" line="3232"/>
+        <location filename="dialogportedit.ui" line="1408"/>
+        <location filename="dialogportedit.ui" line="3238"/>
         <source>103</source>
         <translation>103</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1416"/>
-        <location filename="dialogportedit.ui" line="3245"/>
+        <location filename="dialogportedit.ui" line="1421"/>
+        <location filename="dialogportedit.ui" line="3251"/>
         <source>104</source>
         <translation>104</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1429"/>
-        <location filename="dialogportedit.ui" line="3258"/>
+        <location filename="dialogportedit.ui" line="1434"/>
+        <location filename="dialogportedit.ui" line="3264"/>
         <source>105</source>
         <translation>105</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1442"/>
-        <location filename="dialogportedit.ui" line="3271"/>
+        <location filename="dialogportedit.ui" line="1447"/>
+        <location filename="dialogportedit.ui" line="3277"/>
         <source>106</source>
         <translation>106</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1455"/>
+        <location filename="dialogportedit.ui" line="1460"/>
         <source>107</source>
         <translation>107</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1468"/>
-        <location filename="dialogportedit.ui" line="3284"/>
-        <location filename="dialogportedit.cpp" line="98"/>
+        <location filename="dialogportedit.ui" line="1473"/>
+        <location filename="dialogportedit.ui" line="3290"/>
+        <location filename="dialogportedit.cpp" line="117"/>
         <source>端口</source>
         <translation>端口</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1481"/>
-        <location filename="dialogportedit.ui" line="3297"/>
-        <location filename="dialogportedit.cpp" line="98"/>
+        <location filename="dialogportedit.ui" line="1486"/>
+        <location filename="dialogportedit.ui" line="3303"/>
+        <location filename="dialogportedit.cpp" line="117"/>
         <source>默认名称</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1494"/>
-        <location filename="dialogportedit.ui" line="3310"/>
-        <location filename="dialogportedit.cpp" line="98"/>
+        <location filename="dialogportedit.ui" line="1499"/>
+        <location filename="dialogportedit.ui" line="3316"/>
+        <location filename="dialogportedit.cpp" line="117"/>
         <source>修改名称</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1507"/>
-        <location filename="dialogportedit.ui" line="3323"/>
+        <location filename="dialogportedit.ui" line="1512"/>
+        <location filename="dialogportedit.ui" line="3329"/>
         <source>主控板X00</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1512"/>
-        <location filename="dialogportedit.ui" line="3328"/>
+        <location filename="dialogportedit.ui" line="1517"/>
+        <location filename="dialogportedit.ui" line="3334"/>
         <source>主控板X01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1517"/>
-        <location filename="dialogportedit.ui" line="3333"/>
+        <location filename="dialogportedit.ui" line="1522"/>
+        <location filename="dialogportedit.ui" line="3339"/>
         <source>扩展板1 X07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1522"/>
-        <location filename="dialogportedit.ui" line="3338"/>
+        <location filename="dialogportedit.ui" line="1527"/>
+        <location filename="dialogportedit.ui" line="3344"/>
         <source>扩展板1 X08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1527"/>
-        <location filename="dialogportedit.ui" line="3343"/>
+        <location filename="dialogportedit.ui" line="1532"/>
+        <location filename="dialogportedit.ui" line="3349"/>
         <source>扩展板1 X09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1532"/>
-        <location filename="dialogportedit.ui" line="3348"/>
+        <location filename="dialogportedit.ui" line="1537"/>
+        <location filename="dialogportedit.ui" line="3354"/>
         <source>扩展板1 X10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1537"/>
-        <location filename="dialogportedit.ui" line="3353"/>
+        <location filename="dialogportedit.ui" line="1542"/>
+        <location filename="dialogportedit.ui" line="3359"/>
         <source>扩展板1 X11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1542"/>
-        <location filename="dialogportedit.ui" line="3358"/>
+        <location filename="dialogportedit.ui" line="1547"/>
+        <location filename="dialogportedit.ui" line="3364"/>
         <source>扩展板1 X12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1547"/>
-        <location filename="dialogportedit.ui" line="3363"/>
+        <location filename="dialogportedit.ui" line="1552"/>
+        <location filename="dialogportedit.ui" line="3369"/>
         <source>扩展板1 X13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1552"/>
-        <location filename="dialogportedit.ui" line="3368"/>
+        <location filename="dialogportedit.ui" line="1557"/>
+        <location filename="dialogportedit.ui" line="3374"/>
         <source>扩展板1 X14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1557"/>
-        <location filename="dialogportedit.ui" line="3373"/>
+        <location filename="dialogportedit.ui" line="1562"/>
+        <location filename="dialogportedit.ui" line="3379"/>
         <source>扩展板2 X01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1562"/>
-        <location filename="dialogportedit.ui" line="3378"/>
+        <location filename="dialogportedit.ui" line="1567"/>
+        <location filename="dialogportedit.ui" line="3384"/>
         <source>扩展板2 X02</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1567"/>
-        <location filename="dialogportedit.ui" line="3383"/>
+        <location filename="dialogportedit.ui" line="1572"/>
+        <location filename="dialogportedit.ui" line="3389"/>
         <source>扩展板2 X03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1572"/>
-        <location filename="dialogportedit.ui" line="3388"/>
+        <location filename="dialogportedit.ui" line="1577"/>
+        <location filename="dialogportedit.ui" line="3394"/>
         <source>扩展板2 X04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1577"/>
-        <location filename="dialogportedit.ui" line="3393"/>
+        <location filename="dialogportedit.ui" line="1582"/>
+        <location filename="dialogportedit.ui" line="3399"/>
         <source>扩展板2 X05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1582"/>
-        <location filename="dialogportedit.ui" line="3398"/>
+        <location filename="dialogportedit.ui" line="1587"/>
+        <location filename="dialogportedit.ui" line="3404"/>
         <source>扩展板2 X06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1587"/>
-        <location filename="dialogportedit.ui" line="3403"/>
+        <location filename="dialogportedit.ui" line="1592"/>
+        <location filename="dialogportedit.ui" line="3409"/>
         <source>扩展板2 X07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1592"/>
-        <location filename="dialogportedit.ui" line="3408"/>
+        <location filename="dialogportedit.ui" line="1597"/>
+        <location filename="dialogportedit.ui" line="3414"/>
         <source>扩展板2 X08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1597"/>
-        <location filename="dialogportedit.ui" line="3413"/>
+        <location filename="dialogportedit.ui" line="1602"/>
+        <location filename="dialogportedit.ui" line="3419"/>
         <source>扩展板2 X09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1602"/>
-        <location filename="dialogportedit.ui" line="3418"/>
+        <location filename="dialogportedit.ui" line="1607"/>
+        <location filename="dialogportedit.ui" line="3424"/>
         <source>扩展板2 X10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1607"/>
-        <location filename="dialogportedit.ui" line="3423"/>
+        <location filename="dialogportedit.ui" line="1612"/>
+        <location filename="dialogportedit.ui" line="3429"/>
         <source>扩展板2 X11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1612"/>
-        <location filename="dialogportedit.ui" line="3428"/>
+        <location filename="dialogportedit.ui" line="1617"/>
+        <location filename="dialogportedit.ui" line="3434"/>
         <source>扩展板2 X12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1617"/>
-        <location filename="dialogportedit.ui" line="3433"/>
+        <location filename="dialogportedit.ui" line="1622"/>
+        <location filename="dialogportedit.ui" line="3439"/>
         <source>扩展板2 X13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1622"/>
-        <location filename="dialogportedit.ui" line="3438"/>
+        <location filename="dialogportedit.ui" line="1627"/>
+        <location filename="dialogportedit.ui" line="3444"/>
         <source>扩展板2 X14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1627"/>
-        <location filename="dialogportedit.ui" line="3443"/>
+        <location filename="dialogportedit.ui" line="1632"/>
+        <location filename="dialogportedit.ui" line="3449"/>
         <source>扩展板3 X01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1632"/>
-        <location filename="dialogportedit.ui" line="3448"/>
+        <location filename="dialogportedit.ui" line="1637"/>
+        <location filename="dialogportedit.ui" line="3454"/>
         <source>扩展板3 X02</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1637"/>
-        <location filename="dialogportedit.ui" line="3453"/>
+        <location filename="dialogportedit.ui" line="1642"/>
+        <location filename="dialogportedit.ui" line="3459"/>
         <source>扩展板3 X03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1642"/>
-        <location filename="dialogportedit.ui" line="3458"/>
+        <location filename="dialogportedit.ui" line="1647"/>
+        <location filename="dialogportedit.ui" line="3464"/>
         <source>扩展板3 X04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1647"/>
-        <location filename="dialogportedit.ui" line="3463"/>
+        <location filename="dialogportedit.ui" line="1652"/>
+        <location filename="dialogportedit.ui" line="3469"/>
         <source>扩展板3 X05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1652"/>
-        <location filename="dialogportedit.ui" line="3468"/>
+        <location filename="dialogportedit.ui" line="1657"/>
+        <location filename="dialogportedit.ui" line="3474"/>
         <source>扩展板3 X06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1657"/>
-        <location filename="dialogportedit.ui" line="3473"/>
+        <location filename="dialogportedit.ui" line="1662"/>
+        <location filename="dialogportedit.ui" line="3479"/>
         <source>扩展板3 X07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1662"/>
-        <location filename="dialogportedit.ui" line="3478"/>
+        <location filename="dialogportedit.ui" line="1667"/>
+        <location filename="dialogportedit.ui" line="3484"/>
         <source>扩展板3 X08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1667"/>
-        <location filename="dialogportedit.ui" line="3483"/>
+        <location filename="dialogportedit.ui" line="1672"/>
+        <location filename="dialogportedit.ui" line="3489"/>
         <source>扩展板3 X09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1672"/>
-        <location filename="dialogportedit.ui" line="3488"/>
+        <location filename="dialogportedit.ui" line="1677"/>
+        <location filename="dialogportedit.ui" line="3494"/>
         <source>扩展板3 X10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1677"/>
-        <location filename="dialogportedit.ui" line="3493"/>
+        <location filename="dialogportedit.ui" line="1682"/>
+        <location filename="dialogportedit.ui" line="3499"/>
         <source>扩展板3 X11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1682"/>
-        <location filename="dialogportedit.ui" line="3498"/>
+        <location filename="dialogportedit.ui" line="1687"/>
+        <location filename="dialogportedit.ui" line="3504"/>
         <source>扩展板3 X12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1687"/>
-        <location filename="dialogportedit.ui" line="3503"/>
+        <location filename="dialogportedit.ui" line="1692"/>
+        <location filename="dialogportedit.ui" line="3509"/>
         <source>扩展板3 X13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1692"/>
-        <location filename="dialogportedit.ui" line="3508"/>
+        <location filename="dialogportedit.ui" line="1697"/>
+        <location filename="dialogportedit.ui" line="3514"/>
         <source>扩展板3 X14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1697"/>
-        <location filename="dialogportedit.ui" line="3513"/>
+        <location filename="dialogportedit.ui" line="1702"/>
+        <location filename="dialogportedit.ui" line="3519"/>
         <source>扩展板4 X01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1702"/>
-        <location filename="dialogportedit.ui" line="3518"/>
+        <location filename="dialogportedit.ui" line="1707"/>
+        <location filename="dialogportedit.ui" line="3524"/>
         <source>扩展板4 X02</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1707"/>
-        <location filename="dialogportedit.ui" line="3523"/>
+        <location filename="dialogportedit.ui" line="1712"/>
+        <location filename="dialogportedit.ui" line="3529"/>
         <source>扩展板4 X03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1712"/>
-        <location filename="dialogportedit.ui" line="3528"/>
+        <location filename="dialogportedit.ui" line="1717"/>
+        <location filename="dialogportedit.ui" line="3534"/>
         <source>扩展板4 X04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1717"/>
-        <location filename="dialogportedit.ui" line="3533"/>
+        <location filename="dialogportedit.ui" line="1722"/>
+        <location filename="dialogportedit.ui" line="3539"/>
         <source>扩展板4 X05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1722"/>
-        <location filename="dialogportedit.ui" line="3538"/>
+        <location filename="dialogportedit.ui" line="1727"/>
+        <location filename="dialogportedit.ui" line="3544"/>
         <source>扩展板4 X06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1727"/>
-        <location filename="dialogportedit.ui" line="3543"/>
+        <location filename="dialogportedit.ui" line="1732"/>
+        <location filename="dialogportedit.ui" line="3549"/>
         <source>扩展板4 X07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1732"/>
-        <location filename="dialogportedit.ui" line="3548"/>
+        <location filename="dialogportedit.ui" line="1737"/>
+        <location filename="dialogportedit.ui" line="3554"/>
         <source>扩展板4 X08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1737"/>
-        <location filename="dialogportedit.ui" line="3553"/>
+        <location filename="dialogportedit.ui" line="1742"/>
+        <location filename="dialogportedit.ui" line="3559"/>
         <source>扩展板4 X09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1742"/>
-        <location filename="dialogportedit.ui" line="3558"/>
+        <location filename="dialogportedit.ui" line="1747"/>
+        <location filename="dialogportedit.ui" line="3564"/>
         <source>扩展板4 X10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1747"/>
-        <location filename="dialogportedit.ui" line="3563"/>
+        <location filename="dialogportedit.ui" line="1752"/>
+        <location filename="dialogportedit.ui" line="3569"/>
         <source>扩展板4 X11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1752"/>
-        <location filename="dialogportedit.ui" line="3568"/>
+        <location filename="dialogportedit.ui" line="1757"/>
+        <location filename="dialogportedit.ui" line="3574"/>
         <source>扩展板4 X12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1757"/>
-        <location filename="dialogportedit.ui" line="3573"/>
+        <location filename="dialogportedit.ui" line="1762"/>
+        <location filename="dialogportedit.ui" line="3579"/>
         <source>扩展板4 X13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1762"/>
-        <location filename="dialogportedit.ui" line="3578"/>
+        <location filename="dialogportedit.ui" line="1767"/>
+        <location filename="dialogportedit.ui" line="3584"/>
         <source>扩展板4 X14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1767"/>
-        <location filename="dialogportedit.ui" line="3583"/>
+        <location filename="dialogportedit.ui" line="1772"/>
+        <location filename="dialogportedit.ui" line="3589"/>
         <source>塑机急停</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1772"/>
-        <location filename="dialogportedit.ui" line="3588"/>
+        <location filename="dialogportedit.ui" line="1777"/>
+        <location filename="dialogportedit.ui" line="3594"/>
         <source>塑机安全门</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1777"/>
-        <location filename="dialogportedit.ui" line="3593"/>
+        <location filename="dialogportedit.ui" line="1782"/>
+        <location filename="dialogportedit.ui" line="3599"/>
         <source>塑机不良品</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1782"/>
-        <location filename="dialogportedit.ui" line="3598"/>
+        <location filename="dialogportedit.ui" line="1787"/>
+        <location filename="dialogportedit.ui" line="3604"/>
         <source>塑机关模完</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1787"/>
-        <location filename="dialogportedit.ui" line="3603"/>
+        <location filename="dialogportedit.ui" line="1792"/>
+        <location filename="dialogportedit.ui" line="3609"/>
         <source>塑机开模完</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1792"/>
-        <location filename="dialogportedit.ui" line="3608"/>
+        <location filename="dialogportedit.ui" line="1797"/>
+        <location filename="dialogportedit.ui" line="3614"/>
         <source>塑机开模中间</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1797"/>
-        <location filename="dialogportedit.ui" line="3613"/>
+        <location filename="dialogportedit.ui" line="1802"/>
+        <location filename="dialogportedit.ui" line="3619"/>
         <source>塑机全自动</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1802"/>
-        <location filename="dialogportedit.ui" line="3618"/>
+        <location filename="dialogportedit.ui" line="1807"/>
+        <location filename="dialogportedit.ui" line="3624"/>
         <source>塑机顶针退</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1807"/>
-        <location filename="dialogportedit.ui" line="3623"/>
+        <location filename="dialogportedit.ui" line="1812"/>
+        <location filename="dialogportedit.ui" line="3629"/>
         <source>塑机顶针进</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1812"/>
-        <location filename="dialogportedit.ui" line="3628"/>
+        <location filename="dialogportedit.ui" line="1817"/>
+        <location filename="dialogportedit.ui" line="3634"/>
         <source>塑机抽芯1位1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1817"/>
-        <location filename="dialogportedit.ui" line="3633"/>
+        <location filename="dialogportedit.ui" line="1822"/>
+        <location filename="dialogportedit.ui" line="3639"/>
         <source>塑机抽芯1位2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1822"/>
-        <location filename="dialogportedit.ui" line="3638"/>
+        <location filename="dialogportedit.ui" line="1827"/>
+        <location filename="dialogportedit.ui" line="3644"/>
         <source>塑机抽芯2位1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1827"/>
-        <location filename="dialogportedit.ui" line="3643"/>
+        <location filename="dialogportedit.ui" line="1832"/>
+        <location filename="dialogportedit.ui" line="3649"/>
         <source>塑机抽芯2位2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1832"/>
-        <location filename="dialogportedit.ui" line="3648"/>
+        <location filename="dialogportedit.ui" line="1837"/>
+        <location filename="dialogportedit.ui" line="3654"/>
         <source>塑机中板模确认</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1837"/>
-        <location filename="dialogportedit.ui" line="3653"/>
+        <location filename="dialogportedit.ui" line="1842"/>
+        <location filename="dialogportedit.ui" line="3659"/>
         <source>机械手低气压</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1842"/>
-        <location filename="dialogportedit.ui" line="3658"/>
+        <location filename="dialogportedit.ui" line="1847"/>
+        <location filename="dialogportedit.ui" line="3664"/>
         <source>机械手副臂前进</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1847"/>
-        <location filename="dialogportedit.ui" line="3663"/>
+        <location filename="dialogportedit.ui" line="1852"/>
+        <location filename="dialogportedit.ui" line="3669"/>
         <source>机械手副臂后退</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1852"/>
-        <location filename="dialogportedit.ui" line="3668"/>
+        <location filename="dialogportedit.ui" line="1857"/>
+        <location filename="dialogportedit.ui" line="3674"/>
         <source>机械手副臂上升</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1857"/>
-        <location filename="dialogportedit.ui" line="3673"/>
+        <location filename="dialogportedit.ui" line="1862"/>
+        <location filename="dialogportedit.ui" line="3679"/>
         <source>机械手副臂下降</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1862"/>
-        <location filename="dialogportedit.ui" line="3678"/>
+        <location filename="dialogportedit.ui" line="1867"/>
+        <location filename="dialogportedit.ui" line="3684"/>
         <source>机械手正臂倒平</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1867"/>
-        <location filename="dialogportedit.ui" line="3683"/>
+        <location filename="dialogportedit.ui" line="1872"/>
+        <location filename="dialogportedit.ui" line="3689"/>
         <source>机械手正臂倒直</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1872"/>
-        <location filename="dialogportedit.ui" line="3688"/>
+        <location filename="dialogportedit.ui" line="1877"/>
+        <location filename="dialogportedit.ui" line="3694"/>
         <source>机械手治具确认</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="1879"/>
-        <location filename="dialogportedit.cpp" line="96"/>
+        <location filename="dialogportedit.ui" line="1884"/>
+        <location filename="dialogportedit.cpp" line="115"/>
         <source>扩展输出</source>
         <translation type="unfinished">擴展輸出</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="3784"/>
-        <location filename="dialogportedit.cpp" line="101"/>
+        <location filename="dialogportedit.ui" line="3791"/>
+        <location filename="dialogportedit.cpp" line="120"/>
         <source>关闭</source>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="dialogportedit.ui" line="3853"/>
-        <location filename="dialogportedit.cpp" line="102"/>
+        <location filename="dialogportedit.ui" line="3860"/>
+        <location filename="dialogportedit.cpp" line="121"/>
         <source>保存</source>
         <translation>保存</translation>
     </message>
@@ -4520,1019 +4556,1019 @@
         <translation type="obsolete">EM1-Y15 {4-?}</translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="103"/>
+        <location filename="dialogportedit.cpp" line="122"/>
         <source>主板X00</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="104"/>
+        <location filename="dialogportedit.cpp" line="123"/>
         <source>主板X01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="105"/>
+        <location filename="dialogportedit.cpp" line="124"/>
         <source>主板X02</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="106"/>
+        <location filename="dialogportedit.cpp" line="125"/>
         <source>主板X03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="107"/>
+        <location filename="dialogportedit.cpp" line="126"/>
         <source>主板X04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="108"/>
+        <location filename="dialogportedit.cpp" line="127"/>
         <source>主板X05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="109"/>
+        <location filename="dialogportedit.cpp" line="128"/>
         <source>主板X06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="110"/>
+        <location filename="dialogportedit.cpp" line="129"/>
         <source>主板X07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="111"/>
+        <location filename="dialogportedit.cpp" line="130"/>
         <source>主板X08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="112"/>
+        <location filename="dialogportedit.cpp" line="131"/>
         <source>主板X09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="113"/>
+        <location filename="dialogportedit.cpp" line="132"/>
         <source>主板X10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="114"/>
+        <location filename="dialogportedit.cpp" line="133"/>
         <source>主板X11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="115"/>
+        <location filename="dialogportedit.cpp" line="134"/>
         <source>主板X12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="116"/>
+        <location filename="dialogportedit.cpp" line="135"/>
         <source>主板X13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="117"/>
+        <location filename="dialogportedit.cpp" line="136"/>
         <source>主板X14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="118"/>
+        <location filename="dialogportedit.cpp" line="137"/>
         <source>主板X15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="123"/>
-        <source>扩展模块1X00</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="124"/>
-        <location filename="dialogportedit.cpp" line="370"/>
-        <source>扩展模块1X01</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="125"/>
-        <location filename="dialogportedit.cpp" line="371"/>
-        <source>扩展模块1X02</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="126"/>
-        <location filename="dialogportedit.cpp" line="372"/>
-        <source>扩展模块1X03</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="127"/>
-        <location filename="dialogportedit.cpp" line="373"/>
-        <source>扩展模块1X04</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="128"/>
-        <location filename="dialogportedit.cpp" line="374"/>
-        <source>扩展模块1X05</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="129"/>
-        <location filename="dialogportedit.cpp" line="375"/>
-        <source>扩展模块1X06</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="130"/>
-        <location filename="dialogportedit.cpp" line="376"/>
-        <source>扩展模块1X07</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="131"/>
-        <location filename="dialogportedit.cpp" line="377"/>
-        <source>扩展模块1X08</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="132"/>
-        <location filename="dialogportedit.cpp" line="378"/>
-        <source>扩展模块1X09</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="133"/>
-        <location filename="dialogportedit.cpp" line="379"/>
-        <source>扩展模块1X10</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="134"/>
-        <location filename="dialogportedit.cpp" line="380"/>
-        <source>扩展模块1X11</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="135"/>
-        <location filename="dialogportedit.cpp" line="381"/>
-        <source>扩展模块1X12</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="136"/>
-        <location filename="dialogportedit.cpp" line="382"/>
-        <source>扩展模块1X13</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="137"/>
-        <location filename="dialogportedit.cpp" line="383"/>
-        <source>扩展模块1X14</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="138"/>
-        <location filename="dialogportedit.cpp" line="384"/>
-        <source>扩展模块1X15</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="140"/>
-        <source>扩展模块2X00</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="141"/>
-        <location filename="dialogportedit.cpp" line="387"/>
-        <source>扩展模块2X01</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="dialogportedit.cpp" line="142"/>
-        <location filename="dialogportedit.cpp" line="388"/>
-        <source>扩展模块2X02</source>
+        <source>扩展模块1X00</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="143"/>
         <location filename="dialogportedit.cpp" line="389"/>
-        <source>扩展模块2X03</source>
+        <source>扩展模块1X01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="144"/>
         <location filename="dialogportedit.cpp" line="390"/>
-        <source>扩展模块2X04</source>
+        <source>扩展模块1X02</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="145"/>
         <location filename="dialogportedit.cpp" line="391"/>
-        <source>扩展模块2X05</source>
+        <source>扩展模块1X03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="146"/>
         <location filename="dialogportedit.cpp" line="392"/>
-        <source>扩展模块2X06</source>
+        <source>扩展模块1X04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="147"/>
         <location filename="dialogportedit.cpp" line="393"/>
-        <source>扩展模块2X07</source>
+        <source>扩展模块1X05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="148"/>
         <location filename="dialogportedit.cpp" line="394"/>
-        <source>扩展模块2X08</source>
+        <source>扩展模块1X06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="149"/>
         <location filename="dialogportedit.cpp" line="395"/>
-        <source>扩展模块2X09</source>
+        <source>扩展模块1X07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="150"/>
         <location filename="dialogportedit.cpp" line="396"/>
-        <source>扩展模块2X10</source>
+        <source>扩展模块1X08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="151"/>
         <location filename="dialogportedit.cpp" line="397"/>
-        <source>扩展模块2X11</source>
+        <source>扩展模块1X09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="152"/>
         <location filename="dialogportedit.cpp" line="398"/>
-        <source>扩展模块2X12</source>
+        <source>扩展模块1X10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="153"/>
         <location filename="dialogportedit.cpp" line="399"/>
-        <source>扩展模块2X13</source>
+        <source>扩展模块1X11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="154"/>
         <location filename="dialogportedit.cpp" line="400"/>
-        <source>扩展模块2X14</source>
+        <source>扩展模块1X12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="155"/>
         <location filename="dialogportedit.cpp" line="401"/>
-        <source>扩展模块2X15</source>
+        <source>扩展模块1X13</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="156"/>
+        <location filename="dialogportedit.cpp" line="402"/>
+        <source>扩展模块1X14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="157"/>
-        <source>扩展模块3X00</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="158"/>
-        <location filename="dialogportedit.cpp" line="404"/>
-        <source>扩展模块3X01</source>
+        <location filename="dialogportedit.cpp" line="403"/>
+        <source>扩展模块1X15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="159"/>
-        <location filename="dialogportedit.cpp" line="405"/>
-        <source>扩展模块3X02</source>
+        <source>扩展模块2X00</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="160"/>
         <location filename="dialogportedit.cpp" line="406"/>
-        <source>扩展模块3X03</source>
+        <source>扩展模块2X01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="161"/>
         <location filename="dialogportedit.cpp" line="407"/>
-        <source>扩展模块3X04</source>
+        <source>扩展模块2X02</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="162"/>
         <location filename="dialogportedit.cpp" line="408"/>
-        <source>扩展模块3X05</source>
+        <source>扩展模块2X03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="163"/>
         <location filename="dialogportedit.cpp" line="409"/>
-        <source>扩展模块3X06</source>
+        <source>扩展模块2X04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="164"/>
         <location filename="dialogportedit.cpp" line="410"/>
-        <source>扩展模块3X07</source>
+        <source>扩展模块2X05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="165"/>
         <location filename="dialogportedit.cpp" line="411"/>
-        <source>扩展模块3X08</source>
+        <source>扩展模块2X06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="166"/>
         <location filename="dialogportedit.cpp" line="412"/>
-        <source>扩展模块3X09</source>
+        <source>扩展模块2X07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="167"/>
         <location filename="dialogportedit.cpp" line="413"/>
-        <source>扩展模块3X10</source>
+        <source>扩展模块2X08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="168"/>
         <location filename="dialogportedit.cpp" line="414"/>
-        <source>扩展模块3X11</source>
+        <source>扩展模块2X09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="169"/>
         <location filename="dialogportedit.cpp" line="415"/>
-        <source>扩展模块3X12</source>
+        <source>扩展模块2X10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="170"/>
         <location filename="dialogportedit.cpp" line="416"/>
-        <source>扩展模块3X13</source>
+        <source>扩展模块2X11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="171"/>
         <location filename="dialogportedit.cpp" line="417"/>
-        <source>扩展模块3X14</source>
+        <source>扩展模块2X12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="172"/>
         <location filename="dialogportedit.cpp" line="418"/>
-        <source>扩展模块3X15</source>
+        <source>扩展模块2X13</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="173"/>
+        <location filename="dialogportedit.cpp" line="419"/>
+        <source>扩展模块2X14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="174"/>
-        <source>扩展模块4X00</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="dialogportedit.cpp" line="175"/>
-        <location filename="dialogportedit.cpp" line="421"/>
-        <source>扩展模块4X01</source>
+        <location filename="dialogportedit.cpp" line="420"/>
+        <source>扩展模块2X15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="176"/>
-        <location filename="dialogportedit.cpp" line="422"/>
-        <source>扩展模块4X02</source>
+        <source>扩展模块3X00</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="177"/>
         <location filename="dialogportedit.cpp" line="423"/>
-        <source>扩展模块4X03</source>
+        <source>扩展模块3X01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="178"/>
         <location filename="dialogportedit.cpp" line="424"/>
-        <source>扩展模块4X04</source>
+        <source>扩展模块3X02</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="179"/>
         <location filename="dialogportedit.cpp" line="425"/>
-        <source>扩展模块4X05</source>
+        <source>扩展模块3X03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="180"/>
         <location filename="dialogportedit.cpp" line="426"/>
-        <source>扩展模块4X06</source>
+        <source>扩展模块3X04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="181"/>
         <location filename="dialogportedit.cpp" line="427"/>
-        <source>扩展模块4X07</source>
+        <source>扩展模块3X05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="182"/>
         <location filename="dialogportedit.cpp" line="428"/>
-        <source>扩展模块4X08</source>
+        <source>扩展模块3X06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="183"/>
         <location filename="dialogportedit.cpp" line="429"/>
-        <source>扩展模块4X09</source>
+        <source>扩展模块3X07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="184"/>
         <location filename="dialogportedit.cpp" line="430"/>
-        <source>扩展模块4X10</source>
+        <source>扩展模块3X08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="185"/>
         <location filename="dialogportedit.cpp" line="431"/>
-        <source>扩展模块4X11</source>
+        <source>扩展模块3X09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="186"/>
         <location filename="dialogportedit.cpp" line="432"/>
-        <source>扩展模块4X12</source>
+        <source>扩展模块3X10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="187"/>
         <location filename="dialogportedit.cpp" line="433"/>
-        <source>扩展模块4X13</source>
+        <source>扩展模块3X11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="188"/>
         <location filename="dialogportedit.cpp" line="434"/>
-        <source>扩展模块4X14</source>
+        <source>扩展模块3X12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="dialogportedit.cpp" line="189"/>
         <location filename="dialogportedit.cpp" line="435"/>
+        <source>扩展模块3X13</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="190"/>
+        <location filename="dialogportedit.cpp" line="436"/>
+        <source>扩展模块3X14</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="191"/>
+        <location filename="dialogportedit.cpp" line="437"/>
+        <source>扩展模块3X15</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="193"/>
+        <source>扩展模块4X00</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="194"/>
+        <location filename="dialogportedit.cpp" line="440"/>
+        <source>扩展模块4X01</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="195"/>
+        <location filename="dialogportedit.cpp" line="441"/>
+        <source>扩展模块4X02</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="196"/>
+        <location filename="dialogportedit.cpp" line="442"/>
+        <source>扩展模块4X03</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="197"/>
+        <location filename="dialogportedit.cpp" line="443"/>
+        <source>扩展模块4X04</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="198"/>
+        <location filename="dialogportedit.cpp" line="444"/>
+        <source>扩展模块4X05</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="199"/>
+        <location filename="dialogportedit.cpp" line="445"/>
+        <source>扩展模块4X06</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="200"/>
+        <location filename="dialogportedit.cpp" line="446"/>
+        <source>扩展模块4X07</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="201"/>
+        <location filename="dialogportedit.cpp" line="447"/>
+        <source>扩展模块4X08</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="202"/>
+        <location filename="dialogportedit.cpp" line="448"/>
+        <source>扩展模块4X09</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="203"/>
+        <location filename="dialogportedit.cpp" line="449"/>
+        <source>扩展模块4X10</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="204"/>
+        <location filename="dialogportedit.cpp" line="450"/>
+        <source>扩展模块4X11</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="205"/>
+        <location filename="dialogportedit.cpp" line="451"/>
+        <source>扩展模块4X12</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="206"/>
+        <location filename="dialogportedit.cpp" line="452"/>
+        <source>扩展模块4X13</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="207"/>
+        <location filename="dialogportedit.cpp" line="453"/>
+        <source>扩展模块4X14</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="dialogportedit.cpp" line="208"/>
+        <location filename="dialogportedit.cpp" line="454"/>
         <source>扩展模块4X15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="385"/>
+        <location filename="dialogportedit.cpp" line="404"/>
         <source>扩展模块1X16</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="402"/>
+        <location filename="dialogportedit.cpp" line="421"/>
         <source>扩展模块2X16</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="419"/>
+        <location filename="dialogportedit.cpp" line="438"/>
         <source>扩展模块3X16</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="436"/>
+        <location filename="dialogportedit.cpp" line="455"/>
         <source>扩展模块4X16</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="486"/>
-        <location filename="dialogportedit.cpp" line="524"/>
+        <location filename="dialogportedit.cpp" line="505"/>
+        <location filename="dialogportedit.cpp" line="543"/>
         <source>吸具1-X12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="487"/>
-        <location filename="dialogportedit.cpp" line="525"/>
+        <location filename="dialogportedit.cpp" line="506"/>
+        <location filename="dialogportedit.cpp" line="544"/>
         <source>夹具1-X13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="526"/>
+        <location filename="dialogportedit.cpp" line="545"/>
         <source>抱具1-X14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="796"/>
+        <location filename="dialogportedit.cpp" line="824"/>
         <source>吸具1-X03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="797"/>
+        <location filename="dialogportedit.cpp" line="825"/>
         <source>吸具2-X04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="798"/>
+        <location filename="dialogportedit.cpp" line="826"/>
         <source>抱具1-X05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="799"/>
+        <location filename="dialogportedit.cpp" line="827"/>
         <source>抱具2-X06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="800"/>
+        <location filename="dialogportedit.cpp" line="828"/>
         <source>抱具3-X07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="801"/>
+        <location filename="dialogportedit.cpp" line="829"/>
         <source>抱具4-X08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1130"/>
+        <location filename="dialogportedit.cpp" line="1158"/>
         <source>主板Y00</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1131"/>
+        <location filename="dialogportedit.cpp" line="1159"/>
         <source>主板Y01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1132"/>
+        <location filename="dialogportedit.cpp" line="1160"/>
         <source>主板Y02</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1133"/>
+        <location filename="dialogportedit.cpp" line="1161"/>
         <source>主板Y03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1134"/>
+        <location filename="dialogportedit.cpp" line="1162"/>
         <source>主板Y04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1135"/>
+        <location filename="dialogportedit.cpp" line="1163"/>
         <source>主板Y05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1136"/>
+        <location filename="dialogportedit.cpp" line="1164"/>
         <source>主板Y06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1137"/>
+        <location filename="dialogportedit.cpp" line="1165"/>
         <source>主板Y07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1138"/>
+        <location filename="dialogportedit.cpp" line="1166"/>
         <source>主板Y08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1139"/>
+        <location filename="dialogportedit.cpp" line="1167"/>
         <source>主板Y09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1140"/>
+        <location filename="dialogportedit.cpp" line="1168"/>
         <source>主板Y10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1141"/>
+        <location filename="dialogportedit.cpp" line="1169"/>
         <source>主板Y11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1142"/>
+        <location filename="dialogportedit.cpp" line="1170"/>
         <source>主板Y12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1143"/>
+        <location filename="dialogportedit.cpp" line="1171"/>
         <source>主板Y13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1144"/>
+        <location filename="dialogportedit.cpp" line="1172"/>
         <source>主板Y14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1145"/>
+        <location filename="dialogportedit.cpp" line="1173"/>
         <source>主板Y15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1392"/>
+        <location filename="dialogportedit.cpp" line="1420"/>
         <source>扩展模块1Y01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1393"/>
+        <location filename="dialogportedit.cpp" line="1421"/>
         <source>扩展模块1Y02</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1394"/>
+        <location filename="dialogportedit.cpp" line="1422"/>
         <source>扩展模块1Y03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1395"/>
+        <location filename="dialogportedit.cpp" line="1423"/>
         <source>扩展模块1Y04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1396"/>
+        <location filename="dialogportedit.cpp" line="1424"/>
         <source>扩展模块1Y05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1397"/>
+        <location filename="dialogportedit.cpp" line="1425"/>
         <source>扩展模块1Y06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1398"/>
+        <location filename="dialogportedit.cpp" line="1426"/>
         <source>扩展模块1Y07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1399"/>
+        <location filename="dialogportedit.cpp" line="1427"/>
         <source>扩展模块1Y08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1400"/>
+        <location filename="dialogportedit.cpp" line="1428"/>
         <source>扩展模块1Y09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1401"/>
+        <location filename="dialogportedit.cpp" line="1429"/>
         <source>扩展模块1Y10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1402"/>
+        <location filename="dialogportedit.cpp" line="1430"/>
         <source>扩展模块1Y11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1403"/>
+        <location filename="dialogportedit.cpp" line="1431"/>
         <source>扩展模块1Y12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1404"/>
+        <location filename="dialogportedit.cpp" line="1432"/>
         <source>扩展模块1Y13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1405"/>
+        <location filename="dialogportedit.cpp" line="1433"/>
         <source>扩展模块1Y14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1406"/>
+        <location filename="dialogportedit.cpp" line="1434"/>
         <source>扩展模块1Y15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1407"/>
+        <location filename="dialogportedit.cpp" line="1435"/>
         <source>扩展模块1Y16</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1409"/>
+        <location filename="dialogportedit.cpp" line="1437"/>
         <source>扩展模块2Y01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1410"/>
+        <location filename="dialogportedit.cpp" line="1438"/>
         <source>扩展模块2Y02</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1411"/>
+        <location filename="dialogportedit.cpp" line="1439"/>
         <source>扩展模块2Y03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1412"/>
+        <location filename="dialogportedit.cpp" line="1440"/>
         <source>扩展模块2Y04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1413"/>
+        <location filename="dialogportedit.cpp" line="1441"/>
         <source>扩展模块2Y05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1414"/>
+        <location filename="dialogportedit.cpp" line="1442"/>
         <source>扩展模块2Y06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1415"/>
+        <location filename="dialogportedit.cpp" line="1443"/>
         <source>扩展模块2Y07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1416"/>
+        <location filename="dialogportedit.cpp" line="1444"/>
         <source>扩展模块2Y08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1417"/>
+        <location filename="dialogportedit.cpp" line="1445"/>
         <source>扩展模块2Y09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1418"/>
+        <location filename="dialogportedit.cpp" line="1446"/>
         <source>扩展模块2Y10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1419"/>
+        <location filename="dialogportedit.cpp" line="1447"/>
         <source>扩展模块2Y11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1420"/>
+        <location filename="dialogportedit.cpp" line="1448"/>
         <source>扩展模块2Y12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1421"/>
+        <location filename="dialogportedit.cpp" line="1449"/>
         <source>扩展模块2Y13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1422"/>
+        <location filename="dialogportedit.cpp" line="1450"/>
         <source>扩展模块2Y14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1423"/>
+        <location filename="dialogportedit.cpp" line="1451"/>
         <source>扩展模块2Y15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1424"/>
+        <location filename="dialogportedit.cpp" line="1452"/>
         <source>扩展模块2Y16</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1426"/>
+        <location filename="dialogportedit.cpp" line="1454"/>
         <source>扩展模块3Y01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1427"/>
+        <location filename="dialogportedit.cpp" line="1455"/>
         <source>扩展模块3Y02</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1428"/>
+        <location filename="dialogportedit.cpp" line="1456"/>
         <source>扩展模块3Y03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1429"/>
+        <location filename="dialogportedit.cpp" line="1457"/>
         <source>扩展模块3Y04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1430"/>
+        <location filename="dialogportedit.cpp" line="1458"/>
         <source>扩展模块3Y05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1431"/>
+        <location filename="dialogportedit.cpp" line="1459"/>
         <source>扩展模块3Y06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1432"/>
+        <location filename="dialogportedit.cpp" line="1460"/>
         <source>扩展模块3Y07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1433"/>
+        <location filename="dialogportedit.cpp" line="1461"/>
         <source>扩展模块3Y08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1434"/>
+        <location filename="dialogportedit.cpp" line="1462"/>
         <source>扩展模块3Y09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1435"/>
+        <location filename="dialogportedit.cpp" line="1463"/>
         <source>扩展模块3Y10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1436"/>
+        <location filename="dialogportedit.cpp" line="1464"/>
         <source>扩展模块3Y11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1437"/>
+        <location filename="dialogportedit.cpp" line="1465"/>
         <source>扩展模块3Y12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1438"/>
+        <location filename="dialogportedit.cpp" line="1466"/>
         <source>扩展模块3Y13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1439"/>
+        <location filename="dialogportedit.cpp" line="1467"/>
         <source>扩展模块3Y14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1440"/>
+        <location filename="dialogportedit.cpp" line="1468"/>
         <source>扩展模块3Y15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1441"/>
+        <location filename="dialogportedit.cpp" line="1469"/>
         <source>扩展模块3Y16</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1443"/>
+        <location filename="dialogportedit.cpp" line="1471"/>
         <source>扩展模块4Y01</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1444"/>
+        <location filename="dialogportedit.cpp" line="1472"/>
         <source>扩展模块4Y02</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1445"/>
+        <location filename="dialogportedit.cpp" line="1473"/>
         <source>扩展模块4Y03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1446"/>
+        <location filename="dialogportedit.cpp" line="1474"/>
         <source>扩展模块4Y04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1447"/>
+        <location filename="dialogportedit.cpp" line="1475"/>
         <source>扩展模块4Y05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1448"/>
+        <location filename="dialogportedit.cpp" line="1476"/>
         <source>扩展模块4Y06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1449"/>
+        <location filename="dialogportedit.cpp" line="1477"/>
         <source>扩展模块4Y07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1450"/>
+        <location filename="dialogportedit.cpp" line="1478"/>
         <source>扩展模块4Y08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1451"/>
+        <location filename="dialogportedit.cpp" line="1479"/>
         <source>扩展模块4Y09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1452"/>
+        <location filename="dialogportedit.cpp" line="1480"/>
         <source>扩展模块4Y10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1453"/>
+        <location filename="dialogportedit.cpp" line="1481"/>
         <source>扩展模块4Y11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1454"/>
+        <location filename="dialogportedit.cpp" line="1482"/>
         <source>扩展模块4Y12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1455"/>
+        <location filename="dialogportedit.cpp" line="1483"/>
         <source>扩展模块4Y13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1456"/>
+        <location filename="dialogportedit.cpp" line="1484"/>
         <source>扩展模块4Y14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1457"/>
+        <location filename="dialogportedit.cpp" line="1485"/>
         <source>扩展模块4Y15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1458"/>
+        <location filename="dialogportedit.cpp" line="1486"/>
         <source>扩展模块4Y16</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1712"/>
+        <location filename="dialogportedit.cpp" line="1752"/>
         <source>吸具1-Y12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1713"/>
+        <location filename="dialogportedit.cpp" line="1753"/>
         <source>吸具2-Y13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1714"/>
+        <location filename="dialogportedit.cpp" line="1754"/>
         <source>抱具1-Y14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1778"/>
+        <location filename="dialogportedit.cpp" line="1818"/>
         <source>吸具1-Y03</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1779"/>
+        <location filename="dialogportedit.cpp" line="1819"/>
         <source>吸具2-Y04</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1780"/>
+        <location filename="dialogportedit.cpp" line="1820"/>
         <source>抱具1-Y05</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1781"/>
+        <location filename="dialogportedit.cpp" line="1821"/>
         <source>抱具2-Y06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1782"/>
+        <location filename="dialogportedit.cpp" line="1822"/>
         <source>抱具3-Y07</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1783"/>
+        <location filename="dialogportedit.cpp" line="1823"/>
         <source>抱具4-Y08</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1784"/>
+        <location filename="dialogportedit.cpp" line="1824"/>
         <source>定模吹气1-Y09</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1785"/>
+        <location filename="dialogportedit.cpp" line="1825"/>
         <source>定模吹气2-Y10</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1786"/>
+        <location filename="dialogportedit.cpp" line="1826"/>
         <source>定模吹气3-Y11</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1787"/>
+        <location filename="dialogportedit.cpp" line="1827"/>
         <source>定模吹气4-Y12</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1788"/>
+        <location filename="dialogportedit.cpp" line="1828"/>
         <source>动模水阀1-Y13</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1789"/>
+        <location filename="dialogportedit.cpp" line="1829"/>
         <source>动模水阀2-Y14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1790"/>
+        <location filename="dialogportedit.cpp" line="1830"/>
         <source>动模水阀3-Y15</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="1791"/>
+        <location filename="dialogportedit.cpp" line="1831"/>
         <source>动模水阀4-Y16</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogportedit.cpp" line="7065"/>
+        <location filename="dialogportedit.cpp" line="7105"/>
         <source>端口名称修改成功!</source>
         <translation>端口名稱修改成功!</translation>
     </message>
@@ -5540,12 +5576,12 @@
 <context>
     <name>DialogSelectAction</name>
     <message>
-        <location filename="dialogselectaction.ui" line="142"/>
+        <location filename="dialogselectaction.ui" line="145"/>
         <source>选择动作指令</source>
         <translation>選擇動作指令</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="273"/>
+        <location filename="dialogselectaction.ui" line="278"/>
         <source>动作</source>
         <translation>動作</translation>
     </message>
@@ -5554,7 +5590,7 @@
         <translation type="obsolete">伺服單軸運行指令</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="553"/>
+        <location filename="dialogselectaction.ui" line="558"/>
         <source>插补指令</source>
         <translation>插補指令</translation>
     </message>
@@ -5563,32 +5599,32 @@
         <translation type="obsolete">矩陣定位</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="314"/>
+        <location filename="dialogselectaction.ui" line="319"/>
         <source>循环定位</source>
         <translation>循環定位</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="351"/>
+        <location filename="dialogselectaction.ui" line="356"/>
         <source>单轴循环定位</source>
         <translation>單軸循環定位</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="388"/>
+        <location filename="dialogselectaction.ui" line="393"/>
         <source>搜索指令</source>
         <translation>搜索指令</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="425"/>
+        <location filename="dialogselectaction.ui" line="430"/>
         <source>连续路径开始</source>
         <translation>連續路徑開始</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="462"/>
+        <location filename="dialogselectaction.ui" line="467"/>
         <source>连续路径结束</source>
         <translation>連續路徑結束</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="590"/>
+        <location filename="dialogselectaction.ui" line="595"/>
         <source>多扩展输出指令</source>
         <translation type="unfinished">多擴展輸出指令</translation>
     </message>
@@ -5605,7 +5641,7 @@
         <translation type="obsolete">治具指令</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="627"/>
+        <location filename="dialogselectaction.ui" line="632"/>
         <source>扩展输入指令</source>
         <translation>擴展輸入指令</translation>
     </message>
@@ -5614,52 +5650,52 @@
         <translation type="obsolete">注塑機指令</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="664"/>
+        <location filename="dialogselectaction.ui" line="669"/>
         <source>延时指令</source>
         <translation>延時指令</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="701"/>
+        <location filename="dialogselectaction.ui" line="706"/>
         <source>轴电源指令</source>
         <translation>軸電源指令</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="499"/>
+        <location filename="dialogselectaction.ui" line="504"/>
         <source>单轴循环自由定位</source>
         <translation>單軸循環自由定位</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="749"/>
+        <location filename="dialogselectaction.ui" line="755"/>
         <source>流程</source>
         <translation>流程</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="790"/>
+        <location filename="dialogselectaction.ui" line="796"/>
         <source>IF 条件判断</source>
         <translation>IF 條件判斷</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="830"/>
+        <location filename="dialogselectaction.ui" line="836"/>
         <source>ELSE 条件否则</source>
         <translation>ELSE 條件否則</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="867"/>
+        <location filename="dialogselectaction.ui" line="873"/>
         <source>ENDIF 条件结束</source>
         <translation>ENDIF 條件結束</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="904"/>
+        <location filename="dialogselectaction.ui" line="910"/>
         <source>FOR 循环控制</source>
         <translation>FOR 循環控制</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="941"/>
+        <location filename="dialogselectaction.ui" line="947"/>
         <source>BREAK 循环跳出</source>
         <translation>BREAK 循環跳出</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="978"/>
+        <location filename="dialogselectaction.ui" line="984"/>
         <source>ENDFOR 循环结束</source>
         <translation>ENDFOR 循環結束</translation>
     </message>
@@ -5668,37 +5704,37 @@
         <translation type="obsolete">等待端口訊號</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="1032"/>
+        <location filename="dialogselectaction.ui" line="1038"/>
         <source>伺服速度调整</source>
         <translation>伺服速度調整</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="1069"/>
+        <location filename="dialogselectaction.ui" line="1075"/>
         <source>程序结束</source>
         <translation>程序結束</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="1106"/>
+        <location filename="dialogselectaction.ui" line="1112"/>
         <source>用户变量操作</source>
         <translation>用戶變量操作</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="1146"/>
+        <location filename="dialogselectaction.ui" line="1152"/>
         <source>圆弧指令</source>
         <translation>圓弧指令</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="1186"/>
+        <location filename="dialogselectaction.ui" line="1192"/>
         <source>视觉指令</source>
         <translation>視覺指令</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="1286"/>
+        <location filename="dialogselectaction.ui" line="1292"/>
         <source>取消</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="dialogselectaction.ui" line="1327"/>
+        <location filename="dialogselectaction.ui" line="1333"/>
         <source>确定</source>
         <translation>確定</translation>
     </message>
@@ -5722,327 +5758,327 @@
 <context>
     <name>DialogSelectVariable</name>
     <message>
-        <location filename="dialogselectvariable.ui" line="137"/>
+        <location filename="dialogselectvariable.ui" line="145"/>
         <source>选择变量</source>
         <translation>選擇變量</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="279"/>
+        <location filename="dialogselectvariable.ui" line="293"/>
         <source>用户/常数</source>
         <translation>用戶/常數</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="478"/>
+        <location filename="dialogselectvariable.ui" line="492"/>
         <source>选择用户变量 (U-00 - C-999)</source>
         <translation>選擇用戶變量 (U-00 - C-999)</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="518"/>
+        <location filename="dialogselectvariable.ui" line="532"/>
         <source>选择常数 (0 - 6000000)</source>
         <translation>選擇常數 (0 - 6000000)</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="538"/>
+        <location filename="dialogselectvariable.ui" line="552"/>
         <source>扩展输入</source>
         <translation>擴展輸入</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="577"/>
-        <location filename="dialogselectvariable.ui" line="1696"/>
+        <location filename="dialogselectvariable.ui" line="591"/>
+        <location filename="dialogselectvariable.ui" line="1710"/>
         <source>模块选择</source>
         <translation>模塊選擇</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="613"/>
-        <location filename="dialogselectvariable.ui" line="1732"/>
+        <location filename="dialogselectvariable.ui" line="627"/>
+        <location filename="dialogselectvariable.ui" line="1746"/>
         <source>主控模块</source>
         <translation>主控模塊</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="647"/>
-        <location filename="dialogselectvariable.ui" line="1766"/>
+        <location filename="dialogselectvariable.ui" line="661"/>
+        <location filename="dialogselectvariable.ui" line="1780"/>
         <source>主控模块2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="681"/>
-        <location filename="dialogselectvariable.ui" line="1800"/>
+        <location filename="dialogselectvariable.ui" line="695"/>
+        <location filename="dialogselectvariable.ui" line="1814"/>
         <source>主控模块3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="715"/>
-        <location filename="dialogselectvariable.ui" line="1834"/>
+        <location filename="dialogselectvariable.ui" line="729"/>
+        <location filename="dialogselectvariable.ui" line="1848"/>
         <source>主控模块4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="749"/>
-        <location filename="dialogselectvariable.ui" line="1868"/>
+        <location filename="dialogselectvariable.ui" line="763"/>
+        <location filename="dialogselectvariable.ui" line="1882"/>
         <source>扩展模块1</source>
         <translation>擴展模塊1</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="783"/>
-        <location filename="dialogselectvariable.ui" line="1902"/>
+        <location filename="dialogselectvariable.ui" line="797"/>
+        <location filename="dialogselectvariable.ui" line="1916"/>
         <source>扩展模块2</source>
         <translation>擴展模塊2</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="817"/>
-        <location filename="dialogselectvariable.ui" line="1936"/>
+        <location filename="dialogselectvariable.ui" line="831"/>
+        <location filename="dialogselectvariable.ui" line="1950"/>
         <source>扩展模块3</source>
         <translation>擴展模塊3</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="848"/>
-        <location filename="dialogselectvariable.ui" line="1967"/>
+        <location filename="dialogselectvariable.ui" line="862"/>
+        <location filename="dialogselectvariable.ui" line="1981"/>
         <source>扩展模块4</source>
         <translation>擴展模塊4</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="1243"/>
+        <location filename="dialogselectvariable.ui" line="1257"/>
         <source>15</source>
         <translation>15</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="1259"/>
+        <location filename="dialogselectvariable.ui" line="1273"/>
         <source>16</source>
         <translation>16</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="1657"/>
+        <location filename="dialogselectvariable.ui" line="1671"/>
         <source>扩展输出</source>
         <translation>擴展輸出</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="2785"/>
+        <location filename="dialogselectvariable.ui" line="2799"/>
         <source>系统变量</source>
         <translation>系統變量</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3317"/>
+        <location filename="dialogselectvariable.ui" line="3331"/>
         <source>S-021</source>
         <translation>S-021</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3333"/>
+        <location filename="dialogselectvariable.ui" line="3347"/>
         <source>S-022</source>
         <translation>S-022</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3349"/>
+        <location filename="dialogselectvariable.ui" line="3363"/>
         <source>S-023</source>
         <translation>S-023</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3382"/>
+        <location filename="dialogselectvariable.ui" line="3396"/>
         <source>系统自动生产累计总模数（每完成一个周期加一）</source>
         <translation>系統自動生產累計總模數（每完成一個週期加一）</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3404"/>
+        <location filename="dialogselectvariable.ui" line="3418"/>
         <source>正臂引拔轴当前位置</source>
         <translation>正臂引拔軸當前位置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3426"/>
+        <location filename="dialogselectvariable.ui" line="3440"/>
         <source>正臂上下轴当前位置</source>
         <translation>正臂上下軸當前位置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3448"/>
+        <location filename="dialogselectvariable.ui" line="3462"/>
         <source>机械手横行轴当前位置</source>
         <translation>機械手橫行軸當前位置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3470"/>
+        <location filename="dialogselectvariable.ui" line="3484"/>
         <source>副臂上下轴当前位置</source>
         <translation>副臂上下軸當前位置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3492"/>
+        <location filename="dialogselectvariable.ui" line="3506"/>
         <source>副臂引拔轴当前位置</source>
         <translation>副臂引拔軸當前位置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3514"/>
+        <location filename="dialogselectvariable.ui" line="3528"/>
         <source>扩展轴当前位置</source>
         <translation>擴展軸當前位置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3536"/>
+        <location filename="dialogselectvariable.ui" line="3550"/>
         <source>正臂上下轴模内上位安全区终点设置</source>
         <translation>正臂上下軸模內上位安全區終點設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3558"/>
+        <location filename="dialogselectvariable.ui" line="3572"/>
         <source>副臂上下轴模内上位安全区终点设置</source>
         <translation>副臂上下軸模內上位安全區終點設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3580"/>
+        <location filename="dialogselectvariable.ui" line="3594"/>
         <source>机械手横行轴模外安全区起点设置</source>
         <translation>機械手橫行軸模外安全區起點設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3602"/>
+        <location filename="dialogselectvariable.ui" line="3616"/>
         <source>机械手横行轴模外安全区终点设置</source>
         <translation>機械手橫行軸模外安全區終點設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3624"/>
+        <location filename="dialogselectvariable.ui" line="3638"/>
         <source>机械手横行轴模内安全区起点设置</source>
         <translation>機械手橫行軸模內安全區起點設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3646"/>
+        <location filename="dialogselectvariable.ui" line="3660"/>
         <source>机械手横行轴模内安全区终点设置</source>
         <translation>機械手橫行軸模內安全區終點設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3668"/>
+        <location filename="dialogselectvariable.ui" line="3682"/>
         <source>正臂引拔轴模内安全区起点设置</source>
         <translation>正臂引拔軸模內安全區起點設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3690"/>
+        <location filename="dialogselectvariable.ui" line="3704"/>
         <source>正臂引拔轴模内安全区终点设置</source>
         <translation>正臂引拔軸模內安全區終點設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3712"/>
+        <location filename="dialogselectvariable.ui" line="3726"/>
         <source>副臂引拔轴模内安全区起点设置</source>
         <translation>副臂引拔軸模內安全區起點設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3731"/>
+        <location filename="dialogselectvariable.ui" line="3745"/>
         <source>副臂引拔轴模内安全区终点设置</source>
         <translation>副臂引拔軸模內安全區終點設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3750"/>
+        <location filename="dialogselectvariable.ui" line="3764"/>
         <source>横行时正臂倒角水平设置</source>
         <translation>橫行時正臂倒角水平設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3769"/>
+        <location filename="dialogselectvariable.ui" line="3783"/>
         <source>计划生产数量（每完成一个周期减一）</source>
         <translation>計劃生產數量（每完成一個週期減一）</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3788"/>
+        <location filename="dialogselectvariable.ui" line="3802"/>
         <source>累计不良品报警数量设置</source>
         <translation>累計不良品報警數量設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3807"/>
+        <location filename="dialogselectvariable.ui" line="3821"/>
         <source>本次自动生产累计模数（每完成一个周期加一）</source>
         <translation>本次自動生產累計模數（每完成一個週期加一）</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3826"/>
+        <location filename="dialogselectvariable.ui" line="3840"/>
         <source>当前产品的不良品锁存信号</source>
         <translation>當前產品的不良品鎖存信號</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3839"/>
+        <location filename="dialogselectvariable.ui" line="3853"/>
         <source>机械手横行轴模外安全区2起点设置</source>
         <translation>機械手橫行軸模外安全區2起點設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3852"/>
+        <location filename="dialogselectvariable.ui" line="3866"/>
         <source>机械手横行轴模外安全区2终点设置</source>
         <translation>機械手橫行軸模外安全區2終點設置</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3882"/>
+        <location filename="dialogselectvariable.ui" line="3896"/>
         <source>系统 I/O</source>
         <translation>系統 I/O</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="3902"/>
+        <location filename="dialogselectvariable.ui" line="3917"/>
         <source>I/O 类型</source>
         <translation>I/O 類型</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="4837"/>
+        <location filename="dialogselectvariable.ui" line="4853"/>
         <source>取消</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.ui" line="4877"/>
+        <location filename="dialogselectvariable.ui" line="4894"/>
         <source>确定</source>
         <translation>確定</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="233"/>
-        <location filename="dialogselectvariable.cpp" line="260"/>
+        <location filename="dialogselectvariable.cpp" line="259"/>
+        <location filename="dialogselectvariable.cpp" line="286"/>
         <source>伺服信号输入</source>
         <translation>伺服信號輸入</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="234"/>
-        <location filename="dialogselectvariable.cpp" line="261"/>
+        <location filename="dialogselectvariable.cpp" line="260"/>
+        <location filename="dialogselectvariable.cpp" line="287"/>
         <source>伺服信号输出</source>
         <translation>伺服信號輸出</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="235"/>
-        <location filename="dialogselectvariable.cpp" line="262"/>
+        <location filename="dialogselectvariable.cpp" line="261"/>
+        <location filename="dialogselectvariable.cpp" line="288"/>
         <source>其他信号输入</source>
         <translation>其他信號輸入</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="236"/>
-        <location filename="dialogselectvariable.cpp" line="263"/>
+        <location filename="dialogselectvariable.cpp" line="262"/>
+        <location filename="dialogselectvariable.cpp" line="289"/>
         <source>其他信号输出</source>
         <translation>其他信號輸出</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="458"/>
+        <location filename="dialogselectvariable.cpp" line="484"/>
         <source>选择用户变量 (User-00 - User-399)</source>
         <translation>選擇用戶變量 (User-00 - User-399)</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="465"/>
+        <location filename="dialogselectvariable.cpp" line="491"/>
         <source>选择用户变量 (Counter-500 - Counter-999)</source>
         <translation>選擇用戶變量(Counter-500 - Counter-999)</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="472"/>
+        <location filename="dialogselectvariable.cpp" line="498"/>
         <source>选择用户变量 (User-00 - Counter-999)</source>
         <translation>選項用戶變量 (User-00 - Counter-999)</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="481"/>
-        <location filename="dialogselectvariable.cpp" line="489"/>
+        <location filename="dialogselectvariable.cpp" line="507"/>
+        <location filename="dialogselectvariable.cpp" line="515"/>
         <source>压铸机信号输入</source>
         <translation>壓鑄機信號輸入</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="482"/>
-        <location filename="dialogselectvariable.cpp" line="490"/>
+        <location filename="dialogselectvariable.cpp" line="508"/>
+        <location filename="dialogselectvariable.cpp" line="516"/>
         <source>压铸机信号输出</source>
         <translation>壓鑄機信號輸出</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="484"/>
+        <location filename="dialogselectvariable.cpp" line="510"/>
         <source>机床信号输入</source>
         <translation>機床信號輸入</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="485"/>
+        <location filename="dialogselectvariable.cpp" line="511"/>
         <source>机床信号输出</source>
         <translation>機床信號輸出</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="494"/>
+        <location filename="dialogselectvariable.cpp" line="520"/>
         <source>注塑机信号输入</source>
         <translation>注塑機信號出入</translation>
     </message>
     <message>
-        <location filename="dialogselectvariable.cpp" line="495"/>
+        <location filename="dialogselectvariable.cpp" line="521"/>
         <source>注塑机信号输出</source>
         <translation>注塑機信號輸出</translation>
     </message>
@@ -6050,56 +6086,56 @@
 <context>
     <name>DialogServoControl</name>
     <message>
-        <location filename="dialogservocontrol.ui" line="929"/>
-        <location filename="dialogservocontrol.ui" line="1261"/>
+        <location filename="dialogservocontrol.ui" line="960"/>
+        <location filename="dialogservocontrol.ui" line="1312"/>
         <source>模内安全区起点</source>
         <translation>模內安全區起點</translation>
     </message>
     <message>
-        <location filename="dialogservocontrol.ui" line="969"/>
-        <location filename="dialogservocontrol.ui" line="1301"/>
+        <location filename="dialogservocontrol.ui" line="1001"/>
+        <location filename="dialogservocontrol.ui" line="1353"/>
         <source>模内安全区终点</source>
         <translation>模內安全區終點</translation>
     </message>
     <message>
-        <location filename="dialogservocontrol.ui" line="1012"/>
-        <location filename="dialogservocontrol.ui" line="1178"/>
+        <location filename="dialogservocontrol.ui" line="1048"/>
+        <location filename="dialogservocontrol.ui" line="1224"/>
         <source>模内上位待机点</source>
         <translation>模內上位待機點</translation>
     </message>
     <message>
-        <location filename="dialogservocontrol.ui" line="1052"/>
-        <location filename="dialogservocontrol.ui" line="1218"/>
+        <location filename="dialogservocontrol.ui" line="1089"/>
+        <location filename="dialogservocontrol.ui" line="1265"/>
         <source>模内下行取物点</source>
         <translation>模內下行取物點</translation>
     </message>
     <message>
-        <location filename="dialogservocontrol.ui" line="1095"/>
+        <location filename="dialogservocontrol.ui" line="1136"/>
         <source>横行模内取物点</source>
         <translation>橫行模內取物點</translation>
     </message>
     <message>
-        <location filename="dialogservocontrol.ui" line="1135"/>
+        <location filename="dialogservocontrol.ui" line="1177"/>
         <source>横行模外置物点</source>
         <translation>橫行模外置物點</translation>
     </message>
     <message>
-        <location filename="dialogservocontrol.ui" line="1422"/>
+        <location filename="dialogservocontrol.ui" line="1476"/>
         <source>正臂上下轴原点</source>
         <translation>正臂上下軸原點</translation>
     </message>
     <message>
-        <location filename="dialogservocontrol.ui" line="1549"/>
+        <location filename="dialogservocontrol.ui" line="1604"/>
         <source>横行轴原点</source>
         <translation>橫行軸原點</translation>
     </message>
     <message>
-        <location filename="dialogservocontrol.ui" line="1596"/>
+        <location filename="dialogservocontrol.ui" line="1652"/>
         <source>副臂上下轴原点</source>
         <translation>副臂上下軸原點</translation>
     </message>
     <message>
-        <location filename="dialogservocontrol.ui" line="1643"/>
+        <location filename="dialogservocontrol.ui" line="1700"/>
         <source>横行安全区</source>
         <translation>橫行安全區</translation>
     </message>
@@ -6137,17 +6173,17 @@
 <context>
     <name>DialogSpeed</name>
     <message>
-        <location filename="dialogspeed.ui" line="138"/>
+        <location filename="dialogspeed.ui" line="144"/>
         <source>设置全局伺服运行速度</source>
         <translation>設置全局伺服運行速度</translation>
     </message>
     <message>
-        <location filename="dialogspeed.ui" line="335"/>
+        <location filename="dialogspeed.ui" line="349"/>
         <source>取消</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="dialogspeed.ui" line="375"/>
+        <location filename="dialogspeed.ui" line="390"/>
         <source>确定</source>
         <translation>確定</translation>
     </message>
@@ -6155,81 +6191,81 @@
 <context>
     <name>DialogUserManager</name>
     <message>
-        <location filename="dialogusermanager.ui" line="142"/>
+        <location filename="dialogusermanager.ui" line="147"/>
         <source>用户管理</source>
         <translation>用戶管理</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="265"/>
+        <location filename="dialogusermanager.ui" line="274"/>
         <source>用户登录</source>
         <translation>用戶登錄</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="295"/>
-        <location filename="dialogusermanager.ui" line="601"/>
+        <location filename="dialogusermanager.ui" line="304"/>
+        <location filename="dialogusermanager.ui" line="610"/>
         <source>选择用户</source>
         <translation>選擇用戶</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="340"/>
-        <location filename="dialogusermanager.ui" line="643"/>
+        <location filename="dialogusermanager.ui" line="349"/>
+        <location filename="dialogusermanager.ui" line="652"/>
         <source>高级操作员</source>
         <translation>高級操作員</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="389"/>
-        <location filename="dialogusermanager.ui" line="692"/>
+        <location filename="dialogusermanager.ui" line="398"/>
+        <location filename="dialogusermanager.ui" line="701"/>
         <source>管理员</source>
         <translation>管理員</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="438"/>
-        <location filename="dialogusermanager.ui" line="744"/>
+        <location filename="dialogusermanager.ui" line="447"/>
+        <location filename="dialogusermanager.ui" line="753"/>
         <source>高级管理员</source>
         <translation>高級管理員</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="482"/>
+        <location filename="dialogusermanager.ui" line="491"/>
         <source>输入密码</source>
         <translation>輸入密碼</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="571"/>
+        <location filename="dialogusermanager.ui" line="580"/>
         <source>密码修改</source>
         <translation>密碼修改</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="788"/>
+        <location filename="dialogusermanager.ui" line="797"/>
         <source>修改密码</source>
         <translation>修改密碼</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="873"/>
+        <location filename="dialogusermanager.ui" line="882"/>
         <source>输入新密码</source>
         <translation>輸入新密碼</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="910"/>
+        <location filename="dialogusermanager.ui" line="919"/>
         <source>确认新密码</source>
         <translation>確認新密碼</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="1045"/>
+        <location filename="dialogusermanager.ui" line="1054"/>
         <source>输入旧密码</source>
         <translation>輸入舊密碼</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="1154"/>
+        <location filename="dialogusermanager.ui" line="1167"/>
         <source>注销</source>
         <translation>註銷</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="1194"/>
+        <location filename="dialogusermanager.ui" line="1208"/>
         <source>取消</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="dialogusermanager.ui" line="1234"/>
+        <location filename="dialogusermanager.ui" line="1249"/>
         <source>确定</source>
         <translation>確定</translation>
     </message>
@@ -6256,37 +6292,37 @@
 <context>
     <name>ElcCalc</name>
     <message>
-        <location filename="utility/elccalc.ui" line="142"/>
+        <location filename="utility/elccalc.ui" line="149"/>
         <source>电子齿轮比计算器</source>
         <translation>電子齒輪比計算器</translation>
     </message>
     <message>
-        <location filename="utility/elccalc.ui" line="245"/>
+        <location filename="utility/elccalc.ui" line="256"/>
         <source>编码器分辨率：</source>
         <translation>編碼器分辨率：</translation>
     </message>
     <message>
-        <location filename="utility/elccalc.ui" line="328"/>
+        <location filename="utility/elccalc.ui" line="341"/>
         <source>计 算</source>
         <translation>計 算</translation>
     </message>
     <message>
-        <location filename="utility/elccalc.ui" line="485"/>
+        <location filename="utility/elccalc.ui" line="504"/>
         <source>同步轮周长：</source>
         <translation>同步輪週長：</translation>
     </message>
     <message>
-        <location filename="utility/elccalc.ui" line="554"/>
+        <location filename="utility/elccalc.ui" line="575"/>
         <source>减速比分子：</source>
         <translation>減速比分子：</translation>
     </message>
     <message>
-        <location filename="utility/elccalc.ui" line="617"/>
+        <location filename="utility/elccalc.ui" line="640"/>
         <source>减速比分母：</source>
         <translation>減速比分母：</translation>
     </message>
     <message>
-        <location filename="utility/elccalc.ui" line="689"/>
+        <location filename="utility/elccalc.ui" line="714"/>
         <source>注意:
 1. 计算结果只能用于本控制系统，不能用于其他系统！
 2. 如果伺服轴是双截的，输入同步轮周长时要乘以2！</source>
@@ -6303,52 +6339,52 @@
         <translation type="unfinished">Form</translation>
     </message>
     <message>
-        <location filename="form.ui" line="53"/>
+        <location filename="form.ui" line="60"/>
         <source>1</source>
         <translation type="unfinished">1</translation>
     </message>
     <message>
-        <location filename="form.ui" line="64"/>
+        <location filename="form.ui" line="71"/>
         <source>2</source>
         <translation type="unfinished">2</translation>
     </message>
     <message>
-        <location filename="form.ui" line="75"/>
+        <location filename="form.ui" line="82"/>
         <source>3</source>
         <translation type="unfinished">3</translation>
     </message>
     <message>
-        <location filename="form.ui" line="86"/>
+        <location filename="form.ui" line="93"/>
         <source>4</source>
         <translation type="unfinished">4</translation>
     </message>
     <message>
-        <location filename="form.ui" line="97"/>
+        <location filename="form.ui" line="104"/>
         <source>5</source>
         <translation type="unfinished">5</translation>
     </message>
     <message>
-        <location filename="form.ui" line="108"/>
+        <location filename="form.ui" line="115"/>
         <source>6</source>
         <translation type="unfinished">6</translation>
     </message>
     <message>
-        <location filename="form.ui" line="119"/>
+        <location filename="form.ui" line="126"/>
         <source>默认名称</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="form.ui" line="130"/>
+        <location filename="form.ui" line="137"/>
         <source>修改名称</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="form.ui" line="313"/>
+        <location filename="form.ui" line="325"/>
         <source>保存</source>
         <translation type="unfinished">保存</translation>
     </message>
     <message>
-        <location filename="form.ui" line="345"/>
+        <location filename="form.ui" line="360"/>
         <source>关闭</source>
         <translation type="unfinished">關閉</translation>
     </message>
@@ -6361,48 +6397,48 @@
 <context>
     <name>FormActAssist</name>
     <message>
-        <location filename="formactassist.ui" line="101"/>
+        <location filename="formactassist.ui" line="108"/>
         <source>辅助设备参数</source>
         <translation>輔助設備參數</translation>
     </message>
     <message>
-        <location filename="formactassist.ui" line="163"/>
+        <location filename="formactassist.ui" line="176"/>
         <source>执行间隔：</source>
         <translation>執行間隔：</translation>
     </message>
     <message>
-        <location filename="formactassist.ui" line="256"/>
+        <location filename="formactassist.ui" line="275"/>
         <source>动作时间：</source>
         <translation>動作時間：</translation>
     </message>
     <message>
-        <location filename="formactassist.ui" line="356"/>
-        <location filename="formactassist.ui" line="396"/>
+        <location filename="formactassist.ui" line="381"/>
+        <location filename="formactassist.ui" line="424"/>
         <source>打开</source>
         <extracomment>扩展输出开关</extracomment>
         <translation>打開</translation>
     </message>
     <message>
-        <location filename="formactassist.ui" line="434"/>
-        <location filename="formactassist.ui" line="471"/>
+        <location filename="formactassist.ui" line="465"/>
+        <location filename="formactassist.ui" line="505"/>
         <source>关闭</source>
         <extracomment>扩展输出开关</extracomment>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="formactassist.ui" line="513"/>
+        <location filename="formactassist.ui" line="550"/>
         <location filename="formactassist.cpp" line="63"/>
         <source>不良品</source>
         <translation>不良品</translation>
     </message>
     <message>
-        <location filename="formactassist.ui" line="603"/>
+        <location filename="formactassist.ui" line="643"/>
         <location filename="formactassist.cpp" line="61"/>
         <source>打油</source>
         <translation>打油</translation>
     </message>
     <message>
-        <location filename="formactassist.ui" line="647"/>
+        <location filename="formactassist.ui" line="690"/>
         <location filename="formactassist.cpp" line="62"/>
         <source>传送带</source>
         <translation>傳送帶</translation>
@@ -6411,114 +6447,114 @@
 <context>
     <name>FormActCircle</name>
     <message>
-        <location filename="formactcircle.ui" line="207"/>
+        <location filename="formactcircle.ui" line="216"/>
         <source>逆时针</source>
         <translation>逆時針</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="241"/>
+        <location filename="formactcircle.ui" line="251"/>
         <source>半径：</source>
         <translation>半徑：</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="277"/>
+        <location filename="formactcircle.ui" line="288"/>
         <source>mm</source>
         <translation>mm</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="326"/>
+        <location filename="formactcircle.ui" line="338"/>
         <source>起点：</source>
         <translation>起點：</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="366"/>
-        <location filename="formactcircle.ui" line="495"/>
+        <location filename="formactcircle.ui" line="379"/>
+        <location filename="formactcircle.ui" line="510"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="371"/>
-        <location filename="formactcircle.ui" line="500"/>
+        <location filename="formactcircle.ui" line="384"/>
+        <location filename="formactcircle.ui" line="515"/>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="376"/>
-        <location filename="formactcircle.ui" line="505"/>
+        <location filename="formactcircle.ui" line="389"/>
+        <location filename="formactcircle.ui" line="520"/>
         <source>2</source>
         <translation>2</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="381"/>
-        <location filename="formactcircle.ui" line="510"/>
+        <location filename="formactcircle.ui" line="394"/>
+        <location filename="formactcircle.ui" line="525"/>
         <source>3</source>
         <translation>3</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="386"/>
-        <location filename="formactcircle.ui" line="515"/>
+        <location filename="formactcircle.ui" line="399"/>
+        <location filename="formactcircle.ui" line="530"/>
         <source>4</source>
         <translation>4</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="391"/>
-        <location filename="formactcircle.ui" line="520"/>
+        <location filename="formactcircle.ui" line="404"/>
+        <location filename="formactcircle.ui" line="535"/>
         <source>5</source>
         <translation>5</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="396"/>
-        <location filename="formactcircle.ui" line="525"/>
+        <location filename="formactcircle.ui" line="409"/>
+        <location filename="formactcircle.ui" line="540"/>
         <source>6</source>
         <translation>6</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="401"/>
-        <location filename="formactcircle.ui" line="530"/>
+        <location filename="formactcircle.ui" line="414"/>
+        <location filename="formactcircle.ui" line="545"/>
         <source>7</source>
         <translation>7</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="406"/>
-        <location filename="formactcircle.ui" line="535"/>
+        <location filename="formactcircle.ui" line="419"/>
+        <location filename="formactcircle.ui" line="550"/>
         <source>8</source>
         <translation>8</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="411"/>
-        <location filename="formactcircle.ui" line="540"/>
+        <location filename="formactcircle.ui" line="424"/>
+        <location filename="formactcircle.ui" line="555"/>
         <source>9</source>
         <translation>9</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="416"/>
-        <location filename="formactcircle.ui" line="545"/>
+        <location filename="formactcircle.ui" line="429"/>
+        <location filename="formactcircle.ui" line="560"/>
         <source>10</source>
         <translation>10</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="421"/>
-        <location filename="formactcircle.ui" line="550"/>
+        <location filename="formactcircle.ui" line="434"/>
+        <location filename="formactcircle.ui" line="565"/>
         <source>11</source>
         <translation>11</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="452"/>
+        <location filename="formactcircle.ui" line="466"/>
         <source>终点：</source>
         <translation>終點：</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="585"/>
+        <location filename="formactcircle.ui" line="601"/>
         <source>中心点：</source>
         <translation>中心點：</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="615"/>
+        <location filename="formactcircle.ui" line="632"/>
         <source>X:</source>
         <translation>X:</translation>
     </message>
     <message>
-        <location filename="formactcircle.ui" line="706"/>
+        <location filename="formactcircle.ui" line="725"/>
         <source>Z2:</source>
         <translation>Z2:</translation>
     </message>
@@ -6526,12 +6562,12 @@
 <context>
     <name>FormActDelay</name>
     <message>
-        <location filename="formactdelay.ui" line="104"/>
+        <location filename="formactdelay.ui" line="108"/>
         <source>延时指令参数</source>
         <translation>延時指令參數</translation>
     </message>
     <message>
-        <location filename="formactdelay.ui" line="162"/>
+        <location filename="formactdelay.ui" line="166"/>
         <source>时间：</source>
         <translation>時間：</translation>
     </message>
@@ -6539,37 +6575,37 @@
 <context>
     <name>FormActExtIn</name>
     <message>
-        <location filename="formactextin.ui" line="98"/>
+        <location filename="formactextin.ui" line="99"/>
         <source>扩展输入参数</source>
         <translation>擴展輸入參數</translation>
     </message>
     <message>
-        <location filename="formactextin.ui" line="242"/>
+        <location filename="formactextin.ui" line="243"/>
         <source>计数器：</source>
         <translation>計數器：</translation>
     </message>
     <message>
-        <location filename="formactextin.ui" line="322"/>
+        <location filename="formactextin.ui" line="323"/>
         <source>间隔：</source>
         <translation>間隔：</translation>
     </message>
     <message>
-        <location filename="formactextin.ui" line="426"/>
+        <location filename="formactextin.ui" line="427"/>
         <source>检测使能(信号有效)</source>
         <translation>檢測使能(信號有效)</translation>
     </message>
     <message>
-        <location filename="formactextin.ui" line="472"/>
+        <location filename="formactextin.ui" line="473"/>
         <source>检测使能(信号无效)</source>
         <translation>檢測使能(信號無效)</translation>
     </message>
     <message>
-        <location filename="formactextin.ui" line="518"/>
+        <location filename="formactextin.ui" line="519"/>
         <source>检测禁止</source>
         <translation>檢測禁止</translation>
     </message>
     <message>
-        <location filename="formactextin.ui" line="162"/>
+        <location filename="formactextin.ui" line="163"/>
         <source>端口：</source>
         <translation>端口：</translation>
     </message>
@@ -6577,52 +6613,52 @@
 <context>
     <name>FormActExtOut</name>
     <message>
-        <location filename="formactextout.ui" line="557"/>
-        <location filename="formactextout.ui" line="733"/>
+        <location filename="formactextout.ui" line="558"/>
+        <location filename="formactextout.ui" line="734"/>
         <source>打开</source>
         <extracomment>扩展输出开关</extracomment>
         <translation>打開</translation>
     </message>
     <message>
-        <location filename="formactextout.ui" line="603"/>
-        <location filename="formactextout.ui" line="780"/>
+        <location filename="formactextout.ui" line="604"/>
+        <location filename="formactextout.ui" line="781"/>
         <source>关闭</source>
         <extracomment>扩展输出开关</extracomment>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="formactextout.ui" line="646"/>
+        <location filename="formactextout.ui" line="647"/>
         <source>脉冲</source>
         <translation>脈衝</translation>
     </message>
     <message>
-        <location filename="formactextout.ui" line="689"/>
+        <location filename="formactextout.ui" line="690"/>
         <source>取反</source>
         <translation>取反</translation>
     </message>
     <message>
-        <location filename="formactextout.ui" line="392"/>
+        <location filename="formactextout.ui" line="393"/>
         <source>端口：</source>
         <translation>端口：</translation>
     </message>
     <message>
-        <location filename="formactextout.ui" line="104"/>
+        <location filename="formactextout.ui" line="105"/>
         <source>扩展输出参数</source>
         <oldsource>扩展输入参数</oldsource>
         <translation>擴展輸出參數</translation>
     </message>
     <message>
-        <location filename="formactextout.ui" line="473"/>
+        <location filename="formactextout.ui" line="474"/>
         <source>计数器：</source>
         <translation>計數器：</translation>
     </message>
     <message>
-        <location filename="formactextout.ui" line="176"/>
+        <location filename="formactextout.ui" line="177"/>
         <source>时间：</source>
         <translation>時間：</translation>
     </message>
     <message>
-        <location filename="formactextout.ui" line="281"/>
+        <location filename="formactextout.ui" line="282"/>
         <source>间隔：</source>
         <translation>間隔：</translation>
     </message>
@@ -6638,42 +6674,42 @@
         <translation type="obsolete">參數</translation>
     </message>
     <message>
-        <location filename="formactextpos.ui" line="95"/>
+        <location filename="formactextpos.ui" line="102"/>
         <source>伺服定位参数</source>
         <translation>伺服定位參數</translation>
     </message>
     <message>
-        <location filename="formactextpos.ui" line="695"/>
+        <location filename="formactextpos.ui" line="702"/>
         <source>提前结束</source>
         <translation>提前結束</translation>
     </message>
     <message>
-        <location filename="formactextpos.ui" line="877"/>
+        <location filename="formactextpos.ui" line="884"/>
         <source>结束距离：</source>
         <translation>結束距離：</translation>
     </message>
     <message>
-        <location filename="formactextpos.ui" line="1078"/>
+        <location filename="formactextpos.ui" line="1085"/>
         <source>改变速度：</source>
         <translation>改變速度：</translation>
     </message>
     <message>
-        <location filename="formactextpos.ui" line="262"/>
+        <location filename="formactextpos.ui" line="269"/>
         <source>变速距离：</source>
         <translation>變速距離：</translation>
     </message>
     <message>
-        <location filename="formactextpos.ui" line="1238"/>
+        <location filename="formactextpos.ui" line="1245"/>
         <source>相对</source>
         <translation>相對</translation>
     </message>
     <message>
-        <location filename="formactextpos.ui" line="1266"/>
+        <location filename="formactextpos.ui" line="1273"/>
         <source>延时：</source>
         <translation>延時：</translation>
     </message>
     <message>
-        <location filename="formactextpos.ui" line="726"/>
+        <location filename="formactextpos.ui" line="733"/>
         <source>提前变速</source>
         <translation>提前變速</translation>
     </message>
@@ -6682,12 +6718,12 @@
         <translation type="obsolete">加速度</translation>
     </message>
     <message>
-        <location filename="formactextpos.ui" line="976"/>
+        <location filename="formactextpos.ui" line="983"/>
         <source>加速度：</source>
         <translation>加速度：</translation>
     </message>
     <message>
-        <location filename="formactextpos.ui" line="593"/>
+        <location filename="formactextpos.ui" line="600"/>
         <source>JERK加加速：</source>
         <translation>JERK加加速：</translation>
     </message>
@@ -6775,17 +6811,17 @@
 <context>
     <name>FormActFor</name>
     <message>
-        <location filename="formactfor.ui" line="98"/>
+        <location filename="formactfor.ui" line="99"/>
         <source>循环指令参数</source>
         <translation>迴圈指令參數</translation>
     </message>
     <message>
-        <location filename="formactfor.ui" line="334"/>
+        <location filename="formactfor.ui" line="335"/>
         <source>循环次数为变量</source>
         <translation>循環次數為變量</translation>
     </message>
     <message>
-        <location filename="formactfor.ui" line="165"/>
+        <location filename="formactfor.ui" line="166"/>
         <source>循环次数为常数</source>
         <translation>循環次數為常量</translation>
     </message>
@@ -6793,82 +6829,82 @@
 <context>
     <name>FormActIMM</name>
     <message>
-        <location filename="formactimm.ui" line="301"/>
+        <location filename="formactimm.ui" line="302"/>
         <source>允许关模</source>
         <translation>允許關模</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="344"/>
+        <location filename="formactimm.ui" line="345"/>
         <source>允许顶进</source>
         <translation>允許頂進</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="473"/>
+        <location filename="formactimm.ui" line="474"/>
         <source>禁止顶退</source>
         <translation>禁止頂退</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="255"/>
+        <location filename="formactimm.ui" line="256"/>
         <source>等待开模</source>
         <translation>等待開模</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="86"/>
+        <location filename="formactimm.ui" line="87"/>
         <source>注塑机动作参数</source>
         <translation>注塑機動作參數</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="387"/>
+        <location filename="formactimm.ui" line="388"/>
         <source>禁止顶进</source>
         <translation>禁止頂進</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="430"/>
+        <location filename="formactimm.ui" line="431"/>
         <source>允许顶退</source>
         <translation>允許頂退</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="516"/>
+        <location filename="formactimm.ui" line="517"/>
         <source>允许抽1进</source>
         <translation>允許抽1進</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="688"/>
+        <location filename="formactimm.ui" line="689"/>
         <source>禁止抽1进</source>
         <translation>允許抽1退</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="645"/>
+        <location filename="formactimm.ui" line="646"/>
         <source>允许抽2退</source>
         <translation>允許抽2退</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="774"/>
+        <location filename="formactimm.ui" line="775"/>
         <source>禁止抽2进</source>
         <translation>禁止抽2進</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="817"/>
+        <location filename="formactimm.ui" line="818"/>
         <source>禁止抽2退</source>
         <translation>禁止抽2退</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="731"/>
+        <location filename="formactimm.ui" line="732"/>
         <source>禁止抽1退</source>
         <translation>禁止抽1退</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="602"/>
+        <location filename="formactimm.ui" line="603"/>
         <source>允许抽2进</source>
         <translation>允許抽2進</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="559"/>
+        <location filename="formactimm.ui" line="560"/>
         <source>允许抽1退</source>
         <translation>允許抽1退</translation>
     </message>
     <message>
-        <location filename="formactimm.ui" line="152"/>
+        <location filename="formactimm.ui" line="153"/>
         <source>动作时间：</source>
         <translation>動作時間：</translation>
     </message>
@@ -6934,26 +6970,36 @@
         <source>加工启动</source>
         <translation>加工啟動</translation>
     </message>
+    <message>
+        <location filename="formactimm.cpp" line="201"/>
+        <source>等待加工</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formactimm.cpp" line="202"/>
+        <source>允许加工</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>FormActIf</name>
     <message>
-        <location filename="formactif.ui" line="104"/>
+        <location filename="formactif.ui" line="105"/>
         <source>条件指令参数</source>
         <translation>條件指令參數</translation>
     </message>
     <message>
-        <location filename="formactif.ui" line="335"/>
+        <location filename="formactif.ui" line="337"/>
         <source>超时时间：</source>
         <translation>超時時間：</translation>
     </message>
     <message>
-        <location filename="formactif.ui" line="418"/>
+        <location filename="formactif.ui" line="420"/>
         <source>运算符</source>
         <translation>運算符</translation>
     </message>
     <message>
-        <location filename="formactif.ui" line="156"/>
+        <location filename="formactif.ui" line="157"/>
         <source>表达式</source>
         <translation>表達式</translation>
     </message>
@@ -7045,12 +7091,12 @@
         <translation>自動時修改位置很危險，每次修改值祇能小於+-5mm</translation>
     </message>
     <message>
-        <location filename="formactinterp.ui" line="95"/>
+        <location filename="formactinterp.ui" line="99"/>
         <source>伺服插补参数</source>
         <translation>伺服插補參數</translation>
     </message>
     <message>
-        <location filename="formactinterp.ui" line="272"/>
+        <location filename="formactinterp.ui" line="280"/>
         <source>速度：</source>
         <translation>速度：</translation>
     </message>
@@ -7062,47 +7108,47 @@
         <translation type="obsolete">模式</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="173"/>
+        <location filename="formactloopfree.ui" line="174"/>
         <source>副臂</source>
         <translation>副臂</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="210"/>
+        <location filename="formactloopfree.ui" line="211"/>
         <source>垂直基准面定位</source>
         <translation>垂直基準面定位</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="257"/>
+        <location filename="formactloopfree.ui" line="258"/>
         <source>横行时倒平</source>
         <translation>橫行時倒平</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="294"/>
+        <location filename="formactloopfree.ui" line="295"/>
         <source>定位时倒角水平</source>
         <translation>定位時倒角水平</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="984"/>
+        <location filename="formactloopfree.ui" line="991"/>
         <source>运行速度：</source>
         <translation>運行速度：</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="1188"/>
+        <location filename="formactloopfree.ui" line="1195"/>
         <source>减速距离：</source>
         <translation>減速距離：</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="1086"/>
+        <location filename="formactloopfree.ui" line="1093"/>
         <source>低速速度：</source>
         <translation>低速速度：</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="98"/>
+        <location filename="formactloopfree.ui" line="99"/>
         <source>循环定位参数</source>
         <translation>迴圈定位參數</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="1287"/>
+        <location filename="formactloopfree.ui" line="1294"/>
         <source>计数器：</source>
         <translation>計數器：</translation>
     </message>
@@ -7111,27 +7157,27 @@
         <translation type="obsolete">參數</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="338"/>
+        <location filename="formactloopfree.ui" line="339"/>
         <source>定位点数：</source>
         <translation>定位點數：</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="443"/>
+        <location filename="formactloopfree.ui" line="444"/>
         <source>当前点：</source>
         <translation>當前點：</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="600"/>
+        <location filename="formactloopfree.ui" line="607"/>
         <source>引拔轴：</source>
         <translation>引拔軸：</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="728"/>
+        <location filename="formactloopfree.ui" line="735"/>
         <source>上下轴：</source>
         <translation>上下軸：</translation>
     </message>
     <message>
-        <location filename="formactloopfree.ui" line="856"/>
+        <location filename="formactloopfree.ui" line="863"/>
         <source>横行轴：</source>
         <translation>橫行軸：</translation>
     </message>
@@ -7156,73 +7202,73 @@
         <translation type="obsolete">模式</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="487"/>
+        <location filename="formactloopmatrix.ui" line="489"/>
         <source>副臂</source>
         <translation>副臂</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="413"/>
+        <location filename="formactloopmatrix.ui" line="415"/>
         <source>计数器：</source>
         <translation>計數器：</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="104"/>
+        <location filename="formactloopmatrix.ui" line="105"/>
         <source>矩阵定位参数</source>
         <translation>矩陣定位參數</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="573"/>
+        <location filename="formactloopmatrix.ui" line="575"/>
         <source>垂直基准面</source>
         <translation>垂直基準面</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="616"/>
+        <location filename="formactloopmatrix.ui" line="618"/>
         <source>横行时倒平</source>
         <translation>橫行時倒平</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="662"/>
+        <location filename="formactloopmatrix.ui" line="665"/>
         <source>第一点(mm)</source>
         <translation>第一點（mm）</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="686"/>
+        <location filename="formactloopmatrix.ui" line="690"/>
         <source>间距(mm)</source>
         <translation>間距（mm）</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="716"/>
+        <location filename="formactloopmatrix.ui" line="721"/>
         <source>点数</source>
         <translation>點數</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="746"/>
+        <location filename="formactloopmatrix.ui" line="752"/>
         <source>速度</source>
         <translation>速度</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="1122"/>
+        <location filename="formactloopmatrix.ui" line="1128"/>
         <source>上下：</source>
         <translation>上下：</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="1972"/>
+        <location filename="formactloopmatrix.ui" line="1978"/>
         <source>输送带使用</source>
         <translation>輸送帶使用</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="2012"/>
+        <location filename="formactloopmatrix.ui" line="2018"/>
         <source>               输送带端口：</source>
         <oldsource>输送带延时：</oldsource>
         <translation>               輸送帶端口：</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="2089"/>
+        <location filename="formactloopmatrix.ui" line="2095"/>
         <source>S</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="2138"/>
+        <location filename="formactloopmatrix.ui" line="2144"/>
         <source>         输送带动作时间：</source>
         <translation>         輸送帶動作時間：</translation>
     </message>
@@ -7231,7 +7277,7 @@
         <translation type="obsolete">輸送帶端口：</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="530"/>
+        <location filename="formactloopmatrix.ui" line="532"/>
         <source>倒角水平</source>
         <translation>倒角水平</translation>
     </message>
@@ -7256,12 +7302,12 @@
         <translation type="obsolete">參數</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="1774"/>
+        <location filename="formactloopmatrix.ui" line="1780"/>
         <source>低速速度：</source>
         <translation>低速速度：</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.ui" line="1872"/>
+        <location filename="formactloopmatrix.ui" line="1878"/>
         <source>减速距离：</source>
         <translation>減速距離：</translation>
     </message>
@@ -7290,15 +7336,15 @@
         <translation type="obsolete">：</translation>
     </message>
     <message>
-        <location filename="formactloopmatrix.cpp" line="78"/>
-        <location filename="formactloopmatrix.cpp" line="79"/>
-        <location filename="formactloopmatrix.cpp" line="80"/>
-        <location filename="formactloopmatrix.cpp" line="792"/>
-        <location filename="formactloopmatrix.cpp" line="793"/>
-        <location filename="formactloopmatrix.cpp" line="794"/>
-        <location filename="formactloopmatrix.cpp" line="798"/>
-        <location filename="formactloopmatrix.cpp" line="799"/>
-        <location filename="formactloopmatrix.cpp" line="800"/>
+        <location filename="formactloopmatrix.cpp" line="86"/>
+        <location filename="formactloopmatrix.cpp" line="87"/>
+        <location filename="formactloopmatrix.cpp" line="88"/>
+        <location filename="formactloopmatrix.cpp" line="801"/>
+        <location filename="formactloopmatrix.cpp" line="802"/>
+        <location filename="formactloopmatrix.cpp" line="803"/>
+        <location filename="formactloopmatrix.cpp" line="807"/>
+        <location filename="formactloopmatrix.cpp" line="808"/>
+        <location filename="formactloopmatrix.cpp" line="809"/>
         <source>轴：</source>
         <translation>軸:</translation>
     </message>
@@ -7306,27 +7352,27 @@
 <context>
     <name>FormActMExtOut</name>
     <message>
-        <location filename="formactmextout.ui" line="92"/>
+        <location filename="formactmextout.ui" line="99"/>
         <source>多扩展输出参数</source>
         <translation>多擴展輸出參數</translation>
     </message>
     <message>
-        <location filename="formactmextout.ui" line="592"/>
+        <location filename="formactmextout.ui" line="613"/>
         <source>输出打开</source>
         <translation>輸出打開</translation>
     </message>
     <message>
-        <location filename="formactmextout.ui" line="637"/>
+        <location filename="formactmextout.ui" line="659"/>
         <source>输出关闭</source>
         <translation>輸出關閉</translation>
     </message>
     <message>
-        <location filename="formactmextout.ui" line="679"/>
+        <location filename="formactmextout.ui" line="702"/>
         <source>脉冲输出</source>
         <translation>脈衝輸出</translation>
     </message>
     <message>
-        <location filename="formactmextout.ui" line="892"/>
+        <location filename="formactmextout.ui" line="920"/>
         <source>动作时间：</source>
         <translation>動作時間：</translation>
     </message>
@@ -7334,7 +7380,7 @@
 <context>
     <name>FormActNull</name>
     <message>
-        <location filename="formactnull.ui" line="95"/>
+        <location filename="formactnull.ui" line="99"/>
         <source>本指令没有参数</source>
         <translation>本指令沒有參數</translation>
     </message>
@@ -7342,22 +7388,22 @@
 <context>
     <name>FormActOperate</name>
     <message>
-        <location filename="formactoperate.ui" line="322"/>
+        <location filename="formactoperate.ui" line="323"/>
         <source>运算符</source>
         <translation>運算符</translation>
     </message>
     <message>
-        <location filename="formactoperate.ui" line="150"/>
+        <location filename="formactoperate.ui" line="151"/>
         <source>用户变量：</source>
         <translation>用戶變量：</translation>
     </message>
     <message>
-        <location filename="formactoperate.ui" line="86"/>
+        <location filename="formactoperate.ui" line="87"/>
         <source>用户变量运算指令参数</source>
         <translation>用戶變數運算指令參數</translation>
     </message>
     <message>
-        <location filename="formactoperate.ui" line="233"/>
+        <location filename="formactoperate.ui" line="234"/>
         <source>操作数：</source>
         <translation>操作數：</translation>
     </message>
@@ -7365,62 +7411,62 @@
 <context>
     <name>FormActPaper</name>
     <message>
-        <location filename="formactpaper.ui" line="182"/>
+        <location filename="formactpaper.ui" line="185"/>
         <source>X</source>
         <translation>X</translation>
     </message>
     <message>
-        <location filename="formactpaper.ui" line="152"/>
+        <location filename="formactpaper.ui" line="154"/>
         <source>Y</source>
         <translation>Y</translation>
     </message>
     <message>
-        <location filename="formactpaper.ui" line="98"/>
+        <location filename="formactpaper.ui" line="99"/>
         <source>搜索指令参数</source>
         <translation>蒐索指令參數</translation>
     </message>
     <message>
-        <location filename="formactpaper.ui" line="215"/>
+        <location filename="formactpaper.ui" line="219"/>
         <source>Z</source>
         <translation>Z</translation>
     </message>
     <message>
-        <location filename="formactpaper.ui" line="245"/>
+        <location filename="formactpaper.ui" line="250"/>
         <source>A</source>
         <translation>A</translation>
     </message>
     <message>
-        <location filename="formactpaper.ui" line="275"/>
+        <location filename="formactpaper.ui" line="281"/>
         <source>B</source>
         <translation>B</translation>
     </message>
     <message>
-        <location filename="formactpaper.ui" line="305"/>
+        <location filename="formactpaper.ui" line="312"/>
         <source>C</source>
         <translation>C</translation>
     </message>
     <message>
-        <location filename="formactpaper.ui" line="707"/>
+        <location filename="formactpaper.ui" line="717"/>
         <source>搜索点最大位置：</source>
         <translation>搜索點最大位置：</translation>
     </message>
     <message>
-        <location filename="formactpaper.ui" line="624"/>
+        <location filename="formactpaper.ui" line="633"/>
         <source>减速输入端口:</source>
         <translation>減速輸入埠:</translation>
     </message>
     <message>
-        <location filename="formactpaper.ui" line="547"/>
+        <location filename="formactpaper.ui" line="555"/>
         <source>停止输入端口:</source>
         <translation>停止輸入埠:</translation>
     </message>
     <message>
-        <location filename="formactpaper.ui" line="344"/>
+        <location filename="formactpaper.ui" line="351"/>
         <source>运行速度：</source>
         <translation>運行速度：</translation>
     </message>
     <message>
-        <location filename="formactpaper.ui" line="449"/>
+        <location filename="formactpaper.ui" line="456"/>
         <source>低速速度：</source>
         <translation>低速速度：</translation>
     </message>
@@ -7440,12 +7486,12 @@
 <context>
     <name>FormActPath</name>
     <message>
-        <location filename="formactpath.ui" line="80"/>
+        <location filename="formactpath.ui" line="81"/>
         <source>连续路径指令参数</source>
         <translation>連續路徑指令參數</translation>
     </message>
     <message>
-        <location filename="formactpath.ui" line="141"/>
+        <location filename="formactpath.ui" line="142"/>
         <source>公差(mm)：</source>
         <translation>公差(mm):</translation>
     </message>
@@ -7453,27 +7499,27 @@
 <context>
     <name>FormActPos</name>
     <message>
-        <location filename="formactpos.ui" line="982"/>
+        <location filename="formactpos.ui" line="989"/>
         <source>相对</source>
         <translation>相對</translation>
     </message>
     <message>
-        <location filename="formactpos.ui" line="98"/>
+        <location filename="formactpos.ui" line="102"/>
         <source>伺服定位参数</source>
         <translation>伺服定位參數</translation>
     </message>
     <message>
-        <location filename="formactpos.ui" line="368"/>
+        <location filename="formactpos.ui" line="374"/>
         <source>速度：</source>
         <translation>速度：</translation>
     </message>
     <message>
-        <location filename="formactpos.ui" line="469"/>
+        <location filename="formactpos.ui" line="476"/>
         <source>延时：</source>
         <translation>延時：</translation>
     </message>
     <message>
-        <location filename="formactpos.ui" line="527"/>
+        <location filename="formactpos.ui" line="534"/>
         <source>s</source>
         <translation>s</translation>
     </message>
@@ -7561,12 +7607,12 @@
 <context>
     <name>FormActPower</name>
     <message>
-        <location filename="formactpower.ui" line="95"/>
+        <location filename="formactpower.ui" line="99"/>
         <source>轴电源指令</source>
         <translation>軸電源指令</translation>
     </message>
     <message>
-        <location filename="formactpower.ui" line="446"/>
+        <location filename="formactpower.ui" line="453"/>
         <source>电源关</source>
         <translation>電源關</translation>
     </message>
@@ -7574,121 +7620,141 @@
 <context>
     <name>FormActPro</name>
     <message>
-        <location filename="formactpro.ui" line="356"/>
+        <location filename="formactpro.ui" line="357"/>
         <source>倒角垂直</source>
         <translation>倒角垂直</translation>
     </message>
     <message>
-        <location filename="formactpro.ui" line="396"/>
+        <location filename="formactpro.ui" line="397"/>
         <source>垂直</source>
         <translation>垂直</translation>
     </message>
     <message>
-        <location filename="formactpro.ui" line="272"/>
+        <location filename="formactpro.ui" line="273"/>
         <source>倒角水平</source>
         <translation>倒角水平</translation>
     </message>
     <message>
-        <location filename="formactpro.ui" line="315"/>
+        <location filename="formactpro.ui" line="316"/>
         <source>水平</source>
         <translation>水平</translation>
     </message>
     <message>
-        <location filename="formactpro.ui" line="164"/>
+        <location filename="formactpro.ui" line="165"/>
         <source>动作时间：</source>
         <translation>動作時間：</translation>
     </message>
     <message>
-        <location filename="formactpro.ui" line="98"/>
+        <location filename="formactpro.ui" line="99"/>
         <source>正臂动作参数</source>
         <translation>正臂動作參數</translation>
     </message>
     <message>
-        <location filename="formactpro.ui" line="437"/>
+        <location filename="formactpro.ui" line="438"/>
         <source>治具松开</source>
         <translation>治具鬆開</translation>
     </message>
     <message>
-        <location filename="formactpro.ui" line="477"/>
+        <location filename="formactpro.ui" line="478"/>
         <source>松开</source>
         <translation>鬆開</translation>
     </message>
     <message>
-        <location filename="formactpro.ui" line="518"/>
+        <location filename="formactpro.ui" line="519"/>
         <source>治具夹紧</source>
         <translation>治具夾緊</translation>
     </message>
     <message>
-        <location filename="formactpro.ui" line="558"/>
+        <location filename="formactpro.ui" line="559"/>
         <source>夹紧</source>
         <translation>夾緊</translation>
+    </message>
+    <message>
+        <location filename="formactpro.cpp" line="117"/>
+        <source>毛坯旋转</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formactpro.cpp" line="118"/>
+        <source>成品旋转</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>FormActRun</name>
     <message>
-        <location filename="formactrun.ui" line="475"/>
+        <location filename="formactrun.ui" line="476"/>
         <source>上行</source>
         <translation>上行</translation>
     </message>
     <message>
-        <location filename="formactrun.ui" line="521"/>
+        <location filename="formactrun.ui" line="522"/>
         <source>下行</source>
         <translation>下行</translation>
     </message>
     <message>
-        <location filename="formactrun.ui" line="558"/>
+        <location filename="formactrun.ui" line="559"/>
         <source>上下</source>
         <translation>上下</translation>
     </message>
     <message>
-        <location filename="formactrun.ui" line="342"/>
+        <location filename="formactrun.ui" line="343"/>
         <location filename="formactrun.cpp" line="23"/>
         <location filename="formactrun.cpp" line="25"/>
         <source>引拔进</source>
         <translation>引拔進</translation>
     </message>
     <message>
-        <location filename="formactrun.ui" line="80"/>
+        <location filename="formactrun.ui" line="81"/>
         <source>副臂动作参数</source>
         <translation>副臂動作參數</translation>
     </message>
     <message>
-        <location filename="formactrun.ui" line="388"/>
+        <location filename="formactrun.ui" line="389"/>
         <location filename="formactrun.cpp" line="22"/>
         <location filename="formactrun.cpp" line="26"/>
         <source>引拔退</source>
         <translation>引拔退</translation>
     </message>
     <message>
-        <location filename="formactrun.ui" line="425"/>
+        <location filename="formactrun.ui" line="426"/>
         <source>引拔</source>
         <translation>引拔</translation>
     </message>
     <message>
-        <location filename="formactrun.ui" line="608"/>
+        <location filename="formactrun.ui" line="609"/>
         <source>倒角水平</source>
         <translation>倒角水平</translation>
     </message>
     <message>
-        <location filename="formactrun.ui" line="648"/>
+        <location filename="formactrun.ui" line="649"/>
         <source>水平</source>
         <translation>水平</translation>
     </message>
     <message>
-        <location filename="formactrun.ui" line="146"/>
+        <location filename="formactrun.ui" line="147"/>
         <source>倒角垂直</source>
         <translation>倒角垂直</translation>
     </message>
     <message>
-        <location filename="formactrun.ui" line="183"/>
+        <location filename="formactrun.ui" line="184"/>
         <source>垂直</source>
         <translation>垂直</translation>
     </message>
     <message>
-        <location filename="formactrun.ui" line="243"/>
+        <location filename="formactrun.ui" line="244"/>
         <source>动作时间：</source>
         <translation>動作時間：</translation>
+    </message>
+    <message>
+        <location filename="formactrun.cpp" line="137"/>
+        <source>毛坯旋转</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formactrun.cpp" line="138"/>
+        <source>成品旋转</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7698,53 +7764,53 @@
         <translation type="obsolete">伺服</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="368"/>
+        <location filename="formactsingleloop.ui" line="371"/>
         <source>第一点：</source>
         <translation>第一點：</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="203"/>
-        <location filename="formactsingleloop.ui" line="546"/>
+        <location filename="formactsingleloop.ui" line="205"/>
+        <location filename="formactsingleloop.ui" line="550"/>
         <source>mm</source>
         <translation>mm</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="97"/>
+        <location filename="formactsingleloop.ui" line="98"/>
         <source>单轴循环定位参数</source>
         <translation>單軸迴圈定位參數</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="161"/>
+        <location filename="formactsingleloop.ui" line="162"/>
         <source>运行速度：</source>
         <translation>運行速度：</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="882"/>
+        <location filename="formactsingleloop.ui" line="889"/>
         <source>Z</source>
         <translation>Z</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="918"/>
+        <location filename="formactsingleloop.ui" line="926"/>
         <source>Y</source>
         <translation>Y</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="951"/>
+        <location filename="formactsingleloop.ui" line="960"/>
         <source>X</source>
         <translation>X</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="987"/>
+        <location filename="formactsingleloop.ui" line="997"/>
         <source>A</source>
         <translation>A</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="1023"/>
+        <location filename="formactsingleloop.ui" line="1034"/>
         <source>B</source>
         <translation>B</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="1059"/>
+        <location filename="formactsingleloop.ui" line="1071"/>
         <source>C</source>
         <translation>C</translation>
     </message>
@@ -7753,32 +7819,32 @@
         <translation type="obsolete">參數</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="436"/>
+        <location filename="formactsingleloop.ui" line="439"/>
         <source>计数器：</source>
         <translation>計數器：</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="274"/>
+        <location filename="formactsingleloop.ui" line="276"/>
         <source>间隔：</source>
         <translation>間隔：</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="470"/>
+        <location filename="formactsingleloop.ui" line="473"/>
         <source>每点次数</source>
         <translation>每點次數</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="240"/>
+        <location filename="formactsingleloop.ui" line="242"/>
         <source>定位点数：</source>
         <translation>定位點數：</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="402"/>
+        <location filename="formactsingleloop.ui" line="405"/>
         <source>减速距离：</source>
         <translation>減速距離：</translation>
     </message>
     <message>
-        <location filename="formactsingleloop.ui" line="504"/>
+        <location filename="formactsingleloop.ui" line="507"/>
         <source>低速速度：</source>
         <translation>低速速度：</translation>
     </message>
@@ -7802,52 +7868,52 @@
         <translation type="obsolete">伺服</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="95"/>
+        <location filename="formactsingleloopfree.ui" line="99"/>
         <source>单轴循环自由定位参数</source>
         <translation>單軸迴圈自由定位參數</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="168"/>
+        <location filename="formactsingleloopfree.ui" line="172"/>
         <source>A</source>
         <translation>A</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="199"/>
+        <location filename="formactsingleloopfree.ui" line="203"/>
         <source>B</source>
         <translation>B</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="230"/>
+        <location filename="formactsingleloopfree.ui" line="234"/>
         <source>C</source>
         <translation>C</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="261"/>
+        <location filename="formactsingleloopfree.ui" line="265"/>
         <source>X</source>
         <translation>X</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="295"/>
+        <location filename="formactsingleloopfree.ui" line="299"/>
         <source>Y</source>
         <translation>Y</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="326"/>
+        <location filename="formactsingleloopfree.ui" line="330"/>
         <source>Z</source>
         <translation>Z</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="365"/>
+        <location filename="formactsingleloopfree.ui" line="369"/>
         <source>运行速度：</source>
         <translation>運行速度：</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="467"/>
+        <location filename="formactsingleloopfree.ui" line="471"/>
         <source>低速速度：</source>
         <translation>低速速度：</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="569"/>
+        <location filename="formactsingleloopfree.ui" line="573"/>
         <source>减速距离：</source>
         <translation>減速距離：</translation>
     </message>
@@ -7856,27 +7922,27 @@
         <translation type="obsolete">參數</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="668"/>
+        <location filename="formactsingleloopfree.ui" line="672"/>
         <source>定位点数：</source>
         <translation>定位點數：</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="872"/>
+        <location filename="formactsingleloopfree.ui" line="876"/>
         <source>当前点：</source>
         <translation>當前點：</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="1029"/>
+        <location filename="formactsingleloopfree.ui" line="1039"/>
         <source>当前位置：</source>
         <translation>當前位置：</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="1134"/>
+        <location filename="formactsingleloopfree.ui" line="1144"/>
         <source>计数器：</source>
         <translation>計數器：</translation>
     </message>
     <message>
-        <location filename="formactsingleloopfree.ui" line="770"/>
+        <location filename="formactsingleloopfree.ui" line="774"/>
         <source>每次点数：</source>
         <translation>每次點數：</translation>
     </message>
@@ -7896,12 +7962,12 @@
 <context>
     <name>FormActSpeed</name>
     <message>
-        <location filename="formactspeed.ui" line="101"/>
+        <location filename="formactspeed.ui" line="102"/>
         <source>伺服速度调整参数</source>
         <translation>伺服速度調整參數</translation>
     </message>
     <message>
-        <location filename="formactspeed.ui" line="160"/>
+        <location filename="formactspeed.ui" line="162"/>
         <source>速度：</source>
         <translation>速度：</translation>
     </message>
@@ -7909,81 +7975,81 @@
 <context>
     <name>FormActVacuum</name>
     <message>
-        <location filename="formactvacuum.ui" line="383"/>
-        <location filename="formactvacuum.ui" line="426"/>
+        <location filename="formactvacuum.ui" line="385"/>
+        <location filename="formactvacuum.ui" line="428"/>
         <source>打开</source>
         <extracomment>扩展输出开关</extracomment>
         <translation>打開</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="467"/>
-        <location filename="formactvacuum.ui" line="507"/>
+        <location filename="formactvacuum.ui" line="469"/>
+        <location filename="formactvacuum.ui" line="509"/>
         <source>关闭</source>
         <extracomment>扩展输出开关</extracomment>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="179"/>
+        <location filename="formactvacuum.ui" line="181"/>
         <source>动作时间：</source>
         <translation>動作時間：</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="98"/>
+        <location filename="formactvacuum.ui" line="99"/>
         <source>治具组参数</source>
         <translation>治具組參數</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="278"/>
+        <location filename="formactvacuum.ui" line="280"/>
         <source>执行间隔：</source>
         <translation>執行間隔：</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="1083"/>
+        <location filename="formactvacuum.ui" line="1085"/>
         <source>下一页</source>
         <extracomment>扩展输出开关</extracomment>
         <translation>下一頁</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="548"/>
+        <location filename="formactvacuum.ui" line="550"/>
         <source>吸具一</source>
         <translation>吸具一</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="591"/>
-        <location filename="formactvacuum.ui" line="681"/>
-        <location filename="formactvacuum.ui" line="771"/>
-        <location filename="formactvacuum.ui" line="861"/>
-        <location filename="formactvacuum.ui" line="951"/>
-        <location filename="formactvacuum.ui" line="1041"/>
-        <location filename="formactvacuum.ui" line="1195"/>
-        <location filename="formactvacuum.ui" line="1285"/>
-        <location filename="formactvacuum.ui" line="1375"/>
-        <location filename="formactvacuum.ui" line="1465"/>
-        <location filename="formactvacuum.ui" line="1555"/>
-        <location filename="formactvacuum.ui" line="1645"/>
-        <location filename="formactvacuum.ui" line="1735"/>
-        <location filename="formactvacuum.ui" line="1825"/>
-        <location filename="formactvacuum.ui" line="2013"/>
-        <location filename="formactvacuum.ui" line="2099"/>
-        <location filename="formactvacuum.ui" line="2185"/>
-        <location filename="formactvacuum.ui" line="2271"/>
-        <location filename="formactvacuum.ui" line="2357"/>
-        <location filename="formactvacuum.ui" line="2443"/>
-        <location filename="formactvacuum.ui" line="2529"/>
-        <location filename="formactvacuum.ui" line="2615"/>
-        <location filename="formactvacuum.ui" line="2701"/>
-        <location filename="formactvacuum.ui" line="2787"/>
+        <location filename="formactvacuum.ui" line="593"/>
+        <location filename="formactvacuum.ui" line="683"/>
+        <location filename="formactvacuum.ui" line="773"/>
+        <location filename="formactvacuum.ui" line="863"/>
+        <location filename="formactvacuum.ui" line="953"/>
+        <location filename="formactvacuum.ui" line="1043"/>
+        <location filename="formactvacuum.ui" line="1197"/>
+        <location filename="formactvacuum.ui" line="1287"/>
+        <location filename="formactvacuum.ui" line="1377"/>
+        <location filename="formactvacuum.ui" line="1467"/>
+        <location filename="formactvacuum.ui" line="1557"/>
+        <location filename="formactvacuum.ui" line="1647"/>
+        <location filename="formactvacuum.ui" line="1737"/>
+        <location filename="formactvacuum.ui" line="1827"/>
+        <location filename="formactvacuum.ui" line="2015"/>
+        <location filename="formactvacuum.ui" line="2101"/>
+        <location filename="formactvacuum.ui" line="2187"/>
+        <location filename="formactvacuum.ui" line="2273"/>
+        <location filename="formactvacuum.ui" line="2359"/>
+        <location filename="formactvacuum.ui" line="2445"/>
+        <location filename="formactvacuum.ui" line="2531"/>
+        <location filename="formactvacuum.ui" line="2617"/>
+        <location filename="formactvacuum.ui" line="2703"/>
+        <location filename="formactvacuum.ui" line="2789"/>
         <source>检测</source>
         <translation>檢測</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="638"/>
+        <location filename="formactvacuum.ui" line="640"/>
         <source>吸具二</source>
         <translation>吸具二</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="1867"/>
-        <location filename="formactvacuum.ui" line="1931"/>
+        <location filename="formactvacuum.ui" line="1869"/>
+        <location filename="formactvacuum.ui" line="1933"/>
         <source>上一页</source>
         <extracomment>扩展输出开关
 ----------
@@ -7991,112 +8057,112 @@
         <translation>上一頁</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="1152"/>
+        <location filename="formactvacuum.ui" line="1154"/>
         <source>EM1-Y09</source>
         <translation>EM1-Y09</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="1242"/>
+        <location filename="formactvacuum.ui" line="1244"/>
         <source>EM1-Y10</source>
         <translation>EM1-Y10</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="1332"/>
+        <location filename="formactvacuum.ui" line="1334"/>
         <source>EM1-Y11</source>
         <translation>EM1-Y11</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="1422"/>
+        <location filename="formactvacuum.ui" line="1424"/>
         <source>EM1-Y12</source>
         <translation>EM1-Y12</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="1512"/>
+        <location filename="formactvacuum.ui" line="1514"/>
         <source>EM1-Y13</source>
         <translation>EM1-Y13</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="1602"/>
+        <location filename="formactvacuum.ui" line="1604"/>
         <source>EM1-Y14</source>
         <translation>EM1-Y14</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="1692"/>
+        <location filename="formactvacuum.ui" line="1694"/>
         <source>EM1-Y15</source>
         <translation>EM1-Y15</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="1782"/>
+        <location filename="formactvacuum.ui" line="1784"/>
         <source>EM1-Y16</source>
         <translation>EM1-Y16</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="1970"/>
+        <location filename="formactvacuum.ui" line="1972"/>
         <source>主板-Y01</source>
         <translation>主板-Y01</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="2056"/>
+        <location filename="formactvacuum.ui" line="2058"/>
         <source>主板-Y02</source>
         <translation>主板-Y02</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="2142"/>
+        <location filename="formactvacuum.ui" line="2144"/>
         <source>主板-Y03</source>
         <translation>主板-Y03</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="2228"/>
+        <location filename="formactvacuum.ui" line="2230"/>
         <source>主板-Y04</source>
         <translation>主板-Y04</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="2314"/>
+        <location filename="formactvacuum.ui" line="2316"/>
         <source>主板-Y05</source>
         <translation>主板-Y05</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="2400"/>
+        <location filename="formactvacuum.ui" line="2402"/>
         <source>主板-Y08</source>
         <translation>主板-Y08</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="2486"/>
+        <location filename="formactvacuum.ui" line="2488"/>
         <source>主板-Y09</source>
         <translation>主板-Y09</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="2572"/>
+        <location filename="formactvacuum.ui" line="2574"/>
         <source>主板-Y10</source>
         <translation>主板-Y10</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="2658"/>
+        <location filename="formactvacuum.ui" line="2660"/>
         <source>主板-Y11</source>
         <translation>主板-Y11</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="2744"/>
+        <location filename="formactvacuum.ui" line="2746"/>
         <source>主板-Y15</source>
         <translation>主板-Y15</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="728"/>
+        <location filename="formactvacuum.ui" line="730"/>
         <source>抱具一</source>
         <translation>抱具一</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="818"/>
+        <location filename="formactvacuum.ui" line="820"/>
         <source>抱具二</source>
         <translation>抱具二</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="908"/>
+        <location filename="formactvacuum.ui" line="910"/>
         <source>抱具三</source>
         <translation>抱具三</translation>
     </message>
     <message>
-        <location filename="formactvacuum.ui" line="998"/>
+        <location filename="formactvacuum.ui" line="1000"/>
         <source>抱具四</source>
         <translation>抱具四</translation>
     </message>
@@ -8104,77 +8170,77 @@
 <context>
     <name>FormActVision</name>
     <message>
-        <location filename="formactvision.ui" line="104"/>
+        <location filename="formactvision.ui" line="108"/>
         <source>视觉参数</source>
         <translation>視覺參數</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="170"/>
+        <location filename="formactvision.ui" line="174"/>
         <source>超时：</source>
         <translation>超時：</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="278"/>
+        <location filename="formactvision.ui" line="282"/>
         <source>视觉设备号：</source>
         <translation>視覺設備號：</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="306"/>
+        <location filename="formactvision.ui" line="311"/>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="311"/>
+        <location filename="formactvision.ui" line="316"/>
         <source>2</source>
         <translation>2</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="316"/>
+        <location filename="formactvision.ui" line="321"/>
         <source>3</source>
         <translation>3</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="321"/>
+        <location filename="formactvision.ui" line="326"/>
         <source>4</source>
         <translation>4</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="326"/>
+        <location filename="formactvision.ui" line="331"/>
         <source>5</source>
         <translation>5</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="331"/>
+        <location filename="formactvision.ui" line="336"/>
         <source>6</source>
         <translation>6</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="336"/>
+        <location filename="formactvision.ui" line="341"/>
         <source>7</source>
         <translation>7</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="341"/>
+        <location filename="formactvision.ui" line="346"/>
         <source>8</source>
         <translation>8</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="378"/>
+        <location filename="formactvision.ui" line="383"/>
         <source>用户变量：</source>
         <translation>用戶變量：</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="393"/>
+        <location filename="formactvision.ui" line="399"/>
         <source>第一组</source>
         <translation>第一組</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="542"/>
+        <location filename="formactvision.ui" line="553"/>
         <source>第二组</source>
         <translation>第二組</translation>
     </message>
     <message>
-        <location filename="formactvision.ui" line="691"/>
+        <location filename="formactvision.ui" line="707"/>
         <source>第三组</source>
         <translation>第三組</translation>
     </message>
@@ -8182,13 +8248,13 @@
 <context>
     <name>FormActWait</name>
     <message>
-        <location filename="formactwait.ui" line="80"/>
+        <location filename="formactwait.ui" line="81"/>
         <source>等待信号指令参数</source>
         <translation>等待訊號指令參數</translation>
     </message>
     <message>
-        <location filename="formactwait.ui" line="141"/>
-        <location filename="formactwait.ui" line="476"/>
+        <location filename="formactwait.ui" line="142"/>
+        <location filename="formactwait.ui" line="496"/>
         <source>端口信号：</source>
         <translation>端口訊號：</translation>
     </message>
@@ -8198,32 +8264,32 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formactwait.ui" line="264"/>
+        <location filename="formactwait.ui" line="268"/>
         <source>有效</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formactwait.ui" line="282"/>
+        <location filename="formactwait.ui" line="290"/>
         <source>&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formactwait.ui" line="300"/>
+        <location filename="formactwait.ui" line="312"/>
         <source>&lt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formactwait.ui" line="318"/>
+        <location filename="formactwait.ui" line="334"/>
         <source>!=</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formactwait.ui" line="336"/>
+        <location filename="formactwait.ui" line="356"/>
         <source>==</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formactwait.ui" line="559"/>
+        <location filename="formactwait.ui" line="579"/>
         <source>有效时间：</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8232,7 +8298,7 @@
         <translation type="obsolete">等待端口訊號無效</translation>
     </message>
     <message>
-        <location filename="formactwait.ui" line="372"/>
+        <location filename="formactwait.ui" line="392"/>
         <source>超时时间：</source>
         <translation>超時時間：</translation>
     </message>
@@ -8240,127 +8306,127 @@
 <context>
     <name>FormAdjust</name>
     <message>
-        <location filename="formadjust.ui" line="127"/>
+        <location filename="formadjust.ui" line="128"/>
         <source>伺服调位</source>
         <translation>伺服調位</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="169"/>
+        <location filename="formadjust.ui" line="170"/>
         <source>正臂引拔轴</source>
         <translation>正臂引拔軸</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="217"/>
-        <location filename="formadjust.ui" line="499"/>
-        <location filename="formadjust.ui" line="781"/>
-        <location filename="formadjust.ui" line="1066"/>
-        <location filename="formadjust.ui" line="1357"/>
-        <location filename="formadjust.ui" line="1648"/>
+        <location filename="formadjust.ui" line="218"/>
+        <location filename="formadjust.ui" line="500"/>
+        <location filename="formadjust.ui" line="782"/>
+        <location filename="formadjust.ui" line="1067"/>
+        <location filename="formadjust.ui" line="1358"/>
+        <location filename="formadjust.ui" line="1649"/>
         <source>负限</source>
         <translation>負限</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="317"/>
-        <location filename="formadjust.ui" line="599"/>
-        <location filename="formadjust.ui" line="881"/>
-        <location filename="formadjust.ui" line="1169"/>
-        <location filename="formadjust.ui" line="1460"/>
-        <location filename="formadjust.ui" line="1751"/>
+        <location filename="formadjust.ui" line="318"/>
+        <location filename="formadjust.ui" line="600"/>
+        <location filename="formadjust.ui" line="882"/>
+        <location filename="formadjust.ui" line="1170"/>
+        <location filename="formadjust.ui" line="1461"/>
+        <location filename="formadjust.ui" line="1752"/>
         <source>原点</source>
         <translation>原點</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="417"/>
-        <location filename="formadjust.ui" line="699"/>
-        <location filename="formadjust.ui" line="981"/>
-        <location filename="formadjust.ui" line="1272"/>
-        <location filename="formadjust.ui" line="1563"/>
-        <location filename="formadjust.ui" line="1854"/>
+        <location filename="formadjust.ui" line="418"/>
+        <location filename="formadjust.ui" line="700"/>
+        <location filename="formadjust.ui" line="982"/>
+        <location filename="formadjust.ui" line="1273"/>
+        <location filename="formadjust.ui" line="1564"/>
+        <location filename="formadjust.ui" line="1855"/>
         <source>正限</source>
         <translation>正限</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="451"/>
+        <location filename="formadjust.ui" line="452"/>
         <source>正臂上下轴</source>
         <translation>正臂上下軸</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="733"/>
+        <location filename="formadjust.ui" line="734"/>
         <source>正臂横行轴</source>
         <translation>正臂橫行軸</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="1018"/>
+        <location filename="formadjust.ui" line="1019"/>
         <source>副臂引拔轴</source>
         <translation>副臂引拔軸</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="1309"/>
+        <location filename="formadjust.ui" line="1310"/>
         <source>副臂上下轴</source>
         <translation>副臂上下軸</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="1600"/>
+        <location filename="formadjust.ui" line="1601"/>
         <source>扩展轴</source>
         <translation>擴展軸</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="1897"/>
+        <location filename="formadjust.ui" line="1898"/>
         <source>速度设置</source>
         <translation>速度設置</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2002"/>
+        <location filename="formadjust.ui" line="2003"/>
         <source>刻度设置</source>
         <translation>刻度設置</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2054"/>
+        <location filename="formadjust.ui" line="2055"/>
         <source>mm</source>
         <translation>mm</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2474"/>
+        <location filename="formadjust.ui" line="2477"/>
         <source>治具</source>
         <translation>治具</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2501"/>
+        <location filename="formadjust.ui" line="2504"/>
         <source>打开</source>
         <translation>打開</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2551"/>
+        <location filename="formadjust.ui" line="2554"/>
         <source>吸具一</source>
         <translation>吸具一</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2594"/>
+        <location filename="formadjust.ui" line="2597"/>
         <source>抱具二</source>
         <translation>抱具二</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2637"/>
+        <location filename="formadjust.ui" line="2640"/>
         <source>抱具一</source>
         <translation>抱具一</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2680"/>
+        <location filename="formadjust.ui" line="2683"/>
         <source>吸具二</source>
         <translation>吸具二</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2723"/>
+        <location filename="formadjust.ui" line="2726"/>
         <source>抱具三</source>
         <translation>抱具三</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2766"/>
+        <location filename="formadjust.ui" line="2769"/>
         <source>抱具四</source>
         <translation>抱具四</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2800"/>
+        <location filename="formadjust.ui" line="2803"/>
         <source>关闭</source>
         <translation>關閉</translation>
     </message>
@@ -8381,27 +8447,27 @@
         <translation type="obsolete">副臂上行</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2080"/>
+        <location filename="formadjust.ui" line="2082"/>
         <source>正臂气动动作</source>
         <translation>正臂氣動動作</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2219"/>
+        <location filename="formadjust.ui" line="2221"/>
         <source>副臂气动动作</source>
         <translation>副臂氣動動作</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2309"/>
+        <location filename="formadjust.ui" line="2311"/>
         <source>副臂水平-Y10 </source>
         <translation>副臂水平-Y10</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2360"/>
+        <location filename="formadjust.ui" line="2362"/>
         <source>副臂垂直-Y11 </source>
         <translation>副臂垂直-Y11</translation>
     </message>
     <message>
-        <location filename="formadjust.ui" line="2424"/>
+        <location filename="formadjust.ui" line="2426"/>
         <source>副臂后退 Y14</source>
         <translation>副臂後退 Y14</translation>
     </message>
@@ -8503,116 +8569,116 @@
         <translation>當前報警</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="195"/>
-        <location filename="formalarm.ui" line="1270"/>
+        <location filename="formalarm.ui" line="196"/>
+        <location filename="formalarm.ui" line="1291"/>
         <source>报警信息：</source>
         <translation>報警信息：</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="210"/>
+        <location filename="formalarm.ui" line="212"/>
         <source>请选择报警源</source>
         <translation>請選擇報警源</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="257"/>
+        <location filename="formalarm.ui" line="260"/>
         <source>正臂倒角</source>
         <translation>正臂倒角</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="309"/>
+        <location filename="formalarm.ui" line="313"/>
         <source>副臂气动上下</source>
         <translation>副臂氣動上下</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="358"/>
+        <location filename="formalarm.ui" line="363"/>
         <source>扩展模块2</source>
         <translation>擴展模塊2</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="407"/>
+        <location filename="formalarm.ui" line="413"/>
         <source>扩展模块4</source>
         <translation>擴展模塊4</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="456"/>
+        <location filename="formalarm.ui" line="463"/>
         <source>扩展模块1</source>
         <translation>擴展模塊1</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="505"/>
+        <location filename="formalarm.ui" line="513"/>
         <source>扩展模块3</source>
         <translation>擴展模塊3</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="554"/>
+        <location filename="formalarm.ui" line="563"/>
         <source>副臂上下轴伺服</source>
         <translation>副臂上下軸伺服</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="603"/>
-        <location filename="formalarm.cpp" line="90"/>
+        <location filename="formalarm.ui" line="613"/>
+        <location filename="formalarm.cpp" line="97"/>
         <source>注塑机/系统</source>
         <translation>注塑機/系統</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="655"/>
+        <location filename="formalarm.ui" line="666"/>
         <source>正臂引拔轴伺服</source>
         <translation>正臂引拔軸伺服</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="704"/>
+        <location filename="formalarm.ui" line="716"/>
         <source>正臂上下轴伺服</source>
         <translation>正臂上下軸伺服</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="753"/>
+        <location filename="formalarm.ui" line="766"/>
         <source>副臂引拔轴伺服</source>
         <translation>副臂引拔軸伺服</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="802"/>
+        <location filename="formalarm.ui" line="816"/>
         <source>横行轴伺服</source>
         <translation>橫行軸伺服</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="851"/>
+        <location filename="formalarm.ui" line="866"/>
         <source>扩展轴伺服</source>
         <translation>擴展軸伺服</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="975"/>
+        <location filename="formalarm.ui" line="992"/>
         <source>复位</source>
         <translation>復位</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="1048"/>
-        <location filename="formalarm.ui" line="1182"/>
+        <location filename="formalarm.ui" line="1067"/>
+        <location filename="formalarm.ui" line="1201"/>
         <source>解决方法：</source>
         <translation>解決方法：</translation>
     </message>
     <message>
-        <location filename="formalarm.ui" line="1069"/>
+        <location filename="formalarm.ui" line="1088"/>
         <source>报警历史</source>
         <translation>報警歷史</translation>
     </message>
     <message>
-        <location filename="formalarm.cpp" line="82"/>
-        <location filename="formalarm.cpp" line="87"/>
+        <location filename="formalarm.cpp" line="89"/>
+        <location filename="formalarm.cpp" line="94"/>
         <source>压铸机/系统</source>
         <translation>壓鑄機/系統</translation>
     </message>
     <message>
-        <location filename="formalarm.cpp" line="84"/>
+        <location filename="formalarm.cpp" line="91"/>
         <source>机床/系统</source>
         <translation>機床/系統</translation>
     </message>
     <message>
-        <location filename="formalarm.cpp" line="93"/>
-        <location filename="formalarm.cpp" line="94"/>
-        <location filename="formalarm.cpp" line="95"/>
-        <location filename="formalarm.cpp" line="96"/>
-        <location filename="formalarm.cpp" line="97"/>
-        <location filename="formalarm.cpp" line="98"/>
+        <location filename="formalarm.cpp" line="100"/>
+        <location filename="formalarm.cpp" line="101"/>
+        <location filename="formalarm.cpp" line="102"/>
+        <location filename="formalarm.cpp" line="103"/>
+        <location filename="formalarm.cpp" line="104"/>
+        <location filename="formalarm.cpp" line="105"/>
         <source>轴伺服</source>
         <translation>軸伺服</translation>
     </message>
@@ -8620,211 +8686,211 @@
 <context>
     <name>FormAlfaPgmExplorer</name>
     <message>
-        <location filename="formalfapgmexplorer.ui" line="95"/>
+        <location filename="formalfapgmexplorer.ui" line="100"/>
         <source>程序目录</source>
         <translation>程序目錄</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.ui" line="242"/>
+        <location filename="formalfapgmexplorer.ui" line="246"/>
         <source>载入</source>
         <translation>載入</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.ui" line="289"/>
+        <location filename="formalfapgmexplorer.ui" line="293"/>
         <source>新建</source>
         <translation>新建</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.ui" line="336"/>
+        <location filename="formalfapgmexplorer.ui" line="340"/>
         <source>重命名</source>
         <translation>重命名</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.ui" line="396"/>
+        <location filename="formalfapgmexplorer.ui" line="400"/>
         <source>另存为</source>
         <translation>另存為</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.ui" line="443"/>
+        <location filename="formalfapgmexplorer.ui" line="447"/>
         <source>导到U盘</source>
         <translation>導到U盤</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.ui" line="490"/>
+        <location filename="formalfapgmexplorer.ui" line="494"/>
         <source>删除</source>
         <translation>刪除</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.ui" line="521"/>
+        <location filename="formalfapgmexplorer.ui" line="525"/>
         <source>USB目录</source>
         <translation>USB目錄</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.ui" line="663"/>
+        <location filename="formalfapgmexplorer.ui" line="667"/>
         <source>导到程序</source>
         <translation>導到程序</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.ui" line="700"/>
+        <location filename="formalfapgmexplorer.ui" line="704"/>
         <source>刷新</source>
         <translation>刷新</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.ui" line="740"/>
+        <location filename="formalfapgmexplorer.ui" line="744"/>
         <source>弹出U盘</source>
         <translation>彈出U盤</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="106"/>
-        <location filename="formalfapgmexplorer.cpp" line="177"/>
-        <location filename="formalfapgmexplorer.cpp" line="199"/>
-        <location filename="formalfapgmexplorer.cpp" line="211"/>
-        <location filename="formalfapgmexplorer.cpp" line="235"/>
+        <location filename="formalfapgmexplorer.cpp" line="117"/>
+        <location filename="formalfapgmexplorer.cpp" line="188"/>
+        <location filename="formalfapgmexplorer.cpp" line="210"/>
+        <location filename="formalfapgmexplorer.cpp" line="222"/>
         <location filename="formalfapgmexplorer.cpp" line="246"/>
-        <location filename="formalfapgmexplorer.cpp" line="258"/>
-        <location filename="formalfapgmexplorer.cpp" line="286"/>
+        <location filename="formalfapgmexplorer.cpp" line="257"/>
+        <location filename="formalfapgmexplorer.cpp" line="269"/>
         <location filename="formalfapgmexplorer.cpp" line="297"/>
-        <location filename="formalfapgmexplorer.cpp" line="309"/>
-        <location filename="formalfapgmexplorer.cpp" line="336"/>
-        <location filename="formalfapgmexplorer.cpp" line="342"/>
-        <location filename="formalfapgmexplorer.cpp" line="377"/>
-        <location filename="formalfapgmexplorer.cpp" line="383"/>
-        <location filename="formalfapgmexplorer.cpp" line="395"/>
-        <location filename="formalfapgmexplorer.cpp" line="405"/>
-        <location filename="formalfapgmexplorer.cpp" line="427"/>
-        <location filename="formalfapgmexplorer.cpp" line="433"/>
-        <location filename="formalfapgmexplorer.cpp" line="445"/>
-        <location filename="formalfapgmexplorer.cpp" line="457"/>
+        <location filename="formalfapgmexplorer.cpp" line="308"/>
+        <location filename="formalfapgmexplorer.cpp" line="320"/>
+        <location filename="formalfapgmexplorer.cpp" line="347"/>
+        <location filename="formalfapgmexplorer.cpp" line="353"/>
+        <location filename="formalfapgmexplorer.cpp" line="388"/>
+        <location filename="formalfapgmexplorer.cpp" line="394"/>
+        <location filename="formalfapgmexplorer.cpp" line="406"/>
+        <location filename="formalfapgmexplorer.cpp" line="416"/>
+        <location filename="formalfapgmexplorer.cpp" line="438"/>
+        <location filename="formalfapgmexplorer.cpp" line="444"/>
+        <location filename="formalfapgmexplorer.cpp" line="456"/>
+        <location filename="formalfapgmexplorer.cpp" line="468"/>
         <source>系统警告</source>
         <translation>系統警告</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="106"/>
+        <location filename="formalfapgmexplorer.cpp" line="117"/>
         <source>系统为教导模式，不能进入！</source>
         <translation>系統為教導模式，不能進入！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="177"/>
+        <location filename="formalfapgmexplorer.cpp" line="188"/>
         <source>没有选择要载入的程序文件！</source>
         <translation>沒有選擇要載入的程序文件！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="199"/>
+        <location filename="formalfapgmexplorer.cpp" line="210"/>
         <source>没有输入新文件名，无法创建新程序文件！</source>
         <translation>沒有輸入新文件名，無法創建新程序程序！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="211"/>
+        <location filename="formalfapgmexplorer.cpp" line="222"/>
         <source>新文件名已经存在，系统不允许同名文件，无法创建新程序文件！</source>
         <translation>新文件名已經存在，系統不允許同名文件，無法創建新程序程序！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="235"/>
+        <location filename="formalfapgmexplorer.cpp" line="246"/>
         <source>没有选择要改名的文件，无法进行重命名操作！</source>
         <translation>沒有選擇要改名的文件，無法進行重命名操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="246"/>
+        <location filename="formalfapgmexplorer.cpp" line="257"/>
         <source>没有输入新文件名，无法进行重命名操作！</source>
         <translation>沒有輸入新文件名，無法進行重命名操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="258"/>
+        <location filename="formalfapgmexplorer.cpp" line="269"/>
         <source>新文件名已经存在，系统不允许同名文件，无法进行重命名操作！</source>
         <translation>新文件名已經存在，系統不允許同名文件，無法進行重命名操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="286"/>
+        <location filename="formalfapgmexplorer.cpp" line="297"/>
         <source>没有选择要复制的文件，无法进行另存为操作！</source>
         <translation>沒有選擇要複制的文件，無法進行另存爲操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="297"/>
+        <location filename="formalfapgmexplorer.cpp" line="308"/>
         <source>没有输入要保存的新文件名，无法进行另存为操作！</source>
         <translation>沒有輸入要保存的新文件名，無法進行另存爲操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="309"/>
+        <location filename="formalfapgmexplorer.cpp" line="320"/>
         <source>新文件名已经存在，系统不允许同名文件，无法进行另存为操作！</source>
         <translation>新文件名已經存在，系統不允許同名文件，無法進行另存爲操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="336"/>
+        <location filename="formalfapgmexplorer.cpp" line="347"/>
         <source>没有选择要删除的文件，无法进行删除操作！</source>
         <translation>沒有選擇要刪除的文件，無法進行刪除操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="342"/>
+        <location filename="formalfapgmexplorer.cpp" line="353"/>
         <source>不能删除系统载入的当前程序，无法进行删除操作！</source>
         <translation>不能刪除系統載入的當前程序，無法進行刪除操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="345"/>
-        <location filename="formalfapgmexplorer.cpp" line="414"/>
-        <location filename="formalfapgmexplorer.cpp" line="466"/>
-        <location filename="formalfapgmexplorer.cpp" line="478"/>
+        <location filename="formalfapgmexplorer.cpp" line="356"/>
+        <location filename="formalfapgmexplorer.cpp" line="425"/>
+        <location filename="formalfapgmexplorer.cpp" line="477"/>
+        <location filename="formalfapgmexplorer.cpp" line="489"/>
         <source>系统提示</source>
         <translation>系統提示</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="345"/>
+        <location filename="formalfapgmexplorer.cpp" line="356"/>
         <source>删除文件后将无法恢复，是否真的要删除所选择的文件？</source>
         <translation>刪除文件后將無法恢復，是否真的要刪除所選擇的文件？</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="377"/>
+        <location filename="formalfapgmexplorer.cpp" line="388"/>
         <source>没有选择要导出的文件！
 请选择要导出的文件，再进行导出文件操作。</source>
         <translation>沒有選擇要導出的文件！請選擇要導出的文件，再進行導出文件操作。</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="383"/>
+        <location filename="formalfapgmexplorer.cpp" line="394"/>
         <source>没有插入USB存储器，不能执行导出程序文件操作！</source>
         <translation>沒有插入USB存儲器，不能執行導出程序文件操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="395"/>
+        <location filename="formalfapgmexplorer.cpp" line="406"/>
         <source>没有输入导出到USB存储器的新文件名，无法执行导出程序文件操作！</source>
         <translation>沒有輸入導出到USB存儲器的新文件名，無法執行導出程序文件操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="405"/>
+        <location filename="formalfapgmexplorer.cpp" line="416"/>
         <source>USB存储器上已经存在同名程序文件，系统不允许同名文件，请修改新文件名后再执行导出程序文件操作！</source>
         <translation>USB存儲器上已經存在同名程序文件，系統不允許同名文件，請修改新文件名后再執行導出程序文件操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="414"/>
+        <location filename="formalfapgmexplorer.cpp" line="425"/>
         <source>所选的系统存储器程序文件已经成功导出到USB存储器中！</source>
         <translation>所選的系統存儲器程序文件已經成功導出到USB存儲器中！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="427"/>
+        <location filename="formalfapgmexplorer.cpp" line="438"/>
         <source>没有选择要导入的USB存储器文件！
 请选择要导入的文件，再进行导入文件操作。</source>
         <translation>沒有選擇要導入的USB存儲器文件！請選擇要導入的文件，再進行導入文件操作。</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="433"/>
+        <location filename="formalfapgmexplorer.cpp" line="444"/>
         <source>没有插入USB存储器，不能执行导入操作！</source>
         <translation>沒有插入USB存儲器，不能執行導入操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="445"/>
+        <location filename="formalfapgmexplorer.cpp" line="456"/>
         <source>没有输入导入到系统存储器的新文件名，无法执行导入程序文件操作！</source>
         <translation>沒有輸入導入到系統存儲器的新文件名，無法執行導入程序文件操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="457"/>
+        <location filename="formalfapgmexplorer.cpp" line="468"/>
         <source>已经存在同名程序文件，系统不允许同名文件，请修改新文件名后再执行导入程序文件操作！</source>
         <translation>已經存在同名的程序文件，系統不允許同名文件，請修改新文件名后再執行導入程序文件操作！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="466"/>
+        <location filename="formalfapgmexplorer.cpp" line="477"/>
         <source>所选的文件已经成功导入！</source>
         <translation>所選的文件已經成功導入！</translation>
     </message>
     <message>
-        <location filename="formalfapgmexplorer.cpp" line="478"/>
+        <location filename="formalfapgmexplorer.cpp" line="489"/>
         <source>USB存储器现在可以安全移除。</source>
         <translation>USB存儲器心在可以安全移除。</translation>
     </message>
@@ -8832,93 +8898,93 @@
 <context>
     <name>FormAuto</name>
     <message>
-        <location filename="formauto.ui" line="120"/>
+        <location filename="formauto.ui" line="124"/>
         <source>进程1</source>
         <translation>進程1</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="162"/>
+        <location filename="formauto.ui" line="166"/>
         <source>进程2</source>
         <translation>進程2</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="204"/>
+        <location filename="formauto.ui" line="208"/>
         <source>进程3</source>
         <translation>進程3</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="458"/>
+        <location filename="formauto.ui" line="466"/>
         <source>单周期</source>
         <translation>單周期</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="491"/>
+        <location filename="formauto.ui" line="500"/>
         <source>单步</source>
         <translation>單步</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="537"/>
+        <location filename="formauto.ui" line="547"/>
         <source>跟随</source>
         <translation>跟隨</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="565"/>
+        <location filename="formauto.ui" line="576"/>
         <source>统计信息</source>
         <translation>統計信息</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="607"/>
+        <location filename="formauto.ui" line="619"/>
         <source>完成产品：</source>
         <translation>完成產品：</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="689"/>
+        <location filename="formauto.ui" line="703"/>
         <source>计划剩余：</source>
         <translation>計劃剩餘：</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="771"/>
+        <location filename="formauto.ui" line="787"/>
         <source>周期时间：</source>
         <translation>周期時間：</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="853"/>
+        <location filename="formauto.ui" line="871"/>
         <source>模内时间：</source>
         <translation>模内時間：</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="920"/>
+        <location filename="formauto.ui" line="940"/>
         <location filename="formauto.cpp" line="226"/>
         <source>注塑机信号</source>
         <translation>注塑機訊號</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="972"/>
+        <location filename="formauto.ui" line="993"/>
         <source>开模完成</source>
         <translation>開模完成</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="1019"/>
+        <location filename="formauto.ui" line="1041"/>
         <source>关模完成</source>
         <translation>關模完成</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="1066"/>
+        <location filename="formauto.ui" line="1089"/>
         <source>允许开模</source>
         <translation>允許開模</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="1113"/>
+        <location filename="formauto.ui" line="1137"/>
         <source>允许关模</source>
         <translation>允許關模</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="1160"/>
+        <location filename="formauto.ui" line="1185"/>
         <source>安全设备</source>
         <translation>安全設備</translation>
     </message>
     <message>
-        <location filename="formauto.ui" line="1207"/>
+        <location filename="formauto.ui" line="1233"/>
         <source>模区安全</source>
         <translation>模區安全</translation>
     </message>
@@ -9062,31 +9128,75 @@
     </message>
 </context>
 <context>
+    <name>FormBacklight</name>
+    <message>
+        <location filename="formbacklight.ui" line="158"/>
+        <source>日期时间</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formbacklight.ui" line="189"/>
+        <location filename="formbacklight.ui" line="443"/>
+        <source>20 s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formbacklight.ui" line="241"/>
+        <source>yyyy-MM-dd</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formbacklight.ui" line="269"/>
+        <source>5000</source>
+        <translation type="unfinished">5000</translation>
+    </message>
+    <message>
+        <location filename="formbacklight.ui" line="297"/>
+        <source>循环周期</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formbacklight.ui" line="325"/>
+        <source>生产模数</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formbacklight.ui" line="353"/>
+        <source>取件时间</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formbacklight.ui" line="415"/>
+        <source>HH:mm:ss</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>FormBtnAssist</name>
     <message>
-        <location filename="formbtnassist.ui" line="95"/>
+        <location filename="formbtnassist.ui" line="104"/>
         <source>时间(秒)</source>
         <translation>時間（秒）</translation>
     </message>
     <message>
-        <location filename="formbtnassist.ui" line="120"/>
+        <location filename="formbtnassist.ui" line="129"/>
         <source>间隔(模)</source>
         <translation>間隔（模）</translation>
     </message>
     <message>
-        <location filename="formbtnassist.ui" line="190"/>
+        <location filename="formbtnassist.ui" line="199"/>
         <location filename="formbtnassist.cpp" line="171"/>
         <source>打油关</source>
         <translation>打油關</translation>
     </message>
     <message>
-        <location filename="formbtnassist.ui" line="383"/>
+        <location filename="formbtnassist.ui" line="392"/>
         <location filename="formbtnassist.cpp" line="186"/>
         <source>传送带关</source>
         <translation>傳送帶關</translation>
     </message>
     <message>
-        <location filename="formbtnassist.ui" line="576"/>
+        <location filename="formbtnassist.ui" line="585"/>
         <location filename="formbtnassist.cpp" line="201"/>
         <location filename="formbtnassist.cpp" line="207"/>
         <source>不良品</source>
@@ -9106,12 +9216,12 @@
 <context>
     <name>FormBtnExtPos</name>
     <message>
-        <location filename="formbtnextpos.ui" line="326"/>
-        <location filename="formbtnextpos.ui" line="587"/>
-        <location filename="formbtnextpos.ui" line="848"/>
-        <location filename="formbtnextpos.ui" line="1112"/>
-        <location filename="formbtnextpos.ui" line="1376"/>
-        <location filename="formbtnextpos.ui" line="1640"/>
+        <location filename="formbtnextpos.ui" line="336"/>
+        <location filename="formbtnextpos.ui" line="601"/>
+        <location filename="formbtnextpos.ui" line="866"/>
+        <location filename="formbtnextpos.ui" line="1134"/>
+        <location filename="formbtnextpos.ui" line="1402"/>
+        <location filename="formbtnextpos.ui" line="1670"/>
         <source>s</source>
         <translation>s</translation>
     </message>
@@ -9181,55 +9291,59 @@
 <context>
     <name>FormBtnIMM</name>
     <message>
-        <location filename="formbtnimm.ui" line="142"/>
         <source>等待开模  </source>
-        <translation>等待開模</translation>
+        <translation type="obsolete">等待開模</translation>
     </message>
     <message>
-        <location filename="formbtnimm.ui" line="176"/>
+        <location filename="formbtnimm.ui" line="152"/>
+        <source>等待开模</source>
+        <translation type="unfinished">等待開模</translation>
+    </message>
+    <message>
+        <location filename="formbtnimm.ui" line="186"/>
         <source>s</source>
         <translation>s</translation>
     </message>
     <message>
-        <location filename="formbtnimm.ui" line="253"/>
+        <location filename="formbtnimm.ui" line="264"/>
         <source>允许关模  </source>
         <translation>允許關模</translation>
     </message>
     <message>
-        <location filename="formbtnimm.ui" line="385"/>
+        <location filename="formbtnimm.ui" line="397"/>
         <source>允许顶进  </source>
         <translation>允許頂進</translation>
     </message>
     <message>
-        <location filename="formbtnimm.ui" line="525"/>
+        <location filename="formbtnimm.ui" line="538"/>
         <source>允许顶退  </source>
         <translation>允許頂退</translation>
     </message>
     <message>
-        <location filename="formbtnimm.ui" line="665"/>
+        <location filename="formbtnimm.ui" line="679"/>
         <location filename="formbtnimm.cpp" line="126"/>
-        <location filename="formbtnimm.cpp" line="379"/>
+        <location filename="formbtnimm.cpp" line="387"/>
         <source>允许抽1进</source>
         <translation>允許抽1進</translation>
     </message>
     <message>
-        <location filename="formbtnimm.ui" line="805"/>
+        <location filename="formbtnimm.ui" line="820"/>
         <location filename="formbtnimm.cpp" line="130"/>
-        <location filename="formbtnimm.cpp" line="394"/>
+        <location filename="formbtnimm.cpp" line="402"/>
         <source>允许抽1退</source>
         <translation>允許抽1退</translation>
     </message>
     <message>
-        <location filename="formbtnimm.ui" line="945"/>
+        <location filename="formbtnimm.ui" line="961"/>
         <location filename="formbtnimm.cpp" line="134"/>
-        <location filename="formbtnimm.cpp" line="409"/>
+        <location filename="formbtnimm.cpp" line="417"/>
         <source>允许抽2进</source>
         <translation>允許抽2進</translation>
     </message>
     <message>
-        <location filename="formbtnimm.ui" line="1085"/>
+        <location filename="formbtnimm.ui" line="1102"/>
         <location filename="formbtnimm.cpp" line="138"/>
-        <location filename="formbtnimm.cpp" line="424"/>
+        <location filename="formbtnimm.cpp" line="432"/>
         <source>允许抽2退</source>
         <translation>允許抽2退</translation>
     </message>
@@ -9279,13 +9393,13 @@
     </message>
     <message>
         <location filename="formbtnimm.cpp" line="118"/>
-        <location filename="formbtnimm.cpp" line="349"/>
+        <location filename="formbtnimm.cpp" line="357"/>
         <source>允许顶进</source>
         <translation>允許頂進</translation>
     </message>
     <message>
         <location filename="formbtnimm.cpp" line="122"/>
-        <location filename="formbtnimm.cpp" line="364"/>
+        <location filename="formbtnimm.cpp" line="372"/>
         <source>允许顶退</source>
         <translation>允許頂退</translation>
     </message>
@@ -9300,32 +9414,42 @@
         <translation>加工啟動</translation>
     </message>
     <message>
-        <location filename="formbtnimm.cpp" line="355"/>
+        <location filename="formbtnimm.cpp" line="343"/>
+        <source>等待加工</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formbtnimm.cpp" line="344"/>
+        <source>允许加工</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formbtnimm.cpp" line="363"/>
         <source>禁止顶进</source>
         <translation>禁止頂進</translation>
     </message>
     <message>
-        <location filename="formbtnimm.cpp" line="370"/>
+        <location filename="formbtnimm.cpp" line="378"/>
         <source>禁止顶退</source>
         <translation>禁止頂退</translation>
     </message>
     <message>
-        <location filename="formbtnimm.cpp" line="385"/>
+        <location filename="formbtnimm.cpp" line="393"/>
         <source>禁止抽1进</source>
         <translation>禁止抽1進</translation>
     </message>
     <message>
-        <location filename="formbtnimm.cpp" line="400"/>
+        <location filename="formbtnimm.cpp" line="408"/>
         <source>禁止抽1退</source>
         <translation>禁止抽1退</translation>
     </message>
     <message>
-        <location filename="formbtnimm.cpp" line="415"/>
+        <location filename="formbtnimm.cpp" line="423"/>
         <source>禁止抽2进</source>
         <translation>禁止抽2進</translation>
     </message>
     <message>
-        <location filename="formbtnimm.cpp" line="430"/>
+        <location filename="formbtnimm.cpp" line="438"/>
         <source>禁止抽2退</source>
         <translation>禁止抽2退</translation>
     </message>
@@ -9365,42 +9489,42 @@
         <translation type="obsolete">抱4Y08</translation>
     </message>
     <message>
-        <location filename="formbtnmextout.ui" line="118"/>
+        <location filename="formbtnmextout.ui" line="127"/>
         <source>时间：</source>
         <translation type="unfinished">時間：</translation>
     </message>
     <message>
-        <location filename="formbtnmextout.ui" line="226"/>
+        <location filename="formbtnmextout.ui" line="235"/>
         <source>打开</source>
         <translation type="unfinished">打開</translation>
     </message>
     <message>
-        <location filename="formbtnmextout.ui" line="272"/>
+        <location filename="formbtnmextout.ui" line="281"/>
         <source>关闭</source>
         <translation type="unfinished">關閉</translation>
     </message>
     <message>
-        <location filename="formbtnmextout.ui" line="328"/>
+        <location filename="formbtnmextout.ui" line="337"/>
         <source>脉冲</source>
         <translation type="unfinished">脈衝</translation>
     </message>
     <message>
-        <location filename="formbtnmextout.ui" line="371"/>
+        <location filename="formbtnmextout.ui" line="380"/>
         <source>取反</source>
         <translation type="unfinished">取反</translation>
     </message>
     <message>
-        <location filename="formbtnmextout.ui" line="415"/>
+        <location filename="formbtnmextout.ui" line="424"/>
         <source>间隔：</source>
         <translation type="unfinished">間隔：</translation>
     </message>
     <message>
-        <location filename="formbtnmextout.ui" line="526"/>
+        <location filename="formbtnmextout.ui" line="535"/>
         <source>端口：</source>
         <translation type="unfinished">端口：</translation>
     </message>
     <message>
-        <location filename="formbtnmextout.ui" line="607"/>
+        <location filename="formbtnmextout.ui" line="616"/>
         <source>计数器：</source>
         <translation type="unfinished">計數器：</translation>
     </message>
@@ -9408,12 +9532,12 @@
 <context>
     <name>FormBtnPos</name>
     <message>
-        <location filename="formbtnpos.ui" line="246"/>
-        <location filename="formbtnpos.ui" line="451"/>
-        <location filename="formbtnpos.ui" line="656"/>
-        <location filename="formbtnpos.ui" line="864"/>
-        <location filename="formbtnpos.ui" line="1072"/>
-        <location filename="formbtnpos.ui" line="1280"/>
+        <location filename="formbtnpos.ui" line="257"/>
+        <location filename="formbtnpos.ui" line="465"/>
+        <location filename="formbtnpos.ui" line="673"/>
+        <location filename="formbtnpos.ui" line="884"/>
+        <location filename="formbtnpos.ui" line="1095"/>
+        <location filename="formbtnpos.ui" line="1306"/>
         <source>%</source>
         <translation>%</translation>
     </message>
@@ -9527,138 +9651,148 @@
         <source>夹紧</source>
         <translation>夾緊</translation>
     </message>
+    <message>
+        <location filename="formbtnpro.cpp" line="113"/>
+        <source>毛坯旋转</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formbtnpro.cpp" line="114"/>
+        <source>成品旋转</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>FormBtnQuick</name>
     <message>
-        <location filename="formbtnquick.ui" line="272"/>
+        <location filename="formbtnquick.ui" line="287"/>
         <source>取成品治具：</source>
         <translation>取成品治具：</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="294"/>
-        <location filename="formbtnquick.ui" line="437"/>
+        <location filename="formbtnquick.ui" line="310"/>
+        <location filename="formbtnquick.ui" line="456"/>
         <source>吸具1</source>
         <translation>吸具1</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="299"/>
-        <location filename="formbtnquick.ui" line="442"/>
+        <location filename="formbtnquick.ui" line="315"/>
+        <location filename="formbtnquick.ui" line="461"/>
         <source>吸具2</source>
         <translation>吸具2</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="304"/>
-        <location filename="formbtnquick.ui" line="447"/>
+        <location filename="formbtnquick.ui" line="320"/>
+        <location filename="formbtnquick.ui" line="466"/>
         <source>抱具1</source>
         <translation>抱具1</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="309"/>
-        <location filename="formbtnquick.ui" line="452"/>
+        <location filename="formbtnquick.ui" line="325"/>
+        <location filename="formbtnquick.ui" line="471"/>
         <source>抱具2</source>
         <translation>抱具2</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="314"/>
-        <location filename="formbtnquick.ui" line="457"/>
+        <location filename="formbtnquick.ui" line="330"/>
+        <location filename="formbtnquick.ui" line="476"/>
         <source>抱具3</source>
         <translation>抱具3</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="319"/>
-        <location filename="formbtnquick.ui" line="462"/>
+        <location filename="formbtnquick.ui" line="335"/>
+        <location filename="formbtnquick.ui" line="481"/>
         <source>抱具4</source>
         <translation>抱具4</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="324"/>
-        <location filename="formbtnquick.ui" line="467"/>
+        <location filename="formbtnquick.ui" line="340"/>
+        <location filename="formbtnquick.ui" line="486"/>
         <source>EM1-Y09</source>
         <translation>EM1-Y09</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="329"/>
-        <location filename="formbtnquick.ui" line="472"/>
+        <location filename="formbtnquick.ui" line="345"/>
+        <location filename="formbtnquick.ui" line="491"/>
         <source>EM1-Y10</source>
         <translation>EM1-Y10</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="334"/>
-        <location filename="formbtnquick.ui" line="477"/>
+        <location filename="formbtnquick.ui" line="350"/>
+        <location filename="formbtnquick.ui" line="496"/>
         <source>EM1-Y11</source>
         <translation>EM1-Y11</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="339"/>
-        <location filename="formbtnquick.ui" line="482"/>
+        <location filename="formbtnquick.ui" line="355"/>
+        <location filename="formbtnquick.ui" line="501"/>
         <source>EM1-Y12</source>
         <translation>EM1-Y12</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="344"/>
-        <location filename="formbtnquick.ui" line="487"/>
+        <location filename="formbtnquick.ui" line="360"/>
+        <location filename="formbtnquick.ui" line="506"/>
         <source>EM1-Y13</source>
         <translation>EM1-Y13</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="349"/>
-        <location filename="formbtnquick.ui" line="492"/>
+        <location filename="formbtnquick.ui" line="365"/>
+        <location filename="formbtnquick.ui" line="511"/>
         <source>EM1-Y14</source>
         <translation>EM1-Y14</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="354"/>
-        <location filename="formbtnquick.ui" line="497"/>
+        <location filename="formbtnquick.ui" line="370"/>
+        <location filename="formbtnquick.ui" line="516"/>
         <source>EM1-Y15</source>
         <translation>EM1-Y15</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="359"/>
-        <location filename="formbtnquick.ui" line="502"/>
+        <location filename="formbtnquick.ui" line="375"/>
+        <location filename="formbtnquick.ui" line="521"/>
         <source>EM1-Y16</source>
         <translation>EM1-Y16</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="387"/>
-        <location filename="formbtnquick.ui" line="530"/>
+        <location filename="formbtnquick.ui" line="404"/>
+        <location filename="formbtnquick.ui" line="550"/>
         <source>检测</source>
         <translation>檢測</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="412"/>
+        <location filename="formbtnquick.ui" line="430"/>
         <source>取水口治具：</source>
         <translation>取水口治具：</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="940"/>
-        <location filename="formbtnquick.ui" line="968"/>
-        <location filename="formbtnquick.ui" line="1575"/>
+        <location filename="formbtnquick.ui" line="969"/>
+        <location filename="formbtnquick.ui" line="997"/>
+        <location filename="formbtnquick.ui" line="1617"/>
         <location filename="formbtnquick.cpp" line="178"/>
-        <location filename="formbtnquick.cpp" line="1958"/>
-        <location filename="formbtnquick.cpp" line="1962"/>
+        <location filename="formbtnquick.cpp" line="1992"/>
+        <location filename="formbtnquick.cpp" line="1996"/>
         <source>后退</source>
         <translation>後退</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1733"/>
+        <location filename="formbtnquick.ui" line="1801"/>
         <source>取物参数设置</source>
         <translation>取物參數設置</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1614"/>
-        <location filename="formbtnquick.ui" line="2645"/>
+        <location filename="formbtnquick.ui" line="1656"/>
+        <location filename="formbtnquick.ui" line="2720"/>
         <location filename="formbtnquick.cpp" line="179"/>
-        <location filename="formbtnquick.cpp" line="1990"/>
+        <location filename="formbtnquick.cpp" line="2024"/>
         <source>上升</source>
         <translation>上升</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1653"/>
-        <location filename="formbtnquick.ui" line="2617"/>
-        <location filename="formbtnquick.ui" line="2684"/>
-        <location filename="formbtnquick.cpp" line="1704"/>
-        <location filename="formbtnquick.cpp" line="1994"/>
+        <location filename="formbtnquick.ui" line="1695"/>
+        <location filename="formbtnquick.ui" line="2692"/>
+        <location filename="formbtnquick.ui" line="2759"/>
+        <location filename="formbtnquick.cpp" line="1738"/>
+        <location filename="formbtnquick.cpp" line="2028"/>
         <source>下降</source>
         <translation>下降</translation>
     </message>
@@ -9667,7 +9801,7 @@
         <translation type="obsolete">氣動副臂</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="2329"/>
+        <location filename="formbtnquick.ui" line="2395"/>
         <source>6/6</source>
         <translation>6/6</translation>
     </message>
@@ -9676,22 +9810,22 @@
         <translation type="obsolete">副臂下行</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="180"/>
+        <location filename="formbtnquick.ui" line="192"/>
         <source>选择手臂：</source>
         <translation>選擇手臂：</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="154"/>
+        <location filename="formbtnquick.ui" line="165"/>
         <source>1/6</source>
         <translation>1/6</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="207"/>
+        <location filename="formbtnquick.ui" line="220"/>
         <source>正臂</source>
         <translation>正臂</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="234"/>
+        <location filename="formbtnquick.ui" line="248"/>
         <source>副臂</source>
         <translation>副臂</translation>
     </message>
@@ -9700,61 +9834,61 @@
         <translation type="obsolete">副臂氣動</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="673"/>
-        <location filename="formbtnquick.ui" line="1176"/>
-        <location filename="formbtnquick.ui" line="2117"/>
+        <location filename="formbtnquick.ui" line="697"/>
+        <location filename="formbtnquick.ui" line="1210"/>
+        <location filename="formbtnquick.ui" line="2179"/>
         <source>正引拔轴：</source>
         <translation>正引拔軸：</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1108"/>
+        <location filename="formbtnquick.ui" line="1140"/>
         <source>2/6</source>
         <translation>2/6</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1078"/>
+        <location filename="formbtnquick.ui" line="1108"/>
         <source>       待机参数设置</source>
         <translation>待機參數設置</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="795"/>
-        <location filename="formbtnquick.ui" line="1368"/>
-        <location filename="formbtnquick.ui" line="2482"/>
+        <location filename="formbtnquick.ui" line="821"/>
+        <location filename="formbtnquick.ui" line="1405"/>
+        <location filename="formbtnquick.ui" line="2552"/>
         <source>副引拔轴：</source>
         <translation>副引拔軸：</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="734"/>
-        <location filename="formbtnquick.ui" line="1301"/>
-        <location filename="formbtnquick.ui" line="2184"/>
+        <location filename="formbtnquick.ui" line="759"/>
+        <location filename="formbtnquick.ui" line="1336"/>
+        <location filename="formbtnquick.ui" line="2247"/>
         <source>正上下轴：</source>
         <translation>正上下軸：</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="591"/>
-        <location filename="formbtnquick.ui" line="2023"/>
-        <location filename="formbtnquick.ui" line="2388"/>
+        <location filename="formbtnquick.ui" line="613"/>
+        <location filename="formbtnquick.ui" line="2083"/>
+        <location filename="formbtnquick.ui" line="2456"/>
         <source>水平</source>
         <translation>水平</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="856"/>
-        <location filename="formbtnquick.ui" line="1435"/>
-        <location filename="formbtnquick.ui" line="2549"/>
+        <location filename="formbtnquick.ui" line="883"/>
+        <location filename="formbtnquick.ui" line="1473"/>
+        <location filename="formbtnquick.ui" line="2620"/>
         <source>副上下轴：</source>
         <translation>副上下軸：</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="570"/>
-        <location filename="formbtnquick.ui" line="1996"/>
-        <location filename="formbtnquick.ui" line="2361"/>
+        <location filename="formbtnquick.ui" line="591"/>
+        <location filename="formbtnquick.ui" line="2055"/>
+        <location filename="formbtnquick.ui" line="2428"/>
         <source>倒角状态：</source>
         <translation>倒角狀態：</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="612"/>
-        <location filename="formbtnquick.ui" line="2050"/>
-        <location filename="formbtnquick.ui" line="2415"/>
+        <location filename="formbtnquick.ui" line="635"/>
+        <location filename="formbtnquick.ui" line="2111"/>
+        <location filename="formbtnquick.ui" line="2484"/>
         <source>横行轴：</source>
         <translation>橫行軸：</translation>
     </message>
@@ -9763,65 +9897,65 @@
         <translation type="obsolete">取物參數設置</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1144"/>
+        <location filename="formbtnquick.ui" line="1177"/>
         <source>成品位置设置</source>
         <translation>成品位置設定</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="919"/>
-        <location filename="formbtnquick.ui" line="2603"/>
+        <location filename="formbtnquick.ui" line="947"/>
+        <location filename="formbtnquick.ui" line="2676"/>
         <source>气动副臂：</source>
         <translation>氣動副臂：</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1007"/>
-        <location filename="formbtnquick.ui" line="1508"/>
-        <location filename="formbtnquick.ui" line="1536"/>
+        <location filename="formbtnquick.ui" line="1036"/>
+        <location filename="formbtnquick.ui" line="1550"/>
+        <location filename="formbtnquick.ui" line="1578"/>
         <location filename="formbtnquick.cpp" line="177"/>
-        <location filename="formbtnquick.cpp" line="1688"/>
-        <location filename="formbtnquick.cpp" line="1696"/>
-        <location filename="formbtnquick.cpp" line="1950"/>
-        <location filename="formbtnquick.cpp" line="1954"/>
+        <location filename="formbtnquick.cpp" line="1722"/>
+        <location filename="formbtnquick.cpp" line="1730"/>
+        <location filename="formbtnquick.cpp" line="1984"/>
+        <location filename="formbtnquick.cpp" line="1988"/>
         <source>前进</source>
         <translation>前進</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1763"/>
+        <location filename="formbtnquick.ui" line="1732"/>
         <source>3/6</source>
         <translation>3/6</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1336"/>
+        <location filename="formbtnquick.ui" line="1372"/>
         <source>水口位置设置</source>
         <translation>水口位置設定</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1494"/>
+        <location filename="formbtnquick.ui" line="1534"/>
         <source>气动副臂:</source>
         <translation>氣動副臂:</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1791"/>
+        <location filename="formbtnquick.ui" line="1844"/>
         <source>4/6</source>
         <translation>4/6</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1934"/>
+        <location filename="formbtnquick.ui" line="1990"/>
         <source>       放成品参数设置</source>
         <translation>放成品參數設置</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1964"/>
+        <location filename="formbtnquick.ui" line="2022"/>
         <source>5/6</source>
         <translation>5/6</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="2299"/>
+        <location filename="formbtnquick.ui" line="2363"/>
         <source>       放水口参数设置</source>
         <translation>放水口參數設置</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1872"/>
+        <location filename="formbtnquick.ui" line="1927"/>
         <source>先放水口</source>
         <translation>先放水口</translation>
     </message>
@@ -9834,151 +9968,151 @@
         <translation type="obsolete">橫入倒角狀態：</translation>
     </message>
     <message>
-        <location filename="formbtnquick.ui" line="1845"/>
+        <location filename="formbtnquick.ui" line="1899"/>
         <source>使用矩阵</source>
         <translation>使用矩陣</translation>
     </message>
     <message>
-        <location filename="formbtnquick.cpp" line="308"/>
-        <location filename="formbtnquick.cpp" line="309"/>
-        <location filename="formbtnquick.cpp" line="310"/>
-        <location filename="formbtnquick.cpp" line="311"/>
-        <location filename="formbtnquick.cpp" line="312"/>
-        <location filename="formbtnquick.cpp" line="314"/>
-        <location filename="formbtnquick.cpp" line="315"/>
-        <location filename="formbtnquick.cpp" line="316"/>
-        <location filename="formbtnquick.cpp" line="317"/>
-        <location filename="formbtnquick.cpp" line="319"/>
-        <location filename="formbtnquick.cpp" line="320"/>
-        <location filename="formbtnquick.cpp" line="321"/>
-        <location filename="formbtnquick.cpp" line="323"/>
-        <location filename="formbtnquick.cpp" line="324"/>
-        <location filename="formbtnquick.cpp" line="325"/>
+        <location filename="formbtnquick.cpp" line="342"/>
+        <location filename="formbtnquick.cpp" line="343"/>
+        <location filename="formbtnquick.cpp" line="344"/>
+        <location filename="formbtnquick.cpp" line="345"/>
+        <location filename="formbtnquick.cpp" line="346"/>
+        <location filename="formbtnquick.cpp" line="348"/>
+        <location filename="formbtnquick.cpp" line="349"/>
+        <location filename="formbtnquick.cpp" line="350"/>
+        <location filename="formbtnquick.cpp" line="351"/>
+        <location filename="formbtnquick.cpp" line="353"/>
+        <location filename="formbtnquick.cpp" line="354"/>
+        <location filename="formbtnquick.cpp" line="355"/>
+        <location filename="formbtnquick.cpp" line="357"/>
+        <location filename="formbtnquick.cpp" line="358"/>
+        <location filename="formbtnquick.cpp" line="359"/>
         <source>轴:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formbtnquick.cpp" line="676"/>
-        <location filename="formbtnquick.cpp" line="732"/>
-        <location filename="formbtnquick.cpp" line="788"/>
-        <location filename="formbtnquick.cpp" line="853"/>
-        <location filename="formbtnquick.cpp" line="909"/>
-        <location filename="formbtnquick.cpp" line="974"/>
-        <location filename="formbtnquick.cpp" line="1030"/>
-        <location filename="formbtnquick.cpp" line="1095"/>
-        <location filename="formbtnquick.cpp" line="1151"/>
-        <location filename="formbtnquick.cpp" line="1216"/>
-        <location filename="formbtnquick.cpp" line="1272"/>
-        <location filename="formbtnquick.cpp" line="1328"/>
-        <location filename="formbtnquick.cpp" line="1384"/>
-        <location filename="formbtnquick.cpp" line="1449"/>
-        <location filename="formbtnquick.cpp" line="1505"/>
+        <location filename="formbtnquick.cpp" line="710"/>
+        <location filename="formbtnquick.cpp" line="766"/>
+        <location filename="formbtnquick.cpp" line="822"/>
+        <location filename="formbtnquick.cpp" line="887"/>
+        <location filename="formbtnquick.cpp" line="943"/>
+        <location filename="formbtnquick.cpp" line="1008"/>
+        <location filename="formbtnquick.cpp" line="1064"/>
+        <location filename="formbtnquick.cpp" line="1129"/>
+        <location filename="formbtnquick.cpp" line="1185"/>
+        <location filename="formbtnquick.cpp" line="1250"/>
+        <location filename="formbtnquick.cpp" line="1306"/>
+        <location filename="formbtnquick.cpp" line="1362"/>
+        <location filename="formbtnquick.cpp" line="1418"/>
+        <location filename="formbtnquick.cpp" line="1483"/>
+        <location filename="formbtnquick.cpp" line="1539"/>
         <source>取物点</source>
         <translation>取物點</translation>
     </message>
     <message>
-        <location filename="formbtnquick.cpp" line="679"/>
-        <location filename="formbtnquick.cpp" line="735"/>
-        <location filename="formbtnquick.cpp" line="791"/>
-        <location filename="formbtnquick.cpp" line="856"/>
-        <location filename="formbtnquick.cpp" line="912"/>
-        <location filename="formbtnquick.cpp" line="977"/>
-        <location filename="formbtnquick.cpp" line="1033"/>
-        <location filename="formbtnquick.cpp" line="1098"/>
-        <location filename="formbtnquick.cpp" line="1154"/>
-        <location filename="formbtnquick.cpp" line="1219"/>
-        <location filename="formbtnquick.cpp" line="1275"/>
-        <location filename="formbtnquick.cpp" line="1331"/>
-        <location filename="formbtnquick.cpp" line="1387"/>
-        <location filename="formbtnquick.cpp" line="1452"/>
-        <location filename="formbtnquick.cpp" line="1508"/>
+        <location filename="formbtnquick.cpp" line="713"/>
+        <location filename="formbtnquick.cpp" line="769"/>
+        <location filename="formbtnquick.cpp" line="825"/>
+        <location filename="formbtnquick.cpp" line="890"/>
+        <location filename="formbtnquick.cpp" line="946"/>
+        <location filename="formbtnquick.cpp" line="1011"/>
+        <location filename="formbtnquick.cpp" line="1067"/>
+        <location filename="formbtnquick.cpp" line="1132"/>
+        <location filename="formbtnquick.cpp" line="1188"/>
+        <location filename="formbtnquick.cpp" line="1253"/>
+        <location filename="formbtnquick.cpp" line="1309"/>
+        <location filename="formbtnquick.cpp" line="1365"/>
+        <location filename="formbtnquick.cpp" line="1421"/>
+        <location filename="formbtnquick.cpp" line="1486"/>
+        <location filename="formbtnquick.cpp" line="1542"/>
         <source>置物点</source>
         <translation>置物點</translation>
     </message>
     <message>
-        <location filename="formbtnquick.cpp" line="682"/>
-        <location filename="formbtnquick.cpp" line="738"/>
-        <location filename="formbtnquick.cpp" line="794"/>
-        <location filename="formbtnquick.cpp" line="859"/>
-        <location filename="formbtnquick.cpp" line="915"/>
-        <location filename="formbtnquick.cpp" line="980"/>
-        <location filename="formbtnquick.cpp" line="1036"/>
-        <location filename="formbtnquick.cpp" line="1101"/>
-        <location filename="formbtnquick.cpp" line="1157"/>
-        <location filename="formbtnquick.cpp" line="1222"/>
-        <location filename="formbtnquick.cpp" line="1278"/>
-        <location filename="formbtnquick.cpp" line="1334"/>
-        <location filename="formbtnquick.cpp" line="1390"/>
-        <location filename="formbtnquick.cpp" line="1455"/>
-        <location filename="formbtnquick.cpp" line="1511"/>
+        <location filename="formbtnquick.cpp" line="716"/>
+        <location filename="formbtnquick.cpp" line="772"/>
+        <location filename="formbtnquick.cpp" line="828"/>
+        <location filename="formbtnquick.cpp" line="893"/>
+        <location filename="formbtnquick.cpp" line="949"/>
+        <location filename="formbtnquick.cpp" line="1014"/>
+        <location filename="formbtnquick.cpp" line="1070"/>
+        <location filename="formbtnquick.cpp" line="1135"/>
+        <location filename="formbtnquick.cpp" line="1191"/>
+        <location filename="formbtnquick.cpp" line="1256"/>
+        <location filename="formbtnquick.cpp" line="1312"/>
+        <location filename="formbtnquick.cpp" line="1368"/>
+        <location filename="formbtnquick.cpp" line="1424"/>
+        <location filename="formbtnquick.cpp" line="1489"/>
+        <location filename="formbtnquick.cpp" line="1545"/>
         <source>待机点</source>
         <translation>待機點</translation>
     </message>
     <message>
-        <location filename="formbtnquick.cpp" line="702"/>
-        <location filename="formbtnquick.cpp" line="707"/>
-        <location filename="formbtnquick.cpp" line="758"/>
-        <location filename="formbtnquick.cpp" line="763"/>
-        <location filename="formbtnquick.cpp" line="814"/>
-        <location filename="formbtnquick.cpp" line="819"/>
-        <location filename="formbtnquick.cpp" line="879"/>
-        <location filename="formbtnquick.cpp" line="884"/>
-        <location filename="formbtnquick.cpp" line="935"/>
-        <location filename="formbtnquick.cpp" line="940"/>
-        <location filename="formbtnquick.cpp" line="1000"/>
-        <location filename="formbtnquick.cpp" line="1005"/>
-        <location filename="formbtnquick.cpp" line="1056"/>
-        <location filename="formbtnquick.cpp" line="1061"/>
-        <location filename="formbtnquick.cpp" line="1121"/>
-        <location filename="formbtnquick.cpp" line="1126"/>
-        <location filename="formbtnquick.cpp" line="1177"/>
-        <location filename="formbtnquick.cpp" line="1182"/>
-        <location filename="formbtnquick.cpp" line="1242"/>
-        <location filename="formbtnquick.cpp" line="1247"/>
-        <location filename="formbtnquick.cpp" line="1298"/>
-        <location filename="formbtnquick.cpp" line="1303"/>
-        <location filename="formbtnquick.cpp" line="1354"/>
-        <location filename="formbtnquick.cpp" line="1359"/>
-        <location filename="formbtnquick.cpp" line="1410"/>
-        <location filename="formbtnquick.cpp" line="1415"/>
-        <location filename="formbtnquick.cpp" line="1475"/>
-        <location filename="formbtnquick.cpp" line="1480"/>
-        <location filename="formbtnquick.cpp" line="1531"/>
-        <location filename="formbtnquick.cpp" line="1536"/>
+        <location filename="formbtnquick.cpp" line="736"/>
+        <location filename="formbtnquick.cpp" line="741"/>
+        <location filename="formbtnquick.cpp" line="792"/>
+        <location filename="formbtnquick.cpp" line="797"/>
+        <location filename="formbtnquick.cpp" line="848"/>
+        <location filename="formbtnquick.cpp" line="853"/>
+        <location filename="formbtnquick.cpp" line="913"/>
+        <location filename="formbtnquick.cpp" line="918"/>
+        <location filename="formbtnquick.cpp" line="969"/>
+        <location filename="formbtnquick.cpp" line="974"/>
+        <location filename="formbtnquick.cpp" line="1034"/>
+        <location filename="formbtnquick.cpp" line="1039"/>
+        <location filename="formbtnquick.cpp" line="1090"/>
+        <location filename="formbtnquick.cpp" line="1095"/>
+        <location filename="formbtnquick.cpp" line="1155"/>
+        <location filename="formbtnquick.cpp" line="1160"/>
+        <location filename="formbtnquick.cpp" line="1211"/>
+        <location filename="formbtnquick.cpp" line="1216"/>
+        <location filename="formbtnquick.cpp" line="1276"/>
+        <location filename="formbtnquick.cpp" line="1281"/>
+        <location filename="formbtnquick.cpp" line="1332"/>
+        <location filename="formbtnquick.cpp" line="1337"/>
+        <location filename="formbtnquick.cpp" line="1388"/>
+        <location filename="formbtnquick.cpp" line="1393"/>
+        <location filename="formbtnquick.cpp" line="1444"/>
+        <location filename="formbtnquick.cpp" line="1449"/>
+        <location filename="formbtnquick.cpp" line="1509"/>
+        <location filename="formbtnquick.cpp" line="1514"/>
+        <location filename="formbtnquick.cpp" line="1565"/>
+        <location filename="formbtnquick.cpp" line="1570"/>
         <source>输入有误</source>
         <translation>輸入有誤</translation>
     </message>
     <message>
-        <location filename="formbtnquick.cpp" line="702"/>
-        <location filename="formbtnquick.cpp" line="707"/>
-        <location filename="formbtnquick.cpp" line="758"/>
-        <location filename="formbtnquick.cpp" line="763"/>
-        <location filename="formbtnquick.cpp" line="814"/>
-        <location filename="formbtnquick.cpp" line="819"/>
-        <location filename="formbtnquick.cpp" line="879"/>
-        <location filename="formbtnquick.cpp" line="884"/>
-        <location filename="formbtnquick.cpp" line="935"/>
-        <location filename="formbtnquick.cpp" line="940"/>
-        <location filename="formbtnquick.cpp" line="1000"/>
-        <location filename="formbtnquick.cpp" line="1005"/>
-        <location filename="formbtnquick.cpp" line="1056"/>
-        <location filename="formbtnquick.cpp" line="1061"/>
-        <location filename="formbtnquick.cpp" line="1121"/>
-        <location filename="formbtnquick.cpp" line="1126"/>
-        <location filename="formbtnquick.cpp" line="1177"/>
-        <location filename="formbtnquick.cpp" line="1182"/>
-        <location filename="formbtnquick.cpp" line="1242"/>
-        <location filename="formbtnquick.cpp" line="1247"/>
-        <location filename="formbtnquick.cpp" line="1298"/>
-        <location filename="formbtnquick.cpp" line="1303"/>
-        <location filename="formbtnquick.cpp" line="1354"/>
-        <location filename="formbtnquick.cpp" line="1359"/>
-        <location filename="formbtnquick.cpp" line="1410"/>
-        <location filename="formbtnquick.cpp" line="1415"/>
-        <location filename="formbtnquick.cpp" line="1475"/>
-        <location filename="formbtnquick.cpp" line="1480"/>
-        <location filename="formbtnquick.cpp" line="1531"/>
-        <location filename="formbtnquick.cpp" line="1536"/>
+        <location filename="formbtnquick.cpp" line="736"/>
+        <location filename="formbtnquick.cpp" line="741"/>
+        <location filename="formbtnquick.cpp" line="792"/>
+        <location filename="formbtnquick.cpp" line="797"/>
+        <location filename="formbtnquick.cpp" line="848"/>
+        <location filename="formbtnquick.cpp" line="853"/>
+        <location filename="formbtnquick.cpp" line="913"/>
+        <location filename="formbtnquick.cpp" line="918"/>
+        <location filename="formbtnquick.cpp" line="969"/>
+        <location filename="formbtnquick.cpp" line="974"/>
+        <location filename="formbtnquick.cpp" line="1034"/>
+        <location filename="formbtnquick.cpp" line="1039"/>
+        <location filename="formbtnquick.cpp" line="1090"/>
+        <location filename="formbtnquick.cpp" line="1095"/>
+        <location filename="formbtnquick.cpp" line="1155"/>
+        <location filename="formbtnquick.cpp" line="1160"/>
+        <location filename="formbtnquick.cpp" line="1211"/>
+        <location filename="formbtnquick.cpp" line="1216"/>
+        <location filename="formbtnquick.cpp" line="1276"/>
+        <location filename="formbtnquick.cpp" line="1281"/>
+        <location filename="formbtnquick.cpp" line="1332"/>
+        <location filename="formbtnquick.cpp" line="1337"/>
+        <location filename="formbtnquick.cpp" line="1388"/>
+        <location filename="formbtnquick.cpp" line="1393"/>
+        <location filename="formbtnquick.cpp" line="1444"/>
+        <location filename="formbtnquick.cpp" line="1449"/>
+        <location filename="formbtnquick.cpp" line="1509"/>
+        <location filename="formbtnquick.cpp" line="1514"/>
+        <location filename="formbtnquick.cpp" line="1565"/>
+        <location filename="formbtnquick.cpp" line="1570"/>
         <source>自动时修改位置很危险，每次修改值只能小于+-5mm</source>
         <translation>自動時修改位置很危險，每次修改值祇能小於+-5mm</translation>
     </message>
@@ -10044,180 +10178,190 @@
         <source>水平</source>
         <translation>水平</translation>
     </message>
+    <message>
+        <location filename="formbtnrun.cpp" line="129"/>
+        <source>毛坯旋转</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formbtnrun.cpp" line="130"/>
+        <source>成品旋转</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>FormBtnVacuum</name>
     <message>
-        <location filename="formbtnvacuum.ui" line="623"/>
+        <location filename="formbtnvacuum.ui" line="642"/>
         <source>动作时间：</source>
         <translation>動作時間：</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="414"/>
+        <location filename="formbtnvacuum.ui" line="428"/>
         <source>打开</source>
         <translation>打開</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="459"/>
+        <location filename="formbtnvacuum.ui" line="474"/>
         <source>关闭</source>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="535"/>
+        <location filename="formbtnvacuum.ui" line="552"/>
         <source>吸具一</source>
         <translation>吸具一</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="183"/>
-        <location filename="formbtnvacuum.ui" line="274"/>
-        <location filename="formbtnvacuum.ui" line="365"/>
-        <location filename="formbtnvacuum.ui" line="577"/>
-        <location filename="formbtnvacuum.ui" line="768"/>
-        <location filename="formbtnvacuum.ui" line="859"/>
-        <location filename="formbtnvacuum.ui" line="1017"/>
-        <location filename="formbtnvacuum.ui" line="1108"/>
-        <location filename="formbtnvacuum.ui" line="1199"/>
-        <location filename="formbtnvacuum.ui" line="1290"/>
-        <location filename="formbtnvacuum.ui" line="1381"/>
-        <location filename="formbtnvacuum.ui" line="1472"/>
-        <location filename="formbtnvacuum.ui" line="1563"/>
-        <location filename="formbtnvacuum.ui" line="1654"/>
-        <location filename="formbtnvacuum.ui" line="1931"/>
-        <location filename="formbtnvacuum.ui" line="2103"/>
-        <location filename="formbtnvacuum.ui" line="2159"/>
-        <location filename="formbtnvacuum.ui" line="2202"/>
-        <location filename="formbtnvacuum.ui" line="2245"/>
-        <location filename="formbtnvacuum.ui" line="2301"/>
-        <location filename="formbtnvacuum.ui" line="2344"/>
-        <location filename="formbtnvacuum.ui" line="2387"/>
-        <location filename="formbtnvacuum.ui" line="2473"/>
-        <location filename="formbtnvacuum.ui" line="2559"/>
+        <location filename="formbtnvacuum.ui" line="192"/>
+        <location filename="formbtnvacuum.ui" line="285"/>
+        <location filename="formbtnvacuum.ui" line="378"/>
+        <location filename="formbtnvacuum.ui" line="595"/>
+        <location filename="formbtnvacuum.ui" line="790"/>
+        <location filename="formbtnvacuum.ui" line="883"/>
+        <location filename="formbtnvacuum.ui" line="1044"/>
+        <location filename="formbtnvacuum.ui" line="1137"/>
+        <location filename="formbtnvacuum.ui" line="1230"/>
+        <location filename="formbtnvacuum.ui" line="1323"/>
+        <location filename="formbtnvacuum.ui" line="1416"/>
+        <location filename="formbtnvacuum.ui" line="1509"/>
+        <location filename="formbtnvacuum.ui" line="1602"/>
+        <location filename="formbtnvacuum.ui" line="1695"/>
+        <location filename="formbtnvacuum.ui" line="1972"/>
+        <location filename="formbtnvacuum.ui" line="2144"/>
+        <location filename="formbtnvacuum.ui" line="2200"/>
+        <location filename="formbtnvacuum.ui" line="2243"/>
+        <location filename="formbtnvacuum.ui" line="2286"/>
+        <location filename="formbtnvacuum.ui" line="2342"/>
+        <location filename="formbtnvacuum.ui" line="2385"/>
+        <location filename="formbtnvacuum.ui" line="2428"/>
+        <location filename="formbtnvacuum.ui" line="2514"/>
+        <location filename="formbtnvacuum.ui" line="2600"/>
         <source>检测</source>
         <translation>檢測</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="323"/>
+        <location filename="formbtnvacuum.ui" line="335"/>
         <source>吸具二</source>
         <translation>吸具二</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="492"/>
+        <location filename="formbtnvacuum.ui" line="508"/>
         <source>下一页</source>
         <translation>下一頁</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="726"/>
+        <location filename="formbtnvacuum.ui" line="747"/>
         <source>抱具一</source>
         <translation>抱具一</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="817"/>
+        <location filename="formbtnvacuum.ui" line="840"/>
         <source>抱具二</source>
         <translation>抱具二</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="932"/>
-        <location filename="formbtnvacuum.ui" line="2598"/>
+        <location filename="formbtnvacuum.ui" line="957"/>
+        <location filename="formbtnvacuum.ui" line="2640"/>
         <source>上一页</source>
         <translation>上一頁</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="975"/>
+        <location filename="formbtnvacuum.ui" line="1001"/>
         <source>EM1-Y09</source>
         <translation>EM1-Y09</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1066"/>
+        <location filename="formbtnvacuum.ui" line="1094"/>
         <source>EM1-Y10</source>
         <translation>EM1-Y10</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1157"/>
+        <location filename="formbtnvacuum.ui" line="1187"/>
         <source>EM1-Y11</source>
         <translation>EM1-Y11</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1248"/>
+        <location filename="formbtnvacuum.ui" line="1280"/>
         <source>EM1-Y12</source>
         <translation>EM1-Y12</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1339"/>
+        <location filename="formbtnvacuum.ui" line="1373"/>
         <source>EM1-Y13</source>
         <translation>EM1-Y13</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1430"/>
+        <location filename="formbtnvacuum.ui" line="1466"/>
         <source>EM1-Y14</source>
         <translation>EM1-Y14</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1521"/>
+        <location filename="formbtnvacuum.ui" line="1559"/>
         <source>EM1-Y15</source>
         <translation>EM1-Y15</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1612"/>
+        <location filename="formbtnvacuum.ui" line="1652"/>
         <source>EM1-Y16</source>
         <translation>EM1-Y16</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1716"/>
+        <location filename="formbtnvacuum.ui" line="1757"/>
         <source>主板-Y09</source>
         <translation>主板-Y09</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1759"/>
+        <location filename="formbtnvacuum.ui" line="1800"/>
         <source>主板-Y01</source>
         <translation>主板-Y01</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1802"/>
+        <location filename="formbtnvacuum.ui" line="1843"/>
         <source>主板-Y02</source>
         <translation>主板-Y02</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1845"/>
+        <location filename="formbtnvacuum.ui" line="1886"/>
         <source>主板-Y10</source>
         <translation>主板-Y10</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1888"/>
+        <location filename="formbtnvacuum.ui" line="1929"/>
         <source>主板-Y04</source>
         <translation>主板-Y04</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="1974"/>
+        <location filename="formbtnvacuum.ui" line="2015"/>
         <source>主板-Y11</source>
         <translation>主板-Y11</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="2017"/>
+        <location filename="formbtnvacuum.ui" line="2058"/>
         <source>主板-Y05</source>
         <translation>主板-Y05</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="2060"/>
+        <location filename="formbtnvacuum.ui" line="2101"/>
         <source>主板-Y08</source>
         <translation>主板-Y08</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="2430"/>
+        <location filename="formbtnvacuum.ui" line="2471"/>
         <source>主板-Y03</source>
         <translation>主板-Y03</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="2516"/>
+        <location filename="formbtnvacuum.ui" line="2557"/>
         <source>主板-Y15</source>
         <translation>主板-Y15</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="141"/>
+        <location filename="formbtnvacuum.ui" line="149"/>
         <source>抱具三</source>
         <translation>抱具三</translation>
     </message>
     <message>
-        <location filename="formbtnvacuum.ui" line="232"/>
+        <location filename="formbtnvacuum.ui" line="242"/>
         <source>抱具四</source>
         <translation>抱具四</translation>
     </message>
@@ -10225,43 +10369,43 @@
 <context>
     <name>FormBtnWait</name>
     <message>
-        <location filename="formbtnwait.ui" line="99"/>
-        <location filename="formbtnwait.ui" line="437"/>
+        <location filename="formbtnwait.ui" line="109"/>
+        <location filename="formbtnwait.ui" line="471"/>
         <source>端口信号：</source>
         <translation>端口訊號：</translation>
     </message>
     <message>
-        <location filename="formbtnwait.ui" line="194"/>
+        <location filename="formbtnwait.ui" line="206"/>
         <source>无效</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formbtnwait.ui" line="221"/>
+        <location filename="formbtnwait.ui" line="237"/>
         <source>有效</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formbtnwait.ui" line="239"/>
+        <location filename="formbtnwait.ui" line="259"/>
         <source>&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formbtnwait.ui" line="257"/>
+        <location filename="formbtnwait.ui" line="281"/>
         <source>&lt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formbtnwait.ui" line="275"/>
+        <location filename="formbtnwait.ui" line="303"/>
         <source>!=</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formbtnwait.ui" line="293"/>
+        <location filename="formbtnwait.ui" line="325"/>
         <source>==</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formbtnwait.ui" line="524"/>
+        <location filename="formbtnwait.ui" line="558"/>
         <source>有效时间：</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10270,7 +10414,7 @@
         <translation type="obsolete">等待端口訊號無效</translation>
     </message>
     <message>
-        <location filename="formbtnwait.ui" line="330"/>
+        <location filename="formbtnwait.ui" line="363"/>
         <source>超时时间：</source>
         <translation>超時時間：</translation>
     </message>
@@ -10278,32 +10422,32 @@
 <context>
     <name>FormEditOption</name>
     <message>
-        <location filename="formeditoption.ui" line="282"/>
+        <location filename="formeditoption.ui" line="290"/>
         <source>编号</source>
         <translation>編號</translation>
     </message>
     <message>
-        <location filename="formeditoption.ui" line="287"/>
+        <location filename="formeditoption.ui" line="295"/>
         <source>名称1</source>
         <translation>名稱1</translation>
     </message>
     <message>
-        <location filename="formeditoption.ui" line="292"/>
+        <location filename="formeditoption.ui" line="300"/>
         <source>名称2</source>
         <translation>名稱2</translation>
     </message>
     <message>
-        <location filename="formeditoption.ui" line="338"/>
+        <location filename="formeditoption.ui" line="347"/>
         <source>增加</source>
         <translation>增加</translation>
     </message>
     <message>
-        <location filename="formeditoption.ui" line="378"/>
+        <location filename="formeditoption.ui" line="388"/>
         <source>删除</source>
         <translation>刪除</translation>
     </message>
     <message>
-        <location filename="formeditoption.ui" line="432"/>
+        <location filename="formeditoption.ui" line="442"/>
         <source>保存</source>
         <translation>保存</translation>
     </message>
@@ -10392,23 +10536,23 @@
         <translation>輸入極性</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="174"/>
-        <location filename="formio.ui" line="5188"/>
-        <location filename="formio.ui" line="15017"/>
-        <location filename="formio.ui" line="15074"/>
+        <location filename="formio.ui" line="175"/>
+        <location filename="formio.ui" line="5196"/>
+        <location filename="formio.ui" line="15038"/>
+        <location filename="formio.ui" line="15096"/>
         <source>后一页</source>
         <translation>後一頁</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="201"/>
-        <location filename="formio.ui" line="5161"/>
-        <location filename="formio.ui" line="14990"/>
-        <location filename="formio.ui" line="15101"/>
+        <location filename="formio.ui" line="203"/>
+        <location filename="formio.ui" line="5168"/>
+        <location filename="formio.ui" line="15010"/>
+        <location filename="formio.ui" line="15124"/>
         <source>前一页</source>
         <translation>前一頁</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="240"/>
+        <location filename="formio.ui" line="244"/>
         <source>主控模块输入信号反相</source>
         <translation>主控模組輸入信號反相</translation>
     </message>
@@ -10417,125 +10561,125 @@
         <translation type="obsolete">氣壓低檢測</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="2253"/>
+        <location filename="formio.ui" line="2257"/>
         <source>扩展模块1输入信号反相</source>
         <translation>擴展模組1輸入信號反相</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="2968"/>
+        <location filename="formio.ui" line="2972"/>
         <source>扩展模块2输入信号反相</source>
         <translation>擴展模組2輸入信號反相</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="3682"/>
+        <location filename="formio.ui" line="3687"/>
         <source>扩展模块3输入信号反相</source>
         <translation>擴展模組3輸入信號反相</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="4396"/>
+        <location filename="formio.ui" line="4402"/>
         <source>扩展模块4输入信号反相</source>
         <translation>擴展模組4輸入信號反相</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="5108"/>
-        <location filename="formio.ui" line="5134"/>
-        <location filename="formio.ui" line="15033"/>
-        <location filename="formio.ui" line="19983"/>
+        <location filename="formio.ui" line="5114"/>
+        <location filename="formio.ui" line="5140"/>
+        <location filename="formio.ui" line="15054"/>
+        <location filename="formio.ui" line="20011"/>
         <source>TextLabel</source>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="5116"/>
+        <location filename="formio.ui" line="5122"/>
         <source>输出极性</source>
         <translation>輸出極性</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="5227"/>
+        <location filename="formio.ui" line="5237"/>
         <source>主控模块输出信号反相</source>
         <translation>主控模塊輸出信號反相</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="7236"/>
+        <location filename="formio.ui" line="7247"/>
         <source>扩展模块1输出信号反相</source>
         <translation>擴展模組1輸出信號反相</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="7950"/>
+        <location filename="formio.ui" line="7962"/>
         <source>扩展模块2输出信号反相</source>
         <translation>擴展模組2輸出信號反相</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="8664"/>
+        <location filename="formio.ui" line="8677"/>
         <source>扩展模块3输出信号反相</source>
         <translation>擴展模組3輸出信號反相</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="9378"/>
+        <location filename="formio.ui" line="9392"/>
         <source>扩展模块4输出信号反相</source>
         <translation>擴展模組4輸出信號反相</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="10095"/>
+        <location filename="formio.ui" line="10109"/>
         <source>报警忽略</source>
         <translation>報警忽略</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="10122"/>
+        <location filename="formio.ui" line="10137"/>
         <source>主控模块输入报警允许忽略</source>
         <translation>主控模塊輸入報警允許忽略</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="12125"/>
+        <location filename="formio.ui" line="12141"/>
         <source>扩展模块1输入报警允许忽略</source>
         <translation>擴展模組1輸入報警允許忽略</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="12839"/>
+        <location filename="formio.ui" line="12856"/>
         <source>扩展模块2输入报警允许忽略</source>
         <translation>擴展模組2輸入報警允許忽略</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="13553"/>
+        <location filename="formio.ui" line="13571"/>
         <source>扩展模块3输入报警允许忽略</source>
         <translation>擴展模組3輸入報警允許忽略</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="14267"/>
+        <location filename="formio.ui" line="14286"/>
         <source>扩展模块4输入报警允许忽略</source>
         <translation>擴展模組4輸入報警允許忽略</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="15045"/>
+        <location filename="formio.ui" line="15066"/>
         <source>模内不报警</source>
         <translation>模內不報警</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="15126"/>
+        <location filename="formio.ui" line="15150"/>
         <source>主控模块模内不报警</source>
         <translation>主控模塊模內不報警</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="17129"/>
+        <location filename="formio.ui" line="17154"/>
         <source>扩展模块1模内不报警</source>
         <translation>擴展模組1模內不報警</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="17843"/>
+        <location filename="formio.ui" line="17869"/>
         <source>扩展模块2模内不报警</source>
         <translation>擴展模組2模內不報警</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="18557"/>
+        <location filename="formio.ui" line="18584"/>
         <source>扩展模块3模内不报警</source>
         <translation>擴展模組3模內不報警</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="19271"/>
+        <location filename="formio.ui" line="19299"/>
         <source>扩展模块4模内不报警</source>
         <translation>擴展模組4模內不報警</translation>
     </message>
     <message>
-        <location filename="formio.ui" line="20079"/>
+        <location filename="formio.ui" line="20107"/>
         <source>保存</source>
         <translation>保存</translation>
     </message>
@@ -10663,259 +10807,259 @@
 <context>
     <name>FormManual</name>
     <message>
-        <location filename="formmanual.ui" line="159"/>
+        <location filename="formmanual.ui" line="169"/>
         <source>伺服信号</source>
         <translation>伺服訊號</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="190"/>
-        <location filename="formmanual.ui" line="10123"/>
+        <location filename="formmanual.ui" line="200"/>
+        <location filename="formmanual.ui" line="10198"/>
         <source>副臂引拔轴</source>
         <translation>副臂引拔軸</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="239"/>
-        <location filename="formmanual.ui" line="498"/>
-        <location filename="formmanual.ui" line="757"/>
-        <location filename="formmanual.ui" line="1016"/>
-        <location filename="formmanual.ui" line="1275"/>
-        <location filename="formmanual.ui" line="1534"/>
+        <location filename="formmanual.ui" line="250"/>
+        <location filename="formmanual.ui" line="514"/>
+        <location filename="formmanual.ui" line="778"/>
+        <location filename="formmanual.ui" line="1042"/>
+        <location filename="formmanual.ui" line="1306"/>
+        <location filename="formmanual.ui" line="1570"/>
         <source>原点</source>
         <translation>原點</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="286"/>
-        <location filename="formmanual.ui" line="545"/>
-        <location filename="formmanual.ui" line="804"/>
-        <location filename="formmanual.ui" line="1063"/>
-        <location filename="formmanual.ui" line="1322"/>
-        <location filename="formmanual.ui" line="1581"/>
+        <location filename="formmanual.ui" line="298"/>
+        <location filename="formmanual.ui" line="562"/>
+        <location filename="formmanual.ui" line="826"/>
+        <location filename="formmanual.ui" line="1090"/>
+        <location filename="formmanual.ui" line="1354"/>
+        <location filename="formmanual.ui" line="1618"/>
         <source>负限</source>
         <translation>負限</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="333"/>
-        <location filename="formmanual.ui" line="592"/>
-        <location filename="formmanual.ui" line="851"/>
-        <location filename="formmanual.ui" line="1110"/>
-        <location filename="formmanual.ui" line="1369"/>
-        <location filename="formmanual.ui" line="1628"/>
+        <location filename="formmanual.ui" line="346"/>
+        <location filename="formmanual.ui" line="610"/>
+        <location filename="formmanual.ui" line="874"/>
+        <location filename="formmanual.ui" line="1138"/>
+        <location filename="formmanual.ui" line="1402"/>
+        <location filename="formmanual.ui" line="1666"/>
         <source>正限</source>
         <translation>正限</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="380"/>
-        <location filename="formmanual.ui" line="639"/>
-        <location filename="formmanual.ui" line="898"/>
-        <location filename="formmanual.ui" line="1157"/>
-        <location filename="formmanual.ui" line="1416"/>
-        <location filename="formmanual.ui" line="1675"/>
+        <location filename="formmanual.ui" line="394"/>
+        <location filename="formmanual.ui" line="658"/>
+        <location filename="formmanual.ui" line="922"/>
+        <location filename="formmanual.ui" line="1186"/>
+        <location filename="formmanual.ui" line="1450"/>
+        <location filename="formmanual.ui" line="1714"/>
         <source>报警</source>
         <translation>報警</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="427"/>
-        <location filename="formmanual.ui" line="686"/>
-        <location filename="formmanual.ui" line="945"/>
-        <location filename="formmanual.ui" line="1204"/>
-        <location filename="formmanual.ui" line="1463"/>
-        <location filename="formmanual.ui" line="1722"/>
+        <location filename="formmanual.ui" line="442"/>
+        <location filename="formmanual.ui" line="706"/>
+        <location filename="formmanual.ui" line="970"/>
+        <location filename="formmanual.ui" line="1234"/>
+        <location filename="formmanual.ui" line="1498"/>
+        <location filename="formmanual.ui" line="1762"/>
         <source>使能</source>
         <translation>使能</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="449"/>
-        <location filename="formmanual.ui" line="10163"/>
+        <location filename="formmanual.ui" line="464"/>
+        <location filename="formmanual.ui" line="10242"/>
         <source>扩展轴</source>
         <translation>擴展軸</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="708"/>
-        <location filename="formmanual.ui" line="9983"/>
+        <location filename="formmanual.ui" line="728"/>
+        <location filename="formmanual.ui" line="10044"/>
         <source>正臂引拔轴</source>
         <translation>正臂引拔軸</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="967"/>
-        <location filename="formmanual.ui" line="10083"/>
+        <location filename="formmanual.ui" line="992"/>
+        <location filename="formmanual.ui" line="10154"/>
         <source>正臂上下轴</source>
         <translation>正臂上下軸</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="1226"/>
-        <location filename="formmanual.ui" line="10103"/>
+        <location filename="formmanual.ui" line="1256"/>
+        <location filename="formmanual.ui" line="10176"/>
         <source>横行轴</source>
         <translation>橫行軸</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="1485"/>
-        <location filename="formmanual.ui" line="10143"/>
+        <location filename="formmanual.ui" line="1520"/>
+        <location filename="formmanual.ui" line="10220"/>
         <source>副臂上下轴</source>
         <translation>副臂上下軸</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="1951"/>
-        <location filename="formmanual.cpp" line="1723"/>
+        <location filename="formmanual.ui" line="1998"/>
+        <location filename="formmanual.cpp" line="1730"/>
         <source>塑机信号</source>
         <translation>塑機訊號</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="1978"/>
+        <location filename="formmanual.ui" line="2025"/>
         <source>输出</source>
         <translation>輸出</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="2440"/>
+        <location filename="formmanual.ui" line="2503"/>
         <source>EMC 允许关模</source>
         <translation>EMC 允許關模</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="9565"/>
+        <location filename="formmanual.ui" line="9624"/>
         <source>副臂前进-E1Y14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="9731"/>
+        <location filename="formmanual.ui" line="9790"/>
         <source>传送带</source>
         <translation type="unfinished">傳送帶</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="9964"/>
+        <location filename="formmanual.ui" line="10023"/>
         <source>伺服监视</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="10003"/>
+        <location filename="formmanual.ui" line="10066"/>
         <source>实时扭矩</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="10023"/>
+        <location filename="formmanual.ui" line="10088"/>
         <source>峰值扭矩</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="10043"/>
+        <location filename="formmanual.ui" line="10110"/>
         <source>实时转速</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="10063"/>
+        <location filename="formmanual.ui" line="10132"/>
         <source>峰值转速</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="2112"/>
+        <location filename="formmanual.ui" line="2235"/>
         <source>EMO 允许开模</source>
         <translation>EMO 允許開模</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="2166"/>
+        <location filename="formmanual.ui" line="2127"/>
         <source>EEF 顶针前进</source>
         <translation>EEF 頂針前進</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="2386"/>
+        <location filename="formmanual.ui" line="2449"/>
         <source>EEB 顶针后退</source>
         <translation>EEB 頂針後退</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="2220"/>
+        <location filename="formmanual.ui" line="2181"/>
         <source>抽芯1位置1</source>
         <translation>抽芯1位置1</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="2596"/>
+        <location filename="formmanual.ui" line="2659"/>
         <source>抽芯1位置2</source>
         <translation>抽芯1位置2</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="2274"/>
+        <location filename="formmanual.ui" line="2343"/>
         <source>抽芯2位置1</source>
         <translation>抽芯2位置1</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="2542"/>
+        <location filename="formmanual.ui" line="2557"/>
         <source>抽芯2位置2</source>
         <translation>抽芯2位置2</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="2328"/>
+        <location filename="formmanual.ui" line="2289"/>
         <source>机械手不使用</source>
         <translation>機械手不使用</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="2663"/>
+        <location filename="formmanual.ui" line="2714"/>
         <source>输入</source>
         <translation>輸入</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="6074"/>
+        <location filename="formmanual.ui" line="6130"/>
         <source>扩展输出</source>
         <translation>擴展輸出</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="3440"/>
+        <location filename="formmanual.ui" line="3494"/>
         <source>主控模块</source>
         <translation>主控模塊</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="3402"/>
+        <location filename="formmanual.ui" line="3456"/>
         <source>扩展输入输出</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="3494"/>
+        <location filename="formmanual.ui" line="3548"/>
         <source>扩展模块1</source>
         <translation>擴展模塊1</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="3548"/>
+        <location filename="formmanual.ui" line="3602"/>
         <source>扩展模块2</source>
         <translation>擴展模塊2</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="3602"/>
+        <location filename="formmanual.ui" line="3656"/>
         <source>扩展模块3</source>
         <translation>擴展模塊3</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="3656"/>
+        <location filename="formmanual.ui" line="3710"/>
         <source>扩展模块4</source>
         <translation>擴展模塊4</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="3691"/>
+        <location filename="formmanual.ui" line="3745"/>
         <source>扩展输入</source>
         <translation>擴展輸入</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="8744"/>
+        <location filename="formmanual.ui" line="8802"/>
         <source>机械手信号</source>
         <translation>機械手信號</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="8761"/>
+        <location filename="formmanual.ui" line="8820"/>
         <source>其他信号</source>
         <translation>其他訊號</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="9131"/>
+        <location filename="formmanual.ui" line="9190"/>
         <source>副臂水平到位-X10 </source>
         <translation>副臂水平到位-X10</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="9181"/>
+        <location filename="formmanual.ui" line="9240"/>
         <source>副臂水平-Y10 </source>
         <translation>副臂水平-Y10</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="9246"/>
+        <location filename="formmanual.ui" line="9305"/>
         <source>副臂垂直到位-X11 </source>
         <translation>副臂垂直到位-X11</translation>
     </message>
     <message>
-        <location filename="formmanual.ui" line="9293"/>
+        <location filename="formmanual.ui" line="9352"/>
         <source>副臂垂直-Y11 </source>
         <translation>副臂垂直-Y11</translation>
     </message>
@@ -10944,37 +11088,42 @@
         <translation>(倒角)軸</translation>
     </message>
     <message>
-        <location filename="formmanual.cpp" line="332"/>
+        <location filename="formmanual.cpp" line="308"/>
+        <source>允许加工</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formmanual.cpp" line="339"/>
         <source>运行灯-Y21</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formmanual.cpp" line="333"/>
+        <location filename="formmanual.cpp" line="340"/>
         <source>停止灯-Y06</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formmanual.cpp" line="430"/>
+        <location filename="formmanual.cpp" line="437"/>
         <source>打油-Y12</source>
         <translation>打油-Y12</translation>
     </message>
     <message>
-        <location filename="formmanual.cpp" line="519"/>
+        <location filename="formmanual.cpp" line="526"/>
         <source>外部运行-X09</source>
         <translation>外部運行-X09</translation>
     </message>
     <message>
-        <location filename="formmanual.cpp" line="520"/>
+        <location filename="formmanual.cpp" line="527"/>
         <source>外部停止-X10</source>
         <translation>外部停止-X10</translation>
     </message>
     <message>
-        <location filename="formmanual.cpp" line="521"/>
+        <location filename="formmanual.cpp" line="528"/>
         <source>外部原点-X11</source>
         <translation>外部原點-X11</translation>
     </message>
     <message>
-        <location filename="formmanual.cpp" line="578"/>
+        <location filename="formmanual.cpp" line="585"/>
         <source>打油反馈-X09</source>
         <translation>打油反饋-X09</translation>
     </message>
@@ -10987,17 +11136,17 @@
         <translation type="obsolete">打油-E1Y12</translation>
     </message>
     <message>
-        <location filename="formmanual.cpp" line="1716"/>
+        <location filename="formmanual.cpp" line="1723"/>
         <source>压铸机信号</source>
         <translation>壓鑄機信號</translation>
     </message>
     <message>
-        <location filename="formmanual.cpp" line="1718"/>
+        <location filename="formmanual.cpp" line="1725"/>
         <source>机床信号</source>
         <translation>機床信號</translation>
     </message>
     <message>
-        <location filename="formmanual.cpp" line="1721"/>
+        <location filename="formmanual.cpp" line="1728"/>
         <source>铸机信号</source>
         <translation>鑄機信號</translation>
     </message>
@@ -11005,270 +11154,270 @@
 <context>
     <name>FormManufacturer</name>
     <message>
-        <location filename="formmanufacturer.ui" line="116"/>
-        <location filename="formmanufacturer.ui" line="632"/>
+        <location filename="formmanufacturer.ui" line="119"/>
+        <location filename="formmanufacturer.ui" line="636"/>
         <source>厂商信息</source>
         <translation>廠商信息</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="156"/>
+        <location filename="formmanufacturer.ui" line="159"/>
         <source>端口名称</source>
         <translation>端口名稱</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="193"/>
+        <location filename="formmanufacturer.ui" line="196"/>
         <source>参数维护</source>
         <translation>參數維護</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="233"/>
+        <location filename="formmanufacturer.ui" line="236"/>
         <source>软件升级</source>
         <translation>軟體升級</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="267"/>
+        <location filename="formmanufacturer.ui" line="270"/>
         <source>系统日志</source>
         <translation>系統日誌</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="485"/>
+        <location filename="formmanufacturer.ui" line="488"/>
         <source>弹出</source>
         <translation>彈出</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="558"/>
+        <location filename="formmanufacturer.ui" line="562"/>
         <source>开机画面</source>
         <translation>開機畫面</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="595"/>
+        <location filename="formmanufacturer.ui" line="599"/>
         <source>待机画面</source>
         <translation>待機畫面</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="718"/>
+        <location filename="formmanufacturer.ui" line="722"/>
         <source>厂商ID</source>
         <translation>廠商ID</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="808"/>
+        <location filename="formmanufacturer.ui" line="812"/>
         <source>重置名称</source>
         <translation>重置名稱</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="771"/>
+        <location filename="formmanufacturer.ui" line="775"/>
         <source>导入名称</source>
         <translation>導入名稱</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="845"/>
+        <location filename="formmanufacturer.ui" line="849"/>
         <source>编辑本地端口名称</source>
         <translation>編輯端口名稱</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="876"/>
+        <location filename="formmanufacturer.ui" line="883"/>
         <source>编辑轴名称</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="930"/>
+        <location filename="formmanufacturer.ui" line="937"/>
         <source>导出设置</source>
         <translation>導出設置</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="967"/>
+        <location filename="formmanufacturer.ui" line="974"/>
         <source>导入设置</source>
         <translation>導入設置</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="1036"/>
+        <location filename="formmanufacturer.ui" line="1043"/>
         <source>手控器升级</source>
         <translation>手控器升級</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="1073"/>
+        <location filename="formmanufacturer.ui" line="1080"/>
         <source>恢复</source>
         <translation>恢復</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="1117"/>
+        <location filename="formmanufacturer.ui" line="1124"/>
         <source>主板升级</source>
         <translation>主機板升級</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="1154"/>
+        <location filename="formmanufacturer.ui" line="1161"/>
         <source>重启</source>
         <translation>重啓</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="1210"/>
+        <location filename="formmanufacturer.ui" line="1217"/>
         <source>导出</source>
         <translation>導出</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="1247"/>
+        <location filename="formmanufacturer.ui" line="1254"/>
         <source>清除</source>
         <translation>清除</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.ui" line="1356"/>
+        <location filename="formmanufacturer.ui" line="1363"/>
         <source>刷新</source>
         <translation>刷新</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="118"/>
+        <location filename="formmanufacturer.cpp" line="127"/>
         <source>厂商代码不一致！</source>
         <translation>廠商代碼不一致！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="259"/>
+        <location filename="formmanufacturer.cpp" line="272"/>
         <source>USB存储器现在可以安全移除。</source>
         <translation>USB存儲器心在可以安全移除。</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="272"/>
+        <location filename="formmanufacturer.cpp" line="285"/>
         <source>请先选择要导入的开机画面文件！</source>
         <translation>請先選擇要導入的開機畫面文件！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="281"/>
+        <location filename="formmanufacturer.cpp" line="294"/>
         <source>无法移除系统原有的开机画面文件！</source>
         <translation>無法移除系統原有的開機畫面文件！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="286"/>
+        <location filename="formmanufacturer.cpp" line="299"/>
         <source>复制开机画面文件失败！</source>
         <translation>複製開機畫面文件失敗！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="289"/>
+        <location filename="formmanufacturer.cpp" line="302"/>
         <source>开机画面导入成功！</source>
         <translation>開機畫面導入成功！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="308"/>
+        <location filename="formmanufacturer.cpp" line="321"/>
         <source>请先选择要导入的待机画面文件！</source>
         <translation>請先選擇要導入的待機畫面文件！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="317"/>
+        <location filename="formmanufacturer.cpp" line="330"/>
         <source>无法移除系统原有的待机画面文件！</source>
         <translation>無法移除系統原有的待機畫面文件！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="322"/>
+        <location filename="formmanufacturer.cpp" line="335"/>
         <source>复制待机画面文件失败！</source>
         <translation>複製待機畫面文件失敗！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="325"/>
+        <location filename="formmanufacturer.cpp" line="338"/>
         <source>待机画面导入成功！</source>
         <translation>待機畫面導入成功！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="344"/>
+        <location filename="formmanufacturer.cpp" line="357"/>
         <source>请先选择要导入的厂商信息文件！</source>
         <translation>請先選擇要導入的廠商信息文件！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="353"/>
+        <location filename="formmanufacturer.cpp" line="366"/>
         <source>无法移除系统原有的厂商信息文件！</source>
         <translation>無法移除系統原有的廠商信息文件！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="358"/>
+        <location filename="formmanufacturer.cpp" line="371"/>
         <source>复制厂商信息文件失败！</source>
         <translation>複製廠商信息文件失敗！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="361"/>
+        <location filename="formmanufacturer.cpp" line="374"/>
         <source>厂商信息导入成功！</source>
         <translation>廠商信息導入成功！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="378"/>
+        <location filename="formmanufacturer.cpp" line="391"/>
         <source>请先选择要导入的端口名称定义文件！</source>
         <translation>請先選擇要導入的端口名稱定義文件！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="387"/>
+        <location filename="formmanufacturer.cpp" line="400"/>
         <source>无法移除系统原有的端口名称定义文件！</source>
         <translation>無法移除系統原有的端口名稱定義文件！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="393"/>
+        <location filename="formmanufacturer.cpp" line="406"/>
         <source>复制端口名称定义文件失败！</source>
         <translation>複製端口名稱定義文件失敗！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="405"/>
+        <location filename="formmanufacturer.cpp" line="418"/>
         <source>端口名称定义导入成功！</source>
         <translation>端口名稱定義導入成功！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="410"/>
+        <location filename="formmanufacturer.cpp" line="423"/>
         <source>是否清除端口名称？</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="426"/>
+        <location filename="formmanufacturer.cpp" line="439"/>
         <source>端口名称已经成功重置为出厂默认值！</source>
         <translation>端口名稱已經成功重置為出廠默認值！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="438"/>
+        <location filename="formmanufacturer.cpp" line="451"/>
         <source>请先选择操作器程序文件升级包！</source>
         <translation>請先選擇操作器程式文件升級包！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="443"/>
+        <location filename="formmanufacturer.cpp" line="456"/>
         <source>备份原有的程序文件...</source>
         <translation>備份原有的程式文件...</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="452"/>
+        <location filename="formmanufacturer.cpp" line="465"/>
         <source>无法删除原有的程序文件备份！</source>
         <translation>無法刪除原有的程式文件備份！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="459"/>
+        <location filename="formmanufacturer.cpp" line="472"/>
         <source>无法备份原有的程序文件！</source>
         <translation>無法備份原有的程式文件！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="464"/>
+        <location filename="formmanufacturer.cpp" line="477"/>
         <source>复制操作器程序文件...</source>
         <translation>複製操作器程式文件...</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="468"/>
+        <location filename="formmanufacturer.cpp" line="481"/>
         <source>复制操作器程序文件失败！恢复备份的程序文件...</source>
         <translation>複製操作器程式文件失敗！恢復備份的程式文件...</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="471"/>
+        <location filename="formmanufacturer.cpp" line="484"/>
         <source>恢复操作器程序文件失败，操作器程序已经损坏，请联系生产厂商维修！</source>
         <translation>恢復操作器程式文件失敗，操作器程式已經損壞，請聯繫生產廠商維修！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="474"/>
+        <location filename="formmanufacturer.cpp" line="487"/>
         <source>已经恢复程序文件，本次软件升级失败！</source>
         <translation>已經恢復程式文件，本次軟體升級失敗！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="482"/>
+        <location filename="formmanufacturer.cpp" line="495"/>
         <source>操作器软件升级成功！请重新启动系统。</source>
         <translation>操作器軟體升級成功！請重新啓動系統。</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="410"/>
-        <location filename="formmanufacturer.cpp" line="490"/>
-        <location filename="formmanufacturer.cpp" line="1197"/>
+        <location filename="formmanufacturer.cpp" line="423"/>
+        <location filename="formmanufacturer.cpp" line="503"/>
+        <location filename="formmanufacturer.cpp" line="1210"/>
         <source>系统提示</source>
         <translation>系統提示</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="490"/>
+        <location filename="formmanufacturer.cpp" line="503"/>
         <source>本操作将会把系统回退到升级前版本,并且无法撤销.
 如果要重置系统、伺服等参数,请进入系统设置--系统维护页面进行操作！
 确定要恢复到旧版本吗？</source>
@@ -11278,115 +11427,115 @@
 確定要恢復到舊版本嗎？</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="498"/>
+        <location filename="formmanufacturer.cpp" line="511"/>
         <source>不存在可供恢复的操作器程序文件备份！</source>
         <translation>不存在可供恢復的操作器程式文件備份！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="507"/>
+        <location filename="formmanufacturer.cpp" line="520"/>
         <source>无法删除当前程序文件！</source>
         <translation>無法刪除當前程式文件！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="512"/>
+        <location filename="formmanufacturer.cpp" line="525"/>
         <source>恢复操作器程序文件...</source>
         <translation>恢復操作器程式文件...</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="516"/>
+        <location filename="formmanufacturer.cpp" line="529"/>
         <source>恢复备份的程序文件失败，操作器当前程序已经损坏，请联系生产厂商维修！</source>
         <translation>恢復備份的程式文件失敗，操作器當前程式已經損壞，請聯繫生產廠商維修！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="524"/>
+        <location filename="formmanufacturer.cpp" line="537"/>
         <source>备份的程序文件已经成功恢复！请重新启动系统。</source>
         <translation>備份的程式文件已經成功恢復！請重新啓動系統。</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="533"/>
+        <location filename="formmanufacturer.cpp" line="546"/>
         <source>写入操作器厂商代码到主控模块失败！</source>
         <translation>寫入操作器廠商代碼到主控模塊失敗！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="537"/>
+        <location filename="formmanufacturer.cpp" line="550"/>
         <source>操作器厂商代码已经成功写入主控模块！</source>
         <translation>操作器廠商代碼已經成功寫入主控模塊！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="590"/>
+        <location filename="formmanufacturer.cpp" line="603"/>
         <source>没有检测到USB存储器，无法导出机械手设置数据！</source>
         <translation>沒有檢測到USB存儲器，無法導出機械手設置數據！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="607"/>
+        <location filename="formmanufacturer.cpp" line="620"/>
         <source>文件已经存在，无法进行参数导出操作！</source>
         <translation>文件已經存在，無法進行參數導出操作！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="616"/>
-        <location filename="formmanufacturer.cpp" line="870"/>
+        <location filename="formmanufacturer.cpp" line="629"/>
+        <location filename="formmanufacturer.cpp" line="883"/>
         <source>从主控模块读取伺服参数设置失败！</source>
         <translation>從主控模塊讀取伺服參數設置失敗！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="853"/>
+        <location filename="formmanufacturer.cpp" line="866"/>
         <source>机械手参数设置已经成功导出！</source>
         <translation>機械手參數設置已經成功導出！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="877"/>
+        <location filename="formmanufacturer.cpp" line="890"/>
         <source>请先选择要导入的参数设置文件！</source>
         <translation>請先選擇要導入的參數設置文件！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="1111"/>
+        <location filename="formmanufacturer.cpp" line="1124"/>
         <source>保存系统参数失败！</source>
         <translation>保存系統參數失敗！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="1144"/>
+        <location filename="formmanufacturer.cpp" line="1157"/>
         <source>保存伺服参数失败！</source>
         <translation>保存伺服參數失敗！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="1153"/>
+        <location filename="formmanufacturer.cpp" line="1166"/>
         <source>机械手参数设置已经成功导入！</source>
         <translation>機械手參數設置已經成功導入！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="1162"/>
+        <location filename="formmanufacturer.cpp" line="1175"/>
         <source>没有检测到USB存储器，无法导出系统日志文件！</source>
         <translation>沒有檢測到USB存儲器，無法導出系統日誌文件！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="1179"/>
+        <location filename="formmanufacturer.cpp" line="1192"/>
         <source>文件已经存在，无法进行系统日志导出操作！</source>
         <translation>文件已經存在，無法進行系統日誌導出操作！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="1184"/>
+        <location filename="formmanufacturer.cpp" line="1197"/>
         <source>系统日志文件复制出错！</source>
         <translation>系統日誌文件複製出錯！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="1191"/>
+        <location filename="formmanufacturer.cpp" line="1204"/>
         <source>系统日志文件已经成功导出！</source>
         <translation>系統日誌文件已經成功導出！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="1197"/>
+        <location filename="formmanufacturer.cpp" line="1210"/>
         <source>本操作将会清除系统日志记录信息并且无法恢复！
 确定要清除系统日志吗？</source>
         <translation>本操作將會清除系統日誌記錄信息並且無法恢復！
 確定要清除系統日誌嗎？</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="1206"/>
+        <location filename="formmanufacturer.cpp" line="1219"/>
         <source>重新初始化系统日志文件失败！</source>
         <translation>重新初始化系統日誌文件失敗！</translation>
     </message>
     <message>
-        <location filename="formmanufacturer.cpp" line="1212"/>
+        <location filename="formmanufacturer.cpp" line="1225"/>
         <source>系统日志已经成功清除！</source>
         <translation>系統日誌已經成功清除！</translation>
     </message>
@@ -11473,70 +11622,70 @@
 <context>
     <name>FormPgmExplorer</name>
     <message>
-        <location filename="formpgmexplorer.ui" line="125"/>
+        <location filename="formpgmexplorer.ui" line="136"/>
         <source>程序目录</source>
         <translation>程序目錄</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.ui" line="450"/>
+        <location filename="formpgmexplorer.ui" line="479"/>
         <source>载入</source>
         <translation>載入</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.ui" line="362"/>
+        <location filename="formpgmexplorer.ui" line="385"/>
         <source>新建</source>
         <translation>新建</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.ui" line="274"/>
+        <location filename="formpgmexplorer.ui" line="291"/>
         <source>重命名</source>
         <translation>重命名</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.ui" line="406"/>
+        <location filename="formpgmexplorer.ui" line="432"/>
         <source>另存为</source>
         <translation>另存為</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.ui" line="494"/>
-        <location filename="formpgmexplorer.ui" line="679"/>
+        <location filename="formpgmexplorer.ui" line="526"/>
+        <location filename="formpgmexplorer.ui" line="717"/>
         <source>导到U盘</source>
         <translation>導到U盤</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.ui" line="318"/>
-        <location filename="formpgmexplorer.ui" line="763"/>
+        <location filename="formpgmexplorer.ui" line="338"/>
+        <location filename="formpgmexplorer.ui" line="807"/>
         <source>删除</source>
         <translation>刪除</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.ui" line="527"/>
+        <location filename="formpgmexplorer.ui" line="559"/>
         <source>模板目录</source>
         <translation>模板目錄</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.ui" line="723"/>
-        <location filename="formpgmexplorer.ui" line="1061"/>
+        <location filename="formpgmexplorer.ui" line="764"/>
+        <location filename="formpgmexplorer.ui" line="1118"/>
         <source>导到程序</source>
         <translation>導到程序</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.ui" line="796"/>
+        <location filename="formpgmexplorer.ui" line="840"/>
         <source>USB目录</source>
         <translation>USB目錄</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.ui" line="944"/>
+        <location filename="formpgmexplorer.ui" line="994"/>
         <source>导到模板</source>
         <translation>導到模板</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.ui" line="1024"/>
+        <location filename="formpgmexplorer.ui" line="1078"/>
         <source>刷新</source>
         <translation>刷新</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.ui" line="988"/>
+        <location filename="formpgmexplorer.ui" line="1041"/>
         <source>弹出U盘</source>
         <translation>彈出U盤</translation>
     </message>
@@ -11545,29 +11694,29 @@
         <location filename="formpgmexplorer.cpp" line="213"/>
         <location filename="formpgmexplorer.cpp" line="236"/>
         <location filename="formpgmexplorer.cpp" line="248"/>
-        <location filename="formpgmexplorer.cpp" line="282"/>
-        <location filename="formpgmexplorer.cpp" line="293"/>
-        <location filename="formpgmexplorer.cpp" line="305"/>
-        <location filename="formpgmexplorer.cpp" line="333"/>
-        <location filename="formpgmexplorer.cpp" line="344"/>
-        <location filename="formpgmexplorer.cpp" line="356"/>
-        <location filename="formpgmexplorer.cpp" line="385"/>
-        <location filename="formpgmexplorer.cpp" line="391"/>
-        <location filename="formpgmexplorer.cpp" line="428"/>
+        <location filename="formpgmexplorer.cpp" line="283"/>
+        <location filename="formpgmexplorer.cpp" line="294"/>
+        <location filename="formpgmexplorer.cpp" line="306"/>
+        <location filename="formpgmexplorer.cpp" line="335"/>
+        <location filename="formpgmexplorer.cpp" line="346"/>
+        <location filename="formpgmexplorer.cpp" line="358"/>
+        <location filename="formpgmexplorer.cpp" line="389"/>
+        <location filename="formpgmexplorer.cpp" line="395"/>
         <location filename="formpgmexplorer.cpp" line="434"/>
-        <location filename="formpgmexplorer.cpp" line="446"/>
-        <location filename="formpgmexplorer.cpp" line="456"/>
-        <location filename="formpgmexplorer.cpp" line="478"/>
-        <location filename="formpgmexplorer.cpp" line="484"/>
-        <location filename="formpgmexplorer.cpp" line="496"/>
-        <location filename="formpgmexplorer.cpp" line="508"/>
-        <location filename="formpgmexplorer.cpp" line="527"/>
-        <location filename="formpgmexplorer.cpp" line="533"/>
-        <location filename="formpgmexplorer.cpp" line="545"/>
-        <location filename="formpgmexplorer.cpp" line="557"/>
-        <location filename="formpgmexplorer.cpp" line="576"/>
-        <location filename="formpgmexplorer.cpp" line="589"/>
-        <location filename="formpgmexplorer.cpp" line="601"/>
+        <location filename="formpgmexplorer.cpp" line="440"/>
+        <location filename="formpgmexplorer.cpp" line="452"/>
+        <location filename="formpgmexplorer.cpp" line="462"/>
+        <location filename="formpgmexplorer.cpp" line="486"/>
+        <location filename="formpgmexplorer.cpp" line="492"/>
+        <location filename="formpgmexplorer.cpp" line="504"/>
+        <location filename="formpgmexplorer.cpp" line="516"/>
+        <location filename="formpgmexplorer.cpp" line="535"/>
+        <location filename="formpgmexplorer.cpp" line="541"/>
+        <location filename="formpgmexplorer.cpp" line="553"/>
+        <location filename="formpgmexplorer.cpp" line="565"/>
+        <location filename="formpgmexplorer.cpp" line="584"/>
+        <location filename="formpgmexplorer.cpp" line="597"/>
+        <location filename="formpgmexplorer.cpp" line="609"/>
         <source>系统警告</source>
         <translation>系統警告</translation>
     </message>
@@ -11600,140 +11749,140 @@
         <translation>新文件名已經存在，系統不允許同名文件，無法創建新程序程序！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="282"/>
+        <location filename="formpgmexplorer.cpp" line="283"/>
         <source>没有选择要改名的文件，无法进行重命名操作！</source>
         <translation>沒有選擇要改名的文件，無法進行重命名操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="293"/>
+        <location filename="formpgmexplorer.cpp" line="294"/>
         <source>没有输入新文件名，无法进行重命名操作！</source>
         <translation>沒有輸入新文件名，無法進行重命名操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="305"/>
+        <location filename="formpgmexplorer.cpp" line="306"/>
         <source>新文件名已经存在，系统不允许同名文件，无法进行重命名操作！</source>
         <translation>新文件名已經存在，系統不允許同名文件，無法進行重命名操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="333"/>
+        <location filename="formpgmexplorer.cpp" line="335"/>
         <source>没有选择要复制的文件，无法进行另存为操作！</source>
         <translation>沒有選擇要複制的文件，無法進行另存爲操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="344"/>
+        <location filename="formpgmexplorer.cpp" line="346"/>
         <source>没有输入要保存的新文件名，无法进行另存为操作！</source>
         <translation>沒有輸入要保存的新文件名，無法進行另存爲操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="356"/>
+        <location filename="formpgmexplorer.cpp" line="358"/>
         <source>新文件名已经存在，系统不允许同名文件，无法进行另存为操作！</source>
         <translation>新文件名已經存在，系統不允許同名文件，無法進行另存爲操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="385"/>
+        <location filename="formpgmexplorer.cpp" line="389"/>
         <source>没有选择要删除的文件，无法进行删除操作！</source>
         <translation>沒有選擇要刪除的文件，無法進行刪除操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="391"/>
+        <location filename="formpgmexplorer.cpp" line="395"/>
         <source>不能删除系统载入的当前程序，无法进行删除操作！</source>
         <translation>不能刪除系統載入的當前程序，無法進行刪除操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="394"/>
-        <location filename="formpgmexplorer.cpp" line="465"/>
-        <location filename="formpgmexplorer.cpp" line="517"/>
-        <location filename="formpgmexplorer.cpp" line="566"/>
-        <location filename="formpgmexplorer.cpp" line="610"/>
-        <location filename="formpgmexplorer.cpp" line="621"/>
+        <location filename="formpgmexplorer.cpp" line="398"/>
+        <location filename="formpgmexplorer.cpp" line="471"/>
+        <location filename="formpgmexplorer.cpp" line="525"/>
+        <location filename="formpgmexplorer.cpp" line="574"/>
+        <location filename="formpgmexplorer.cpp" line="618"/>
+        <location filename="formpgmexplorer.cpp" line="631"/>
         <source>系统提示</source>
         <translation>系統提示</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="394"/>
+        <location filename="formpgmexplorer.cpp" line="398"/>
         <source>删除文件后将无法恢复，是否真的要删除所选择的文件？</source>
         <translation>刪除文件后將無法恢復，是否真的要刪除所選擇的文件？</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="428"/>
+        <location filename="formpgmexplorer.cpp" line="434"/>
         <source>没有选择要导出的文件！
 请选择要导出的文件，再进行导出文件操作。</source>
         <translation>沒有選擇要導出的文件！請選擇要導出的文件，再進行導出文件操作。</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="434"/>
+        <location filename="formpgmexplorer.cpp" line="440"/>
         <source>没有插入USB存储器，不能执行导出程序文件操作！</source>
         <translation>沒有插入USB存儲器，不能執行導出程序文件操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="446"/>
+        <location filename="formpgmexplorer.cpp" line="452"/>
         <source>没有输入导出到USB存储器的新文件名，无法执行导出程序文件操作！</source>
         <translation>沒有輸入導出到USB存儲器的新文件名，無法執行導出程序文件操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="456"/>
+        <location filename="formpgmexplorer.cpp" line="462"/>
         <source>USB存储器上已经存在同名程序文件，系统不允许同名文件，请修改新文件名后再执行导出程序文件操作！</source>
         <translation>USB存儲器上已經存在同名程序文件，系統不允許同名文件，請修改新文件名后再執行導出程序文件操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="465"/>
+        <location filename="formpgmexplorer.cpp" line="471"/>
         <source>所选的系统存储器程序文件已经成功导出到USB存储器中！</source>
         <translation>所選的系統存儲器程序文件已經成功導出到USB存儲器中！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="478"/>
-        <location filename="formpgmexplorer.cpp" line="527"/>
+        <location filename="formpgmexplorer.cpp" line="486"/>
+        <location filename="formpgmexplorer.cpp" line="535"/>
         <source>没有选择要导入的USB存储器文件！
 请选择要导入的文件，再进行导入文件操作。</source>
         <translation>沒有選擇要導入的USB存儲器文件！請選擇要導入的文件，再進行導入文件操作。</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="484"/>
-        <location filename="formpgmexplorer.cpp" line="533"/>
+        <location filename="formpgmexplorer.cpp" line="492"/>
+        <location filename="formpgmexplorer.cpp" line="541"/>
         <source>没有插入USB存储器，不能执行导入操作！</source>
         <translation>沒有插入USB存儲器，不能執行導出程序文件操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="496"/>
-        <location filename="formpgmexplorer.cpp" line="545"/>
+        <location filename="formpgmexplorer.cpp" line="504"/>
+        <location filename="formpgmexplorer.cpp" line="553"/>
         <source>没有输入导入到系统存储器的新文件名，无法执行导入程序文件操作！</source>
         <translation>沒有輸入導出到USB存儲器的新文件名，無法執行導出程序文件操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="508"/>
-        <location filename="formpgmexplorer.cpp" line="557"/>
+        <location filename="formpgmexplorer.cpp" line="516"/>
+        <location filename="formpgmexplorer.cpp" line="565"/>
         <source>已经存在同名程序文件，系统不允许同名文件，请修改新文件名后再执行导入程序文件操作！</source>
         <translation>USB存儲器上已經存在同名程序文件，系統不允許同名文件，請修改新文件名后再執行導出程序文件操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="517"/>
-        <location filename="formpgmexplorer.cpp" line="566"/>
+        <location filename="formpgmexplorer.cpp" line="525"/>
+        <location filename="formpgmexplorer.cpp" line="574"/>
         <source>所选的文件已经成功导入！</source>
         <translation>所選的文件已經成功導入！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="576"/>
+        <location filename="formpgmexplorer.cpp" line="584"/>
         <source>没有选择要导入的模板文件！
 请选择要导入的模板文件，再进行导入操作。</source>
         <translation>沒有選擇要導入的模板文件！請選擇要導入的模板文件，再進行導入操作。</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="589"/>
+        <location filename="formpgmexplorer.cpp" line="597"/>
         <source>没有输入导入到程序目录的新文件名，无法执行导入操作！</source>
         <translation>沒有輸入導入到程序目錄的新文件名，無法執行導入操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="601"/>
+        <location filename="formpgmexplorer.cpp" line="609"/>
         <source>已经存在同名程序文件，系统不允许同名文件，请修改新文件名后再执行导入操作！</source>
         <translation>已經存在同名程序文件，系統不允許同名文件，請修改新文件名后再執行導入操作！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="610"/>
+        <location filename="formpgmexplorer.cpp" line="618"/>
         <source>所选的文件已经成功导入到程序目录中！</source>
         <translation>所選的文件已經成功導入到程序目錄中！</translation>
     </message>
     <message>
-        <location filename="formpgmexplorer.cpp" line="621"/>
+        <location filename="formpgmexplorer.cpp" line="631"/>
         <source>USB存储器现在可以安全移除。</source>
         <translation>USB存儲器心在可以安全移除。</translation>
     </message>
@@ -11757,58 +11906,59 @@
     </message>
     <message>
         <location filename="formsyslog.ui" line="315"/>
-        <source>日志查询</source>
-        <translation>日誌查詢</translation>
+        <source>日志查询3</source>
+        <oldsource>日志查询</oldsource>
+        <translation type="unfinished">日誌查詢</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="78"/>
-        <location filename="formsyslog.cpp" line="241"/>
+        <location filename="formsyslog.cpp" line="91"/>
+        <location filename="formsyslog.cpp" line="254"/>
         <source>所有记录</source>
         <translation>所有記錄</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="101"/>
+        <location filename="formsyslog.cpp" line="114"/>
         <source>警告</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="113"/>
-        <location filename="formsyslog.cpp" line="132"/>
-        <location filename="formsyslog.cpp" line="155"/>
+        <location filename="formsyslog.cpp" line="126"/>
+        <location filename="formsyslog.cpp" line="145"/>
+        <location filename="formsyslog.cpp" line="168"/>
         <source>提示</source>
         <translation>提示</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="113"/>
+        <location filename="formsyslog.cpp" line="126"/>
         <source>请先选择日志记录，再查看选中记录的端口状态。</source>
         <translation>請先選擇日誌記錄，再查看選中記錄的端口狀態。</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="132"/>
+        <location filename="formsyslog.cpp" line="145"/>
         <source>请先选择日志记录，再查看选中记录的参数设置。</source>
         <translation>請先選擇日誌記錄，再查看選中記錄的參數設置。</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="155"/>
+        <location filename="formsyslog.cpp" line="168"/>
         <source>请先选择日志记录，再查看选中记录的详细内容。</source>
         <translation>請先選擇日誌記錄，再查看選中記錄的詳細內容。</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="200"/>
+        <location filename="formsyslog.cpp" line="213"/>
         <source>
 -------------------------------------------------------</source>
         <translation>
 -------------------------------------------------------</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="188"/>
+        <location filename="formsyslog.cpp" line="201"/>
         <source>
 端口编号从右往左依次递增 </source>
         <translation>
 端口編號從右往左依次遞增  </translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="189"/>
+        <location filename="formsyslog.cpp" line="202"/>
         <source>
 主控模块输入状态: </source>
         <translation>
@@ -11821,47 +11971,47 @@
 </translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="191"/>
+        <location filename="formsyslog.cpp" line="204"/>
         <source>扩展模块1输入状态: </source>
         <translation>擴展模塊1輸入狀態:</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="192"/>
+        <location filename="formsyslog.cpp" line="205"/>
         <source>扩展模块2输入状态: </source>
         <translation>擴展模塊2輸入狀態:</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="193"/>
+        <location filename="formsyslog.cpp" line="206"/>
         <source>扩展模块3输入状态: </source>
         <translation>擴展模塊3輸入狀態:</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="194"/>
+        <location filename="formsyslog.cpp" line="207"/>
         <source>扩展模块4输入状态: </source>
         <translation>擴展模塊4輸入狀態:</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="195"/>
+        <location filename="formsyslog.cpp" line="208"/>
         <source>主控模块输出状态: </source>
         <translation>主控模塊輸出狀態:</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="196"/>
+        <location filename="formsyslog.cpp" line="209"/>
         <source>扩展模块1输出状态: </source>
         <translation>擴展模塊1輸出狀態:</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="197"/>
+        <location filename="formsyslog.cpp" line="210"/>
         <source>扩展模块2输出状态: </source>
         <translation>擴展模塊2輸出狀態:</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="198"/>
+        <location filename="formsyslog.cpp" line="211"/>
         <source>扩展模块3输出状态: </source>
         <translation>擴展模塊3輸出狀態:</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="199"/>
+        <location filename="formsyslog.cpp" line="212"/>
         <source>扩展模块4输出状态: </source>
         <translation>擴展模塊4輸出狀態:</translation>
     </message>
@@ -11911,27 +12061,27 @@
         <translation type="obsolete">擴展模塊4輸出狀態:</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="216"/>
+        <location filename="formsyslog.cpp" line="229"/>
         <source>一般记录</source>
         <translation>一般記錄</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="222"/>
+        <location filename="formsyslog.cpp" line="235"/>
         <source>系统消息</source>
         <translation>系統消息</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="228"/>
+        <location filename="formsyslog.cpp" line="241"/>
         <source>系统报警</source>
         <translation>系統報警</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="234"/>
+        <location filename="formsyslog.cpp" line="247"/>
         <source>按时间查询</source>
         <translation>按時間查詢</translation>
     </message>
     <message>
-        <location filename="formsyslog.cpp" line="235"/>
+        <location filename="formsyslog.cpp" line="248"/>
         <source>datetime(logTime) between datetime(&apos;%1&apos;) and datetime(&apos;%2&apos;)</source>
         <translation>datetime(logTime) between datetime(&apos;%1&apos;) and datetime(&apos;%2&apos;)</translation>
     </message>
@@ -11939,133 +12089,133 @@
 <context>
     <name>FormTeach</name>
     <message>
-        <location filename="formteach.ui" line="590"/>
+        <location filename="formteach.ui" line="602"/>
         <source>修改</source>
         <translation>修改</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="1017"/>
+        <location filename="formteach.ui" line="1029"/>
         <source>正臂气动</source>
         <translation>正臂氣動</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="845"/>
+        <location filename="formteach.ui" line="857"/>
         <source>注塑机</source>
         <translation>注塑機</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="909"/>
+        <location filename="formteach.ui" line="921"/>
         <source>副臂气动</source>
         <translation>副臂氣動</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="801"/>
+        <location filename="formteach.ui" line="813"/>
         <source>其他</source>
         <translation>其他</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="953"/>
+        <location filename="formteach.ui" line="965"/>
         <source>轴定位</source>
         <translation>定位</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="705"/>
+        <location filename="formteach.ui" line="717"/>
         <source>治具</source>
         <translation>治具</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="985"/>
+        <location filename="formteach.ui" line="997"/>
         <source>矩阵</source>
         <translation>矩陣</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="877"/>
+        <location filename="formteach.ui" line="889"/>
         <source>扩展输出</source>
         <oldsource>多扩展输出</oldsource>
         <translation type="unfinished">多擴展輸出</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="737"/>
+        <location filename="formteach.ui" line="749"/>
         <source>等待</source>
         <translation>等待</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="769"/>
+        <location filename="formteach.ui" line="781"/>
         <source>延时</source>
         <translation>延時</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="1067"/>
+        <location filename="formteach.ui" line="1079"/>
         <source>上一页</source>
         <translation>上一頁</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="1095"/>
+        <location filename="formteach.ui" line="1107"/>
         <source>下一页</source>
         <translation>下一頁</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="1123"/>
+        <location filename="formteach.ui" line="1135"/>
         <source>完成</source>
         <translation>完成</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="1174"/>
+        <location filename="formteach.ui" line="1186"/>
         <source>主菜单</source>
         <translation>主菜單</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="1196"/>
+        <location filename="formteach.ui" line="1208"/>
         <source>快速教导</source>
         <translation>快速教導</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="1218"/>
+        <location filename="formteach.ui" line="1230"/>
         <source>插入动作</source>
         <translation>插入動作</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="1260"/>
+        <location filename="formteach.ui" line="1272"/>
         <source>进程1</source>
         <translation>進程1</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="1302"/>
+        <location filename="formteach.ui" line="1314"/>
         <source>进程2</source>
         <translation>進程2</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="1344"/>
+        <location filename="formteach.ui" line="1356"/>
         <source>进程3</source>
         <translation>進程3</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="446"/>
+        <location filename="formteach.ui" line="458"/>
         <source>分解</source>
         <translation>分解</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="268"/>
+        <location filename="formteach.ui" line="279"/>
         <source>上移</source>
         <translation>上移</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="313"/>
+        <location filename="formteach.ui" line="325"/>
         <source>下移</source>
         <translation>下移</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="350"/>
+        <location filename="formteach.ui" line="362"/>
         <source>删除</source>
         <translation>刪除</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="387"/>
+        <location filename="formteach.ui" line="399"/>
         <source>试</source>
         <translation>试</translation>
     </message>
     <message>
-        <location filename="formteach.ui" line="496"/>
+        <location filename="formteach.ui" line="508"/>
         <source>组合</source>
         <translation>組合</translation>
     </message>
@@ -12208,12 +12358,12 @@
 <context>
     <name>FormVActVacuum</name>
     <message>
-        <location filename="formvactvacuum.ui" line="155"/>
+        <location filename="formvactvacuum.ui" line="162"/>
         <source>输出端口：</source>
         <translation>輸出端口：</translation>
     </message>
     <message>
-        <location filename="formvactvacuum.ui" line="236"/>
+        <location filename="formvactvacuum.ui" line="243"/>
         <source>输入端口：</source>
         <translation>輸入端口：</translation>
     </message>
@@ -12222,49 +12372,49 @@
         <translation type="obsolete">治具動作</translation>
     </message>
     <message>
-        <location filename="formvactvacuum.ui" line="92"/>
+        <location filename="formvactvacuum.ui" line="99"/>
         <source>治具参数</source>
         <translation>治具參數</translation>
     </message>
     <message>
-        <location filename="formvactvacuum.ui" line="320"/>
+        <location filename="formvactvacuum.ui" line="327"/>
         <source>输出打开</source>
         <translation>輸出打開</translation>
     </message>
     <message>
-        <location filename="formvactvacuum.ui" line="363"/>
+        <location filename="formvactvacuum.ui" line="370"/>
         <source>打开</source>
         <extracomment>扩展输出开关</extracomment>
         <translation>打開</translation>
     </message>
     <message>
-        <location filename="formvactvacuum.ui" line="404"/>
+        <location filename="formvactvacuum.ui" line="411"/>
         <source>输出关闭</source>
         <translation>輸出關閉</translation>
     </message>
     <message>
-        <location filename="formvactvacuum.ui" line="444"/>
+        <location filename="formvactvacuum.ui" line="451"/>
         <source>关闭</source>
         <extracomment>扩展输出开关</extracomment>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="formvactvacuum.ui" line="482"/>
+        <location filename="formvactvacuum.ui" line="489"/>
         <source>动作时间：</source>
         <translation>動作時間：</translation>
     </message>
     <message>
-        <location filename="formvactvacuum.ui" line="581"/>
+        <location filename="formvactvacuum.ui" line="588"/>
         <source>执行间隔：</source>
         <translation>執行間隔：</translation>
     </message>
     <message>
-        <location filename="formvactvacuum.ui" line="686"/>
+        <location filename="formvactvacuum.ui" line="693"/>
         <source>输出计数器：</source>
         <translation>輸出計數器：</translation>
     </message>
     <message>
-        <location filename="formvactvacuum.ui" line="767"/>
+        <location filename="formvactvacuum.ui" line="774"/>
         <source>输入计数器：</source>
         <translation>輸入計數器：</translation>
     </message>
@@ -12277,131 +12427,131 @@
         <translation>Form</translation>
     </message>
     <message>
-        <location filename="formvarinit.ui" line="137"/>
+        <location filename="formvarinit.ui" line="138"/>
         <source>变量名：</source>
         <translation>變量名：</translation>
     </message>
     <message>
-        <location filename="formvarinit.ui" line="203"/>
+        <location filename="formvarinit.ui" line="206"/>
         <source>初始值：</source>
         <translation>初始值：</translation>
     </message>
     <message>
-        <location filename="formvarinit.ui" line="275"/>
+        <location filename="formvarinit.ui" line="280"/>
         <source>写初始值</source>
         <translation>寫初始值</translation>
     </message>
     <message>
-        <location filename="formvarinit.ui" line="311"/>
+        <location filename="formvarinit.ui" line="317"/>
         <source>当前值：</source>
         <translation>當前值：</translation>
     </message>
     <message>
-        <location filename="formvarinit.ui" line="389"/>
+        <location filename="formvarinit.ui" line="397"/>
         <source>读当前值</source>
         <translation>讀當前值</translation>
     </message>
     <message>
-        <location filename="formvarinit.ui" line="432"/>
+        <location filename="formvarinit.ui" line="441"/>
         <source>自动初始化</source>
         <translation>自動初始化</translation>
     </message>
     <message>
-        <location filename="formvarinit.ui" line="468"/>
+        <location filename="formvarinit.ui" line="478"/>
         <source>询问初始化</source>
         <translation>詢問初始化</translation>
     </message>
     <message>
-        <location filename="formvarinit.ui" line="504"/>
+        <location filename="formvarinit.ui" line="515"/>
         <source>从不初始化</source>
         <translation>從不初始化</translation>
     </message>
     <message>
-        <location filename="formvarinit.ui" line="678"/>
+        <location filename="formvarinit.ui" line="689"/>
         <source>增加</source>
         <translation>增加</translation>
     </message>
     <message>
-        <location filename="formvarinit.ui" line="716"/>
+        <location filename="formvarinit.ui" line="727"/>
         <source>删除</source>
         <translation>刪除</translation>
     </message>
     <message>
-        <location filename="formvarinit.ui" line="767"/>
+        <location filename="formvarinit.ui" line="778"/>
         <source>保存</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="98"/>
-        <location filename="formvarinit.cpp" line="115"/>
-        <location filename="formvarinit.cpp" line="249"/>
-        <location filename="formvarinit.cpp" line="267"/>
-        <location filename="formvarinit.cpp" line="352"/>
-        <location filename="formvarinit.cpp" line="360"/>
+        <location filename="formvarinit.cpp" line="104"/>
+        <location filename="formvarinit.cpp" line="121"/>
+        <location filename="formvarinit.cpp" line="255"/>
+        <location filename="formvarinit.cpp" line="273"/>
+        <location filename="formvarinit.cpp" line="358"/>
+        <location filename="formvarinit.cpp" line="366"/>
         <source>系统提示</source>
         <translation>系統提示</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="98"/>
-        <location filename="formvarinit.cpp" line="267"/>
+        <location filename="formvarinit.cpp" line="104"/>
+        <location filename="formvarinit.cpp" line="273"/>
         <source>已包含所选变量，请重新选择！</source>
         <translation>已包含所選變量，請重新選擇！</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="115"/>
+        <location filename="formvarinit.cpp" line="121"/>
         <source>已包含所选变量，插入失败！</source>
         <translation>已包含所選變量，插入失敗！</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="172"/>
+        <location filename="formvarinit.cpp" line="178"/>
         <source>自动状态不能进入！</source>
         <translation>自動狀態不能進入！</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="177"/>
-        <location filename="formvarinit.cpp" line="184"/>
-        <location filename="formvarinit.cpp" line="189"/>
-        <location filename="formvarinit.cpp" line="194"/>
+        <location filename="formvarinit.cpp" line="183"/>
+        <location filename="formvarinit.cpp" line="190"/>
+        <location filename="formvarinit.cpp" line="195"/>
+        <location filename="formvarinit.cpp" line="200"/>
         <source>系统警告</source>
         <translation>系統警告</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="177"/>
+        <location filename="formvarinit.cpp" line="183"/>
         <source>没有载入当前程序文件，不能进入查看！</source>
         <translation>沒有載入當前程序文件，不能進入查看！</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="184"/>
+        <location filename="formvarinit.cpp" line="190"/>
         <source>读取程序版本出错，无法装载程序文件！</source>
         <translation>讀取程式版本出錯，無法裝載程式文件！</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="189"/>
+        <location filename="formvarinit.cpp" line="195"/>
         <source>读取文件格式出错，无法装载程序文件！</source>
         <translation>讀取文件格式出錯，無法裝載程式文件！</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="194"/>
+        <location filename="formvarinit.cpp" line="200"/>
         <source>读取程序文件出错，无法装载程序文件！</source>
         <translation>讀取程式文件出錯，無法裝載程式文件！</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="249"/>
+        <location filename="formvarinit.cpp" line="255"/>
         <source>当前参数已经修改，是否要更新？</source>
         <translation>當前參數已經修改，是否要更新？</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="303"/>
+        <location filename="formvarinit.cpp" line="309"/>
         <source>保存参数</source>
         <translation>保存參數</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="352"/>
+        <location filename="formvarinit.cpp" line="358"/>
         <source>写变量初始值错误！</source>
         <translation>寫變量初始值錯誤！</translation>
     </message>
     <message>
-        <location filename="formvarinit.cpp" line="360"/>
+        <location filename="formvarinit.cpp" line="366"/>
         <source>读变量当前值错误！</source>
         <translation>讀變量當前值錯誤！</translation>
     </message>
@@ -12432,501 +12582,501 @@
 <context>
     <name>Formalfaoption</name>
     <message>
-        <location filename="formalfaoption.ui" line="136"/>
-        <location filename="formalfaoption.ui" line="3541"/>
+        <location filename="formalfaoption.ui" line="142"/>
+        <location filename="formalfaoption.ui" line="3560"/>
         <source>主臂</source>
         <translation>主臂</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="215"/>
-        <location filename="formalfaoption.ui" line="1079"/>
+        <location filename="formalfaoption.ui" line="222"/>
+        <location filename="formalfaoption.ui" line="1087"/>
         <source>不使用</source>
         <translation>不使用</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="220"/>
-        <location filename="formalfaoption.ui" line="1084"/>
+        <location filename="formalfaoption.ui" line="227"/>
+        <location filename="formalfaoption.ui" line="1092"/>
         <source>点置物模式</source>
         <translation>點置物模式</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="225"/>
+        <location filename="formalfaoption.ui" line="232"/>
         <source>矩阵置物模式</source>
         <translation>矩陣置物模式</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="273"/>
-        <location filename="formalfaoption.ui" line="1119"/>
+        <location filename="formalfaoption.ui" line="280"/>
+        <location filename="formalfaoption.ui" line="1127"/>
         <source>模内引拔下行点：</source>
         <translation>模外上下置物點：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="328"/>
-        <location filename="formalfaoption.ui" line="435"/>
-        <location filename="formalfaoption.ui" line="539"/>
-        <location filename="formalfaoption.ui" line="643"/>
-        <location filename="formalfaoption.ui" line="747"/>
-        <location filename="formalfaoption.ui" line="854"/>
-        <location filename="formalfaoption.ui" line="958"/>
-        <location filename="formalfaoption.ui" line="1173"/>
-        <location filename="formalfaoption.ui" line="1279"/>
-        <location filename="formalfaoption.ui" line="1385"/>
-        <location filename="formalfaoption.ui" line="1491"/>
-        <location filename="formalfaoption.ui" line="1597"/>
-        <location filename="formalfaoption.ui" line="1703"/>
-        <location filename="formalfaoption.ui" line="1809"/>
-        <location filename="formalfaoption.ui" line="1976"/>
-        <location filename="formalfaoption.ui" line="2080"/>
-        <location filename="formalfaoption.ui" line="2187"/>
+        <location filename="formalfaoption.ui" line="335"/>
+        <location filename="formalfaoption.ui" line="442"/>
+        <location filename="formalfaoption.ui" line="546"/>
+        <location filename="formalfaoption.ui" line="650"/>
+        <location filename="formalfaoption.ui" line="754"/>
+        <location filename="formalfaoption.ui" line="861"/>
+        <location filename="formalfaoption.ui" line="965"/>
+        <location filename="formalfaoption.ui" line="1182"/>
+        <location filename="formalfaoption.ui" line="1289"/>
+        <location filename="formalfaoption.ui" line="1396"/>
+        <location filename="formalfaoption.ui" line="1503"/>
+        <location filename="formalfaoption.ui" line="1610"/>
+        <location filename="formalfaoption.ui" line="1717"/>
+        <location filename="formalfaoption.ui" line="1824"/>
+        <location filename="formalfaoption.ui" line="1991"/>
+        <location filename="formalfaoption.ui" line="2095"/>
+        <location filename="formalfaoption.ui" line="2202"/>
         <source>mm</source>
         <translation>mm</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="380"/>
-        <location filename="formalfaoption.ui" line="1225"/>
+        <location filename="formalfaoption.ui" line="387"/>
+        <location filename="formalfaoption.ui" line="1234"/>
         <source>模内引拔取物点：</source>
         <translation>模內引拔取物點：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="484"/>
-        <location filename="formalfaoption.ui" line="1331"/>
+        <location filename="formalfaoption.ui" line="491"/>
+        <location filename="formalfaoption.ui" line="1341"/>
         <source>模内上下取物点：</source>
         <translation>模內上下取物點：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="588"/>
-        <location filename="formalfaoption.ui" line="1437"/>
+        <location filename="formalfaoption.ui" line="595"/>
+        <location filename="formalfaoption.ui" line="1448"/>
         <source>模内引拔上行点：</source>
         <translation>模內引拔上行點：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="692"/>
-        <location filename="formalfaoption.ui" line="1543"/>
+        <location filename="formalfaoption.ui" line="699"/>
+        <location filename="formalfaoption.ui" line="1555"/>
         <source>模内上下待机点：</source>
         <translation>模內上下待機點：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="799"/>
-        <location filename="formalfaoption.ui" line="1649"/>
+        <location filename="formalfaoption.ui" line="806"/>
+        <location filename="formalfaoption.ui" line="1662"/>
         <source>模外引拔置物点：</source>
         <translation>模外引拔置物點：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="903"/>
-        <location filename="formalfaoption.ui" line="1755"/>
+        <location filename="formalfaoption.ui" line="910"/>
+        <location filename="formalfaoption.ui" line="1769"/>
         <source>模外上下置物点：</source>
         <translation>模外上下置物點：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="1004"/>
+        <location filename="formalfaoption.ui" line="1011"/>
         <source>主臂置料使用</source>
         <translation>主臂置料使用</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="1016"/>
-        <location filename="formalfaoption.ui" line="4192"/>
-        <location filename="formalfaoption.ui" line="4961"/>
+        <location filename="formalfaoption.ui" line="1023"/>
+        <location filename="formalfaoption.ui" line="4227"/>
+        <location filename="formalfaoption.ui" line="5003"/>
         <source>副臂</source>
         <translation>副臂</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="1861"/>
+        <location filename="formalfaoption.ui" line="1876"/>
         <source>横行和速度</source>
         <translation>橫行和速度</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="1882"/>
+        <location filename="formalfaoption.ui" line="1897"/>
         <source>横行轴</source>
         <translation>橫行軸</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="1921"/>
+        <location filename="formalfaoption.ui" line="1936"/>
         <source>置物点：</source>
         <translation>置物點：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="2025"/>
+        <location filename="formalfaoption.ui" line="2040"/>
         <source>取物点：</source>
         <translation>取物點：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="2132"/>
+        <location filename="formalfaoption.ui" line="2147"/>
         <source>置料点：</source>
         <translation>置料點：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="2220"/>
+        <location filename="formalfaoption.ui" line="2236"/>
         <source>速度</source>
         <translation>速度</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="2259"/>
+        <location filename="formalfaoption.ui" line="2275"/>
         <source>B轴速度：</source>
         <translation>B軸速度：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="2363"/>
+        <location filename="formalfaoption.ui" line="2379"/>
         <source>Y轴模外速度：</source>
         <translation>Y軸模外速度：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="2467"/>
+        <location filename="formalfaoption.ui" line="2483"/>
         <source>X轴速度：</source>
         <translation>X軸速度：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="2571"/>
+        <location filename="formalfaoption.ui" line="2587"/>
         <source>Z轴速度：</source>
         <translation>Z軸速度：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="2675"/>
+        <location filename="formalfaoption.ui" line="2691"/>
         <source>Y轴速度：</source>
         <translation>Y軸速度：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="2712"/>
+        <location filename="formalfaoption.ui" line="2728"/>
         <source>A轴速度：</source>
         <translation>A軸速度：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="2816"/>
+        <location filename="formalfaoption.ui" line="2832"/>
         <source>C轴速度：</source>
         <translation>C軸速度：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="2987"/>
+        <location filename="formalfaoption.ui" line="3003"/>
         <source>A轴模外速度：</source>
         <translation>A軸模外速度：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3081"/>
+        <location filename="formalfaoption.ui" line="3097"/>
         <source>倒角</source>
         <translation>倒角</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3125"/>
+        <location filename="formalfaoption.ui" line="3141"/>
         <source>横入倒角姿态</source>
         <translation>橫入倒角姿態</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3156"/>
-        <location filename="formalfaoption.ui" line="3256"/>
-        <location filename="formalfaoption.ui" line="3356"/>
-        <location filename="formalfaoption.ui" line="3456"/>
+        <location filename="formalfaoption.ui" line="3172"/>
+        <location filename="formalfaoption.ui" line="3272"/>
+        <location filename="formalfaoption.ui" line="3372"/>
+        <location filename="formalfaoption.ui" line="3472"/>
         <source>倒平</source>
         <translation>倒平</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3187"/>
-        <location filename="formalfaoption.ui" line="3287"/>
-        <location filename="formalfaoption.ui" line="3387"/>
-        <location filename="formalfaoption.ui" line="3487"/>
+        <location filename="formalfaoption.ui" line="3203"/>
+        <location filename="formalfaoption.ui" line="3303"/>
+        <location filename="formalfaoption.ui" line="3403"/>
+        <location filename="formalfaoption.ui" line="3503"/>
         <source>倒直</source>
         <translation>倒直</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3225"/>
+        <location filename="formalfaoption.ui" line="3241"/>
         <source>横出倒角姿态</source>
         <translation>橫出倒角姿態</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3325"/>
+        <location filename="formalfaoption.ui" line="3341"/>
         <source>置物倒角姿态</source>
         <translation>置物倒角姿態</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3425"/>
+        <location filename="formalfaoption.ui" line="3441"/>
         <source>取物倒角姿态</source>
         <translation>取物倒角姿態</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3520"/>
+        <location filename="formalfaoption.ui" line="3539"/>
         <source>治具</source>
         <translation>治具</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3591"/>
-        <location filename="formalfaoption.ui" line="4243"/>
+        <location filename="formalfaoption.ui" line="3611"/>
+        <location filename="formalfaoption.ui" line="4278"/>
         <source>吸具一</source>
         <translation>吸具一</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3627"/>
-        <location filename="formalfaoption.ui" line="3699"/>
-        <location filename="formalfaoption.ui" line="3771"/>
-        <location filename="formalfaoption.ui" line="3843"/>
-        <location filename="formalfaoption.ui" line="3915"/>
-        <location filename="formalfaoption.ui" line="3987"/>
-        <location filename="formalfaoption.ui" line="4280"/>
-        <location filename="formalfaoption.ui" line="4354"/>
-        <location filename="formalfaoption.ui" line="4428"/>
-        <location filename="formalfaoption.ui" line="4502"/>
-        <location filename="formalfaoption.ui" line="4576"/>
-        <location filename="formalfaoption.ui" line="4650"/>
+        <location filename="formalfaoption.ui" line="3648"/>
+        <location filename="formalfaoption.ui" line="3722"/>
+        <location filename="formalfaoption.ui" line="3796"/>
+        <location filename="formalfaoption.ui" line="3870"/>
+        <location filename="formalfaoption.ui" line="3944"/>
+        <location filename="formalfaoption.ui" line="4018"/>
+        <location filename="formalfaoption.ui" line="4315"/>
+        <location filename="formalfaoption.ui" line="4389"/>
+        <location filename="formalfaoption.ui" line="4463"/>
+        <location filename="formalfaoption.ui" line="4537"/>
+        <location filename="formalfaoption.ui" line="4611"/>
+        <location filename="formalfaoption.ui" line="4685"/>
         <source>检测</source>
         <translation>檢測</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3663"/>
-        <location filename="formalfaoption.ui" line="4317"/>
+        <location filename="formalfaoption.ui" line="3685"/>
+        <location filename="formalfaoption.ui" line="4352"/>
         <source>吸具二</source>
         <translation>吸具二</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3735"/>
-        <location filename="formalfaoption.ui" line="4391"/>
+        <location filename="formalfaoption.ui" line="3759"/>
+        <location filename="formalfaoption.ui" line="4426"/>
         <source>抱具一</source>
         <translation>抱具一</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3807"/>
-        <location filename="formalfaoption.ui" line="4465"/>
+        <location filename="formalfaoption.ui" line="3833"/>
+        <location filename="formalfaoption.ui" line="4500"/>
         <source>抱具二</source>
         <translation>抱具二</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3879"/>
-        <location filename="formalfaoption.ui" line="4539"/>
+        <location filename="formalfaoption.ui" line="3907"/>
+        <location filename="formalfaoption.ui" line="4574"/>
         <source>抱具三</source>
         <translation>抱具三</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="3951"/>
-        <location filename="formalfaoption.ui" line="4613"/>
+        <location filename="formalfaoption.ui" line="3981"/>
+        <location filename="formalfaoption.ui" line="4648"/>
         <source>抱具四</source>
         <translation>抱具四</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="4020"/>
-        <location filename="formalfaoption.ui" line="4684"/>
+        <location filename="formalfaoption.ui" line="4052"/>
+        <location filename="formalfaoption.ui" line="4719"/>
         <source>治具延时：</source>
         <translation>治具延時：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="4113"/>
+        <location filename="formalfaoption.ui" line="4147"/>
         <source>倒角延时：</source>
         <translation>倒角延時：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="4766"/>
+        <location filename="formalfaoption.ui" line="4804"/>
         <source>矩阵</source>
         <translation>矩陣</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="4846"/>
+        <location filename="formalfaoption.ui" line="4886"/>
         <source>倒角水平</source>
         <translation>倒角水平</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="4888"/>
+        <location filename="formalfaoption.ui" line="4929"/>
         <source>垂直基准面</source>
         <translation>垂直基準面</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="4925"/>
+        <location filename="formalfaoption.ui" line="4966"/>
         <source>计数：</source>
         <translation>計數：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="5003"/>
+        <location filename="formalfaoption.ui" line="5046"/>
         <source>横行时倒平</source>
         <translation>橫行時倒平</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="5040"/>
+        <location filename="formalfaoption.ui" line="5084"/>
         <source>第一点位置</source>
         <translation>第一點位置</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="5244"/>
-        <location filename="formalfaoption.ui" line="5407"/>
-        <location filename="formalfaoption.ui" line="5438"/>
+        <location filename="formalfaoption.ui" line="5289"/>
+        <location filename="formalfaoption.ui" line="5454"/>
+        <location filename="formalfaoption.ui" line="5485"/>
         <source>相对</source>
         <translation>相對</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="5771"/>
+        <location filename="formalfaoption.ui" line="5825"/>
         <source>间距</source>
         <translation>間距</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="5809"/>
+        <location filename="formalfaoption.ui" line="5864"/>
         <source>上下间距：</source>
         <translation>上下間距:</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="6133"/>
+        <location filename="formalfaoption.ui" line="6194"/>
         <source>运行速度：</source>
         <translation>運行速度：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="6229"/>
+        <location filename="formalfaoption.ui" line="6292"/>
         <source>低速速度：</source>
         <translation>低速速度：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="6325"/>
+        <location filename="formalfaoption.ui" line="6390"/>
         <source>减速距离：</source>
         <translation>減速距離：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="6403"/>
+        <location filename="formalfaoption.ui" line="6470"/>
         <source>轴顺序</source>
         <translation>軸順序</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="6717"/>
-        <location filename="formalfaoption.ui" line="6737"/>
+        <location filename="formalfaoption.ui" line="6787"/>
+        <location filename="formalfaoption.ui" line="6808"/>
         <source>塑机</source>
         <translation>塑機</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="6778"/>
+        <location filename="formalfaoption.ui" line="6850"/>
         <source>顶针进控制</source>
         <translation>頂針進控制</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="6817"/>
+        <location filename="formalfaoption.ui" line="6890"/>
         <source>顶针进延时：</source>
         <translation>頂針進延時：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="6913"/>
+        <location filename="formalfaoption.ui" line="6988"/>
         <source>顶针退控制</source>
         <translation>頂針退控制</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="6952"/>
+        <location filename="formalfaoption.ui" line="7028"/>
         <source>顶针退延时：</source>
         <translation>頂針退延時：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7048"/>
+        <location filename="formalfaoption.ui" line="7126"/>
         <source>抽芯1进控制</source>
         <translation>抽芯1進控制</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7087"/>
+        <location filename="formalfaoption.ui" line="7166"/>
         <source>抽芯1进延时：</source>
         <translation>抽芯1進延時：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7183"/>
+        <location filename="formalfaoption.ui" line="7264"/>
         <source>抽芯1退控制</source>
         <translation>抽芯1退控制</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7222"/>
+        <location filename="formalfaoption.ui" line="7304"/>
         <source>抽芯1退延时：</source>
         <translation>抽芯1退延時：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7318"/>
+        <location filename="formalfaoption.ui" line="7402"/>
         <source>抽芯2进控制</source>
         <translation>抽芯2進控制</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7357"/>
+        <location filename="formalfaoption.ui" line="7442"/>
         <source>抽芯2进延时：</source>
         <translation>抽芯2進延時：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7453"/>
+        <location filename="formalfaoption.ui" line="7540"/>
         <source>抽芯2退控制</source>
         <translation>抽芯2退控制</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7492"/>
+        <location filename="formalfaoption.ui" line="7580"/>
         <source>抽芯2退延时：</source>
         <translation>抽芯2退延時：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7585"/>
+        <location filename="formalfaoption.ui" line="7675"/>
         <source>开模超时：</source>
         <translation>開模超時：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7678"/>
+        <location filename="formalfaoption.ui" line="7770"/>
         <source>关模延时：</source>
         <translation>關模延時：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7756"/>
+        <location filename="formalfaoption.ui" line="7850"/>
         <source>传送带</source>
         <translation>傳送帶</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7797"/>
+        <location filename="formalfaoption.ui" line="7892"/>
         <source>传送带控制</source>
         <translation>傳送帶控制</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7836"/>
+        <location filename="formalfaoption.ui" line="7932"/>
         <source>传送带输出:</source>
         <translation>傳送帶輸出:</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7900"/>
+        <location filename="formalfaoption.ui" line="7997"/>
         <source>传送带时间:</source>
         <translation>傳送帶時間:</translation>
     </message>
     <message>
-        <location filename="formalfaoption.ui" line="7993"/>
+        <location filename="formalfaoption.ui" line="8092"/>
         <source>传送带间隔:</source>
         <translation>傳送帶間隔:</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="337"/>
-        <location filename="formalfaoption.cpp" line="342"/>
-        <location filename="formalfaoption.cpp" line="347"/>
-        <location filename="formalfaoption.cpp" line="367"/>
-        <location filename="formalfaoption.cpp" line="376"/>
-        <location filename="formalfaoption.cpp" line="458"/>
-        <location filename="formalfaoption.cpp" line="463"/>
+        <location filename="formalfaoption.cpp" line="345"/>
+        <location filename="formalfaoption.cpp" line="350"/>
+        <location filename="formalfaoption.cpp" line="355"/>
+        <location filename="formalfaoption.cpp" line="375"/>
+        <location filename="formalfaoption.cpp" line="384"/>
+        <location filename="formalfaoption.cpp" line="466"/>
+        <location filename="formalfaoption.cpp" line="471"/>
         <source>系统警告</source>
         <translation>系統警告</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="337"/>
+        <location filename="formalfaoption.cpp" line="345"/>
         <source>读取程序版本出错，无法装载程序文件！</source>
         <translation>讀取程式版本出錯，無法裝載程式文件！</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="342"/>
+        <location filename="formalfaoption.cpp" line="350"/>
         <source>读取文件格式出错，无法装载程序文件！</source>
         <translation>讀取文件格式出錯，無法裝載程式文件！</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="347"/>
+        <location filename="formalfaoption.cpp" line="355"/>
         <source>读取程序文件出错，无法装载程序文件！</source>
         <translation>讀取程式文件出錯，無法裝載程式文件！</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="367"/>
+        <location filename="formalfaoption.cpp" line="375"/>
         <source>上传程序文件参数到主控模块出错，不能进行程序运行操作！
 请检查操作器和主控模块的通讯链路。</source>
         <translation>上傳程序文件參數到主控模塊出錯，不能進行程序運行操作！
 請檢查操作器和主控模塊的通訊鏈路。</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="376"/>
+        <location filename="formalfaoption.cpp" line="384"/>
         <source>主控模块更新当前程序失败，不能进行程序运行操作！
 请检查操作器和主控模块的通讯链路。</source>
         <translation>主控模塊更新當前程序失敗，不能進行程序運行操作！
 請檢查操作器和主控模塊的通訊鏈路。</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="412"/>
-        <location filename="formalfaoption.cpp" line="413"/>
-        <location filename="formalfaoption.cpp" line="414"/>
+        <location filename="formalfaoption.cpp" line="420"/>
+        <location filename="formalfaoption.cpp" line="421"/>
+        <location filename="formalfaoption.cpp" line="422"/>
         <source>点数：</source>
         <translation>點數：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="416"/>
-        <location filename="formalfaoption.cpp" line="417"/>
-        <location filename="formalfaoption.cpp" line="418"/>
+        <location filename="formalfaoption.cpp" line="424"/>
+        <location filename="formalfaoption.cpp" line="425"/>
+        <location filename="formalfaoption.cpp" line="426"/>
         <source>间距：</source>
         <translation>間距：</translation>
     </message>
@@ -12935,38 +13085,38 @@
         <translation type="obsolete">：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="424"/>
-        <location filename="formalfaoption.cpp" line="425"/>
-        <location filename="formalfaoption.cpp" line="426"/>
-        <location filename="formalfaoption.cpp" line="427"/>
-        <location filename="formalfaoption.cpp" line="428"/>
-        <location filename="formalfaoption.cpp" line="429"/>
+        <location filename="formalfaoption.cpp" line="432"/>
+        <location filename="formalfaoption.cpp" line="433"/>
+        <location filename="formalfaoption.cpp" line="434"/>
+        <location filename="formalfaoption.cpp" line="435"/>
+        <location filename="formalfaoption.cpp" line="436"/>
+        <location filename="formalfaoption.cpp" line="437"/>
         <source>轴速度：</source>
         <translation>軸速度：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="430"/>
-        <location filename="formalfaoption.cpp" line="431"/>
+        <location filename="formalfaoption.cpp" line="438"/>
+        <location filename="formalfaoption.cpp" line="439"/>
         <source>轴模外速度：</source>
         <translation>軸模外速度：</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="458"/>
+        <location filename="formalfaoption.cpp" line="466"/>
         <source>没有载入当前程序文件，不能进入向导！</source>
         <translation>沒有載入當前程式檔，不能進入嚮導！</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="463"/>
+        <location filename="formalfaoption.cpp" line="471"/>
         <source>装载当前程序文件出错，不能进入向导！</source>
         <translation>裝載當前程式檔出錯，不能進入嚮導！</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="641"/>
+        <location filename="formalfaoption.cpp" line="649"/>
         <source>系统提示</source>
         <translation>系統提示</translation>
     </message>
     <message>
-        <location filename="formalfaoption.cpp" line="693"/>
+        <location filename="formalfaoption.cpp" line="701"/>
         <source>保存参数</source>
         <translation>保存參數</translation>
     </message>
@@ -12974,191 +13124,191 @@
 <context>
     <name>Forminformation</name>
     <message>
-        <location filename="forminformation.cpp" line="54"/>
+        <location filename="forminformation.cpp" line="55"/>
         <source>ECat单臂</source>
         <translation>ECat單臂</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="56"/>
+        <location filename="forminformation.cpp" line="57"/>
         <source>ECat双臂</source>
         <translation>ECat雙臂</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="58"/>
+        <location filename="forminformation.cpp" line="59"/>
         <source>ECat压铸</source>
         <translation>ECat壓鑄</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="60"/>
+        <location filename="forminformation.cpp" line="61"/>
         <source>ECat新三轴</source>
         <translation>ECat新三軸</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="62"/>
+        <location filename="forminformation.cpp" line="63"/>
         <source>ECat高速三轴</source>
         <translation>ECat高速三軸</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="64"/>
+        <location filename="forminformation.cpp" line="65"/>
         <source>ECat高速六轴双臂</source>
         <translation>ECat高速六軸雙臂</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="66"/>
+        <location filename="forminformation.cpp" line="67"/>
         <source>ECat高速六轴单臂</source>
         <translation>ECat高速六軸單臂</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="68"/>
+        <location filename="forminformation.cpp" line="69"/>
         <source>ECat-欧规</source>
         <translation>ECat-歐規</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="73"/>
-        <location filename="forminformation.cpp" line="92"/>
+        <location filename="forminformation.cpp" line="74"/>
+        <location filename="forminformation.cpp" line="93"/>
         <source>单臂</source>
         <translation>單臂</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="75"/>
-        <location filename="forminformation.cpp" line="94"/>
+        <location filename="forminformation.cpp" line="76"/>
+        <location filename="forminformation.cpp" line="95"/>
         <source>双臂</source>
         <translation>雙臂</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="77"/>
-        <location filename="forminformation.cpp" line="96"/>
+        <location filename="forminformation.cpp" line="78"/>
+        <location filename="forminformation.cpp" line="97"/>
         <source>压铸</source>
         <translation>壓鑄</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="79"/>
-        <location filename="forminformation.cpp" line="98"/>
+        <location filename="forminformation.cpp" line="80"/>
+        <location filename="forminformation.cpp" line="99"/>
         <source>新三轴</source>
         <translation>新三軸</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="81"/>
-        <location filename="forminformation.cpp" line="100"/>
+        <location filename="forminformation.cpp" line="82"/>
+        <location filename="forminformation.cpp" line="101"/>
         <source>高速三轴</source>
         <translation>高速三軸</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="102"/>
+        <location filename="forminformation.cpp" line="103"/>
         <source>高速六轴双臂</source>
         <translation>高速六轴雙臂</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="104"/>
+        <location filename="forminformation.cpp" line="105"/>
         <source>高速六轴单臂</source>
         <translation>高速六轴單臂</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="87"/>
-        <location filename="forminformation.cpp" line="106"/>
+        <location filename="forminformation.cpp" line="88"/>
+        <location filename="forminformation.cpp" line="107"/>
         <source>-欧规</source>
         <translation>-歐規</translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="83"/>
+        <location filename="forminformation.cpp" line="84"/>
         <source>高速五轴双臂</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="85"/>
+        <location filename="forminformation.cpp" line="86"/>
         <source>高速五轴单臂</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="111"/>
+        <location filename="forminformation.cpp" line="112"/>
         <source>双总线单臂</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="113"/>
+        <location filename="forminformation.cpp" line="114"/>
         <source>双总线双臂</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="115"/>
+        <location filename="forminformation.cpp" line="116"/>
         <source>双总线压铸</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="117"/>
+        <location filename="forminformation.cpp" line="118"/>
         <source>双总线新三轴</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="119"/>
+        <location filename="forminformation.cpp" line="120"/>
         <source>双总线高速三轴</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="121"/>
+        <location filename="forminformation.cpp" line="122"/>
         <source>双总线高速六轴双臂</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="123"/>
+        <location filename="forminformation.cpp" line="124"/>
         <source>双总线高速六轴单臂</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="125"/>
+        <location filename="forminformation.cpp" line="126"/>
         <source>双总线-欧规</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="130"/>
+        <location filename="forminformation.cpp" line="131"/>
         <source>驱控一体单臂</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="132"/>
+        <location filename="forminformation.cpp" line="133"/>
         <source>驱控一体双臂</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="134"/>
+        <location filename="forminformation.cpp" line="135"/>
         <source>驱控一体压铸</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="136"/>
+        <location filename="forminformation.cpp" line="137"/>
         <source>驱控一体新三轴</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="138"/>
+        <location filename="forminformation.cpp" line="139"/>
         <source>驱控一体高速三轴</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="140"/>
+        <location filename="forminformation.cpp" line="141"/>
         <source>驱控一体高速六轴双臂</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="142"/>
+        <location filename="forminformation.cpp" line="143"/>
         <source>驱控一体高速六轴单臂</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="144"/>
+        <location filename="forminformation.cpp" line="145"/>
         <source>驱控一体-欧规</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="165"/>
-        <location filename="forminformation.cpp" line="172"/>
+        <location filename="forminformation.cpp" line="166"/>
+        <location filename="forminformation.cpp" line="173"/>
         <source>手控器：</source>
         <oldsource>操作器版本：</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="forminformation.cpp" line="165"/>
-        <location filename="forminformation.cpp" line="172"/>
+        <location filename="forminformation.cpp" line="166"/>
+        <location filename="forminformation.cpp" line="173"/>
         <source>主板版本：</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13166,52 +13316,52 @@
 <context>
     <name>Formmenu</name>
     <message>
-        <location filename="formmenu.ui" line="160"/>
+        <location filename="formmenu.ui" line="170"/>
         <source>程序初始化</source>
         <translation>程序初始化</translation>
     </message>
     <message>
-        <location filename="formmenu.ui" line="206"/>
+        <location filename="formmenu.ui" line="217"/>
         <source>界面设置</source>
         <translation>界面設置</translation>
     </message>
     <message>
-        <location filename="formmenu.ui" line="252"/>
+        <location filename="formmenu.ui" line="264"/>
         <source>系统信息</source>
         <translation>系統信息</translation>
     </message>
     <message>
-        <location filename="formmenu.ui" line="295"/>
+        <location filename="formmenu.ui" line="308"/>
         <source>系统日志</source>
         <translation>系統日誌</translation>
     </message>
     <message>
-        <location filename="formmenu.ui" line="342"/>
+        <location filename="formmenu.ui" line="355"/>
         <source>端口设置</source>
         <translation>端口設置</translation>
     </message>
     <message>
-        <location filename="formmenu.ui" line="394"/>
+        <location filename="formmenu.ui" line="408"/>
         <source>系统设置</source>
         <translation>系統設置</translation>
     </message>
     <message>
-        <location filename="formmenu.ui" line="440"/>
+        <location filename="formmenu.ui" line="455"/>
         <source>伺服设置</source>
         <translation>伺服設置</translation>
     </message>
     <message>
-        <location filename="formmenu.ui" line="486"/>
+        <location filename="formmenu.ui" line="502"/>
         <source>软件升级</source>
         <translation>軟體升級</translation>
     </message>
     <message>
-        <location filename="formmenu.ui" line="532"/>
+        <location filename="formmenu.ui" line="549"/>
         <source> 程序配置</source>
         <translation>程序配置</translation>
     </message>
     <message>
-        <location filename="formmenu.ui" line="578"/>
+        <location filename="formmenu.ui" line="596"/>
         <source>调位操作</source>
         <translation>調位操作</translation>
     </message>
@@ -13219,966 +13369,1021 @@
 <context>
     <name>Formservo</name>
     <message>
-        <location filename="formservo.ui" line="79"/>
+        <location filename="formservo.ui" line="15760"/>
         <source>安全区1</source>
         <translation>安全區1</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="544"/>
+        <location filename="formservo.ui" line="399"/>
         <source>横行模外安全区域</source>
         <translation>橫行模外安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="1046"/>
+        <location filename="formservo.ui" line="901"/>
         <source>副臂横行模内安全区域</source>
         <translation>副臂橫行模内安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="1086"/>
+        <location filename="formservo.ui" line="941"/>
         <source>横行轴原点复归后待机位置</source>
         <translation>橫行軸原點複歸後待機位置</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="1130"/>
-        <location filename="formservo.ui" line="1749"/>
+        <location filename="formservo.ui" line="985"/>
+        <location filename="formservo.ui" line="1604"/>
         <source>终点</source>
         <translation>終點</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="1181"/>
+        <location filename="formservo.ui" line="1036"/>
         <source>横行轴外安全区域2</source>
         <translation>橫行模外安全區域2</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="1357"/>
+        <location filename="formservo.ui" line="1212"/>
         <source>正臂横行模内安全区域</source>
         <translation>正臂橫行模內安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="1397"/>
+        <location filename="formservo.ui" line="1252"/>
         <source>正臂引拔模内安全区域</source>
         <translation>正臂引拔橫行安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="1428"/>
-        <location filename="formservo.ui" line="2758"/>
+        <location filename="formservo.ui" line="1283"/>
+        <location filename="formservo.ui" line="2615"/>
         <source>起点</source>
         <translation>起點</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="1479"/>
+        <location filename="formservo.ui" line="1334"/>
         <source>正臂上行位置安全区域</source>
         <translation>正臂上行位置安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="1583"/>
+        <location filename="formservo.ui" line="1438"/>
         <source>正臂引拔横行安全区域</source>
         <translation>正臂引拔模內安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="2163"/>
+        <location filename="formservo.ui" line="2019"/>
         <source>副臂上下(倒角)模内安全区域</source>
         <translation>副臂上下(倒角)模內安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="2212"/>
-        <location filename="formservo.ui" line="2276"/>
-        <location filename="formservo.ui" line="2379"/>
-        <location filename="formservo.ui" line="2443"/>
+        <location filename="formservo.ui" line="2068"/>
+        <location filename="formservo.ui" line="2132"/>
+        <location filename="formservo.ui" line="2236"/>
+        <location filename="formservo.ui" line="2300"/>
         <source>°</source>
         <translation>°</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="2330"/>
+        <location filename="formservo.ui" line="2187"/>
         <source>副臂上下(倒角)横行安全区域</source>
         <translation>副臂上下(倒角)橫行安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="2808"/>
+        <location filename="formservo.ui" line="2666"/>
         <source>副臂上行位置安全区域</source>
         <translation>副臂上行位置安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="2847"/>
+        <location filename="formservo.ui" line="2706"/>
         <source>副臂引拔模内安全区域</source>
         <translation>副臂引拔模內安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="2886"/>
+        <location filename="formservo.ui" line="2746"/>
         <source>副臂引拔横行安全区域</source>
         <translation>副臂引拔橫行安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="2925"/>
+        <location filename="formservo.ui" line="2786"/>
         <source>扩展轴模内安全区域</source>
         <translation>擴展軸模內安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="2964"/>
+        <location filename="formservo.ui" line="2826"/>
         <source>扩展轴横行安全区域</source>
         <translation>擴展軸橫行安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="3008"/>
+        <location filename="formservo.ui" line="2870"/>
         <source>取物点</source>
         <translation>取物點</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="3048"/>
+        <location filename="formservo.ui" line="2910"/>
         <source>置物点</source>
         <translation>置物點</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="3088"/>
+        <location filename="formservo.ui" line="2950"/>
         <source>待机点</source>
         <translation>待機點</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="3107"/>
+        <location filename="formservo.ui" line="2969"/>
         <source>正臂引拔轴</source>
         <translation>正臂引拔軸</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="3167"/>
-        <location filename="formservo.ui" line="3234"/>
-        <location filename="formservo.ui" line="3301"/>
-        <location filename="formservo.ui" line="3392"/>
-        <location filename="formservo.ui" line="3459"/>
-        <location filename="formservo.ui" line="3529"/>
-        <location filename="formservo.ui" line="3620"/>
-        <location filename="formservo.ui" line="3687"/>
-        <location filename="formservo.ui" line="3754"/>
-        <location filename="formservo.ui" line="3848"/>
-        <location filename="formservo.ui" line="3915"/>
-        <location filename="formservo.ui" line="3982"/>
-        <location filename="formservo.ui" line="4073"/>
-        <location filename="formservo.ui" line="4140"/>
-        <location filename="formservo.ui" line="4207"/>
-        <location filename="formservo.ui" line="4298"/>
-        <location filename="formservo.ui" line="4365"/>
-        <location filename="formservo.ui" line="4432"/>
+        <location filename="formservo.ui" line="3029"/>
+        <location filename="formservo.ui" line="3096"/>
+        <location filename="formservo.ui" line="3163"/>
+        <location filename="formservo.ui" line="3254"/>
+        <location filename="formservo.ui" line="3321"/>
+        <location filename="formservo.ui" line="3391"/>
+        <location filename="formservo.ui" line="3482"/>
+        <location filename="formservo.ui" line="3549"/>
+        <location filename="formservo.ui" line="3616"/>
+        <location filename="formservo.ui" line="3710"/>
+        <location filename="formservo.ui" line="3777"/>
+        <location filename="formservo.ui" line="3844"/>
+        <location filename="formservo.ui" line="3935"/>
+        <location filename="formservo.ui" line="4002"/>
+        <location filename="formservo.ui" line="4069"/>
+        <location filename="formservo.ui" line="4160"/>
+        <location filename="formservo.ui" line="4227"/>
+        <location filename="formservo.ui" line="4294"/>
         <source>mm</source>
         <translation>mm</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="3335"/>
+        <location filename="formservo.ui" line="3197"/>
         <source>副臂引拔轴</source>
         <translation>副臂引拔軸</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="3563"/>
+        <location filename="formservo.ui" line="3425"/>
         <source>正臂上下轴</source>
         <translation>正臂上下軸</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="3788"/>
+        <location filename="formservo.ui" line="3650"/>
         <source>副臂上下轴</source>
         <translation>副臂上下軸</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4016"/>
-        <location filename="formservo.ui" line="14326"/>
-        <location filename="formservo.ui" line="15328"/>
+        <location filename="formservo.ui" line="3878"/>
+        <location filename="formservo.ui" line="14010"/>
+        <location filename="formservo.ui" line="16093"/>
         <source>横行轴</source>
         <translation>橫行軸</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4241"/>
-        <location filename="formservo.ui" line="14292"/>
-        <location filename="formservo.ui" line="15220"/>
+        <location filename="formservo.ui" line="4103"/>
+        <location filename="formservo.ui" line="14106"/>
+        <location filename="formservo.ui" line="16019"/>
         <source>扩展轴</source>
         <translation>擴展軸</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4899"/>
-        <location filename="formservo.ui" line="6665"/>
-        <location filename="formservo.ui" line="8251"/>
-        <location filename="formservo.ui" line="9674"/>
-        <location filename="formservo.ui" line="11446"/>
-        <location filename="formservo.ui" line="13047"/>
+        <location filename="formservo.ui" line="4763"/>
+        <location filename="formservo.ui" line="6535"/>
+        <location filename="formservo.ui" line="8130"/>
+        <location filename="formservo.ui" line="9563"/>
+        <location filename="formservo.ui" line="11341"/>
+        <location filename="formservo.ui" line="12951"/>
         <source>最高转速：</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4913"/>
-        <location filename="formservo.ui" line="6679"/>
-        <location filename="formservo.ui" line="8265"/>
-        <location filename="formservo.ui" line="9688"/>
-        <location filename="formservo.ui" line="11460"/>
-        <location filename="formservo.ui" line="13061"/>
+        <location filename="formservo.ui" line="4779"/>
+        <location filename="formservo.ui" line="6551"/>
+        <location filename="formservo.ui" line="8146"/>
+        <location filename="formservo.ui" line="9579"/>
+        <location filename="formservo.ui" line="11357"/>
+        <location filename="formservo.ui" line="12967"/>
         <source>300</source>
         <translation type="unfinished">300</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4927"/>
-        <location filename="formservo.ui" line="6693"/>
-        <location filename="formservo.ui" line="8279"/>
-        <location filename="formservo.ui" line="9702"/>
-        <location filename="formservo.ui" line="11474"/>
-        <location filename="formservo.ui" line="13075"/>
+        <location filename="formservo.ui" line="4795"/>
+        <location filename="formservo.ui" line="6567"/>
+        <location filename="formservo.ui" line="8162"/>
+        <location filename="formservo.ui" line="9595"/>
+        <location filename="formservo.ui" line="11373"/>
+        <location filename="formservo.ui" line="12983"/>
         <source>转</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5126"/>
-        <location filename="formservo.ui" line="6825"/>
-        <location filename="formservo.ui" line="8411"/>
-        <location filename="formservo.ui" line="9904"/>
-        <location filename="formservo.ui" line="11609"/>
-        <location filename="formservo.ui" line="13210"/>
+        <location filename="formservo.ui" line="4994"/>
+        <location filename="formservo.ui" line="6699"/>
+        <location filename="formservo.ui" line="8294"/>
+        <location filename="formservo.ui" line="9797"/>
+        <location filename="formservo.ui" line="11508"/>
+        <location filename="formservo.ui" line="13118"/>
         <source>原点偏移</source>
         <translation>原點偏移</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4885"/>
-        <location filename="formservo.ui" line="6587"/>
-        <location filename="formservo.ui" line="8173"/>
-        <location filename="formservo.ui" line="9660"/>
-        <location filename="formservo.ui" line="11365"/>
-        <location filename="formservo.ui" line="12966"/>
+        <location filename="formservo.ui" line="4747"/>
+        <location filename="formservo.ui" line="6455"/>
+        <location filename="formservo.ui" line="8050"/>
+        <location filename="formservo.ui" line="9547"/>
+        <location filename="formservo.ui" line="11258"/>
+        <location filename="formservo.ui" line="12868"/>
         <source>运行速度</source>
         <translation>運行速度</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4612"/>
-        <location filename="formservo.ui" line="6216"/>
-        <location filename="formservo.ui" line="7803"/>
-        <location filename="formservo.ui" line="9387"/>
-        <location filename="formservo.ui" line="10991"/>
-        <location filename="formservo.ui" line="12593"/>
+        <location filename="formservo.ui" line="4474"/>
+        <location filename="formservo.ui" line="6084"/>
+        <location filename="formservo.ui" line="7679"/>
+        <location filename="formservo.ui" line="9274"/>
+        <location filename="formservo.ui" line="10884"/>
+        <location filename="formservo.ui" line="12494"/>
         <source>减速类型</source>
         <translation>減速類型</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4640"/>
-        <location filename="formservo.ui" line="6244"/>
-        <location filename="formservo.ui" line="7830"/>
-        <location filename="formservo.ui" line="9415"/>
-        <location filename="formservo.ui" line="11019"/>
-        <location filename="formservo.ui" line="12620"/>
+        <location filename="formservo.ui" line="4502"/>
+        <location filename="formservo.ui" line="6112"/>
+        <location filename="formservo.ui" line="7707"/>
+        <location filename="formservo.ui" line="9302"/>
+        <location filename="formservo.ui" line="10912"/>
+        <location filename="formservo.ui" line="12522"/>
         <source>指数减速</source>
         <translation>指數減速</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4778"/>
-        <location filename="formservo.ui" line="6480"/>
-        <location filename="formservo.ui" line="8066"/>
-        <location filename="formservo.ui" line="9553"/>
-        <location filename="formservo.ui" line="11258"/>
-        <location filename="formservo.ui" line="12859"/>
+        <location filename="formservo.ui" line="4640"/>
+        <location filename="formservo.ui" line="6348"/>
+        <location filename="formservo.ui" line="7943"/>
+        <location filename="formservo.ui" line="9440"/>
+        <location filename="formservo.ui" line="11151"/>
+        <location filename="formservo.ui" line="12761"/>
         <source>马达转动一圈所需脉冲</source>
         <translation>馬達轉動一圈所需脈衝</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4674"/>
-        <location filename="formservo.ui" line="6376"/>
-        <location filename="formservo.ui" line="7962"/>
-        <location filename="formservo.ui" line="9449"/>
-        <location filename="formservo.ui" line="11154"/>
-        <location filename="formservo.ui" line="12755"/>
+        <location filename="formservo.ui" line="4536"/>
+        <location filename="formservo.ui" line="6244"/>
+        <location filename="formservo.ui" line="7839"/>
+        <location filename="formservo.ui" line="9336"/>
+        <location filename="formservo.ui" line="11047"/>
+        <location filename="formservo.ui" line="12657"/>
         <source>马达转动一圈距离</source>
         <translation>馬達轉動一圈距離</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4488"/>
-        <location filename="formservo.ui" line="6092"/>
-        <location filename="formservo.ui" line="7681"/>
-        <location filename="formservo.ui" line="9263"/>
-        <location filename="formservo.ui" line="10867"/>
-        <location filename="formservo.ui" line="12471"/>
+        <location filename="formservo.ui" line="4350"/>
+        <location filename="formservo.ui" line="5960"/>
+        <location filename="formservo.ui" line="7555"/>
+        <location filename="formservo.ui" line="9150"/>
+        <location filename="formservo.ui" line="10760"/>
+        <location filename="formservo.ui" line="12370"/>
         <source>轴类型</source>
         <translation>軸類型</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5438"/>
-        <location filename="formservo.ui" line="7137"/>
-        <location filename="formservo.ui" line="8723"/>
-        <location filename="formservo.ui" line="10216"/>
-        <location filename="formservo.ui" line="11921"/>
-        <location filename="formservo.ui" line="13522"/>
+        <location filename="formservo.ui" line="5306"/>
+        <location filename="formservo.ui" line="7011"/>
+        <location filename="formservo.ui" line="8606"/>
+        <location filename="formservo.ui" line="10109"/>
+        <location filename="formservo.ui" line="11820"/>
+        <location filename="formservo.ui" line="13430"/>
         <source>原点归位模式</source>
         <translation>原點歸位模式</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5476"/>
-        <location filename="formservo.ui" line="7172"/>
-        <location filename="formservo.ui" line="8757"/>
-        <location filename="formservo.ui" line="10251"/>
-        <location filename="formservo.ui" line="11956"/>
-        <location filename="formservo.ui" line="13556"/>
+        <location filename="formservo.ui" line="5344"/>
+        <location filename="formservo.ui" line="7046"/>
+        <location filename="formservo.ui" line="8641"/>
+        <location filename="formservo.ui" line="10144"/>
+        <location filename="formservo.ui" line="11855"/>
+        <location filename="formservo.ui" line="13465"/>
         <source>不归原点</source>
         <translation>不歸原點</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5481"/>
-        <location filename="formservo.ui" line="7177"/>
-        <location filename="formservo.ui" line="8762"/>
-        <location filename="formservo.ui" line="10256"/>
-        <location filename="formservo.ui" line="11961"/>
-        <location filename="formservo.ui" line="13561"/>
+        <location filename="formservo.ui" line="5349"/>
+        <location filename="formservo.ui" line="7051"/>
+        <location filename="formservo.ui" line="8646"/>
+        <location filename="formservo.ui" line="10149"/>
+        <location filename="formservo.ui" line="11860"/>
+        <location filename="formservo.ui" line="13470"/>
         <source>原点信号+Z相</source>
         <translation>原點信號 + Z相</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5486"/>
-        <location filename="formservo.ui" line="7182"/>
-        <location filename="formservo.ui" line="8767"/>
-        <location filename="formservo.ui" line="10261"/>
-        <location filename="formservo.ui" line="11966"/>
-        <location filename="formservo.ui" line="13566"/>
+        <location filename="formservo.ui" line="5354"/>
+        <location filename="formservo.ui" line="7056"/>
+        <location filename="formservo.ui" line="8651"/>
+        <location filename="formservo.ui" line="10154"/>
+        <location filename="formservo.ui" line="11865"/>
+        <location filename="formservo.ui" line="13475"/>
         <source>原点信号</source>
         <translation>原點信號</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4516"/>
-        <location filename="formservo.ui" line="6120"/>
-        <location filename="formservo.ui" line="7708"/>
-        <location filename="formservo.ui" line="9291"/>
-        <location filename="formservo.ui" line="10895"/>
-        <location filename="formservo.ui" line="12498"/>
+        <location filename="formservo.ui" line="4378"/>
+        <location filename="formservo.ui" line="5988"/>
+        <location filename="formservo.ui" line="7583"/>
+        <location filename="formservo.ui" line="9178"/>
+        <location filename="formservo.ui" line="10788"/>
+        <location filename="formservo.ui" line="12398"/>
         <source>旋转</source>
         <translation>旋轉</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5814"/>
+        <location filename="formservo.ui" line="5682"/>
         <source>正副臂原点距离</source>
         <translation>正副臂原點距離</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5028"/>
-        <location filename="formservo.ui" line="6727"/>
-        <location filename="formservo.ui" line="8313"/>
-        <location filename="formservo.ui" line="9803"/>
-        <location filename="formservo.ui" line="11508"/>
-        <location filename="formservo.ui" line="13109"/>
+        <location filename="formservo.ui" line="4896"/>
+        <location filename="formservo.ui" line="6601"/>
+        <location filename="formservo.ui" line="8196"/>
+        <location filename="formservo.ui" line="9696"/>
+        <location filename="formservo.ui" line="11407"/>
+        <location filename="formservo.ui" line="13017"/>
         <source>加速度</source>
         <translation>加速度</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5521"/>
-        <location filename="formservo.ui" line="5752"/>
-        <location filename="formservo.ui" line="7217"/>
-        <location filename="formservo.ui" line="7442"/>
-        <location filename="formservo.ui" line="8802"/>
-        <location filename="formservo.ui" line="9026"/>
-        <location filename="formservo.ui" line="10296"/>
-        <location filename="formservo.ui" line="10524"/>
-        <location filename="formservo.ui" line="12001"/>
-        <location filename="formservo.ui" line="12229"/>
-        <location filename="formservo.ui" line="13601"/>
-        <location filename="formservo.ui" line="13828"/>
+        <location filename="formservo.ui" line="5389"/>
+        <location filename="formservo.ui" line="5620"/>
+        <location filename="formservo.ui" line="7091"/>
+        <location filename="formservo.ui" line="7316"/>
+        <location filename="formservo.ui" line="8686"/>
+        <location filename="formservo.ui" line="8911"/>
+        <location filename="formservo.ui" line="10189"/>
+        <location filename="formservo.ui" line="10417"/>
+        <location filename="formservo.ui" line="11900"/>
+        <location filename="formservo.ui" line="12128"/>
+        <location filename="formservo.ui" line="13510"/>
+        <location filename="formservo.ui" line="13738"/>
         <source>编码器类型</source>
         <translation>編碼器類型</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5556"/>
-        <location filename="formservo.ui" line="7249"/>
-        <location filename="formservo.ui" line="8833"/>
-        <location filename="formservo.ui" line="10328"/>
-        <location filename="formservo.ui" line="12033"/>
-        <location filename="formservo.ui" line="13632"/>
+        <location filename="formservo.ui" line="5424"/>
+        <location filename="formservo.ui" line="7123"/>
+        <location filename="formservo.ui" line="8718"/>
+        <location filename="formservo.ui" line="10221"/>
+        <location filename="formservo.ui" line="11932"/>
+        <location filename="formservo.ui" line="13542"/>
         <source>无</source>
         <translation>無</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5561"/>
-        <location filename="formservo.ui" line="7254"/>
-        <location filename="formservo.ui" line="8838"/>
-        <location filename="formservo.ui" line="10333"/>
-        <location filename="formservo.ui" line="12038"/>
-        <location filename="formservo.ui" line="13637"/>
+        <location filename="formservo.ui" line="5429"/>
+        <location filename="formservo.ui" line="7128"/>
+        <location filename="formservo.ui" line="8723"/>
+        <location filename="formservo.ui" line="10226"/>
+        <location filename="formservo.ui" line="11937"/>
+        <location filename="formservo.ui" line="13547"/>
         <source>禾川X3伺服</source>
         <translation>禾川X3伺服</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5566"/>
-        <location filename="formservo.ui" line="7259"/>
-        <location filename="formservo.ui" line="8843"/>
-        <location filename="formservo.ui" line="10338"/>
-        <location filename="formservo.ui" line="12043"/>
-        <location filename="formservo.ui" line="13642"/>
+        <location filename="formservo.ui" line="5434"/>
+        <location filename="formservo.ui" line="7133"/>
+        <location filename="formservo.ui" line="8728"/>
+        <location filename="formservo.ui" line="10231"/>
+        <location filename="formservo.ui" line="11942"/>
+        <location filename="formservo.ui" line="13552"/>
         <source>禾川X3E伺服</source>
         <translation>禾川X3E伺服</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5571"/>
-        <location filename="formservo.ui" line="7264"/>
-        <location filename="formservo.ui" line="8848"/>
-        <location filename="formservo.ui" line="10343"/>
-        <location filename="formservo.ui" line="12048"/>
-        <location filename="formservo.ui" line="13647"/>
+        <location filename="formservo.ui" line="5439"/>
+        <location filename="formservo.ui" line="7138"/>
+        <location filename="formservo.ui" line="8733"/>
+        <location filename="formservo.ui" line="10236"/>
+        <location filename="formservo.ui" line="11947"/>
+        <location filename="formservo.ui" line="13557"/>
         <source>台达A2伺服</source>
         <translation>臺達A2伺服</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5576"/>
-        <location filename="formservo.ui" line="7269"/>
-        <location filename="formservo.ui" line="8853"/>
-        <location filename="formservo.ui" line="10348"/>
-        <location filename="formservo.ui" line="12053"/>
-        <location filename="formservo.ui" line="13652"/>
+        <location filename="formservo.ui" line="5444"/>
+        <location filename="formservo.ui" line="7143"/>
+        <location filename="formservo.ui" line="8738"/>
+        <location filename="formservo.ui" line="10241"/>
+        <location filename="formservo.ui" line="11952"/>
+        <location filename="formservo.ui" line="13562"/>
         <source>三菱MR-JE-A</source>
         <translation>三菱MR-JE-A</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5581"/>
-        <location filename="formservo.ui" line="7274"/>
-        <location filename="formservo.ui" line="8858"/>
-        <location filename="formservo.ui" line="10353"/>
-        <location filename="formservo.ui" line="12058"/>
-        <location filename="formservo.ui" line="13657"/>
+        <location filename="formservo.ui" line="5449"/>
+        <location filename="formservo.ui" line="7148"/>
+        <location filename="formservo.ui" line="8743"/>
+        <location filename="formservo.ui" line="10246"/>
+        <location filename="formservo.ui" line="11957"/>
+        <location filename="formservo.ui" line="13567"/>
         <source>松下A6</source>
         <translation>松下A6</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5586"/>
-        <location filename="formservo.ui" line="7279"/>
-        <location filename="formservo.ui" line="8863"/>
-        <location filename="formservo.ui" line="10358"/>
-        <location filename="formservo.ui" line="12063"/>
-        <location filename="formservo.ui" line="13662"/>
+        <location filename="formservo.ui" line="5454"/>
+        <location filename="formservo.ui" line="7153"/>
+        <location filename="formservo.ui" line="8748"/>
+        <location filename="formservo.ui" line="10251"/>
+        <location filename="formservo.ui" line="11962"/>
+        <location filename="formservo.ui" line="13572"/>
         <source>新思SS</source>
         <translation>新思SS</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5591"/>
-        <location filename="formservo.ui" line="7284"/>
-        <location filename="formservo.ui" line="8868"/>
-        <location filename="formservo.ui" line="10363"/>
-        <location filename="formservo.ui" line="12068"/>
-        <location filename="formservo.ui" line="13667"/>
+        <location filename="formservo.ui" line="5459"/>
+        <location filename="formservo.ui" line="7158"/>
+        <location filename="formservo.ui" line="8753"/>
+        <location filename="formservo.ui" line="10256"/>
+        <location filename="formservo.ui" line="11967"/>
+        <location filename="formservo.ui" line="13577"/>
         <source>汇川SV660P</source>
         <translation>匯川SV660P</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5596"/>
-        <location filename="formservo.ui" line="7289"/>
-        <location filename="formservo.ui" line="8873"/>
-        <location filename="formservo.ui" line="10368"/>
-        <location filename="formservo.ui" line="12073"/>
-        <location filename="formservo.ui" line="13672"/>
+        <location filename="formservo.ui" line="5464"/>
+        <location filename="formservo.ui" line="7163"/>
+        <location filename="formservo.ui" line="8758"/>
+        <location filename="formservo.ui" line="10261"/>
+        <location filename="formservo.ui" line="11972"/>
+        <location filename="formservo.ui" line="13582"/>
         <source>红森伺服</source>
         <translation>紅森伺服</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5601"/>
-        <location filename="formservo.ui" line="7294"/>
-        <location filename="formservo.ui" line="8878"/>
-        <location filename="formservo.ui" line="10373"/>
-        <location filename="formservo.ui" line="12078"/>
-        <location filename="formservo.ui" line="13677"/>
+        <location filename="formservo.ui" line="5469"/>
+        <location filename="formservo.ui" line="7168"/>
+        <location filename="formservo.ui" line="8763"/>
+        <location filename="formservo.ui" line="10266"/>
+        <location filename="formservo.ui" line="11977"/>
+        <location filename="formservo.ui" line="13587"/>
         <source>日川伺服</source>
         <translation>日川伺服</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5606"/>
-        <location filename="formservo.ui" line="7299"/>
-        <location filename="formservo.ui" line="8883"/>
-        <location filename="formservo.ui" line="10378"/>
-        <location filename="formservo.ui" line="12083"/>
-        <location filename="formservo.ui" line="13682"/>
+        <location filename="formservo.ui" line="5474"/>
+        <location filename="formservo.ui" line="7173"/>
+        <location filename="formservo.ui" line="8768"/>
+        <location filename="formservo.ui" line="10271"/>
+        <location filename="formservo.ui" line="11982"/>
+        <location filename="formservo.ui" line="13592"/>
         <source>SIGRINER</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5611"/>
-        <location filename="formservo.ui" line="7304"/>
-        <location filename="formservo.ui" line="8888"/>
-        <location filename="formservo.ui" line="10383"/>
-        <location filename="formservo.ui" line="12088"/>
-        <location filename="formservo.ui" line="13687"/>
+        <location filename="formservo.ui" line="5479"/>
+        <location filename="formservo.ui" line="7178"/>
+        <location filename="formservo.ui" line="8773"/>
+        <location filename="formservo.ui" line="10276"/>
+        <location filename="formservo.ui" line="11987"/>
+        <location filename="formservo.ui" line="13597"/>
         <source>瑞能</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5616"/>
-        <location filename="formservo.ui" line="7309"/>
-        <location filename="formservo.ui" line="8893"/>
-        <location filename="formservo.ui" line="10388"/>
-        <location filename="formservo.ui" line="12093"/>
-        <location filename="formservo.ui" line="13692"/>
+        <location filename="formservo.ui" line="5484"/>
+        <location filename="formservo.ui" line="7183"/>
+        <location filename="formservo.ui" line="8778"/>
+        <location filename="formservo.ui" line="10281"/>
+        <location filename="formservo.ui" line="11992"/>
+        <location filename="formservo.ui" line="13602"/>
         <source>新睿DVS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5651"/>
-        <location filename="formservo.ui" line="7344"/>
-        <location filename="formservo.ui" line="8928"/>
-        <location filename="formservo.ui" line="10423"/>
-        <location filename="formservo.ui" line="12128"/>
-        <location filename="formservo.ui" line="13727"/>
+        <location filename="formservo.ui" line="5519"/>
+        <location filename="formservo.ui" line="7218"/>
+        <location filename="formservo.ui" line="8813"/>
+        <location filename="formservo.ui" line="10316"/>
+        <location filename="formservo.ui" line="12027"/>
+        <location filename="formservo.ui" line="13637"/>
         <source>编码器地址</source>
         <translation>編碼器位址</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4550"/>
-        <location filename="formservo.ui" line="6154"/>
-        <location filename="formservo.ui" line="7742"/>
-        <location filename="formservo.ui" line="9325"/>
-        <location filename="formservo.ui" line="10929"/>
-        <location filename="formservo.ui" line="12532"/>
+        <location filename="formservo.ui" line="4412"/>
+        <location filename="formservo.ui" line="6022"/>
+        <location filename="formservo.ui" line="7617"/>
+        <location filename="formservo.ui" line="9212"/>
+        <location filename="formservo.ui" line="10822"/>
+        <location filename="formservo.ui" line="12432"/>
         <source>伺服方向</source>
         <translation>伺服方向</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="4578"/>
-        <location filename="formservo.ui" line="6182"/>
-        <location filename="formservo.ui" line="7769"/>
-        <location filename="formservo.ui" line="9353"/>
-        <location filename="formservo.ui" line="10957"/>
-        <location filename="formservo.ui" line="12559"/>
+        <location filename="formservo.ui" line="4440"/>
+        <location filename="formservo.ui" line="6050"/>
+        <location filename="formservo.ui" line="7645"/>
+        <location filename="formservo.ui" line="9240"/>
+        <location filename="formservo.ui" line="10850"/>
+        <location filename="formservo.ui" line="12460"/>
         <source>反向</source>
         <translation>反向</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5230"/>
-        <location filename="formservo.ui" line="6929"/>
-        <location filename="formservo.ui" line="8515"/>
-        <location filename="formservo.ui" line="10008"/>
-        <location filename="formservo.ui" line="11713"/>
-        <location filename="formservo.ui" line="13314"/>
+        <location filename="formservo.ui" line="5098"/>
+        <location filename="formservo.ui" line="6803"/>
+        <location filename="formservo.ui" line="8398"/>
+        <location filename="formservo.ui" line="9901"/>
+        <location filename="formservo.ui" line="11612"/>
+        <location filename="formservo.ui" line="13222"/>
         <source>原点待机点</source>
         <translation>原點待機點</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5334"/>
-        <location filename="formservo.ui" line="7033"/>
-        <location filename="formservo.ui" line="8619"/>
-        <location filename="formservo.ui" line="10112"/>
-        <location filename="formservo.ui" line="11817"/>
-        <location filename="formservo.ui" line="13418"/>
+        <location filename="formservo.ui" line="5202"/>
+        <location filename="formservo.ui" line="6907"/>
+        <location filename="formservo.ui" line="8502"/>
+        <location filename="formservo.ui" line="10005"/>
+        <location filename="formservo.ui" line="11716"/>
+        <location filename="formservo.ui" line="13326"/>
         <source>模</source>
         <translation>模</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="6013"/>
-        <location filename="formservo.ui" line="7602"/>
-        <location filename="formservo.ui" line="9185"/>
-        <location filename="formservo.ui" line="10788"/>
-        <location filename="formservo.ui" line="12392"/>
-        <location filename="formservo.ui" line="13990"/>
+        <location filename="formservo.ui" line="5881"/>
+        <location filename="formservo.ui" line="7476"/>
+        <location filename="formservo.ui" line="9071"/>
+        <location filename="formservo.ui" line="10681"/>
+        <location filename="formservo.ui" line="12291"/>
+        <location filename="formservo.ui" line="13901"/>
         <source>找原点方式</source>
         <translation>找原點方式</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="6041"/>
-        <location filename="formservo.ui" line="7630"/>
-        <location filename="formservo.ui" line="9212"/>
-        <location filename="formservo.ui" line="10816"/>
-        <location filename="formservo.ui" line="12420"/>
-        <location filename="formservo.ui" line="14017"/>
+        <location filename="formservo.ui" line="5909"/>
+        <location filename="formservo.ui" line="7504"/>
+        <location filename="formservo.ui" line="9099"/>
+        <location filename="formservo.ui" line="10709"/>
+        <location filename="formservo.ui" line="12319"/>
+        <location filename="formservo.ui" line="13929"/>
         <source>末端</source>
         <translation>末端</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5915"/>
-        <location filename="formservo.ui" line="7504"/>
-        <location filename="formservo.ui" line="9087"/>
-        <location filename="formservo.ui" line="10687"/>
-        <location filename="formservo.ui" line="12291"/>
-        <location filename="formservo.ui" line="13889"/>
+        <location filename="formservo.ui" line="5783"/>
+        <location filename="formservo.ui" line="7378"/>
+        <location filename="formservo.ui" line="8973"/>
+        <location filename="formservo.ui" line="10580"/>
+        <location filename="formservo.ui" line="12190"/>
+        <location filename="formservo.ui" line="13800"/>
         <source>JERK加加速</source>
         <translation>JERK加加速</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="5780"/>
-        <location filename="formservo.ui" line="7470"/>
-        <location filename="formservo.ui" line="9053"/>
-        <location filename="formservo.ui" line="10552"/>
-        <location filename="formservo.ui" line="12257"/>
-        <location filename="formservo.ui" line="13855"/>
+        <location filename="formservo.ui" line="5648"/>
+        <location filename="formservo.ui" line="7344"/>
+        <location filename="formservo.ui" line="8939"/>
+        <location filename="formservo.ui" line="10445"/>
+        <location filename="formservo.ui" line="12156"/>
+        <location filename="formservo.ui" line="13766"/>
         <source>绝对值</source>
         <translation>絕對值</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="6278"/>
-        <location filename="formservo.ui" line="7864"/>
-        <location filename="formservo.ui" line="11053"/>
-        <location filename="formservo.ui" line="12654"/>
-        <location filename="formservo.cpp" line="211"/>
-        <location filename="formservo.cpp" line="212"/>
-        <location filename="formservo.cpp" line="218"/>
-        <location filename="formservo.cpp" line="219"/>
+        <location filename="formservo.ui" line="6146"/>
+        <location filename="formservo.ui" line="7741"/>
+        <location filename="formservo.ui" line="10946"/>
+        <location filename="formservo.ui" line="12556"/>
+        <location filename="formservo.cpp" line="230"/>
+        <location filename="formservo.cpp" line="231"/>
+        <location filename="formservo.cpp" line="237"/>
+        <location filename="formservo.cpp" line="238"/>
         <source>软件行程</source>
         <translation>軟體行程</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="10586"/>
+        <location filename="formservo.ui" line="10479"/>
         <source>正副臂最小安全间距</source>
         <translation>正副臂最小安全間距</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14225"/>
+        <location filename="formservo.ui" line="13962"/>
         <source>绝对值编码器</source>
         <translation>絕對值編碼器</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14258"/>
+        <location filename="formservo.ui" line="14038"/>
         <source>设置编码器原点</source>
         <translation>設置編碼器原點</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14394"/>
-        <location filename="formservo.ui" line="15256"/>
+        <location filename="formservo.ui" line="14181"/>
+        <location filename="formservo.ui" line="15945"/>
         <source>副上下轴</source>
         <translation>副臂上下軸</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14422"/>
+        <location filename="formservo.ui" line="14134"/>
         <source>清除编码器原点</source>
         <translation>清除編碼器原點</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14360"/>
-        <location filename="formservo.ui" line="15400"/>
+        <location filename="formservo.ui" line="14072"/>
+        <location filename="formservo.ui" line="15834"/>
         <source>正引拔轴</source>
         <translation>正臂引拔軸</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14503"/>
-        <location filename="formservo.ui" line="15292"/>
+        <location filename="formservo.ui" line="14249"/>
+        <location filename="formservo.ui" line="15982"/>
         <source>副引拔轴</source>
         <translation>副臂引拔軸</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14469"/>
-        <location filename="formservo.ui" line="15364"/>
+        <location filename="formservo.ui" line="14215"/>
+        <location filename="formservo.ui" line="15908"/>
         <source>正上下轴</source>
         <translation>正臂上下軸</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14053"/>
-        <location filename="formservo.cpp" line="1769"/>
+        <location filename="formservo.ui" line="14372"/>
+        <location filename="formservo.cpp" line="1788"/>
         <source>原点快速速度</source>
         <translation>原點快速速度</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14139"/>
+        <location filename="formservo.ui" line="14271"/>
         <source>原点慢速速度</source>
         <translation>原點慢速速度</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="227"/>
+        <location filename="formservo.ui" line="15685"/>
         <source>保存</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14522"/>
-        <source>驱动器参数</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="formservo.ui" line="14535"/>
+        <location filename="formservo.ui" line="15093"/>
         <source>PA5速度环比例增益</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14551"/>
+        <location filename="formservo.ui" line="14472"/>
         <source>PaHor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14568"/>
+        <location filename="formservo.ui" line="14491"/>
         <source>PaVer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14582"/>
+        <location filename="formservo.ui" line="14507"/>
         <source>Trv</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14596"/>
+        <location filename="formservo.ui" line="14523"/>
         <source>RaHor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14610"/>
+        <location filename="formservo.ui" line="14539"/>
         <source>RaVer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14626"/>
+        <location filename="formservo.ui" line="14567"/>
+        <source>电源</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.ui" line="14598"/>
+        <source>常用参数</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.ui" line="15077"/>
         <source>PA6速度积分常数</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14832"/>
+        <location filename="formservo.ui" line="14901"/>
         <source>PA7转矩滤波器</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14846"/>
+        <location filename="formservo.ui" line="14997"/>
         <source>PA8速度检测滤波器</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14924"/>
+        <location filename="formservo.ui" line="14677"/>
         <source>PA19位置平滑滤波</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="14938"/>
+        <location filename="formservo.ui" line="14917"/>
         <source>PA9位置比例增益</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="15016"/>
+        <location filename="formservo.ui" line="14821"/>
         <source>PA63负载惯量比</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="15184"/>
+        <location filename="formservo.ui" line="15165"/>
+        <source>其他参数</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.ui" line="15198"/>
+        <source>PA-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.ui" line="15232"/>
+        <source>P3-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.ui" line="15266"/>
+        <source>P4-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.ui" line="15300"/>
+        <source>PS-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.ui" line="15316"/>
+        <source>参数地址</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.ui" line="15396"/>
+        <source>当前值</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.ui" line="15476"/>
+        <source>设定值</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.ui" line="15568"/>
+        <source>读取</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.ui" line="15596"/>
+        <source>写入</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.ui" line="15871"/>
         <source>原点</source>
         <translation>原點</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="15436"/>
+        <location filename="formservo.ui" line="16056"/>
         <source>快速定位</source>
         <translation>快速定位</translation>
     </message>
     <message>
-        <location filename="formservo.ui" line="15472"/>
+        <location filename="formservo.ui" line="15797"/>
         <source>安全区2</source>
         <translation>安全區2</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="125"/>
-        <location filename="formservo.cpp" line="127"/>
-        <location filename="formservo.cpp" line="128"/>
+        <location filename="formservo.cpp" line="144"/>
+        <location filename="formservo.cpp" line="146"/>
+        <location filename="formservo.cpp" line="147"/>
         <source>轴上位安全区</source>
         <translation>軸上位安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="124"/>
-        <location filename="formservo.cpp" line="130"/>
+        <location filename="formservo.cpp" line="143"/>
+        <location filename="formservo.cpp" line="149"/>
         <source>轴模外安全区</source>
         <translation>軸模外安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="131"/>
+        <location filename="formservo.cpp" line="150"/>
         <source>(倒角)轴模內安全区</source>
         <translation>(倒角)軸模內安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="132"/>
+        <location filename="formservo.cpp" line="151"/>
         <source>(倒角)轴横行安全区</source>
         <translation>(倒角)軸橫行安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="133"/>
+        <location filename="formservo.cpp" line="152"/>
         <source>轴原点复归后待机位置</source>
         <translation>軸原點複歸後待機位置</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="134"/>
+        <location filename="formservo.cpp" line="153"/>
         <source>轴模外安全区2</source>
         <translation>軸模外安全區2</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="135"/>
-        <location filename="formservo.cpp" line="173"/>
-        <location filename="formservo.cpp" line="181"/>
-        <location filename="formservo.cpp" line="183"/>
-        <location filename="formservo.cpp" line="193"/>
+        <location filename="formservo.cpp" line="154"/>
+        <location filename="formservo.cpp" line="192"/>
+        <location filename="formservo.cpp" line="200"/>
+        <location filename="formservo.cpp" line="202"/>
+        <location filename="formservo.cpp" line="212"/>
         <source>轴横行安全区</source>
         <translation>軸橫行安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="137"/>
-        <location filename="formservo.cpp" line="138"/>
-        <location filename="formservo.cpp" line="139"/>
-        <location filename="formservo.cpp" line="140"/>
-        <location filename="formservo.cpp" line="141"/>
-        <location filename="formservo.cpp" line="142"/>
-        <location filename="formservo.cpp" line="144"/>
-        <location filename="formservo.cpp" line="145"/>
-        <location filename="formservo.cpp" line="146"/>
-        <location filename="formservo.cpp" line="147"/>
-        <location filename="formservo.cpp" line="148"/>
-        <location filename="formservo.cpp" line="149"/>
-        <location filename="formservo.cpp" line="151"/>
-        <location filename="formservo.cpp" line="152"/>
-        <location filename="formservo.cpp" line="153"/>
-        <location filename="formservo.cpp" line="154"/>
-        <location filename="formservo.cpp" line="155"/>
         <location filename="formservo.cpp" line="156"/>
+        <location filename="formservo.cpp" line="157"/>
         <location filename="formservo.cpp" line="158"/>
         <location filename="formservo.cpp" line="159"/>
         <location filename="formservo.cpp" line="160"/>
         <location filename="formservo.cpp" line="161"/>
-        <location filename="formservo.cpp" line="162"/>
+        <location filename="formservo.cpp" line="163"/>
+        <location filename="formservo.cpp" line="164"/>
+        <location filename="formservo.cpp" line="165"/>
+        <location filename="formservo.cpp" line="166"/>
+        <location filename="formservo.cpp" line="167"/>
+        <location filename="formservo.cpp" line="168"/>
+        <location filename="formservo.cpp" line="170"/>
+        <location filename="formservo.cpp" line="171"/>
+        <location filename="formservo.cpp" line="172"/>
+        <location filename="formservo.cpp" line="173"/>
+        <location filename="formservo.cpp" line="174"/>
+        <location filename="formservo.cpp" line="175"/>
+        <location filename="formservo.cpp" line="177"/>
+        <location filename="formservo.cpp" line="178"/>
+        <location filename="formservo.cpp" line="179"/>
+        <location filename="formservo.cpp" line="180"/>
+        <location filename="formservo.cpp" line="181"/>
         <source>轴</source>
         <translation>軸</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="166"/>
+        <location filename="formservo.cpp" line="185"/>
         <source>横行X模外安全区域</source>
         <translation>橫行X模外安全區域</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="167"/>
+        <location filename="formservo.cpp" line="186"/>
         <source>(取件臂Z1) 前后Y方向模内安全区</source>
         <translation>(取件臂Z1) 前後Y方向模內安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="168"/>
+        <location filename="formservo.cpp" line="187"/>
         <source>(喷雾臂Z2) 前后Y方向模内安全区</source>
         <translation>(噴霧臂Z2) 前後Y方向模內安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="169"/>
+        <location filename="formservo.cpp" line="188"/>
         <source>(取件臂Z1) 横行X方向模内安全区</source>
         <translation>(取件臂Z1) 橫行X方向模內安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="170"/>
+        <location filename="formservo.cpp" line="189"/>
         <source>(喷雾臂Z2) 横行X方向模内安全区</source>
         <translation>(噴霧臂Z2) 橫行X方向模內安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="171"/>
+        <location filename="formservo.cpp" line="190"/>
         <source>(喷雾臂Z2) 横行X方向安全区</source>
         <translation>（噴霧臂Z2）橫行X方向安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="172"/>
-        <location filename="formservo.cpp" line="179"/>
-        <location filename="formservo.cpp" line="180"/>
-        <location filename="formservo.cpp" line="182"/>
-        <location filename="formservo.cpp" line="192"/>
+        <location filename="formservo.cpp" line="191"/>
+        <location filename="formservo.cpp" line="198"/>
+        <location filename="formservo.cpp" line="199"/>
+        <location filename="formservo.cpp" line="201"/>
+        <location filename="formservo.cpp" line="211"/>
         <source>轴模内安全区</source>
         <translation>軸模內安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="177"/>
-        <location filename="formservo.cpp" line="178"/>
-        <location filename="formservo.cpp" line="187"/>
-        <location filename="formservo.cpp" line="188"/>
+        <location filename="formservo.cpp" line="196"/>
+        <location filename="formservo.cpp" line="197"/>
+        <location filename="formservo.cpp" line="206"/>
+        <location filename="formservo.cpp" line="207"/>
         <source>轴模內安全区</source>
         <translation>軸模內安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="187"/>
+        <location filename="formservo.cpp" line="206"/>
         <source>正臂</source>
         <translation>正臂</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="188"/>
+        <location filename="formservo.cpp" line="207"/>
         <source>副臂</source>
         <translation>副臂</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="189"/>
+        <location filename="formservo.cpp" line="208"/>
         <source>轴模内安全区域</source>
         <translation>軸模內安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="190"/>
+        <location filename="formservo.cpp" line="209"/>
         <source>(旋转)轴模内安全角度</source>
         <translation>(旋轉)軸模內安全角度</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="191"/>
+        <location filename="formservo.cpp" line="210"/>
         <source>(旋转)轴横行安全区</source>
         <translation>（旋轉）軸橫行安全區</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="198"/>
-        <location filename="formservo.cpp" line="205"/>
+        <location filename="formservo.cpp" line="217"/>
+        <location filename="formservo.cpp" line="224"/>
         <source>前后Y轴软件行程</source>
         <translation>前後Y軸軟件行程</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="200"/>
-        <location filename="formservo.cpp" line="207"/>
+        <location filename="formservo.cpp" line="219"/>
+        <location filename="formservo.cpp" line="226"/>
         <source>取件和喷雾臂原点距离</source>
         <translation>取件和噴霧臂原點距離</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="223"/>
-        <location filename="formservo.cpp" line="224"/>
-        <location filename="formservo.cpp" line="1250"/>
+        <location filename="formservo.cpp" line="242"/>
+        <location filename="formservo.cpp" line="243"/>
+        <location filename="formservo.cpp" line="1269"/>
         <source>和</source>
         <translation>和</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="223"/>
+        <location filename="formservo.cpp" line="242"/>
         <source>原点距离</source>
         <translation>原點距離</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="224"/>
+        <location filename="formservo.cpp" line="243"/>
         <source>最小距离</source>
         <translation>最小距離</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="991"/>
-        <location filename="formservo.cpp" line="997"/>
-        <location filename="formservo.cpp" line="1002"/>
-        <location filename="formservo.cpp" line="1007"/>
-        <location filename="formservo.cpp" line="1012"/>
-        <location filename="formservo.cpp" line="1018"/>
-        <location filename="formservo.cpp" line="1024"/>
-        <location filename="formservo.cpp" line="1029"/>
-        <location filename="formservo.cpp" line="1035"/>
-        <location filename="formservo.cpp" line="1040"/>
-        <location filename="formservo.cpp" line="1045"/>
-        <location filename="formservo.cpp" line="1050"/>
-        <location filename="formservo.cpp" line="1055"/>
-        <location filename="formservo.cpp" line="1060"/>
-        <location filename="formservo.cpp" line="1065"/>
-        <location filename="formservo.cpp" line="1070"/>
-        <location filename="formservo.cpp" line="1075"/>
-        <location filename="formservo.cpp" line="1080"/>
+        <location filename="formservo.cpp" line="1010"/>
+        <location filename="formservo.cpp" line="1016"/>
+        <location filename="formservo.cpp" line="1021"/>
+        <location filename="formservo.cpp" line="1026"/>
+        <location filename="formservo.cpp" line="1031"/>
+        <location filename="formservo.cpp" line="1037"/>
+        <location filename="formservo.cpp" line="1043"/>
+        <location filename="formservo.cpp" line="1048"/>
+        <location filename="formservo.cpp" line="1054"/>
+        <location filename="formservo.cpp" line="1059"/>
+        <location filename="formservo.cpp" line="1064"/>
+        <location filename="formservo.cpp" line="1069"/>
+        <location filename="formservo.cpp" line="1074"/>
+        <location filename="formservo.cpp" line="1079"/>
+        <location filename="formservo.cpp" line="1084"/>
         <location filename="formservo.cpp" line="1089"/>
-        <location filename="formservo.cpp" line="1095"/>
-        <location filename="formservo.cpp" line="1100"/>
-        <location filename="formservo.cpp" line="1105"/>
-        <location filename="formservo.cpp" line="1110"/>
-        <location filename="formservo.cpp" line="1116"/>
-        <location filename="formservo.cpp" line="1122"/>
-        <location filename="formservo.cpp" line="1127"/>
-        <location filename="formservo.cpp" line="1133"/>
-        <location filename="formservo.cpp" line="1138"/>
-        <location filename="formservo.cpp" line="1143"/>
-        <location filename="formservo.cpp" line="1148"/>
-        <location filename="formservo.cpp" line="1153"/>
-        <location filename="formservo.cpp" line="1158"/>
-        <location filename="formservo.cpp" line="1163"/>
-        <location filename="formservo.cpp" line="1168"/>
-        <location filename="formservo.cpp" line="1173"/>
-        <location filename="formservo.cpp" line="1178"/>
-        <location filename="formservo.cpp" line="1189"/>
-        <location filename="formservo.cpp" line="1196"/>
-        <location filename="formservo.cpp" line="1202"/>
+        <location filename="formservo.cpp" line="1094"/>
+        <location filename="formservo.cpp" line="1099"/>
+        <location filename="formservo.cpp" line="1108"/>
+        <location filename="formservo.cpp" line="1114"/>
+        <location filename="formservo.cpp" line="1119"/>
+        <location filename="formservo.cpp" line="1124"/>
+        <location filename="formservo.cpp" line="1129"/>
+        <location filename="formservo.cpp" line="1135"/>
+        <location filename="formservo.cpp" line="1141"/>
+        <location filename="formservo.cpp" line="1146"/>
+        <location filename="formservo.cpp" line="1152"/>
+        <location filename="formservo.cpp" line="1157"/>
+        <location filename="formservo.cpp" line="1162"/>
+        <location filename="formservo.cpp" line="1167"/>
+        <location filename="formservo.cpp" line="1172"/>
+        <location filename="formservo.cpp" line="1177"/>
+        <location filename="formservo.cpp" line="1182"/>
+        <location filename="formservo.cpp" line="1187"/>
+        <location filename="formservo.cpp" line="1192"/>
+        <location filename="formservo.cpp" line="1197"/>
         <location filename="formservo.cpp" line="1208"/>
-        <location filename="formservo.cpp" line="1214"/>
-        <location filename="formservo.cpp" line="1223"/>
-        <location filename="formservo.cpp" line="1228"/>
+        <location filename="formservo.cpp" line="1215"/>
+        <location filename="formservo.cpp" line="1221"/>
+        <location filename="formservo.cpp" line="1227"/>
         <location filename="formservo.cpp" line="1233"/>
-        <location filename="formservo.cpp" line="1238"/>
-        <location filename="formservo.cpp" line="1250"/>
+        <location filename="formservo.cpp" line="1242"/>
+        <location filename="formservo.cpp" line="1247"/>
+        <location filename="formservo.cpp" line="1252"/>
         <location filename="formservo.cpp" line="1257"/>
-        <location filename="formservo.cpp" line="1262"/>
-        <location filename="formservo.cpp" line="1267"/>
-        <location filename="formservo.cpp" line="1272"/>
-        <location filename="formservo.cpp" line="1280"/>
-        <location filename="formservo.cpp" line="1285"/>
-        <location filename="formservo.cpp" line="1290"/>
-        <location filename="formservo.cpp" line="1296"/>
-        <location filename="formservo.cpp" line="1301"/>
-        <location filename="formservo.cpp" line="1306"/>
-        <location filename="formservo.cpp" line="1311"/>
-        <location filename="formservo.cpp" line="1318"/>
-        <location filename="formservo.cpp" line="1323"/>
-        <location filename="formservo.cpp" line="1331"/>
+        <location filename="formservo.cpp" line="1269"/>
+        <location filename="formservo.cpp" line="1276"/>
+        <location filename="formservo.cpp" line="1281"/>
+        <location filename="formservo.cpp" line="1286"/>
+        <location filename="formservo.cpp" line="1291"/>
+        <location filename="formservo.cpp" line="1299"/>
+        <location filename="formservo.cpp" line="1304"/>
+        <location filename="formservo.cpp" line="1309"/>
+        <location filename="formservo.cpp" line="1315"/>
+        <location filename="formservo.cpp" line="1320"/>
+        <location filename="formservo.cpp" line="1325"/>
+        <location filename="formservo.cpp" line="1330"/>
+        <location filename="formservo.cpp" line="1337"/>
+        <location filename="formservo.cpp" line="1342"/>
+        <location filename="formservo.cpp" line="1350"/>
         <source>系统警告</source>
         <translation>系統警告</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="991"/>
-        <location filename="formservo.cpp" line="1089"/>
+        <location filename="formservo.cpp" line="1010"/>
+        <location filename="formservo.cpp" line="1108"/>
         <source>取件臂和喷雾臂的最小间距必须要小于取件臂原点和喷雾臂原点的距离！</source>
         <translation>取件臂和噴霧臂的最小間距必須要小於取件臂原點和噴霧臂原點的距離！</translation>
     </message>
@@ -14251,184 +14456,190 @@
         <translation type="obsolete">噴霧臂Z2軸取物點位置必須要小於軟件行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1189"/>
-        <location filename="formservo.cpp" line="1196"/>
         <location filename="formservo.cpp" line="1208"/>
+        <location filename="formservo.cpp" line="1215"/>
+        <location filename="formservo.cpp" line="1227"/>
         <source>轴模内安全区开始位置必须要小于模内安全区结束位置！</source>
         <translation>軸模內安全區開始位置必須要小於模內安全區結束位置！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1018"/>
-        <location filename="formservo.cpp" line="1116"/>
-        <location filename="formservo.cpp" line="1202"/>
+        <location filename="formservo.cpp" line="1037"/>
+        <location filename="formservo.cpp" line="1135"/>
+        <location filename="formservo.cpp" line="1221"/>
         <source>轴模外安全区开始位置必须要小于模外安全区结束位置！</source>
         <translation>軸模外安全區開始位置必須要小於模外安全區結束位置！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="997"/>
-        <location filename="formservo.cpp" line="1012"/>
-        <location filename="formservo.cpp" line="1024"/>
-        <location filename="formservo.cpp" line="1029"/>
-        <location filename="formservo.cpp" line="1095"/>
-        <location filename="formservo.cpp" line="1110"/>
-        <location filename="formservo.cpp" line="1122"/>
-        <location filename="formservo.cpp" line="1127"/>
+        <location filename="formservo.cpp" line="1016"/>
+        <location filename="formservo.cpp" line="1031"/>
+        <location filename="formservo.cpp" line="1043"/>
+        <location filename="formservo.cpp" line="1048"/>
+        <location filename="formservo.cpp" line="1114"/>
+        <location filename="formservo.cpp" line="1129"/>
+        <location filename="formservo.cpp" line="1141"/>
+        <location filename="formservo.cpp" line="1146"/>
         <source>方向模内安全区开始位置必须要小于结束位置！</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1002"/>
-        <location filename="formservo.cpp" line="1007"/>
-        <location filename="formservo.cpp" line="1100"/>
-        <location filename="formservo.cpp" line="1105"/>
+        <location filename="formservo.cpp" line="1021"/>
+        <location filename="formservo.cpp" line="1026"/>
+        <location filename="formservo.cpp" line="1119"/>
+        <location filename="formservo.cpp" line="1124"/>
         <source>方向模内安全区结束位置必须要小于软件行程！</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1035"/>
-        <location filename="formservo.cpp" line="1040"/>
-        <location filename="formservo.cpp" line="1133"/>
-        <location filename="formservo.cpp" line="1138"/>
+        <location filename="formservo.cpp" line="1054"/>
+        <location filename="formservo.cpp" line="1059"/>
+        <location filename="formservo.cpp" line="1152"/>
+        <location filename="formservo.cpp" line="1157"/>
         <source>上行位置安全区必须要小于软件行程！</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1045"/>
-        <location filename="formservo.cpp" line="1143"/>
+        <location filename="formservo.cpp" line="1064"/>
+        <location filename="formservo.cpp" line="1162"/>
         <source>模外安全区终点必须要小于软件行程！</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1050"/>
-        <location filename="formservo.cpp" line="1055"/>
-        <location filename="formservo.cpp" line="1148"/>
-        <location filename="formservo.cpp" line="1153"/>
+        <location filename="formservo.cpp" line="1069"/>
+        <location filename="formservo.cpp" line="1074"/>
+        <location filename="formservo.cpp" line="1167"/>
+        <location filename="formservo.cpp" line="1172"/>
         <source>方向模内安全区终点必须要小于软件行程！</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1214"/>
-        <location filename="formservo.cpp" line="1318"/>
+        <location filename="formservo.cpp" line="1233"/>
+        <location filename="formservo.cpp" line="1337"/>
         <source>轴上位安全位置必须要小于软件行程！</source>
         <translation>軸上位安全位置必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1223"/>
+        <location filename="formservo.cpp" line="1242"/>
         <source>轴模内安全区开始位置必须小于结束位置！</source>
         <translation>軸模內安全區開始位置必須小於結束位置！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1228"/>
+        <location filename="formservo.cpp" line="1247"/>
         <source>轴横行安全区开始位置必须小于结束位置！</source>
         <translation>軸橫行安全區開始位置必須小於結束位置！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1233"/>
+        <location filename="formservo.cpp" line="1252"/>
         <source>轴模内安全区结束位置必须要小于软件行程！</source>
         <translation>軸模內安全區結束位置必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1238"/>
+        <location filename="formservo.cpp" line="1257"/>
         <source>轴横行安全区结束位置必须要小于软件行程！</source>
         <translation>軸橫行安全區結束位置必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1250"/>
+        <location filename="formservo.cpp" line="1269"/>
         <source>的最小间距必须要小于原点的距离！</source>
         <translation>的最小間距必須要小於原點的距離！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1257"/>
+        <location filename="formservo.cpp" line="1276"/>
         <source>轴模内安全区起点必须要小于软件行程！</source>
         <translation>軸模內安全區起點必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1262"/>
+        <location filename="formservo.cpp" line="1281"/>
         <source>轴模内安全区终点必须要小于软件行程！</source>
         <translation>軸模內安全區終點必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1267"/>
+        <location filename="formservo.cpp" line="1286"/>
         <source>轴模外安全区起点必须要小于软件行程！</source>
         <translation>軸模外安全區起點必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1272"/>
+        <location filename="formservo.cpp" line="1291"/>
         <source>轴模外安全区终点必须要小于软件行程！</source>
         <translation>軸模外安全區2起點必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1280"/>
+        <location filename="formservo.cpp" line="1299"/>
         <source>轴模外安全区2起点必须要小于软件行程！</source>
         <translation>軸模外安全區終點必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1285"/>
+        <location filename="formservo.cpp" line="1304"/>
         <source>轴模外安全区2起点必须要小于模外安全区2终点！</source>
         <translation>軸模外安全區2起點必須要小於模外安全區2終點！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1290"/>
+        <location filename="formservo.cpp" line="1309"/>
         <source>轴模外安全区2终点必须要小于软件行程！</source>
         <translation>軸模外安全區2終點必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1060"/>
-        <location filename="formservo.cpp" line="1158"/>
-        <location filename="formservo.cpp" line="1296"/>
+        <location filename="formservo.cpp" line="1079"/>
+        <location filename="formservo.cpp" line="1177"/>
+        <location filename="formservo.cpp" line="1315"/>
         <source>轴置物点位置必须要小于软件行程！</source>
         <translation>軸置物點位置必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1065"/>
-        <location filename="formservo.cpp" line="1163"/>
-        <location filename="formservo.cpp" line="1301"/>
+        <location filename="formservo.cpp" line="1084"/>
+        <location filename="formservo.cpp" line="1182"/>
+        <location filename="formservo.cpp" line="1320"/>
         <source>轴原点复归后待机位置必须要小于软件行程！</source>
         <translation>軸原點複歸後待機位置必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1070"/>
-        <location filename="formservo.cpp" line="1075"/>
-        <location filename="formservo.cpp" line="1080"/>
-        <location filename="formservo.cpp" line="1168"/>
-        <location filename="formservo.cpp" line="1173"/>
-        <location filename="formservo.cpp" line="1178"/>
-        <location filename="formservo.cpp" line="1306"/>
-        <location filename="formservo.cpp" line="1323"/>
+        <location filename="formservo.cpp" line="1089"/>
+        <location filename="formservo.cpp" line="1094"/>
+        <location filename="formservo.cpp" line="1099"/>
+        <location filename="formservo.cpp" line="1187"/>
+        <location filename="formservo.cpp" line="1192"/>
+        <location filename="formservo.cpp" line="1197"/>
+        <location filename="formservo.cpp" line="1325"/>
+        <location filename="formservo.cpp" line="1342"/>
         <source>轴取物点位置必须要小于软件行程！</source>
         <translation>軸取物點位置必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1311"/>
+        <location filename="formservo.cpp" line="1330"/>
         <source>上下轴取物点位置必须要小于软件行程！</source>
         <translation>上下軸取物點位置必須要小於軟體行程！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1331"/>
+        <location filename="formservo.cpp" line="1350"/>
         <source>轴模内安全区起点位置必须要小于终点位置！</source>
         <translation>軸模內安全區起點位置必須要小於終點位置！</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="1774"/>
+        <location filename="formservo.cpp" line="1793"/>
         <source>原点速度</source>
         <translation>原點速度</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="2198"/>
-        <location filename="formservo.cpp" line="3340"/>
-        <location filename="formservo.cpp" line="3353"/>
-        <location filename="formservo.cpp" line="3358"/>
-        <location filename="formservo.cpp" line="3371"/>
+        <location filename="formservo.cpp" line="2235"/>
+        <location filename="formservo.cpp" line="2526"/>
+        <location filename="formservo.cpp" line="3458"/>
+        <location filename="formservo.cpp" line="3471"/>
+        <location filename="formservo.cpp" line="3476"/>
+        <location filename="formservo.cpp" line="3489"/>
         <source>系统提示</source>
         <translation>系統提示</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="3183"/>
+        <location filename="formservo.cpp" line="2526"/>
+        <source>常用参数请到常用参数栏设置！</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="formservo.cpp" line="3301"/>
         <source>保存参数</source>
         <translation>保存參數</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="3340"/>
+        <location filename="formservo.cpp" line="3458"/>
         <source>此操作将设置绝对值编码器的机械原点位置，
 请确保此时绝对值编码器轴处于原点位置。
 请确保参数设置完全正确。
@@ -14441,13 +14652,13 @@
 確定設置嗎？</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="3353"/>
-        <location filename="formservo.cpp" line="3371"/>
+        <location filename="formservo.cpp" line="3471"/>
+        <location filename="formservo.cpp" line="3489"/>
         <source>请重启系统。</source>
         <translation>請重啟系統。</translation>
     </message>
     <message>
-        <location filename="formservo.cpp" line="3358"/>
+        <location filename="formservo.cpp" line="3476"/>
         <source>此操作将清除绝对值编码器的机械原点位置。
 设置完成后系统需要重启，可能会出现通讯错误，复位即可。
 确定设置吗？</source>
@@ -14528,7 +14739,7 @@
     </message>
     <message>
         <location filename="formsystem.ui" line="1172"/>
-        <location filename="formsystem.cpp" line="990"/>
+        <location filename="formsystem.cpp" line="1002"/>
         <source>自动运行时开安全门</source>
         <translation>自動運行時開安全門</translation>
     </message>
@@ -14569,13 +14780,13 @@
     </message>
     <message>
         <location filename="formsystem.ui" line="1603"/>
-        <location filename="formsystem.cpp" line="987"/>
+        <location filename="formsystem.cpp" line="999"/>
         <source>使用注塑机关模完成信号</source>
         <translation>使用注塑機關模完成訊號</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1640"/>
-        <location filename="formsystem.cpp" line="989"/>
+        <location filename="formsystem.cpp" line="1001"/>
         <source>使用注塑机中板模确认信号</source>
         <translation>使用注塑機中板模確認信號</translation>
     </message>
@@ -14636,7 +14847,7 @@
     </message>
     <message>
         <location filename="formsystem.ui" line="2130"/>
-        <location filename="formsystem.cpp" line="988"/>
+        <location filename="formsystem.cpp" line="1000"/>
         <source>使用注塑机开模中间信号</source>
         <translation>使用注塑機開模中間訊號</translation>
     </message>
@@ -14667,8 +14878,8 @@
     </message>
     <message>
         <location filename="formsystem.ui" line="2361"/>
-        <location filename="formsystem.cpp" line="965"/>
-        <location filename="formsystem.cpp" line="986"/>
+        <location filename="formsystem.cpp" line="977"/>
+        <location filename="formsystem.cpp" line="998"/>
         <source>使用进程二</source>
         <translation>使用進程二</translation>
     </message>
@@ -14733,111 +14944,111 @@
         <translation>原點定制</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="2827"/>
+        <location filename="formsystem.ui" line="2828"/>
         <source>顶部</source>
         <translation>頂部</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="2865"/>
+        <location filename="formsystem.ui" line="2866"/>
         <source>上移</source>
         <translation>上移</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="2903"/>
+        <location filename="formsystem.ui" line="2904"/>
         <source>下移</source>
         <translation>下移</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="2941"/>
+        <location filename="formsystem.ui" line="2942"/>
         <source>底部</source>
         <translation>底部</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="3188"/>
-        <location filename="formsystem.ui" line="3349"/>
+        <location filename="formsystem.ui" line="3189"/>
+        <location filename="formsystem.ui" line="3350"/>
         <source>9</source>
         <translation>9</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="3201"/>
-        <location filename="formsystem.ui" line="3362"/>
+        <location filename="formsystem.ui" line="3202"/>
+        <location filename="formsystem.ui" line="3363"/>
         <source>10</source>
         <translation>10</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="3214"/>
+        <location filename="formsystem.ui" line="3215"/>
         <source>11</source>
         <translation>11</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="3336"/>
+        <location filename="formsystem.ui" line="3337"/>
         <source>8</source>
         <translation>8</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="3391"/>
+        <location filename="formsystem.ui" line="3393"/>
         <source>IP设置</source>
         <translation>IP設置</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="3430"/>
+        <location filename="formsystem.ui" line="3432"/>
         <source>IP地址：</source>
         <translation>IP地址：</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="3500"/>
-        <location filename="formsystem.ui" line="3571"/>
-        <location filename="formsystem.ui" line="3642"/>
-        <location filename="formsystem.ui" line="3788"/>
-        <location filename="formsystem.ui" line="3859"/>
-        <location filename="formsystem.ui" line="3930"/>
-        <location filename="formsystem.ui" line="4073"/>
-        <location filename="formsystem.ui" line="4144"/>
-        <location filename="formsystem.ui" line="4215"/>
-        <location filename="formsystem.ui" line="5507"/>
-        <location filename="formsystem.ui" line="5578"/>
-        <location filename="formsystem.ui" line="5649"/>
+        <location filename="formsystem.ui" line="3502"/>
+        <location filename="formsystem.ui" line="3573"/>
+        <location filename="formsystem.ui" line="3644"/>
+        <location filename="formsystem.ui" line="3790"/>
+        <location filename="formsystem.ui" line="3861"/>
+        <location filename="formsystem.ui" line="3932"/>
+        <location filename="formsystem.ui" line="4075"/>
+        <location filename="formsystem.ui" line="4146"/>
+        <location filename="formsystem.ui" line="4217"/>
+        <location filename="formsystem.ui" line="5522"/>
+        <location filename="formsystem.ui" line="5593"/>
+        <location filename="formsystem.ui" line="5664"/>
         <source>.</source>
         <translation>.</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="3718"/>
+        <location filename="formsystem.ui" line="3720"/>
         <source>子网掩码：</source>
         <translation>子網掩碼：</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="4003"/>
+        <location filename="formsystem.ui" line="4005"/>
         <source>默认网关：</source>
         <translation>默認網關：</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="4284"/>
-        <location filename="formsystem.cpp" line="1088"/>
+        <location filename="formsystem.ui" line="4286"/>
+        <location filename="formsystem.cpp" line="1100"/>
         <source>系统维护</source>
         <translation>系統維護</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="4335"/>
+        <location filename="formsystem.ui" line="4338"/>
         <source>翻页</source>
         <translation>翻頁</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="4553"/>
+        <location filename="formsystem.ui" line="4561"/>
         <source>产品密钥</source>
         <translation>產品金鑰</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="4688"/>
+        <location filename="formsystem.ui" line="4699"/>
         <source>输入当前密钥</source>
         <translation>輸入當前金鑰</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="4625"/>
+        <location filename="formsystem.ui" line="4634"/>
         <source>输入新密钥</source>
         <translation>輸入新金鑰</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="4752"/>
+        <location filename="formsystem.ui" line="4765"/>
         <source>确认新密钥</source>
         <translation>確認新金鑰</translation>
     </message>
@@ -14846,447 +15057,447 @@
         <translation type="obsolete">清除</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="4429"/>
-        <location filename="formsystem.ui" line="4720"/>
+        <location filename="formsystem.ui" line="4434"/>
+        <location filename="formsystem.ui" line="4732"/>
         <source>更新</source>
         <translation>更新</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="4901"/>
+        <location filename="formsystem.ui" line="4915"/>
         <source>**密钥10位且区分大小写**</source>
         <translation>**金鑰10位且區分大小寫**</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="4461"/>
+        <location filename="formsystem.ui" line="4467"/>
         <source>机器码</source>
         <translation>機器碼</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="4364"/>
+        <location filename="formsystem.ui" line="4367"/>
         <source>激活码</source>
         <translation>啟動碼</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="4950"/>
-        <location filename="formsystem.cpp" line="929"/>
-        <location filename="formsystem.cpp" line="938"/>
-        <location filename="formsystem.cpp" line="1159"/>
-        <location filename="formsystem.cpp" line="1168"/>
-        <location filename="formsystem.cpp" line="1500"/>
-        <location filename="formsystem.cpp" line="1509"/>
+        <location filename="formsystem.ui" line="4965"/>
+        <location filename="formsystem.cpp" line="941"/>
+        <location filename="formsystem.cpp" line="950"/>
+        <location filename="formsystem.cpp" line="1171"/>
+        <location filename="formsystem.cpp" line="1180"/>
+        <location filename="formsystem.cpp" line="1512"/>
+        <location filename="formsystem.cpp" line="1521"/>
         <source>系统剩余使用时间：</source>
         <translation>系統剩餘使用時間：</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5000"/>
+        <location filename="formsystem.ui" line="5015"/>
         <source>按模数维护</source>
         <translation>按模數維護</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5106"/>
+        <location filename="formsystem.ui" line="5121"/>
         <source>清除生产总模数</source>
         <translation>清除生產總模數</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5178"/>
+        <location filename="formsystem.ui" line="5193"/>
         <source>参数重置</source>
         <translation>參數重置</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5321"/>
+        <location filename="formsystem.ui" line="5336"/>
         <source>重置系统参数</source>
         <translation>重置系統參數</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5274"/>
+        <location filename="formsystem.ui" line="5289"/>
         <source>重置伺服参数</source>
         <translation>重置伺服參數</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5214"/>
+        <location filename="formsystem.ui" line="5229"/>
         <source>重置系统密码</source>
         <translation>重置系統密碼</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5368"/>
+        <location filename="formsystem.ui" line="5383"/>
         <source>重置驱动器参数</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5393"/>
+        <location filename="formsystem.ui" line="5408"/>
         <source>视觉设置</source>
         <translation>視覺設置</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5437"/>
+        <location filename="formsystem.ui" line="5452"/>
         <source>IP：</source>
         <translation>IP：</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5735"/>
+        <location filename="formsystem.ui" line="5750"/>
         <source>触发方式：</source>
         <translation>觸發方式：</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5769"/>
+        <location filename="formsystem.ui" line="5785"/>
         <source>协议触发</source>
         <translation>協議觸發</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5774"/>
+        <location filename="formsystem.ui" line="5790"/>
         <source>端口触发</source>
         <translation>端口觸發</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5816"/>
+        <location filename="formsystem.ui" line="5832"/>
         <source>安装方式：</source>
         <translation>安裝方式：</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5850"/>
+        <location filename="formsystem.ui" line="5867"/>
         <source>固定</source>
         <translation>固定</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5855"/>
+        <location filename="formsystem.ui" line="5872"/>
         <source>跟随</source>
         <translation>跟隨</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5897"/>
+        <location filename="formsystem.ui" line="5914"/>
         <source>输出端口：</source>
         <translation>輸出端口：</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5963"/>
+        <location filename="formsystem.ui" line="5980"/>
         <source>类型：</source>
         <translation>類型：</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="5997"/>
+        <location filename="formsystem.ui" line="6015"/>
         <source>无</source>
         <translation>無</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="6002"/>
+        <location filename="formsystem.ui" line="6020"/>
         <source>Cognex</source>
         <translation>Cognex</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="6044"/>
+        <location filename="formsystem.ui" line="6062"/>
         <source>端口：</source>
         <translation>端口：</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="6118"/>
+        <location filename="formsystem.ui" line="6137"/>
         <source>二</source>
         <translation>二</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="6145"/>
-        <location filename="formsystem.ui" line="6284"/>
-        <location filename="formsystem.ui" line="6405"/>
+        <location filename="formsystem.ui" line="6165"/>
+        <location filename="formsystem.ui" line="6309"/>
+        <location filename="formsystem.ui" line="6435"/>
         <source>Data1</source>
         <translation>數據1</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="6172"/>
-        <location filename="formsystem.ui" line="6305"/>
-        <location filename="formsystem.ui" line="6432"/>
+        <location filename="formsystem.ui" line="6193"/>
+        <location filename="formsystem.ui" line="6331"/>
+        <location filename="formsystem.ui" line="6463"/>
         <source>Data2</source>
         <translation>數據2</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="6199"/>
-        <location filename="formsystem.ui" line="6326"/>
-        <location filename="formsystem.ui" line="6459"/>
+        <location filename="formsystem.ui" line="6221"/>
+        <location filename="formsystem.ui" line="6353"/>
+        <location filename="formsystem.ui" line="6491"/>
         <source>Data3</source>
         <translation>數據3</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="6226"/>
-        <location filename="formsystem.ui" line="6347"/>
-        <location filename="formsystem.ui" line="6486"/>
+        <location filename="formsystem.ui" line="6249"/>
+        <location filename="formsystem.ui" line="6375"/>
+        <location filename="formsystem.ui" line="6519"/>
         <source>Data4</source>
         <translation>數據4</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="6263"/>
+        <location filename="formsystem.ui" line="6287"/>
         <source>一</source>
         <translation>一</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="6378"/>
+        <location filename="formsystem.ui" line="6407"/>
         <source>三</source>
         <translation>三</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="6528"/>
+        <location filename="formsystem.ui" line="6562"/>
         <source>测试</source>
         <translation>測試</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="6554"/>
+        <location filename="formsystem.ui" line="6589"/>
         <source>当前视觉：1，总视觉数：8</source>
         <translation>當前視覺：1，總視覺數：8</translation>
     </message>
     <message>
-        <location filename="formsystem.ui" line="6783"/>
+        <location filename="formsystem.ui" line="6820"/>
         <source>保存</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="86"/>
+        <location filename="formsystem.cpp" line="89"/>
         <source> 模</source>
         <translation>模</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="103"/>
+        <location filename="formsystem.cpp" line="115"/>
         <source>不使用</source>
         <translation>不使用</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="103"/>
-        <location filename="formsystem.cpp" line="104"/>
-        <location filename="formsystem.cpp" line="105"/>
-        <location filename="formsystem.cpp" line="106"/>
+        <location filename="formsystem.cpp" line="115"/>
+        <location filename="formsystem.cpp" line="116"/>
+        <location filename="formsystem.cpp" line="117"/>
+        <location filename="formsystem.cpp" line="118"/>
         <source>轴伺服</source>
         <translation>軸伺服</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="104"/>
-        <location filename="formsystem.cpp" line="105"/>
-        <location filename="formsystem.cpp" line="106"/>
-        <location filename="formsystem.cpp" line="949"/>
-        <location filename="formsystem.cpp" line="950"/>
-        <location filename="formsystem.cpp" line="954"/>
-        <location filename="formsystem.cpp" line="955"/>
-        <location filename="formsystem.cpp" line="957"/>
+        <location filename="formsystem.cpp" line="116"/>
+        <location filename="formsystem.cpp" line="117"/>
+        <location filename="formsystem.cpp" line="118"/>
+        <location filename="formsystem.cpp" line="961"/>
+        <location filename="formsystem.cpp" line="962"/>
+        <location filename="formsystem.cpp" line="966"/>
+        <location filename="formsystem.cpp" line="967"/>
+        <location filename="formsystem.cpp" line="969"/>
         <source>使用</source>
         <translation>使用</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="227"/>
+        <location filename="formsystem.cpp" line="239"/>
         <source>查询到的原点复归顺序数据有误，初始化为默认值！</source>
         <translation>查詢到的原點復歸順序數據有誤，初始化為默認值！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="918"/>
+        <location filename="formsystem.cpp" line="930"/>
         <source>上下时倒角状态</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="922"/>
-        <location filename="formsystem.cpp" line="1915"/>
-        <location filename="formsystem.cpp" line="1932"/>
+        <location filename="formsystem.cpp" line="934"/>
+        <location filename="formsystem.cpp" line="1927"/>
+        <location filename="formsystem.cpp" line="1944"/>
         <source>当前视觉编号：</source>
         <translation>當前視覺編號：</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="922"/>
-        <location filename="formsystem.cpp" line="1915"/>
-        <location filename="formsystem.cpp" line="1932"/>
+        <location filename="formsystem.cpp" line="934"/>
+        <location filename="formsystem.cpp" line="1927"/>
+        <location filename="formsystem.cpp" line="1944"/>
         <source> ，总可设置视觉数：8</source>
         <translation>，總可設置視覺數：8</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="929"/>
-        <location filename="formsystem.cpp" line="1159"/>
-        <location filename="formsystem.cpp" line="1500"/>
+        <location filename="formsystem.cpp" line="941"/>
+        <location filename="formsystem.cpp" line="1171"/>
+        <location filename="formsystem.cpp" line="1512"/>
         <source>无限期</source>
         <translation>無限期</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="938"/>
-        <location filename="formsystem.cpp" line="1168"/>
-        <location filename="formsystem.cpp" line="1509"/>
+        <location filename="formsystem.cpp" line="950"/>
+        <location filename="formsystem.cpp" line="1180"/>
+        <location filename="formsystem.cpp" line="1521"/>
         <source>天</source>
         <translation>天</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="938"/>
-        <location filename="formsystem.cpp" line="1168"/>
-        <location filename="formsystem.cpp" line="1509"/>
+        <location filename="formsystem.cpp" line="950"/>
+        <location filename="formsystem.cpp" line="1180"/>
+        <location filename="formsystem.cpp" line="1521"/>
         <source>小时</source>
         <translation>小時</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="938"/>
-        <location filename="formsystem.cpp" line="1168"/>
-        <location filename="formsystem.cpp" line="1509"/>
+        <location filename="formsystem.cpp" line="950"/>
+        <location filename="formsystem.cpp" line="1180"/>
+        <location filename="formsystem.cpp" line="1521"/>
         <source>分钟</source>
         <translation>分鐘</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="938"/>
-        <location filename="formsystem.cpp" line="1168"/>
-        <location filename="formsystem.cpp" line="1509"/>
+        <location filename="formsystem.cpp" line="950"/>
+        <location filename="formsystem.cpp" line="1180"/>
+        <location filename="formsystem.cpp" line="1521"/>
         <source>秒</source>
         <translation>秒</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="949"/>
+        <location filename="formsystem.cpp" line="961"/>
         <source>(倒角)伺服</source>
         <translation>(倒角)伺服</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="950"/>
+        <location filename="formsystem.cpp" line="962"/>
         <source>(旋转)伺服</source>
         <translation>(旋轉)伺服</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="954"/>
-        <location filename="formsystem.cpp" line="955"/>
-        <location filename="formsystem.cpp" line="957"/>
+        <location filename="formsystem.cpp" line="966"/>
+        <location filename="formsystem.cpp" line="967"/>
+        <location filename="formsystem.cpp" line="969"/>
         <source>伺服</source>
         <translation>伺服</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="959"/>
-        <location filename="formsystem.cpp" line="978"/>
+        <location filename="formsystem.cpp" line="971"/>
+        <location filename="formsystem.cpp" line="990"/>
         <source>使用喷雾臂进程</source>
         <translation>使用噴霧臂進程</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="960"/>
-        <location filename="formsystem.cpp" line="966"/>
-        <location filename="formsystem.cpp" line="979"/>
+        <location filename="formsystem.cpp" line="972"/>
+        <location filename="formsystem.cpp" line="978"/>
+        <location filename="formsystem.cpp" line="991"/>
         <source>使用压铸机关模完成信号</source>
         <translation>使用壓鑄機關模完成信號</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="961"/>
-        <location filename="formsystem.cpp" line="967"/>
-        <location filename="formsystem.cpp" line="980"/>
+        <location filename="formsystem.cpp" line="973"/>
+        <location filename="formsystem.cpp" line="979"/>
+        <location filename="formsystem.cpp" line="992"/>
         <source>使用压铸机开模中间信号</source>
         <translation>使用壓鑄機開模中間信號</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="962"/>
-        <location filename="formsystem.cpp" line="968"/>
-        <location filename="formsystem.cpp" line="981"/>
+        <location filename="formsystem.cpp" line="974"/>
+        <location filename="formsystem.cpp" line="980"/>
+        <location filename="formsystem.cpp" line="993"/>
         <source>使用压铸机中板模确认信号</source>
         <translation>使用壓鑄機中板模確認信號</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="971"/>
+        <location filename="formsystem.cpp" line="983"/>
         <source>使用机床关模完成信号</source>
         <translation>使用機床關模完成信號</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="972"/>
+        <location filename="formsystem.cpp" line="984"/>
         <source>使用机床开模中间信号</source>
         <translation>使用機床開模中間信號</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="973"/>
+        <location filename="formsystem.cpp" line="985"/>
         <source>使用机床中板模确认信号</source>
         <translation>使用機床中板模確認信號</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="974"/>
+        <location filename="formsystem.cpp" line="986"/>
         <source>自动运行时开防护门</source>
         <translation>自動運行時開防護門</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1041"/>
+        <location filename="formsystem.cpp" line="1053"/>
         <source>安全门不使用</source>
         <translation>安全門不使用</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1053"/>
-        <location filename="formsystem.cpp" line="1225"/>
-        <location filename="formsystem.cpp" line="1229"/>
-        <location filename="formsystem.cpp" line="1239"/>
-        <location filename="formsystem.cpp" line="1250"/>
-        <location filename="formsystem.cpp" line="1260"/>
-        <location filename="formsystem.cpp" line="1265"/>
-        <location filename="formsystem.cpp" line="1275"/>
-        <location filename="formsystem.cpp" line="1280"/>
-        <location filename="formsystem.cpp" line="1290"/>
-        <location filename="formsystem.cpp" line="1296"/>
+        <location filename="formsystem.cpp" line="1065"/>
+        <location filename="formsystem.cpp" line="1237"/>
+        <location filename="formsystem.cpp" line="1241"/>
+        <location filename="formsystem.cpp" line="1251"/>
+        <location filename="formsystem.cpp" line="1262"/>
+        <location filename="formsystem.cpp" line="1272"/>
+        <location filename="formsystem.cpp" line="1277"/>
+        <location filename="formsystem.cpp" line="1287"/>
+        <location filename="formsystem.cpp" line="1292"/>
         <location filename="formsystem.cpp" line="1302"/>
-        <location filename="formsystem.cpp" line="1305"/>
-        <location filename="formsystem.cpp" line="1644"/>
+        <location filename="formsystem.cpp" line="1308"/>
+        <location filename="formsystem.cpp" line="1314"/>
+        <location filename="formsystem.cpp" line="1317"/>
+        <location filename="formsystem.cpp" line="1656"/>
         <source>系统提示</source>
         <translation>系統提示</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1095"/>
+        <location filename="formsystem.cpp" line="1107"/>
         <source>操作器与主控模块厂商代码不一致！</source>
         <translation>操作器与主控模塊廠商代碼不一致！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1100"/>
+        <location filename="formsystem.cpp" line="1112"/>
         <source>操作器与主控模块厂商代码不一致，不能设置系统维护参数！</source>
         <translation>操作器与主控模塊廠商代碼不一致，不能設置系統維護參數！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1225"/>
+        <location filename="formsystem.cpp" line="1237"/>
         <source>本操作将会清除生产总模数并且无法恢复！
 确定要清除生产总模数吗？</source>
         <translation>本操作將會清除生產總模數並且無法恢復！
 確定要清除生產總模數嗎？</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1229"/>
+        <location filename="formsystem.cpp" line="1241"/>
         <source>生产总模数已经成功清除！</source>
         <translation>生產總模數已經成功清除！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1239"/>
+        <location filename="formsystem.cpp" line="1251"/>
         <source>本操作将会把系统参数重置为出厂默认值并且无法恢复！
 确定要重置系统参数设置吗？</source>
         <translation>本操作將會把系統參數重置位出廠默認值並且無法恢復！
 確定要重置系統參數設置嗎？</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1250"/>
+        <location filename="formsystem.cpp" line="1262"/>
         <source>系统参数设置已经重置为出厂默认值！</source>
         <translation>系統參數設置已經重置為出廠默認值！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1260"/>
+        <location filename="formsystem.cpp" line="1272"/>
         <source>本操作将会把伺服参数重置为出厂默认值并且无法恢复！
 确定要重置伺服参数设置吗？</source>
         <translation>本操作將會把伺服參數重置位出廠默認值並且無法恢復！
 確定要重置伺服參數設置嗎？</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1265"/>
-        <location filename="formsystem.cpp" line="1280"/>
+        <location filename="formsystem.cpp" line="1277"/>
+        <location filename="formsystem.cpp" line="1292"/>
         <source>伺服参数设置已经重置为出厂默认值！</source>
         <translation>伺服參數設置已經重置為出廠默認值！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1275"/>
+        <location filename="formsystem.cpp" line="1287"/>
         <source>本操作将会把驱动器参数重置为出厂默认值并且无法恢复！
 确定要重置驱动器参数设置吗？</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1290"/>
+        <location filename="formsystem.cpp" line="1302"/>
         <source>本操作将会把系统密码重置为出厂默认值并且无法恢复！
 确定要重置系统密码设置吗？</source>
         <translation>本操作將會把系統密碼重置為出廠默認值並且無法恢復！
 確定要重置系統密碼設置嗎？</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1296"/>
+        <location filename="formsystem.cpp" line="1308"/>
         <source>重置高级操作员密码失败！
 请检查系统通讯链路是否正常。</source>
         <translation>重置高級操作員密碼失敗！
 請檢查系統通訊鏈路是否正常。</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1302"/>
+        <location filename="formsystem.cpp" line="1314"/>
         <source>重置管理员密码失败！
 请检查系统通讯链路是否正常。</source>
         <translation>重置管理員密碼失敗！
 請檢查系統通訊鏈路是否正常。</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1305"/>
+        <location filename="formsystem.cpp" line="1317"/>
         <source>高级操作员和管理员密码已经成功重置为出厂默认值！</source>
         <translation>高級操作員和管理員密碼已經成功重置為出廠默認值！</translation>
     </message>
@@ -15295,157 +15506,157 @@
         <translation type="obsolete">IP地址和網關不在同一網段，請返回修改</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1346"/>
+        <location filename="formsystem.cpp" line="1358"/>
         <source>保存参数</source>
         <translation>保存參數</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1360"/>
-        <location filename="formsystem.cpp" line="1361"/>
-        <location filename="formsystem.cpp" line="1362"/>
-        <location filename="formsystem.cpp" line="1365"/>
-        <location filename="formsystem.cpp" line="1367"/>
-        <location filename="formsystem.cpp" line="1370"/>
         <location filename="formsystem.cpp" line="1372"/>
         <location filename="formsystem.cpp" line="1373"/>
+        <location filename="formsystem.cpp" line="1374"/>
+        <location filename="formsystem.cpp" line="1377"/>
+        <location filename="formsystem.cpp" line="1379"/>
+        <location filename="formsystem.cpp" line="1382"/>
+        <location filename="formsystem.cpp" line="1384"/>
+        <location filename="formsystem.cpp" line="1385"/>
         <source>伺服 </source>
         <translation>伺服</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1360"/>
-        <location filename="formsystem.cpp" line="1361"/>
-        <location filename="formsystem.cpp" line="1362"/>
-        <location filename="formsystem.cpp" line="1367"/>
         <location filename="formsystem.cpp" line="1372"/>
         <location filename="formsystem.cpp" line="1373"/>
+        <location filename="formsystem.cpp" line="1374"/>
+        <location filename="formsystem.cpp" line="1379"/>
+        <location filename="formsystem.cpp" line="1384"/>
+        <location filename="formsystem.cpp" line="1385"/>
         <source>轴原点</source>
         <translation>軸原點</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1365"/>
+        <location filename="formsystem.cpp" line="1377"/>
         <source>(倒角)轴原点</source>
         <translation>(倒角)軸原點</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1370"/>
+        <location filename="formsystem.cpp" line="1382"/>
         <source>(旋转)轴原点</source>
         <translation>(旋轉)軸原點</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1374"/>
+        <location filename="formsystem.cpp" line="1386"/>
         <source>气动 主臂上行</source>
         <translation>氣動 正臂上下</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1375"/>
+        <location filename="formsystem.cpp" line="1387"/>
         <source>气动 主臂引拔</source>
         <translation>氣動 正臂引拔</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1376"/>
+        <location filename="formsystem.cpp" line="1388"/>
         <source>气动 主臂倒角</source>
         <translation>氣動 主臂倒角</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1377"/>
+        <location filename="formsystem.cpp" line="1389"/>
         <source>气动 主臂旋转</source>
         <translation>氣動 主臂旋轉</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1378"/>
+        <location filename="formsystem.cpp" line="1390"/>
         <source>气动 副臂上行</source>
         <translation>氣動 副臂上下</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1379"/>
+        <location filename="formsystem.cpp" line="1391"/>
         <source>气动 副臂引拔</source>
         <translation>氣動 副臂引拔</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1380"/>
+        <location filename="formsystem.cpp" line="1392"/>
         <source>气动 副臂倒角</source>
         <translation>氣動 副臂倒角</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1381"/>
+        <location filename="formsystem.cpp" line="1393"/>
         <source>气动 副臂旋转</source>
         <translation>氣動 副臂旋轉</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1382"/>
+        <location filename="formsystem.cpp" line="1394"/>
         <source>其他 扩展动作</source>
         <translation>其他 擴展動作</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1462"/>
+        <location filename="formsystem.cpp" line="1474"/>
         <source>提示</source>
         <translation>提示</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1462"/>
+        <location filename="formsystem.cpp" line="1474"/>
         <source>请先设置产品密钥，再更新激活码！</source>
         <translation>請先設置產品密鑰，再更新激活碼！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1469"/>
+        <location filename="formsystem.cpp" line="1481"/>
         <source>更新激活码</source>
         <translation>更新激活碼</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1469"/>
+        <location filename="formsystem.cpp" line="1481"/>
         <source>激活码必须为16位，请检查后重新输入！</source>
         <translation>激活碼必須爲16位，請檢查后重新輸入！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1474"/>
-        <location filename="formsystem.cpp" line="1565"/>
+        <location filename="formsystem.cpp" line="1486"/>
+        <location filename="formsystem.cpp" line="1577"/>
         <source>警告</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1474"/>
+        <location filename="formsystem.cpp" line="1486"/>
         <source>无效激活码！</source>
         <translation>無效激活碼！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1524"/>
-        <location filename="formsystem.cpp" line="1530"/>
-        <location filename="formsystem.cpp" line="1535"/>
-        <location filename="formsystem.cpp" line="1549"/>
-        <location filename="formsystem.cpp" line="1560"/>
-        <location filename="formsystem.cpp" line="1571"/>
-        <location filename="formsystem.cpp" line="1611"/>
+        <location filename="formsystem.cpp" line="1536"/>
+        <location filename="formsystem.cpp" line="1542"/>
+        <location filename="formsystem.cpp" line="1547"/>
+        <location filename="formsystem.cpp" line="1561"/>
+        <location filename="formsystem.cpp" line="1572"/>
+        <location filename="formsystem.cpp" line="1583"/>
+        <location filename="formsystem.cpp" line="1623"/>
         <source>更新产品密钥</source>
         <translation>更新產品密鑰</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1524"/>
-        <location filename="formsystem.cpp" line="1530"/>
+        <location filename="formsystem.cpp" line="1536"/>
+        <location filename="formsystem.cpp" line="1542"/>
         <source>产品密钥必须为10位，请检查后重新输入！</source>
         <translation>產品密鑰必須爲10位，請檢查后重新輸入！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1549"/>
+        <location filename="formsystem.cpp" line="1561"/>
         <source>旧产品密钥不匹配，请检查后重新输入！</source>
         <translation>舊產品密鑰不匹配，請檢查后重新輸入！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1560"/>
+        <location filename="formsystem.cpp" line="1572"/>
         <source>首次设置产品密钥必须同时设置激活码! 激活码必须为16位，请检查后重新输入！</source>
         <translation>首次設置產品密鑰必須同時設置激活碼! 激活碼必須為16位，請檢查後重新輸入！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1565"/>
+        <location filename="formsystem.cpp" line="1577"/>
         <source>无效激活码，产品密钥未更新，请检查后重新设置！</source>
         <translation>無效激活碼，產品密鑰未更新，請檢查後重新設置！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1571"/>
+        <location filename="formsystem.cpp" line="1583"/>
         <source>首次设置产品密钥必须同时设置激活码！产品密钥未更新！</source>
         <translation>首次設置產品密鑰必須同時設置激活碼！產品密鑰未更新！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1535"/>
+        <location filename="formsystem.cpp" line="1547"/>
         <source>两次输入的新产品密钥不匹配，请检查后重新输入！</source>
         <translation>兩次輸入的新產品密鑰不匹配，請檢查后重新輸入！</translation>
     </message>
@@ -15454,24 +15665,24 @@
         <translation type="obsolete">產品密鑰未更新！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1611"/>
+        <location filename="formsystem.cpp" line="1623"/>
         <source>产品密钥更新成功！</source>
         <translation>產品密鑰更新成功！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1644"/>
+        <location filename="formsystem.cpp" line="1656"/>
         <source>含有不符合要求的字符，
 请重新输入！</source>
         <translation>含有不符合要求的字符，
 請重新輸入！</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1817"/>
+        <location filename="formsystem.cpp" line="1829"/>
         <source>[2/2] 参数重置</source>
         <translation>[2/2] 參數重置</translation>
     </message>
     <message>
-        <location filename="formsystem.cpp" line="1822"/>
+        <location filename="formsystem.cpp" line="1834"/>
         <source>[1/2] 激活信息</source>
         <translation>[1/2] 激活信息</translation>
     </message>
@@ -15556,34 +15767,34 @@
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="formuisetup.cpp" line="129"/>
-        <location filename="formuisetup.cpp" line="246"/>
-        <location filename="formuisetup.cpp" line="255"/>
-        <location filename="formuisetup.cpp" line="260"/>
+        <location filename="formuisetup.cpp" line="132"/>
+        <location filename="formuisetup.cpp" line="254"/>
+        <location filename="formuisetup.cpp" line="263"/>
+        <location filename="formuisetup.cpp" line="268"/>
         <source>系统提示</source>
         <translation>系統提示</translation>
     </message>
     <message>
-        <location filename="formuisetup.cpp" line="246"/>
+        <location filename="formuisetup.cpp" line="254"/>
         <source>当触摸屏定位不准确的时候才需要重新校准触摸屏；
 确定要重新校准触摸屏吗？</source>
         <translation>當觸摸屏定位不準確的時候才需要重新校準觸摸屏；
 確定要重新校準觸摸屏嗎？</translation>
     </message>
     <message>
-        <location filename="formuisetup.cpp" line="255"/>
+        <location filename="formuisetup.cpp" line="263"/>
         <source>删除原有的触摸屏校准文件失败！
 无法执行重新校准触摸屏操作。</source>
         <translation>刪除原有的觸摸屏校準文件失敗！
 無法執行重新校準觸摸屏操作。</translation>
     </message>
     <message>
-        <location filename="formuisetup.cpp" line="260"/>
+        <location filename="formuisetup.cpp" line="268"/>
         <source>请先关闭系统电源，然后重新启动系统进行触摸屏校准操作。</source>
         <translation>請先關閉系統電源，然後重新啓動系統進行觸摸屏校準操作。</translation>
     </message>
     <message>
-        <location filename="formuisetup.cpp" line="333"/>
+        <location filename="formuisetup.cpp" line="341"/>
         <source>保存参数</source>
         <translation>保存參數</translation>
     </message>
@@ -15782,9 +15993,8 @@
         <translation>檢查-內部錯誤</translation>
     </message>
     <message>
-        <location filename="utility/isp/thread/isp_thread.cpp" line="545"/>
         <source>快速下载-设备没有测试</source>
-        <translation>快速下載-設備沒有測試</translation>
+        <translation type="obsolete">快速下載-設備沒有測試</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="548"/>
@@ -15946,47 +16156,47 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="main.cpp" line="212"/>
+        <location filename="main.cpp" line="254"/>
         <source>初始化通讯链路...</source>
         <translation>初始化系統界面部件...</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="220"/>
+        <location filename="main.cpp" line="262"/>
         <source>操作器与主控模块通讯错误！请关机检查通讯链路。</source>
         <translation>操作器与主控模塊通訊錯誤！請關機檢查通訊鏈路。</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="223"/>
+        <location filename="main.cpp" line="265"/>
         <source>操作器和主控模块类型不匹配！请关机检查操作器和主控模块。</source>
         <translation>操作器与主控模塊通訊錯誤！請關機檢查通訊鏈路。</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="225"/>
+        <location filename="main.cpp" line="267"/>
         <source>主控模块软件版本太低！请升级主控模块软件。</source>
         <translation>操作器和主控模塊類型不匹配！請關機檢查操作器和主控模塊。</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="234"/>
+        <location filename="main.cpp" line="276"/>
         <source>初始化系统界面部件...</source>
         <translation>初始化系統界面部件...</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="247"/>
+        <location filename="main.cpp" line="299"/>
         <source>初始化系统图形界面...</source>
         <translation>初始化系統圖形界面...</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="250"/>
+        <location filename="main.cpp" line="302"/>
         <source>新睿电子科技 xEditor</source>
         <translation>新睿電子科技 xEditor</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="252"/>
+        <location filename="main.cpp" line="304"/>
         <source>新睿电子科技</source>
         <translation>新睿電子科技</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="261"/>
+        <location filename="main.cpp" line="313"/>
         <source>进入系统主画面...</source>
         <translation>進入系統主畫面...</translation>
     </message>
@@ -16763,63 +16973,63 @@
 <context>
     <name>ispDialog</name>
     <message>
-        <location filename="utility/isp/ispdialog.ui" line="109"/>
+        <location filename="utility/isp/ispdialog.ui" line="120"/>
         <source>操作</source>
         <translation>操作</translation>
     </message>
     <message>
-        <location filename="utility/isp/ispdialog.ui" line="303"/>
+        <location filename="utility/isp/ispdialog.ui" line="315"/>
         <source>刷新</source>
         <translation>刷新</translation>
     </message>
     <message>
-        <location filename="utility/isp/ispdialog.ui" line="363"/>
+        <location filename="utility/isp/ispdialog.ui" line="376"/>
         <source>波特率：</source>
         <translation>波特率：</translation>
     </message>
     <message>
-        <location filename="utility/isp/ispdialog.ui" line="483"/>
+        <location filename="utility/isp/ispdialog.ui" line="498"/>
         <source>编程</source>
         <translation>編程</translation>
     </message>
     <message>
-        <location filename="utility/isp/ispdialog.ui" line="585"/>
+        <location filename="utility/isp/ispdialog.ui" line="603"/>
         <source>软件版本：V2.11</source>
         <translation>軟体版本：V2.11</translation>
     </message>
     <message>
-        <location filename="utility/isp/ispdialog.ui" line="618"/>
+        <location filename="utility/isp/ispdialog.ui" line="637"/>
         <source>请选择文件：</source>
         <translation>請選擇文件：</translation>
     </message>
     <message>
-        <location filename="utility/isp/ispdialog.ui" line="763"/>
+        <location filename="utility/isp/ispdialog.ui" line="785"/>
         <source>重启</source>
         <translation>重啓</translation>
     </message>
     <message>
-        <location filename="utility/isp/ispdialog.cpp" line="188"/>
-        <location filename="utility/isp/ispdialog.cpp" line="221"/>
+        <location filename="utility/isp/ispdialog.cpp" line="204"/>
+        <location filename="utility/isp/ispdialog.cpp" line="237"/>
         <source>软件版本：</source>
         <translation>軟体版本：</translation>
     </message>
     <message>
-        <location filename="utility/isp/ispdialog.cpp" line="273"/>
+        <location filename="utility/isp/ispdialog.cpp" line="289"/>
         <source>错误: </source>
         <translation>錯誤：</translation>
     </message>
     <message>
-        <location filename="utility/isp/ispdialog.cpp" line="281"/>
+        <location filename="utility/isp/ispdialog.cpp" line="297"/>
         <source>编程失败，请关闭系统电源然后重新启动系统后重试。</source>
         <translation>編程失敗，請關閉系統電源然後重新啟動系統後重試。</translation>
     </message>
     <message>
-        <location filename="utility/isp/ispdialog.cpp" line="283"/>
+        <location filename="utility/isp/ispdialog.cpp" line="299"/>
         <source>编程完成，请关闭系统电源然后重新启动系统。</source>
         <translation>編程完成，請關閉系統電源然後重新啓動系統。</translation>
     </message>
     <message>
-        <location filename="utility/isp/ispdialog.cpp" line="293"/>
+        <location filename="utility/isp/ispdialog.cpp" line="309"/>
         <source>请先选择主控模块升级文件包！</source>
         <translation>請先選擇主控模塊升級文件包！</translation>
     </message>
@@ -16985,24 +17195,24 @@
 <context>
     <name>xMessageBoxActive</name>
     <message>
-        <location filename="xmessageboxactive.ui" line="206"/>
+        <location filename="xmessageboxactive.ui" line="211"/>
         <source>确定</source>
         <translation>確定</translation>
     </message>
     <message>
-        <location filename="xmessageboxactive.ui" line="242"/>
+        <location filename="xmessageboxactive.ui" line="248"/>
         <source>激活码</source>
         <translation>啟動碼</translation>
     </message>
     <message>
-        <location filename="xmessageboxactive.ui" line="300"/>
+        <location filename="xmessageboxactive.ui" line="307"/>
         <source>首次设置产品密钥请一并设置激活码，
 否则会造成系统无法运行。</source>
         <translation>首次設置產品密鑰請一併設置激活碼，
 否則會造成系統無法運行。</translation>
     </message>
     <message>
-        <location filename="xmessageboxactive.ui" line="338"/>
+        <location filename="xmessageboxactive.ui" line="345"/>
         <source>取消</source>
         <translation>取消</translation>
     </message>
@@ -17022,45 +17232,45 @@
 <context>
     <name>xMessageBoxIP</name>
     <message>
-        <location filename="xmessageboxIP.ui" line="214"/>
+        <location filename="xmessageboxIP.ui" line="223"/>
         <source>当前主板IP:</source>
         <translation>當前主板IP：</translation>
     </message>
     <message>
-        <location filename="xmessageboxIP.ui" line="244"/>
+        <location filename="xmessageboxIP.ui" line="254"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location filename="xmessageboxIP.ui" line="274"/>
+        <location filename="xmessageboxIP.ui" line="285"/>
         <source>IP地址：</source>
         <translation>IP地址：</translation>
     </message>
     <message>
-        <location filename="xmessageboxIP.ui" line="343"/>
-        <location filename="xmessageboxIP.ui" line="413"/>
-        <location filename="xmessageboxIP.ui" line="483"/>
-        <location filename="xmessageboxIP.ui" line="649"/>
-        <location filename="xmessageboxIP.ui" line="719"/>
-        <location filename="xmessageboxIP.ui" line="789"/>
-        <location filename="xmessageboxIP.ui" line="932"/>
-        <location filename="xmessageboxIP.ui" line="1002"/>
-        <location filename="xmessageboxIP.ui" line="1072"/>
+        <location filename="xmessageboxIP.ui" line="355"/>
+        <location filename="xmessageboxIP.ui" line="426"/>
+        <location filename="xmessageboxIP.ui" line="497"/>
+        <location filename="xmessageboxIP.ui" line="666"/>
+        <location filename="xmessageboxIP.ui" line="737"/>
+        <location filename="xmessageboxIP.ui" line="808"/>
+        <location filename="xmessageboxIP.ui" line="954"/>
+        <location filename="xmessageboxIP.ui" line="1025"/>
+        <location filename="xmessageboxIP.ui" line="1096"/>
         <source>.</source>
         <translation>.</translation>
     </message>
     <message>
-        <location filename="xmessageboxIP.ui" line="567"/>
+        <location filename="xmessageboxIP.ui" line="583"/>
         <source>重试</source>
         <translation>重試</translation>
     </message>
     <message>
-        <location filename="xmessageboxIP.ui" line="863"/>
+        <location filename="xmessageboxIP.ui" line="884"/>
         <source>子网掩码：</source>
         <translation>子網掩碼：</translation>
     </message>
     <message>
-        <location filename="xmessageboxIP.ui" line="1143"/>
+        <location filename="xmessageboxIP.ui" line="1169"/>
         <source>默认网关：</source>
         <translation>默認網關：</translation>
     </message>
@@ -17114,21 +17324,25 @@
     </message>
     <message>
         <location filename="xstringresource.cpp" line="87"/>
+        <location filename="xstringresource.cpp" line="4053"/>
         <source>手动</source>
         <translation>手動</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="89"/>
+        <location filename="xstringresource.cpp" line="4065"/>
         <source>停止</source>
         <translation>停止</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="91"/>
+        <location filename="xstringresource.cpp" line="4056"/>
         <source>自动</source>
         <translation>自動</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="93"/>
+        <location filename="xstringresource.cpp" line="4063"/>
         <source>运行</source>
         <translation>運行</translation>
     </message>
@@ -17184,6 +17398,8 @@
         <location filename="xstringresource.cpp" line="119"/>
         <location filename="xstringresource.cpp" line="434"/>
         <location filename="xstringresource.cpp" line="748"/>
+        <location filename="xstringresource.cpp" line="3704"/>
+        <location filename="xstringresource.cpp" line="3770"/>
         <source>[000]</source>
         <translation>[000]</translation>
     </message>
@@ -17385,13 +17601,6 @@
         <translation>[029] 請正確操作機械手，如需要在模內倒角，請到系統設置裡，設置模內允許倒角。</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="149"/>
-        <location filename="xstringresource.cpp" line="464"/>
-        <location filename="xstringresource.cpp" line="778"/>
-        <source>[030] 请手动把</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="xstringresource.cpp" line="150"/>
         <location filename="xstringresource.cpp" line="465"/>
         <location filename="xstringresource.cpp" line="779"/>
@@ -17416,6 +17625,7 @@
         <location filename="xstringresource.cpp" line="153"/>
         <location filename="xstringresource.cpp" line="468"/>
         <location filename="xstringresource.cpp" line="782"/>
+        <location filename="xstringresource.cpp" line="3804"/>
         <source>[034]</source>
         <translation>[034]</translation>
     </message>
@@ -17423,6 +17633,7 @@
         <location filename="xstringresource.cpp" line="154"/>
         <location filename="xstringresource.cpp" line="469"/>
         <location filename="xstringresource.cpp" line="783"/>
+        <location filename="xstringresource.cpp" line="3805"/>
         <source>[035]</source>
         <translation>[035]</translation>
     </message>
@@ -17445,6 +17656,7 @@
         <location filename="xstringresource.cpp" line="158"/>
         <location filename="xstringresource.cpp" line="473"/>
         <location filename="xstringresource.cpp" line="787"/>
+        <location filename="xstringresource.cpp" line="3809"/>
         <source>[039]</source>
         <translation>[039]</translation>
     </message>
@@ -17452,6 +17664,8 @@
         <location filename="xstringresource.cpp" line="159"/>
         <location filename="xstringresource.cpp" line="474"/>
         <location filename="xstringresource.cpp" line="788"/>
+        <location filename="xstringresource.cpp" line="1127"/>
+        <location filename="xstringresource.cpp" line="1493"/>
         <source>[040]</source>
         <translation>[040]</translation>
     </message>
@@ -17463,40 +17677,40 @@
         <location filename="xstringresource.cpp" line="160"/>
         <location filename="xstringresource.cpp" line="475"/>
         <location filename="xstringresource.cpp" line="789"/>
-        <source>[041] 请确认注塑机已开模再操作</source>
-        <oldsource>[042] 请确认注塑机已开中板模再操作上下轴运转，若已开模则检查主板CN2的MID端口是否有0V电压。</oldsource>
+        <source>[041] 请确认注塑机已开模再操作%1轴运转，若已开模则检查主板CN1的MOP两个端口是否有24V电压。</source>
+        <oldsource>[041] 请确认注塑机已开模再操作</oldsource>
         <translation type="unfinished">[042] 請確認注塑機已開中板模再操作上下軸運轉，若已開模則檢查主機板CN2的MID埠是否有0V電壓。</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="161"/>
         <location filename="xstringresource.cpp" line="476"/>
         <location filename="xstringresource.cpp" line="790"/>
-        <source>[042] 请确认注塑机已开中板模再操作</source>
-        <oldsource>[043] 请确认注塑机已开模再操作上下轴运转，若已开模则检查主板CN1的MOP两个端口是否有24V电压。</oldsource>
+        <source>[042] 请确认注塑机已开中板模再操作%1轴运转，若已开模则检查主板CN2的MID端口是否有0V电压。</source>
+        <oldsource>[042] 请确认注塑机已开中板模再操作</oldsource>
         <translation type="unfinished">[043] 請確認注塑機已開模再操作上下軸運轉，若已開模則檢查主機板CN1的MOP兩個埠是否有24V電壓。</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="162"/>
         <location filename="xstringresource.cpp" line="477"/>
         <location filename="xstringresource.cpp" line="791"/>
-        <source>[043] 请确认注塑机已开模再操作</source>
-        <oldsource>[044] 请确认注塑机已开中板模再操作上下轴运转，若已开模则检查主板CN2的MID端口是否有0V电压。</oldsource>
+        <source>[043] 请确认注塑机已开模再操作%1轴运转，若已开模则检查主板CN1的MOP两个端口是否有24V电压。</source>
+        <oldsource>[043] 请确认注塑机已开模再操作</oldsource>
         <translation type="unfinished">[044] 請確認注塑機已開中板模再操作上下軸運轉，若已開模則檢查主機板CN2的MID埠是否有0V電壓。</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="163"/>
         <location filename="xstringresource.cpp" line="478"/>
         <location filename="xstringresource.cpp" line="792"/>
-        <source>[044] 请确认注塑机已开中板模再操作</source>
-        <oldsource>[045] 请确认Z轴安全区域范围，再执行Y轴运行。</oldsource>
+        <source>[044] 请确认注塑机已开中板模再操作%1轴运转，若已开模则检查主板CN2的MID端口是否有0V电压。</source>
+        <oldsource>[044] 请确认注塑机已开中板模再操作</oldsource>
         <translation type="unfinished">[045] 請確認橫行軸安全區域範圍，再執行上下軸運行。</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="164"/>
         <location filename="xstringresource.cpp" line="479"/>
         <location filename="xstringresource.cpp" line="793"/>
-        <source>[045] 请确认</source>
-        <oldsource>[046] 请确认Z轴安全区域范围，再执行C轴运行。</oldsource>
+        <source>[045] 请确认%1轴安全区域范围，再执行%2轴运行。</source>
+        <oldsource>[045] 请确认</oldsource>
         <translation type="unfinished">[046] 請確認橫行軸安全區域範圍，再執行上下軸運行。</translation>
     </message>
     <message>
@@ -17510,6 +17724,8 @@
         <location filename="xstringresource.cpp" line="167"/>
         <location filename="xstringresource.cpp" line="482"/>
         <location filename="xstringresource.cpp" line="796"/>
+        <location filename="xstringresource.cpp" line="1136"/>
+        <location filename="xstringresource.cpp" line="1511"/>
         <source>[048]</source>
         <translation>[048]</translation>
     </message>
@@ -17528,6 +17744,8 @@
         <location filename="xstringresource.cpp" line="170"/>
         <location filename="xstringresource.cpp" line="485"/>
         <location filename="xstringresource.cpp" line="799"/>
+        <location filename="xstringresource.cpp" line="1139"/>
+        <location filename="xstringresource.cpp" line="1514"/>
         <source>[051]</source>
         <translation>[051]</translation>
     </message>
@@ -17542,6 +17760,7 @@
         <location filename="xstringresource.cpp" line="172"/>
         <location filename="xstringresource.cpp" line="487"/>
         <location filename="xstringresource.cpp" line="801"/>
+        <location filename="xstringresource.cpp" line="3823"/>
         <source>[053]</source>
         <translation>[053]</translation>
     </message>
@@ -17570,6 +17789,7 @@
         <location filename="xstringresource.cpp" line="176"/>
         <location filename="xstringresource.cpp" line="491"/>
         <location filename="xstringresource.cpp" line="805"/>
+        <location filename="xstringresource.cpp" line="3827"/>
         <source>[057]</source>
         <translation>[057]</translation>
     </message>
@@ -17637,6 +17857,7 @@
         <location filename="xstringresource.cpp" line="187"/>
         <location filename="xstringresource.cpp" line="502"/>
         <location filename="xstringresource.cpp" line="816"/>
+        <location filename="xstringresource.cpp" line="3838"/>
         <source>[068]</source>
         <translation>[068]</translation>
     </message>
@@ -17775,6 +17996,7 @@
         <location filename="xstringresource.cpp" line="208"/>
         <location filename="xstringresource.cpp" line="523"/>
         <location filename="xstringresource.cpp" line="837"/>
+        <location filename="xstringresource.cpp" line="3859"/>
         <source>[089]</source>
         <translation>[089]</translation>
     </message>
@@ -17789,6 +18011,7 @@
         <location filename="xstringresource.cpp" line="210"/>
         <location filename="xstringresource.cpp" line="525"/>
         <location filename="xstringresource.cpp" line="839"/>
+        <location filename="xstringresource.cpp" line="3861"/>
         <source>[091]</source>
         <translation>[091]</translation>
     </message>
@@ -17796,6 +18019,7 @@
         <location filename="xstringresource.cpp" line="211"/>
         <location filename="xstringresource.cpp" line="526"/>
         <location filename="xstringresource.cpp" line="840"/>
+        <location filename="xstringresource.cpp" line="3862"/>
         <source>[092]</source>
         <translation>[092]</translation>
     </message>
@@ -18062,7 +18286,8 @@
         <location filename="xstringresource.cpp" line="249"/>
         <location filename="xstringresource.cpp" line="564"/>
         <location filename="xstringresource.cpp" line="878"/>
-        <source>[130] 请检查程序，确认正臂和</source>
+        <source>[130] 请检查程序，确认正臂和%1位置是否安全。</source>
+        <oldsource>[130] 请检查程序，确认正臂和</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -18179,6 +18404,8 @@
         <location filename="xstringresource.cpp" line="266"/>
         <location filename="xstringresource.cpp" line="581"/>
         <location filename="xstringresource.cpp" line="895"/>
+        <location filename="xstringresource.cpp" line="1265"/>
+        <location filename="xstringresource.cpp" line="1596"/>
         <source>[147]</source>
         <translation>[147]</translation>
     </message>
@@ -18186,6 +18413,8 @@
         <location filename="xstringresource.cpp" line="267"/>
         <location filename="xstringresource.cpp" line="582"/>
         <location filename="xstringresource.cpp" line="896"/>
+        <location filename="xstringresource.cpp" line="1266"/>
+        <location filename="xstringresource.cpp" line="1597"/>
         <source>[148]</source>
         <translation>[148]</translation>
     </message>
@@ -18193,6 +18422,8 @@
         <location filename="xstringresource.cpp" line="268"/>
         <location filename="xstringresource.cpp" line="583"/>
         <location filename="xstringresource.cpp" line="897"/>
+        <location filename="xstringresource.cpp" line="1267"/>
+        <location filename="xstringresource.cpp" line="1598"/>
         <source>[149]</source>
         <translation>[149]</translation>
     </message>
@@ -18275,6 +18506,9 @@
         <location filename="xstringresource.cpp" line="280"/>
         <location filename="xstringresource.cpp" line="595"/>
         <location filename="xstringresource.cpp" line="909"/>
+        <location filename="xstringresource.cpp" line="1281"/>
+        <location filename="xstringresource.cpp" line="1612"/>
+        <location filename="xstringresource.cpp" line="1989"/>
         <source>[161]</source>
         <translation>[161]</translation>
     </message>
@@ -18534,6 +18768,9 @@
         <location filename="xstringresource.cpp" line="317"/>
         <location filename="xstringresource.cpp" line="632"/>
         <location filename="xstringresource.cpp" line="946"/>
+        <location filename="xstringresource.cpp" line="1322"/>
+        <location filename="xstringresource.cpp" line="1659"/>
+        <location filename="xstringresource.cpp" line="2037"/>
         <source>[198]</source>
         <translation>[198]</translation>
     </message>
@@ -18552,6 +18789,9 @@
         <location filename="xstringresource.cpp" line="320"/>
         <location filename="xstringresource.cpp" line="635"/>
         <location filename="xstringresource.cpp" line="949"/>
+        <location filename="xstringresource.cpp" line="1327"/>
+        <location filename="xstringresource.cpp" line="1663"/>
+        <location filename="xstringresource.cpp" line="2041"/>
         <source>[201]</source>
         <translation>[201]</translation>
     </message>
@@ -18559,6 +18799,9 @@
         <location filename="xstringresource.cpp" line="321"/>
         <location filename="xstringresource.cpp" line="636"/>
         <location filename="xstringresource.cpp" line="950"/>
+        <location filename="xstringresource.cpp" line="1328"/>
+        <location filename="xstringresource.cpp" line="1664"/>
+        <location filename="xstringresource.cpp" line="2042"/>
         <source>[202]</source>
         <translation>[202]</translation>
     </message>
@@ -18566,6 +18809,9 @@
         <location filename="xstringresource.cpp" line="322"/>
         <location filename="xstringresource.cpp" line="637"/>
         <location filename="xstringresource.cpp" line="951"/>
+        <location filename="xstringresource.cpp" line="1329"/>
+        <location filename="xstringresource.cpp" line="1665"/>
+        <location filename="xstringresource.cpp" line="2043"/>
         <source>[203]</source>
         <translation>[203]</translation>
     </message>
@@ -18573,6 +18819,9 @@
         <location filename="xstringresource.cpp" line="323"/>
         <location filename="xstringresource.cpp" line="638"/>
         <location filename="xstringresource.cpp" line="952"/>
+        <location filename="xstringresource.cpp" line="1330"/>
+        <location filename="xstringresource.cpp" line="1666"/>
+        <location filename="xstringresource.cpp" line="2044"/>
         <source>[204]</source>
         <translation>[204]</translation>
     </message>
@@ -18580,6 +18829,9 @@
         <location filename="xstringresource.cpp" line="324"/>
         <location filename="xstringresource.cpp" line="639"/>
         <location filename="xstringresource.cpp" line="953"/>
+        <location filename="xstringresource.cpp" line="1331"/>
+        <location filename="xstringresource.cpp" line="1667"/>
+        <location filename="xstringresource.cpp" line="2045"/>
         <source>[205]</source>
         <translation>[205]</translation>
     </message>
@@ -18587,6 +18839,9 @@
         <location filename="xstringresource.cpp" line="325"/>
         <location filename="xstringresource.cpp" line="640"/>
         <location filename="xstringresource.cpp" line="954"/>
+        <location filename="xstringresource.cpp" line="1332"/>
+        <location filename="xstringresource.cpp" line="1668"/>
+        <location filename="xstringresource.cpp" line="2046"/>
         <source>[206]</source>
         <translation>[206]</translation>
     </message>
@@ -18594,6 +18849,9 @@
         <location filename="xstringresource.cpp" line="326"/>
         <location filename="xstringresource.cpp" line="641"/>
         <location filename="xstringresource.cpp" line="955"/>
+        <location filename="xstringresource.cpp" line="1333"/>
+        <location filename="xstringresource.cpp" line="1669"/>
+        <location filename="xstringresource.cpp" line="2047"/>
         <source>[207]</source>
         <translation>[207]</translation>
     </message>
@@ -18608,6 +18866,7 @@
         <location filename="xstringresource.cpp" line="328"/>
         <location filename="xstringresource.cpp" line="643"/>
         <location filename="xstringresource.cpp" line="957"/>
+        <location filename="xstringresource.cpp" line="1671"/>
         <source>[209]</source>
         <translation>[209]</translation>
     </message>
@@ -18615,6 +18874,7 @@
         <location filename="xstringresource.cpp" line="329"/>
         <location filename="xstringresource.cpp" line="644"/>
         <location filename="xstringresource.cpp" line="958"/>
+        <location filename="xstringresource.cpp" line="1672"/>
         <source>[210]</source>
         <translation>[210]</translation>
     </message>
@@ -18678,6 +18938,9 @@
         <location filename="xstringresource.cpp" line="338"/>
         <location filename="xstringresource.cpp" line="653"/>
         <location filename="xstringresource.cpp" line="967"/>
+        <location filename="xstringresource.cpp" line="1347"/>
+        <location filename="xstringresource.cpp" line="1682"/>
+        <location filename="xstringresource.cpp" line="2074"/>
         <source>[219]</source>
         <translation>[219]</translation>
     </message>
@@ -18713,6 +18976,9 @@
         <location filename="xstringresource.cpp" line="343"/>
         <location filename="xstringresource.cpp" line="658"/>
         <location filename="xstringresource.cpp" line="972"/>
+        <location filename="xstringresource.cpp" line="1353"/>
+        <location filename="xstringresource.cpp" line="1688"/>
+        <location filename="xstringresource.cpp" line="2080"/>
         <source>[224]</source>
         <translation>[224]</translation>
     </message>
@@ -18720,6 +18986,9 @@
         <location filename="xstringresource.cpp" line="344"/>
         <location filename="xstringresource.cpp" line="659"/>
         <location filename="xstringresource.cpp" line="973"/>
+        <location filename="xstringresource.cpp" line="1354"/>
+        <location filename="xstringresource.cpp" line="1689"/>
+        <location filename="xstringresource.cpp" line="2081"/>
         <source>[225]</source>
         <translation>[225]</translation>
     </message>
@@ -18727,6 +18996,9 @@
         <location filename="xstringresource.cpp" line="345"/>
         <location filename="xstringresource.cpp" line="660"/>
         <location filename="xstringresource.cpp" line="974"/>
+        <location filename="xstringresource.cpp" line="1355"/>
+        <location filename="xstringresource.cpp" line="1690"/>
+        <location filename="xstringresource.cpp" line="2082"/>
         <source>[226]</source>
         <translation>[226]</translation>
     </message>
@@ -18734,6 +19006,9 @@
         <location filename="xstringresource.cpp" line="346"/>
         <location filename="xstringresource.cpp" line="661"/>
         <location filename="xstringresource.cpp" line="975"/>
+        <location filename="xstringresource.cpp" line="1356"/>
+        <location filename="xstringresource.cpp" line="1691"/>
+        <location filename="xstringresource.cpp" line="2083"/>
         <source>[227]</source>
         <translation>[227]</translation>
     </message>
@@ -18741,6 +19016,9 @@
         <location filename="xstringresource.cpp" line="347"/>
         <location filename="xstringresource.cpp" line="662"/>
         <location filename="xstringresource.cpp" line="976"/>
+        <location filename="xstringresource.cpp" line="1357"/>
+        <location filename="xstringresource.cpp" line="1692"/>
+        <location filename="xstringresource.cpp" line="2084"/>
         <source>[228]</source>
         <translation>[228]</translation>
     </message>
@@ -18748,6 +19026,9 @@
         <location filename="xstringresource.cpp" line="348"/>
         <location filename="xstringresource.cpp" line="663"/>
         <location filename="xstringresource.cpp" line="977"/>
+        <location filename="xstringresource.cpp" line="1358"/>
+        <location filename="xstringresource.cpp" line="1693"/>
+        <location filename="xstringresource.cpp" line="2085"/>
         <source>[229]</source>
         <translation>[229]</translation>
     </message>
@@ -18755,6 +19036,7 @@
         <location filename="xstringresource.cpp" line="349"/>
         <location filename="xstringresource.cpp" line="664"/>
         <location filename="xstringresource.cpp" line="978"/>
+        <location filename="xstringresource.cpp" line="1694"/>
         <source>[230]</source>
         <translation>[230]</translation>
     </message>
@@ -18762,6 +19044,7 @@
         <location filename="xstringresource.cpp" line="350"/>
         <location filename="xstringresource.cpp" line="665"/>
         <location filename="xstringresource.cpp" line="979"/>
+        <location filename="xstringresource.cpp" line="1695"/>
         <source>[231]</source>
         <translation>[231]</translation>
     </message>
@@ -18769,6 +19052,7 @@
         <location filename="xstringresource.cpp" line="351"/>
         <location filename="xstringresource.cpp" line="666"/>
         <location filename="xstringresource.cpp" line="980"/>
+        <location filename="xstringresource.cpp" line="1696"/>
         <source>[232]</source>
         <translation>[232]</translation>
     </message>
@@ -18776,6 +19060,7 @@
         <location filename="xstringresource.cpp" line="352"/>
         <location filename="xstringresource.cpp" line="667"/>
         <location filename="xstringresource.cpp" line="981"/>
+        <location filename="xstringresource.cpp" line="1697"/>
         <source>[233]</source>
         <translation>[233]</translation>
     </message>
@@ -18783,6 +19068,7 @@
         <location filename="xstringresource.cpp" line="353"/>
         <location filename="xstringresource.cpp" line="668"/>
         <location filename="xstringresource.cpp" line="982"/>
+        <location filename="xstringresource.cpp" line="1698"/>
         <source>[234]</source>
         <translation>[234]</translation>
     </message>
@@ -18790,6 +19076,7 @@
         <location filename="xstringresource.cpp" line="354"/>
         <location filename="xstringresource.cpp" line="669"/>
         <location filename="xstringresource.cpp" line="983"/>
+        <location filename="xstringresource.cpp" line="1699"/>
         <source>[235]</source>
         <translation>[235]</translation>
     </message>
@@ -18797,16 +19084,19 @@
         <location filename="xstringresource.cpp" line="355"/>
         <location filename="xstringresource.cpp" line="670"/>
         <location filename="xstringresource.cpp" line="984"/>
+        <location filename="xstringresource.cpp" line="1700"/>
         <source>[236]</source>
         <translation>[236]</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1701"/>
         <source>[237]</source>
-        <translation type="obsolete">[237]</translation>
+        <translation type="unfinished">[237]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="357"/>
         <location filename="xstringresource.cpp" line="672"/>
+        <location filename="xstringresource.cpp" line="1702"/>
         <source>[238]</source>
         <translation>[238]</translation>
     </message>
@@ -18814,72 +19104,26 @@
         <location filename="xstringresource.cpp" line="356"/>
         <location filename="xstringresource.cpp" line="671"/>
         <location filename="xstringresource.cpp" line="985"/>
+        <location filename="xstringresource.cpp" line="1366"/>
+        <location filename="xstringresource.cpp" line="2093"/>
         <source>[237] EtherCat总线错误</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="xstringresource.cpp" line="146"/>
-        <location filename="xstringresource.cpp" line="461"/>
-        <location filename="xstringresource.cpp" line="775"/>
-        <source>[027] 请确认</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="xstringresource.cpp" line="147"/>
-        <location filename="xstringresource.cpp" line="462"/>
-        <source>[028] 请确认</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="xstringresource.cpp" line="156"/>
-        <location filename="xstringresource.cpp" line="471"/>
-        <source>[037] 请确认</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="xstringresource.cpp" line="157"/>
-        <location filename="xstringresource.cpp" line="472"/>
-        <location filename="xstringresource.cpp" line="786"/>
-        <source>[038] 请确认</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="165"/>
         <location filename="xstringresource.cpp" line="480"/>
         <location filename="xstringresource.cpp" line="794"/>
-        <source>[046] 请确认</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="xstringresource.cpp" line="168"/>
-        <location filename="xstringresource.cpp" line="483"/>
-        <location filename="xstringresource.cpp" line="797"/>
-        <source>[049] 请确认</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="xstringresource.cpp" line="184"/>
-        <location filename="xstringresource.cpp" line="499"/>
-        <source>[065] 请检查</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="xstringresource.cpp" line="185"/>
-        <location filename="xstringresource.cpp" line="500"/>
-        <source>[066] 请检查</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="xstringresource.cpp" line="188"/>
-        <location filename="xstringresource.cpp" line="503"/>
-        <location filename="xstringresource.cpp" line="817"/>
-        <source>[069] 请检查</source>
+        <source>[046] 请确认%1轴安全区域范围，再执行%2轴运行。</source>
+        <oldsource>[046] 请确认</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="358"/>
         <location filename="xstringresource.cpp" line="673"/>
         <location filename="xstringresource.cpp" line="987"/>
+        <location filename="xstringresource.cpp" line="1368"/>
+        <location filename="xstringresource.cpp" line="1703"/>
+        <location filename="xstringresource.cpp" line="2095"/>
         <source>[239]</source>
         <translation>[239]</translation>
     </message>
@@ -18887,6 +19131,9 @@
         <location filename="xstringresource.cpp" line="359"/>
         <location filename="xstringresource.cpp" line="674"/>
         <location filename="xstringresource.cpp" line="988"/>
+        <location filename="xstringresource.cpp" line="1369"/>
+        <location filename="xstringresource.cpp" line="1704"/>
+        <location filename="xstringresource.cpp" line="2096"/>
         <source>[240]</source>
         <translation>[240]</translation>
     </message>
@@ -18904,6 +19151,9 @@
         <location filename="xstringresource.cpp" line="362"/>
         <location filename="xstringresource.cpp" line="677"/>
         <location filename="xstringresource.cpp" line="991"/>
+        <location filename="xstringresource.cpp" line="1372"/>
+        <location filename="xstringresource.cpp" line="1707"/>
+        <location filename="xstringresource.cpp" line="2099"/>
         <source>[243]</source>
         <translation>[243]</translation>
     </message>
@@ -18911,6 +19161,9 @@
         <location filename="xstringresource.cpp" line="363"/>
         <location filename="xstringresource.cpp" line="678"/>
         <location filename="xstringresource.cpp" line="992"/>
+        <location filename="xstringresource.cpp" line="1373"/>
+        <location filename="xstringresource.cpp" line="1708"/>
+        <location filename="xstringresource.cpp" line="2100"/>
         <source>[244]</source>
         <translation>[244]</translation>
     </message>
@@ -18918,47 +19171,34 @@
         <location filename="xstringresource.cpp" line="364"/>
         <location filename="xstringresource.cpp" line="679"/>
         <location filename="xstringresource.cpp" line="993"/>
-        <source>[245]</source>
-        <translation>[245]</translation>
+        <location filename="xstringresource.cpp" line="1374"/>
+        <location filename="xstringresource.cpp" line="1709"/>
+        <location filename="xstringresource.cpp" line="2101"/>
+        <source>[245] </source>
+        <oldsource>[245]</oldsource>
+        <translation type="unfinished">[245]</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="365"/>
-        <location filename="xstringresource.cpp" line="680"/>
-        <location filename="xstringresource.cpp" line="994"/>
         <source>[246]</source>
-        <translation>[246]</translation>
+        <translation type="obsolete">[246]</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="366"/>
-        <location filename="xstringresource.cpp" line="681"/>
-        <location filename="xstringresource.cpp" line="995"/>
         <source>[247]</source>
-        <translation>[247]</translation>
+        <translation type="obsolete">[247]</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="367"/>
-        <location filename="xstringresource.cpp" line="682"/>
-        <location filename="xstringresource.cpp" line="996"/>
         <source>[248]</source>
-        <translation>[248]</translation>
+        <translation type="obsolete">[248]</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="368"/>
-        <location filename="xstringresource.cpp" line="683"/>
-        <location filename="xstringresource.cpp" line="997"/>
         <source>[249]</source>
-        <translation>[249]</translation>
+        <translation type="obsolete">[249]</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="369"/>
-        <location filename="xstringresource.cpp" line="684"/>
-        <location filename="xstringresource.cpp" line="998"/>
         <source>[250]</source>
-        <translation>[250]</translation>
+        <translation type="obsolete">[250]</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="370"/>
-        <location filename="xstringresource.cpp" line="685"/>
         <location filename="xstringresource.cpp" line="999"/>
         <source>[251]</source>
         <translation>[251]</translation>
@@ -18967,6 +19207,9 @@
         <location filename="xstringresource.cpp" line="371"/>
         <location filename="xstringresource.cpp" line="686"/>
         <location filename="xstringresource.cpp" line="1000"/>
+        <location filename="xstringresource.cpp" line="1381"/>
+        <location filename="xstringresource.cpp" line="1716"/>
+        <location filename="xstringresource.cpp" line="2108"/>
         <source>[252]</source>
         <translation>[252]</translation>
     </message>
@@ -18974,6 +19217,9 @@
         <location filename="xstringresource.cpp" line="372"/>
         <location filename="xstringresource.cpp" line="687"/>
         <location filename="xstringresource.cpp" line="1001"/>
+        <location filename="xstringresource.cpp" line="1382"/>
+        <location filename="xstringresource.cpp" line="1717"/>
+        <location filename="xstringresource.cpp" line="2109"/>
         <source>[253]</source>
         <translation>[253]</translation>
     </message>
@@ -18981,6 +19227,9 @@
         <location filename="xstringresource.cpp" line="373"/>
         <location filename="xstringresource.cpp" line="688"/>
         <location filename="xstringresource.cpp" line="1002"/>
+        <location filename="xstringresource.cpp" line="1383"/>
+        <location filename="xstringresource.cpp" line="1718"/>
+        <location filename="xstringresource.cpp" line="2110"/>
         <source>[254]</source>
         <translation>[254]</translation>
     </message>
@@ -18995,6 +19244,9 @@
         <location filename="xstringresource.cpp" line="375"/>
         <location filename="xstringresource.cpp" line="690"/>
         <location filename="xstringresource.cpp" line="1004"/>
+        <location filename="xstringresource.cpp" line="1385"/>
+        <location filename="xstringresource.cpp" line="1720"/>
+        <location filename="xstringresource.cpp" line="2112"/>
         <source>[256]</source>
         <translation>[256]</translation>
     </message>
@@ -19002,6 +19254,9 @@
         <location filename="xstringresource.cpp" line="376"/>
         <location filename="xstringresource.cpp" line="691"/>
         <location filename="xstringresource.cpp" line="1005"/>
+        <location filename="xstringresource.cpp" line="1386"/>
+        <location filename="xstringresource.cpp" line="1721"/>
+        <location filename="xstringresource.cpp" line="2113"/>
         <source>[257]</source>
         <translation>[257]</translation>
     </message>
@@ -19009,6 +19264,9 @@
         <location filename="xstringresource.cpp" line="377"/>
         <location filename="xstringresource.cpp" line="692"/>
         <location filename="xstringresource.cpp" line="1006"/>
+        <location filename="xstringresource.cpp" line="1387"/>
+        <location filename="xstringresource.cpp" line="1722"/>
+        <location filename="xstringresource.cpp" line="2114"/>
         <source>[258]</source>
         <translation>[258]</translation>
     </message>
@@ -19016,6 +19274,9 @@
         <location filename="xstringresource.cpp" line="378"/>
         <location filename="xstringresource.cpp" line="693"/>
         <location filename="xstringresource.cpp" line="1007"/>
+        <location filename="xstringresource.cpp" line="1388"/>
+        <location filename="xstringresource.cpp" line="1723"/>
+        <location filename="xstringresource.cpp" line="2115"/>
         <source>[259]</source>
         <translation>[259]</translation>
     </message>
@@ -19047,6 +19308,9 @@
         <location filename="xstringresource.cpp" line="385"/>
         <location filename="xstringresource.cpp" line="700"/>
         <location filename="xstringresource.cpp" line="1014"/>
+        <location filename="xstringresource.cpp" line="1395"/>
+        <location filename="xstringresource.cpp" line="1730"/>
+        <location filename="xstringresource.cpp" line="2122"/>
         <source>[266]</source>
         <translation>[266]</translation>
     </message>
@@ -19054,6 +19318,9 @@
         <location filename="xstringresource.cpp" line="386"/>
         <location filename="xstringresource.cpp" line="701"/>
         <location filename="xstringresource.cpp" line="1015"/>
+        <location filename="xstringresource.cpp" line="1396"/>
+        <location filename="xstringresource.cpp" line="1731"/>
+        <location filename="xstringresource.cpp" line="2123"/>
         <source>[267]</source>
         <translation>[267]</translation>
     </message>
@@ -19061,6 +19328,9 @@
         <location filename="xstringresource.cpp" line="387"/>
         <location filename="xstringresource.cpp" line="702"/>
         <location filename="xstringresource.cpp" line="1016"/>
+        <location filename="xstringresource.cpp" line="1397"/>
+        <location filename="xstringresource.cpp" line="1732"/>
+        <location filename="xstringresource.cpp" line="2124"/>
         <source>[268]</source>
         <translation>[268]</translation>
     </message>
@@ -19068,6 +19338,9 @@
         <location filename="xstringresource.cpp" line="388"/>
         <location filename="xstringresource.cpp" line="703"/>
         <location filename="xstringresource.cpp" line="1017"/>
+        <location filename="xstringresource.cpp" line="1398"/>
+        <location filename="xstringresource.cpp" line="1733"/>
+        <location filename="xstringresource.cpp" line="2125"/>
         <source>[269]</source>
         <translation>[269]</translation>
     </message>
@@ -19075,6 +19348,9 @@
         <location filename="xstringresource.cpp" line="389"/>
         <location filename="xstringresource.cpp" line="704"/>
         <location filename="xstringresource.cpp" line="1018"/>
+        <location filename="xstringresource.cpp" line="1399"/>
+        <location filename="xstringresource.cpp" line="1734"/>
+        <location filename="xstringresource.cpp" line="2126"/>
         <source>[270]</source>
         <translation>[270]</translation>
     </message>
@@ -19082,6 +19358,9 @@
         <location filename="xstringresource.cpp" line="390"/>
         <location filename="xstringresource.cpp" line="705"/>
         <location filename="xstringresource.cpp" line="1019"/>
+        <location filename="xstringresource.cpp" line="1400"/>
+        <location filename="xstringresource.cpp" line="1735"/>
+        <location filename="xstringresource.cpp" line="2127"/>
         <source>[271]</source>
         <translation>[271]</translation>
     </message>
@@ -19089,6 +19368,9 @@
         <location filename="xstringresource.cpp" line="391"/>
         <location filename="xstringresource.cpp" line="706"/>
         <location filename="xstringresource.cpp" line="1020"/>
+        <location filename="xstringresource.cpp" line="1401"/>
+        <location filename="xstringresource.cpp" line="1736"/>
+        <location filename="xstringresource.cpp" line="2128"/>
         <source>[272]</source>
         <translation>[272]</translation>
     </message>
@@ -19096,6 +19378,9 @@
         <location filename="xstringresource.cpp" line="392"/>
         <location filename="xstringresource.cpp" line="707"/>
         <location filename="xstringresource.cpp" line="1021"/>
+        <location filename="xstringresource.cpp" line="1402"/>
+        <location filename="xstringresource.cpp" line="1737"/>
+        <location filename="xstringresource.cpp" line="2129"/>
         <source>[273]</source>
         <translation>[273]</translation>
     </message>
@@ -19103,6 +19388,9 @@
         <location filename="xstringresource.cpp" line="393"/>
         <location filename="xstringresource.cpp" line="708"/>
         <location filename="xstringresource.cpp" line="1022"/>
+        <location filename="xstringresource.cpp" line="1403"/>
+        <location filename="xstringresource.cpp" line="1738"/>
+        <location filename="xstringresource.cpp" line="2130"/>
         <source>[274]</source>
         <translation>[274]</translation>
     </message>
@@ -19110,6 +19398,9 @@
         <location filename="xstringresource.cpp" line="394"/>
         <location filename="xstringresource.cpp" line="709"/>
         <location filename="xstringresource.cpp" line="1023"/>
+        <location filename="xstringresource.cpp" line="1404"/>
+        <location filename="xstringresource.cpp" line="1739"/>
+        <location filename="xstringresource.cpp" line="2131"/>
         <source>[275]</source>
         <translation>[275]</translation>
     </message>
@@ -19117,6 +19408,9 @@
         <location filename="xstringresource.cpp" line="395"/>
         <location filename="xstringresource.cpp" line="710"/>
         <location filename="xstringresource.cpp" line="1024"/>
+        <location filename="xstringresource.cpp" line="1405"/>
+        <location filename="xstringresource.cpp" line="1740"/>
+        <location filename="xstringresource.cpp" line="2132"/>
         <source>[276]</source>
         <translation>[276]</translation>
     </message>
@@ -19124,6 +19418,9 @@
         <location filename="xstringresource.cpp" line="396"/>
         <location filename="xstringresource.cpp" line="711"/>
         <location filename="xstringresource.cpp" line="1025"/>
+        <location filename="xstringresource.cpp" line="1406"/>
+        <location filename="xstringresource.cpp" line="1741"/>
+        <location filename="xstringresource.cpp" line="2133"/>
         <source>[277]</source>
         <translation>[277]</translation>
     </message>
@@ -19131,6 +19428,9 @@
         <location filename="xstringresource.cpp" line="397"/>
         <location filename="xstringresource.cpp" line="712"/>
         <location filename="xstringresource.cpp" line="1026"/>
+        <location filename="xstringresource.cpp" line="1407"/>
+        <location filename="xstringresource.cpp" line="1742"/>
+        <location filename="xstringresource.cpp" line="2134"/>
         <source>[278]</source>
         <translation>[278]</translation>
     </message>
@@ -19138,6 +19438,9 @@
         <location filename="xstringresource.cpp" line="398"/>
         <location filename="xstringresource.cpp" line="713"/>
         <location filename="xstringresource.cpp" line="1027"/>
+        <location filename="xstringresource.cpp" line="1408"/>
+        <location filename="xstringresource.cpp" line="1743"/>
+        <location filename="xstringresource.cpp" line="2135"/>
         <source>[279]</source>
         <translation>[279]</translation>
     </message>
@@ -19145,6 +19448,9 @@
         <location filename="xstringresource.cpp" line="399"/>
         <location filename="xstringresource.cpp" line="714"/>
         <location filename="xstringresource.cpp" line="1028"/>
+        <location filename="xstringresource.cpp" line="1409"/>
+        <location filename="xstringresource.cpp" line="1744"/>
+        <location filename="xstringresource.cpp" line="2136"/>
         <source>[280]</source>
         <translation>[280]</translation>
     </message>
@@ -19152,6 +19458,9 @@
         <location filename="xstringresource.cpp" line="400"/>
         <location filename="xstringresource.cpp" line="715"/>
         <location filename="xstringresource.cpp" line="1029"/>
+        <location filename="xstringresource.cpp" line="1410"/>
+        <location filename="xstringresource.cpp" line="1745"/>
+        <location filename="xstringresource.cpp" line="2137"/>
         <source>[281]</source>
         <translation>[281]</translation>
     </message>
@@ -19159,6 +19468,9 @@
         <location filename="xstringresource.cpp" line="401"/>
         <location filename="xstringresource.cpp" line="716"/>
         <location filename="xstringresource.cpp" line="1030"/>
+        <location filename="xstringresource.cpp" line="1411"/>
+        <location filename="xstringresource.cpp" line="1746"/>
+        <location filename="xstringresource.cpp" line="2138"/>
         <source>[282]</source>
         <translation>[282]</translation>
     </message>
@@ -19166,6 +19478,9 @@
         <location filename="xstringresource.cpp" line="402"/>
         <location filename="xstringresource.cpp" line="717"/>
         <location filename="xstringresource.cpp" line="1031"/>
+        <location filename="xstringresource.cpp" line="1412"/>
+        <location filename="xstringresource.cpp" line="1747"/>
+        <location filename="xstringresource.cpp" line="2139"/>
         <source>[283]</source>
         <translation>[283]</translation>
     </message>
@@ -19173,6 +19488,9 @@
         <location filename="xstringresource.cpp" line="403"/>
         <location filename="xstringresource.cpp" line="718"/>
         <location filename="xstringresource.cpp" line="1032"/>
+        <location filename="xstringresource.cpp" line="1413"/>
+        <location filename="xstringresource.cpp" line="1748"/>
+        <location filename="xstringresource.cpp" line="2140"/>
         <source>[284]</source>
         <translation>[284]</translation>
     </message>
@@ -19180,6 +19498,9 @@
         <location filename="xstringresource.cpp" line="404"/>
         <location filename="xstringresource.cpp" line="719"/>
         <location filename="xstringresource.cpp" line="1033"/>
+        <location filename="xstringresource.cpp" line="1414"/>
+        <location filename="xstringresource.cpp" line="1749"/>
+        <location filename="xstringresource.cpp" line="2141"/>
         <source>[285]</source>
         <translation>[285]</translation>
     </message>
@@ -19187,6 +19508,9 @@
         <location filename="xstringresource.cpp" line="405"/>
         <location filename="xstringresource.cpp" line="720"/>
         <location filename="xstringresource.cpp" line="1034"/>
+        <location filename="xstringresource.cpp" line="1415"/>
+        <location filename="xstringresource.cpp" line="1750"/>
+        <location filename="xstringresource.cpp" line="2142"/>
         <source>[286]</source>
         <translation>[286]</translation>
     </message>
@@ -19194,6 +19518,9 @@
         <location filename="xstringresource.cpp" line="406"/>
         <location filename="xstringresource.cpp" line="721"/>
         <location filename="xstringresource.cpp" line="1035"/>
+        <location filename="xstringresource.cpp" line="1416"/>
+        <location filename="xstringresource.cpp" line="1751"/>
+        <location filename="xstringresource.cpp" line="2143"/>
         <source>[287]</source>
         <translation>[287]</translation>
     </message>
@@ -19201,6 +19528,9 @@
         <location filename="xstringresource.cpp" line="407"/>
         <location filename="xstringresource.cpp" line="722"/>
         <location filename="xstringresource.cpp" line="1036"/>
+        <location filename="xstringresource.cpp" line="1417"/>
+        <location filename="xstringresource.cpp" line="1752"/>
+        <location filename="xstringresource.cpp" line="2144"/>
         <source>[288]</source>
         <translation>[288]</translation>
     </message>
@@ -19208,6 +19538,9 @@
         <location filename="xstringresource.cpp" line="408"/>
         <location filename="xstringresource.cpp" line="723"/>
         <location filename="xstringresource.cpp" line="1037"/>
+        <location filename="xstringresource.cpp" line="1418"/>
+        <location filename="xstringresource.cpp" line="1753"/>
+        <location filename="xstringresource.cpp" line="2145"/>
         <source>[289]</source>
         <translation>[289]</translation>
     </message>
@@ -19215,6 +19548,9 @@
         <location filename="xstringresource.cpp" line="409"/>
         <location filename="xstringresource.cpp" line="724"/>
         <location filename="xstringresource.cpp" line="1038"/>
+        <location filename="xstringresource.cpp" line="1419"/>
+        <location filename="xstringresource.cpp" line="1754"/>
+        <location filename="xstringresource.cpp" line="2146"/>
         <source>[290]</source>
         <translation>[290]</translation>
     </message>
@@ -19222,6 +19558,9 @@
         <location filename="xstringresource.cpp" line="410"/>
         <location filename="xstringresource.cpp" line="725"/>
         <location filename="xstringresource.cpp" line="1039"/>
+        <location filename="xstringresource.cpp" line="1420"/>
+        <location filename="xstringresource.cpp" line="1755"/>
+        <location filename="xstringresource.cpp" line="2147"/>
         <source>[291]</source>
         <translation>[291]</translation>
     </message>
@@ -19229,6 +19568,9 @@
         <location filename="xstringresource.cpp" line="411"/>
         <location filename="xstringresource.cpp" line="726"/>
         <location filename="xstringresource.cpp" line="1040"/>
+        <location filename="xstringresource.cpp" line="1421"/>
+        <location filename="xstringresource.cpp" line="1756"/>
+        <location filename="xstringresource.cpp" line="2148"/>
         <source>[292]</source>
         <translation>[292]</translation>
     </message>
@@ -19236,6 +19578,9 @@
         <location filename="xstringresource.cpp" line="412"/>
         <location filename="xstringresource.cpp" line="727"/>
         <location filename="xstringresource.cpp" line="1041"/>
+        <location filename="xstringresource.cpp" line="1422"/>
+        <location filename="xstringresource.cpp" line="1757"/>
+        <location filename="xstringresource.cpp" line="2149"/>
         <source>[293]</source>
         <translation>[293]</translation>
     </message>
@@ -19243,6 +19588,9 @@
         <location filename="xstringresource.cpp" line="413"/>
         <location filename="xstringresource.cpp" line="728"/>
         <location filename="xstringresource.cpp" line="1042"/>
+        <location filename="xstringresource.cpp" line="1423"/>
+        <location filename="xstringresource.cpp" line="1758"/>
+        <location filename="xstringresource.cpp" line="2150"/>
         <source>[294]</source>
         <translation>[294]</translation>
     </message>
@@ -19250,6 +19598,9 @@
         <location filename="xstringresource.cpp" line="414"/>
         <location filename="xstringresource.cpp" line="729"/>
         <location filename="xstringresource.cpp" line="1043"/>
+        <location filename="xstringresource.cpp" line="1424"/>
+        <location filename="xstringresource.cpp" line="1759"/>
+        <location filename="xstringresource.cpp" line="2151"/>
         <source>[295]</source>
         <translation>[295]</translation>
     </message>
@@ -19257,6 +19608,9 @@
         <location filename="xstringresource.cpp" line="415"/>
         <location filename="xstringresource.cpp" line="730"/>
         <location filename="xstringresource.cpp" line="1044"/>
+        <location filename="xstringresource.cpp" line="1425"/>
+        <location filename="xstringresource.cpp" line="1760"/>
+        <location filename="xstringresource.cpp" line="2152"/>
         <source>[296]</source>
         <translation>[296]</translation>
     </message>
@@ -19264,6 +19618,9 @@
         <location filename="xstringresource.cpp" line="416"/>
         <location filename="xstringresource.cpp" line="731"/>
         <location filename="xstringresource.cpp" line="1045"/>
+        <location filename="xstringresource.cpp" line="1426"/>
+        <location filename="xstringresource.cpp" line="1761"/>
+        <location filename="xstringresource.cpp" line="2153"/>
         <source>[297]</source>
         <translation>[297]</translation>
     </message>
@@ -19271,6 +19628,9 @@
         <location filename="xstringresource.cpp" line="417"/>
         <location filename="xstringresource.cpp" line="732"/>
         <location filename="xstringresource.cpp" line="1046"/>
+        <location filename="xstringresource.cpp" line="1427"/>
+        <location filename="xstringresource.cpp" line="1762"/>
+        <location filename="xstringresource.cpp" line="2154"/>
         <source>[298]</source>
         <translation>[298]</translation>
     </message>
@@ -19278,6 +19638,9 @@
         <location filename="xstringresource.cpp" line="418"/>
         <location filename="xstringresource.cpp" line="733"/>
         <location filename="xstringresource.cpp" line="1047"/>
+        <location filename="xstringresource.cpp" line="1428"/>
+        <location filename="xstringresource.cpp" line="1763"/>
+        <location filename="xstringresource.cpp" line="2155"/>
         <source>[299]</source>
         <translation>[299]</translation>
     </message>
@@ -19292,6 +19655,9 @@
         <location filename="xstringresource.cpp" line="420"/>
         <location filename="xstringresource.cpp" line="735"/>
         <location filename="xstringresource.cpp" line="1049"/>
+        <location filename="xstringresource.cpp" line="1430"/>
+        <location filename="xstringresource.cpp" line="1765"/>
+        <location filename="xstringresource.cpp" line="2157"/>
         <source>[301]</source>
         <translation>[301]</translation>
     </message>
@@ -19299,6 +19665,9 @@
         <location filename="xstringresource.cpp" line="421"/>
         <location filename="xstringresource.cpp" line="736"/>
         <location filename="xstringresource.cpp" line="1050"/>
+        <location filename="xstringresource.cpp" line="1431"/>
+        <location filename="xstringresource.cpp" line="1766"/>
+        <location filename="xstringresource.cpp" line="2158"/>
         <source>[302]</source>
         <translation>[302]</translation>
     </message>
@@ -19306,6 +19675,9 @@
         <location filename="xstringresource.cpp" line="422"/>
         <location filename="xstringresource.cpp" line="737"/>
         <location filename="xstringresource.cpp" line="1051"/>
+        <location filename="xstringresource.cpp" line="1432"/>
+        <location filename="xstringresource.cpp" line="1767"/>
+        <location filename="xstringresource.cpp" line="2159"/>
         <source>[303]</source>
         <translation>[303]</translation>
     </message>
@@ -19320,6 +19692,9 @@
         <location filename="xstringresource.cpp" line="424"/>
         <location filename="xstringresource.cpp" line="739"/>
         <location filename="xstringresource.cpp" line="1053"/>
+        <location filename="xstringresource.cpp" line="1434"/>
+        <location filename="xstringresource.cpp" line="1769"/>
+        <location filename="xstringresource.cpp" line="2161"/>
         <source>[305]</source>
         <translation>[305]</translation>
     </message>
@@ -19327,6 +19702,9 @@
         <location filename="xstringresource.cpp" line="425"/>
         <location filename="xstringresource.cpp" line="740"/>
         <location filename="xstringresource.cpp" line="1054"/>
+        <location filename="xstringresource.cpp" line="1435"/>
+        <location filename="xstringresource.cpp" line="1770"/>
+        <location filename="xstringresource.cpp" line="2162"/>
         <source>[306]</source>
         <translation>[306]</translation>
     </message>
@@ -19334,6 +19712,9 @@
         <location filename="xstringresource.cpp" line="426"/>
         <location filename="xstringresource.cpp" line="741"/>
         <location filename="xstringresource.cpp" line="1055"/>
+        <location filename="xstringresource.cpp" line="1436"/>
+        <location filename="xstringresource.cpp" line="1771"/>
+        <location filename="xstringresource.cpp" line="2163"/>
         <source>[307]</source>
         <translation>[307]</translation>
     </message>
@@ -19341,6 +19722,9 @@
         <location filename="xstringresource.cpp" line="427"/>
         <location filename="xstringresource.cpp" line="742"/>
         <location filename="xstringresource.cpp" line="1056"/>
+        <location filename="xstringresource.cpp" line="1437"/>
+        <location filename="xstringresource.cpp" line="1772"/>
+        <location filename="xstringresource.cpp" line="2164"/>
         <source>[308]</source>
         <translation>[308]</translation>
     </message>
@@ -19348,6 +19732,9 @@
         <location filename="xstringresource.cpp" line="428"/>
         <location filename="xstringresource.cpp" line="743"/>
         <location filename="xstringresource.cpp" line="1057"/>
+        <location filename="xstringresource.cpp" line="1438"/>
+        <location filename="xstringresource.cpp" line="1773"/>
+        <location filename="xstringresource.cpp" line="2165"/>
         <source>[309]</source>
         <translation>[309]</translation>
     </message>
@@ -19355,6 +19742,9 @@
         <location filename="xstringresource.cpp" line="429"/>
         <location filename="xstringresource.cpp" line="744"/>
         <location filename="xstringresource.cpp" line="1058"/>
+        <location filename="xstringresource.cpp" line="1439"/>
+        <location filename="xstringresource.cpp" line="1774"/>
+        <location filename="xstringresource.cpp" line="2166"/>
         <source>[310]</source>
         <translation>[310]</translation>
     </message>
@@ -19426,124 +19816,193 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1070"/>
+        <location filename="xstringresource.cpp" line="1444"/>
+        <location filename="xstringresource.cpp" line="1780"/>
         <source>[000] 没有任何提示或者报警。</source>
-        <translation type="obsolete">[000] 沒有任何提示或者報警。</translation>
+        <translation type="unfinished">[000] 沒有任何提示或者報警。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1071"/>
+        <location filename="xstringresource.cpp" line="1445"/>
+        <location filename="xstringresource.cpp" line="1781"/>
         <source>[001] 无效的气动正臂动作。</source>
-        <translation type="obsolete">[001] 無效的氣動正臂動作。</translation>
+        <translation type="unfinished">[001] 無效的氣動正臂動作。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1073"/>
+        <location filename="xstringresource.cpp" line="1783"/>
         <source>[002] 无效的机床指令。</source>
-        <translation type="obsolete">[002] 無效的机床指令。</translation>
+        <translation type="unfinished">[002] 無效的机床指令。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1075"/>
+        <location filename="xstringresource.cpp" line="1785"/>
         <source>[002] 无效的注塑机指令。</source>
-        <translation type="obsolete">[002] 無效的注塑機指令。</translation>
+        <translation type="unfinished">[002] 無效的注塑機指令。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1077"/>
+        <location filename="xstringresource.cpp" line="1447"/>
+        <location filename="xstringresource.cpp" line="1787"/>
         <source>[003] 无效的IF条件指令。</source>
-        <translation type="obsolete">[003] 無效的IF條件指令。</translation>
+        <translation type="unfinished">[003] 無效的IF條件指令。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1078"/>
+        <location filename="xstringresource.cpp" line="1448"/>
+        <location filename="xstringresource.cpp" line="1788"/>
         <source>[004] 无效的系统运行方式。</source>
-        <translation type="obsolete">[004] 無效的系統運行方式。</translation>
+        <translation type="unfinished">[004] 無效的系統運行方式。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1079"/>
+        <location filename="xstringresource.cpp" line="1449"/>
+        <location filename="xstringresource.cpp" line="1789"/>
         <source>[005] 无效的系统状态。</source>
-        <translation type="obsolete">[005] 無效的系統狀態。</translation>
+        <translation type="unfinished">[005] 無效的系統狀態。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1080"/>
+        <location filename="xstringresource.cpp" line="1450"/>
+        <location filename="xstringresource.cpp" line="1790"/>
         <source>[006] 无效的指令参数。</source>
-        <translation type="obsolete">[006] 無效的指令參數。</translation>
+        <translation type="unfinished">[006] 無效的指令參數。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1081"/>
+        <location filename="xstringresource.cpp" line="1451"/>
+        <location filename="xstringresource.cpp" line="1791"/>
         <source>[007] 无效的指令。</source>
-        <translation type="obsolete">[007] 無效的指令。</translation>
+        <translation type="unfinished">[007] 無效的指令。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1082"/>
+        <location filename="xstringresource.cpp" line="1452"/>
         <source>[008] 无效的扩展类型。</source>
-        <translation type="obsolete">[008] 無效的擴展類型。</translation>
+        <translation type="unfinished">[008] 無效的擴展類型。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1083"/>
+        <location filename="xstringresource.cpp" line="1453"/>
         <source>[009]</source>
-        <translation type="obsolete">[009]</translation>
+        <translation type="unfinished">[009]</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1084"/>
         <source>[010] [FOR]指令格式不匹配，缺少[ENDFOR]。</source>
-        <translation type="obsolete">[010] [FOR]指令格式不匹配，缺少[ENDFOR]。</translation>
+        <translation type="unfinished">[010] [FOR]指令格式不匹配，缺少[ENDFOR]。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1085"/>
         <source>[011] [FOR]指令格式不匹配，缺少[FOR]。</source>
-        <translation type="obsolete">[011] [FOR]指令格式不匹配，缺少[FOR]。</translation>
+        <translation type="unfinished">[011] [FOR]指令格式不匹配，缺少[FOR]。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1086"/>
         <source>[012] [IF]指令格式错误，缺少[ENDIF]。</source>
-        <translation type="obsolete">[012] [IF]指令格式錯誤，缺少[ENDIF]。</translation>
+        <translation type="unfinished">[012] [IF]指令格式錯誤，缺少[ENDIF]。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1087"/>
         <source>[013] 程序缺少程序结束指令。</source>
-        <translation type="obsolete">[013] 程序中缺少[程序結束]指令。</translation>
+        <translation type="unfinished">[013] 程序中缺少[程序結束]指令。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1088"/>
+        <location filename="xstringresource.cpp" line="1458"/>
+        <location filename="xstringresource.cpp" line="1798"/>
         <source>[014] 组合中的动作指令大于30条。</source>
-        <translation type="obsolete">[014] 組合中的動作指令大於30條。</translation>
+        <translation type="unfinished">[014] 組合中的動作指令大於30條。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1089"/>
+        <location filename="xstringresource.cpp" line="1459"/>
+        <location filename="xstringresource.cpp" line="1799"/>
         <source>[015] 组合指令格式错误，缺少[组合结束]。</source>
-        <translation type="obsolete">[015] 組合指令格式錯誤，缺少[組合結束]。</translation>
+        <translation type="unfinished">[015] 組合指令格式錯誤，缺少[組合結束]。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1090"/>
+        <location filename="xstringresource.cpp" line="1460"/>
         <source>[016] 系统变量是只读变量，不能执行写操作。</source>
-        <translation type="obsolete">[016] 系統變量是衹讀變量，不能執行修改操作。</translation>
+        <translation type="unfinished">[016] 系統變量是衹讀變量，不能執行修改操作。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1091"/>
+        <location filename="xstringresource.cpp" line="1461"/>
+        <location filename="xstringresource.cpp" line="1801"/>
         <source>[017] 用户变量编号超范围，合法的编号在0到255范围内。</source>
-        <translation type="obsolete">[017] 用戶變量編號超範圍，合法的編號在0到255範圍內。</translation>
+        <translation type="unfinished">[017] 用戶變量編號超範圍，合法的編號在0到255範圍內。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1092"/>
+        <location filename="xstringresource.cpp" line="1462"/>
         <source>[018]</source>
-        <translation type="obsolete">[018]</translation>
+        <translation type="unfinished">[018]</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1094"/>
         <source>[019] 自动运行时机床没有安全门信号。</source>
-        <translation type="obsolete">[019] 自動運行時机床安全門沒有關閉。</translation>
+        <translation type="unfinished">[019] 自動運行時机床安全門沒有關閉。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1095"/>
+        <location filename="xstringresource.cpp" line="1805"/>
         <source>[020] 自动运行时没有机床中板模信号。</source>
-        <translation type="obsolete">[020] 自動運行時沒有机床中板模信號。</translation>
+        <translation type="unfinished">[020] 自動運行時沒有机床中板模信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1097"/>
         <source>[019] 自动运行时注塑机没有安全门信号。</source>
-        <translation type="obsolete">[019] 自動運行時注塑機安全門沒有關閉。</translation>
+        <translation type="unfinished">[019] 自動運行時注塑機安全門沒有關閉。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1098"/>
+        <location filename="xstringresource.cpp" line="1808"/>
         <source>[020] 自动运行时没有注塑机中板模信号。</source>
-        <translation type="obsolete">[020] 自動運行時沒有注塑機中板模信號。</translation>
+        <translation type="unfinished">[020] 自動運行時沒有注塑機中板模信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1100"/>
+        <location filename="xstringresource.cpp" line="1465"/>
+        <location filename="xstringresource.cpp" line="1810"/>
         <source>[021] 设定的生产计划已经完成。</source>
-        <translation type="obsolete">[021] 設定的生產計劃已經完成。</translation>
+        <translation type="unfinished">[021] 設定的生產計劃已經完成。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1101"/>
+        <location filename="xstringresource.cpp" line="1466"/>
+        <location filename="xstringresource.cpp" line="1811"/>
         <source>[022] 累计不良产品数量达到设定报警值。</source>
-        <translation type="obsolete">[022] 不良品數量報警，請檢查模具。</translation>
+        <translation type="unfinished">[022] 不良品數量報警，請檢查模具。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1102"/>
+        <location filename="xstringresource.cpp" line="1467"/>
         <source>[023]</source>
-        <translation type="obsolete">[023]</translation>
+        <translation type="unfinished">[023]</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1103"/>
+        <location filename="xstringresource.cpp" line="1468"/>
+        <location filename="xstringresource.cpp" line="1813"/>
         <source>[024] 手动且错误状态下不能改变运行方式。</source>
-        <translation type="obsolete">[024] 手動且錯誤狀態下不能改變運行方式。</translation>
+        <translation type="unfinished">[024] 手動且錯誤狀態下不能改變運行方式。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1104"/>
+        <location filename="xstringresource.cpp" line="1469"/>
+        <location filename="xstringresource.cpp" line="1814"/>
         <source>[025] 系统在错误状态，不能改变系统的工作状态。</source>
-        <translation type="obsolete">[025] 系統在錯誤狀態，不能改變系統的工作狀態。</translation>
+        <translation type="unfinished">[025] 系統在錯誤狀態，不能改變系統的工作狀態。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1105"/>
+        <location filename="xstringresource.cpp" line="1470"/>
+        <location filename="xstringresource.cpp" line="1815"/>
         <source>[026] 系统正在运行，不能改变系统的工作状态。</source>
-        <translation type="obsolete">[026] 系統正在運行，不能改變系統的工作狀態。</translation>
+        <translation type="unfinished">[026] 系統正在運行，不能改變系統的工作狀態。</translation>
     </message>
     <message>
         <source>[027] 倒角轴位置不在安全区域，禁止机床关模。</source>
@@ -19574,8 +20033,9 @@
         <translation type="obsolete">[028] Y軸位置不在安全區域，禁止注塑機關模。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1113"/>
         <source>[029] 在模内下位倒角不安全。</source>
-        <translation type="obsolete">[029] 在模內下位倒角不安全。</translation>
+        <translation type="unfinished">[029] 在模內下位倒角不安全。</translation>
     </message>
     <message>
         <source>[030] 上下轴没有原点信号。</source>
@@ -19598,24 +20058,39 @@
         <translation type="obsolete">[030] Y軸沒有原點信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1118"/>
+        <location filename="xstringresource.cpp" line="1478"/>
+        <location filename="xstringresource.cpp" line="3802"/>
         <source>[032]</source>
-        <translation type="obsolete">[032]</translation>
+        <translation type="unfinished">[032]</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1119"/>
+        <location filename="xstringresource.cpp" line="1479"/>
+        <location filename="xstringresource.cpp" line="3803"/>
         <source>[033]</source>
-        <translation type="obsolete">[033]</translation>
+        <translation type="unfinished">[033]</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1120"/>
+        <location filename="xstringresource.cpp" line="1481"/>
+        <location filename="xstringresource.cpp" line="1833"/>
         <source>[034] 系统设置[倒角状态]为垂直，正臂或副臂气动倒角不垂直，不能自动运行。</source>
-        <translation type="obsolete">[034] 系統設置[倒角狀態]為垂直，正臂或副臂氣動倒角不垂直，不能自動運行。</translation>
+        <translation type="unfinished">[034] 系統設置[倒角狀態]為垂直，正臂或副臂氣動倒角不垂直，不能自動運行。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1121"/>
+        <location filename="xstringresource.cpp" line="1482"/>
+        <location filename="xstringresource.cpp" line="1834"/>
         <source>[035] 系统设置[倒角状态]为水平，正臂或副臂气动倒角不水平，不能自动运行。</source>
-        <translation type="obsolete">[035] 系統設置[倒角狀態]為水平，正臂或副臂氣動倒角不水平，不能自動運行。</translation>
+        <translation type="unfinished">[035] 系統設置[倒角狀態]為水平，正臂或副臂氣動倒角不水平，不能自動運行。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1122"/>
+        <location filename="xstringresource.cpp" line="1487"/>
+        <location filename="xstringresource.cpp" line="1835"/>
         <source>[036] 伺服没有经过原点复归操作。</source>
-        <translation type="obsolete">[036] 伺服沒有經過原點複歸操作。</translation>
+        <translation type="unfinished">[036] 伺服沒有經過原點複歸操作。</translation>
     </message>
     <message>
         <source>[037] 上下轴不在上位，横行轴运行不安全。</source>
@@ -19630,12 +20105,15 @@
         <translation type="obsolete">[039] 上下軸不在上位，引拔軸運行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1128"/>
+        <location filename="xstringresource.cpp" line="3811"/>
         <source>[041]</source>
-        <translation type="obsolete">[041]</translation>
+        <translation type="unfinished">[041]</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1129"/>
         <source>[042]</source>
-        <translation type="obsolete">[042]</translation>
+        <translation type="unfinished">[042]</translation>
     </message>
     <message>
         <source>[043] 没有开模完信号，上下轴运行不安全。</source>
@@ -19650,8 +20128,9 @@
         <translation type="obsolete">[045] 橫行軸不在安全區內，正上下軸運行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1133"/>
         <source>[046]</source>
-        <translation type="obsolete">[046]</translation>
+        <translation type="unfinished">[046]</translation>
     </message>
     <message>
         <source>[047] 模内超出安全区，引拔轴运行不安全。</source>
@@ -19730,40 +20209,62 @@
         <translation type="obsolete">[045] Z軸不在安全區內，Y軸運行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1137"/>
         <source>[049] 副臂不在上位，不能自动运行。</source>
-        <translation type="obsolete">[049] 副臂不在上位，不能自動運行。</translation>
+        <translation type="unfinished">[049] 副臂不在上位，不能自動運行。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1138"/>
+        <location filename="xstringresource.cpp" line="1513"/>
+        <location filename="xstringresource.cpp" line="1851"/>
         <source>[050] 系统需要进行维护，请联系生产厂商。</source>
-        <translation type="obsolete">[050] 系統需要進行維護，請聯系生産廠商。</translation>
+        <translation type="unfinished">[050] 系統需要進行維護，請聯系生産廠商。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1140"/>
+        <location filename="xstringresource.cpp" line="1515"/>
+        <location filename="xstringresource.cpp" line="3822"/>
         <source>[052]</source>
-        <translation type="obsolete">[052]</translation>
+        <translation type="unfinished">[052]</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1141"/>
+        <location filename="xstringresource.cpp" line="1516"/>
+        <location filename="xstringresource.cpp" line="1854"/>
         <source>[053] 机械手正在动作中，不能执行其他操作。</source>
-        <translation type="obsolete">[053] 機械手正在動作中，不能執行其他操作。</translation>
+        <translation type="unfinished">[053] 機械手正在動作中，不能執行其他操作。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1142"/>
+        <location filename="xstringresource.cpp" line="1517"/>
+        <location filename="xstringresource.cpp" line="1855"/>
         <source>[054] 系统程序指令指针错误。</source>
-        <translation type="obsolete">[054] 系統程序指令指針錯誤。</translation>
+        <translation type="unfinished">[054] 系統程序指令指針錯誤。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1143"/>
+        <location filename="xstringresource.cpp" line="1518"/>
         <source>[055]</source>
-        <translation type="obsolete">[055]</translation>
+        <translation type="unfinished">[055]</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1144"/>
+        <location filename="xstringresource.cpp" line="1857"/>
         <source>[056] 安全门开启，暂停系统自动运行。</source>
-        <translation type="obsolete">[056] 安全門開啟，暫停系統自動運行。</translation>
+        <translation type="unfinished">[056] 安全門開啟，暫停系統自動運行。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1145"/>
+        <location filename="xstringresource.cpp" line="1520"/>
+        <location filename="xstringresource.cpp" line="1858"/>
         <source>[057] 系统工作状态错误。</source>
-        <translation type="obsolete">[057] 系統工作狀態錯誤。</translation>
+        <translation type="unfinished">[057] 系統工作狀態錯誤。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1146"/>
+        <location filename="xstringresource.cpp" line="1859"/>
         <source>[058] 正臂或副臂气动倒角水平时，禁止在模内下行。</source>
-        <translation type="obsolete">[058] 正臂或副臂氣動倒角水平時，禁止在模內下行。</translation>
+        <translation type="unfinished">[058] 正臂或副臂氣動倒角水平時，禁止在模內下行。</translation>
     </message>
     <message>
         <source>[059] 引拔轴位置超出了软件行程。</source>
@@ -19917,36 +20418,56 @@
         <location filename="xstringresource.cpp" line="190"/>
         <location filename="xstringresource.cpp" line="505"/>
         <location filename="xstringresource.cpp" line="819"/>
+        <location filename="xstringresource.cpp" line="1161"/>
         <source>[071]</source>
         <translation>[071]</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1162"/>
+        <location filename="xstringresource.cpp" line="1537"/>
+        <location filename="xstringresource.cpp" line="1875"/>
         <source>[072] 循环定位子程序中定位点数量太大。</source>
-        <translation type="obsolete">[072] 循環定位子程序中定位點數量太大。</translation>
+        <translation type="unfinished">[072] 循環定位子程序中定位點數量太大。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1163"/>
+        <location filename="xstringresource.cpp" line="1538"/>
+        <location filename="xstringresource.cpp" line="1876"/>
         <source>[073] 自动生产的产品数达到设定的提醒值。</source>
-        <translation type="obsolete">[073] 自動生産的産品數達到設定的提醒值。</translation>
+        <translation type="unfinished">[073] 自動生産的産品數達到設定的提醒值。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1164"/>
         <source>[074] 组合中[IF]指令不能嵌套使用。</source>
-        <translation type="obsolete">[074] 在組合指令中，條件指令不能嵌套使用。</translation>
+        <translation type="unfinished">[074] 在組合指令中，條件指令不能嵌套使用。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1165"/>
+        <location filename="xstringresource.cpp" line="1541"/>
+        <location filename="xstringresource.cpp" line="1878"/>
         <source>[075] 正臂气动倒角水平，但没有检测到水平到位信号。</source>
-        <translation type="obsolete">[075] 正臂氣動倒角水平，但沒有檢測到水平到位信號。</translation>
+        <translation type="unfinished">[075] 正臂氣動倒角水平，但沒有檢測到水平到位信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1166"/>
+        <location filename="xstringresource.cpp" line="1542"/>
+        <location filename="xstringresource.cpp" line="1879"/>
         <source>[076] 正臂气动倒角水平，但检测到垂直到位信号。</source>
-        <translation type="obsolete">[076] 正臂氣動倒角水平，但檢測到垂直到位信號。</translation>
+        <translation type="unfinished">[076] 正臂氣動倒角水平，但檢測到垂直到位信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1167"/>
+        <location filename="xstringresource.cpp" line="1543"/>
+        <location filename="xstringresource.cpp" line="1880"/>
         <source>[077] 正臂气动倒角垂直，但没有检测到垂直到位信号。</source>
-        <translation type="obsolete">[077] 正臂氣動倒角垂直，但沒有檢測到垂直到位信號。</translation>
+        <translation type="unfinished">[077] 正臂氣動倒角垂直，但沒有檢測到垂直到位信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1168"/>
+        <location filename="xstringresource.cpp" line="1544"/>
+        <location filename="xstringresource.cpp" line="1881"/>
         <source>[078] 正臂气动倒角垂直，但检测到水平到位信号。</source>
-        <translation type="obsolete">[078] 正臂氣動倒角垂直，但檢測到水平到位信號。</translation>
+        <translation type="unfinished">[078] 正臂氣動倒角垂直，但檢測到水平到位信號。</translation>
     </message>
     <message>
         <source>[079] 引拔轴伺服报警，请检查伺服驱动器。</source>
@@ -19957,8 +20478,11 @@
         <translation type="obsolete">[082] 上下軸伺服報警，請檢查伺服驅動器。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1175"/>
+        <location filename="xstringresource.cpp" line="1550"/>
+        <location filename="xstringresource.cpp" line="1888"/>
         <source>[084] 等待开模动作超时。</source>
-        <translation type="obsolete">[084] 等待開模動作超時。</translation>
+        <translation type="unfinished">[084] 等待開模動作超時。</translation>
     </message>
     <message>
         <source>[085] 横行轴伺服报警，请检查伺服驱动器。</source>
@@ -20017,20 +20541,27 @@
         <translation type="obsolete">[085] Z軸伺服報警，請檢查伺服驅動器。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1190"/>
         <source>[097] 机床紧急停止，请检查机床。</source>
-        <translation type="obsolete">[097] 機床緊急停止，請檢查機床。</translation>
+        <translation type="unfinished">[097] 機床緊急停止，請檢查機床。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1192"/>
+        <location filename="xstringresource.cpp" line="1905"/>
         <source>[097] 注塑机紧急停止，请检查注塑机。</source>
-        <translation type="obsolete">[097] 注塑機緊急停止，請檢查注塑機。</translation>
+        <translation type="unfinished">[097] 注塑機緊急停止，請檢查注塑機。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1194"/>
+        <location filename="xstringresource.cpp" line="1907"/>
         <source>[098] 机械手紧急停止，请检查机械手。</source>
-        <translation type="obsolete">[098] 機械手緊急停止，請檢查機械手。</translation>
+        <translation type="unfinished">[098] 機械手緊急停止，請檢查機械手。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1195"/>
+        <location filename="xstringresource.cpp" line="1908"/>
         <source>[099] 气源气压过低，请检查气源压力。</source>
-        <translation type="obsolete">[099] 氣源氣壓過低，請檢查氣源壓力。</translation>
+        <translation type="unfinished">[099] 氣源氣壓過低，請檢查氣源壓力。</translation>
     </message>
     <message>
         <source>[100] 倒角轴在模内区域，机床开模完信号消失。</source>
@@ -20217,36 +20748,58 @@
         <translation type="obsolete">[109] Z軸伺服運行到負極限。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1213"/>
+        <location filename="xstringresource.cpp" line="1561"/>
         <source>[116]</source>
-        <translation type="obsolete">[116]</translation>
+        <translation type="unfinished">[116]</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1214"/>
+        <location filename="xstringresource.cpp" line="1562"/>
+        <location filename="xstringresource.cpp" line="1928"/>
         <source>[117] 伺服定位超时，请检查伺服驱动器参数设置。</source>
-        <translation type="obsolete">[117] 伺服定位超時，請檢查伺服驅動器參數設置。</translation>
+        <translation type="unfinished">[117] 伺服定位超時，請檢查伺服驅動器參數設置。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1215"/>
+        <location filename="xstringresource.cpp" line="1563"/>
+        <location filename="xstringresource.cpp" line="1929"/>
         <source>[118] 伺服定位动作的伺服轴索引无效。</source>
-        <translation type="obsolete">[118] 伺服定位動作的伺服軸索引無效。</translation>
+        <translation type="unfinished">[118] 伺服定位動作的伺服軸索引無效。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1216"/>
+        <location filename="xstringresource.cpp" line="1564"/>
+        <location filename="xstringresource.cpp" line="1930"/>
         <source>[119] IO扩展模块1通讯错误。</source>
-        <translation type="obsolete">[119] IO擴展模塊1通訊錯誤。</translation>
+        <translation type="unfinished">[119] IO擴展模塊1通訊錯誤。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1217"/>
+        <location filename="xstringresource.cpp" line="1565"/>
+        <location filename="xstringresource.cpp" line="1931"/>
         <source>[120] IO扩展模块2通讯错误。</source>
-        <translation type="obsolete">[120] IO擴展模塊2通訊錯誤。</translation>
+        <translation type="unfinished">[120] IO擴展模塊2通訊錯誤。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1218"/>
+        <location filename="xstringresource.cpp" line="1566"/>
+        <location filename="xstringresource.cpp" line="1932"/>
         <source>[121] IO扩展模块3通讯错误。</source>
-        <translation type="obsolete">[121] IO擴展模塊3通訊錯誤。</translation>
+        <translation type="unfinished">[121] IO擴展模塊3通訊錯誤。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1219"/>
+        <location filename="xstringresource.cpp" line="1567"/>
+        <location filename="xstringresource.cpp" line="1933"/>
         <source>[122] IO扩展模块4通讯错误。</source>
-        <translation type="obsolete">[122] IO擴展模組4通訊錯誤。</translation>
+        <translation type="unfinished">[122] IO擴展模組4通訊錯誤。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1220"/>
+        <location filename="xstringresource.cpp" line="1568"/>
         <source>[123] 没有模外下行安全检测信号，手臂不能下行。</source>
-        <translation type="obsolete">[123] 沒有模外下行安全信號，手臂不能下行。</translation>
+        <translation type="unfinished">[123] 沒有模外下行安全信號，手臂不能下行。</translation>
     </message>
     <message>
         <source>[124] 系统设置倒角垂直时，横行轴运行不安全。</source>
@@ -20281,28 +20834,38 @@
         <translation type="obsolete">[124] 系統設置倒角垂直時，Z軸運行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1225"/>
+        <location filename="xstringresource.cpp" line="1573"/>
         <source>[127]</source>
-        <translation type="obsolete">[127]</translation>
+        <translation type="unfinished">[127]</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1227"/>
+        <location filename="xstringresource.cpp" line="1942"/>
         <source>[128] 自动运行时机床开模完但没有中板模信号。</source>
-        <translation type="obsolete">[128] 自動運行時機床開模完但沒有中板模信號。</translation>
+        <translation type="unfinished">[128] 自動運行時機床開模完但沒有中板模信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1228"/>
+        <location filename="xstringresource.cpp" line="1943"/>
         <source>[129] 自动运行时没有机床全自动信号。</source>
-        <translation type="obsolete">[129] 自動運行時沒有機床全自動信號。</translation>
+        <translation type="unfinished">[129] 自動運行時沒有機床全自動信號。</translation>
     </message>
     <message>
         <source>[130] 引拔轴和旋转轴位置冲突。</source>
         <translation type="obsolete">[130] 引拔軸和旋轉軸位置衝突。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1230"/>
+        <location filename="xstringresource.cpp" line="1945"/>
         <source>[128] 自动运行时注塑机开模完但没有中板模信号。</source>
-        <translation type="obsolete">[128] 自動運行時注塑機開模完但沒有中板模信號。</translation>
+        <translation type="unfinished">[128] 自動運行時注塑機開模完但沒有中板模信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1231"/>
+        <location filename="xstringresource.cpp" line="1946"/>
         <source>[129] 自动运行时没有注塑机全自动信号。</source>
-        <translation type="obsolete">[129] 自動運行時沒有注塑機全自動信號。</translation>
+        <translation type="unfinished">[129] 自動運行時沒有注塑機全自動信號。</translation>
     </message>
     <message>
         <source>[130] Y轴和B轴位置冲突。</source>
@@ -20313,16 +20876,23 @@
         <translation type="obsolete">[130] X軸和B軸位置衝突。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1234"/>
+        <location filename="xstringresource.cpp" line="1578"/>
+        <location filename="xstringresource.cpp" line="1950"/>
         <source>[131] 组合中不能出现[允许关模]之外的动作。</source>
-        <translation type="obsolete">[131] 組合中不能出現[允許關模]之外的動作。</translation>
+        <translation type="unfinished">[131] 組合中不能出現[允許關模]之外的動作。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1235"/>
+        <location filename="xstringresource.cpp" line="1951"/>
         <source>[132] 手臂在模内没有开模完信号(模外待机)。</source>
-        <translation type="obsolete">[132] 手臂在模內沒有開模完信號(模外待機)。</translation>
+        <translation type="unfinished">[132] 手臂在模內沒有開模完信號(模外待機)。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1236"/>
+        <location filename="xstringresource.cpp" line="1952"/>
         <source>[133] 手臂在模内没有中板模信号(模外待机)。</source>
-        <translation type="obsolete">[133] 手臂在模内沒有中板模信號(模外待機)。</translation>
+        <translation type="unfinished">[133] 手臂在模内沒有中板模信號(模外待機)。</translation>
     </message>
     <message>
         <source>[134] 横行轴入模不安全,没有开模完信号(模外待机)。</source>
@@ -20357,24 +20927,31 @@
         <translation type="obsolete">[135] Z軸入模不安全,沒有中板模信號(模外待機)。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1241"/>
+        <location filename="xstringresource.cpp" line="1584"/>
+        <location filename="xstringresource.cpp" line="1957"/>
         <source>[136] 无效的气动副臂动作。</source>
-        <translation type="obsolete">[136] 無效的氣動副臂動作。</translation>
+        <translation type="unfinished">[136] 無效的氣動副臂動作。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1242"/>
         <source>[137] 气动副臂下行但电眼不亮。</source>
-        <translation type="obsolete">[137] 副臂氣動下行但電眼不亮。</translation>
+        <translation type="unfinished">[137] 副臂氣動下行但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1243"/>
         <source>[138] 气动副臂下行但上行电眼亮。</source>
-        <translation type="obsolete">[138] 副臂氣動下行但上行電眼亮。</translation>
+        <translation type="unfinished">[138] 副臂氣動下行但上行電眼亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1244"/>
         <source>[139] 气动副臂上行但电眼不亮。</source>
-        <translation type="obsolete">[139] 副臂氣動上行但電眼不亮。</translation>
+        <translation type="unfinished">[139] 副臂氣動上行但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1245"/>
         <source>[140] 气动副臂上行但下行电眼亮。</source>
-        <translation type="obsolete">[140] 副臂氣動上行但下行電眼亮。</translation>
+        <translation type="unfinished">[140] 副臂氣動上行但下行電眼亮。</translation>
     </message>
     <message>
         <source>[141] 横行轴不在安全区内，副臂气动下行不安全。</source>
@@ -20393,24 +20970,30 @@
         <translation type="obsolete">[141] Z軸不在安全區內，副臂氣動下行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1255"/>
+        <location filename="xstringresource.cpp" line="1590"/>
         <source>[142] 模内没有开模完信号，副臂气动下行不安全。</source>
-        <translation type="obsolete">[142] 模内沒有開模完信號，副臂氣動下行不安全。</translation>
+        <translation type="unfinished">[142] 模内沒有開模完信號，副臂氣動下行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1256"/>
+        <location filename="xstringresource.cpp" line="1591"/>
         <source>[143] 模内没有中板模信号，副臂气动下行不安全。</source>
-        <translation type="obsolete">[143] 模内沒有中板模信號，副臂氣動下行不安全。</translation>
+        <translation type="unfinished">[143] 模内沒有中板模信號，副臂氣動下行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1258"/>
         <source>[144] 副臂气动在模内下位，机床开模中间信号消失。</source>
-        <translation type="obsolete">[144] 副臂氣動在模內下位，機床開模中間信號消失。</translation>
+        <translation type="unfinished">[144] 副臂氣動在模內下位，機床開模中間信號消失。</translation>
     </message>
     <message>
         <source>[145] 上下轴模内下位，机床开模中间信号消失。</source>
         <translation type="obsolete">[145] 上下軸模內下位，機床開模中間信號消失。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1261"/>
         <source>[144] 副臂气动在模内下位，塑机开模中间信号消失。</source>
-        <translation type="obsolete">[144] 副臂氣動在模內下位，塑機開模中間信號消失。</translation>
+        <translation type="unfinished">[144] 副臂氣動在模內下位，塑機開模中間信號消失。</translation>
     </message>
     <message>
         <source>[145] 上下轴模内下位，塑机开模中间信号消失。</source>
@@ -20425,40 +21008,66 @@
         <translation type="obsolete">[145] Y軸模內下位，塑機開模中間信號消失。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1264"/>
+        <location filename="xstringresource.cpp" line="1972"/>
         <source>[146] 连续路径中的指令太多。</source>
-        <translation type="obsolete">[146] 連續路徑中指令太多。</translation>
+        <translation type="unfinished">[146] 連續路徑中指令太多。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1268"/>
+        <location filename="xstringresource.cpp" line="1599"/>
+        <location filename="xstringresource.cpp" line="1976"/>
         <source>[150] 连续路径格式错误，缺少[路径结束]。</source>
-        <translation type="obsolete">[150] 連續路徑格式錯誤，缺少[路徑結束]。</translation>
+        <translation type="unfinished">[150] 連續路徑格式錯誤，缺少[路徑結束]。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1269"/>
+        <location filename="xstringresource.cpp" line="1600"/>
+        <location filename="xstringresource.cpp" line="1977"/>
         <source>[151] 无效激活码。</source>
-        <translation type="obsolete">[151] 無效激活碼。</translation>
+        <translation type="unfinished">[151] 無效激活碼。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1270"/>
+        <location filename="xstringresource.cpp" line="1601"/>
+        <location filename="xstringresource.cpp" line="1978"/>
         <source>[152] JOG模式只能转换到手动模式。</source>
-        <translation type="obsolete">[152] JOG模式衹能轉換到手動模式。</translation>
+        <translation type="unfinished">[152] JOG模式衹能轉換到手動模式。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1271"/>
+        <location filename="xstringresource.cpp" line="1602"/>
+        <location filename="xstringresource.cpp" line="1979"/>
         <source>[153] 有效激活码。</source>
-        <translation type="obsolete">[153] 有效激活碼。</translation>
+        <translation type="unfinished">[153] 有效激活碼。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1272"/>
+        <location filename="xstringresource.cpp" line="1603"/>
+        <location filename="xstringresource.cpp" line="1980"/>
         <source>[154] 连续路径中不能使用等待开模语句。</source>
-        <translation type="obsolete">[154] 連續路徑中不能使用等待開模語句。</translation>
+        <translation type="unfinished">[154] 連續路徑中不能使用等待開模語句。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1273"/>
+        <location filename="xstringresource.cpp" line="1604"/>
+        <location filename="xstringresource.cpp" line="1981"/>
         <source>[155] 模内安全和模外安全同时有信号。</source>
-        <translation type="obsolete">[155] 模内安全和模外安全同時有信號。</translation>
+        <translation type="unfinished">[155] 模内安全和模外安全同時有信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1274"/>
+        <location filename="xstringresource.cpp" line="1605"/>
+        <location filename="xstringresource.cpp" line="1982"/>
         <source>[156] 变量操作不能为0。</source>
-        <translation type="obsolete">[156] 變量操作不能爲0。</translation>
+        <translation type="unfinished">[156] 變量操作不能爲0。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1275"/>
+        <location filename="xstringresource.cpp" line="1606"/>
+        <location filename="xstringresource.cpp" line="1983"/>
         <source>[157] 激活码过期。</source>
-        <translation type="obsolete">[157] 激活碼過期。</translation>
+        <translation type="unfinished">[157] 激活碼過期。</translation>
     </message>
     <message>
         <source>[158] 手臂下行不安全，引拔轴不在模内安全区。</source>
@@ -20489,24 +21098,39 @@
         <translation type="obsolete">[158] 手臂下行不安全，X軸不在模內安全區。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1282"/>
+        <location filename="xstringresource.cpp" line="1614"/>
+        <location filename="xstringresource.cpp" line="1996"/>
         <source>[162] 副臂气动引进但电眼不亮。</source>
-        <translation type="obsolete">[162] 副臂氣動引進但電眼不亮。</translation>
+        <translation type="unfinished">[162] 副臂氣動引進但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1283"/>
+        <location filename="xstringresource.cpp" line="1615"/>
+        <location filename="xstringresource.cpp" line="1997"/>
         <source>[163] 副臂气动引进但引退电眼亮。</source>
-        <translation type="obsolete">[163] 副臂氣動引進但引退電眼亮。</translation>
+        <translation type="unfinished">[163] 副臂氣動引進但引退電眼亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1284"/>
+        <location filename="xstringresource.cpp" line="1616"/>
+        <location filename="xstringresource.cpp" line="1998"/>
         <source>[164] 副臂气动引退但电眼不亮。</source>
-        <translation type="obsolete">[164] 副臂氣動引退但電眼不亮。</translation>
+        <translation type="unfinished">[164] 副臂氣動引退但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1285"/>
+        <location filename="xstringresource.cpp" line="1617"/>
+        <location filename="xstringresource.cpp" line="1999"/>
         <source>[165] 副臂气动引退但引进电眼亮。</source>
-        <translation type="obsolete">[165] 副臂氣動引退但引進電眼亮。</translation>
+        <translation type="unfinished">[165] 副臂氣動引退但引進電眼亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1286"/>
+        <location filename="xstringresource.cpp" line="1624"/>
+        <location filename="xstringresource.cpp" line="2001"/>
         <source>[166] 扩展IO板5通讯错误。</source>
-        <translation type="obsolete">[166] 擴展IO板5通訊錯誤。</translation>
+        <translation type="unfinished">[166] 擴展IO板5通訊錯誤。</translation>
     </message>
     <message>
         <source>[167] 旋转轴不在模内安全区，手臂下行不安全。</source>
@@ -20529,12 +21153,18 @@
         <translation type="obsolete">[171] 倒角軸不在安全位，手臂橫行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1293"/>
+        <location filename="xstringresource.cpp" line="1631"/>
+        <location filename="xstringresource.cpp" line="2008"/>
         <source>[172] 手臂倒角不安全,不能超过模内安全区。</source>
-        <translation type="obsolete">[172] 手臂倒角不安全,不能超過模內安全區。</translation>
+        <translation type="unfinished">[172] 手臂倒角不安全,不能超過模內安全區。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1294"/>
+        <location filename="xstringresource.cpp" line="1632"/>
+        <location filename="xstringresource.cpp" line="2009"/>
         <source>[173] 手臂旋转不安全,不能超过模内安全区。</source>
-        <translation type="obsolete">[173] 手臂旋轉不安全,不能超過模內安全區。</translation>
+        <translation type="unfinished">[173] 手臂旋轉不安全,不能超過模內安全區。</translation>
     </message>
     <message>
         <source>[174] 倒角轴位置超过软件行程。</source>
@@ -20617,20 +21247,28 @@
         <translation type="obsolete">[179] X軸不在安全區，手臂橫行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1302"/>
+        <location filename="xstringresource.cpp" line="2017"/>
         <source>[180] 副臂气动倒角水平，但电眼不亮。</source>
-        <translation type="obsolete">[180] 副臂氣動倒角水準，但電眼不亮。</translation>
+        <translation type="unfinished">[180] 副臂氣動倒角水準，但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1303"/>
+        <location filename="xstringresource.cpp" line="2018"/>
         <source>[181] 副臂气动倒角水平，但垂直电眼亮。</source>
-        <translation type="obsolete">[181] 副臂氣動倒角水準，但垂直電眼亮。</translation>
+        <translation type="unfinished">[181] 副臂氣動倒角水準，但垂直電眼亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1304"/>
+        <location filename="xstringresource.cpp" line="2019"/>
         <source>[182] 副臂气动倒角垂直，但电眼不亮。</source>
-        <translation type="obsolete">[182] 副臂氣動倒角垂直，但電眼不亮。</translation>
+        <translation type="unfinished">[182] 副臂氣動倒角垂直，但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1305"/>
+        <location filename="xstringresource.cpp" line="2020"/>
         <source>[183] 副臂气动倒角垂直，但水平电眼亮。</source>
-        <translation type="obsolete">[183] 副臂氣動倒角垂直，但水準電眼亮。</translation>
+        <translation type="unfinished">[183] 副臂氣動倒角垂直，但水準電眼亮。</translation>
     </message>
     <message>
         <source>[184] 引拔轴不支持的绝对值编码器。</source>
@@ -20761,12 +21399,18 @@
         <translation type="obsolete">[192] Z轴绝对值编码器通讯错误。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1320"/>
+        <location filename="xstringresource.cpp" line="1657"/>
+        <location filename="xstringresource.cpp" line="2035"/>
         <source>[196] 打油报警。</source>
-        <translation type="obsolete">[196] 打油報警。</translation>
+        <translation type="unfinished">[196] 打油報警。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1321"/>
+        <location filename="xstringresource.cpp" line="1658"/>
+        <location filename="xstringresource.cpp" line="2036"/>
         <source>[197] 外部安全门开暂停。</source>
-        <translation type="obsolete">[197] 外部安全門開暫停。</translation>
+        <translation type="unfinished">[197] 外部安全門開暫停。</translation>
     </message>
     <message>
         <source>[199] 横行轴模内和模外安全区有重叠。</source>
@@ -20785,8 +21429,11 @@
         <translation type="obsolete">[199] Z軸模內和模外安全區有重疊。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1334"/>
+        <location filename="xstringresource.cpp" line="1670"/>
+        <location filename="xstringresource.cpp" line="2048"/>
         <source>[208] 系统软件没有合法授权！盗版软件会影响系统的安全和稳定。www.sinrobot.com.cn</source>
-        <translation type="obsolete">[208] 系統軟體沒有合法授權！盜版軟體會影響系統的安全和穩定。www.sinrobot.com.cn</translation>
+        <translation type="unfinished">[208] 系統軟體沒有合法授權！盜版軟體會影響系統的安全和穩定。www.sinrobot.com.cn</translation>
     </message>
     <message>
         <source>[209] 横行不安全,引拔轴不在模内安全区。</source>
@@ -20801,16 +21448,24 @@
         <translation type="obsolete">[209] 橫行不安全,X軸不在模內安全區。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1337"/>
+        <location filename="xstringresource.cpp" line="2064"/>
         <source>[210] 不在模外，倒角水平不安全。</source>
-        <translation type="obsolete">[210] 不在模外，倒角水平不安全。</translation>
+        <translation type="unfinished">[210] 不在模外，倒角水平不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1338"/>
+        <location filename="xstringresource.cpp" line="1673"/>
+        <location filename="xstringresource.cpp" line="2065"/>
         <source>[211] 电池掉电。</source>
-        <translation type="obsolete">[211] 電池掉電。</translation>
+        <translation type="unfinished">[211] 電池掉電。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1339"/>
+        <location filename="xstringresource.cpp" line="1674"/>
+        <location filename="xstringresource.cpp" line="2066"/>
         <source>[212] 系统掉电。</source>
-        <translation type="obsolete">[212] 系統掉電。</translation>
+        <translation type="unfinished">[212] 系統掉電。</translation>
     </message>
     <message>
         <source>[213] 引拔轴绝对值编码器电池电压低。</source>
@@ -20904,6 +21559,9 @@
         <location filename="xstringresource.cpp" line="319"/>
         <location filename="xstringresource.cpp" line="634"/>
         <location filename="xstringresource.cpp" line="948"/>
+        <location filename="xstringresource.cpp" line="1326"/>
+        <location filename="xstringresource.cpp" line="1662"/>
+        <location filename="xstringresource.cpp" line="2040"/>
         <source>[200] 伺服未到达目标位置</source>
         <translation type="unfinished"></translation>
     </message>
@@ -20915,69 +21573,35 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="379"/>
-        <location filename="xstringresource.cpp" line="380"/>
-        <location filename="xstringresource.cpp" line="381"/>
-        <location filename="xstringresource.cpp" line="382"/>
-        <location filename="xstringresource.cpp" line="383"/>
-        <location filename="xstringresource.cpp" line="384"/>
-        <location filename="xstringresource.cpp" line="694"/>
-        <location filename="xstringresource.cpp" line="695"/>
-        <location filename="xstringresource.cpp" line="696"/>
-        <location filename="xstringresource.cpp" line="697"/>
-        <location filename="xstringresource.cpp" line="698"/>
-        <location filename="xstringresource.cpp" line="699"/>
-        <location filename="xstringresource.cpp" line="1008"/>
-        <location filename="xstringresource.cpp" line="1009"/>
-        <location filename="xstringresource.cpp" line="1010"/>
-        <location filename="xstringresource.cpp" line="1011"/>
-        <location filename="xstringresource.cpp" line="1012"/>
-        <location filename="xstringresource.cpp" line="1013"/>
+        <location filename="xstringresource.cpp" line="2118"/>
         <source>轴跟随误差过大</source>
         <oldsource>[262]Z轴跟随误差过大</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="379"/>
-        <location filename="xstringresource.cpp" line="694"/>
-        <location filename="xstringresource.cpp" line="1008"/>
         <source>[260] </source>
-        <translation type="unfinished">[149]  {260]?}</translation>
+        <translation type="obsolete">[149]  {260]?}</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="380"/>
-        <location filename="xstringresource.cpp" line="695"/>
-        <location filename="xstringresource.cpp" line="1009"/>
         <source>[261] </source>
-        <translation type="unfinished">[149]  {261]?}</translation>
+        <translation type="obsolete">[149]  {261]?}</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="381"/>
-        <location filename="xstringresource.cpp" line="696"/>
-        <location filename="xstringresource.cpp" line="1010"/>
+        <location filename="xstringresource.cpp" line="2118"/>
         <source>[262] </source>
         <translation type="unfinished">[149]  {262]?}</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="382"/>
-        <location filename="xstringresource.cpp" line="697"/>
-        <location filename="xstringresource.cpp" line="1011"/>
         <source>[263] </source>
-        <translation type="unfinished">[149]  {263]?}</translation>
+        <translation type="obsolete">[149]  {263]?}</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="383"/>
-        <location filename="xstringresource.cpp" line="698"/>
-        <location filename="xstringresource.cpp" line="1012"/>
         <source>[264] </source>
-        <translation type="unfinished">[149]  {264]?}</translation>
+        <translation type="obsolete">[149]  {264]?}</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="384"/>
-        <location filename="xstringresource.cpp" line="699"/>
-        <location filename="xstringresource.cpp" line="1013"/>
         <source>[265] </source>
-        <translation type="unfinished">[149]  {265]?}</translation>
+        <translation type="obsolete">[149]  {265]?}</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="885"/>
@@ -21007,24 +21631,34 @@
         <translation type="obsolete">[215] Z軸絕對值編碼器電池電壓低。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1359"/>
+        <location filename="xstringresource.cpp" line="2086"/>
         <source>[230] 无效的视觉编号</source>
-        <translation type="obsolete">[230] 無效的視覺編號</translation>
+        <translation type="unfinished">[230] 無效的視覺編號</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1360"/>
+        <location filename="xstringresource.cpp" line="2087"/>
         <source>[231] 无效的匹配编号</source>
-        <translation type="obsolete">[231] 無效的匹配編號</translation>
+        <translation type="unfinished">[231] 無效的匹配編號</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1361"/>
+        <location filename="xstringresource.cpp" line="2088"/>
         <source>[232] 视觉系统忙</source>
-        <translation type="obsolete">[232] 視覺系統忙</translation>
+        <translation type="unfinished">[232] 視覺系統忙</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1362"/>
+        <location filename="xstringresource.cpp" line="2089"/>
         <source>[233] 网络错误</source>
-        <translation type="obsolete">[233] 網絡錯誤</translation>
+        <translation type="unfinished">[233] 網絡錯誤</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1363"/>
+        <location filename="xstringresource.cpp" line="2090"/>
         <source>[234] 视觉超时</source>
-        <translation type="obsolete">[234] 視覺超時</translation>
+        <translation type="unfinished">[234] 視覺超時</translation>
     </message>
     <message>
         <source>[235] 上下轴不在上位安全区</source>
@@ -21035,44 +21669,63 @@
         <translation type="obsolete">[236] A軸不在上位安全區</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1384"/>
+        <location filename="xstringresource.cpp" line="1719"/>
+        <location filename="xstringresource.cpp" line="2111"/>
         <source>[255] 系统通讯错误：操作器与主控模块无法正常通讯，请关闭系统然后检查通讯链路是否正常。</source>
-        <translation type="obsolete">[255] 系統通訊錯誤：操作器與主控模塊無法正常通訊，請關閉系統然後檢查通訊鏈路是否正常。</translation>
+        <translation type="unfinished">[255] 系統通訊錯誤：操作器與主控模塊無法正常通訊，請關閉系統然後檢查通訊鏈路是否正常。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1429"/>
+        <location filename="xstringresource.cpp" line="1764"/>
+        <location filename="xstringresource.cpp" line="2156"/>
         <source>[300] 找不到文件系统！</source>
-        <translation type="obsolete">[300] 找不到文件系統！</translation>
+        <translation type="unfinished">[300] 找不到文件系統！</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1433"/>
+        <location filename="xstringresource.cpp" line="1768"/>
+        <location filename="xstringresource.cpp" line="2160"/>
         <source>[304] 文件系统初始化错误！</source>
-        <translation type="obsolete">[304] 文件系統初始化錯誤！</translation>
+        <translation type="unfinished">[304] 文件系統初始化錯誤！</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1446"/>
         <source>[002] 无效的压铸机指令。</source>
-        <translation type="obsolete">[002] 無效的壓鑄機指令。</translation>
+        <translation type="unfinished">[002] 無效的壓鑄機指令。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1454"/>
+        <location filename="xstringresource.cpp" line="1794"/>
         <source>[010] 程序中[FOR]指令格式错误，缺少[ENDFOR]指令。</source>
-        <translation type="obsolete">[010] 程序中[FOR]指令格式錯誤，缺少[ENDFOR]指令。</translation>
+        <translation type="unfinished">[010] 程序中[FOR]指令格式錯誤，缺少[ENDFOR]指令。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1455"/>
+        <location filename="xstringresource.cpp" line="1795"/>
         <source>[011] 程序中[FOR]指令格式错误，缺少[FOR]指令。</source>
-        <translation type="obsolete">[011] 程序中[FOR]指令格式錯誤，缺少[FOR]指令。</translation>
+        <translation type="unfinished">[011] 程序中[FOR]指令格式錯誤，缺少[FOR]指令。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1456"/>
         <source>[012] 程序中[IF]指令格式错误，缺少[ENDIF]指令。</source>
-        <translation type="obsolete">[012] 程序中[IF]指令格式錯誤，缺少[ENDIF]指令。</translation>
+        <translation type="unfinished">[012] 程序中[IF]指令格式錯誤，缺少[ENDIF]指令。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1457"/>
+        <location filename="xstringresource.cpp" line="1797"/>
         <source>[013] 程序中缺少[程序结束]指令。</source>
-        <translation type="obsolete">[013] 程序中缺少[程序結束]指令。</translation>
+        <translation type="unfinished">[013] 程序中缺少[程序結束]指令。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1463"/>
         <source>[019] 自动运行时压铸机安全门没有关闭。</source>
-        <translation type="obsolete">[019] 自動運行時壓鑄機安全門沒有關閉。</translation>
+        <translation type="unfinished">[019] 自動運行時壓鑄機安全門沒有關閉。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1464"/>
         <source>[020] 自动运行时没有压铸机中板模信号。</source>
-        <translation type="obsolete">[020] 自動運行時沒有壓鑄機中板模信號。</translation>
+        <translation type="unfinished">[020] 自動運行時沒有壓鑄機中板模信號。</translation>
     </message>
     <message>
         <source>[027] 上下2轴位置不在安全区域，禁止压铸机关模。</source>
@@ -21083,20 +21736,23 @@
         <translation type="obsolete">[028] 上下軸位置不在安全區域，禁止壓鑄機關模。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1474"/>
         <source>[029] 系统设置中禁止[模内倒角]，在模内执行主臂或副臂气动倒角动作不安全。</source>
-        <translation type="obsolete">[029] 系統設置中禁止[模內倒角]，在模內執行主臂或副臂氣動倒角動作不安全。</translation>
+        <translation type="unfinished">[029] 系統設置中禁止[模內倒角]，在模內執行主臂或副臂氣動倒角動作不安全。</translation>
     </message>
     <message>
         <source>[031] 横行轴没有原点信号。</source>
         <translation type="obsolete">[031] 橫行軸沒有原點信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1472"/>
         <source>[027] 喷雾臂上下位置不在安全区域，禁止压铸机关模。</source>
-        <translation type="obsolete">[027] 噴霧臂上下位置不在安全區域，禁止壓鑄機關模。</translation>
+        <translation type="unfinished">[027] 噴霧臂上下位置不在安全區域，禁止壓鑄機關模。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1473"/>
         <source>[028] 取件臂上下位置不在安全区域，禁止压铸机关模。</source>
-        <translation type="obsolete">[028] 取件臂上下位置不在安全區域，禁止壓鑄機關模。</translation>
+        <translation type="unfinished">[028] 取件臂上下位置不在安全區域，禁止壓鑄機關模。</translation>
     </message>
     <message>
         <source>[030] 取件Z1轴伺服没有原点信号。</source>
@@ -21107,12 +21763,14 @@
         <translation type="obsolete">[031] 橫行X軸伺服沒有原點信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1484"/>
         <source>[034] 系统设置[倒角状态]为垂直，取件臂或喷雾臂气动倒角不垂直，不能自动运行。</source>
-        <translation type="obsolete">[034] 系統設置[倒角狀態]爲垂直，主臂或副臂氣動倒角不垂直，不能自動運行。</translation>
+        <translation type="unfinished">[034] 系統設置[倒角狀態]爲垂直，主臂或副臂氣動倒角不垂直，不能自動運行。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1485"/>
         <source>[035] 系统设置[倒角状态]为水平，取件臂或喷雾臂气动倒角不水平，不能自动运行。</source>
-        <translation type="obsolete">[035] 系統設置[倒角狀態]爲水平，主臂或副臂氣動倒角不水平，不能自動運行。</translation>
+        <translation type="unfinished">[035] 系統設置[倒角狀態]爲水平，主臂或副臂氣動倒角不水平，不能自動運行。</translation>
     </message>
     <message>
         <source>[038] 上下2轴不在上位，横行轴运行不安全。</source>
@@ -21147,12 +21805,14 @@
         <translation type="obsolete">[047] 模內超出安全區，引拔軸運行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1503"/>
         <source>[041] 没有开模完成信号，禁止喷雾轴运转。</source>
-        <translation type="obsolete">[041] 沒有開模完成信號，禁止噴霧軸運轉。</translation>
+        <translation type="unfinished">[041] 沒有開模完成信號，禁止噴霧軸運轉。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1504"/>
         <source>[042] 没有开中板模确认信号，禁止喷雾轴运转。</source>
-        <translation type="obsolete">[042] 沒有開中板模確認信號，禁止噴霧軸運轉。</translation>
+        <translation type="unfinished">[042] 沒有開中板模確認信號，禁止噴霧軸運轉。</translation>
     </message>
     <message>
         <source>[043] 没有开模完成信号，禁止取件Z轴运转。</source>
@@ -21171,16 +21831,20 @@
         <translation type="obsolete">[046] 橫行軸不在安全區域內，噴霧Z2軸運轉不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1509"/>
         <source>[047] 超出模内安全区，前后Y1轴运行不安全。</source>
-        <translation type="obsolete">[047] 超出模內安全區，前後Y1軸運行不安全。</translation>
+        <translation type="unfinished">[047] 超出模內安全區，前後Y1軸運行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1512"/>
+        <location filename="xstringresource.cpp" line="1850"/>
         <source>[049] 气动副臂不在上位，不能自动运行。</source>
-        <translation type="obsolete">[049] 氣動副臂不在上位，不能自動運行。</translation>
+        <translation type="unfinished">[049] 氣動副臂不在上位，不能自動運行。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1519"/>
         <source>[056] 安全门开启，暂停系统自动运行；请检查系统相关参数设置。</source>
-        <translation type="obsolete">[056] 安全門開啓，暫停系統自動運行；請檢查系統相關參數設置。</translation>
+        <translation type="unfinished">[056] 安全門開啓，暫停系統自動運行；請檢查系統相關參數設置。</translation>
     </message>
     <message>
         <source>[058] 正臂或副臂气动倒角水平时，禁止在模内下行；请检查系统参数设置。</source>
@@ -21219,8 +21883,9 @@
         <translation type="obsolete">[070] 上下2軸位置在上位待機安全區內，但沒有上位安全區信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1522"/>
         <source>[058] 取件臂或喷雾臂气动倒角水平时，禁止在模内下行；请检查系统参数设置。</source>
-        <translation type="obsolete">[058] 取件臂或噴霧臂氣動倒角水平時，禁止在模內下行；請檢查系統參數設置。</translation>
+        <translation type="unfinished">[058] 取件臂或噴霧臂氣動倒角水平時，禁止在模內下行；請檢查系統參數設置。</translation>
     </message>
     <message>
         <source>[059] 前后Y轴位置超出了软件行程。</source>
@@ -21263,8 +21928,9 @@
         <translation type="obsolete">[070] 噴霧Z2軸位置在上位待機安全區內，但沒有上位安全區信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1539"/>
         <source>[074] 在组合指令中，[IF]指令不能嵌套使用。</source>
-        <translation type="obsolete">[074] 組合中條件指令不能嵌套使用。</translation>
+        <translation type="unfinished">[074] 組合中條件指令不能嵌套使用。</translation>
     </message>
     <message>
         <source>[088] 上下2轴伺服报警，请检查伺服驱动器。</source>
@@ -21411,8 +22077,10 @@
         <translation type="obsolete">[113] 保留軸伺服運行到正極限。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1569"/>
+        <location filename="xstringresource.cpp" line="1936"/>
         <source>[124] 系统设置正臂或副臂气动倒角垂直时，横行运行不安全。</source>
-        <translation type="obsolete">[124] 系統設置正臂或副臂氣動倒角垂直時，Z軸運行不安全。</translation>
+        <translation type="unfinished">[124] 系統設置正臂或副臂氣動倒角垂直時，Z軸運行不安全。</translation>
     </message>
     <message>
         <source>[125] 上下轴不在上位，引拔2轴运行不安全。</source>
@@ -21435,12 +22103,14 @@
         <translation type="obsolete">[126] 保留軸運行不安全，超出模內安全區。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1574"/>
         <source>[128] 自动运行时压铸机开模完但没有中板模信号。</source>
-        <translation type="obsolete">[128] 自動運行時壓鑄機開模完但沒有中板模信號。</translation>
+        <translation type="unfinished">[128] 自動運行時壓鑄機開模完但沒有中板模信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1575"/>
         <source>[129] 自动运行时没有压铸机全自动信号。</source>
-        <translation type="obsolete">[129] 自動運行時沒有壓鑄機全自動信號。</translation>
+        <translation type="unfinished">[129] 自動運行時沒有壓鑄機全自動信號。</translation>
     </message>
     <message>
         <source>[130] 引拔轴和引拔2轴位置冲突。</source>
@@ -21451,32 +22121,43 @@
         <translation type="obsolete">[130] 取件臂和噴霧臂伺服位置衝突。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1579"/>
         <source>[132] 手臂在模内没有开模完(模外待机)。</source>
-        <translation type="obsolete">[132] 手臂在模內沒有開模完信號(模外待機)。</translation>
+        <translation type="unfinished">[132] 手臂在模內沒有開模完信號(模外待機)。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1580"/>
         <source>[133] 手臂在模内没有中板模确认信号(模外待机)。</source>
-        <translation type="obsolete">[133] 手臂在模内沒有中板模信號(模外待機)。</translation>
+        <translation type="unfinished">[133] 手臂在模内沒有中板模信號(模外待機)。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1585"/>
+        <location filename="xstringresource.cpp" line="1958"/>
         <source>[137] 副臂气动下行但电眼不亮。</source>
-        <translation type="obsolete">[137] 副臂氣動下行但電眼不亮。</translation>
+        <translation type="unfinished">[137] 副臂氣動下行但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1586"/>
+        <location filename="xstringresource.cpp" line="1959"/>
         <source>[138] 副臂气动下行但上行电眼亮。</source>
-        <translation type="obsolete">[138] 副臂氣動下行但上行電眼亮。</translation>
+        <translation type="unfinished">[138] 副臂氣動下行但上行電眼亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1587"/>
+        <location filename="xstringresource.cpp" line="1960"/>
         <source>[139] 副臂气动上行但电眼不亮。</source>
-        <translation type="obsolete">[139] 副臂氣動上行但電眼不亮。</translation>
+        <translation type="unfinished">[139] 副臂氣動上行但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1588"/>
+        <location filename="xstringresource.cpp" line="1961"/>
         <source>[140] 副臂气动上行但下行电眼亮。</source>
-        <translation type="obsolete">[140] 副臂氣動上行但下行電眼亮。</translation>
+        <translation type="unfinished">[140] 副臂氣動上行但下行電眼亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1592"/>
         <source>[144] 副臂气动在模内下位，铸机开模中间信号消失。</source>
-        <translation type="obsolete">[144] 副臂氣動在模內下位，鑄機開模中間信號消失。</translation>
+        <translation type="unfinished">[144] 副臂氣動在模內下位，鑄機開模中間信號消失。</translation>
     </message>
     <message>
         <source>[145] 上下轴模内下位，铸机开模中间信号消失。</source>
@@ -21531,8 +22212,9 @@
         <translation type="obsolete">[145] 取件臂在模內沒有開模中間信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1595"/>
         <source>[146] 连续路径太多。</source>
-        <translation type="obsolete">[146] 連續路徑太多。</translation>
+        <translation type="unfinished">[146] 連續路徑太多。</translation>
     </message>
     <message>
         <source>[159] 手臂下行不安全，引拔2轴不在模内安全区</source>
@@ -21547,20 +22229,24 @@
         <translation type="obsolete">[159] 手臂下行不安全，保留軸不在模內安全區。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1619"/>
         <source>[162] 喷雾臂气动引进但电眼不亮。</source>
-        <translation type="obsolete">[162] 噴霧臂氣動引進但電眼不亮。</translation>
+        <translation type="unfinished">[162] 噴霧臂氣動引進但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1620"/>
         <source>[163] 喷雾臂气动引进但引退电眼亮。</source>
-        <translation type="obsolete">[163] 噴霧臂氣動引進但引退電眼亮。</translation>
+        <translation type="unfinished">[163] 噴霧臂氣動引進但引退電眼亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1621"/>
         <source>[164] 喷雾臂气动引退但电眼不亮。</source>
-        <translation type="obsolete">[164] 噴霧臂氣動引退但電眼不亮。</translation>
+        <translation type="unfinished">[164] 噴霧臂氣動引退但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1622"/>
         <source>[165] 喷雾臂气动引退但引进电眼亮。</source>
-        <translation type="obsolete">[165] 噴霧臂氣動引退但引進電眼亮。</translation>
+        <translation type="unfinished">[165] 噴霧臂氣動引退但引進電眼亮。</translation>
     </message>
     <message>
         <source>[174] 上下2轴位置超过软件行程。</source>
@@ -21627,20 +22313,24 @@
         <translation type="obsolete">[179] 前後Y軸不在安全區，手臂橫行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1639"/>
         <source>[180] 喷雾臂气动倒角水平，但电眼不亮。</source>
-        <translation type="obsolete">[180] 噴霧臂氣動倒角水平，但電眼不亮。</translation>
+        <translation type="unfinished">[180] 噴霧臂氣動倒角水平，但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1640"/>
         <source>[181] 喷雾臂气动倒角水平，但垂直电眼亮。</source>
-        <translation type="obsolete">[181] 噴霧臂氣動倒角水平，但垂直電眼亮。</translation>
+        <translation type="unfinished">[181] 噴霧臂氣動倒角水平，但垂直電眼亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1641"/>
         <source>[182] 取件臂气动倒角垂直，但电眼不亮。</source>
-        <translation type="obsolete">[182] 取件臂氣動倒角垂直，但電眼不亮。</translation>
+        <translation type="unfinished">[182] 取件臂氣動倒角垂直，但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1642"/>
         <source>[183] 取件臂气动倒角垂直，但水平电眼亮。</source>
-        <translation type="obsolete">[183]​​ 取件臂氣動倒角垂直，但水平電眼亮。</translation>
+        <translation type="unfinished">[183]​​ 取件臂氣動倒角垂直，但水平電眼亮。</translation>
     </message>
     <message>
         <source>[184] 前后Y轴不支持的绝对值编码器。</source>
@@ -21711,8 +22401,9 @@
         <translation type="obsolete">[214] 取件Z1軸絕對值編碼器電池電壓低。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1678"/>
         <source>[215] 横行X1轴绝对值编码器电池电压低。</source>
-        <translation type="obsolete">[215] 橫行X1軸絕對值編碼器電池電壓低。</translation>
+        <translation type="unfinished">[215] 橫行X1軸絕對值編碼器電池電壓低。</translation>
     </message>
     <message>
         <source>[216] 喷雾Z2轴绝对值编码器电池电压低。</source>
@@ -21735,36 +22426,44 @@
         <translation type="obsolete">[223] 前後Y軸不安全,不能超過橫行時安全區(橫行當前不在安全區)。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1792"/>
         <source>[008] 无效的扩展动作类型。</source>
-        <translation type="obsolete">[008] 無效的擴展類型。</translation>
+        <translation type="unfinished">[008] 無效的擴展類型。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1793"/>
         <source>[009] </source>
-        <translation type="obsolete">[009] </translation>
+        <translation type="unfinished">[009] </translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1796"/>
         <source>[012] 程序中[IF]指令格式错误，缺少[ENDFOR]指令。</source>
-        <translation type="obsolete">[012] [IF]指令格式錯誤，缺少[ENDIF]。</translation>
+        <translation type="unfinished">[012] [IF]指令格式錯誤，缺少[ENDIF]。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1800"/>
         <source>[016] 系统变量是只读变量，不能执行修改操作。</source>
-        <translation type="obsolete">[016] 系統變量是衹讀變量，不能執行修改操作。</translation>
+        <translation type="unfinished">[016] 系統變量是衹讀變量，不能執行修改操作。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1802"/>
         <source>[018] </source>
-        <translation type="obsolete">[018] </translation>
+        <translation type="unfinished">[018] </translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1804"/>
         <source>[019] 自动运行时机床安全门没有关闭。</source>
-        <translation type="obsolete">[019] 自動運行時機床沒有安全門信號。</translation>
+        <translation type="unfinished">[019] 自動運行時機床沒有安全門信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1807"/>
         <source>[019] 自动运行时注塑机安全门没有关闭。</source>
-        <translation type="obsolete">[019] 自動運行時注塑機沒有安全門信號。</translation>
+        <translation type="unfinished">[019] 自動運行時注塑機沒有安全門信號。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1812"/>
         <source>[023] </source>
-        <translation type="obsolete">[023] </translation>
+        <translation type="unfinished">[023] </translation>
     </message>
     <message>
         <source>[027] 副臂上下轴不在安全区域，禁止机床关模。</source>
@@ -21799,8 +22498,9 @@
         <translation type="obsolete">[028] Y軸不在安全區域，禁止注塑機關模。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1826"/>
         <source>[029] 系统设置中禁止[模内倒角]，在模内执行正臂或副臂气动倒角动作不安全。</source>
-        <translation type="obsolete">[029] 系統設置中禁止[模內倒角]，在模內執行正臂或副臂氣動倒角動作不安全。</translation>
+        <translation type="unfinished">[029] 系統設置中禁止[模內倒角]，在模內執行正臂或副臂氣動倒角動作不安全。</translation>
     </message>
     <message>
         <source>[030] 正上下轴不在原点位置，不能自动运行。</source>
@@ -21831,12 +22531,14 @@
         <translation type="obsolete">[031] Z軸不在模外安全區域，不能自動運行。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1831"/>
         <source>[032] </source>
-        <translation type="obsolete">[032] </translation>
+        <translation type="unfinished">[032] </translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1832"/>
         <source>[033] </source>
-        <translation type="obsolete">[033] </translation>
+        <translation type="unfinished">[033] </translation>
     </message>
     <message>
         <source>[037] 正上下轴不在上位，横行轴运行不安全。</source>
@@ -21851,8 +22553,9 @@
         <translation type="obsolete">[039] 正上下軸不在上位，正引拔軸運行不安全，。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1840"/>
         <source>[040] </source>
-        <translation type="obsolete">[040] </translation>
+        <translation type="unfinished">[040] </translation>
     </message>
     <message>
         <source>[041] 没有开模完信号，副上下轴运行不安全。</source>
@@ -21931,20 +22634,24 @@
         <translation type="obsolete">[046] Z軸不在安全區內，Y2軸運行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1849"/>
         <source>[048] </source>
-        <translation type="obsolete">[048] </translation>
+        <translation type="unfinished">[048] </translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1852"/>
         <source>[051] </source>
-        <translation type="obsolete">[051] </translation>
+        <translation type="unfinished">[051] </translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1853"/>
         <source>[052] </source>
-        <translation type="obsolete">[052] </translation>
+        <translation type="unfinished">[052] </translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1856"/>
         <source>[055] </source>
-        <translation type="obsolete">[055] </translation>
+        <translation type="unfinished">[055] </translation>
     </message>
     <message>
         <source>[059] 正引拔轴位置超出了软件行程。</source>
@@ -22063,24 +22770,26 @@
         <translation type="obsolete">[082] 上下軸伺服報警，請檢查伺服驅動器。 {085]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2331"/>
+        <location filename="xstringresource.cpp" line="3027"/>
         <source>吸具3</source>
-        <translation type="obsolete">吸具3</translation>
+        <translation type="unfinished">吸具3</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2332"/>
+        <location filename="xstringresource.cpp" line="3028"/>
         <source>吸具4</source>
-        <translation type="obsolete">吸具4</translation>
+        <translation type="unfinished">吸具4</translation>
     </message>
     <message>
-        <location filename="xstringresource.cpp" line="189"/>
-        <location filename="xstringresource.cpp" line="504"/>
-        <location filename="xstringresource.cpp" line="818"/>
         <source>[070] 请检查</source>
         <oldsource>[071] </oldsource>
-        <translation type="unfinished">[071] </translation>
+        <translation type="obsolete">[071] </translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1877"/>
         <source>[074] 组合中条件指令不能嵌套使用。</source>
-        <translation type="obsolete">[074] 在組合指令中，條件指令不能嵌套使用。</translation>
+        <translation type="unfinished">[074] 在組合指令中，條件指令不能嵌套使用。</translation>
     </message>
     <message>
         <source>[079] 正臂引拔轴伺服报警，请检查伺服驱动器。</source>
@@ -22159,8 +22868,9 @@
         <translation type="obsolete">[096] </translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1903"/>
         <source>[097] 机床紧急停止，请检查注机床。</source>
-        <translation type="obsolete">[097] 機床緊急停止，請檢查機床。</translation>
+        <translation type="unfinished">[097] 機床緊急停止，請檢查機床。</translation>
     </message>
     <message>
         <source>[100] 副上下轴在模内区域，机床开模完信号消失。</source>
@@ -22275,12 +22985,14 @@
         <translation type="obsolete">[111] Y2軸伺服運行到負極限。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1927"/>
         <source>[116] </source>
-        <translation type="obsolete">[116] </translation>
+        <translation type="unfinished">[116] </translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1934"/>
         <source>[123] 没有模外下行安全信号，手臂不能下行。</source>
-        <translation type="obsolete">[123] 沒有模外下行安全信號，手臂不能下行。</translation>
+        <translation type="unfinished">[123] 沒有模外下行安全信號，手臂不能下行。</translation>
     </message>
     <message>
         <source>[125] 副臂上下轴不在上位，副引拔轴运行不安全。</source>
@@ -22311,8 +23023,9 @@
         <translation type="obsolete">[125] Y軸不在上位，X2軸運行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1940"/>
         <source>[127] </source>
-        <translation type="obsolete">[127] </translation>
+        <translation type="unfinished">[127] </translation>
     </message>
     <message>
         <source>[130] 正臂引拔轴和副臂引拔轴位置冲突。</source>
@@ -22327,44 +23040,52 @@
         <translation type="obsolete">[130] X軸和X2軸位置衝突。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1962"/>
         <source>[141] 不在取物点也不在置物点，副臂下行不安全。</source>
-        <translation type="obsolete">[141] 不在取物點也不在置物點，副臂下行不安全。</translation>
+        <translation type="unfinished">[141] 不在取物點也不在置物點，副臂下行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1963"/>
         <source>[142] 模内没有开模完信号，副臂下行不安全。</source>
-        <translation type="obsolete">[142] 模內沒有開模完信號，副臂下行不安全。</translation>
+        <translation type="unfinished">[142] 模內沒有開模完信號，副臂下行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1964"/>
         <source>[143] 模内没有中板模信号，副臂下行不安全。</source>
-        <translation type="obsolete">[143] 模内沒有中板模信號，副臂下行不安全。</translation>
+        <translation type="unfinished">[143] 模内沒有中板模信號，副臂下行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1966"/>
         <source>[144] 副臂在模内下位，机床开模中间信号消失。</source>
-        <translation type="obsolete">[144] 副臂在模內下位，機床開模中間信號消失。</translation>
+        <translation type="unfinished">[144] 副臂在模內下位，機床開模中間信號消失。</translation>
     </message>
     <message>
         <source>[145] 正上下轴模内下位，机床开模中间信号消失。</source>
         <translation type="obsolete">[145] 正上下軸模內下位，機床開模中間信號消失。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1969"/>
         <source>[144] 副臂在模内下位，塑机开模中间信号消失。</source>
-        <translation type="obsolete">[144] 副臂在模內下位，塑機開模中間信號消失。</translation>
+        <translation type="unfinished">[144] 副臂在模內下位，塑機開模中間信號消失。</translation>
     </message>
     <message>
         <source>[145] 正上下轴模内下位，塑机开模中间信号消失。</source>
         <translation type="obsolete">[145] 正上下軸模內下位，塑機開模中間信號消失。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1973"/>
         <source>[147] </source>
-        <translation type="obsolete">[147] </translation>
+        <translation type="unfinished">[147] </translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1974"/>
         <source>[148] </source>
-        <translation type="obsolete">[148] </translation>
+        <translation type="unfinished">[148] </translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1975"/>
         <source>[149] </source>
-        <translation type="obsolete">[149] </translation>
+        <translation type="unfinished">[149] </translation>
     </message>
     <message>
         <source>[158] 正臂引拔轴不在模内安全区，手臂下行不安全。</source>
@@ -22399,20 +23120,24 @@
         <translation type="obsolete">[159] X2軸不在模內安全區，手臂下行不安全。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1991"/>
         <source>[162] 副臂气动引退但电眼不亮。</source>
-        <translation type="obsolete">[162] 副臂氣動引進但電眼不亮。</translation>
+        <translation type="unfinished">[162] 副臂氣動引進但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1992"/>
         <source>[163] 副臂气动引退但引进电眼亮。</source>
-        <translation type="obsolete">[163] 副臂氣動引進但引退電眼亮。</translation>
+        <translation type="unfinished">[163] 副臂氣動引進但引退電眼亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1993"/>
         <source>[164] 副臂气动引进但电眼不亮。</source>
-        <translation type="obsolete">[164] 副臂氣動引退但電眼不亮。</translation>
+        <translation type="unfinished">[164] 副臂氣動引退但電眼不亮。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="1994"/>
         <source>[165] 副臂气动引进但引退电眼亮。</source>
-        <translation type="obsolete">[165] 副臂氣動引退但引進電眼亮。</translation>
+        <translation type="unfinished">[165] 副臂氣動引退但引進電眼亮。</translation>
     </message>
     <message>
         <source>[169] 正臂上下轴不在上位，手臂倒角不安全。</source>
@@ -22651,44 +23376,129 @@
         <translation type="obsolete">[236] 副上下軸不在上位安全區</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2218"/>
+        <location filename="xstringresource.cpp" line="2250"/>
+        <location filename="xstringresource.cpp" line="2285"/>
+        <location filename="xstringresource.cpp" line="2325"/>
+        <location filename="xstringresource.cpp" line="2440"/>
+        <location filename="xstringresource.cpp" line="2867"/>
+        <location filename="xstringresource.cpp" line="2946"/>
+        <location filename="xstringresource.cpp" line="3021"/>
+        <location filename="xstringresource.cpp" line="3086"/>
+        <location filename="xstringresource.cpp" line="3233"/>
+        <location filename="xstringresource.cpp" line="3318"/>
         <source>吸具1</source>
-        <translation type="obsolete">吸具1</translation>
+        <translation type="unfinished">吸具1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2251"/>
+        <location filename="xstringresource.cpp" line="3087"/>
         <source>夹具1</source>
-        <translation type="obsolete">夾具1</translation>
+        <translation type="unfinished">夾具1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2220"/>
+        <location filename="xstringresource.cpp" line="2252"/>
+        <location filename="xstringresource.cpp" line="2287"/>
+        <location filename="xstringresource.cpp" line="2327"/>
+        <location filename="xstringresource.cpp" line="2442"/>
+        <location filename="xstringresource.cpp" line="2869"/>
+        <location filename="xstringresource.cpp" line="2948"/>
+        <location filename="xstringresource.cpp" line="3023"/>
+        <location filename="xstringresource.cpp" line="3088"/>
+        <location filename="xstringresource.cpp" line="3235"/>
+        <location filename="xstringresource.cpp" line="3320"/>
         <source>抱具1</source>
-        <translation type="obsolete">抱具1</translation>
+        <translation type="unfinished">抱具1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2210"/>
+        <location filename="xstringresource.cpp" line="2211"/>
+        <location filename="xstringresource.cpp" line="2212"/>
+        <location filename="xstringresource.cpp" line="2213"/>
+        <location filename="xstringresource.cpp" line="2214"/>
+        <location filename="xstringresource.cpp" line="2215"/>
+        <location filename="xstringresource.cpp" line="2217"/>
+        <location filename="xstringresource.cpp" line="2224"/>
+        <location filename="xstringresource.cpp" line="2283"/>
+        <location filename="xstringresource.cpp" line="2284"/>
+        <location filename="xstringresource.cpp" line="2316"/>
+        <location filename="xstringresource.cpp" line="2321"/>
+        <location filename="xstringresource.cpp" line="2322"/>
+        <location filename="xstringresource.cpp" line="2348"/>
+        <location filename="xstringresource.cpp" line="2349"/>
+        <location filename="xstringresource.cpp" line="2350"/>
         <source>Main</source>
-        <translation type="obsolete">Main</translation>
+        <translation type="unfinished">Main</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2407"/>
+        <location filename="xstringresource.cpp" line="2408"/>
+        <location filename="xstringresource.cpp" line="2410"/>
+        <location filename="xstringresource.cpp" line="2415"/>
+        <location filename="xstringresource.cpp" line="2420"/>
+        <location filename="xstringresource.cpp" line="2425"/>
+        <location filename="xstringresource.cpp" line="3148"/>
+        <location filename="xstringresource.cpp" line="3149"/>
+        <location filename="xstringresource.cpp" line="3150"/>
+        <location filename="xstringresource.cpp" line="3184"/>
+        <location filename="xstringresource.cpp" line="3185"/>
+        <location filename="xstringresource.cpp" line="3220"/>
+        <location filename="xstringresource.cpp" line="3221"/>
+        <location filename="xstringresource.cpp" line="3269"/>
+        <location filename="xstringresource.cpp" line="3270"/>
+        <location filename="xstringresource.cpp" line="3271"/>
+        <location filename="xstringresource.cpp" line="3305"/>
+        <location filename="xstringresource.cpp" line="3306"/>
         <source>EM1</source>
-        <translation type="obsolete">EM1</translation>
+        <translation type="unfinished">EM1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2411"/>
+        <location filename="xstringresource.cpp" line="2421"/>
         <source>爪手产品检知1</source>
-        <translation type="obsolete">爪手產品檢知1</translation>
+        <translation type="unfinished">爪手產品檢知1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2412"/>
+        <location filename="xstringresource.cpp" line="2422"/>
         <source>爪手产品检知2</source>
-        <translation type="obsolete">爪手產品檢知2</translation>
+        <translation type="unfinished">爪手產品檢知2</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2413"/>
+        <location filename="xstringresource.cpp" line="2414"/>
+        <location filename="xstringresource.cpp" line="2423"/>
+        <location filename="xstringresource.cpp" line="2424"/>
+        <location filename="xstringresource.cpp" line="3170"/>
+        <location filename="xstringresource.cpp" line="3172"/>
+        <location filename="xstringresource.cpp" line="3173"/>
+        <location filename="xstringresource.cpp" line="3174"/>
+        <location filename="xstringresource.cpp" line="3291"/>
+        <location filename="xstringresource.cpp" line="3293"/>
+        <location filename="xstringresource.cpp" line="3294"/>
+        <location filename="xstringresource.cpp" line="3295"/>
         <source>备用</source>
-        <translation type="obsolete">備用</translation>
+        <translation type="unfinished">備用</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2416"/>
+        <location filename="xstringresource.cpp" line="2426"/>
         <source>压铸完成</source>
-        <translation type="obsolete">壓鑄完成</translation>
+        <translation type="unfinished">壓鑄完成</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2219"/>
+        <location filename="xstringresource.cpp" line="2286"/>
+        <location filename="xstringresource.cpp" line="2326"/>
+        <location filename="xstringresource.cpp" line="2441"/>
+        <location filename="xstringresource.cpp" line="2868"/>
+        <location filename="xstringresource.cpp" line="2947"/>
+        <location filename="xstringresource.cpp" line="3022"/>
+        <location filename="xstringresource.cpp" line="3234"/>
+        <location filename="xstringresource.cpp" line="3319"/>
         <source>吸具2</source>
-        <translation type="obsolete">吸具2</translation>
+        <translation type="unfinished">吸具2</translation>
     </message>
     <message>
         <source>[079] A轴伺服报警，请检查伺服驱动器。</source>
@@ -22807,690 +23617,983 @@
         <translation type="obsolete">[220] C軸不安全,不能超過橫行時安全區(橫行當前不在安全區)。 {222]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2221"/>
+        <location filename="xstringresource.cpp" line="2288"/>
+        <location filename="xstringresource.cpp" line="2328"/>
+        <location filename="xstringresource.cpp" line="2443"/>
+        <location filename="xstringresource.cpp" line="2870"/>
+        <location filename="xstringresource.cpp" line="2949"/>
+        <location filename="xstringresource.cpp" line="3024"/>
+        <location filename="xstringresource.cpp" line="3236"/>
+        <location filename="xstringresource.cpp" line="3321"/>
         <source>抱具2</source>
-        <translation type="obsolete">抱具2</translation>
+        <translation type="unfinished">抱具2</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2222"/>
+        <location filename="xstringresource.cpp" line="2289"/>
+        <location filename="xstringresource.cpp" line="2329"/>
+        <location filename="xstringresource.cpp" line="2444"/>
+        <location filename="xstringresource.cpp" line="2871"/>
+        <location filename="xstringresource.cpp" line="2950"/>
+        <location filename="xstringresource.cpp" line="3025"/>
+        <location filename="xstringresource.cpp" line="3237"/>
+        <location filename="xstringresource.cpp" line="3322"/>
         <source>抱具3</source>
-        <translation type="obsolete">抱具3</translation>
+        <translation type="unfinished">抱具3</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2223"/>
+        <location filename="xstringresource.cpp" line="2290"/>
+        <location filename="xstringresource.cpp" line="2330"/>
+        <location filename="xstringresource.cpp" line="2445"/>
+        <location filename="xstringresource.cpp" line="2872"/>
+        <location filename="xstringresource.cpp" line="2951"/>
+        <location filename="xstringresource.cpp" line="3026"/>
+        <location filename="xstringresource.cpp" line="3238"/>
+        <location filename="xstringresource.cpp" line="3323"/>
         <source>抱具4</source>
-        <translation type="obsolete">抱具4</translation>
+        <translation type="unfinished">抱具4</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2232"/>
+        <location filename="xstringresource.cpp" line="2245"/>
+        <location filename="xstringresource.cpp" line="2273"/>
+        <location filename="xstringresource.cpp" line="2343"/>
         <source>低气压检测</source>
-        <translation type="obsolete">低氣壓檢測</translation>
+        <translation type="unfinished">低氣壓檢測</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2509"/>
         <source>ESM 紧急停止</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-ESM</comment>
-        <translation type="obsolete">ESM 緊急停止</translation>
+        <translation type="unfinished">ESM 緊急停止</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2510"/>
+        <location filename="xstringresource.cpp" line="2534"/>
         <source>SDM 安全设备</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-SDM</comment>
-        <translation type="obsolete">SDM 安全設備</translation>
+        <translation type="unfinished">SDM 安全設備</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2511"/>
+        <location filename="xstringresource.cpp" line="2524"/>
+        <location filename="xstringresource.cpp" line="2535"/>
         <source>REJ 成型不良</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-REJ</comment>
-        <translation type="obsolete">REJ 成型不良</translation>
+        <translation type="unfinished">REJ 成型不良</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2512"/>
+        <location filename="xstringresource.cpp" line="2536"/>
+        <location filename="xstringresource.cpp" line="2552"/>
         <source>MCP 关模完</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-MC</comment>
-        <translation type="obsolete">MCP 關模完</translation>
+        <translation type="unfinished">MCP 關模完</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2513"/>
+        <location filename="xstringresource.cpp" line="2537"/>
+        <location filename="xstringresource.cpp" line="2549"/>
         <source>MOP 开模完</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-MOP</comment>
-        <translation type="obsolete">MOP 開模完</translation>
+        <translation type="unfinished">MOP 開模完</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2514"/>
+        <location filename="xstringresource.cpp" line="2525"/>
         <source>IMOP 开模中间</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-IMOP</comment>
-        <translation type="obsolete">IMOP 塑機開模中間</translation>
+        <translation type="unfinished">IMOP 塑機開模中間</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2515"/>
+        <location filename="xstringresource.cpp" line="2526"/>
+        <location filename="xstringresource.cpp" line="2539"/>
+        <location filename="xstringresource.cpp" line="2556"/>
         <source>AUTO 全自动</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-AUTO</comment>
-        <translation type="obsolete">AUTO 全自動</translation>
+        <translation type="unfinished">AUTO 全自動</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2516"/>
+        <location filename="xstringresource.cpp" line="2527"/>
+        <location filename="xstringresource.cpp" line="2540"/>
         <source>压射完成</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EBP</comment>
-        <translation type="obsolete">壓射完成</translation>
+        <translation type="unfinished">壓射完成</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2517"/>
+        <location filename="xstringresource.cpp" line="2528"/>
+        <location filename="xstringresource.cpp" line="2541"/>
+        <location filename="xstringresource.cpp" line="2558"/>
         <source>顶针进位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EFP</comment>
-        <translation type="obsolete">頂針進位</translation>
+        <translation type="unfinished">頂針進位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2518"/>
+        <location filename="xstringresource.cpp" line="2529"/>
+        <location filename="xstringresource.cpp" line="2542"/>
         <source>MID 中板模确认</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-MMOP</comment>
-        <translation type="obsolete">MID 中板模確認</translation>
+        <translation type="unfinished">MID 中板模確認</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2520"/>
+        <location filename="xstringresource.cpp" line="2547"/>
         <source>MOP 加工完成</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-MOP</comment>
-        <translation type="obsolete">MOP 加工完成</translation>
+        <translation type="unfinished">MOP 加工完成</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2521"/>
         <source>SDM 防护门</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-SDM</comment>
-        <translation type="obsolete">SDM 防護門</translation>
+        <translation type="unfinished">SDM 防護門</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2522"/>
         <source>MCP 加工启动</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-MC</comment>
-        <translation type="obsolete">MCP 加工啟動</translation>
+        <translation type="unfinished">MCP 加工啟動</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2523"/>
+        <location filename="xstringresource.cpp" line="2533"/>
+        <location filename="xstringresource.cpp" line="2553"/>
         <source>ESM 急停</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-ESM</comment>
-        <translation type="obsolete">ESM 急停</translation>
+        <translation type="unfinished">ESM 急停</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2538"/>
+        <location filename="xstringresource.cpp" line="2555"/>
         <source>开模中间</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-IMOP</comment>
-        <translation type="obsolete">開模中間</translation>
+        <translation type="unfinished">開模中間</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2551"/>
         <source>SDM 安全门</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-SDM</comment>
-        <translation type="obsolete">SDM 安全門</translation>
+        <translation type="unfinished">SDM 安全門</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2554"/>
         <source>REJ 不良品</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-REJ</comment>
-        <translation type="obsolete">REJ 不良品</translation>
+        <translation type="unfinished">REJ 不良品</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2557"/>
         <source>顶针退位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EBP</comment>
-        <translation type="obsolete">頂針退位</translation>
+        <translation type="unfinished">頂針退位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2559"/>
         <source>MID 中板模</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-MMOP</comment>
-        <translation type="obsolete">MID 中板模</translation>
+        <translation type="unfinished">MID 中板模</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2565"/>
         <source>中子1进到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-C1P1</comment>
-        <translation type="obsolete">中子1進到位</translation>
+        <translation type="unfinished">中子1進到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2566"/>
         <source>中子1退到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-C1P2</comment>
-        <translation type="obsolete">中子1退到位</translation>
+        <translation type="unfinished">中子1退到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2567"/>
         <source>中子2进到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-C2P1</comment>
-        <translation type="obsolete">中子2進到位</translation>
+        <translation type="unfinished">中子2進到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2568"/>
         <source>中子2退到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-C2P2</comment>
-        <translation type="obsolete">中子2退到位</translation>
+        <translation type="unfinished">中子2退到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2572"/>
+        <location filename="xstringresource.cpp" line="2580"/>
+        <location filename="xstringresource.cpp" line="2587"/>
         <source>抽芯1位1</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-C1P1</comment>
-        <translation type="obsolete">抽芯1位1</translation>
+        <translation type="unfinished">抽芯1位1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2573"/>
+        <location filename="xstringresource.cpp" line="2581"/>
+        <location filename="xstringresource.cpp" line="2588"/>
         <source>抽芯1位2</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-C1P2</comment>
-        <translation type="obsolete">抽芯1位2</translation>
+        <translation type="unfinished">抽芯1位2</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2574"/>
+        <location filename="xstringresource.cpp" line="2582"/>
+        <location filename="xstringresource.cpp" line="2589"/>
         <source>抽芯2位1</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-C2P1</comment>
-        <translation type="obsolete">抽芯2位1</translation>
+        <translation type="unfinished">抽芯2位1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2575"/>
+        <location filename="xstringresource.cpp" line="2583"/>
+        <location filename="xstringresource.cpp" line="2590"/>
         <source>抽芯2位2</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-C2P2</comment>
-        <translation type="obsolete">抽芯2位2</translation>
+        <translation type="unfinished">抽芯2位2</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2597"/>
+        <location filename="xstringresource.cpp" line="2717"/>
         <source>取件Z1原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.ORG</comment>
-        <translation type="obsolete">取件Z1原點</translation>
+        <translation type="unfinished">取件Z1原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2598"/>
+        <location filename="xstringresource.cpp" line="2718"/>
         <source>取件Z1负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.CCWL</comment>
-        <translation type="obsolete">取件Z1負限</translation>
+        <translation type="unfinished">取件Z1負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2599"/>
+        <location filename="xstringresource.cpp" line="2719"/>
         <source>取件Z1正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.CWL</comment>
-        <translation type="obsolete">取件Z1正限</translation>
+        <translation type="unfinished">取件Z1正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2600"/>
+        <location filename="xstringresource.cpp" line="2720"/>
         <source>取件Z1报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.ALM</comment>
-        <translation type="obsolete">取件Z1報警</translation>
+        <translation type="unfinished">取件Z1報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2601"/>
+        <location filename="xstringresource.cpp" line="2721"/>
         <source>取件Z1就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.RDY</comment>
-        <translation type="obsolete">取件Z1就绪</translation>
+        <translation type="unfinished">取件Z1就绪</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2602"/>
+        <location filename="xstringresource.cpp" line="2722"/>
         <source>取件Z1到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.INP</comment>
-        <translation type="obsolete">取件Z1到位</translation>
+        <translation type="unfinished">取件Z1到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2603"/>
+        <location filename="xstringresource.cpp" line="2723"/>
         <source>取件Z1安全区</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.USAF</comment>
-        <translation type="obsolete">取件Z1安全區</translation>
+        <translation type="unfinished">取件Z1安全區</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2605"/>
+        <location filename="xstringresource.cpp" line="2725"/>
         <source>喷雾Z2原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.ORG</comment>
-        <translation type="obsolete">噴霧Z2原點</translation>
+        <translation type="unfinished">噴霧Z2原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2606"/>
+        <location filename="xstringresource.cpp" line="2726"/>
         <source>喷雾Z2负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.CCWL</comment>
-        <translation type="obsolete">噴霧Z2負限</translation>
+        <translation type="unfinished">噴霧Z2負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2607"/>
+        <location filename="xstringresource.cpp" line="2727"/>
         <source>喷雾Z2正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.CWL</comment>
-        <translation type="obsolete">噴霧Z2正限</translation>
+        <translation type="unfinished">噴霧Z2正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2608"/>
+        <location filename="xstringresource.cpp" line="2728"/>
         <source>喷雾Z2报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.ALM</comment>
-        <translation type="obsolete">噴霧Z2報警</translation>
+        <translation type="unfinished">噴霧Z2報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2609"/>
+        <location filename="xstringresource.cpp" line="2729"/>
         <source>喷雾Z2就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.RDY</comment>
-        <translation type="obsolete">噴霧Z2就緒</translation>
+        <translation type="unfinished">噴霧Z2就緒</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2610"/>
+        <location filename="xstringresource.cpp" line="2730"/>
         <source>喷雾Z2到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.INP</comment>
-        <translation type="obsolete">噴霧Z2到位</translation>
+        <translation type="unfinished">噴霧Z2到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2611"/>
+        <location filename="xstringresource.cpp" line="2731"/>
         <source>喷雾Z2安全区</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.USAF</comment>
-        <translation type="obsolete">噴霧Z2安全區</translation>
+        <translation type="unfinished">噴霧Z2安全區</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2613"/>
+        <location filename="xstringresource.cpp" line="2733"/>
         <source>前后Y原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.ORG</comment>
-        <translation type="obsolete">前後Y原點</translation>
+        <translation type="unfinished">前後Y原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2614"/>
+        <location filename="xstringresource.cpp" line="2734"/>
         <source>前后Y负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.CCWL</comment>
-        <translation type="obsolete">前後Y負限</translation>
+        <translation type="unfinished">前後Y負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2615"/>
+        <location filename="xstringresource.cpp" line="2735"/>
         <source>前后Y正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.CWL</comment>
-        <translation type="obsolete">前後Y正限</translation>
+        <translation type="unfinished">前後Y正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2616"/>
+        <location filename="xstringresource.cpp" line="2736"/>
         <source>前后Y报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.ALM</comment>
-        <translation type="obsolete">前後Y報警</translation>
+        <translation type="unfinished">前後Y報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2617"/>
+        <location filename="xstringresource.cpp" line="2737"/>
         <source>前后Y就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.RDY</comment>
-        <translation type="obsolete">前後Y就緒</translation>
+        <translation type="unfinished">前後Y就緒</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2618"/>
+        <location filename="xstringresource.cpp" line="2738"/>
         <source>前后Y到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.INP</comment>
-        <translation type="obsolete">前後Y到位</translation>
+        <translation type="unfinished">前後Y到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2620"/>
+        <location filename="xstringresource.cpp" line="2740"/>
+        <location filename="xstringresource.cpp" line="2801"/>
         <source>副臂引拔原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.ORG</comment>
-        <translation type="obsolete">副臂引拔原點</translation>
+        <translation type="unfinished">副臂引拔原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2621"/>
+        <location filename="xstringresource.cpp" line="2741"/>
+        <location filename="xstringresource.cpp" line="2802"/>
         <source>副臂引拔负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.CCWL</comment>
-        <translation type="obsolete">副臂引拔負限</translation>
+        <translation type="unfinished">副臂引拔負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2622"/>
+        <location filename="xstringresource.cpp" line="2742"/>
+        <location filename="xstringresource.cpp" line="2803"/>
         <source>副臂引拔正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.CWL</comment>
-        <translation type="obsolete">副臂引拔正限</translation>
+        <translation type="unfinished">副臂引拔正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2623"/>
+        <location filename="xstringresource.cpp" line="2743"/>
+        <location filename="xstringresource.cpp" line="2804"/>
         <source>副臂引拔报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.ALM</comment>
-        <translation type="obsolete">副臂引拔報警</translation>
+        <translation type="unfinished">副臂引拔報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2624"/>
+        <location filename="xstringresource.cpp" line="2744"/>
+        <location filename="xstringresource.cpp" line="2805"/>
         <source>副臂引拔就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.RDY</comment>
-        <translation type="obsolete">副臂引拔就緒</translation>
+        <translation type="unfinished">副臂引拔就緒</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2625"/>
+        <location filename="xstringresource.cpp" line="2745"/>
+        <location filename="xstringresource.cpp" line="2806"/>
         <source>副臂引拔到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.INP</comment>
-        <translation type="obsolete">副臂引拔到位</translation>
+        <translation type="unfinished">副臂引拔到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2627"/>
+        <location filename="xstringresource.cpp" line="2747"/>
         <source>横行X原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.ORG</comment>
-        <translation type="obsolete">橫行X原點</translation>
+        <translation type="unfinished">橫行X原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2628"/>
+        <location filename="xstringresource.cpp" line="2748"/>
         <source>横行X负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.CCWL</comment>
-        <translation type="obsolete">橫行X負限</translation>
+        <translation type="unfinished">橫行X負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2629"/>
+        <location filename="xstringresource.cpp" line="2749"/>
         <source>横行X正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.CWL</comment>
-        <translation type="obsolete">橫行X正限</translation>
+        <translation type="unfinished">橫行X正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2630"/>
+        <location filename="xstringresource.cpp" line="2750"/>
         <source>横行X报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.ALM</comment>
-        <translation type="obsolete">橫行X報警</translation>
+        <translation type="unfinished">橫行X報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2631"/>
+        <location filename="xstringresource.cpp" line="2751"/>
         <source>横行X就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.RDY</comment>
-        <translation type="obsolete">橫行X就緒</translation>
+        <translation type="unfinished">橫行X就緒</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2632"/>
+        <location filename="xstringresource.cpp" line="2752"/>
         <source>横行X到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.INP</comment>
-        <translation type="obsolete">橫行X到位</translation>
+        <translation type="unfinished">橫行X到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2633"/>
+        <location filename="xstringresource.cpp" line="2753"/>
         <source>横行X模内安全</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.ISAF</comment>
-        <translation type="obsolete">橫行X模內安全</translation>
+        <translation type="unfinished">橫行X模內安全</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2634"/>
+        <location filename="xstringresource.cpp" line="2754"/>
         <source>横行X模外安全</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.OSAF</comment>
-        <translation type="obsolete">橫行X模外安全</translation>
+        <translation type="unfinished">橫行X模外安全</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2636"/>
+        <location filename="xstringresource.cpp" line="2695"/>
+        <location filename="xstringresource.cpp" line="2756"/>
+        <location filename="xstringresource.cpp" line="2817"/>
         <source>扩展原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-EXT.ORG</comment>
-        <translation type="obsolete">擴展原點</translation>
+        <translation type="unfinished">擴展原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2637"/>
+        <location filename="xstringresource.cpp" line="2696"/>
+        <location filename="xstringresource.cpp" line="2757"/>
+        <location filename="xstringresource.cpp" line="2818"/>
         <source>扩展负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-EXT.CCWL</comment>
-        <translation type="obsolete">擴展負限</translation>
+        <translation type="unfinished">擴展負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2638"/>
+        <location filename="xstringresource.cpp" line="2697"/>
+        <location filename="xstringresource.cpp" line="2758"/>
+        <location filename="xstringresource.cpp" line="2819"/>
         <source>扩展正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-EXT.CWL</comment>
-        <translation type="obsolete">擴展正限</translation>
+        <translation type="unfinished">擴展正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2639"/>
+        <location filename="xstringresource.cpp" line="2698"/>
+        <location filename="xstringresource.cpp" line="2759"/>
+        <location filename="xstringresource.cpp" line="2820"/>
         <source>扩展报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-EXT.ALM</comment>
-        <translation type="obsolete">擴展報警</translation>
+        <translation type="unfinished">擴展報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2640"/>
+        <location filename="xstringresource.cpp" line="2699"/>
+        <location filename="xstringresource.cpp" line="2760"/>
+        <location filename="xstringresource.cpp" line="2821"/>
         <source>扩展就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-EXT.RDY</comment>
-        <translation type="obsolete">擴展就緒</translation>
+        <translation type="unfinished">擴展就緒</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2641"/>
+        <location filename="xstringresource.cpp" line="2700"/>
+        <location filename="xstringresource.cpp" line="2761"/>
+        <location filename="xstringresource.cpp" line="2822"/>
         <source>扩展到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-EXT.INP</comment>
-        <translation type="obsolete">擴展到位</translation>
+        <translation type="unfinished">擴展到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2643"/>
+        <location filename="xstringresource.cpp" line="2763"/>
         <source>油缸缺油检测</source>
         <comment>翻译时无论什么语言一律使用(中文除外): AIR-LP</comment>
-        <translation type="obsolete">油缸缺油檢測</translation>
+        <translation type="unfinished">油缸缺油檢測</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2644"/>
+        <location filename="xstringresource.cpp" line="2764"/>
         <source>模外下行安全</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-DWN.SAFE</comment>
-        <translation type="obsolete">模外下行安全</translation>
+        <translation type="unfinished">模外下行安全</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2645"/>
+        <location filename="xstringresource.cpp" line="2765"/>
         <source>手臂干涉检测</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-ARM.CLASH</comment>
-        <translation type="obsolete">手臂干涉檢測</translation>
+        <translation type="unfinished">手臂干涉檢測</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2646"/>
+        <location filename="xstringresource.cpp" line="2705"/>
+        <location filename="xstringresource.cpp" line="2766"/>
+        <location filename="xstringresource.cpp" line="2832"/>
         <source>正臂水平到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): PA-I.HOR</comment>
-        <translation type="obsolete">正臂水平到位</translation>
+        <translation type="unfinished">正臂水平到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2647"/>
+        <location filename="xstringresource.cpp" line="2706"/>
+        <location filename="xstringresource.cpp" line="2767"/>
+        <location filename="xstringresource.cpp" line="2833"/>
         <source>正臂垂直到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): PA-I.VER</comment>
-        <translation type="obsolete">正臂垂直到位</translation>
+        <translation type="unfinished">正臂垂直到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2648"/>
+        <location filename="xstringresource.cpp" line="2707"/>
+        <location filename="xstringresource.cpp" line="2768"/>
+        <location filename="xstringresource.cpp" line="2836"/>
         <source>副臂上位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-I.ASC</comment>
-        <translation type="obsolete">副臂上位</translation>
+        <translation type="unfinished">副臂上位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2649"/>
+        <location filename="xstringresource.cpp" line="2708"/>
+        <location filename="xstringresource.cpp" line="2769"/>
+        <location filename="xstringresource.cpp" line="2837"/>
         <source>副臂下位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-I.DES</comment>
-        <translation type="obsolete">副臂下位</translation>
+        <translation type="unfinished">副臂下位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2650"/>
+        <location filename="xstringresource.cpp" line="2709"/>
+        <location filename="xstringresource.cpp" line="2770"/>
+        <location filename="xstringresource.cpp" line="2838"/>
         <source>正臂前进到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): PA-I.ADV</comment>
-        <translation type="obsolete">正臂前進到位</translation>
+        <translation type="unfinished">正臂前進到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2651"/>
+        <location filename="xstringresource.cpp" line="2710"/>
+        <location filename="xstringresource.cpp" line="2771"/>
+        <location filename="xstringresource.cpp" line="2839"/>
         <source>正臂后退到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): PA-I.RET</comment>
-        <translation type="obsolete">正臂後退到位</translation>
+        <translation type="unfinished">正臂後退到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2652"/>
+        <location filename="xstringresource.cpp" line="2711"/>
+        <location filename="xstringresource.cpp" line="2772"/>
+        <location filename="xstringresource.cpp" line="2840"/>
         <source>副臂前进到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-I.ADV</comment>
-        <translation type="obsolete">副臂前進到位</translation>
+        <translation type="unfinished">副臂前進到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2653"/>
+        <location filename="xstringresource.cpp" line="2712"/>
+        <location filename="xstringresource.cpp" line="2773"/>
+        <location filename="xstringresource.cpp" line="2841"/>
         <source>副臂后退到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-I.RET</comment>
-        <translation type="obsolete">副臂後退到位</translation>
+        <translation type="unfinished">副臂後退到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2656"/>
         <source>上下原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.ORG</comment>
-        <translation type="obsolete">上下原點</translation>
+        <translation type="unfinished">上下原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2657"/>
         <source>上下负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.CCWL</comment>
-        <translation type="obsolete">上下負限</translation>
+        <translation type="unfinished">上下負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2658"/>
         <source>上下正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.CWL</comment>
-        <translation type="obsolete">上下正限</translation>
+        <translation type="unfinished">上下正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2659"/>
         <source>上下报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.ALM</comment>
-        <translation type="obsolete">上下報警</translation>
+        <translation type="unfinished">上下報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2660"/>
         <source>上下就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.RDY</comment>
-        <translation type="obsolete">上下就緒</translation>
+        <translation type="unfinished">上下就緒</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2661"/>
         <source>上下到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.INP</comment>
-        <translation type="obsolete">上下到位</translation>
+        <translation type="unfinished">上下到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2662"/>
+        <location filename="xstringresource.cpp" line="2784"/>
         <source>正臂上位安全</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.USAF</comment>
-        <translation type="obsolete">正臂上位安全區</translation>
+        <translation type="unfinished">正臂上位安全區</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2664"/>
         <source>上下2原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.ORG</comment>
-        <translation type="obsolete">上下2原點</translation>
+        <translation type="unfinished">上下2原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2665"/>
         <source>上下2负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.CCWL</comment>
-        <translation type="obsolete">上下2負限</translation>
+        <translation type="unfinished">上下2負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2666"/>
         <source>上下2正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.CWL</comment>
-        <translation type="obsolete">上下2正限</translation>
+        <translation type="unfinished">上下2正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2667"/>
         <source>上下2报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.ALM</comment>
-        <translation type="obsolete">上下2報警</translation>
+        <translation type="unfinished">上下2報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2668"/>
         <source>上下2就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.RDY</comment>
-        <translation type="obsolete">上下2就緒</translation>
+        <translation type="unfinished">上下2就緒</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2669"/>
         <source>上下2到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.INP</comment>
-        <translation type="obsolete">上下2到位</translation>
+        <translation type="unfinished">上下2到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2670"/>
+        <location filename="xstringresource.cpp" line="2792"/>
         <source>副臂上位安全</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.USAF</comment>
-        <translation type="obsolete">副臂上位安全區</translation>
+        <translation type="unfinished">副臂上位安全區</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2672"/>
         <source>引拔原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.ORG</comment>
-        <translation type="obsolete">引拔原點</translation>
+        <translation type="unfinished">引拔原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2673"/>
         <source>引拔负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.CCWL</comment>
-        <translation type="obsolete">引拔負限</translation>
+        <translation type="unfinished">引拔負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2674"/>
         <source>引拔正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.CWL</comment>
-        <translation type="obsolete">引拔正限</translation>
+        <translation type="unfinished">引拔正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2675"/>
         <source>引拔报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.ALM</comment>
-        <translation type="obsolete">引拔報警</translation>
+        <translation type="unfinished">引拔報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2676"/>
         <source>引拔就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.RDY</comment>
-        <translation type="obsolete">引拔就緒</translation>
+        <translation type="unfinished">引拔就緒</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2677"/>
         <source>引拔到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.INP</comment>
-        <translation type="obsolete">引拔到位</translation>
+        <translation type="unfinished">引拔到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2679"/>
         <source>引拔2原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.ORG</comment>
-        <translation type="obsolete">引拔2原點</translation>
+        <translation type="unfinished">引拔2原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2680"/>
         <source>引拔2负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.CCWL</comment>
-        <translation type="obsolete">引拔2負限</translation>
+        <translation type="unfinished">引拔2負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2681"/>
         <source>引拔2正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.CWL</comment>
-        <translation type="obsolete">引拔2正限</translation>
+        <translation type="unfinished">引拔2正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2682"/>
         <source>引拔2报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.ALM</comment>
-        <translation type="obsolete">引拔2報警</translation>
+        <translation type="unfinished">引拔2報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2683"/>
         <source>引拔2就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.RDY</comment>
-        <translation type="obsolete">引拔2就绪</translation>
+        <translation type="unfinished">引拔2就绪</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2684"/>
         <source>引拔2到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.INP</comment>
-        <translation type="obsolete">引拔2到位</translation>
+        <translation type="unfinished">引拔2到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2686"/>
+        <location filename="xstringresource.cpp" line="2808"/>
         <source>横行原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.ORG</comment>
-        <translation type="obsolete">橫行X原點</translation>
+        <translation type="unfinished">橫行X原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2687"/>
+        <location filename="xstringresource.cpp" line="2809"/>
         <source>横行负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.CCWL</comment>
-        <translation type="obsolete">橫行X負限</translation>
+        <translation type="unfinished">橫行X負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2688"/>
+        <location filename="xstringresource.cpp" line="2810"/>
         <source>横行正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.CWL</comment>
-        <translation type="obsolete">橫行X正限</translation>
+        <translation type="unfinished">橫行X正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2689"/>
+        <location filename="xstringresource.cpp" line="2811"/>
         <source>横行报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.ALM</comment>
-        <translation type="obsolete">橫行X報警</translation>
+        <translation type="unfinished">橫行X報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2690"/>
+        <location filename="xstringresource.cpp" line="2812"/>
         <source>横行就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.RDY</comment>
-        <translation type="obsolete">橫行X就緒</translation>
+        <translation type="unfinished">橫行X就緒</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2691"/>
+        <location filename="xstringresource.cpp" line="2813"/>
         <source>横行到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.INP</comment>
-        <translation type="obsolete">橫行X到位</translation>
+        <translation type="unfinished">橫行X到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2692"/>
+        <location filename="xstringresource.cpp" line="2814"/>
         <source>横行模内安全区</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.ISAF</comment>
-        <translation type="obsolete">橫行模內安全區</translation>
+        <translation type="unfinished">橫行模內安全區</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2693"/>
+        <location filename="xstringresource.cpp" line="2815"/>
         <source>横行模外安全区</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.OSAF</comment>
-        <translation type="obsolete">橫行模外安全區</translation>
+        <translation type="unfinished">橫行模外安全區</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2702"/>
+        <location filename="xstringresource.cpp" line="2828"/>
         <source>低气压检测</source>
         <comment>翻译时无论什么语言一律使用(中文除外): AIR-LP</comment>
-        <translation type="obsolete">低氣壓檢測</translation>
+        <translation type="unfinished">低氣壓檢測</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2703"/>
+        <location filename="xstringresource.cpp" line="2830"/>
         <source>模外下行安全检测</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-DWN.SAFE</comment>
-        <translation type="obsolete">模外下行安全檢測</translation>
+        <translation type="unfinished">模外下行安全檢測</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2704"/>
+        <location filename="xstringresource.cpp" line="2831"/>
         <source>手臂引拔干涉检测</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-ARM.CLASH</comment>
-        <translation type="obsolete">手臂引拔干涉檢測</translation>
+        <translation type="unfinished">手臂引拔干涉檢測</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2778"/>
         <source>正臂上下原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.ORG</comment>
-        <translation type="obsolete">正臂上下原點</translation>
+        <translation type="unfinished">正臂上下原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2779"/>
         <source>正臂上下负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.CCWL</comment>
-        <translation type="obsolete">正臂上下負限</translation>
+        <translation type="unfinished">正臂上下負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2780"/>
         <source>正臂上下正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.CWL</comment>
-        <translation type="obsolete">正臂上下正限</translation>
+        <translation type="unfinished">正臂上下正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2781"/>
         <source>正臂上下报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.ALM</comment>
-        <translation type="obsolete">正臂上下報警</translation>
+        <translation type="unfinished">正臂上下報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2782"/>
         <source>正臂上下就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.RDY</comment>
-        <translation type="obsolete">正臂上下就緒</translation>
+        <translation type="unfinished">正臂上下就緒</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2783"/>
         <source>正臂上下到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.INP</comment>
-        <translation type="obsolete">正臂上下到位</translation>
+        <translation type="unfinished">正臂上下到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2786"/>
         <source>副臂上下原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.ORG</comment>
-        <translation type="obsolete">副臂上下原點</translation>
+        <translation type="unfinished">副臂上下原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2787"/>
         <source>副臂上下负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.CCWL</comment>
-        <translation type="obsolete">副臂上下負限</translation>
+        <translation type="unfinished">副臂上下負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2788"/>
         <source>副臂上下正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.CWL</comment>
-        <translation type="obsolete">副臂上下正限</translation>
+        <translation type="unfinished">副臂上下正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2789"/>
         <source>副臂上下报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.ALM</comment>
-        <translation type="obsolete">副臂上下報警</translation>
+        <translation type="unfinished">副臂上下報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2790"/>
         <source>副臂上下就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.RDY</comment>
-        <translation type="obsolete">副臂上下就緒</translation>
+        <translation type="unfinished">副臂上下就緒</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2791"/>
         <source>副臂上下到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.INP</comment>
-        <translation type="obsolete">副臂上下到位</translation>
+        <translation type="unfinished">副臂上下到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2794"/>
         <source>正臂引拔原点</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.ORG</comment>
-        <translation type="obsolete">正臂引拔原點</translation>
+        <translation type="unfinished">正臂引拔原點</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2795"/>
         <source>正臂引拔负限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.CCWL</comment>
-        <translation type="obsolete">正臂引拔負限</translation>
+        <translation type="unfinished">正臂引拔負限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2796"/>
         <source>正臂引拔正限</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.CWL</comment>
-        <translation type="obsolete">正臂引拔正限</translation>
+        <translation type="unfinished">正臂引拔正限</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2797"/>
         <source>正臂引拔报警</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.ALM</comment>
-        <translation type="obsolete">正臂引拔報警</translation>
+        <translation type="unfinished">正臂引拔報警</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2798"/>
         <source>正臂引拔就绪</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.RDY</comment>
-        <translation type="obsolete">正臂引拔就緒</translation>
+        <translation type="unfinished">正臂引拔就緒</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2799"/>
         <source>正臂引拔到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.INP</comment>
-        <translation type="obsolete">正臂引拔到位</translation>
+        <translation type="unfinished">正臂引拔到位</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2826"/>
         <source>油压低检测</source>
         <comment>翻译时无论什么语言一律使用(中文除外): AIR-LP</comment>
-        <translation type="obsolete">油壓低檢測</translation>
+        <translation type="unfinished">油壓低檢測</translation>
     </message>
     <message>
         <source>副臂水平到位-E1X10</source>
@@ -23503,303 +24606,1811 @@
         <translation type="obsolete">副臂垂直到位-E1X11</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3151"/>
+        <location filename="xstringresource.cpp" line="3187"/>
+        <location filename="xstringresource.cpp" line="3272"/>
         <source>爪手阀</source>
-        <translation type="obsolete">爪手閥</translation>
+        <translation type="unfinished">爪手閥</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3152"/>
+        <location filename="xstringresource.cpp" line="3188"/>
+        <location filename="xstringresource.cpp" line="3273"/>
         <source>动模吹气1</source>
-        <translation type="obsolete">動模吹氣1</translation>
+        <translation type="unfinished">動模吹氣1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3153"/>
+        <location filename="xstringresource.cpp" line="3189"/>
+        <location filename="xstringresource.cpp" line="3274"/>
         <source>动模吹气2</source>
-        <translation type="obsolete">動模吹氣2</translation>
+        <translation type="unfinished">動模吹氣2</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3154"/>
+        <location filename="xstringresource.cpp" line="3190"/>
+        <location filename="xstringresource.cpp" line="3275"/>
         <source>动模吹气3</source>
-        <translation type="obsolete">動模吹氣3</translation>
+        <translation type="unfinished">動模吹氣3</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3155"/>
+        <location filename="xstringresource.cpp" line="3191"/>
+        <location filename="xstringresource.cpp" line="3276"/>
         <source>动模吹气4</source>
-        <translation type="obsolete">動模吹氣4</translation>
+        <translation type="unfinished">動模吹氣4</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3156"/>
+        <location filename="xstringresource.cpp" line="3192"/>
+        <location filename="xstringresource.cpp" line="3277"/>
         <source>定模吹气1</source>
-        <translation type="obsolete">定模吹氣1</translation>
+        <translation type="unfinished">定模吹氣1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3157"/>
+        <location filename="xstringresource.cpp" line="3193"/>
+        <location filename="xstringresource.cpp" line="3278"/>
         <source>定模吹气2</source>
-        <translation type="obsolete">定模吹氣2</translation>
+        <translation type="unfinished">定模吹氣2</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3158"/>
+        <location filename="xstringresource.cpp" line="3194"/>
+        <location filename="xstringresource.cpp" line="3279"/>
         <source>定模吹气3</source>
-        <translation type="obsolete">定模吹氣3</translation>
+        <translation type="unfinished">定模吹氣3</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3159"/>
+        <location filename="xstringresource.cpp" line="3186"/>
+        <location filename="xstringresource.cpp" line="3280"/>
         <source>定模吹气4</source>
-        <translation type="obsolete">定模吹氣4</translation>
+        <translation type="unfinished">定模吹氣4</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3160"/>
+        <location filename="xstringresource.cpp" line="3196"/>
+        <location filename="xstringresource.cpp" line="3281"/>
         <source>动模水阀1</source>
-        <translation type="obsolete">動模水閥1</translation>
+        <translation type="unfinished">動模水閥1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3161"/>
+        <location filename="xstringresource.cpp" line="3197"/>
+        <location filename="xstringresource.cpp" line="3282"/>
         <source>动模水阀2</source>
-        <translation type="obsolete">動模水閥2</translation>
+        <translation type="unfinished">動模水閥2</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3162"/>
+        <location filename="xstringresource.cpp" line="3198"/>
+        <location filename="xstringresource.cpp" line="3283"/>
         <source>动模水阀3</source>
-        <translation type="obsolete">動模水閥3</translation>
+        <translation type="unfinished">動模水閥3</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3163"/>
+        <location filename="xstringresource.cpp" line="3199"/>
+        <location filename="xstringresource.cpp" line="3284"/>
         <source>动模水阀4</source>
-        <translation type="obsolete">動模水閥4</translation>
+        <translation type="unfinished">動模水閥4</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3165"/>
+        <location filename="xstringresource.cpp" line="3286"/>
         <source>定模水阀1</source>
-        <translation type="obsolete">定模水閥1</translation>
+        <translation type="unfinished">定模水閥1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3166"/>
+        <location filename="xstringresource.cpp" line="3287"/>
         <source>定模水阀2</source>
-        <translation type="obsolete">定模水閥2</translation>
+        <translation type="unfinished">定模水閥2</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3167"/>
+        <location filename="xstringresource.cpp" line="3288"/>
         <source>定模水阀3</source>
-        <translation type="obsolete">定模水閥3</translation>
+        <translation type="unfinished">定模水閥3</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3168"/>
+        <location filename="xstringresource.cpp" line="3289"/>
         <source>定模水阀4</source>
-        <translation type="obsolete">定模水閥4</translation>
+        <translation type="unfinished">定模水閥4</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2856"/>
+        <location filename="xstringresource.cpp" line="3089"/>
+        <location filename="xstringresource.cpp" line="3169"/>
+        <location filename="xstringresource.cpp" line="3290"/>
         <source>输送带</source>
-        <translation type="obsolete">輸送帶</translation>
+        <translation type="unfinished">輸送帶</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3171"/>
+        <location filename="xstringresource.cpp" line="3292"/>
         <source>再循环启动</source>
-        <translation type="obsolete">再循環啟動</translation>
+        <translation type="unfinished">再循環啟動</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3175"/>
+        <location filename="xstringresource.cpp" line="3176"/>
+        <location filename="xstringresource.cpp" line="3177"/>
+        <location filename="xstringresource.cpp" line="3178"/>
+        <location filename="xstringresource.cpp" line="3179"/>
+        <location filename="xstringresource.cpp" line="3180"/>
+        <location filename="xstringresource.cpp" line="3207"/>
+        <location filename="xstringresource.cpp" line="3208"/>
+        <location filename="xstringresource.cpp" line="3209"/>
+        <location filename="xstringresource.cpp" line="3210"/>
+        <location filename="xstringresource.cpp" line="3211"/>
+        <location filename="xstringresource.cpp" line="3212"/>
+        <location filename="xstringresource.cpp" line="3213"/>
+        <location filename="xstringresource.cpp" line="3214"/>
+        <location filename="xstringresource.cpp" line="3215"/>
+        <location filename="xstringresource.cpp" line="3216"/>
+        <location filename="xstringresource.cpp" line="3296"/>
+        <location filename="xstringresource.cpp" line="3297"/>
+        <location filename="xstringresource.cpp" line="3298"/>
+        <location filename="xstringresource.cpp" line="3299"/>
+        <location filename="xstringresource.cpp" line="3300"/>
+        <location filename="xstringresource.cpp" line="3301"/>
         <source>EM2</source>
-        <translation type="obsolete">EM2</translation>
+        <translation type="unfinished">EM2</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2864"/>
+        <location filename="xstringresource.cpp" line="3195"/>
         <source>打油</source>
-        <translation type="obsolete">打油</translation>
+        <translation type="unfinished">打油</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2854"/>
+        <location filename="xstringresource.cpp" line="2944"/>
         <source>报警灯</source>
-        <translation type="obsolete">報警燈</translation>
+        <translation type="unfinished">報警燈</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="2862"/>
+        <location filename="xstringresource.cpp" line="2945"/>
         <source>报警器</source>
-        <translation type="obsolete">報警器</translation>
+        <translation type="unfinished">報警器</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3201"/>
         <source>吹气阀9</source>
-        <translation type="obsolete">吹氣閥9</translation>
+        <translation type="unfinished">吹氣閥9</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3202"/>
         <source>吹气阀10</source>
-        <translation type="obsolete">吹氣閥10</translation>
+        <translation type="unfinished">吹氣閥10</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3203"/>
         <source>吹气阀11</source>
-        <translation type="obsolete">吹氣閥11</translation>
+        <translation type="unfinished">吹氣閥11</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3204"/>
         <source>吹气阀12</source>
-        <translation type="obsolete">吹氣閥12</translation>
+        <translation type="unfinished">吹氣閥12</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3205"/>
         <source>喷水阀5</source>
-        <translation type="obsolete">噴水閥5</translation>
+        <translation type="unfinished">噴水閥5</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3206"/>
         <source>喷水阀6</source>
-        <translation type="obsolete">噴水閥6</translation>
+        <translation type="unfinished">噴水閥6</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3326"/>
         <source>副臂夹</source>
-        <translation type="obsolete">副臂夾</translation>
+        <translation type="unfinished">副臂夾</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3380"/>
         <source>传送带</source>
-        <translation type="obsolete">傳送帶</translation>
+        <translation type="unfinished">傳送帶</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3400"/>
         <source>EMC 加工启动</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EMC</comment>
-        <translation type="obsolete">EMC 加工启动</translation>
+        <translation type="unfinished">EMC 加工启动</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3401"/>
         <source>EMO 加工完成</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EMO</comment>
-        <translation type="obsolete">EMO 加工完成</translation>
+        <translation type="unfinished">EMO 加工完成</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3406"/>
         <source>EMC 允许关模</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EMC</comment>
-        <translation type="obsolete">EMC 允許關模</translation>
+        <translation type="unfinished">EMC 允許關模</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3404"/>
+        <location filename="xstringresource.cpp" line="3407"/>
         <source>EMO 允许开模</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EMO</comment>
-        <translation type="obsolete">EMO 允許開模</translation>
+        <translation type="unfinished">EMO 允許開模</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="146"/>
+        <location filename="xstringresource.cpp" line="461"/>
+        <source>[027] 请确认%1轴是否在安全位置，不在则移到安全位置，再关模；在，则检查安全区域信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="147"/>
+        <location filename="xstringresource.cpp" line="462"/>
+        <source>[028] 请确认%1轴是否在安全区域，不在则移到安全位置，再关模；在，则检查安全区域信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="149"/>
+        <location filename="xstringresource.cpp" line="464"/>
+        <location filename="xstringresource.cpp" line="778"/>
+        <source>[030] 请手动把%1轴移到安全位置或复位一次，再进入自动。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="156"/>
+        <location filename="xstringresource.cpp" line="471"/>
+        <source>[037] 请确认%1轴是否在安全区域，不在则移到安全位置，再横移；在则检查安全区域信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="157"/>
+        <location filename="xstringresource.cpp" line="472"/>
+        <source>[038] 请确认%1轴是否在安全位置，不在则移到安全位置，再横移；在则检查安全区域信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="168"/>
+        <source>[049] 请确认%1轴是否在原点位置，如不在则手动移到原点位置，再自动；如已在则确认%2轴SCN4的ORG端口原点信号是否正常。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="184"/>
+        <location filename="xstringresource.cpp" line="499"/>
+        <source>[065] 请检查%1轴模内安全区域信号是否故障，如正常请检查伺服设置里的安全区域设置范围是否在感应信号范围内。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="185"/>
+        <location filename="xstringresource.cpp" line="500"/>
+        <source>[066] 请检查%1轴模外安全区域信号是否故障，如正常请检查伺服设置里的安全区域设置范围是否在感应信号范围内。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="188"/>
+        <location filename="xstringresource.cpp" line="503"/>
+        <location filename="xstringresource.cpp" line="817"/>
+        <source>[069] 请检查%1轴上位待机安全区域信号是否故障，如正常请检查伺服设置里的安全区域设置范围是否在感应信号范围内。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="189"/>
+        <location filename="xstringresource.cpp" line="504"/>
+        <location filename="xstringresource.cpp" line="818"/>
+        <source>[070] 请检查%1轴上位待机安全区域信号是否故障，如正常请检查伺服设置里的安全区域设置范围是否在感应信号范围内。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="364"/>
+        <location filename="xstringresource.cpp" line="365"/>
+        <location filename="xstringresource.cpp" line="366"/>
+        <location filename="xstringresource.cpp" line="367"/>
+        <location filename="xstringresource.cpp" line="368"/>
+        <location filename="xstringresource.cpp" line="369"/>
+        <location filename="xstringresource.cpp" line="679"/>
+        <location filename="xstringresource.cpp" line="680"/>
+        <location filename="xstringresource.cpp" line="681"/>
+        <location filename="xstringresource.cpp" line="682"/>
+        <location filename="xstringresource.cpp" line="683"/>
+        <location filename="xstringresource.cpp" line="684"/>
+        <location filename="xstringresource.cpp" line="993"/>
+        <location filename="xstringresource.cpp" line="994"/>
+        <location filename="xstringresource.cpp" line="995"/>
+        <location filename="xstringresource.cpp" line="996"/>
+        <location filename="xstringresource.cpp" line="997"/>
+        <location filename="xstringresource.cpp" line="998"/>
+        <location filename="xstringresource.cpp" line="1374"/>
+        <location filename="xstringresource.cpp" line="1375"/>
+        <location filename="xstringresource.cpp" line="1376"/>
+        <location filename="xstringresource.cpp" line="1377"/>
+        <location filename="xstringresource.cpp" line="1378"/>
+        <location filename="xstringresource.cpp" line="1379"/>
+        <location filename="xstringresource.cpp" line="1709"/>
+        <location filename="xstringresource.cpp" line="1710"/>
+        <location filename="xstringresource.cpp" line="1711"/>
+        <location filename="xstringresource.cpp" line="1712"/>
+        <location filename="xstringresource.cpp" line="1713"/>
+        <location filename="xstringresource.cpp" line="1714"/>
+        <location filename="xstringresource.cpp" line="2101"/>
+        <location filename="xstringresource.cpp" line="2102"/>
+        <location filename="xstringresource.cpp" line="2103"/>
+        <location filename="xstringresource.cpp" line="2104"/>
+        <location filename="xstringresource.cpp" line="2105"/>
+        <location filename="xstringresource.cpp" line="2106"/>
+        <source>轴驱动器超温</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="365"/>
+        <location filename="xstringresource.cpp" line="680"/>
+        <location filename="xstringresource.cpp" line="994"/>
+        <location filename="xstringresource.cpp" line="1375"/>
+        <location filename="xstringresource.cpp" line="1710"/>
+        <location filename="xstringresource.cpp" line="2102"/>
+        <source>[246] </source>
+        <translation type="unfinished">[096]  {246]?}</translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="366"/>
+        <location filename="xstringresource.cpp" line="681"/>
+        <location filename="xstringresource.cpp" line="995"/>
+        <location filename="xstringresource.cpp" line="1376"/>
+        <location filename="xstringresource.cpp" line="1711"/>
+        <location filename="xstringresource.cpp" line="2103"/>
+        <source>[247] </source>
+        <translation type="unfinished">[096]  {247]?}</translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="367"/>
+        <location filename="xstringresource.cpp" line="682"/>
+        <location filename="xstringresource.cpp" line="996"/>
+        <location filename="xstringresource.cpp" line="1377"/>
+        <location filename="xstringresource.cpp" line="1712"/>
+        <location filename="xstringresource.cpp" line="2104"/>
+        <source>[248] </source>
+        <translation type="unfinished">[096]  {248]?}</translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="368"/>
+        <location filename="xstringresource.cpp" line="683"/>
+        <location filename="xstringresource.cpp" line="997"/>
+        <location filename="xstringresource.cpp" line="1378"/>
+        <location filename="xstringresource.cpp" line="1713"/>
+        <location filename="xstringresource.cpp" line="2105"/>
+        <source>[249] </source>
+        <translation type="unfinished">[096]  {249]?}</translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="369"/>
+        <location filename="xstringresource.cpp" line="684"/>
+        <location filename="xstringresource.cpp" line="998"/>
+        <location filename="xstringresource.cpp" line="1379"/>
+        <location filename="xstringresource.cpp" line="1714"/>
+        <location filename="xstringresource.cpp" line="2106"/>
+        <source>[250] </source>
+        <translation type="unfinished">[096]  {250]?}</translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="370"/>
+        <location filename="xstringresource.cpp" line="685"/>
+        <location filename="xstringresource.cpp" line="1380"/>
+        <location filename="xstringresource.cpp" line="1715"/>
+        <location filename="xstringresource.cpp" line="2107"/>
+        <source>[251] 驱动器电源模块报警</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="379"/>
+        <source>[260]%1轴跟随误差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="380"/>
+        <source>[261]%1轴跟随误差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="381"/>
+        <source>[262]%1轴跟随误差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="382"/>
+        <source>[263]%1轴跟随误差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="383"/>
+        <source>[264]%1轴跟随误差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="384"/>
+        <source>[265]%1轴跟随误差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="483"/>
+        <source>[049] 请确认%1轴是否在原点位置，如不在则手动移到原点位置，再自动；如已在则确认%1轴SCN4的ORG端口原点信号是否正常。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="694"/>
+        <location filename="xstringresource.cpp" line="1008"/>
+        <location filename="xstringresource.cpp" line="1389"/>
+        <location filename="xstringresource.cpp" line="1724"/>
+        <location filename="xstringresource.cpp" line="2116"/>
+        <source>[260] %1轴跟随误差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="695"/>
+        <location filename="xstringresource.cpp" line="1009"/>
+        <location filename="xstringresource.cpp" line="1390"/>
+        <location filename="xstringresource.cpp" line="1725"/>
+        <location filename="xstringresource.cpp" line="2117"/>
+        <source>[261] %1轴跟随误差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="696"/>
+        <location filename="xstringresource.cpp" line="1010"/>
+        <location filename="xstringresource.cpp" line="1391"/>
+        <location filename="xstringresource.cpp" line="1726"/>
+        <source>[262] %1轴跟随误差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="697"/>
+        <location filename="xstringresource.cpp" line="1011"/>
+        <location filename="xstringresource.cpp" line="1392"/>
+        <location filename="xstringresource.cpp" line="1727"/>
+        <location filename="xstringresource.cpp" line="2119"/>
+        <source>[263] %1轴跟随误差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="698"/>
+        <location filename="xstringresource.cpp" line="1012"/>
+        <location filename="xstringresource.cpp" line="1393"/>
+        <location filename="xstringresource.cpp" line="1728"/>
+        <location filename="xstringresource.cpp" line="2120"/>
+        <source>[264] %1轴跟随误差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="699"/>
+        <location filename="xstringresource.cpp" line="1013"/>
+        <location filename="xstringresource.cpp" line="1394"/>
+        <location filename="xstringresource.cpp" line="1729"/>
+        <location filename="xstringresource.cpp" line="2121"/>
+        <source>[265] %1轴跟随误差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="775"/>
+        <source>[027] 请确认%1是否在安全位置，不在则移到安全位置，再关模；在，则检查%2安全区域信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="786"/>
+        <source>[038] 请确认%1是否在安全位置，不在则移到安全位置，再横移；在则检查%1安全区域信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="797"/>
+        <source>[049] 请确认%1轴是否在原点位置，如不在则手动移到原点位置，再自动；如已在则确认%1SCN4的ORG端口原点信号是否正常。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1107"/>
+        <source>[027] %1轴位置不在安全区域，禁止机床关模。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1108"/>
+        <source>[028] %1轴位置不在安全区域，禁止机床关模。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1110"/>
+        <source>[027] %1轴位置不在安全区域，禁止注塑机关模。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1111"/>
+        <source>[028] %1轴位置不在安全区域，禁止注塑机关模。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1115"/>
+        <source>[030] %1轴没有原点信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1116"/>
+        <source>[031] %1轴没有原点信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1124"/>
+        <location filename="xstringresource.cpp" line="1489"/>
+        <location filename="xstringresource.cpp" line="1837"/>
+        <source>[037] %1轴不在上位，%2轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1125"/>
+        <location filename="xstringresource.cpp" line="1490"/>
+        <location filename="xstringresource.cpp" line="1838"/>
+        <source>[038] %1轴不在上位，%2轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1126"/>
+        <location filename="xstringresource.cpp" line="1491"/>
+        <source>[039] %1轴不在上位，%2轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1130"/>
+        <location filename="xstringresource.cpp" line="1497"/>
+        <location filename="xstringresource.cpp" line="1843"/>
+        <source>[043] 没有开模完信号，%1轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1131"/>
+        <location filename="xstringresource.cpp" line="1498"/>
+        <location filename="xstringresource.cpp" line="1844"/>
+        <source>[044] 没有中板模信号，%1轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1132"/>
+        <location filename="xstringresource.cpp" line="1499"/>
+        <location filename="xstringresource.cpp" line="1845"/>
+        <source>[045] %1轴不在安全区内，%2轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1134"/>
+        <source>[047] 模内超出安全区，%1轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1148"/>
+        <location filename="xstringresource.cpp" line="1861"/>
+        <source>[059] %1轴位置超出了软件行程。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1149"/>
+        <location filename="xstringresource.cpp" line="1524"/>
+        <location filename="xstringresource.cpp" line="1862"/>
+        <source>[060] %1轴位置超出了软件行程。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1150"/>
+        <location filename="xstringresource.cpp" line="1525"/>
+        <location filename="xstringresource.cpp" line="1863"/>
+        <source>[061] %1轴位置超出了软件行程。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1151"/>
+        <location filename="xstringresource.cpp" line="1864"/>
+        <source>[062] %1轴位置超出了软件行程。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1152"/>
+        <location filename="xstringresource.cpp" line="1527"/>
+        <location filename="xstringresource.cpp" line="1865"/>
+        <source>[063] %1轴位置超出了软件行程。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1153"/>
+        <location filename="xstringresource.cpp" line="1528"/>
+        <location filename="xstringresource.cpp" line="1866"/>
+        <source>[064] %1轴位置超出了软件行程。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1154"/>
+        <location filename="xstringresource.cpp" line="1529"/>
+        <source>[065] %1轴位置在模内安全区域内，但没有检测到模内安全区域信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1155"/>
+        <location filename="xstringresource.cpp" line="1530"/>
+        <source>[066] %1轴位置在模外安全区域内，但没有检测到模外安全区域信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1156"/>
+        <location filename="xstringresource.cpp" line="1869"/>
+        <source>[067] %1轴位置不在安全区内，%2轴运动不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1157"/>
+        <location filename="xstringresource.cpp" line="1870"/>
+        <source>[068] %1轴位置不在安全区内，%2轴运动不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1158"/>
+        <location filename="xstringresource.cpp" line="1533"/>
+        <location filename="xstringresource.cpp" line="1871"/>
+        <source>[069] %1轴位置在上位待机安全区内，但没有上位安全区信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1159"/>
+        <location filename="xstringresource.cpp" line="1872"/>
+        <source>[070] %1轴位置在上位待机安全区内，但没有上位安全区信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1170"/>
+        <location filename="xstringresource.cpp" line="1545"/>
+        <location filename="xstringresource.cpp" line="1883"/>
+        <source>[079] %1轴伺服报警，请检查伺服驱动器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1171"/>
+        <location filename="xstringresource.cpp" line="1546"/>
+        <location filename="xstringresource.cpp" line="1884"/>
+        <source>[080] 主臂引拔伺服没有就绪</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1172"/>
+        <location filename="xstringresource.cpp" line="1547"/>
+        <location filename="xstringresource.cpp" line="1885"/>
+        <source>[081] 主臂引拔伺服不在线</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1173"/>
+        <location filename="xstringresource.cpp" line="1548"/>
+        <location filename="xstringresource.cpp" line="1886"/>
+        <source>[082] %1轴伺服报警，请检查伺服驱动器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1174"/>
+        <location filename="xstringresource.cpp" line="1549"/>
+        <location filename="xstringresource.cpp" line="1887"/>
+        <source>[083] 主臂上下伺服没有就绪</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1176"/>
+        <location filename="xstringresource.cpp" line="1551"/>
+        <location filename="xstringresource.cpp" line="1889"/>
+        <source>[085] %1轴伺服报警，请检查伺服驱动器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1177"/>
+        <location filename="xstringresource.cpp" line="1552"/>
+        <location filename="xstringresource.cpp" line="1890"/>
+        <source>[086] 横行伺服没有就绪</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1178"/>
+        <location filename="xstringresource.cpp" line="1553"/>
+        <location filename="xstringresource.cpp" line="1891"/>
+        <source>[087] 横行伺服不在线</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1179"/>
+        <location filename="xstringresource.cpp" line="1554"/>
+        <location filename="xstringresource.cpp" line="1892"/>
+        <source>[088] %1轴伺服报警，请检查伺服驱动器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1180"/>
+        <source>[089] 副臂上下伺服没有就绪</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1181"/>
+        <location filename="xstringresource.cpp" line="1556"/>
+        <location filename="xstringresource.cpp" line="1894"/>
+        <source>[090] 副臂上下伺服不在线</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1182"/>
+        <location filename="xstringresource.cpp" line="1557"/>
+        <location filename="xstringresource.cpp" line="1895"/>
+        <source>[091] %1轴伺服报警，请检查伺服驱动器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1183"/>
+        <source>[092] 副臂引拔伺服没有就绪</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1184"/>
+        <location filename="xstringresource.cpp" line="1897"/>
+        <source>[093] 副臂引拔伺服不在线</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1185"/>
+        <location filename="xstringresource.cpp" line="1898"/>
+        <source>[094] %1轴伺服报警，请检查伺服驱动器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1187"/>
+        <location filename="xstringresource.cpp" line="1900"/>
+        <source>[095] 扩展伺服没有就绪 </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1188"/>
+        <location filename="xstringresource.cpp" line="1901"/>
+        <source>[096] 扩展伺服不在线</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1196"/>
+        <location filename="xstringresource.cpp" line="1910"/>
+        <source>[100] %1轴在模内区域，机床开模完信号消失。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1197"/>
+        <location filename="xstringresource.cpp" line="1911"/>
+        <source>[101] %1轴在模内区域，机床中板模信号消失。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1198"/>
+        <location filename="xstringresource.cpp" line="1912"/>
+        <source>[102] %1轴在模内区域，机床开模完信号消失。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1199"/>
+        <location filename="xstringresource.cpp" line="1913"/>
+        <source>[103] %1轴在模内区域，机床中板模信号消失。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1200"/>
+        <location filename="xstringresource.cpp" line="1914"/>
+        <source>[104] %1轴伺服运行到正极限。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1201"/>
+        <location filename="xstringresource.cpp" line="1915"/>
+        <source>[105] %1轴伺服运行到负极限。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1202"/>
+        <location filename="xstringresource.cpp" line="1916"/>
+        <source>[106] %1轴伺服运行到负极限。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1203"/>
+        <location filename="xstringresource.cpp" line="1917"/>
+        <source>[107] %1轴伺服运行到正极限。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1204"/>
+        <location filename="xstringresource.cpp" line="1918"/>
+        <source>[108] %1轴伺服运行到正极限。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1205"/>
+        <location filename="xstringresource.cpp" line="1919"/>
+        <source>[109] %1轴伺服运行到负极限。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1206"/>
+        <location filename="xstringresource.cpp" line="1920"/>
+        <source>[110] %1轴伺服运行到正极限。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1207"/>
+        <location filename="xstringresource.cpp" line="1921"/>
+        <source>[111] %1轴伺服运行到负极限。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1208"/>
+        <location filename="xstringresource.cpp" line="1922"/>
+        <source>[112] %1轴伺服运行到负极限。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1209"/>
+        <location filename="xstringresource.cpp" line="1923"/>
+        <source>[113] %1轴伺服运行到正极限。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1210"/>
+        <location filename="xstringresource.cpp" line="1559"/>
+        <location filename="xstringresource.cpp" line="1924"/>
+        <source>[114] %1轴伺服运行到正极限。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1211"/>
+        <location filename="xstringresource.cpp" line="1560"/>
+        <location filename="xstringresource.cpp" line="1925"/>
+        <source>[115] %1轴伺服运行到负极限。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1221"/>
+        <source>[124] 系统设置倒角垂直时，%1轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1222"/>
+        <source>[125]%1轴不在上位，%2轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1223"/>
+        <source>[126]%1轴运行不安全，超出模内安全区。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1233"/>
+        <location filename="xstringresource.cpp" line="1948"/>
+        <source>[130] %1轴和%2轴位置冲突。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1238"/>
+        <location filename="xstringresource.cpp" line="1582"/>
+        <location filename="xstringresource.cpp" line="1954"/>
+        <source>[134] %1轴入模不安全,没有开模完信号(模外待机)。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1239"/>
+        <location filename="xstringresource.cpp" line="1583"/>
+        <location filename="xstringresource.cpp" line="1955"/>
+        <source>[135] %1轴入模不安全,没有中板模信号(模外待机)。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1247"/>
+        <location filename="xstringresource.cpp" line="1249"/>
+        <location filename="xstringresource.cpp" line="1251"/>
+        <location filename="xstringresource.cpp" line="1253"/>
+        <location filename="xstringresource.cpp" line="1589"/>
+        <source>[141] %1轴不在安全区内，副臂气动下行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1259"/>
+        <location filename="xstringresource.cpp" line="1967"/>
+        <location filename="xstringresource.cpp" line="1970"/>
+        <source>[145] %1轴模内下位，机床开模中间信号消失。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1262"/>
+        <source>[145] %1轴模内下位，塑机开模中间信号消失。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1277"/>
+        <location filename="xstringresource.cpp" line="1608"/>
+        <source>[158] 手臂下行不安全，%1轴不在模内安全区。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1278"/>
+        <source>[159] 手臂下行不安全，%1轴不在模内安全区。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1279"/>
+        <location filename="xstringresource.cpp" line="1610"/>
+        <source>[160] 手臂下行不安全，%1轴不在模内安全区。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1288"/>
+        <location filename="xstringresource.cpp" line="1626"/>
+        <location filename="xstringresource.cpp" line="2003"/>
+        <source>[167] %1轴不在模内安全区，手臂下行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1289"/>
+        <location filename="xstringresource.cpp" line="2004"/>
+        <source>[168] %1轴不在模内安全区，手臂下行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1290"/>
+        <location filename="xstringresource.cpp" line="1628"/>
+        <location filename="xstringresource.cpp" line="2005"/>
+        <source>[169] %1轴不在上位，手臂倒角不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1291"/>
+        <location filename="xstringresource.cpp" line="1629"/>
+        <location filename="xstringresource.cpp" line="2006"/>
+        <source>[170] %1轴不在上位，手臂旋转不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1292"/>
+        <location filename="xstringresource.cpp" line="2007"/>
+        <source>[171] %1轴不在安全位，手臂横行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1295"/>
+        <location filename="xstringresource.cpp" line="2010"/>
+        <source>[174] %1轴位置超过软件行程。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1296"/>
+        <location filename="xstringresource.cpp" line="1634"/>
+        <location filename="xstringresource.cpp" line="2011"/>
+        <source>[175] %1轴位置超过软件行程。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1297"/>
+        <location filename="xstringresource.cpp" line="1635"/>
+        <location filename="xstringresource.cpp" line="2012"/>
+        <source>[176] %1轴不在安全区，手臂横行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1298"/>
+        <location filename="xstringresource.cpp" line="1636"/>
+        <location filename="xstringresource.cpp" line="2013"/>
+        <source>[177] %1轴不在安全区，手臂横行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1299"/>
+        <location filename="xstringresource.cpp" line="1637"/>
+        <location filename="xstringresource.cpp" line="2014"/>
+        <source>[178] %1轴运行不安全，不能超过模内安全区。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1300"/>
+        <location filename="xstringresource.cpp" line="2015"/>
+        <source>[179] %1轴不在安全区，手臂横行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1307"/>
+        <source>[184] %1轴不支持的绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1308"/>
+        <location filename="xstringresource.cpp" line="1645"/>
+        <source>[185] %1轴不支持的绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1309"/>
+        <source>[186] %1轴不支持的绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1310"/>
+        <source>[187] %1轴不支持的绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1311"/>
+        <location filename="xstringresource.cpp" line="1648"/>
+        <source>[188] %1轴不支持的绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1312"/>
+        <location filename="xstringresource.cpp" line="1649"/>
+        <source>[189] %1轴不支持的绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1313"/>
+        <location filename="xstringresource.cpp" line="2028"/>
+        <source>[190] %1轴绝对值编码器通讯错误。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1314"/>
+        <location filename="xstringresource.cpp" line="1651"/>
+        <location filename="xstringresource.cpp" line="2029"/>
+        <source>[191] %1轴绝对值编码器通讯错误。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1315"/>
+        <location filename="xstringresource.cpp" line="2030"/>
+        <source>[192] %1轴绝对值编码器通讯错误。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1316"/>
+        <location filename="xstringresource.cpp" line="2031"/>
+        <source>[193] %1轴绝对值编码器通讯错误。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1317"/>
+        <location filename="xstringresource.cpp" line="1654"/>
+        <location filename="xstringresource.cpp" line="2032"/>
+        <source>[194] %1轴绝对值编码器通讯错误。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1318"/>
+        <location filename="xstringresource.cpp" line="1656"/>
+        <location filename="xstringresource.cpp" line="2033"/>
+        <source>[195] %1轴绝对值编码器通讯错误。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1324"/>
+        <location filename="xstringresource.cpp" line="1660"/>
+        <location filename="xstringresource.cpp" line="2038"/>
+        <source>[199] %1轴模内和模外安全区有重叠。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1335"/>
+        <source>[209] 横行不安全,%1轴不在模内安全区。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1341"/>
+        <location filename="xstringresource.cpp" line="2068"/>
+        <source>[213] %1轴绝对值编码器电池电压低。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1342"/>
+        <location filename="xstringresource.cpp" line="1677"/>
+        <location filename="xstringresource.cpp" line="2069"/>
+        <source>[214] %1轴绝对值编码器电池电压低。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1343"/>
+        <location filename="xstringresource.cpp" line="2070"/>
+        <source>[215] %1轴绝对值编码器电池电压低。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1344"/>
+        <location filename="xstringresource.cpp" line="2071"/>
+        <source>[216] %1轴绝对值编码器电池电压低。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1345"/>
+        <location filename="xstringresource.cpp" line="1680"/>
+        <location filename="xstringresource.cpp" line="2072"/>
+        <source>[217] %1轴绝对值编码器电池电压低。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1346"/>
+        <location filename="xstringresource.cpp" line="1681"/>
+        <location filename="xstringresource.cpp" line="2073"/>
+        <source>[218] %1轴绝对值编码器电池电压低。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1348"/>
+        <location filename="xstringresource.cpp" line="2075"/>
+        <source>[220] %1轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1349"/>
+        <location filename="xstringresource.cpp" line="1684"/>
+        <location filename="xstringresource.cpp" line="2076"/>
+        <source>[221] %1轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1350"/>
+        <location filename="xstringresource.cpp" line="1685"/>
+        <location filename="xstringresource.cpp" line="2077"/>
+        <source>[222] %1轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1351"/>
+        <location filename="xstringresource.cpp" line="2078"/>
+        <source>[223] %1轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1364"/>
+        <location filename="xstringresource.cpp" line="2091"/>
+        <source>[235] %1轴不在上位安全区</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1365"/>
+        <location filename="xstringresource.cpp" line="2092"/>
+        <source>[236] %1轴不在上位安全区</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1367"/>
+        <location filename="xstringresource.cpp" line="2094"/>
+        <source>[238] 绝对值编码器电池没电或掉线</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1370"/>
+        <location filename="xstringresource.cpp" line="1705"/>
+        <location filename="xstringresource.cpp" line="2097"/>
+        <source>[241] 手臂在模内。不允许塑机信号长输出</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1371"/>
+        <location filename="xstringresource.cpp" line="1706"/>
+        <location filename="xstringresource.cpp" line="2098"/>
+        <source>[242] 手臂进入模内，但没有X11信号</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1475"/>
+        <source>[030] %1轴伺服没有原点信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1476"/>
+        <source>[031] 横行%1轴伺服没有原点信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1495"/>
+        <location filename="xstringresource.cpp" line="1841"/>
+        <source>[041] 没有开模完信号，%1轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1496"/>
+        <location filename="xstringresource.cpp" line="1842"/>
+        <source>[042] 没有中板模信号，%1轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1500"/>
+        <location filename="xstringresource.cpp" line="1846"/>
+        <source>[046] %1轴不在安全区内，%2轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1501"/>
+        <source>[047] 超出模内安全区，%1轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1505"/>
+        <source>[043] 没有开模完成信号，禁止取件%1轴运转。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1506"/>
+        <source>[044] 没有开中板模确认信号，禁止取件%1轴运转。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1507"/>
+        <source>[045] %1轴不在安全区域内，%2轴运转不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1508"/>
+        <source>[046] %1轴不在安全区域内，喷雾%2轴运转不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1523"/>
+        <source>[059] 前后%1轴位置超出了软件行程。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1526"/>
+        <source>[062] 喷雾%1轴位置超出了软件行程。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1531"/>
+        <source>[067] %1轴不在安全区内，%2轴运动不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1532"/>
+        <source>[068] %1轴不在安全区内，前后%2轴运动不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1534"/>
+        <source>[070] 喷雾%1轴位置在上位待机安全区内，但没有上位安全区信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1536"/>
+        <source>[071] 主臂上下伺服不在线</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1555"/>
+        <location filename="xstringresource.cpp" line="1893"/>
+        <source>[089] 副臂上下伺服没有就绪 </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1570"/>
+        <location filename="xstringresource.cpp" line="1937"/>
+        <source>[125] %1轴不在上位，%2轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1571"/>
+        <location filename="xstringresource.cpp" line="1938"/>
+        <source>[126] %1轴运行不安全，超出模内安全区。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1576"/>
+        <source>[130] %1轴和%1轴位置冲突。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1593"/>
+        <source>[145] %1轴模内下位，铸机开模中间信号消失。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1609"/>
+        <source>[159] 手臂下行不安全，%1轴不在模内安全区</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1627"/>
+        <source>[168] 喷雾%1轴不在模内安全区，手臂下行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1630"/>
+        <source>[171] 喷雾%1轴不在安全位，手臂横行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1633"/>
+        <source>[174] 喷雾%1轴位置超过软件行程。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1638"/>
+        <source>[179] 前后%1轴不在安全区，手臂横行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1644"/>
+        <source>[184] 前后%1轴不支持的绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1646"/>
+        <source>[186] 横行%1轴不支持的绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1647"/>
+        <source>[187] 喷雾%1轴不支持的绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1650"/>
+        <source>[190] 前后%1轴绝对值编码器通讯错误。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1652"/>
+        <source>[192] 横行%1轴绝对值编码器通讯错误。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1653"/>
+        <source>[193] 喷雾%1轴绝对值编码器通讯错误。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1676"/>
+        <source>[213] 前后%1轴绝对值编码器电池电压低。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1679"/>
+        <source>[216] 喷雾%1轴绝对值编码器电池电压低。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1683"/>
+        <source>[220] 喷雾%1轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1686"/>
+        <source>[223] 前后%1轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1817"/>
+        <source>[027] %1轴不在安全区域，禁止机床关模。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1818"/>
+        <source>[028] %1轴不在安全区域，禁止机床关模。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1820"/>
+        <location filename="xstringresource.cpp" line="1823"/>
+        <source>[027] %1轴不在安全区域，禁止机床加工。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1821"/>
+        <location filename="xstringresource.cpp" line="1824"/>
+        <source>[028] %1轴不在安全区域，禁止机床加工。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1828"/>
+        <source>[030] %1轴不在原点位置，不能自动运行。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1829"/>
+        <source>[031] %1轴不在模外安全区域，不能自动运行。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1839"/>
+        <source>[039] %1轴不在上位，%1轴运行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1847"/>
+        <source>[047] %1轴运行不安全，超出模内安全区。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1867"/>
+        <source>[065] %1轴位置在模内安全区内，但没有检测到模内安全区域信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1868"/>
+        <source>[066] %1轴位置在模外安全区内，但没有检测到模外安全区域信号。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1874"/>
+        <source>[071] </source>
+        <translation type="unfinished">[096]  {071]?}</translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1896"/>
+        <source>[092] 副臂引拔伺服没有就绪 </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1985"/>
+        <source>[158] %1轴不在模内安全区，手臂下行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1986"/>
+        <source>[159] %1轴不在模内安全区，手臂下行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="1987"/>
+        <source>[160] %1轴不在模内安全区，手臂下行不安全。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2022"/>
+        <source>[184] %1轴不支持绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2023"/>
+        <source>[185] %1轴不支持绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2024"/>
+        <source>[186] %1轴不支持绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2025"/>
+        <source>[187] %1轴不支持绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2026"/>
+        <source>[188] %1轴不支持绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2027"/>
+        <source>[189] %1轴不支持绝对值编码器。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2050"/>
+        <location filename="xstringresource.cpp" line="2052"/>
+        <source>[209] 横行不安全，%1轴不在模内安全区。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2054"/>
+        <location filename="xstringresource.cpp" line="2056"/>
+        <location filename="xstringresource.cpp" line="2058"/>
+        <location filename="xstringresource.cpp" line="2060"/>
+        <location filename="xstringresource.cpp" line="2062"/>
+        <source>[209] 横行不安全，%1或%2轴不在模内安全区。</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2276"/>
+        <source>光栅1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2277"/>
+        <source>光栅2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2292"/>
+        <source>上胚启动</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2297"/>
+        <location filename="xstringresource.cpp" line="2857"/>
+        <source>副夹</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2364"/>
+        <location filename="xstringresource.cpp" line="2890"/>
+        <source>吸3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2365"/>
+        <location filename="xstringresource.cpp" line="2891"/>
+        <source>吸4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2834"/>
+        <source>副臂水平到位</source>
+        <comment>翻译时无论什么语言一律使用(中文除外): RA-I.HOR</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2835"/>
+        <source>副臂垂直到位</source>
+        <comment>翻译时无论什么语言一律使用(中文除外): RA-I.VER</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2881"/>
+        <source>刀1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2882"/>
+        <source>刀2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2954"/>
+        <source>保留/副臂夹</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2959"/>
+        <source>运行灯</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="2960"/>
+        <source>送料机</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3381"/>
+        <source>剪刀</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3403"/>
+        <source>EMC 允许加工</source>
+        <comment>翻译时无论什么语言一律使用(中文除外): IMM-EMC</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3409"/>
         <source>MAF 模区安全</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-MAF</comment>
-        <translation type="obsolete">MAF 模區安全</translation>
+        <translation type="unfinished">MAF 模區安全</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3410"/>
         <source>机械手不使用</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-RBT</comment>
-        <translation type="obsolete">機械手不使用</translation>
+        <translation type="unfinished">機械手不使用</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3411"/>
         <source>EEB 允许顶针退</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EEB</comment>
-        <translation type="obsolete">EEB 頂針後退</translation>
+        <translation type="unfinished">EEB 頂針後退</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3412"/>
         <source>EEF 允许顶针进</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EEF</comment>
-        <translation type="obsolete">EEF 頂針前進</translation>
+        <translation type="unfinished">EEF 頂針前進</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3415"/>
         <source>允许中子1进</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EC1P1</comment>
-        <translation type="obsolete">允許中子1進</translation>
+        <translation type="unfinished">允許中子1進</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3416"/>
         <source>允许中子1退</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EC1P2</comment>
-        <translation type="obsolete">允許中子1退</translation>
+        <translation type="unfinished">允許中子1退</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3417"/>
         <source>允许中子2进</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EC2P1</comment>
-        <translation type="obsolete">允許中子2進</translation>
+        <translation type="unfinished">允許中子2進</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3418"/>
         <source>允许中子2退</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EC2P2</comment>
-        <translation type="obsolete">允許中子2退</translation>
+        <translation type="unfinished">允許中子2退</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3422"/>
         <source>允许抽芯1位1</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EC1P1</comment>
-        <translation type="obsolete">允許抽芯1位1</translation>
+        <translation type="unfinished">允許抽芯1位1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3423"/>
         <source>允许抽芯1位2</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EC1P2</comment>
-        <translation type="obsolete">允許抽芯1位2</translation>
+        <translation type="unfinished">允許抽芯1位2</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3424"/>
         <source>允许抽芯2位1</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EC2P1</comment>
-        <translation type="obsolete">允許抽芯2位1</translation>
+        <translation type="unfinished">允許抽芯2位1</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3425"/>
         <source>允许抽芯2位2</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EC2P2</comment>
-        <translation type="obsolete">允許抽芯2位2</translation>
+        <translation type="unfinished">允許抽芯2位2</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3428"/>
         <source>模区安全确认</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-HMAF</comment>
-        <translation type="obsolete">模區安全確認</translation>
+        <translation type="unfinished">模區安全確認</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3429"/>
         <source>允许关模确认</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-HEMC</comment>
-        <translation type="obsolete">允許關模確認</translation>
+        <translation type="unfinished">允許關模確認</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3432"/>
+        <location filename="xstringresource.cpp" line="3448"/>
         <source>取件Z1使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.ON</comment>
-        <translation type="obsolete">取件Z1使能</translation>
+        <translation type="unfinished">取件Z1使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3433"/>
+        <location filename="xstringresource.cpp" line="3449"/>
         <source>前后Y使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.ON</comment>
-        <translation type="obsolete">前後Y使能</translation>
+        <translation type="unfinished">前後Y使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3434"/>
+        <location filename="xstringresource.cpp" line="3450"/>
         <source>横行X使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.ON</comment>
-        <translation type="obsolete">橫行X使能</translation>
+        <translation type="unfinished">橫行X使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3435"/>
+        <location filename="xstringresource.cpp" line="3451"/>
         <source>喷雾Z2使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.ON</comment>
-        <translation type="obsolete">噴霧Z2使能</translation>
+        <translation type="unfinished">噴霧Z2使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3436"/>
+        <location filename="xstringresource.cpp" line="3452"/>
         <source>保留使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.ON</comment>
-        <translation type="obsolete">保留使能</translation>
+        <translation type="unfinished">保留使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3437"/>
+        <location filename="xstringresource.cpp" line="3444"/>
+        <location filename="xstringresource.cpp" line="3453"/>
+        <location filename="xstringresource.cpp" line="3462"/>
         <source>扩展使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-EXT.ON</comment>
-        <translation type="obsolete">擴展使能</translation>
+        <translation type="unfinished">擴展使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3439"/>
         <source>上下使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.ON</comment>
-        <translation type="obsolete">上下使能</translation>
+        <translation type="unfinished">上下使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3440"/>
         <source>引拔使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.ON</comment>
-        <translation type="obsolete">引拔使能</translation>
+        <translation type="unfinished">引拔使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3441"/>
+        <location filename="xstringresource.cpp" line="3459"/>
         <source>横行使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-TRV.ON</comment>
-        <translation type="obsolete">橫行使能</translation>
+        <translation type="unfinished">橫行使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3442"/>
         <source>上下2使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.ON</comment>
-        <translation type="obsolete">上下2使能</translation>
+        <translation type="unfinished">上下2使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3443"/>
         <source>引拔2使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.ON</comment>
-        <translation type="obsolete">引拔2使能</translation>
+        <translation type="unfinished">引拔2使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3457"/>
         <source>正臂上下使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.ON</comment>
-        <translation type="obsolete">正臂上下使能</translation>
+        <translation type="unfinished">正臂上下使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3458"/>
         <source>正臂引拔使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAH.ON</comment>
-        <translation type="obsolete">正臂引拔使能</translation>
+        <translation type="unfinished">正臂引拔使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3460"/>
         <source>副臂上下使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.ON</comment>
-        <translation type="obsolete">副臂上下使能</translation>
+        <translation type="unfinished">副臂上下使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3461"/>
         <source>副臂引拔使能</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAH.ON</comment>
-        <translation type="obsolete">副臂引拔使能</translation>
+        <translation type="unfinished">副臂引拔使能</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3466"/>
         <source>正臂倒平</source>
         <comment>翻译时无论什么语言一律使用(中文除外): PA-O.HOR</comment>
-        <translation type="obsolete">正臂倒平</translation>
+        <translation type="unfinished">正臂倒平</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3467"/>
         <source>正臂倒直</source>
         <comment>翻译时无论什么语言一律使用(中文除外): PA-O.VER</comment>
-        <translation type="obsolete">正臂倒直</translation>
+        <translation type="unfinished">正臂倒直</translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3468"/>
+        <source>副臂倒平</source>
+        <comment>翻译时无论什么语言一律使用(中文除外): RA-O.HOR</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3469"/>
+        <source>副臂倒直</source>
+        <comment>翻译时无论什么语言一律使用(中文除外): RA-O.VER</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3552"/>
+        <location filename="xstringresource.cpp" line="3554"/>
+        <location filename="xstringresource.cpp" line="3556"/>
+        <location filename="xstringresource.cpp" line="3558"/>
+        <location filename="xstringresource.cpp" line="3560"/>
+        <location filename="xstringresource.cpp" line="3562"/>
+        <source>伺服调位操作：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3552"/>
+        <location filename="xstringresource.cpp" line="3554"/>
+        <location filename="xstringresource.cpp" line="3556"/>
+        <location filename="xstringresource.cpp" line="3558"/>
+        <location filename="xstringresource.cpp" line="3560"/>
+        <location filename="xstringresource.cpp" line="3562"/>
+        <source>轴位置改变。</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>副臂倒平-E1Y10</source>
@@ -23812,180 +26423,227 @@
         <translation type="obsolete">副臂倒直-E1Y11</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3470"/>
         <source>副臂下行</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-O.DES</comment>
-        <translation type="obsolete">副臂下行</translation>
+        <translation type="unfinished">副臂下行</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3471"/>
         <source>副臂速度</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-O.SPD</comment>
-        <translation type="obsolete">副臂速度</translation>
+        <translation type="unfinished">副臂速度</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3472"/>
         <source>报警器</source>
         <comment>翻译时无论什么语言一律使用(中文除外): ALM-BEEP</comment>
-        <translation type="obsolete">報警器</translation>
+        <translation type="unfinished">報警器</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3473"/>
         <source>报警灯</source>
         <comment>翻译时无论什么语言一律使用(中文除外): ALM-LAMP</comment>
-        <translation type="obsolete">報警燈</translation>
+        <translation type="unfinished">報警燈</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3474"/>
         <source>系统运行指示</source>
         <comment>翻译时无论什么语言一律使用(中文除外): SYS-ACTIVE</comment>
-        <translation type="obsolete">系統運行指示</translation>
+        <translation type="unfinished">系統運行指示</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3475"/>
         <source>正臂前进</source>
         <comment>翻译时无论什么语言一律使用(中文除外): PA-O.ADV</comment>
-        <translation type="obsolete">正臂前進</translation>
+        <translation type="unfinished">正臂前進</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3476"/>
         <source>正臂后退</source>
         <comment>翻译时无论什么语言一律使用(中文除外): PA-O.RET</comment>
-        <translation type="obsolete">正臂後退</translation>
+        <translation type="unfinished">正臂後退</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3477"/>
         <source>副臂前进</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-O.ADV</comment>
-        <translation type="obsolete">副臂前進</translation>
+        <translation type="unfinished">副臂前進</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3479"/>
         <source>副臂前进</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-O.RET</comment>
-        <translation type="obsolete">副臂前進</translation>
+        <translation type="unfinished">副臂前進</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3481"/>
         <source>副臂后退</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-O.RET</comment>
-        <translation type="obsolete">副臂後退</translation>
+        <translation type="unfinished">副臂後退</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3483"/>
         <source>打油</source>
         <comment>翻译时无论什么语言一律使用(中文除外): OIL</comment>
-        <translation type="obsolete">打油</translation>
+        <translation type="unfinished">打油</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3484"/>
         <source>传送带</source>
         <comment>翻译时无论什么语言一律使用(中文除外): CONV</comment>
-        <translation type="obsolete">傳送帶</translation>
+        <translation type="unfinished">傳送帶</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3485"/>
+        <source>剪刀</source>
+        <comment>翻译时无论什么语言一律使用(中文除外): CUT</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3494"/>
         <source>操作器软件启动完成。</source>
-        <translation type="obsolete">操作器軟體啓動完成。</translation>
+        <translation type="unfinished">操作器軟體啓動完成。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3496"/>
         <source>手动控制机械手开始复归操作。</source>
-        <translation type="obsolete">手動控制機械手開始複歸操作。</translation>
+        <translation type="unfinished">手動控制機械手開始複歸操作。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3498"/>
         <source>载入当前程序：</source>
-        <translation type="obsolete">載入當前程式：</translation>
+        <translation type="unfinished">載入當前程式：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3500"/>
         <source>创建新程序文件：</source>
-        <translation type="obsolete">創建新程式文件：</translation>
+        <translation type="unfinished">創建新程式文件：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3502"/>
         <source>重命名程序文件：</source>
-        <translation type="obsolete">重命名程式文件：</translation>
+        <translation type="unfinished">重命名程式文件：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3504"/>
         <source>复制程序文件：</source>
-        <translation type="obsolete">複製程式文件：</translation>
+        <translation type="unfinished">複製程式文件：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3506"/>
         <source>删除程序文件：</source>
-        <translation type="obsolete">刪除程式文件：</translation>
+        <translation type="unfinished">刪除程式文件：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3508"/>
         <source>导出程序文件到USB存储器：</source>
-        <translation type="obsolete">導出程式文件到USB存儲器：</translation>
+        <translation type="unfinished">導出程式文件到USB存儲器：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3510"/>
         <source>从USB存储器导入程序文件：</source>
-        <translation type="obsolete">從USB存儲器導入程式文件：</translation>
+        <translation type="unfinished">從USB存儲器導入程式文件：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3512"/>
         <source>登录用户：操作员</source>
-        <translation type="obsolete">登錄用戶：操作員</translation>
+        <translation type="unfinished">登錄用戶：操作員</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3514"/>
         <source>登录用户：高级操作员</source>
-        <translation type="obsolete">登錄用戶：高級操作員</translation>
+        <translation type="unfinished">登錄用戶：高級操作員</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3516"/>
         <source>登录用户：管理员</source>
-        <translation type="obsolete">登錄用戶：管理員</translation>
+        <translation type="unfinished">登錄用戶：管理員</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3518"/>
         <source>登录用户：高级管理员</source>
-        <translation type="obsolete">登錄用戶：高級管理員</translation>
+        <translation type="unfinished">登錄用戶：高級管理員</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3520"/>
         <source>登录用户：超级用户</source>
-        <translation type="obsolete">登錄用戶：超級用戶</translation>
+        <translation type="unfinished">登錄用戶：超級用戶</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3522"/>
         <source>注销当前用户，以操作员登录。</source>
-        <translation type="obsolete">註銷當前用戶，以操作員登錄。</translation>
+        <translation type="unfinished">註銷當前用戶，以操作員登錄。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3524"/>
         <source>修改高级操作员密码。</source>
-        <translation type="obsolete">修改高級操作員密碼。</translation>
+        <translation type="unfinished">修改高級操作員密碼。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3526"/>
         <source>修改管理员密码。</source>
-        <translation type="obsolete">修改管理員密碼。</translation>
+        <translation type="unfinished">修改管理員密碼。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3528"/>
         <source>修改系统时间：</source>
-        <translation type="obsolete">修改系統時間：</translation>
+        <translation type="unfinished">修改系統時間：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3530"/>
         <source>系统从自动待机进入手动操作。</source>
-        <translation type="obsolete">系統從自動待機進入手動操作。</translation>
+        <translation type="unfinished">系統從自動待機進入手動操作。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3532"/>
         <source>系统停止自动运行，进入自动待机状态。</source>
-        <translation type="obsolete">系統停止自動運行，進入自動待機狀態。</translation>
+        <translation type="unfinished">系統停止自動運行，進入自動待機狀態。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3534"/>
         <source>系统停止单周期运行，进入自动待机状态。</source>
-        <translation type="obsolete">系統停止單周期運行，進入自動待機狀態。</translation>
+        <translation type="unfinished">系統停止單周期運行，進入自動待機狀態。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3536"/>
         <source>系统停止单步运行，进入自动待机状态。</source>
-        <translation type="obsolete">系統停止單步運行，進入自動待機狀態。</translation>
+        <translation type="unfinished">系統停止單步運行，進入自動待機狀態。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3538"/>
         <source>系统从手动操作进入自动待机。</source>
-        <translation type="obsolete">系統從手動操作進入自動待機。</translation>
+        <translation type="unfinished">系統從手動操作進入自動待機。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3540"/>
         <source>系统从自动待机进入自动运行。</source>
-        <translation type="obsolete">系統從自動待機進入自動運行。</translation>
+        <translation type="unfinished">系統從自動待機進入自動運行。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3542"/>
         <source>执行程序单周期运行。</source>
-        <translation type="obsolete">執行程式單周期運行。</translation>
+        <translation type="unfinished">執行程式單周期運行。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3544"/>
         <source>执行程序单步运行。</source>
-        <translation type="obsolete">執行程式單步運行。</translation>
+        <translation type="unfinished">執行程式單步運行。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3546"/>
         <source>修改系统参数。</source>
-        <translation type="obsolete">修改系統參數。</translation>
+        <translation type="unfinished">修改系統參數。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3548"/>
         <source>修改伺服参数。</source>
-        <translation type="obsolete">修改伺服參數。</translation>
+        <translation type="unfinished">修改伺服參數。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3550"/>
         <source>修改操作器界面设置。</source>
-        <translation type="obsolete">修改操作器界面設置。</translation>
+        <translation type="unfinished">修改操作器界面設置。</translation>
     </message>
     <message>
         <source>伺服调位操作：正臂引拔轴位置改变。</source>
@@ -24012,462 +26670,1228 @@
         <translation type="obsolete">伺服調位操作：擴展軸位置改變。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3564"/>
         <source>导入开机画面：</source>
-        <translation type="obsolete">導入開機畫面：</translation>
+        <translation type="unfinished">導入開機畫面：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3566"/>
         <source>导入待机画面：</source>
-        <translation type="obsolete">導入待機畫面：</translation>
+        <translation type="unfinished">導入待機畫面：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3568"/>
         <source>导入厂商信息：</source>
-        <translation type="obsolete">導入廠商信息：</translation>
+        <translation type="unfinished">導入廠商信息：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3570"/>
         <source>导入端口名称定义：</source>
-        <translation type="obsolete">導入端口名稱定義：</translation>
+        <translation type="unfinished">導入端口名稱定義：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3572"/>
         <source>重置端口名称为出厂默认值。</source>
-        <translation type="obsolete">重置端口名稱為出廠默認值。</translation>
+        <translation type="unfinished">重置端口名稱為出廠默認值。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3574"/>
         <source>升级操作器软件：</source>
-        <translation type="obsolete">升級操作器軟體：</translation>
+        <translation type="unfinished">升級操作器軟體：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3576"/>
         <source>恢复备份的操作器软件。</source>
-        <translation type="obsolete">恢復備份的操作器軟體。</translation>
+        <translation type="unfinished">恢復備份的操作器軟體。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3578"/>
         <source>操作器软件重新启动。</source>
-        <translation type="obsolete">操作器軟體重新啓動。</translation>
+        <translation type="unfinished">操作器軟體重新啓動。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3580"/>
         <source>导出系统参数和伺服参数设置。</source>
-        <translation type="obsolete">導出系統參數和伺服參數設置。</translation>
+        <translation type="unfinished">導出系統參數和伺服參數設置。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3582"/>
         <source>导入系统参数和伺服参数设置。</source>
-        <translation type="obsolete">導入系統參數和伺服參數設置。</translation>
+        <translation type="unfinished">導入系統參數和伺服參數設置。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3584"/>
         <source>手动控制正臂倒角垂直。</source>
-        <translation type="obsolete">手動控制正臂倒角垂直。</translation>
+        <translation type="unfinished">手動控制正臂倒角垂直。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3586"/>
         <source>手动控制正臂倒角水平。</source>
-        <translation type="obsolete">手動控制正臂倒角水平。</translation>
+        <translation type="unfinished">手動控制正臂倒角水平。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3588"/>
         <source>手动控制注塑机允许开模。</source>
-        <translation type="obsolete">手動控制注塑機允許開模。</translation>
+        <translation type="unfinished">手動控制注塑機允許開模。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3590"/>
         <source>手动控制注塑机允许关模。</source>
-        <translation type="obsolete">手動控制注塑機允許關模。</translation>
+        <translation type="unfinished">手動控制注塑機允許關模。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3592"/>
         <source>手动控制注塑机允许顶针前进。</source>
-        <translation type="obsolete">手動控制注塑機允許頂針前進。</translation>
+        <translation type="unfinished">手動控制注塑機允許頂針前進。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3594"/>
         <source>手动控制注塑机允许顶针后退。</source>
-        <translation type="obsolete">手動控制注塑機允許頂針後退。</translation>
+        <translation type="unfinished">手動控制注塑機允許頂針後退。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3596"/>
         <source>手动控制注塑机允许抽芯1位置1。</source>
-        <translation type="obsolete">手動控制注塑機允許抽芯1位置1。</translation>
+        <translation type="unfinished">手動控制注塑機允許抽芯1位置1。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3598"/>
         <source>手动控制注塑机允许抽芯1位置2。</source>
-        <translation type="obsolete">手動控制注塑機允許抽芯1位置2。</translation>
+        <translation type="unfinished">手動控制注塑機允許抽芯1位置2。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3600"/>
         <source>手动控制注塑机允许抽芯2位置1。</source>
-        <translation type="obsolete">手動控制注塑機允許抽芯2位置1。</translation>
+        <translation type="unfinished">手動控制注塑機允許抽芯2位置1。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3602"/>
         <source>手动控制注塑机允许抽芯2位置2。</source>
-        <translation type="obsolete">手動控制注塑機允許抽芯2位置2。</translation>
+        <translation type="unfinished">手動控制注塑機允許抽芯2位置2。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3604"/>
         <source>手动控制扩展输出打开：</source>
-        <translation type="obsolete">手動控制擴展輸出打開：</translation>
+        <translation type="unfinished">手動控制擴展輸出打開：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3606"/>
         <source>手动控制扩展输出关闭：</source>
-        <translation type="obsolete">手動控制擴展輸出關閉：</translation>
+        <translation type="unfinished">手動控制擴展輸出關閉：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3608"/>
         <source>手动控制伺服运转。
 </source>
-        <translation type="obsolete">手動控制伺服運轉。
+        <translation type="unfinished">手動控制伺服運轉。
 </translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3610"/>
         <source>手动控制关闭注塑机顶针进</source>
-        <translation type="obsolete">手動控制關閉注塑機頂針進</translation>
+        <translation type="unfinished">手動控制關閉注塑機頂針進</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3612"/>
         <source>手动控制关闭注塑机顶针退</source>
-        <translation type="obsolete">手動控制關閉注塑機頂針退</translation>
+        <translation type="unfinished">手動控制關閉注塑機頂針退</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3614"/>
         <source>手动控制关闭注塑机抽芯1位置1。</source>
-        <translation type="obsolete">手動控制關閉注塑機抽芯1位置1。</translation>
+        <translation type="unfinished">手動控制關閉注塑機抽芯1位置1。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3616"/>
         <source>手动控制关闭注塑机抽芯1位置2。</source>
-        <translation type="obsolete">手動控制關閉注塑機抽芯1位置2。</translation>
+        <translation type="unfinished">手動控制關閉注塑機抽芯1位置2。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3618"/>
         <source>手动控制关闭注塑机抽芯2位置1。</source>
-        <translation type="obsolete">手動控制關閉注塑機抽芯2位置1。</translation>
+        <translation type="unfinished">手動控制關閉注塑機抽芯2位置1。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3620"/>
         <source>手动控制关闭注塑机抽芯2位置2。</source>
-        <translation type="obsolete">手動控制關閉注塑機抽芯2位置2。</translation>
+        <translation type="unfinished">手動控制關閉注塑機抽芯2位置2。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3622"/>
         <source>手动控制气动副臂上升：</source>
-        <translation type="obsolete">手動控制氣動副臂上升：</translation>
+        <translation type="unfinished">手動控制氣動副臂上升：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3624"/>
         <source>手动控制气动副臂下降：</source>
-        <translation type="obsolete">手動控制氣動副臂下降：</translation>
+        <translation type="unfinished">手動控制氣動副臂下降：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3626"/>
         <source>手动控制气动副臂引进：</source>
-        <translation type="obsolete">手動控制氣動副臂引進：</translation>
+        <translation type="unfinished">手動控制氣動副臂引進：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3628"/>
         <source>手动控制气动副臂引退：</source>
-        <translation type="obsolete">手動控制氣動副臂引退：</translation>
+        <translation type="unfinished">手動控制氣動副臂引退：</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3630"/>
         <source>保存教导程序。</source>
-        <translation type="obsolete">保存教導程序。</translation>
+        <translation type="unfinished">保存教導程序。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3632"/>
         <source>重置系统参数设置。</source>
-        <translation type="obsolete">重置系統參數設置。</translation>
+        <translation type="unfinished">重置系統參數設置。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3634"/>
         <source>重置伺服参数设置。</source>
-        <translation type="obsolete">重置伺服參數設置。</translation>
+        <translation type="unfinished">重置伺服參數設置。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3636"/>
         <source>重置系统密码设置。</source>
-        <translation type="obsolete">重置系統密碼設置。</translation>
+        <translation type="unfinished">重置系統密碼設置。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3638"/>
         <source>清除生产总模数。</source>
-        <translation type="obsolete">清除生產總模數。</translation>
+        <translation type="unfinished">清除生產總模數。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3640"/>
         <source>产品密钥改变。</source>
-        <translation type="obsolete">產品密鑰改變。</translation>
+        <translation type="unfinished">產品密鑰改變。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3642"/>
         <source>激活码改变。</source>
-        <translation type="obsolete">激活碼改變。</translation>
+        <translation type="unfinished">激活碼改變。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3644"/>
         <source>报警复位。</source>
-        <translation type="obsolete">報警復位。</translation>
+        <translation type="unfinished">報警復位。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3646"/>
         <source>设置绝对值编码器原点。</source>
-        <translation type="obsolete">設置絕對值編碼器原點。</translation>
+        <translation type="unfinished">設置絕對值編碼器原點。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3648"/>
         <source>清除绝对值编码器原点。</source>
-        <translation type="obsolete">清除絕對值編碼器原點。</translation>
+        <translation type="unfinished">清除絕對值編碼器原點。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3650"/>
         <source>手动控制冶具组打开。</source>
-        <translation type="obsolete">手動控制冶具組打開。</translation>
+        <translation type="unfinished">手動控制冶具組打開。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3652"/>
         <source>手动控制冶具组关闭。</source>
-        <translation type="obsolete">手動控制冶具組關閉。</translation>
+        <translation type="unfinished">手動控制冶具組關閉。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3658"/>
         <source>总线驱动器：0x2214 过流</source>
-        <translation type="obsolete">0x2214</translation>
+        <translation type="unfinished">0x2214</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3659"/>
         <source>总线驱动器：0x2250 IPM模块短路</source>
-        <translation type="obsolete">0x2250</translation>
+        <translation type="unfinished">0x2250</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3660"/>
         <source>总线驱动器：0x2310 电机FOLDBACK</source>
-        <translation type="obsolete">0x2310</translation>
+        <translation type="unfinished">0x2310</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3661"/>
         <source>总线驱动器：0x2311 驱动器FOLDBACK</source>
-        <translation type="obsolete">0x2311</translation>
+        <translation type="unfinished">0x2311</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3662"/>
         <source>总线驱动器：0x2330 动力线对地短路</source>
-        <translation type="obsolete">0x2330</translation>
+        <translation type="unfinished">0x2330</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3663"/>
         <source>总线驱动器：0x2380 电流传感器偏移无效</source>
-        <translation type="obsolete">0x2380</translation>
+        <translation type="unfinished">0x2380</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3664"/>
         <source>总线驱动器：0x2382 数字输出过电流</source>
-        <translation type="obsolete">0x2382</translation>
+        <translation type="unfinished">0x2382</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3665"/>
         <source>总线驱动器：0x3110 过电压</source>
-        <translation type="obsolete">0x3110</translation>
+        <translation type="unfinished">0x3110</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3666"/>
         <source>总线驱动器：0x3120 低电压</source>
-        <translation type="obsolete">0x3120</translation>
+        <translation type="unfinished">0x3120</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3667"/>
         <source>总线驱动器：0x3183 交流母线断开</source>
-        <translation type="obsolete">0x3183</translation>
+        <translation type="unfinished">0x3183</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3668"/>
         <source>总线驱动器：0x3199 再生电阻故障</source>
-        <translation type="obsolete">0x3199</translation>
+        <translation type="unfinished">0x3199</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3669"/>
         <source>总线驱动器：0x4080 集成电源模块故障</source>
-        <translation type="obsolete">0x4080</translation>
+        <translation type="unfinished">0x4080</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3670"/>
         <source>总线驱动器：0x4310 电源过温</source>
-        <translation type="obsolete">0x4310</translation>
+        <translation type="unfinished">0x4310</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3671"/>
         <source>总线驱动器：0x5530 电源EEPROM故障</source>
-        <translation type="obsolete">0x5530</translation>
+        <translation type="unfinished">0x5530</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3672"/>
         <source>总线驱动器：0x5581 控制EEPROM故障</source>
-        <translation type="obsolete">0x5581</translation>
+        <translation type="unfinished">0x5581</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3673"/>
         <source>总线驱动器：0x5585 EEPROM版本错误</source>
-        <translation type="obsolete">0x5585</translation>
+        <translation type="unfinished">0x5585</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3674"/>
         <source>总线驱动器：0x5586 写到闪存失败</source>
-        <translation type="obsolete">0x5586</translation>
+        <translation type="unfinished">0x5586</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3675"/>
         <source>总线驱动器：0x6100 回原错误</source>
-        <translation type="obsolete">0x6100</translation>
+        <translation type="unfinished">0x6100</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3676"/>
         <source>总线驱动器：0x6320 电源开启超时</source>
-        <translation type="obsolete">0x6320</translation>
+        <translation type="unfinished">0x6320</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3677"/>
         <source>总线驱动器：0x6381 无配置</source>
-        <translation type="obsolete">0x6381</translation>
+        <translation type="unfinished">0x6381</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3678"/>
         <source>总线驱动器：0x6581 FPGA配置失败</source>
-        <translation type="obsolete">0x6581</translation>
+        <translation type="unfinished">0x6581</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3679"/>
         <source>总线驱动器：0x7090 FPGA版本不匹配</source>
-        <translation type="obsolete">0x7090</translation>
+        <translation type="unfinished">0x7090</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3680"/>
         <source>总线驱动器：0x7091 急停</source>
-        <translation type="obsolete">0x7091</translation>
+        <translation type="unfinished">0x7091</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3681"/>
         <source>总线驱动器：0x7121 失速故障</source>
-        <translation type="obsolete">0x7121</translation>
+        <translation type="unfinished">0x7121</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3682"/>
         <source>总线驱动器：0x7305 编码器多圈计数器溢出</source>
-        <translation type="obsolete">0x7305</translation>
+        <translation type="unfinished">0x7305</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3683"/>
         <source>总线驱动器：0x7380 编码器反馈通信错误</source>
-        <translation type="obsolete">0x7380</translation>
+        <translation type="unfinished">0x7380</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3684"/>
         <source>总线驱动器：0x7382 Tamagawa初始化失败</source>
-        <translation type="obsolete">0x7382</translation>
+        <translation type="unfinished">0x7382</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3685"/>
         <source>总线驱动器：0x7385 编码器电池故障</source>
-        <translation type="obsolete">0x7385</translation>
+        <translation type="unfinished">0x7385</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3686"/>
         <source>总线驱动器：0x7388 Tamagawa Abs操作失误</source>
-        <translation type="obsolete">0x7388</translation>
+        <translation type="unfinished">0x7388</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3687"/>
         <source>总线驱动器：0x738D 编码器故障</source>
-        <translation type="obsolete">0x738D</translation>
+        <translation type="unfinished">0x738D</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3688"/>
         <source>总线驱动器：0x7580 现场总线电缆断开</source>
-        <translation type="obsolete">0x7580</translation>
+        <translation type="unfinished">0x7580</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3689"/>
         <source>总线驱动器：0x818D EtherCAT丢包</source>
-        <translation type="obsolete">0x818D</translation>
+        <translation type="unfinished">0x818D</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3690"/>
         <source>总线驱动器：0x8481 超速</source>
-        <translation type="obsolete">0x8481</translation>
+        <translation type="unfinished">0x8481</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3691"/>
         <source>总线驱动器：0x8482 超过最大速度</source>
-        <translation type="obsolete">0x8482</translation>
+        <translation type="unfinished">0x8482</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3692"/>
         <source>总线驱动器：0x8689 PE值过高</source>
-        <translation type="obsolete">0x8689</translation>
+        <translation type="unfinished">0x8689</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3693"/>
         <source>总线驱动器：0xF080 EtherCAT无法运行</source>
-        <translation type="obsolete">0xF080</translation>
+        <translation type="unfinished">0xF080</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3694"/>
         <source>总线驱动器：0xFF02 电机板读取失败</source>
-        <translation type="obsolete">0xFF02</translation>
+        <translation type="unfinished">0xFF02</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3695"/>
         <source>总线驱动器：0xFF04 实时过载故障</source>
-        <translation type="obsolete">0xFF04</translation>
+        <translation type="unfinished">0xFF04</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3696"/>
         <source>总线驱动器：0xFF14 MOTO RNAME和MTP数据不兼容</source>
-        <translation type="obsolete">0xFF14</translation>
+        <translation type="unfinished">0xFF14</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3705"/>
+        <source>[001] 驱动器：超速【伺服电机速度超过设定值】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3706"/>
+        <source>[002] 驱动器：主电路过压【主电路电源电压过高】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3707"/>
+        <source>[003] 驱动器：主电路过压【主电路电源电压过低】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3708"/>
+        <source>[004] 驱动器：位置超差【位置偏差计数器的数值超过设定值】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3709"/>
+        <source>[005] 驱动器：驱动器过热【驱动器温度过高】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3710"/>
+        <source>[006] 驱动器：速度放大器饱和故障【驱动器温度过高】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3711"/>
+        <source>[007] 驱动器：驱动禁止异常【CCW/CW 驱动禁止输入都 OFF】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3712"/>
+        <source>[008] 驱动器：位置偏差计数器溢出【位置偏差计数值的绝对值超过极限值】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3713"/>
+        <source>[009] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3714"/>
+        <source>[010] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3715"/>
+        <source>[011] 驱动器：IPM 模块故障【IPM 智能模块故障】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3716"/>
+        <source>[012] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3717"/>
+        <source>[013] 驱动器：驱动器过负载【伺服驱动器及电机过负载(瞬时过热)】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3718"/>
+        <source>[014] 驱动器：制动故障【制动电路故障】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3719"/>
+        <source>[015] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3720"/>
+        <source>[016] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3721"/>
+        <source>[017] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3722"/>
+        <source>[018] 驱动器：继电器开关故障【继电器实际状态跟控制状态不一致】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3723"/>
+        <source>[019] 驱动器：抱闸延时错误【抱闸未打开时有脉冲输入】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3724"/>
+        <source>[020] 驱动器：EEPROM 错误【EEPROM 错误】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3725"/>
+        <source>[021] 驱动器：FPGA 模块故障【FPGA 模块功能异常】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3726"/>
+        <source>[022] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3727"/>
+        <source>[023] 驱动器：电流采集电路故障【电流采集电路故障】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3728"/>
+        <source>[024] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3729"/>
+        <source>[025] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3730"/>
+        <source>[026] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3731"/>
+        <source>[027] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3732"/>
+        <source>[028] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3733"/>
+        <source>[029] 驱动器：电流采集电路故障【电机负载超过用户设定的数值和持续时间】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3734"/>
+        <source>[030] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3735"/>
+        <source>[031] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3736"/>
+        <source>[032] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3737"/>
+        <source>[033] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3738"/>
+        <source>[034] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3739"/>
+        <source>[035] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3740"/>
+        <source>[036] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3741"/>
+        <source>[037] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3742"/>
+        <source>[038] 驱动器：读写编码器 EEPROM通信失败【编码器线没接好或编码器接口电路故障】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3743"/>
+        <source>[039] 驱动器：数据 CRC 校验错误【电机编码器尚未写入数据，都是 0】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3744"/>
+        <source>[040] 驱动器：不支持机型【驱动器不支持此电机型号】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3745"/>
+        <source>[041] 驱动器：需要切换电机型号【当前电机跟驱动已选的型号不一致。】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3746"/>
+        <source>[042] 驱动器：AC 输入电压过低【AC 输入电压过低】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3747"/>
+        <source>[043] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3748"/>
+        <source>[044] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3749"/>
+        <source>[045] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3750"/>
+        <source>[046] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3751"/>
+        <source>[047] 驱动器：上电时主电路电压过高【上电时主电路电压过高】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3752"/>
+        <source>[048] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3753"/>
+        <source>[049] 驱动器：</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3754"/>
+        <source>[050] 驱动器：编码器通信故障【驱动器跟编码器未建立通信连接】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3755"/>
+        <source>[051] 驱动器：编码器通信异常【编码器建立通信后，出现中断，断开连接】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3756"/>
+        <source>[052] 驱动器：编码器电池电压不足报警【编码器电池电压不足报警，信息未丢但需尽快更换】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3757"/>
+        <source>[053] 驱动器：编码器电池电压错误报警【编码器电池电压错误报警，储存信息已发生错误，需复位编码器】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3758"/>
+        <source>[054] 驱动器：编码器错误报警【编码器非电池类报警，但需要重新复位编码器】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3759"/>
+        <source>[055] 驱动器：CRC 校验连续 3 次出错【编码器通信收到的数据 CRC 效验连续 3 次出现错误】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3760"/>
+        <source>[056] 驱动器：MODBUS 帧过长错误【接收到的 MODBUS 帧数据过长】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3761"/>
+        <source>[057] 驱动器：MODBUS 通讯格式错误【通讯参数设定不当或地址或数值不正确】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3762"/>
+        <source>[058] 驱动器：单圈位置值错误【驱动器存储的单圈位置偏移值超出编码器分辨率】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3763"/>
+        <source>[059] 驱动器：编码器上报 CF 错误【编码器连续上报 CF 域错误，需要复位编码器】</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3771"/>
+        <source>[001]系统参数异常</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3772"/>
+        <source>[002]产品型号选择故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3773"/>
+        <source>[003]参数存储中故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3774"/>
+        <source>[004]FPGA 故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3775"/>
+        <source>[005]产品匹配故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3776"/>
+        <source>[006]程序异常</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3777"/>
+        <source>[007]编码器初始化失败</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3778"/>
+        <source>[008]对地短路检测故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3779"/>
+        <source>[009]过流故障 A  </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3780"/>
+        <source>[010]过流故障 B </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3781"/>
         <source>[011]</source>
-        <translation type="obsolete">[127] {011]?}</translation>
+        <translation type="unfinished">[127] {011]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3782"/>
+        <source>[012]增量光电编码器 Z 断线或者绝对值编码器圈数异常</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3783"/>
+        <source>[013]编码器通信异常</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3784"/>
+        <source>[014]编码器数据异常</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3785"/>
+        <source>[015]编码器电池电压过低异常</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3786"/>
+        <source>[016]速度偏差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3787"/>
+        <source>[017]转矩饱和超时</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3788"/>
+        <source>[018]控制电欠压</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3789"/>
+        <source>[019]飞车故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3790"/>
+        <source>[020]过电压</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3791"/>
+        <source>[021]欠电压</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3792"/>
+        <source>[022]电流采样故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3793"/>
+        <source>[023]AI 采样电压过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3794"/>
+        <source>[024]过速</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3795"/>
+        <source>[025]电角度辨识失败</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3796"/>
+        <source>[026]惯量辨识失败故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3797"/>
+        <source>[027]DI 端子参数设置故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3798"/>
+        <source>[028]DO 端子参数设置故障  </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3799"/>
         <source>[029]</source>
-        <translation type="obsolete">[127] {029]?}</translation>
+        <translation type="unfinished">[127] {029]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3800"/>
         <source>[030]</source>
-        <translation type="obsolete">[127] {030]?}</translation>
+        <translation type="unfinished">[127] {030]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3801"/>
         <source>[031]</source>
-        <translation type="obsolete">[127] {031]?}</translation>
+        <translation type="unfinished">[127] {031]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3806"/>
         <source>[036]</source>
-        <translation type="obsolete">[127] {036]?}</translation>
+        <translation type="unfinished">[127] {036]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3807"/>
         <source>[037]</source>
-        <translation type="obsolete">[127] {037]?}</translation>
+        <translation type="unfinished">[127] {037]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3808"/>
         <source>[038]</source>
-        <translation type="obsolete">[127] {038]?}</translation>
+        <translation type="unfinished">[127] {038]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3810"/>
+        <source>[040]伺服 ON 指令无效故障 </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3812"/>
+        <source>[042]分频脉冲输出过速</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3813"/>
+        <source>[043]位置偏差过大故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3814"/>
+        <source>[044]主回路输入缺相</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3815"/>
+        <source>[045]驱动器输出缺相</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3816"/>
+        <source>[046]驱动器过载</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3817"/>
+        <source>[047]电机过载</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3818"/>
+        <source>[048]电子齿轮设定错误</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3819"/>
+        <source>[049]散热器过热</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3820"/>
+        <source>[050]脉冲输入异常</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3821"/>
+        <source>[051]全闭环位置偏差过大</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3824"/>
+        <source>[054]用户强制故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3825"/>
+        <source>[055]绝对位置复位故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3826"/>
+        <source>[056]主电源断电</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3828"/>
         <source>[058]</source>
-        <translation type="obsolete">[127] {058]?}</translation>
+        <translation type="unfinished">[127] {058]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3829"/>
         <source>[059]</source>
-        <translation type="obsolete">[127] {059]?}</translation>
+        <translation type="unfinished">[127] {059]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3830"/>
+        <source>[060]写入定制版程序后第一次启动</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3831"/>
         <source>[061]</source>
-        <translation type="obsolete">[127] {061]?}</translation>
+        <translation type="unfinished">[127] {061]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3832"/>
         <source>[062]</source>
-        <translation type="obsolete">[127] {062]?}</translation>
+        <translation type="unfinished">[127] {062]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3833"/>
         <source>[063]</source>
-        <translation type="obsolete">[127] {063]?}</translation>
+        <translation type="unfinished">[127] {063]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3834"/>
         <source>[064]</source>
-        <translation type="obsolete">[127] {064]?}</translation>
+        <translation type="unfinished">[127] {064]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3835"/>
+        <source>[065]CAN 总线关闭 </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3836"/>
+        <source>[066]异常的 NMT 命令 </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3837"/>
+        <source>[067]CAN 总线故障</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3839"/>
         <source>[069]</source>
-        <translation type="obsolete">[127] {069]?}</translation>
+        <translation type="unfinished">[127] {069]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3840"/>
         <source>[070]</source>
-        <translation type="obsolete">[127] {070]?}</translation>
+        <translation type="unfinished">[127] {070]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3841"/>
+        <source>[071]节点保护或者心跳超时</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3842"/>
+        <source>[072]同步失效</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3843"/>
+        <source>[073]CANOpen 轨迹缓冲区下溢</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3844"/>
+        <source>[074]CANOpen 轨迹缓冲区上溢</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3845"/>
+        <source>[075]从站初始化失败</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3846"/>
+        <source>[076]同步失败</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3847"/>
+        <source>[077]EtherCAT 通讯中断</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3848"/>
+        <source>[078]指令给定异常</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3849"/>
+        <source>[079]使能时无控制模式</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3850"/>
+        <source>[080]欠电压警告</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3851"/>
+        <source>[081]驱动器过载警告</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3852"/>
+        <source>[082]电机过载警告</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3853"/>
+        <source>[083]需要重新接通电源的参数变更</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3854"/>
+        <source>[084]伺服未准备好</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3855"/>
+        <source>[085]写 E2PROM 频繁操作警告 </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3856"/>
+        <source>[086]正向超程警告提示</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3857"/>
+        <source>[087]负向超程警告提示</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3858"/>
+        <source>[088]位置指令过速</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3860"/>
+        <source>[090]绝对值编码器角度初始化警告</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3863"/>
+        <source>[093]能耗制动过载</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3864"/>
+        <source>[094]外接再生泄放电阻过小</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3865"/>
+        <source>[095]紧急停止</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3866"/>
+        <source>[096]原点回归错误</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3867"/>
+        <source>[097]编码器电池欠压</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3868"/>
         <source>[098]</source>
-        <translation type="obsolete">[127] {098]?}</translation>
+        <translation type="unfinished">[127] {098]?}</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3869"/>
+        <source>[099]限位对齐警告</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3915"/>
+        <location filename="xstringresource.cpp" line="3922"/>
+        <source>未知的驱动器报警</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="xstringresource.cpp" line="3941"/>
         <source>：在设定的时间内，检测不到规定的用户变量条件。</source>
-        <translation type="obsolete">：在設定的時間內，檢測不到規定的用戶變量條件。</translation>
+        <translation type="unfinished">：在設定的時間內，檢測不到規定的用戶變量條件。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3944"/>
         <source>：在设定的时间内，检测不到规定的系统变量条件。</source>
-        <translation type="obsolete">：在設定的時間內，檢測不到規定的系統變量條件。</translation>
+        <translation type="unfinished">：在設定的時間內，檢測不到規定的系統變量條件。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3947"/>
         <source>：在设定的时间内，检测不到规定的输入变量状态。</source>
-        <translation type="obsolete">：在設定的時間內，檢測不到規定的輸入變量狀態。</translation>
+        <translation type="unfinished">：在設定的時間內，檢測不到規定的輸入變量狀態。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="3950"/>
         <source>：在设定的时间内，检测不到规定的输出变量状态。</source>
-        <translation type="obsolete">：在設定的時間內，檢測不到規定的輸出變量狀態。</translation>
+        <translation type="unfinished">：在設定的時間內，檢測不到規定的輸出變量狀態。</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="4020"/>
+        <location filename="xstringresource.cpp" line="4024"/>
         <source>无</source>
-        <translation type="obsolete">無</translation>
+        <translation type="unfinished">無</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="4030"/>
         <source>高级操作员</source>
-        <translation type="obsolete">高級操作員</translation>
+        <translation type="unfinished">高級操作員</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="4032"/>
         <source>管理员</source>
-        <translation type="obsolete">管理員</translation>
+        <translation type="unfinished">管理員</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="4034"/>
         <source>高级管理员</source>
-        <translation type="obsolete">高級管理員</translation>
+        <translation type="unfinished">高級管理員</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="4036"/>
         <source>超级用户</source>
-        <translation type="obsolete">超級用戶</translation>
+        <translation type="unfinished">超級用戶</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="4038"/>
         <source>操作员</source>
-        <translation type="obsolete">操作員</translation>
+        <translation type="unfinished">操作員</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="4059"/>
         <source>错误</source>
-        <translation type="obsolete">錯誤</translation>
+        <translation type="unfinished">錯誤</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="4070"/>
         <source>(循环)</source>
-        <translation type="obsolete">（循環）</translation>
+        <translation type="unfinished">（循環）</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="4073"/>
         <source>(单步)</source>
-        <translation type="obsolete">（單步）</translation>
+        <translation type="unfinished">（單步）</translation>
     </message>
     <message>
+        <location filename="xstringresource.cpp" line="4076"/>
         <source>(单周期)</source>
-        <translation type="obsolete">（單周期）</translation>
+        <translation type="unfinished">（單周期）</translation>
     </message>
 </context>
 </TS>
