@@ -689,6 +689,11 @@ void DialogFrame::keyPress(QKeyEvent *event)
 	case ENCODER_CW:
 	case ENCODER_CCW:
 		qDebug()<<"ENCODER_CCW--------------001"<<ENCODER_CCW;
+        if(!ServoCtrl->isHidden())      // 调位优先级放到最前面
+        {
+            ServoCtrl->keyRelease(event->key());
+            return;
+        }
 		if (TeachProgram)
 		{
 			if (curScreen==SCR_TEACH)
@@ -706,11 +711,6 @@ void DialogFrame::keyPress(QKeyEvent *event)
 		}
 		if(pModbus->GetSysState() != SYS_STATE_MANUAL)
 			return;
-		if(!ServoCtrl->isHidden())
-		{
-			ServoCtrl->keyRelease(event->key());
-			qDebug()<<"ENCODER_CCW--------------003"<<ENCODER_CCW;
-		}
         break;
     case VKEY_SCAN_DOOR_RESET:	// 安全门复位
 //        if (pModbus->GetSysState() == SYS_STATE_AUTO)

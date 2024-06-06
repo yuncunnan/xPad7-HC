@@ -29,8 +29,14 @@ using namespace std;
 #define KEY_SCAN_RELVER					(0x100+15)//垂直相对旋转(旋转+)
 #define KEY_SCAN_RIGHT2					(0x100+16)//右２
 #define KEY_SCAN_DES2					(0x100+17)//下２
+
+#if defined(Q_WS_WIN)
+#define ENCODER_CW						 Qt::Key_A
+#define ENCODER_CCW						 Qt::Key_S
+#else
 #define ENCODER_CW						 0x3C
 #define ENCODER_CCW						 0x3B
+#endif
 
 #include <QObject>
 

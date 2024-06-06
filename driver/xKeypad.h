@@ -6,13 +6,13 @@
 #define VKEY_SCAN_DOOR_RESET			(0x100+50)//复位
 #define VKEY_SCAN_DOOR_QUERY			(0x100+51)//查询
 
-#if defined(Q_WS_WIN)
-#define ENCODER_CW      '?'
-#define ENCODER_CCW     ','
-#else
-#define ENCODER_CW      0x3C
-#define ENCODER_CCW     0x3B
-#endif
+//#if defined(Q_WS_WIN)
+//#define ENCODER_CW      '?'
+//#define ENCODER_CCW     ','
+//#else
+//#define ENCODER_CW      0x3C
+//#define ENCODER_CCW     0x3B
+//#endif
 
 #include <QObject>
 #include <QApplication>

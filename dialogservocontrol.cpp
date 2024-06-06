@@ -4,7 +4,7 @@
 #include <QKeyEvent>
 #include "cmbprotocol.h"
 #include "SafeSwitch.h"
-#include "xKeypad.h"
+//#include "xKeypad.h"
 #include "Buzzer.h"
 #include "indicatorled.h"
 #include "xstringresource.h"
@@ -15,6 +15,7 @@
 #include "driver/xioport.h"
 #include "dialognumberpad.h"
 #include "servoalias.h"
+#include "HardwareInterface.h"
 #include <QDebug>
 
 #define SRV_CTRLPG_PAHOR		0

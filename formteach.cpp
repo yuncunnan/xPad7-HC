@@ -10,10 +10,11 @@
 #include "xmessagebox.h"
 #include "xsystemlog.h"
 #include "xstringresource.h"
-#include "xKeypad.h"
+//#include "xKeypad.h"
 #include "dialogkeyboard.h"
 #include "dialogparaedit.h"
 #include <QDebug>
+#include "HardwareInterface.h"
 // *********************************************
 #include "formactpos.h"
 #include "formactextpos.h"
