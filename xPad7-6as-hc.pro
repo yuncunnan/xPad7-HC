@@ -381,7 +381,12 @@ HEADERS += \
     utility/base32.h \
     formbtnquick.h \
     pinyng/PyinMap.h \
-    dialogportedit.h
+    dialogportedit.h \
+    plugins/a40i_7.h \
+    plugins/HalBoard.h \
+    plugins/t113.h \
+    plugins/HardwareInterface.h \
+    plugins/a40i.h
 
 
 FORMS += \
@@ -469,10 +474,10 @@ FORMS += \
 
 
 RESOURCES += \
-        xPad.qrc
+		xPad.qrc
 
 
-INCLUDEPATH += modbus/libmodbus modbus/ widget/ utility/ utility/isp utility/isp/thread utility/isp/stm32_crc32 utility/isp/lpcisp utility/isp/ihexmaster utility/isp/crc16 xmlmodel/ driver/ lib/ qrencode/
+INCLUDEPATH += modbus/libmodbus modbus/ widget/ utility/ utility/isp utility/isp/thread utility/isp/stm32_crc32 utility/isp/lpcisp utility/isp/ihexmaster utility/isp/crc16 xmlmodel/ driver/ lib/ qrencode/ plugins/
 unix:SOURCES += modbus/posix_qextserialport.cpp
 unix:DEFINES += _TTY_POSIX_
 

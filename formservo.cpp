@@ -111,6 +111,13 @@ Formservo::Formservo(CMBProtocol *modbus, QWidget *parent) :	QWidget(parent), ui
     ReadSVDev = true;
     ui->radioPower->setEnabled(false);
     connect(ui->tabWidgetSvDev,SIGNAL(currentChanged(int)),this,SLOT(currentChanged(int)));
+    connect(ui->BoxPA5_DEV,SIGNAL(clicked()),this,SLOT(InputSvDevPara()));
+    connect(ui->BoxPA6_DEV,SIGNAL(clicked()),this,SLOT(InputSvDevPara()));
+    connect(ui->BoxPA7_DEV,SIGNAL(clicked()),this,SLOT(InputSvDevPara()));
+    connect(ui->BoxPA8_DEV,SIGNAL(clicked()),this,SLOT(InputSvDevPara()));
+    connect(ui->BoxPA9_DEV,SIGNAL(clicked()),this,SLOT(InputSvDevPara()));
+    connect(ui->BoxPA19_DEV,SIGNAL(clicked()),this,SLOT(InputSvDevPara()));
+    connect(ui->BoxPA63_DEV,SIGNAL(clicked()),this,SLOT(InputSvDevPara()));
 }
 
 Formservo::~Formservo()

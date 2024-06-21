@@ -10,7 +10,7 @@
 #define MAX_DISTANCE                6000000
 #define MAX_DEGREE					36000
 // 定义操作器软件版本号宏
-#define XPAD_SVER					"SV14.01-240606"
+#define XPAD_SVER					"SV14.01-240621"
 // 定义操作器类型字符串
 #define XPAD_TYPE_STR				"SR6807A"
 
