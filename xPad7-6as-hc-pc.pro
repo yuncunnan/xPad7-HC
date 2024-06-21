@@ -196,7 +196,11 @@ SOURCES += \
     formbtnquick.cpp \
     pinyng/PyinMap.c \
     dialogportedit.cpp \
-    form.cpp
+    form.cpp \
+    plugins/t113.cpp \
+    plugins/a40i_7.cpp \
+    plugins/a40i.cpp \
+    dialogaxisedit.cpp
 
 
 HEADERS += \
@@ -387,7 +391,8 @@ HEADERS += \
     plugins/HardwareInterface.h \
     plugins/HalBoard.h \
     plugins/a40i.h \
-    plugins/a40i_7.h
+    plugins/a40i_7.h \
+    dialogaxisedit.h
 
 
 FORMS += \
@@ -472,7 +477,8 @@ FORMS += \
     formbtnrun.ui \
     formbtnquick.ui \
     dialogportedit.ui \
-    form.ui
+    form.ui \
+    dialogaxisedit.ui
 
 
 RESOURCES += \
@@ -496,15 +502,3 @@ TRANSLATIONS =	xPad_chs.ts \
 
 CODECFORTR = utf-8
 
-
-
-win32:CONFIG(release, debug|release): LIBS += -L$$PWD/plugins/release/ -lmyBoard
-else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/plugins/debug/ -lmyBoard
-else:unix: LIBS += -L$$PWD/plugins/ -lmyBoard
-
-INCLUDEPATH += $$PWD/plugins
-DEPENDPATH += $$PWD/plugins
-
-#win32:CONFIG(release, debug|release): PRE_TARGETDEPS += $$PWD/plugins/release/myBoard.lib
-#else:win32:CONFIG(debug, debug|release): PRE_TARGETDEPS += $$PWD/plugins/debug/myBoard.lib
-#else:unix: PRE_TARGETDEPS += $$PWD/plugins/libmyBoard.a

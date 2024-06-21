@@ -195,7 +195,11 @@ SOURCES += \
     utility/base32.c \
     formbtnquick.cpp \
     pinyng/PyinMap.c \
-    dialogportedit.cpp
+    dialogportedit.cpp \
+    plugins/t113.cpp \
+    plugins/a40i_7.cpp \
+    plugins/a40i.cpp \
+    dialogaxisedit.cpp
 
 
 
@@ -386,7 +390,8 @@ HEADERS += \
     plugins/HalBoard.h \
     plugins/t113.h \
     plugins/HardwareInterface.h \
-    plugins/a40i.h
+    plugins/a40i.h \
+    dialogaxisedit.h
 
 
 FORMS += \
@@ -470,7 +475,8 @@ FORMS += \
     formbtnpro.ui \
     formbtnrun.ui \
     formbtnquick.ui \
-    dialogportedit.ui
+    dialogportedit.ui \
+    dialogaxisedit.ui
 
 
 RESOURCES += \

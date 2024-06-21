@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogAxisEdit</class>
+ <widget class="QDialog" name="DialogAxisEdit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>568</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>黑体</family>
+    <weight>50</weight>
+    <italic>false</italic>
+    <bold>false</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" colspan="4">
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="minimumSize">
+      <size>
+       <width>550</width>
+       <height>361</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>550</width>
+       <height>360</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <widget class="xPushButton" name="BtnCancel">
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>关闭</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>367</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="3" column="1">
+    <widget class="xPushButton" name="BtnSafe">
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>70</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>367</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1" colspan="3">
+    <widget class="QLabel" name="label">
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>xPushButton</class>
+   <extends>QPushButton</extends>
+   <header>xpushbutton.h</header>
+   <slots>
+    <slot>KeyADDClick()</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>BtnSafe</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogAxisEdit</receiver>
+   <slot>NewPortFile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>228</x>
+     <y>477</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>501</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>BtnCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>DialogAxisEdit</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>472</x>
+     <y>464</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>510</x>
+     <y>499</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>tableWidgeCellClicked(int,int)</slot>
+  <slot>NewPortFile()</slot>
+  <slot>tableWidgeDoubleCellClicked(int,int)</slot>
+ </slots>
+</ui>

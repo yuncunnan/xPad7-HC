@@ -93,7 +93,7 @@ FormManufacturer::FormManufacturer(CMBProtocol *modbus, QWidget *parent) : QWidg
 	connect(this, SIGNAL(LogModelUpdate()), parent, SIGNAL(LogModelUpdate()));
     m_PortEdit = new DialogPortEdit;
     m_PortEdit->hide();
-    m_AxisEdit = new Form;
+	m_AxisEdit = new DialogAxisEdit(this);
 	m_AxisEdit->hide();
 }
 
@@ -1266,6 +1266,5 @@ void FormManufacturer::portEdit()
 }
 void FormManufacturer::axisEdit()
 {
-    m_AxisEdit->InitInShaftName();
-    m_AxisEdit->show();
+	m_AxisEdit->DoForm();
 }

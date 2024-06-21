@@ -2,10 +2,6 @@
 #ifndef T113_H
 #define T113_H
 #include "HardwareInterface.h"
-#include <QThread>
-#include <QApplication>
-#include <QKeyEvent>
-//#include "xconfig.h"
 
 #define CUSKEY_HOME						0//回原
 #define CUSKEY_RUN						1//运行
@@ -27,15 +23,16 @@
 #define CUSKEY_DES2						17//下２
 #define CUSKEY_CW						18//顺时针，编码器＋＋
 #define CUSKEY_CCW						19//逆时针，编码器－－
-#define DEV_KEYPAD_MAX					20
-// 按键数量
-#define CUSKEY_NULL				DEV_KEYPAD_MAX
+#define DEV_KEYPAD_MAX_T113				20
+#define Max_pFreq						3
+#define Max_backLightTab				10
 
 class QSocketNotifier;
 
 class T113 : public HardwareInterface
 {
 	Q_OBJECT
+
 public:
 	explicit T113(QObject *parent = 0);
 	~T113();
@@ -54,18 +51,18 @@ public:
 	virtual void ReadKeys(bool Key_State);
 
 public:
-	enum Key_code {
-		CODE_HOME	=5,
-		CODE_RUN	=6,		CODE_STOP   =3 ,
-		CODE_TRVSUB	=7,     CODE_TRVADD =2 ,
-		CODE_LEFT1	=8,     CODE_RIGHT1	=11,
-		CODE_ASC1	=9,     CODE_DES1   =4 ,
-		CODE_ROTHOR =10,    CODE_ROTVER =13,
-		CODE_RELHOR =16,    CODE_RELVER =20,
-		CODE_LEFT2  =17,    CODE_RIGHT2	=21,
-		CODE_ASC2	=18,    CODE_DES2   =22,
-		CODE_AUX    =19
-	};
+//	enum Key_code {
+//		CODE_HOME	=5,
+//		CODE_RUN	=6,		CODE_STOP   =3 ,
+//		CODE_TRVSUB	=7,     CODE_TRVADD =2 ,
+//		CODE_LEFT1	=8,     CODE_RIGHT1	=11,
+//		CODE_ASC1	=9,     CODE_DES1   =4 ,
+//		CODE_ROTHOR =10,    CODE_ROTVER =13,
+//		CODE_RELHOR =16,    CODE_RELVER =20,
+//		CODE_LEFT2  =17,    CODE_RIGHT2	=21,
+//		CODE_ASC2	=18,    CODE_DES2   =22,
+//		CODE_AUX    =19
+//	};
 
 	enum Key_value{
 		VALUE_KEY_PRESS  = 0,
@@ -77,29 +74,21 @@ public:
 		VALUE_ENCODE_CCW = -1
 	};
 
-	enum Event_Type{
-		MATRIX_KEY=1,
-		ENCODE_KEY
-	};
-
 private slots:
 	void readMATKeyData(int type);
 	void readEncodeData(int type);
 
 private:
-	static const char *pFreq[3];
-	static const char *backLightTab[10];
+	static const char *pFreq[Max_pFreq];
+	static const char *backLightTab[Max_backLightTab];
 	QSocketNotifier *m_notify_MATkey;
 	QSocketNotifier *m_notify_encode;
 	static int m_fd_MATkey;
 	static int m_fd_encode;
 
 public:
-	static const quint32 keyCode[DEV_KEYPAD_MAX];
-	static quint32 selKeyTmp,selKeyTmpBak;
+	static const quint32 keyCode[DEV_KEYPAD_MAX_T113];
+	static const quint32 MykeyCode[DEV_KEYPAD_MAX_T113 - 2];
 
 };
-
-//extern T113 *xT113;
-
 #endif // T113_H

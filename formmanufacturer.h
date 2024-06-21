@@ -5,6 +5,7 @@
 #include "xfilesystemmodel.h"
 #include "cmbprotocol.h"
 #include "dialogportedit.h"
+#include "dialogaxisedit.h"
 #include "form.h"
 
 class QButtonGroup;
@@ -61,7 +62,7 @@ private:
 	void setFileFilter(void);
 	bool readSrvPar(ServoParameter &par);
     DialogPortEdit *m_PortEdit;
-    Form *m_AxisEdit;
+	DialogAxisEdit *m_AxisEdit;
 
 private slots:
 	void setCurrentPage(void);				// 设置当前页面槽

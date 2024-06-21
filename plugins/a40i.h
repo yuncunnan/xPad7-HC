@@ -48,9 +48,6 @@ private:
 	static quint8 Filter[DEV_KEYPAD_MAX];
 public:
 	static const quint32 keyCode[DEV_KEYPAD_MAX];
-//signals:
-//	void KeyPressed(quint8 key);
-//	void KeyReleased(quint8 key);
 };
 
 #endif // A40I_H

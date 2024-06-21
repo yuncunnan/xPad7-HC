@@ -1,6 +1,3 @@
-
-//#include "MyBoard.h"
-
 #ifndef HARDWAREINTERFACE_H
 #define HARDWAREINTERFACE_H
 using namespace std;
@@ -10,6 +7,8 @@ using namespace std;
 
 #define KEY_RELEASE		0
 #define KEY_PRESS		1
+
+#define KEY_NULL			0
 
 #define KEY_SCAN_HOME					(0x100+0)//回原
 #define KEY_SCAN_RUN					(0x100+1)//运行
@@ -29,14 +28,11 @@ using namespace std;
 #define KEY_SCAN_RELVER					(0x100+15)//垂直相对旋转(旋转+)
 #define KEY_SCAN_RIGHT2					(0x100+16)//右２
 #define KEY_SCAN_DES2					(0x100+17)//下２
-
-#if defined(Q_WS_WIN)
-#define ENCODER_CW						 Qt::Key_A
-#define ENCODER_CCW						 Qt::Key_S
-#else
 #define ENCODER_CW						 0x3C
 #define ENCODER_CCW						 0x3B
-#endif
+
+#define VKEY_SCAN_DOOR_RESET			(0x100+50)//复位
+#define VKEY_SCAN_DOOR_QUERY			(0x100+51)//查询
 
 #include <QObject>
 
@@ -59,9 +55,6 @@ public:
 	virtual QString get_xPad_upg()=0;
 
 	virtual void ReadKeys(bool Key_State)=0;
-
-	static bool Buzzer_state_T;
-
 };
 
 HardwareInterface::HardwareInterface(QObject *parent)
@@ -74,7 +67,4 @@ HardwareInterface::~HardwareInterface()
 {
 
 }
-
-//bool HardwareInterface::Buzzer_state_T;
-
 #endif // HARDWAREINTERFACE_H
