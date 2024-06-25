@@ -908,7 +908,8 @@ void CMBProtocol::MBPeriodPoll()
 		stateTmp = ReadReg16(HOME_STATE);
 		if (stateTmp != HomeState)
 		{
-			HomeState = stateTmp; emit signal_HomeStateChange(HomeState);
+            HomeState = stateTmp;
+            emit signal_HomeStateChange(HomeState);
 		}
 		// 更新系统报警状态
 		srvPos[AXIS_IDX_PHOR] = svPhorPos, srvPos[AXIS_IDX_PVER] = svPverPos, srvPos[AXIS_IDX_TRV] = svTrvPos;

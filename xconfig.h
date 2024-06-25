@@ -147,7 +147,7 @@
 #define BOARD_VERSION_ECAT_CANOPEN          0XE1    //双总线
 #define BOARD_VERSION_H750_6AXIS            0X70    //H750高速六轴版本
 #define BOARD_VERSION_H750_DVS              0X71            //五轴驱控一体//六轴驱控一体？
- #define BOARD_VERSION_H750_5AXIS            0X72    //H750高速五轴轴版本（0x71F3 750三六轴高速双臂,0x71F4 750三六轴高速单臂）
+#define BOARD_VERSION_H750_5AXIS            0X72    //H750高速五轴轴版本（0x71F3 750三六轴高速双臂,0x71F4 750三六轴高速单臂）
 
 // *************************************************
 // 定义系统语言

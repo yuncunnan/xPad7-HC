@@ -917,8 +917,8 @@ bool Formsystem::EnterForm(void)
 	// 查询系统参数设置
 	if (QueryPara() != true)
 		return false;
-    if(pModbus->GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
-        ui->checkSvExt->setVisible(false);
+//    if(pModbus->GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+//        ui->checkSvExt->setVisible(false);
     // 设置激活码框为空
     ui->lineEditCurProCode->setText("");
     ui->lineEditNewProCode->setText("");
