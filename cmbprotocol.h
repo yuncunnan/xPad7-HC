@@ -439,7 +439,7 @@ typedef struct
 } ServoParameter, *PServoParameter;
 
 //循环模式1参数(任意10点)
-#define MAX_LOOP_POINTS					100
+#define MAX_LOOP_POINTS					200     // 循环定位
 #define MAX_LOOPS						10
 #define LOOP_MODE_POINT					0
 #define LOOP_MODE_MATRIX				1
@@ -760,7 +760,7 @@ public:
     int8_t ReadServo(void);                                                 // 读取伺服参数设置
     static void GetServo(ServoParameter &srvPar);							// 得到伺服参数设置
     static uint8_t GetHomeVel(void);
-    static bool GetFunctions(quint32 mask);									// 得到系统功能支持状态
+    static bool GetFunctions(quint64 mask);									// 得到系统功能支持状态
     void ChangeSafePos_Inmold_Outmold(bool home_inmold);
     // *** 读取IO映射表 ***
     int8_t ReadIoBmp(void);
@@ -841,7 +841,7 @@ private:
 	// *** 系统版本 ***
 	static VersionParameter sysVersion;
 	static uint8_t pirateFlag;
-    static uint32_t functionsList;
+    static uint64_t functionsList;
 	// *** 用户管理 ***
 	uint16_t factoryId;
 	uint8_t curUser;

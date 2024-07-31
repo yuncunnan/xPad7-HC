@@ -330,7 +330,7 @@ uint16_t CMBProtocol::ExtBoardState;		// 扩展模块状态
 uint16_t CMBProtocol::SystemState;			// 系统工作状态,0:手动,1:自动,2:错误
 VersionParameter CMBProtocol::sysVersion;	// 版本信息
 uint8_t CMBProtocol::pirateFlag;			// 授权信息
-uint32_t CMBProtocol::functionsList;		// 系统功能列表
+uint64_t CMBProtocol::functionsList;		// 系统功能列表
 quint8 CMBProtocol::srvSpeed;				// 伺服相对速度
 quint8 CMBProtocol::manualSpeed;			// 伺服手动速度
 quint8 CMBProtocol::adjustSpeed;            // 调位速度
@@ -2114,17 +2114,19 @@ int8_t CMBProtocol::ReadPirate(void)
 int8_t CMBProtocol::WriteFunctions()
 {
     int8_t ret = SENDMSG_RET_ACK;
-    quint32 fun = ((quint32)(SUB_FUN_TMC429 | SUB_FUN_ENCODER | SUB_FUN_EUROMAP | SUB_FUN_LOCK_ALARM
+    quint64 fun = ((quint64)(SUB_FUN_TMC429 | SUB_FUN_ENCODER | SUB_FUN_EUROMAP | SUB_FUN_LOCK_ALARM
                              | SUB_FUN_KEYMAP | SUB_FUN_SDIR | SUB_LOOP_INTERVAL | SUB_VACUUM
                              | SUB_DOOR_RESET | SUB_3_AXES | SUB_IN_ANTI_CHECK_HOME_TAIL_LOOP_FREE
                              | SUB_FUN2_JERK | SUB_FUN2_IO_BMP | SUB_FUN2_WAIT_VAR2 | SUB_FUN2_EXT_POS
                              | SUB_FUN2_ROTATE | SUB_FUN2_X_B_TRAVE_SAFE | SUB_FUN2_VISION | SUB_FUN2_IFTIME
                              | SUB_FUN2_CAN_IMM | SUB_FUN2_MBVISION | SUB_FUN2_LOOP_MATRIX
-                             | SUB_FUN2_LOOP_MATRIX_EXT | SUB_DOOR_QUERY | SUB_FUN2_MAIN64_BITS));
+                             | SUB_FUN2_LOOP_MATRIX_EXT | SUB_DOOR_QUERY | SUB_FUN2_MAIN64_BITS
+                             | SUB_FUN2_LOOP_FREE_200));
 #if PENDANT_PROTOCOL
     m_mbaddrspace[VERSION_SUB_FUN] = fun;
     m_mbaddrspace[VERSION_SUB_FUN2] = fun>>16;
-    ret = SendMsg(VERSION_SUB_FUN, VERSION_SUB_FUN2,false);
+    m_mbaddrspace[VERSION_SUB_FUN3] = fun>>32;
+    ret = SendMsg(VERSION_SUB_FUN, VERSION_SUB_FUN3,false);
 #endif
     return ret;
 }
@@ -2134,9 +2136,9 @@ int8_t CMBProtocol::ReadFunctions(void)
 {
 	int8_t ret = SENDMSG_RET_ACK;
 #if PENDANT_PROTOCOL
-    ret = SendMsg(VERSION_SUB_FUN, VERSION_SUB_FUN2);
+    ret = SendMsg(VERSION_SUB_FUN, VERSION_SUB_FUN3);
 	if (ret == SENDMSG_RET_ACK)
-        functionsList = ((quint32)ReadReg16(VERSION_SUB_FUN) | ((quint32)ReadReg16(VERSION_SUB_FUN2) << 16));
+        functionsList = ((quint64)ReadReg16(VERSION_SUB_FUN) | ((quint64)ReadReg16(VERSION_SUB_FUN2) << 16) | ((quint64)ReadReg16(VERSION_SUB_FUN3) << 32));
 	else
 		functionsList = 0;
 #else
@@ -3563,9 +3565,9 @@ bool CMBProtocol::GetProcUse(int procid)
     return false;
 }
 // 得到系统功能支持状态
-bool CMBProtocol::GetFunctions(quint32 mask)
+bool CMBProtocol::GetFunctions(quint64 mask)
 {
-	return ((m_mbaddrspace[VERSION_SUB_FUN] & mask) | (m_mbaddrspace[VERSION_SUB_FUN2] & (mask >> 16))) != 0;
+    return ((m_mbaddrspace[VERSION_SUB_FUN] & mask) | (m_mbaddrspace[VERSION_SUB_FUN2] & (mask >> 16)) | (m_mbaddrspace[VERSION_SUB_FUN3] & (mask >> 32))) != 0;
 }
 
 int CMBProtocol::ReadVisionTestData(quint8 visionidx)

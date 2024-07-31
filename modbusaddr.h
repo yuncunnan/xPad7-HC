@@ -76,6 +76,8 @@
 #define VERSION_M0SOFT_MINOR                    0x0139
 #define SERVO_DEV_NOT_EXIST						0x013A
 #define VERSION_SUB_FUN2						0x013B
+#define VERSION_SUB_FUN3						0x013C
+
 #define SYSTEM_UID1								0x0140
 #define SYSTEM_UID2								0x0141
 #define SYSTEM_UID3								0x0142
