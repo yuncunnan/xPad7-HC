@@ -30,8 +30,8 @@ public:
 	int GetXDec();		// 引拔轴作为减速轴
 	void SetXDec(int xdec);
 
-    int GetPosCount();
-	void SetPosCount(int count);
+    quint8 GetPosCount();
+    void SetPosCount(quint8 count);
 
     int GetPos(int axisidx, int posidx);
     void SetPos(int axisidx, int posidx, int position);
@@ -71,6 +71,8 @@ private:
 
     quint32 pos[MAX_LOOP_AXIS][MAX_LOOP_POINTS];
     quint8 currentPos;
+
+    void ClearCurrentPos(void);
 	void retranslateUi(void);			// 设置界面字符串资源
 };
 

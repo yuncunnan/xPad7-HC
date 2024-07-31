@@ -7,6 +7,7 @@
 #include "servoalias.h"
 #include "dialogselectvariable.h"
 #include "xstringresource.h"
+#include "QDebug"
 
 FormActLoopFree::FormActLoopFree(QWidget *parent) :	QWidget(parent), ui(new Ui::FormActLoopFree)
 {
@@ -15,9 +16,12 @@ FormActLoopFree::FormActLoopFree(QWidget *parent) :	QWidget(parent), ui(new Ui::
 
     ui->labelCount->setEnabled(false);
     ui->lineEditCount->setEnabled(false);
+    if (CMBProtocol::GetFunctions(SUB_FUN2_LOOP_FREE_200))       // 循环定位最大点数支持200
+        ui->BoxCnt->setMaximum(200);
+    else
+        ui->BoxCnt->setMaximum(100);
 
-    currentPos = 1;
-    ui->lineEdit->setText(QString::number((currentPos)));
+    ClearCurrentPos();
     ui->BoxHorPos->setValue((double)pos[AXES_IDX_X][currentPos-1] /100.00);
     ui->BoxVerPos->setValue((double)pos[AXES_IDX_Y][currentPos-1] /100.00);
     ui->BoxTrvPos->setValue((double)pos[AXES_IDX_Z][currentPos-1] /100.00);
@@ -53,14 +57,15 @@ void FormActLoopFree::changeEvent(QEvent *e)
 }
 
 // 得到定位点数量
-int FormActLoopFree::GetPosCount()
+quint8 FormActLoopFree::GetPosCount()
 {
 	return ui->BoxCnt->value();
 }
 // 设置定位点数量
-void FormActLoopFree::SetPosCount(int count)
+void FormActLoopFree::SetPosCount(quint8 count)
 {
 	ui->BoxCnt->setValue(count);
+    ClearCurrentPos();
 }
 
 // 得到运行速度
@@ -171,7 +176,7 @@ void FormActLoopFree::pageUp(void)
 {
     if (currentPos <= 1)
         currentPos = ui->BoxCnt->value();
-		else
+    else
         currentPos--;
     ui->lineEdit->setText(QString::number((currentPos)));
     ui->BoxHorPos->setValue((double)pos[AXES_IDX_X][currentPos-1] /100.00);
@@ -410,4 +415,11 @@ void FormActLoopFree::isRunnerClick()
         ui->labelVerPos->setText(GetServoName(AXIS_IDX_PVER) + tr("轴："));
         ui->labelTrvPos->setText(GetServoName(AXIS_IDX_TRV) + tr("轴："));
     }
+}
+
+// 当前点位显示为起始点1
+void FormActLoopFree::ClearCurrentPos()
+{
+    currentPos = 1;
+    ui->lineEdit->setText(QString::number((currentPos)));
 }

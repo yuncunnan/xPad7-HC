@@ -32,7 +32,7 @@ private:
     quint16 m_dlen;
     bool m_rotate;
     bool m_xdec;
-    int m_poscount;
+    quint8 m_poscount;
     bool m_isrunner;
     bool m_trvrot;
 	quint16 m_counter;       // 计数器
