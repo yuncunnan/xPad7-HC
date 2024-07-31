@@ -275,26 +275,17 @@ int main (int argv, char **args)
 		// 构造系统界面部件
 		pSplash->showMessage(QObject::tr("初始化系统界面部件..."), Qt::AlignLeft | Qt::AlignVCenter);
 #if defined(Q_WS_QWS)
-		qDebug()<<"001-----------------------";
 		FormBacklight Bklight(ModbusProtocol);
-		qDebug()<<"002-----------------------";
 		ScreenSaver *pScrSaver = new ScreenSaver(&UsrPerm, &Bklight);				// 构造屏保对象
-		qDebug()<<"003-----------------------";
 #endif
 		// 构造系统UI对象
 		DialogKeyboard *pKbd = new DialogKeyboard();					// 构造字符软键盘对象
 		DialogSelectVariable *pSelVar = new DialogSelectVariable();		// 构造选择变量对话框对象
-		qDebug()<<"004-----------------------";
-
 		xTopInfo *pTopInformation = new xTopInfo();						// 构造顶层消息框
 		xSysLog *pSysLog = new xSysLog();								// 构造系统日志对象
-		qDebug()<<"005-----------------------";
-
 		// 日志写入系统软件启动记录
         pSysLog->AddRecord(SYSLOG_TYPE_NOR, LOG_NOR_START);
         pSysLog->SaveChange();
-		qDebug()<<"006-----------------------";
-
         // 定义主窗口
 		pSplash->showMessage(QObject::tr("初始化系统图形界面..."), Qt::AlignLeft | Qt::AlignVCenter);
         pDialogMain = new DialogFrame(ModbusProtocol, &UsrPerm);
