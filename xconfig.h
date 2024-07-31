@@ -10,7 +10,7 @@
 #define MAX_DISTANCE                6000000
 #define MAX_DEGREE					36000
 // 定义操作器软件版本号宏
-#define XPAD_SVER					"SV14.01-240621"
+#define XPAD_SVER					"SV14.01-240731"
 // 定义操作器类型字符串
 #define XPAD_TYPE_STR				"SR6807A"
 
@@ -18,7 +18,12 @@
 #if IS_XEDITOR
 #define PENDANT_PROTOCOL			0
 #else
+
+#if defined(Q_WS_WIN)
+#define PENDANT_PROTOCOL			1   // pc端改这个不影响linux
+#else
 #define PENDANT_PROTOCOL			1
+#endif
 #endif
 // 是否是模拟器画面(模拟器界面400*640 某些界面文字大小，坐标会有调整)
 #define SIMULATOR                   0           // 编译模拟器时，打开-640.pro文件，再将 SIMULATOR定义为true
@@ -75,6 +80,8 @@
 #define SUB_FUN2_LOOP_MATRIX_EXT    0x10000000      //矩阵增加各轴速度
 #define SUB_DOOR_QUERY				0x20000000      // 信易安全门询问（信易专用）
 #define SUB_FUN2_MAIN64_BITS        0x40000000      // 主板IO64位
+
+#define SUB_FUN2_LOOP_FREE_200      ((quint64)0x01<<32)      // 循环定位200个点
 
 // ********************UI*****************************
 #define FUN_UI_WAIT_VALID_TIME      (1<<0)//操作器的等待指令有，有效时间功能。
