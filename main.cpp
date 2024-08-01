@@ -34,13 +34,7 @@ Q_IMPORT_PLUGIN(xpad2encoder)
 bool gnewVersion = false;				// 新版核心版程序
 
 HardwareInterface *board;
-enum BoardType
-{
-	BoardOther = 0,
-	BoardA40i_I,
-	BoardT113,
-	BoardA40i_II
-};
+BoardType BoardType_T;
 
 void WaitMethod(int ms)
 {
@@ -149,7 +143,7 @@ int main (int argv, char **args)
 //	updateTouchDriver();
     uint8_t initRet;
 	int appRet;
-	BoardType BoardType_T;
+//	BoardType BoardType_T;
     MyApplication app(argv, args);
 #if defined(Q_WS_QWS)
 	{
@@ -168,25 +162,25 @@ int main (int argv, char **args)
 	if(version.contains("A40i-7"))
 	{
 		board = new A40I_7();
-		BoardType_T=BoardA40i_II;
+		BoardType_T = BoardA40i_II;
         qDebug()<<"nain A40i-II*****************************";
 	}
 	else if (version.contains("T113-7"))/*version.contains("T113-7")*/
 	{
 		board = new T113();
-		BoardType_T=BoardT113;
+		BoardType_T = BoardT113;
 		qDebug()<<"main T113******************";
 	}
 	else
 	{
 		board = new A40i();
-		BoardType_T=BoardA40i_I;
+		BoardType_T = BoardA40i_I;
 		qDebug()<<"main A40I******************";
 	}
 	//设置当前工作路径
 	QDir::setCurrent(board->get_Current());
-	qDebug() << "Current working directory: " << QDir::currentPath();					//返回工作路径
-	qDebug() << "System library search paths: " << QCoreApplication::libraryPaths();	//返回库路径
+//	qDebug() << "Current working directory: " << QDir::currentPath();					//返回工作路径
+//	qDebug() << "System library search paths: " << QCoreApplication::libraryPaths();	//返回库路径
 #endif
 	QFile nandf("/dev/nandf");
 	gnewVersion = nandf.exists();
@@ -337,8 +331,8 @@ int main (int argv, char **args)
 		if(BoardType_T==BoardA40i_I)
 		{
 			qDebug()<<"-------------qws001";
-        system("cd /usr/xPad");
-        system("./xPad -qws");
+			system("cd /usr/xPad");
+			system("./xPad -qws");
 		}
 		else if(BoardType_T==BoardA40i_II||BoardType_T==BoardT113)
 		{

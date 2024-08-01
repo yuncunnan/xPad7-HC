@@ -7,6 +7,8 @@
 #endif
 #include <QDebug>
 
+extern BoardType BoardType_T;
+
 Forminformation::Forminformation(CMBProtocol *modbus, QWidget *parent) : QWidget(parent), ui(new Ui::Forminformation)
 {
 	ui->setupUi(this);
@@ -151,10 +153,21 @@ bool Forminformation::EnterForm(void)
     QString strBuild(sysInfo.version);
     QString strNodename(sysInfo.nodename);
     QString strPlatform = "";
-    if (strNodename == "dragonboard")
-        strPlatform = "[A20]-";
-    if (strNodename == "Sanyou")
-        strPlatform = "[A40]-";
+	if(BoardType_T == BoardT113)
+	{
+		strPlatform = "[T113]-";
+	}
+	else if(BoardType_T == BoardA40i_II)
+	{
+		strPlatform = "[A40-II]-";
+	}
+	else
+	{
+		if (strNodename == "dragonboard")
+			strPlatform = "[A20]-";
+		if (strNodename == "Sanyou")
+			strPlatform = "[A40]-";
+	}
     strBuild.remove(0, 17);
 	if ((pModbus->GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_E0) || (pModbus->GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_F3) || (pModbus->GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_F4)
 			 || (pModbus->GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_F5) || (pModbus->GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_F6) || (pModbus->GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_F7)
