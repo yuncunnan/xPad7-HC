@@ -516,7 +516,7 @@ QLabel#labelUdiskTip
          <string notr="true"/>
         </property>
         <property name="currentIndex">
-         <number>1</number>
+         <number>3</number>
         </property>
         <widget class="QWidget" name="pageInfo">
          <property name="sizePolicy">
@@ -1307,6 +1307,9 @@ QLabel#labelUdiskTip
           <bold>false</bold>
          </font>
         </property>
+        <property name="styleSheet">
+         <string notr="true">font: 20px &quot;微软雅黑&quot;;</string>
+        </property>
         <property name="frameShape">
          <enum>QFrame::NoFrame</enum>
         </property>
@@ -1314,7 +1317,7 @@ QLabel#labelUdiskTip
          <enum>QFrame::Sunken</enum>
         </property>
         <property name="text">
-         <string notr="true"/>
+         <string notr="true">看看字体是不是小一些（测试使用－无需翻译）</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>

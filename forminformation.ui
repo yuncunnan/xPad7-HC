@@ -137,8 +137,11 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="styleSheet">
+         <string notr="true">font: 20px &quot;微软雅黑&quot;;</string>
+        </property>
         <property name="text">
-         <string notr="true"/>
+         <string notr="true">（测试所以－无需翻译）</string>
         </property>
         <property name="wordWrap">
          <bool>true</bool>
