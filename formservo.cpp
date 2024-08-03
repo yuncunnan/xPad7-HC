@@ -2818,7 +2818,7 @@ void Formservo::InputSafeRotE(void)
 {
     DialogNumberPad numberPad;
     double value;
-    if (numberPad.DoFormDouble(value, ui->BoxSafeRotE->minimum(), ui->BoxSafeRotE->maximum()) == QDialog::Accepted)
+	if (numberPad.DoFormDouble(value, ui->BoxSafeRotE->minimum(), ui->BoxSafeRotE->maximum()) == QDialog::Accepted)
         ui->BoxSafeRotE->setValue(value);
 }
 void Formservo::InputSafeTrvS(void)

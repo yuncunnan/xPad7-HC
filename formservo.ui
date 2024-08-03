@@ -144,7 +144,7 @@
          </font>
         </property>
         <property name="currentIndex">
-         <number>9</number>
+         <number>1</number>
         </property>
         <widget class="QWidget" name="stackedWidgetPage1">
          <layout class="QGridLayout" name="gridLayout_14">
@@ -382,11 +382,11 @@
              </font>
             </property>
             <property name="iconOn">
-             <iconset resource="xPad.qrc">
+             <iconset>
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
             <property name="iconOff">
-             <iconset resource="xPad.qrc">
+             <iconset>
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
             <property name="iconSize">
@@ -884,11 +884,11 @@
              </font>
             </property>
             <property name="iconOn">
-             <iconset resource="xPad.qrc">
+             <iconset>
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
             <property name="iconOff">
-             <iconset resource="xPad.qrc">
+             <iconset>
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
             <property name="iconSize">
@@ -1019,11 +1019,11 @@
              </font>
             </property>
             <property name="iconOn">
-             <iconset resource="xPad.qrc">
+             <iconset>
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
             <property name="iconOff">
-             <iconset resource="xPad.qrc">
+             <iconset>
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
             <property name="iconSize">
@@ -1195,11 +1195,11 @@
              </font>
             </property>
             <property name="iconOn">
-             <iconset resource="xPad.qrc">
+             <iconset>
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
             <property name="iconOff">
-             <iconset resource="xPad.qrc">
+             <iconset>
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
             <property name="iconSize">
@@ -1317,11 +1317,11 @@
              </font>
             </property>
             <property name="iconOn">
-             <iconset resource="xPad.qrc">
+             <iconset>
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
             <property name="iconOff">
-             <iconset resource="xPad.qrc">
+             <iconset>
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
             <property name="iconSize">
@@ -2135,7 +2135,7 @@
              <number>2</number>
             </property>
             <property name="maximum">
-             <double>360.000000000000000</double>
+             <double>36000.000000000000000</double>
             </property>
             <property name="singleStep">
              <double>0.100000000000000</double>
@@ -2303,7 +2303,7 @@
              <number>2</number>
             </property>
             <property name="maximum">
-             <double>360.000000000000000</double>
+             <double>36000.000000000000000</double>
             </property>
             <property name="singleStep">
              <double>0.100000000000000</double>
@@ -2649,11 +2649,11 @@
              </font>
             </property>
             <property name="iconOn">
-             <iconset resource="xPad.qrc">
+             <iconset>
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
             <property name="iconOff">
-             <iconset resource="xPad.qrc">
+             <iconset>
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
             <property name="iconSize">
@@ -15685,7 +15685,7 @@
          <string>保存</string>
         </property>
         <property name="icon">
-         <iconset resource="xPad.qrc">
+         <iconset>
           <normaloff>:/img/32X32/Save.png</normaloff>:/img/32X32/Save.png</iconset>
         </property>
         <property name="iconSize">
@@ -15695,10 +15695,10 @@
          </size>
         </property>
         <property name="imageNormal">
-         <pixmap resource="xPad.qrc">:/img/widget/BtnBoxNormal.png</pixmap>
+         <pixmap>:/img/widget/BtnBoxNormal.png</pixmap>
         </property>
         <property name="imagePress">
-         <pixmap resource="xPad.qrc">:/img/widget/BtnBoxPress.png</pixmap>
+         <pixmap>:/img/widget/BtnBoxPress.png</pixmap>
         </property>
         <property name="borderTop">
          <number>8</number>
@@ -16149,9 +16149,7 @@
   <tabstop>BoxTrvSpeed</tabstop>
   <tabstop>BoxTrvAcc</tabstop>
  </tabstops>
- <resources>
-  <include location="xPad.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>pushButtonOK</sender>
