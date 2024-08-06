@@ -293,7 +293,7 @@ bool Formalfaoption::SaveAlfaPara(void)
         m_alfamodel->SetMatrixRelz(ui->checkBoxTrvRel->isChecked()?1:0);
         m_alfamodel->SetMatrixSpeed(ui->BoxHspd->value());
         m_alfamodel->SetMatrixdSpeed(ui->BoxLspd->value());
-        m_alfamodel->SetMatrixdlen(ui->BoxLowDis->value());
+        m_alfamodel->SetMatrixdlen(qRound(ui->BoxLowDis->value()* 100.00));
         m_alfamodel->SetMatrixXS(ui->BoxHorCnt->value());
         m_alfamodel->SetMatrixYS(ui->BoxVerCnt->value());
         m_alfamodel->SetMatrixZS(ui->BoxTrvCnt->value());
@@ -405,18 +405,71 @@ void Formalfaoption::changeEvent(QEvent *e)
 }
 void Formalfaoption::retranslateUi(void)
 {
-	ui->ProJig1->setText(xStringResource::GetVarName(EM1_VAR_Y02));
-    ui->ProJig2->setText(xStringResource::GetVarName(EM1_VAR_Y03));
-    ui->ProJig3->setText(xStringResource::GetVarName(EM1_VAR_Y04));
-    ui->ProJig4->setText(xStringResource::GetVarName(EM1_VAR_Y05));
-    ui->ProJig5->setText(xStringResource::GetVarName(EM1_VAR_Y06));
-    ui->ProJig6->setText(xStringResource::GetVarName(EM1_VAR_Y07));
-    ui->RunJig1->setText(xStringResource::GetVarName(EM1_VAR_Y02));
-    ui->RunJig2->setText(xStringResource::GetVarName(EM1_VAR_Y03));
-    ui->RunJig3->setText(xStringResource::GetVarName(EM1_VAR_Y04));
-    ui->RunJig4->setText(xStringResource::GetVarName(EM1_VAR_Y05));
-    ui->RunJig5->setText(xStringResource::GetVarName(EM1_VAR_Y06));
-    ui->RunJig6->setText(xStringResource::GetVarName(EM1_VAR_Y07));
+    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    {
+        ui->ProJig1->setText(xStringResource::GetVarName(MAIN_VAR_Y11));
+        ui->ProJig2->setText(xStringResource::GetVarName(MAIN_VAR_Y12));
+        ui->ProJig3->setText(xStringResource::GetVarName(MAIN_VAR_Y13));
+        ui->ProJig4->setText(xStringResource::GetVarName(MAIN_VAR_Y14));
+        ui->ProJig5->setText(xStringResource::GetVarName(MAIN_VAR_Y15));
+        ui->ProJig6->setText(xStringResource::GetVarName(MAIN_VAR_Y16));
+
+        ui->RunJig1->setText(xStringResource::GetVarName(MAIN_VAR_Y11));
+        ui->RunJig2->setText(xStringResource::GetVarName(MAIN_VAR_Y12));
+        ui->RunJig3->setText(xStringResource::GetVarName(MAIN_VAR_Y13));
+        ui->RunJig4->setText(xStringResource::GetVarName(MAIN_VAR_Y14));
+        ui->RunJig5->setText(xStringResource::GetVarName(MAIN_VAR_Y15));
+        ui->RunJig6->setText(xStringResource::GetVarName(MAIN_VAR_Y16));
+    }
+    else if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_DVS)
+    {
+        ui->ProJig1->setText(xStringResource::GetVarName(MAIN_VAR_Y08));
+        ui->ProJig2->setText(xStringResource::GetVarName(MAIN_VAR_Y09));
+        ui->ProJig3->setText(xStringResource::GetVarName(MAIN_VAR_Y10));
+        ui->ProJig4->setText(xStringResource::GetVarName(MAIN_VAR_Y11));
+        ui->ProJig5->setText(xStringResource::GetVarName(MAIN_VAR_Y12));
+        ui->ProJig6->setText(xStringResource::GetVarName(MAIN_VAR_Y13));
+
+        ui->RunJig1->setText(xStringResource::GetVarName(MAIN_VAR_Y08));
+        ui->RunJig2->setText(xStringResource::GetVarName(MAIN_VAR_Y09));
+        ui->RunJig3->setText(xStringResource::GetVarName(MAIN_VAR_Y10));
+        ui->RunJig4->setText(xStringResource::GetVarName(MAIN_VAR_Y11));
+        ui->RunJig5->setText(xStringResource::GetVarName(MAIN_VAR_Y12));
+        ui->RunJig6->setText(xStringResource::GetVarName(MAIN_VAR_Y13));
+    }
+    else if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_ECAT_CANOPEN)
+    {
+        ui->ProJig1->setText(xStringResource::GetVarName(MAIN_VAR_Y16));
+        ui->ProJig2->setText(xStringResource::GetVarName(MAIN_VAR_Y17));
+        ui->ProJig3->setText(xStringResource::GetVarName(MAIN_VAR_Y18));
+        ui->ProJig4->setText(xStringResource::GetVarName(MAIN_VAR_Y19));
+        ui->ProJig5->setText(xStringResource::GetVarName(MAIN_VAR_Y20));
+        ui->ProJig6->setText(xStringResource::GetVarName(MAIN_VAR_Y21));
+
+        ui->RunJig1->setText(xStringResource::GetVarName(MAIN_VAR_Y16));
+        ui->RunJig2->setText(xStringResource::GetVarName(MAIN_VAR_Y17));
+        ui->RunJig3->setText(xStringResource::GetVarName(MAIN_VAR_Y18));
+        ui->RunJig4->setText(xStringResource::GetVarName(MAIN_VAR_Y19));
+        ui->RunJig5->setText(xStringResource::GetVarName(MAIN_VAR_Y20));
+        ui->RunJig6->setText(xStringResource::GetVarName(MAIN_VAR_Y21));
+    }
+    else
+    {
+        ui->ProJig1->setText(xStringResource::GetVarName(EM1_VAR_Y02));
+        ui->ProJig2->setText(xStringResource::GetVarName(EM1_VAR_Y03));
+        ui->ProJig3->setText(xStringResource::GetVarName(EM1_VAR_Y04));
+        ui->ProJig4->setText(xStringResource::GetVarName(EM1_VAR_Y05));
+        ui->ProJig5->setText(xStringResource::GetVarName(EM1_VAR_Y06));
+        ui->ProJig6->setText(xStringResource::GetVarName(EM1_VAR_Y07));
+
+        ui->RunJig1->setText(xStringResource::GetVarName(EM1_VAR_Y02));
+        ui->RunJig2->setText(xStringResource::GetVarName(EM1_VAR_Y03));
+        ui->RunJig3->setText(xStringResource::GetVarName(EM1_VAR_Y04));
+        ui->RunJig4->setText(xStringResource::GetVarName(EM1_VAR_Y05));
+        ui->RunJig5->setText(xStringResource::GetVarName(EM1_VAR_Y06));
+        ui->RunJig6->setText(xStringResource::GetVarName(EM1_VAR_Y07));
+    }
+
     ui->labelHorCnt->setText(GetServoName(AXIS_IDX_PHOR) + tr("点数："));
     ui->labelVerCnt->setText(GetServoName(AXIS_IDX_PVER) + tr("点数："));
     ui->labelTrvCnt->setText(GetServoName(AXIS_IDX_TRV) + tr("点数："));

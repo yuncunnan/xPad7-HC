@@ -96,41 +96,41 @@ void FormActVacuum::retranslateUi(void)
     else
     {
         if ((pModbus->GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_E0))
-    {
-        ui->checkBoxJig03->setText(xStringResource::GetVarName(MAIN_VAR_Y12));
-        ui->checkBoxJig04->setText(xStringResource::GetVarName(MAIN_VAR_Y13));
-        ui->checkBoxJig05->setText(xStringResource::GetVarName(MAIN_VAR_Y14));
-        if(pModbus->GetFunctions(SUB_FUN2_CAN_IMM))
         {
-            ui->checkBoxMain01->setText(xStringResource::GetVarName(MAIN_VAR_Y01));
-            ui->checkBoxMain02->setText(xStringResource::GetVarName(MAIN_VAR_Y02));
-            ui->checkBoxMain03->setText(xStringResource::GetVarName(MAIN_VAR_Y03));
-            ui->checkBoxMain04->setText(xStringResource::GetVarName(MAIN_VAR_Y04));
-            ui->checkBoxMain05->setText(xStringResource::GetVarName(MAIN_VAR_Y05));
-            ui->checkBoxMain08->setText(xStringResource::GetVarName(MAIN_VAR_Y08));
-            ui->checkBoxMain09->setText(xStringResource::GetVarName(MAIN_VAR_Y09));
-            ui->checkBoxMain10->setText(xStringResource::GetVarName(MAIN_VAR_Y10));
-            ui->checkBoxMain11->setText(xStringResource::GetVarName(MAIN_VAR_Y11));
-            ui->checkBoxMain15->setText(xStringResource::GetVarName(MAIN_VAR_Y15));
+            ui->checkBoxJig03->setText(xStringResource::GetVarName(MAIN_VAR_Y12));
+            ui->checkBoxJig04->setText(xStringResource::GetVarName(MAIN_VAR_Y13));
+            ui->checkBoxJig05->setText(xStringResource::GetVarName(MAIN_VAR_Y14));
+            if(pModbus->GetFunctions(SUB_FUN2_CAN_IMM))
+            {
+                ui->checkBoxMain01->setText(xStringResource::GetVarName(MAIN_VAR_Y01));
+                ui->checkBoxMain02->setText(xStringResource::GetVarName(MAIN_VAR_Y02));
+                ui->checkBoxMain03->setText(xStringResource::GetVarName(MAIN_VAR_Y03));
+                ui->checkBoxMain04->setText(xStringResource::GetVarName(MAIN_VAR_Y04));
+                ui->checkBoxMain05->setText(xStringResource::GetVarName(MAIN_VAR_Y05));
+                ui->checkBoxMain08->setText(xStringResource::GetVarName(MAIN_VAR_Y08));
+                ui->checkBoxMain09->setText(xStringResource::GetVarName(MAIN_VAR_Y09));
+                ui->checkBoxMain10->setText(xStringResource::GetVarName(MAIN_VAR_Y10));
+                ui->checkBoxMain11->setText(xStringResource::GetVarName(MAIN_VAR_Y11));
+                ui->checkBoxMain15->setText(xStringResource::GetVarName(MAIN_VAR_Y15));
+            }
         }
-    }
-    else
-    {
-        ui->checkBoxJig03->setText(xStringResource::GetVarName(EM1_VAR_Y02));
-        ui->checkBoxJig04->setText(xStringResource::GetVarName(EM1_VAR_Y03));
-        ui->checkBoxJig05->setText(xStringResource::GetVarName(EM1_VAR_Y04));
-        ui->checkBoxJig06->setText(xStringResource::GetVarName(EM1_VAR_Y05));
-        ui->checkBoxJig07->setText(xStringResource::GetVarName(EM1_VAR_Y06));
-        ui->checkBoxJig08->setText(xStringResource::GetVarName(EM1_VAR_Y07));
-        ui->checkBoxJig09->setText(xStringResource::GetVarName(EM1_VAR_Y08));
-        ui->checkBoxJig10->setText(xStringResource::GetVarName(EM1_VAR_Y09));
-        ui->checkBoxJig11->setText(xStringResource::GetVarName(EM1_VAR_Y10));
-        ui->checkBoxJig12->setText(xStringResource::GetVarName(EM1_VAR_Y11));
-        ui->checkBoxJig13->setText(xStringResource::GetVarName(EM1_VAR_Y12));
-        ui->checkBoxJig14->setText(xStringResource::GetVarName(EM1_VAR_Y13));
-        ui->checkBoxJig15->setText(xStringResource::GetVarName(EM1_VAR_Y14));
-        ui->checkBoxJig16->setText(xStringResource::GetVarName(EM1_VAR_Y15));
-    }
+        else
+        {
+            ui->checkBoxJig03->setText(xStringResource::GetVarName(EM1_VAR_Y02));
+            ui->checkBoxJig04->setText(xStringResource::GetVarName(EM1_VAR_Y03));
+            ui->checkBoxJig05->setText(xStringResource::GetVarName(EM1_VAR_Y04));
+            ui->checkBoxJig06->setText(xStringResource::GetVarName(EM1_VAR_Y05));
+            ui->checkBoxJig07->setText(xStringResource::GetVarName(EM1_VAR_Y06));
+            ui->checkBoxJig08->setText(xStringResource::GetVarName(EM1_VAR_Y07));
+            ui->checkBoxJig09->setText(xStringResource::GetVarName(EM1_VAR_Y08));
+            ui->checkBoxJig10->setText(xStringResource::GetVarName(EM1_VAR_Y09));
+            ui->checkBoxJig11->setText(xStringResource::GetVarName(EM1_VAR_Y10));
+            ui->checkBoxJig12->setText(xStringResource::GetVarName(EM1_VAR_Y11));
+            ui->checkBoxJig13->setText(xStringResource::GetVarName(EM1_VAR_Y12));
+            ui->checkBoxJig14->setText(xStringResource::GetVarName(EM1_VAR_Y13));
+            ui->checkBoxJig15->setText(xStringResource::GetVarName(EM1_VAR_Y14));
+            ui->checkBoxJig16->setText(xStringResource::GetVarName(EM1_VAR_Y15));
+        }
     }
 }
 
