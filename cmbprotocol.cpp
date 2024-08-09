@@ -727,7 +727,7 @@ uint8_t CMBProtocol::InitSystemStatus(void)
 int8_t CMBProtocol::PeriodRead(void)
 {
 #if PENDANT_PROTOCOL
-    return SendMsg(MAIN_BOARD_INPUT_LOW, ACTUAL_SPEED_C);
+    return SendMsg(MAIN_BOARD_INPUT_LOW, POWER_ALARM);
 #else
 	return SENDMSG_RET_ACK;
 #endif
@@ -929,7 +929,7 @@ void CMBProtocol::MBPeriodPoll()
         almmbaddr[ALARM_SV_RHOR] = SERVOB_ALARM;
         almmbaddr[ALARM_SV_EXTE] = SERVOC_ALARM;
         almmbaddr[ALARM_RUN_ARM] = RUNNER_DES_ASC_ALARM;
-
+        almmbaddr[ALARM_POWER] = POWER_ALARM;
         for (i=0; i<ALARM_MAX; i++)
         {
             if((i == ALARM_SV_PHOR))
@@ -1004,6 +1004,22 @@ void CMBProtocol::MBPeriodPoll()
                     }
                 }
             }
+            else if((i == ALARM_POWER))
+            {
+                if(Alarms[i] != (((quint32)ReadReg16(almmbaddr[i])) | DVS_BUS_DRIVER_ALARM_FLAG))//这个地址拿的一定是驱动器报警，直接把高位取标志位
+                {
+                    Alarms[i] = (((quint32)ReadReg16(almmbaddr[i])) | DVS_BUS_DRIVER_ALARM_FLAG);
+                    if ((ret & 0xffff) != ALMRES_NO_ALARM)
+                    {
+//                        if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_DVS))
+//                        {
+//                            srvPos[AXIS_IDX_type] = 0;
+//                        }
+                        xSysLog::AddRecord(SYSLOG_TYPE_ALM, (quint16)ret, QString(""), QByteArray((char*)srvPos, sizeof(srvPos)),(quint16)(ret >> 16));
+                        writeLog = true;
+                    }
+                }
+            }
             else
             {
             if (Alarms[i] != ReadReg16(almmbaddr[i]))
@@ -1069,14 +1085,22 @@ void CMBProtocol::MBPeriodPoll()
                     emit signal_AlarmChange(i, Alarms[i]);
                 }
             }
-            else
-        {
-            if (Alarms[i] != ReadReg16(almmbaddr[i]))
+            else if((i == ALARM_POWER))
             {
-                Alarms[i] = ReadReg16(almmbaddr[i]);
-                emit signal_AlarmChange(i, Alarms[i]);
+                if(Alarms[i] != ((quint32)ReadReg16(almmbaddr[i]) | DVS_BUS_DRIVER_ALARM_FLAG))
+                {
+                    Alarms[i] = ((quint32)ReadReg16(almmbaddr[i]) | DVS_BUS_DRIVER_ALARM_FLAG);
+                    emit signal_AlarmChange(i, Alarms[i]);
+                }
             }
-        }
+            else
+            {
+                if (Alarms[i] != ReadReg16(almmbaddr[i]))
+                {
+                    Alarms[i] = ReadReg16(almmbaddr[i]);
+                    emit signal_AlarmChange(i, Alarms[i]);
+                }
+            }
         }
 
         // 更新系统消息状态

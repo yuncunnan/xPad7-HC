@@ -274,56 +274,6 @@
                </property>
               </widget>
              </item>
-             <item row="6" column="0">
-              <widget class="xRadioButton" name="radioRunPneu">
-               <property name="sizePolicy">
-                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                 <horstretch>0</horstretch>
-                 <verstretch>0</verstretch>
-                </sizepolicy>
-               </property>
-               <property name="minimumSize">
-                <size>
-                 <width>180</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>16777215</width>
-                 <height>50</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>微软雅黑</family>
-                 <pointsize>-1</pointsize>
-                 <weight>50</weight>
-                 <italic>false</italic>
-                 <bold>false</bold>
-                </font>
-               </property>
-               <property name="focusPolicy">
-                <enum>Qt::NoFocus</enum>
-               </property>
-               <property name="styleSheet">
-                <string notr="true"/>
-               </property>
-               <property name="text">
-                <string>副臂气动上下</string>
-               </property>
-               <property name="icon">
-                <iconset resource="xPad.qrc">
-                 <normaloff>:/img/32X32/LampInactive.png</normaloff>:/img/32X32/LampInactive.png</iconset>
-               </property>
-               <property name="iconSize">
-                <size>
-                 <width>32</width>
-                 <height>32</height>
-                </size>
-               </property>
-              </widget>
-             </item>
              <item row="1" column="1">
               <widget class="xRadioButton" name="radioEm2">
                <property name="sizePolicy">
@@ -627,8 +577,8 @@
                </property>
               </widget>
              </item>
-             <item row="3" column="0">
-              <widget class="xRadioButton" name="radioPaHor">
+             <item row="5" column="0">
+              <widget class="xRadioButton" name="radioRaHor">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -663,7 +613,7 @@
                 <string notr="true"/>
                </property>
                <property name="text">
-                <string>正臂引拔轴伺服</string>
+                <string>副臂引拔轴伺服</string>
                </property>
                <property name="icon">
                 <iconset resource="xPad.qrc">
@@ -727,8 +677,8 @@
                </property>
               </widget>
              </item>
-             <item row="5" column="0">
-              <widget class="xRadioButton" name="radioRaHor">
+             <item row="3" column="0">
+              <widget class="xRadioButton" name="radioPaHor">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -763,7 +713,57 @@
                 <string notr="true"/>
                </property>
                <property name="text">
-                <string>副臂引拔轴伺服</string>
+                <string>正臂引拔轴伺服</string>
+               </property>
+               <property name="icon">
+                <iconset resource="xPad.qrc">
+                 <normaloff>:/img/32X32/LampInactive.png</normaloff>:/img/32X32/LampInactive.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>32</width>
+                 <height>32</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <widget class="xRadioButton" name="radioExtend">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>180</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <pointsize>-1</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>扩展轴伺服</string>
                </property>
                <property name="icon">
                 <iconset resource="xPad.qrc">
@@ -827,8 +827,8 @@
                </property>
               </widget>
              </item>
-             <item row="4" column="1">
-              <widget class="xRadioButton" name="radioExtend">
+             <item row="6" column="1">
+              <widget class="xRadioButton" name="radioPower">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                  <horstretch>0</horstretch>
@@ -863,7 +863,57 @@
                 <string notr="true"/>
                </property>
                <property name="text">
-                <string>扩展轴伺服</string>
+                <string>轴电源模块</string>
+               </property>
+               <property name="icon">
+                <iconset resource="xPad.qrc">
+                 <normaloff>:/img/32X32/LampInactive.png</normaloff>:/img/32X32/LampInactive.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>32</width>
+                 <height>32</height>
+                </size>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="xRadioButton" name="radioRunPneu">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>180</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>微软雅黑</family>
+                 <pointsize>-1</pointsize>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
+                </font>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>副臂气动上下</string>
                </property>
                <property name="icon">
                 <iconset resource="xPad.qrc">

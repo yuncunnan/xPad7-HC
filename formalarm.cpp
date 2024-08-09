@@ -26,6 +26,8 @@ FormAlarm::FormAlarm(CMBProtocol *modbus, QWidget *parent) :	QWidget(parent), ui
 	pAlmPos->addButton(ui->radioRaHor, ALARM_SV_RHOR);
 	pAlmPos->addButton(ui->radioRaVer, ALARM_SV_RVER);
 	pAlmPos->addButton(ui->radioExtend, ALARM_SV_EXTE);
+    pAlmPos->addButton(ui->radioPower, ALARM_POWER);
+
 	// 连接信号槽
 	connect(pAlmPos, SIGNAL(buttonClicked(int)), this, SLOT(AlmPosClicked(int)));
 	connect(parent, SIGNAL(LogModelUpdate()), this, SLOT(resetModel()));
@@ -148,7 +150,7 @@ void FormAlarm::displayAlarm(int id, uint32_t code)
         if(code & 0xffff0000)
             ui->labelAlarmSolution->setText(xStringResource::GetAlarm(code));
         else
-        ui->labelAlarmSolution->setText(xStringResource::GetAlarmSolution(code));
+            ui->labelAlarmSolution->setText(xStringResource::GetAlarmSolution(code));
     }
 }
 

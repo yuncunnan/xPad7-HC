@@ -611,6 +611,9 @@
 #define ACTUAL_SPEED_A     0X066F
 #define ACTUAL_SPEED_B     0X0670
 #define ACTUAL_SPEED_C     0X0671
+
+#define POWER_ALARM            						0x0678
+
 //pyq end
 ////////////////////////////////////////////////////////////////////////////
 //IO映射表

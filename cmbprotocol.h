@@ -103,7 +103,8 @@ class QTimer;
 #define ALARM_SV_RHOR				10
 #define ALARM_SV_EXTE				11
 #define ALARM_RUN_ARM				12
-#define ALARM_MAX					13
+#define ALARM_POWER					13
+#define ALARM_MAX					14
 // ********************************************
 // ECAT伺服报警标志位
 // ********************************************
