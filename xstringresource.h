@@ -48,6 +48,7 @@ public:
 	static const QString GetSysStateString(quint8 value);
     static const QString GetModifyPortName(quint16 var);
     static const QString GetEtherCATErrorName(quint16 var);
+    static QString GetLanString();
 
 protected:
 	void changeEvent(QEvent *e);

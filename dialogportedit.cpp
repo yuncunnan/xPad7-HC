@@ -3390,16 +3390,8 @@ void DialogPortEdit::NewPortFile()
     quint8 i;
     quint8 lan = CMBProtocol::GetLanguage();
     QString curLan;
-    curLan.clear();
-    switch (lan)
-    {
-    case LAN_ENGLISH:
-        curLan.append("english/");
-        break;
-    default:
-        curLan.append("chineses/");
-        break;
-    }
+    curLan = xStringResource::GetLanString();
+
     //输入修改名称
     //pyq改变端口名字
     if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)

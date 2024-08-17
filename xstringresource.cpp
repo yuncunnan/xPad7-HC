@@ -2172,32 +2172,8 @@ void xStringResource::initAlarmRes(void)
 // *************************************************
 void xStringResource::initIoVarRes(quint8 lan)
 {
-	QString curLan;
-	curLan.clear();
-	switch (lan)
-	{
-	case LAN_CHINESE_T:
-		curLan.append("chineset/");
-		break;
-	case LAN_ENGLISH:
-		curLan.append("english/");
-		break;
-    case LAN_RUSSIAN:
-        curLan.append("russian/");
-        break;
-    case LAN_TURKISH:
-        curLan.append("turkish/");
-        break;
-    case LAN_VIETNAM:
-        curLan.append("vietnam/");
-        break;
-    case LAN_PORTUGAL:
-        curLan.append("portugal/");
-        break;
-	default:
-		curLan.append("chineses/");
-		break;
-	}
+    QString curLan;
+    curLan = GetLanString();
 
 	QSettings nameCfg(XPAD_IO_NAME, QSettings::IniFormat);
 	nameCfg.setIniCodec("UTF-8");
@@ -4113,16 +4089,7 @@ const QString xStringResource::GetEtherCATErrorName(quint16 var)
 void xStringResource::ReadModifyPortName(quint8 lan)
 {
     QString curLan;
-    curLan.clear();
-    switch (lan)
-    {
-    case LAN_ENGLISH:
-        curLan.append("english/");
-        break;
-    default:
-        curLan.append("chineses/");
-        break;
-    }
+    curLan = GetLanString();
 
     QSettings nameCfg(XPAD_IO_NAME, QSettings::IniFormat);
     nameCfg.setIniCodec("UTF-8");
@@ -4530,4 +4497,57 @@ void xStringResource::ReadModifyPortName(quint8 lan)
     outputModifyVarName[RBT_VAR_OUT_RUN_ADV] = nameCfg.value(curLan + QString("RBT_VAR_OUT_RUN_ADV"), ("")).toString();
     outputModifyVarName[RBT_VAR_OUT_RUN_RET] = nameCfg.value(curLan + QString("RBT_VAR_OUT_RUN_RET"), ("")).toString();
     outputModifyVarName[RBT_VAR_OUT_OIL] = nameCfg.value(curLan + QString("RBT_VAR_OUT_OIL"), ("")).toString();
+}
+
+QString xStringResource::GetLanString(void)
+{
+    quint8 lan = CMBProtocol::GetLanguage();
+    QString curLan;
+    curLan.clear();
+    switch (lan)
+    {
+    case LAN_CHINESE_T:
+        curLan.append("chineset/");
+        break;
+    case LAN_ENGLISH:
+        curLan.append("english/");
+        break;
+    case LAN_RUSSIAN:
+        curLan.append("russian/");
+        break;
+    case LAN_TURKISH:
+        curLan.append("turkish/");
+        break;
+    case LAN_VIETNAM:
+        curLan.append("vietnam/");
+        break;
+    case LAN_PORTUGAL:
+        curLan.append("portugal/");
+        break;
+    case LAN_POLAND:
+        curLan.append("poland/");
+        break;
+    case LAN_SPAIN:
+        curLan.append("spain/");
+        break;
+    case LAN_THAILAND:
+        curLan.append("thailand/");
+        break;
+    case LAN_INDONESIA:
+        curLan.append("indonesia/");
+        break;
+//    case LAN_GERMAN:
+//        curLan.append("german/");
+//        break;
+//    case LAN_BULGARIA:
+//        curLan.append("bulgaria/");
+//        break;
+//    case LAN_FRENCH:
+//        curLan.append("French/");
+//        break;
+    default:
+        curLan.append("chineses/");
+        break;
+    }
+    return curLan;
 }
