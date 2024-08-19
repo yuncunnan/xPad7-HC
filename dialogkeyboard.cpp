@@ -9,10 +9,12 @@
 DialogKeyboard *xKbd = 0;
 #define KEY_PAGE        0
 #define TEXT_PAGE       1
+char DialogKeyboard::InputNum[];
+quint8 DialogKeyboard::n;
 DialogKeyboard::DialogKeyboard(QWidget *parent) : QDialog(parent), ui(new Ui::DialogKeyboard)
 {
     ui->setupUi(this);
-//    pFileV = new QRegExpValidator(QRegExp("[A-Za-z0-9()]{0,16}"), this);
+//    pFileV = new QRegExpValidator(QRegExp("[A-Za-z0-9.()+-\\s]{0,16}"), this);
     pFileV = new QRegExpValidator(QRegExp("[^*]{0,16}"), this);
     xKbd = this;
 #if defined(Q_WS_QWS)
@@ -74,15 +76,28 @@ DialogKeyboard::DialogKeyboard(QWidget *parent) : QDialog(parent), ui(new Ui::Di
 	// 连接信号槽
 	connect(pKeyChar, SIGNAL(buttonClicked(int)), this, SLOT(charsClick(int)));
 	connect(pKeyOther, SIGNAL(buttonClicked(int)), this, SLOT(otherClick(int)));
+    ui->tableWidget->setRowCount(1);
+    ui->tableWidget->setColumnCount(9);
+    ui->tableWidget_2->setRowCount(14);
+    ui->tableWidget_2->setColumnCount(9);
+    for(int i = 0;i < ui->tableWidget->columnCount();i++)
+    {
+        ui->tableWidget->setItem(0,i,new QTableWidgetItem((" ")));
+    }
+    for(int i = 0;i < ui->tableWidget_2->rowCount();i++)
+    {
+        for(int j = 0;j < ui->tableWidget_2->columnCount();j++)
+            ui->tableWidget_2->setItem(i,j,new QTableWidgetItem((" ")));
+    }
     ui->tableWidget->verticalHeader()->setVisible(false); //隐藏列表头
     ui->tableWidget->horizontalHeader()->setVisible(false); //隐藏行表头
     ui->tableWidget_2->verticalHeader()->setVisible(false); //隐藏列表头
     ui->tableWidget_2->horizontalHeader()->setVisible(false); //隐藏行表头
 
 	ui->tableWidget->horizontalHeader()->setFont(QFont("Microsoft YaHei", 28));
-	ui->tableWidget->horizontalHeader()->setStyleSheet("QHeaderView {font-size: 28px;}");
+	ui->tableWidget->horizontalHeader()->setStyleSheet("QHeaderView {font-size: 22px;}");
 	ui->tableWidget_2->verticalHeader()->setFont(QFont("Microsoft YaHei", 28));
-	ui->tableWidget_2->verticalHeader()->setStyleSheet("QHeaderView {font-size: 28px;}");
+	ui->tableWidget_2->verticalHeader()->setStyleSheet("QHeaderView {font-size: 22px;}");
     //设置行列宽高
     ui->tableWidget->setRowHeight(0,70);
     ui->tableWidget->setColumnWidth(0,67);
@@ -112,9 +127,6 @@ DialogKeyboard::~DialogKeyboard()
 	delete pKeyChar;
 	delete pKeyOther;
 }
-static char InputNum[10];//字母输入
-static quint8 n ;//输入了几个
-QString list,listPY;//匹配的中文串  输入的拼音
 
 int DialogKeyboard::DoForm(QString &str, quint8 type)
 {
@@ -151,14 +163,10 @@ int DialogKeyboard::DoForm(QString &str, quint8 type)
 		ui->KeyChDiv->setEnabled(false);
 	}
     n = 0;
-    memset(InputNum,0,sizeof(char)*10);
+	memset(InputNum,0,sizeof(InputNum));
     ui->stackedWidget->setCurrentIndex(KEY_PAGE);
     ui->lineEditPY->setText((" "));
-    quint8 i;
-    for(i = 0;i < 9;i++)
-    {
-        ui->tableWidget->setItem(0,i,new QTableWidgetItem(" "));
-	}
+    clearClickTableWidget();
     ui->btnMore->setEnabled(false);
 	// 显示对话框
 	ret = exec();
@@ -334,13 +342,15 @@ void DialogKeyboard::charsClick(int id)
             InputNum[n] = 'z';
             n++;
             break;
-
+        default:
+                return;
+            break;
         }
         if(get_pymb_26Key((uint8_t *)InputNum))
         {
-            list = QString::fromUtf8(ch_charlist_26Key[0]);
-            listPY = QString::fromUtf8(py_list_26Key[0]);
-            ui->lineEditPY->setText(listPY);
+            list = QString::fromUtf8(ch_charlist_26Key);
+//            listPY = QString::fromUtf8(py_list_26Key[0]);
+            ui->lineEditPY->setText(InputNum);
             ui->tableWidget->setCurrentCell(0,0);
             if(list.count() > 9)
                 ui->btnMore->setEnabled(true);
@@ -349,9 +359,9 @@ void DialogKeyboard::charsClick(int id)
             for(j = 0;j<9; j++)
             {
                 if(j <= list.count())
-                    ui->tableWidget->setItem(0,j,new QTableWidgetItem(list.mid(j,1)));//(list.mid(j,1)第几个开始，打印几个)
+                    ui->tableWidget->item(0,j)->setText(list.mid(j,1));//(list.mid(j,1)第几个开始，打印几个)
                 else
-                    ui->tableWidget->setItem(0,j,new QTableWidgetItem(" "));//(list.mid(j,1)第几个开始，打印几个)
+                    ui->tableWidget->item(0,j)->setText(" ");//(list.mid(j,1)第几个开始，打印几个)
             }
 //            qDebug()<<"ch_charlist_26Key"<<(list);//QString::fromUtf8
         }
@@ -390,15 +400,15 @@ void DialogKeyboard::otherClick(int id)
                 n--;
             }
             get_pymb_26Key((uint8_t *)InputNum);
-            list = QString::fromUtf8(ch_charlist_26Key[0]);
-            listPY = QString::fromUtf8(py_list_26Key[0]);
-            ui->lineEditPY->setText(listPY);
+            list = QString::fromUtf8(ch_charlist_26Key);
+            //listPY = QString::fromUtf8(py_list_26Key[0]);
+            ui->lineEditPY->setText(InputNum);
             for(j = 0;j<9; j++)//打印匹配的字)
             {
                 if(j <= list.count())
-                    ui->tableWidget->setItem(0,j,new QTableWidgetItem(list.mid(j,1)));
+                    ui->tableWidget->item(0,j)->setText(list.mid(j,1));
                 else
-                    ui->tableWidget->setItem(0,j,new QTableWidgetItem(" "));
+                    ui->tableWidget->item(0,j)->setText(" ");
             }
         }
     }
@@ -495,9 +505,10 @@ void DialogKeyboard::clearClick(void)
 {
     if(ui->KeyENCH->text() == tr("中文"))
     {
-        memset(InputNum,0,sizeof(char)*10);
+		memset(InputNum,0,sizeof(InputNum));
         n = 0;
-        ui->tableWidget->clear();
+//        ui->tableWidget->clear();//删除 item 对象
+        clearClickTableWidget();
         ui->lineEditPY->clear();
     }
     else
@@ -505,6 +516,16 @@ void DialogKeyboard::clearClick(void)
 	ui->lineEdit->setText("");
     }
 
+}
+
+void DialogKeyboard::clearClickTableWidget(void)
+{
+    quint8 i;
+    for(i = 0;i < 9;i++)
+    {
+        if(ui->tableWidget->item(0,i))
+            ui->tableWidget->item(0,i)->setText(" ");
+    }
 }
 
 void DialogKeyboard::changeEnglishChinese()
@@ -526,7 +547,7 @@ void DialogKeyboard::showMore()
     {
         for(j = 0; j < 9; j++)
         {
-            ui->tableWidget_2->setItem(i,j,new QTableWidgetItem(list.mid(k,1)));//(list.mid(j,1)第几个开始，打印几个)
+            ui->tableWidget_2->item(i,j)->setText(list.mid(k,1));//(list.mid(j,1)第几个开始，打印几个)
 //            qDebug()<<list.mid(k,1);
             k++;
         }
@@ -536,7 +557,6 @@ void DialogKeyboard::showMore()
 
 void DialogKeyboard::tableWidgeClick(int row, int column)
 {
-    quint8 i;
     /************************************pyq 解决输入中文时点击C清除键后再点击显示中文字的表格就会死机的问题*****************************************************/
 //    if(ui->tableWidget->item(0,column)->text() == (" "))
     if(ui->tableWidget->item(0,column) == NULL || (ui->tableWidget->item(0,column) && ui->tableWidget->item(0,column)->text() == (" ")))
@@ -546,33 +566,26 @@ void DialogKeyboard::tableWidgeClick(int row, int column)
     content = ui->lineEdit->text().append(ui->tableWidget->item(0,column)->text());
     ui->lineEdit->setText(content);
     n = 0;
-    memset(InputNum,0,sizeof(char)*10);
+	memset(InputNum,0,sizeof(InputNum));
     ui->lineEditPY->setText("");
-    listPY = "";
+//    listPY = "";
     ui->btnMore->setEnabled(false);
-    for(i = 0;i < 9;i++)
-    {
-        ui->tableWidget->setItem(0,i,new QTableWidgetItem(" "));
-    }
+    clearClickTableWidget();
 }
 
 void DialogKeyboard::tableWidge2Click(int row, int column)
 {
-    quint8 i;
     QString content;
     content = ui->lineEdit->text().append(ui->tableWidget_2->item(row,column)->text());
     ui->lineEdit->setText(content);
     ui->stackedWidget->setCurrentIndex(KEY_PAGE);
     n = 0;
-    memset(InputNum,0,sizeof(char)*10);
-    listPY = "";
+	memset(InputNum,0,sizeof(InputNum));
+//    listPY = "";
     ui->btnMore->setEnabled(false);
-    for(i = 0;i < 9;i++)
-    {
-        ui->tableWidget->setItem(0,i,new QTableWidgetItem(" "));
-    }
+    clearClickTableWidget();
 }
 uint8_t DialogKeyboard::get_pymb_26Key(uint8_t* str)
 {
-    return get_matched_pymb_26Key(str,py_list_26Key,ch_charlist_26Key);
+    return get_matched_pymb_26Key(str,0,&ch_charlist_26Key);
 }
