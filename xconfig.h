@@ -10,7 +10,7 @@
 #define MAX_DISTANCE                6000000
 #define MAX_DEGREE					36000
 // 定义操作器软件版本号宏
-#define XPAD_SVER					"SV14.01-240817"
+#define XPAD_SVER					"SV14.01-240902"
 // 定义操作器类型字符串
 #define XPAD_TYPE_STR				"SR6807A"
 
@@ -104,11 +104,7 @@
 #endif
 
 // 安全开关默认不使用
-#if (FACTORY == FA_SINROBOT)
 #define SAFE_SWITCH_USE             false
-#else
-#define SAFE_SWITCH_USE             false
-#endif
 // 系统伺服轴设置
 #define UI_SRV_4					0	// 正臂上下 - 正臂引拔 - 横行 - 副臂上下
 #define UI_SRV_5					1	// 正臂上下 - 正臂引拔 - 横行 - 副臂上下 - 副臂引拔

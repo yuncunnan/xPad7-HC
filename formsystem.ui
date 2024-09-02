@@ -113,7 +113,7 @@
          <string notr="true"/>
         </property>
         <property name="currentIndex">
-         <number>1</number>
+         <number>0</number>
         </property>
         <property name="iconSize">
          <size>
@@ -6864,11 +6864,17 @@
    <class>xPixmapButton</class>
    <extends>QWidget</extends>
    <header>xpixmapbutton.h</header>
+   <slots>
+    <signal>clicked()</signal>
+   </slots>
   </customwidget>
   <customwidget>
    <class>xPushButton</class>
    <extends>QPushButton</extends>
    <header>xpushbutton.h</header>
+   <slots>
+    <slot>KeyADDClick()</slot>
+   </slots>
   </customwidget>
   <customwidget>
    <class>xSpinBox</class>

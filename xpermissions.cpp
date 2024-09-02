@@ -261,19 +261,6 @@ void xPermissions::DefaultPwd(quint8 usr, QByteArray &pwd)
     else if (usr == AdvAdministrator)
         pwd.append("57778022");
 }
-#elif ((FACTORY == FA_SINROBOT_HC) || (FACTORY == FA_SINROBOT_CN) || (FACTORY == FA_SINROBOT))
-// **********************************
-// 默认密码
-void xPermissions::DefaultPwd(quint8 usr, QByteArray &pwd)
-{
-    pwd.clear();
-    if (usr == AdvOperater)
-        pwd.append("11111111");
-    else if (usr == Administrator)
-        pwd.append("22222222");
-    else if (usr == AdvAdministrator)
-        pwd.append("20090101");
-}
 #elif (FACTORY == FA_WEILIHE2)
 // **********************************
 // 伟力合２

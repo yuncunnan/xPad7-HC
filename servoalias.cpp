@@ -95,7 +95,7 @@ QString GetServoName(unsigned char srvIdx, bool isDefault)
 		return QString("RES");
     }
 }
-#elif ((FACTORY == FA_XIONGCHUANG) || (FACTORY == FA_VICTOR) || (FACTORY == FA_KEHUI) || (FACTORY == FA_WEILIHE) || (FACTORY == FA_SIGMA) ||  (FACTORY == FA_SINROBOT_CN) || (FACTORY == FA_BEISHITE_CN) || (FACTORY == FA_FUSHITONG)|| (FACTORY == FA_BEISHITE_CN))
+#elif ((FACTORY == FA_XIONGCHUANG) || (FACTORY == FA_VICTOR) || (FACTORY == FA_KEHUI) || (FACTORY == FA_WEILIHE) || (FACTORY == FA_SIGMA) ||  (FACTORY == FA_SINROBOT_CN) || (FACTORY == FA_BEISHITE_CN) || (FACTORY == FA_FUSHITONG)|| (FACTORY == FA_BEISHITE_CN)|| (FACTORY == FA_MIDEA))
 {
     if ((CMBProtocol::GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_E4) || (CMBProtocol::GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_F4))
     {

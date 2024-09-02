@@ -1003,6 +1003,11 @@ bool Formsystem::EnterForm(void)
         ui->BoxOilIntervalDay->setEnabled(true);
     }
 #endif
+
+#if (FACTORY == FA_MIDEA)	// 20240827 美的隐藏自动开安全门暂停接口
+	ui->groupBoxSafeDoor->setVisible(false);
+#endif
+
     if (pModbus->GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_YZ)
     {
         ui->checkRunRotateUse->setChecked(false);
