@@ -1748,8 +1748,8 @@ bool FormManual::EnterForm(void)
         maxSpeedB =0;
         maxSpeedC =0;
         if(!(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_DVS))
-            ui->tabWidgetManual->removeTab(4);
-        //pyq end
+			ui->tabWidgetManual->removeTab(ui->tabWidgetManual->indexOf(ui->tabGuard));
+		//pyq end
     // 扩展输出模块默认选中主板
     retranslateUi();
 //    show();

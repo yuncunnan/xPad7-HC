@@ -10018,7 +10018,7 @@
           </item>
          </layout>
         </widget>
-        <widget class="QWidget" name="tab">
+        <widget class="QWidget" name="tabGuard">
          <attribute name="title">
           <string>伺服监视</string>
          </attribute>
