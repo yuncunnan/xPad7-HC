@@ -72,7 +72,6 @@ private slots:
 	void loadSplash(void);					// 导入开机画面
 	void loadWallpaper(void);				// 导入主画面
 	void loadInformation(void);				// 导入厂商信息
-	void loadIoNames(void);					// 导入端口名称
 	void resetIoNames(void);				// 重置端口名称
 	void updateSoftware(void);				// 升级软件
 	void restoreSoftware(void);				// 恢复备份的软件
@@ -85,8 +84,11 @@ private slots:
 	void enterIsp(void);
     void on_fileView_clicked(const QModelIndex &index);
     void changeFont(QString msg);
-    void portEdit(void);                    //进入端口编辑
-    void axisEdit(void);                   //进入轴编辑
+    void portEdit(void);                    // 进入端口编辑
+    void axisEdit(void);                    // 进入轴编辑
+    void loadIoNames(void);					// 导入端口名称
+    void on_BtnOutIOName_clicked();         // 导出端口名称
+
 };
 
 #endif // FORMMANUFACTURER_H

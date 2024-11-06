@@ -1266,5 +1266,47 @@ void FormManufacturer::portEdit()
 }
 void FormManufacturer::axisEdit()
 {
-	m_AxisEdit->DoForm();
+    m_AxisEdit->DoForm();
 }
+
+void FormManufacturer::on_BtnOutIOName_clicked()
+{
+    // *** 检测USB存储器是否插入 ***
+    if (!xUsb::CheckInsert())
+    {
+        changeFont(tr("没有检测到USB存储器，无法导出端口数据！"));
+        return;
+    }
+    // *** 输入另存为新文件名 ***
+    // 输入另存为新文件名
+#if defined(Q_WS_WIN)
+    QString path = QDir::currentPath().append(XPAD_USB_PATH);
+#else
+    QString path(XPAD_USB_PATH);
+#endif
+    QString name;
+    if (xKbd->DoForm(name, KEYBOARD_TYPE_FILENAME) != QDialog::Accepted)
+        return;
+    name = path + name + QString(IO_NAME_EXT);
+    QFile newFile(name);
+    if (newFile.exists())
+    {
+        // 如果文件已经存在则警告并退出
+        changeFont(tr("文件已经存在，无法进行端口数据导出操作！"));
+        return;
+    }
+    qDebug()<<"on_BtnOutName_clicked:"<<name;
+
+    if (!QFile::copy(QDir::currentPath() + QString("/"XPAD_IO_NAME), name))
+    {
+        changeFont(tr("端口数据文件复制出错！"));
+    }
+    else
+    {
+#if defined(Q_OS_LINUX)
+        sync();
+#endif
+        changeFont(tr("端口数据文件已经成功导出！"));
+    }
+}
+
