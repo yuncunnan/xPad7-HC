@@ -7,29 +7,29 @@
     <message>
         <location filename="cmbprotocol.cpp" line="391"/>
         <source>系统警告</source>
-        <translation>Предупреждение</translation>
+        <translation>Предупр.</translation>
     </message>
     <message>
         <location filename="cmbprotocol.cpp" line="391"/>
         <source>无法连接通讯端口！</source>
-        <translation>Невозможно подключить коммуникационный порт!</translation>
+        <translation>НевозПодклПортСвязи</translation>
     </message>
     <message>
         <location filename="cmbprotocol.cpp" line="762"/>
         <source>错误</source>
-        <translation>ошибка</translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
         <location filename="cmbprotocol.cpp" line="762"/>
         <source>系统通讯错误：
 操作器与主控模块无法正常通讯，请关闭系统然后检查通讯链路是否正常。</source>
         <translation>Ошибка связи:
-Ошибка связи с подвесным и главным модулем управления. Пожалуйста, выключите и проверьте связь.</translation>
+Ошибка связи с операц. и главным модулем управления.  Проверьте связь.</translation>
     </message>
     <message>
         <source>系统状态改变</source>
         <oldsource>系统状态改变 </oldsource>
-        <translation type="obsolete">Состояние системы изменено </translation>
+        <translation type="obsolete">Статус системы изменен  </translation>
     </message>
 </context>
 <context>
@@ -37,17 +37,17 @@
     <message>
         <location filename="xmlmodel/codeassist.cpp" line="167"/>
         <source> 每</source>
-        <translation>каждый</translation>
+        <translation>Каждый</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeassist.cpp" line="167"/>
         <source>周期一次</source>
-        <translation>циклы</translation>
+        <translation>Циклы</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeassist.cpp" line="171"/>
         <source>[打油开] 时间</source>
-        <translation>[Щелкает масло]</translation>
+        <translation>[СмазВКЛ] Время </translation>
     </message>
     <message>
         <location filename="xmlmodel/codeassist.cpp" line="171"/>
@@ -62,23 +62,23 @@
     <message>
         <location filename="xmlmodel/codeassist.cpp" line="173"/>
         <source>[传送带开] 时间</source>
-        <translation>[время открытия конвейера]</translation>
+        <translation>[ВклКонв] Время</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeassist.cpp" line="175"/>
         <location filename="xmlmodel/codeassist.cpp" line="184"/>
         <source>[不良品] 时间</source>
-        <translation>[плохой товар]</translation>
+        <translation>[Брак] Время</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeassist.cpp" line="180"/>
         <source>[打油关] 时间</source>
-        <translation>[время затвора]</translation>
+        <translation>[СмазВыкл] Время</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeassist.cpp" line="182"/>
         <source>[传送带关] 时间</source>
-        <translation>[время выключения транспортера]</translation>
+        <translation>[ВыклКонв] Время</translation>
     </message>
 </context>
 <context>
@@ -86,12 +86,12 @@
     <message>
         <location filename="xmlmodel/codecircle.cpp" line="209"/>
         <source>顺时针</source>
-        <translation>по часовой стрелке</translation>
+        <translation>По часовой</translation>
     </message>
     <message>
         <location filename="xmlmodel/codecircle.cpp" line="211"/>
         <source>逆时针</source>
-        <translation>С-часовой</translation>
+        <translation>Прот. часов.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codecircle.cpp" line="213"/>
@@ -106,7 +106,7 @@
     <message>
         <location filename="xmlmodel/codecircle.cpp" line="213"/>
         <source>mm 速度</source>
-        <translation>мм спд</translation>
+        <translation>мм Скр</translation>
     </message>
 </context>
 <context>
@@ -114,12 +114,12 @@
     <message>
         <location filename="xmlmodel/codedelay.cpp" line="102"/>
         <source>延时</source>
-        <translation>задержка</translation>
+        <translation>Задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codedelay.cpp" line="102"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
 </context>
 <context>
@@ -127,17 +127,17 @@
     <message>
         <location filename="xmlmodel/codeextin.cpp" line="167"/>
         <source> 每</source>
-        <translation>каждый</translation>
+        <translation>Каждый</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextin.cpp" line="167"/>
         <source>周期执行一次</source>
-        <translation>циклы</translation>
+        <translation>Циклы</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextin.cpp" line="170"/>
         <source>开始检测输入[</source>
-        <translation>Начать тест [</translation>
+        <translation>Нач. тест [</translation>
     </message>
     <message>
         <source>]</source>
@@ -146,7 +146,7 @@
     <message>
         <location filename="xmlmodel/codeextin.cpp" line="172"/>
         <source>开始检测输入(信号无效)[</source>
-        <translation>Начало теста (сигнал недействителен) [</translation>
+        <translation>Нач. теста (нет сигн.) [</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextin.cpp" line="174"/>
@@ -159,23 +159,23 @@
     <message>
         <location filename="xmlmodel/codeextout.cpp" line="192"/>
         <source> 每</source>
-        <translation>каждый   </translation>
+        <translation>Каждый</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextout.cpp" line="192"/>
         <source>周期一次</source>
-        <translation>циклы</translation>
+        <translation>Циклы</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextout.cpp" line="195"/>
         <source>开启输出[</source>
-        <translation>На [</translation>
+        <translation>Вкл Вых. [</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextout.cpp" line="195"/>
         <location filename="xmlmodel/codeextout.cpp" line="203"/>
         <source>] 时间</source>
-        <translation>] Задержка</translation>
+        <translation>] Задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextout.cpp" line="195"/>
@@ -183,12 +183,12 @@
         <location filename="xmlmodel/codeextout.cpp" line="201"/>
         <location filename="xmlmodel/codeextout.cpp" line="203"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextout.cpp" line="198"/>
         <source>脉冲输出[</source>
-        <translation>Импульс[</translation>
+        <translation>ВыхИмп[</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextout.cpp" line="198"/>
@@ -199,12 +199,12 @@
     <message>
         <location filename="xmlmodel/codeextout.cpp" line="201"/>
         <source>输出取反[</source>
-        <translation>вне отрицания[</translation>
+        <translation>ОбратнВых[</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextout.cpp" line="203"/>
         <source>关闭输出[</source>
-        <translation>Закрыть вывод[</translation>
+        <translation>ВыхВыкл[</translation>
     </message>
 </context>
 <context>
@@ -212,12 +212,12 @@
     <message>
         <location filename="xmlmodel/codeextpos.cpp" line="614"/>
         <source>相对定位</source>
-        <translation>РЕЛА Поз</translation>
+        <translation>ОтнПоз</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextpos.cpp" line="616"/>
         <source>绝对定位</source>
-        <translation>абсолютный</translation>
+        <translation>АбсПоз</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextpos.cpp" line="626"/>
@@ -227,7 +227,7 @@
         <location filename="xmlmodel/codeextpos.cpp" line="729"/>
         <location filename="xmlmodel/codeextpos.cpp" line="755"/>
         <source> 取物点，速度</source>
-        <translation>Кот, СПД</translation>
+        <translation>КонТочк. Скор.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextpos.cpp" line="626"/>
@@ -261,7 +261,7 @@
         <location filename="xmlmodel/codeextpos.cpp" line="764"/>
         <location filename="xmlmodel/codeextpos.cpp" line="767"/>
         <source>  时间</source>
-        <translation>время</translation>
+        <translation>Время</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextpos.cpp" line="626"/>
@@ -295,7 +295,7 @@
         <location filename="xmlmodel/codeextpos.cpp" line="764"/>
         <location filename="xmlmodel/codeextpos.cpp" line="767"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextpos.cpp" line="629"/>
@@ -305,7 +305,7 @@
         <location filename="xmlmodel/codeextpos.cpp" line="732"/>
         <location filename="xmlmodel/codeextpos.cpp" line="758"/>
         <source> 置物点，速度</source>
-        <translation>Уставка, скорость</translation>
+        <translation>ТочРазм. Скр</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextpos.cpp" line="632"/>
@@ -315,7 +315,7 @@
         <location filename="xmlmodel/codeextpos.cpp" line="735"/>
         <location filename="xmlmodel/codeextpos.cpp" line="761"/>
         <source> 待机点，速度</source>
-        <translation>Точка ожидания, скорость</translation>
+        <translation>ТочОжид. Скр</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextpos.cpp" line="635"/>
@@ -325,7 +325,7 @@
         <location filename="xmlmodel/codeextpos.cpp" line="738"/>
         <location filename="xmlmodel/codeextpos.cpp" line="764"/>
         <source>[%1] %2mm 速度%3%</source>
-        <translation>[%1] %2mm скорость%3%</translation>
+        <translation>[%1] %2mm Скор%3%</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeextpos.cpp" line="638"/>
@@ -335,7 +335,7 @@
         <location filename="xmlmodel/codeextpos.cpp" line="741"/>
         <location filename="xmlmodel/codeextpos.cpp" line="767"/>
         <source>[%1] %2 速度%3%</source>
-        <translation>[%1]%2 скорость%3%</translation>
+        <translation>[%1]%2 Скор%3%</translation>
     </message>
 </context>
 <context>
@@ -356,7 +356,7 @@
     <message>
         <location filename="xmlmodel/codefor.cpp" line="132"/>
         <source>次</source>
-        <translation>время</translation>
+        <translation>Times</translation>
     </message>
 </context>
 <context>
@@ -414,7 +414,7 @@
     <message>
         <location filename="xmlmodel/codeif.cpp" line="215"/>
         <source>] 有效</source>
-        <translation>]эффективный</translation>
+        <translation>]  Действ.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeif.cpp" line="219"/>
@@ -424,7 +424,7 @@
     <message>
         <location filename="xmlmodel/codeif.cpp" line="219"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>c</translation>
     </message>
 </context>
 <context>
@@ -488,72 +488,72 @@
         <location filename="xmlmodel/codeimm.cpp" line="350"/>
         <location filename="xmlmodel/codeimm.cpp" line="352"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="193"/>
         <source>铸机[允许关模] 延时</source>
-        <translation>IMM [EMC] задержка</translation>
+        <translation>IMM [EMC] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="196"/>
         <source>铸机[允许顶针前进] 延时</source>
-        <translation>IMM [EEF] задержка</translation>
+        <translation>IMM [EEF] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="199"/>
         <source>铸机[允许顶针后退] 延时</source>
-        <translation>IMM [EEB] задержка</translation>
+        <translation>IMM [EEB] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="202"/>
         <source>铸机[禁止顶针前进] 延时</source>
-        <translation>IMM [EEF_OFF] задержка</translation>
+        <translation>IMM [EEF_OFF] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="205"/>
         <source>铸机[禁止顶针后退] 延时</source>
-        <translation>IMM [EEB_OFF] задержка</translation>
+        <translation>IMM [EEB_OFF] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="208"/>
         <source>铸机[允许抽芯1位置1] 延时</source>
-        <translation>IMM [EC1P1] задержка</translation>
+        <translation>IMM [EC1P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="211"/>
         <source>铸机[允许抽芯1位置2] 延时</source>
-        <translation>IMM [EC1P2] задержка</translation>
+        <translation>IMM [EC1P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="214"/>
         <source>铸机[允许抽芯2位置1] 延时</source>
-        <translation>IMM [EC2P1] задержка</translation>
+        <translation>IMM [EC2P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="217"/>
         <source>铸机[禁止抽芯1位置1] 延时</source>
-        <translation>IMM [запретить-EC1P1] задержка</translation>
+        <translation>IMM [Запрет-EC1P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="220"/>
         <source>铸机[禁止抽芯1位置2] 延时</source>
-        <translation>IMM [запретить-EC1P2] задержка</translation>
+        <translation>IMM [Запрет-EC1P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="223"/>
         <source>铸机[禁止抽芯2位置1] 延时</source>
-        <translation>IMM [запретить-EC2P1] задержка</translation>
+        <translation>IMM [Запрет-EC2P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="226"/>
         <source>铸机[禁止抽芯2位置2] 延时</source>
-        <translation>IMM [запретить-EC2P2] задержка</translation>
+        <translation>IMM [Запрет-EC2P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="229"/>
         <source>铸机[允许抽芯2位置2] 延时</source>
-        <translation>IMM [EC2P2] задержка</translation>
+        <translation>IMM [EC2P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="239"/>
@@ -573,7 +573,7 @@
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="248"/>
         <source>机床[允许加工启动] 延时</source>
-        <translation>IMM [EMC] задержка</translation>
+        <translation>IMM [EMC] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="250"/>
@@ -583,167 +583,167 @@
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="252"/>
         <source>塑机[允许关模] 延时</source>
-        <translation>IMM [EMC] задержка</translation>
+        <translation>IMM [EMC] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="257"/>
         <source>机床[允许顶针前进] 延时</source>
-        <translation>IMM [EEF] задержка</translation>
+        <translation>IMM [EEF] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="259"/>
         <source>塑机[允许顶针前进] 延时</source>
-        <translation>IMM [EEF] задержка</translation>
+        <translation>IMM [EEF] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="264"/>
         <source>机床[允许顶针后退] 延时</source>
-        <translation>IMM [EEB] задержка</translation>
+        <translation>IMM [EEB] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="266"/>
         <source>塑机[允许顶针后退] 延时</source>
-        <translation>IMM [EEB] задержка</translation>
+        <translation>IMM [EEB] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="271"/>
         <source>机床[禁止顶针前进] 延时</source>
-        <translation>IMM [EEF_OFF] задержка</translation>
+        <translation>IMM [EEF_OFF] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="273"/>
         <source>塑机[禁止顶针前进] 延时</source>
-        <translation>IMM [EEF_OFF] задержка</translation>
+        <translation>IMM [EEF_OFF] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="278"/>
         <source>机床[禁止顶针后退] 延时</source>
-        <translation>IMM [EEB_OFF] задержка</translation>
+        <translation>IMM [EEB_OFF] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="280"/>
         <source>塑机[禁止顶针后退] 延时</source>
-        <translation>IMM [EEB_OFF] задержка</translation>
+        <translation>IMM [EEB_OFF] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="285"/>
         <source>塑机[允许中子1进] 延时</source>
-        <translation>IMM[разрешать-C1P1] задержка</translation>
+        <translation>IMM[Разреш-C1P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="287"/>
         <source>机床[允许抽芯1位置1] 延时</source>
-        <translation>IMM [EC1P1] задержка</translation>
+        <translation>IMM [EC1P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="289"/>
         <source>塑机[允许抽芯1位置1] 延时</source>
-        <translation>IMM [EC1P1] задержка</translation>
+        <translation>IMM [EC1P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="294"/>
         <source>塑机[允许中子1退] 延时</source>
-        <translation>IMM[разрешать-C1P2] задержка</translation>
+        <translation>IMM[Разреш-C1P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="296"/>
         <source>机床[允许抽芯1位置2] 延时</source>
-        <translation>IMM [EC1P2] задержка</translation>
+        <translation>IMM [EC1P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="298"/>
         <source>塑机[允许抽芯1位置2] 延时</source>
-        <translation>IMM [EC1P2] задержка</translation>
+        <translation>IMM [EC1P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="303"/>
         <source>塑机[允许中子2进] 延时</source>
-        <translation>IMM[разрешать-C2P1] задержка</translation>
+        <translation>IMM[Разреш-C2P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="305"/>
         <source>机床[允许抽芯2位置1] 延时</source>
-        <translation>IMM [EC2P1] задержка</translation>
+        <translation>IMM [EC2P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="307"/>
         <source>塑机[允许抽芯2位置1] 延时</source>
-        <translation>IMM [EC2P1] задержка</translation>
+        <translation>IMM [EC2P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="312"/>
         <source>塑机[禁止中子1进] 延时</source>
-        <translation>IMM[Forbid-C1P1] задержка</translation>
+        <translation>IMM[Forbid-C1P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="314"/>
         <source>机床[禁止抽芯1位置1] 延时</source>
-        <translation>IMM [запретить-EC1P1] задержка</translation>
+        <translation>IMM [Запрет-EC1P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="316"/>
         <source>塑机[禁止抽芯1位置1] 延时</source>
-        <translation>IMM [запретить-EC1P1] задержка</translation>
+        <translation>IMM [Запрет-EC1P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="321"/>
         <source>塑机[禁止中子1退] 延时</source>
-        <translation>IMM[Forbid-C1P2] задержка</translation>
+        <translation>IMM[Запрет-C1P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="323"/>
         <source>机床[禁止抽芯1位置2] 延时</source>
-        <translation>IMM [запретить-EC1P2] задержка</translation>
+        <translation>IMM [Запрет-EC1P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="325"/>
         <source>塑机[禁止抽芯1位置2] 延时</source>
-        <translation>IMM [запретить-EC1P2] задержка</translation>
+        <translation>IMM [Запрет-EC1P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="330"/>
         <source>塑机[禁止中子2进] 延时</source>
-        <translation>IMM[Forbid-C2P1] задержка</translation>
+        <translation>IMM[Запрет-C2P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="332"/>
         <source>机床[禁止抽芯2位置1] 延时</source>
-        <translation>IMM [запретить-EC2P1] задержка</translation>
+        <translation>IMM [Запрет-EC2P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="334"/>
         <source>塑机[禁止抽芯2位置1] 延时</source>
-        <translation>IMM [запретить-EC2P1] задержка</translation>
+        <translation>IMM [Запрет-EC2P1] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="339"/>
         <source>塑机[禁止中子2退] 延时</source>
-        <translation>IMM[Forbid-C2P2] задержка</translation>
+        <translation>IMM[Запрет-C2P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="341"/>
         <source>机床[禁止抽芯2位置2] 延时</source>
-        <translation>IMM [запретить-EC2P2] задержка</translation>
+        <translation>IMM [Запрет-EC2P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="343"/>
         <source>塑机[禁止抽芯2位置2] 延时</source>
-        <translation>IMM [запретить-EC2P2] задержка</translation>
+        <translation>IMM [Запрет-EC2P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="348"/>
         <source>塑机[允许中子2退] 延时</source>
-        <translation>IMM[Разрешать-C2P2] задержка</translation>
+        <translation>IMM[Запрет-C2P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="350"/>
         <source>机床[允许抽芯2位置2] 延时</source>
-        <translation>IMM [EC2P2] задержка</translation>
+        <translation>IMM [EC2P2] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeimm.cpp" line="352"/>
         <source>塑机[允许抽芯2位置2] 延时</source>
-        <translation>IMM [EC2P2] задержка</translation>
+        <translation>IMM [EC2P2] задер.</translation>
     </message>
 </context>
 <context>
@@ -751,12 +751,12 @@
     <message>
         <location filename="xmlmodel/codeinterp.cpp" line="434"/>
         <source>相对插补[</source>
-        <translation>Относительное вменение[</translation>
+        <translation>ОтнИнтерп[</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeinterp.cpp" line="439"/>
         <source>绝对插补[</source>
-        <translation>Абсолютная интерполяция[</translation>
+        <translation>АбсИнтерп[</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeinterp.cpp" line="471"/>
@@ -767,7 +767,7 @@
     <message>
         <location filename="xmlmodel/codeinterp.cpp" line="482"/>
         <source>] 速度 %1%</source>
-        <translation>] скорость %1%</translation>
+        <translation>] скор. %1%</translation>
     </message>
 </context>
 <context>
@@ -775,7 +775,7 @@
     <message>
         <location filename="xmlmodel/codeloopfree.cpp" line="5"/>
         <source>调用循环定位子程序</source>
-        <translation>подпрограмма цикла вызова</translation>
+        <translation>ВызПодпрогрЦикла</translation>
     </message>
 </context>
 <context>
@@ -783,7 +783,7 @@
     <message>
         <location filename="xmlmodel/codeloopmatrix.cpp" line="7"/>
         <source>调用矩阵子程序</source>
-        <translation>подпрограмма вызова матрицы</translation>
+        <translation>ВызПодпрогрМатриц</translation>
     </message>
 </context>
 <context>
@@ -791,31 +791,31 @@
     <message>
         <location filename="xmlmodel/codemextout.cpp" line="189"/>
         <source>开启多扩展输出[</source>
-        <translation>Включите несколько расширенных выходов[</translation>
+        <translation>ВклНескРасшВыходов[</translation>
     </message>
     <message>
         <location filename="xmlmodel/codemextout.cpp" line="189"/>
         <location filename="xmlmodel/codemextout.cpp" line="191"/>
         <location filename="xmlmodel/codemextout.cpp" line="193"/>
         <source>] 时间</source>
-        <translation>задержка</translation>
+        <translation>] Задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codemextout.cpp" line="189"/>
         <location filename="xmlmodel/codemextout.cpp" line="191"/>
         <location filename="xmlmodel/codemextout.cpp" line="193"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>сек</translation>
     </message>
     <message>
         <location filename="xmlmodel/codemextout.cpp" line="191"/>
         <source>关闭多扩展输出[</source>
-        <translation>Отключить несколько расширенных выходов[</translation>
+        <translation>ВыклНескРасшВыходов[</translation>
     </message>
     <message>
         <location filename="xmlmodel/codemextout.cpp" line="193"/>
         <source>多扩展脉冲输出[</source>
-        <translation>Многораспрофийный импульсный выход[</translation>
+        <translation>МножИмпулВыход[</translation>
     </message>
 </context>
 <context>
@@ -870,7 +870,7 @@
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="133"/>
         <source>取件臂[倒平] 时间</source>
-        <translation>Ручной захват [перевернуть вертикально] задержка</translation>
+        <translation>PA.Rot [Гориз] Задер</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="133"/>
@@ -886,29 +886,29 @@
         <location filename="xmlmodel/codeparm.cpp" line="159"/>
         <location filename="xmlmodel/codeparm.cpp" line="161"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="135"/>
         <location filename="xmlmodel/codeparm.cpp" line="152"/>
         <source>治具[夹紧] 时间</source>
-        <translation>Jig[привязывать] задержка</translation>
+        <translation>Jig[Взять] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="137"/>
         <location filename="xmlmodel/codeparm.cpp" line="154"/>
         <source>治具[松开] 时间</source>
-        <translation>Jig[релиз] задержка</translation>
+        <translation>Jig[Освоб] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="139"/>
         <source>取件臂[倒直] 时间</source>
-        <translation>Ручной захват [перевернуть вертикально] задержка</translation>
+        <translation>PA.Rot [Верт] Задер</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="145"/>
         <source>正臂[水平] 时间</source>
-        <translation>Основной [горизонтальный] задержка</translation>
+        <translation>PA.Rot [Гориз] Задер</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="147"/>
@@ -918,12 +918,12 @@
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="149"/>
         <source>正臂[倒平] 时间</source>
-        <translation>Main [горизонтальный флип] задержка</translation>
+        <translation>PA.Rot [Верт] Задер</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="157"/>
         <source>正臂[垂直] 时间</source>
-        <translation>Главный [вертикальный] задержка</translation>
+        <translation>PA.Rot [Гориз] Задер</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="159"/>
@@ -933,7 +933,7 @@
     <message>
         <location filename="xmlmodel/codeparm.cpp" line="161"/>
         <source>正臂[倒直] 时间</source>
-        <translation>Основной [вертикальный переворот] задержка</translation>
+        <translation>PA.Rot [Гориз] Задер</translation>
     </message>
 </context>
 <context>
@@ -955,12 +955,12 @@
     <message>
         <location filename="xmlmodel/codepos.cpp" line="461"/>
         <source>相对定位</source>
-        <translation>относительно</translation>
+        <translation>ОтнПоз</translation>
     </message>
     <message>
         <location filename="xmlmodel/codepos.cpp" line="463"/>
         <source>绝对定位</source>
-        <translation>абсолютный позиция</translation>
+        <translation>АбсПоз</translation>
     </message>
     <message>
         <location filename="xmlmodel/codepos.cpp" line="473"/>
@@ -970,7 +970,7 @@
         <location filename="xmlmodel/codepos.cpp" line="576"/>
         <location filename="xmlmodel/codepos.cpp" line="602"/>
         <source> 取物点，速度</source>
-        <translation>Очки приняты, скорость</translation>
+        <translation>ТочОжид. Скр</translation>
     </message>
     <message>
         <location filename="xmlmodel/codepos.cpp" line="473"/>
@@ -1038,7 +1038,7 @@
         <location filename="xmlmodel/codepos.cpp" line="611"/>
         <location filename="xmlmodel/codepos.cpp" line="614"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="xmlmodel/codepos.cpp" line="476"/>
@@ -1048,7 +1048,7 @@
         <location filename="xmlmodel/codepos.cpp" line="579"/>
         <location filename="xmlmodel/codepos.cpp" line="605"/>
         <source> 置物点，速度</source>
-        <translation>Уставка, скорость</translation>
+        <translation>ТочРазм. Скр</translation>
     </message>
     <message>
         <location filename="xmlmodel/codepos.cpp" line="479"/>
@@ -1058,7 +1058,7 @@
         <location filename="xmlmodel/codepos.cpp" line="582"/>
         <location filename="xmlmodel/codepos.cpp" line="608"/>
         <source> 待机点，速度</source>
-        <translation>Точка ожидания, скорость</translation>
+        <translation>ТочОжид. Скр</translation>
     </message>
     <message>
         <location filename="xmlmodel/codepos.cpp" line="482"/>
@@ -1068,7 +1068,7 @@
         <location filename="xmlmodel/codepos.cpp" line="585"/>
         <location filename="xmlmodel/codepos.cpp" line="611"/>
         <source>[%1] %2mm 速度%3%</source>
-        <translation>[%1] %2mm скорость%3%</translation>
+        <translation>[%1] %2mm скор%3%</translation>
     </message>
     <message>
         <location filename="xmlmodel/codepos.cpp" line="485"/>
@@ -1078,7 +1078,7 @@
         <location filename="xmlmodel/codepos.cpp" line="588"/>
         <location filename="xmlmodel/codepos.cpp" line="614"/>
         <source>[%1] %2 速度%3%</source>
-        <translation>[%1] %2 скорость%3%</translation>
+        <translation>[%1] %2 скор%3%</translation>
     </message>
 </context>
 <context>
@@ -1086,12 +1086,12 @@
     <message>
         <location filename="xmlmodel/codepower.cpp" line="158"/>
         <source>未勾选任何轴</source>
-        <translation>Нет выбора</translation>
+        <translation>Не выбран</translation>
     </message>
     <message>
         <location filename="xmlmodel/codepower.cpp" line="163"/>
         <source>伺服电源关闭 [</source>
-        <translation>Выключить</translation>
+        <translation>Выключить [</translation>
     </message>
     <message>
         <source>]</source>
@@ -1100,7 +1100,7 @@
     <message>
         <location filename="xmlmodel/codepower.cpp" line="168"/>
         <source>伺服电源打开 [</source>
-        <translation>Включите</translation>
+        <translation>Включить [</translation>
     </message>
 </context>
 <context>
@@ -1108,7 +1108,7 @@
     <message>
         <location filename="xmlmodel/coderarm.cpp" line="152"/>
         <source>副臂[上升] 时间</source>
-        <translation>вторичный[восхождение] задержка</translation>
+        <translation>RA [Вверх] Врем</translation>
     </message>
     <message>
         <location filename="xmlmodel/coderarm.cpp" line="152"/>
@@ -1124,29 +1124,29 @@
         <location filename="xmlmodel/coderarm.cpp" line="194"/>
         <location filename="xmlmodel/coderarm.cpp" line="196"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="xmlmodel/coderarm.cpp" line="157"/>
         <source>副臂[下降] 时间</source>
-        <translation>вторичный[спуск] задержка</translation>
+        <translation>RA  [спуск] Время</translation>
     </message>
     <message>
         <location filename="xmlmodel/coderarm.cpp" line="163"/>
         <location filename="xmlmodel/coderarm.cpp" line="174"/>
         <source>副臂[引拔退] 时间</source>
-        <translation>вторичный[Вернуть] задержка</translation>
+        <translation>RA [Возврат] Время</translation>
     </message>
     <message>
         <location filename="xmlmodel/coderarm.cpp" line="165"/>
         <location filename="xmlmodel/coderarm.cpp" line="172"/>
         <source>副臂[引拔进] 时间</source>
-        <translation>вторичный[авансировать] задержка</translation>
+        <translation>RA [Вперед] Время</translation>
     </message>
     <message>
         <location filename="xmlmodel/coderarm.cpp" line="181"/>
         <source>副臂[水平] 时间</source>
-        <translation>вторичный[горизонтальный] задержка</translation>
+        <translation>RA [Горизон.] Время</translation>
     </message>
     <message>
         <location filename="xmlmodel/coderarm.cpp" line="183"/>
@@ -1156,12 +1156,12 @@
     <message>
         <location filename="xmlmodel/coderarm.cpp" line="185"/>
         <source>副臂[倒平] 时间</source>
-        <translation>вторичный[горизонтальный] задержка</translation>
+        <translation>RA [Горизон.] Время</translation>
     </message>
     <message>
         <location filename="xmlmodel/coderarm.cpp" line="192"/>
         <source>副臂[垂直] 时间</source>
-        <translation>вторичный[вертикальный] задержка</translation>
+        <translation>RA [Вертик.] Время</translation>
     </message>
     <message>
         <location filename="xmlmodel/coderarm.cpp" line="194"/>
@@ -1171,7 +1171,7 @@
     <message>
         <location filename="xmlmodel/coderarm.cpp" line="196"/>
         <source>副臂[倒直] 时间</source>
-        <translation>вторичный[вертикальный] задержка</translation>
+        <translation>RA [Вертик.] Время</translation>
     </message>
 </context>
 <context>
@@ -1180,12 +1180,12 @@
         <location filename="xmlmodel/codesingleloop.cpp" line="7"/>
         <location filename="xmlmodel/codesingleloop.cpp" line="145"/>
         <source>单轴循环定位</source>
-        <translation>Одиночная петля</translation>
+        <translation>Одиноч. цикл</translation>
     </message>
     <message>
         <location filename="xmlmodel/codesingleloop.cpp" line="145"/>
         <source>[%1] [%2]点 速度 %3</source>
-        <translation>[%1] [%2]точка скорость %3</translation>
+        <translation>[%1] [%2]поз. скор. %3</translation>
     </message>
 </context>
 <context>
@@ -1194,12 +1194,12 @@
         <location filename="xmlmodel/codesingleloopfree.cpp" line="8"/>
         <location filename="xmlmodel/codesingleloopfree.cpp" line="183"/>
         <source>单轴循环自由定位</source>
-        <translation>Без одной петли</translation>
+        <translation>Своб.одиноч.цикл</translation>
     </message>
     <message>
         <location filename="xmlmodel/codesingleloopfree.cpp" line="183"/>
         <source>[%1] [%2]点 速度 %3</source>
-        <translation>[%1] [%2] pos Spd %3</translation>
+        <translation>[%1] [%2]поз. скор. %3</translation>
     </message>
 </context>
 <context>
@@ -1212,7 +1212,7 @@
         <location filename="xmlmodel/codespeed.cpp" line="149"/>
         <location filename="xmlmodel/codespeed.cpp" line="151"/>
         <source>伺服速度</source>
-        <translation>Серво скорость</translation>
+        <translation>Серво скор</translation>
     </message>
     <message>
         <location filename="xmlmodel/codespeed.cpp" line="141"/>
@@ -1222,7 +1222,7 @@
         <location filename="xmlmodel/codespeed.cpp" line="149"/>
         <location filename="xmlmodel/codespeed.cpp" line="151"/>
         <source>[%1]  速度 %2</source>
-        <translation>[%1] скорость %2</translation>
+        <translation>[%1] скор %2</translation>
     </message>
 </context>
 <context>
@@ -1230,11 +1230,11 @@
     <message>
         <location filename="xmlmodel/codetbegin.cpp" line="103"/>
         <source>路径开始    公差</source>
-        <translation>Начните путь терпимости</translation>
+        <translation>ДопускНачПути</translation>
     </message>
     <message>
         <source>mm</source>
-        <translation type="obsolete">mm</translation>
+        <translation type="obsolete">мм</translation>
     </message>
 </context>
 <context>
@@ -1242,46 +1242,46 @@
     <message>
         <location filename="xmlmodel/codevacuum.cpp" line="397"/>
         <source>未勾选治具动作</source>
-        <translation>Никаких действий</translation>
+        <translation>Нет действий</translation>
     </message>
     <message>
         <source>开启治具组[</source>
         <oldsource>开启冶具组[</oldsource>
-        <translation type="obsolete">открыто кондуктор[</translation>
+        <translation type="obsolete">Откр. Jig[</translation>
     </message>
     <message>
         <location filename="xmlmodel/codevacuum.cpp" line="399"/>
         <location filename="xmlmodel/codevacuum.cpp" line="401"/>
         <source>] 时间</source>
-        <translation>задержка</translation>
+        <translation>] Задер.</translation>
     </message>
     <message>
         <source> %1</source>
-        <translation type="obsolete">%1</translation>
+        <translation type="obsolete">0.01</translation>
     </message>
     <message>
         <location filename="xmlmodel/codevacuum.cpp" line="399"/>
         <location filename="xmlmodel/codevacuum.cpp" line="401"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="xmlmodel/codevacuum.cpp" line="399"/>
         <source>开启[</source>
-        <translation>открыто[</translation>
+        <translation>Откр[</translation>
     </message>
     <message>
         <location filename="xmlmodel/codevacuum.cpp" line="401"/>
         <source>关闭[</source>
-        <translation>близко[</translation>
+        <translation>Закр[</translation>
     </message>
     <message>
         <source>关闭治具组[</source>
-        <translation type="obsolete">закрыть группу инструментов</translation>
+        <translation type="obsolete">ЗакрГрупп fixture[</translation>
     </message>
     <message>
         <source>关闭冶具组[</source>
-        <translation type="obsolete">близко кондуктор[</translation>
+        <translation type="obsolete">Закр Jig[</translation>
     </message>
 </context>
 <context>
@@ -1289,12 +1289,12 @@
     <message>
         <location filename="xmlmodel/codevision.cpp" line="334"/>
         <source>视觉</source>
-        <translation>визуальный</translation>
+        <translation>Визуал.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codevision.cpp" line="334"/>
         <source>匹配1[</source>
-        <translation>матч</translation>
+        <translation>Соотв.</translation>
     </message>
     <message>
         <source>,</source>
@@ -1315,17 +1315,17 @@
         <location filename="xmlmodel/codewait.cpp" line="264"/>
         <location filename="xmlmodel/codewait.cpp" line="266"/>
         <source>等待[</source>
-        <translation>Подождите</translation>
+        <translation>Ожид [</translation>
     </message>
     <message>
         <location filename="xmlmodel/codewait.cpp" line="258"/>
         <source>] 信号无效</source>
-        <translation>] Недействительным</translation>
+        <translation>] Недейств.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codewait.cpp" line="256"/>
         <source>] 信号有效</source>
-        <translation>] действительный</translation>
+        <translation>] Действ.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codewait.cpp" line="254"/>
@@ -1335,22 +1335,22 @@
     <message>
         <location filename="xmlmodel/codewait.cpp" line="260"/>
         <source>]&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>]&gt;</translation>
     </message>
     <message>
         <location filename="xmlmodel/codewait.cpp" line="262"/>
         <source>]&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>]&lt;</translation>
     </message>
     <message>
         <location filename="xmlmodel/codewait.cpp" line="264"/>
         <source>]!=</source>
-        <translation type="unfinished"></translation>
+        <translation>]!=</translation>
     </message>
     <message>
         <location filename="xmlmodel/codewait.cpp" line="266"/>
         <source>]=</source>
-        <translation type="unfinished"></translation>
+        <translation>]=</translation>
     </message>
     <message>
         <location filename="xmlmodel/codewait.cpp" line="275"/>
@@ -1361,7 +1361,7 @@
         <location filename="xmlmodel/codewait.cpp" line="270"/>
         <location filename="xmlmodel/codewait.cpp" line="275"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="xmlmodel/codewait.cpp" line="277"/>
@@ -1378,22 +1378,22 @@
     <message>
         <location filename="dialogdatetime.ui" line="138"/>
         <source>系统日期时间</source>
-        <translation>Системная дата и время</translation>
+        <translation>Сист. дата и время</translation>
     </message>
     <message>
         <location filename="dialogdatetime.ui" line="251"/>
         <source>系统日期：</source>
-        <translation>Системная дата:</translation>
+        <translation>Сист.дата:</translation>
     </message>
     <message>
         <location filename="dialogdatetime.ui" line="411"/>
         <source>系统时间：</source>
-        <translation>Системное время:</translation>
+        <translation>Сист.время:</translation>
     </message>
     <message>
         <location filename="dialogdatetime.ui" line="480"/>
         <source>取消</source>
-        <translation>отменить</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="dialogdatetime.ui" line="536"/>
@@ -1406,12 +1406,12 @@
     <message>
         <location filename="dialogframe.ui" line="188"/>
         <source>运行</source>
-        <translation>Бежать</translation>
+        <translation>Старт</translation>
     </message>
     <message>
         <location filename="dialogframe.ui" line="240"/>
         <source>端口</source>
-        <translation>порт</translation>
+        <translation>Порт</translation>
     </message>
     <message>
         <location filename="dialogframe.ui" line="292"/>
@@ -1421,7 +1421,7 @@
     <message>
         <location filename="dialogframe.ui" line="347"/>
         <source>报警</source>
-        <translation>Тревога</translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
         <location filename="dialogframe.ui" line="402"/>
@@ -1430,37 +1430,37 @@
         <location filename="dialogframe.cpp" line="1014"/>
         <location filename="dialogframe.cpp" line="2081"/>
         <source>教导</source>
-        <translation>Учат</translation>
+        <translation>Обуч.</translation>
     </message>
     <message>
         <location filename="dialogframe.ui" line="1060"/>
         <source>主页</source>
-        <translation>дома</translation>
+        <translation>Обзор</translation>
     </message>
     <message>
         <location filename="dialogframe.ui" line="1337"/>
         <source>当前程序：</source>
-        <translation>Текущая программа:</translation>
+        <translation>ТекущПрогр:</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="77"/>
         <source>操作器类型：</source>
-        <translation>Во время Типа:</translation>
+        <translation>Тип оператора:</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="78"/>
         <source>主控模块类型：</source>
-        <translation>Тип модуля управления:</translation>
+        <translation>Тип мод.управл.:</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="229"/>
         <source>语言</source>
-        <translation>язык</translation>
+        <translation>Язык</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="230"/>
         <source>选项</source>
-        <translation>вариант</translation>
+        <translation>Опция</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="367"/>
@@ -1470,7 +1470,7 @@
         <location filename="dialogframe.cpp" line="1881"/>
         <location filename="dialogframe.cpp" line="1908"/>
         <source>系统提示</source>
-        <translation>Системный совет</translation>
+        <translation>СистСовет</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="367"/>
@@ -1506,7 +1506,7 @@
         <location filename="dialogframe.cpp" line="2531"/>
         <location filename="dialogframe.cpp" line="2538"/>
         <source>系统警告</source>
-        <translation>Предупреждение</translation>
+        <translation>Предупр.</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="720"/>
@@ -1514,7 +1514,7 @@
 点击复位，关闭治具，程序复位至第一条执行， 
 点击继续，程序继续执行。</source>
         <translation>Пожалуйста, нажмите, чтобы выбрать соответствующее действие?
-Нажмите Сброс, чтобы закрыть прибор и сбросить программу до первого выполнения.
+Нажмите Сброс, чтобы закрыть Fixt и сбросить программу до первого выполнения.
 Нажмите Продолжить, чтобы продолжить программу.</translation>
     </message>
     <message>
@@ -1524,24 +1524,23 @@
         <location filename="dialogframe.cpp" line="1043"/>
         <location filename="dialogframe.cpp" line="2079"/>
         <source>修改</source>
-        <translation>изменять</translation>
+        <translation>Измен.</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="1788"/>
         <source>当前程序:</source>
-        <translation>Текущая программа:</translation>
+        <translation>Текущ. прогр:</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="1822"/>
         <source>高级管理员</source>
-        <translation>продвинутый
-Администратор</translation>
+        <translation>Старший админ</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="1813"/>
         <location filename="dialogframe.cpp" line="1828"/>
         <source>操作员</source>
-        <translation>Супер пользователь</translation>
+        <translation>Оператор</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="1020"/>
@@ -1556,44 +1555,44 @@
         <location filename="dialogframe.cpp" line="2586"/>
         <location filename="dialogframe.cpp" line="2601"/>
         <source>手动</source>
-        <translation>Руководство</translation>
+        <translation>Ручной</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="319"/>
         <source>塑机信号全输出</source>
-        <translation type="unfinished"></translation>
+        <translation>Полный выход сигнала ТПА</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="319"/>
         <source>确认是否打开全部塑机信号，点击“打开”，信号全输出。点击“关闭”，关闭窗口</source>
-        <translation type="unfinished"></translation>
+        <translation>Подтвердите, следует ли включить все сигналы ТПА, нажмите «открыть», выход сигнала. Нажмите «Закрыть», чтобы закрыть окно</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="731"/>
         <location filename="dialogframe.cpp" line="733"/>
         <source>系统询问</source>
-        <translation type="unfinished"></translation>
+        <translation>Системный запрос</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="731"/>
         <source>取物失败是否继续运行，点击确定，继续运行。点击取消，关闭窗口</source>
-        <translation type="unfinished"></translation>
+        <translation>Продолжить ли работу, нажмите «ОК», чтобы продолжить работу. Нажмите «Отмена», чтобы закрыть окно</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="733"/>
         <source>关闭安全门是否继续运行，点击确定，继续运行。点击取消，关闭窗口</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажмите «ОК», чтобы продолжить Закройте работу защитной двери. Нажмите «Отмена», чтобы закрыть окно</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="1050"/>
         <location filename="dialogframe.cpp" line="2590"/>
         <source>全自动</source>
-        <translation>Автоматически</translation>
+        <translation>Авто </translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="1056"/>
         <source>单步</source>
-        <translation>Один шаг</translation>
+        <translation>По шагам</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="1062"/>
@@ -1604,12 +1603,12 @@
         <location filename="dialogframe.cpp" line="1069"/>
         <location filename="dialogframe.cpp" line="2605"/>
         <source>自动暂停</source>
-        <translation>Пауза автоматически</translation>
+        <translation>Пауза</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="1816"/>
         <source>高级操作员</source>
-        <translation>продвинутый
+        <translation>Старший
 оператор</translation>
     </message>
     <message>
@@ -1620,7 +1619,7 @@
     <message>
         <location filename="dialogframe.cpp" line="1825"/>
         <source>超级用户</source>
-        <translation>Супер пользователь</translation>
+        <translation>Супер пользов.</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="1871"/>
@@ -1650,29 +1649,29 @@
     <message>
         <location filename="dialogframe.cpp" line="2268"/>
         <source>调位状态下，不允许执行原点复归操作！</source>
-        <translation>Не могу вернуться домой, когда настрою режим!</translation>
+        <translation>Не возможно вернуться &quot;домой&quot; в режиме настройки!</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="2307"/>
         <location filename="dialogframe.cpp" line="2320"/>
         <source>当机械手在模内并且手臂不在上位安全区域时，不允许执行原点复归操作！</source>
-        <translation>Невозможно выполнить домашнюю операцию, пока робот находится в зоне плесени!</translation>
+        <translation>Невозможно выполнить домашнюю операцию, пока робот находится в зоне ПФ!</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="2310"/>
         <location filename="dialogframe.cpp" line="2323"/>
         <source>机械手在模内并且手臂不在上位安全区域，确定要执行原点复归操作吗？</source>
-        <translation>Рука находится в зоне плесени, но не в верхней зоне безопасности. Вы уверены, что вернетесь в исходное положение?</translation>
+        <translation>Рука находится в зоне ПФ, но не в верхней зоне безопасности. Вы уверены, что хотите в исходное положение?</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="2332"/>
         <source>没有加工完成，不允许执行原点复归操作！</source>
-        <translation type="unfinished"></translation>
+        <translation>До завершения обработки операция возврата в исходное положение не допускается!</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="2352"/>
         <source>原点复归</source>
-        <translation>самонаводящийся</translation>
+        <translation>Домой</translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="2387"/>
@@ -1718,14 +1717,14 @@
         <source>上传程序文件参数到主控模块出错，不能修改伺服全局速度设置！
 请检查操作器和主控模块的通讯链路。</source>
         <translation>Ошибка загрузки параметров программы, невозможно установить глобальную скорость сервоприводов!
-Пожалуйста, проверьте связь между подвеской и главным модулем управления.</translation>
+Пожалуйста, проверьте канал связи между оператором и главным модулем управления. </translation>
     </message>
     <message>
         <location filename="dialogframe.cpp" line="2538"/>
         <source>主控模块更新当前程序失败，不能修改伺服全局速度设置！
 请检查操作器和主控模块的通讯链路。</source>
         <translation>Ошибка программы перепрошивки, невозможно установить глобальную скорость сервоприводов
-Пожалуйста, проверьте связь между подвеской и главным модулем управления.</translation>
+Пожалуйста, проверьте канал связи между оператором и главным модулем управления. </translation>
     </message>
 </context>
 <context>
@@ -1733,7 +1732,7 @@
     <message>
         <location filename="dialogkeyboard.cpp" line="127"/>
         <source>字符键盘</source>
-        <translation>Клавиатура персонажа</translation>
+        <translation>Символ. клавиатура</translation>
     </message>
     <message>
         <location filename="dialogkeyboard.cpp" line="136"/>
@@ -1743,7 +1742,7 @@
     <message>
         <location filename="dialogkeyboard.cpp" line="146"/>
         <source>输入文件名</source>
-        <translation>Имя входного файла</translation>
+        <translation>Имя вход. файла</translation>
     </message>
     <message>
         <location filename="dialogkeyboard.cpp" line="176"/>
@@ -1752,18 +1751,18 @@
         <location filename="dialogkeyboard.cpp" line="496"/>
         <location filename="dialogkeyboard.cpp" line="513"/>
         <source>中文</source>
-        <translation></translation>
+        <translation>Китайский</translation>
     </message>
     <message>
         <location filename="dialogkeyboard.cpp" line="512"/>
         <location filename="dialogkeyboard.cpp" line="515"/>
         <source>EN</source>
-        <translation></translation>
+        <translation>Английский</translation>
     </message>
     <message>
         <location filename="dialogkeyboard.ui" line="1204"/>
         <source>&gt;&gt;</source>
-        <translation></translation>
+        <translation>&gt;&gt;</translation>
     </message>
 </context>
 <context>
@@ -1784,12 +1783,12 @@
     <message>
         <location filename="dialoglogio.ui" line="272"/>
         <source>伺服</source>
-        <translation>сервопривод</translation>
+        <translation>Серво</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="293"/>
         <source>扩展轴</source>
-        <translation>простираться</translation>
+        <translation>Расшир.</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="340"/>
@@ -1799,7 +1798,7 @@
         <location filename="dialoglogio.ui" line="1372"/>
         <location filename="dialoglogio.ui" line="1630"/>
         <source>原点</source>
-        <translation>Точка О</translation>
+        <translation>Начало</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="388"/>
@@ -1809,7 +1808,7 @@
         <location filename="dialoglogio.ui" line="1420"/>
         <location filename="dialoglogio.ui" line="1726"/>
         <source>负限</source>
-        <translation>CCWL</translation>
+        <translation>Отриц. предел</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="436"/>
@@ -1819,7 +1818,7 @@
         <location filename="dialoglogio.ui" line="1468"/>
         <location filename="dialoglogio.ui" line="1678"/>
         <source>正限</source>
-        <translation>CWL</translation>
+        <translation>Полож. предел</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="484"/>
@@ -1829,7 +1828,7 @@
         <location filename="dialoglogio.ui" line="1516"/>
         <location filename="dialoglogio.ui" line="1774"/>
         <source>报警</source>
-        <translation>Тревога</translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="532"/>
@@ -1839,47 +1838,47 @@
         <location filename="dialoglogio.ui" line="1564"/>
         <location filename="dialoglogio.ui" line="1822"/>
         <source>使能</source>
-        <translation>Включить</translation>
+        <translation>Вкл</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="551"/>
         <source>副臂上下轴</source>
-        <translation>RA Ver</translation>
+        <translation>RA Верт.</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="809"/>
         <source>副臂引拔轴</source>
-        <translation>RA Hor</translation>
+        <translation>RA Гориз.</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="1067"/>
         <source>正臂上下轴</source>
-        <translation>Вверх и вниз</translation>
+        <translation>PA Верт.</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="1325"/>
         <source>横行轴</source>
-        <translation>Горизонтальная ось</translation>
+        <translation>Гориз. ось</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="1583"/>
         <source>正臂引拔轴</source>
-        <translation>PA Hor</translation>
+        <translation>PA Гориз.</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="1893"/>
         <source>正臂上位安全区</source>
-        <translation>Мастер позиция на безопасном участке</translation>
+        <translation>РА. ВерхЗонаБезоп</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="1941"/>
         <source>副臂上位安全区</source>
-        <translation>вторая зона безопасности плеча</translation>
+        <translation>RА. ВерхЗонаБезоп</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="1989"/>
         <source>横行模外安全区</source>
-        <translation>Выход в безопасную зону</translation>
+        <translation>БезопЗонаЗаПФ</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="2006"/>
@@ -1890,7 +1889,7 @@
     <message>
         <location filename="dialoglogio.ui" line="2027"/>
         <source>输入信号</source>
-        <translation>вход</translation>
+        <translation>Вход</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="2717"/>
@@ -1900,7 +1899,7 @@
     <message>
         <location filename="dialoglogio.ui" line="3279"/>
         <source>扩展输出</source>
-        <translation>вн выход</translation>
+        <translation>РасшВых</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="3300"/>
@@ -1909,33 +1908,33 @@
         <location filename="dialoglogio.ui" line="8878"/>
         <location filename="dialoglogio.ui" line="9670"/>
         <source>扩展模块1</source>
-        <translation>вн выход1</translation>
+        <translation>МодРасш1</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="4095"/>
         <source>扩展模块3</source>
-        <translation>вн выход2</translation>
+        <translation>МодРасш2</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="4887"/>
         <source>扩展模块2</source>
-        <translation>вн выход3</translation>
+        <translation>МодРасш3</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="5682"/>
         <source>扩展模块4</source>
-        <translation>вн выход4</translation>
+        <translation>МодРасш4</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="6474"/>
         <location filename="dialoglogio.ui" line="10465"/>
         <source>主控模块</source>
-        <translation>мастер модуль</translation>
+        <translation>ГлавнМодуль</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="7270"/>
         <source>扩展输入</source>
-        <translation>дополнительный ввод</translation>
+        <translation>РасшВход</translation>
     </message>
     <message>
         <location filename="dialoglogio.ui" line="11261"/>
@@ -1963,18 +1962,18 @@
         <location filename="dialoglogio.cpp" line="82"/>
         <location filename="dialoglogio.cpp" line="94"/>
         <source>铸机全自动</source>
-        <translation>IMM-автоматический</translation>
+        <translation>IMM-Авто</translation>
     </message>
     <message>
         <location filename="dialoglogio.cpp" line="83"/>
         <location filename="dialoglogio.cpp" line="95"/>
         <source>压铸机</source>
-        <translation>Литейная машина</translation>
+        <translation>IMM</translation>
     </message>
     <message>
         <location filename="dialoglogio.cpp" line="85"/>
         <source>机床安全设备</source>
-        <translation>Литейная машина</translation>
+        <translation>IMM-SDM</translation>
     </message>
     <message>
         <location filename="dialoglogio.cpp" line="86"/>
@@ -2012,73 +2011,73 @@
     <message>
         <location filename="dialoglogpar.ui" line="130"/>
         <source>记录参数设置状态</source>
-        <translation>Параметры записи</translation>
+        <translation>Запись парам.</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="23"/>
         <source>参数设置状态记录时间：</source>
-        <translation>Параметр времени:</translation>
+        <translation>ВремЗапПарам:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="30"/>
         <source>当前日志记录系统参数设置状态无效！</source>
-        <translation>Параметр текущей системы регистрации недействителен!</translation>
+        <translation>Парам.текущ.системы регист. недействителен!</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="37"/>
         <source>系统参数设置：
 </source>
-        <translation>Текущая позиция:</translation>
+        <translation>Системн. параметры:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="39"/>
         <source>计划生产数量：</source>
-        <translation>Производственный план:</translation>
+        <translation>План производ.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="41"/>
         <source>生产数量提醒：</source>
-        <translation>Напомнить объем экспорта:</translation>
+        <translation>НапомОбъемПроизв:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="43"/>
         <source>不良品数量报警：</source>
-        <translation>Количество бракованной продукции:</translation>
+        <translation>КоличБрака:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="45"/>
         <source>报警鸣叫次数：</source>
-        <translation>Звуковой номер:</translation>
+        <translation>ЧислЗвукТревог:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="47"/>
         <source>报警器鸣叫时间：</source>
-        <translation>Задержка звукового сигнала:</translation>
+        <translation>ЗадерЗвука:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="49"/>
         <source>打油间隔：</source>
-        <translation>Интервал масла:</translation>
+        <translation>Интерв. смазки:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="51"/>
         <source>打油时间：</source>
-        <translation>Время масла:</translation>
+        <translation>Время смазки:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="53"/>
         <source>横行时正臂倒角水平：</source>
-        <translation>Поворот по горизонтали при движении:</translation>
+        <translation>Поворот по гориз. при движ.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="55"/>
         <source>打开安全门暂停自动运行：</source>
-        <translation>Автоматическая работа при открытой паузе:</translation>
+        <translation>Пауза при откр. двери:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="57"/>
         <source>正臂模内倒角允许：</source>
-        <translation>Включить вращение в форме:</translation>
+        <translation>Вкл.вращение в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="59"/>
@@ -2089,134 +2088,134 @@
         <location filename="dialoglogpar.cpp" line="63"/>
         <location filename="dialoglogpar.cpp" line="79"/>
         <source>压铸机关模完成信号使用：</source>
-        <translation>включить IMM MCP сигнал: </translation>
+        <translation>Вкл. IMM MCP сигнал: </translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="65"/>
         <location filename="dialoglogpar.cpp" line="81"/>
         <source>压铸机开模中间信号使用：</source>
-        <translation>включить IMM IMOP сигнал:</translation>
+        <translation>Вкл. IMM IMOP сигнал:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="67"/>
         <location filename="dialoglogpar.cpp" line="83"/>
         <source>压铸机开中板模确认信号使用：</source>
-        <translation>включить IMM MMOP сигнал:</translation>
+        <translation>Вкл. IMM MMOP сигнал:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="70"/>
         <source>机床关模完成信号使用：</source>
-        <translation>включить IMM MCP сигнал:</translation>
+        <translation>Вкл. IMM MCP сигнал:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="72"/>
         <source>机床开模中间信号使用：</source>
-        <translation>включить IMM IMOP сигнал:</translation>
+        <translation>Вкл. IMM IMOP сигнал:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="74"/>
         <source>机床开中板模确认信号使用：</source>
-        <translation>включить IMM MMOP сигнал:</translation>
+        <translation>Вкл. IMM MMOP сигнал:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="88"/>
         <source>注塑机关模完成信号使用：</source>
-        <translation>включить IMM MCP сигнал:</translation>
+        <translation>Вкл. IMM MCP сигнал:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="90"/>
         <source>注塑机开模中间信号使用：</source>
-        <translation>включить IMM IMOP сигнал:</translation>
+        <translation>Вкл. IMM IMOP сигнал:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="92"/>
         <source>注塑机开中板模确认信号使用：</source>
-        <translation>включить IMM MMOP сигнал:</translation>
+        <translation>Вкл. IMM MMOP сигнал:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="96"/>
         <source>扩展轴伺服使用：</source>
-        <translation>Включить расширенное серво:</translation>
+        <translation>Вкл. расшир. серво:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="98"/>
         <source>副臂上下轴伺服使用：</source>
-        <translation>Верхняя и нижняя ось сервопривода стрелы：</translation>
+        <translation>ИспСерво RA.Ver:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="100"/>
         <source>副臂引拔轴伺服使用：</source>
-        <translation>включить RA.Hor:</translation>
+        <translation>ИспСерво RA.Hor:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="102"/>
         <source>气动副臂使用：</source>
-        <translation>Пневматическая стрела：</translation>
+        <translation>Исп. пневмо RA:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="104"/>
         <source>气动副臂下位电眼使用：</source>
-        <translation>Пневматическая стрела нижнего положения с использованием электрических глаз：</translation>
+        <translation>Исп. пневмо RA с датчиком:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="106"/>
         <source>气动副臂前进电眼使用：</source>
-        <translation>включить RA adv датчик:</translation>
+        <translation>Исп. пневмо RA с пер. датч.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="108"/>
         <source>气动副臂后退电眼使用：</source>
-        <translation>включить RA ret датчик:</translation>
+        <translation>Исп. пневмо RA с зад. дат:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="110"/>
         <source>调位使用：</source>
-        <translation>Включить пневморегулировку:</translation>
+        <translation>Исп. пневмонастройку:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="112"/>
         <source>换治具使用: </source>
-        <translation>Включить прибор:</translation>
+        <translation>Исп. Jig:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="114"/>
         <source>原点在模内: </source>
-        <translation>Дом в плесени:</translation>
+        <translation>Дом в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="116"/>
         <source>进程二使用: </source>
-        <translation>Использование процесса 2:</translation>
+        <translation>Исп. процесс 2:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="118"/>
         <source>进程三使用: </source>
-        <translation>Использование процесса 3:</translation>
+        <translation>Исп. процесс 3:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="120"/>
         <source>气动正臂倒角使用: </source>
-        <translation>Пневматическое положительное снятие фаски руки:</translation>
+        <translation>Исп. пневмо РA с повор. датч.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="122"/>
         <source>气动副臂倒角使用: </source>
-        <translation>Пневматическая фаска фаски:</translation>
+        <translation>Исп. пневмо RA с повор. датч.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="124"/>
         <source>取物失败开关安全门程序结束: </source>
-        <translation>Выключить аварийный выключатель двери программы:</translation>
+        <translation>Fetch ошибка - Конец программы :</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="126"/>
         <source>打油使用: </source>
-        <translation>Включить масло:</translation>
+        <translation>Исп. смазку:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="128"/>
         <source>开机打油: </source>
-        <translation>Startup Oil:</translation>
+        <translation>Старт смазки:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="130"/>
@@ -2236,12 +2235,12 @@
     <message>
         <location filename="dialoglogpar.cpp" line="139"/>
         <source>扩展控制位: </source>
-        <translation>Дополнительный бит управления:</translation>
+        <translation>Доп. бит управл.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="141"/>
         <source>退出时清除扩展IO口使用: </source>
-        <translation>Очистить расширенный порт ввода-вывода при выходе:</translation>
+        <translation>Очистка доп. IO при выходе:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="144"/>
@@ -2326,22 +2325,22 @@
     <message>
         <location filename="dialoglogpar.cpp" line="185"/>
         <source>主控模块输入反相：</source>
-        <translation>Главный вход инверсии:</translation>
+        <translation>Инверсия глав. входа:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="187"/>
         <source>主控模块2输入反相：</source>
-        <translation type="unfinished"></translation>
+        <translation>Инверсия входа2</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="189"/>
         <source>主控模块3输入反相：</source>
-        <translation type="unfinished"></translation>
+        <translation>Инверсия входа3</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="191"/>
         <source>主控模块4输入反相：</source>
-        <translation type="unfinished"></translation>
+        <translation>Инверсия входа4</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="193"/>
@@ -2366,122 +2365,122 @@
     <message>
         <location filename="dialoglogpar.cpp" line="202"/>
         <source>主控模块输出反相：</source>
-        <translation type="unfinished"></translation>
+        <translation>Инверсия глав. выхода:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="204"/>
         <source>主控模块2输出反相：</source>
-        <translation type="unfinished"></translation>
+        <translation>Инверсия выхода2</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="206"/>
         <source>主控模块3输出反相：</source>
-        <translation type="unfinished"></translation>
+        <translation>Инверсия выхода3</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="208"/>
         <source>主控模块4输出反相：</source>
-        <translation type="unfinished"></translation>
+        <translation>Инверсия выхода4</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="211"/>
         <source>扩展模块1输出反相：</source>
-        <translation>Em1 выход инверсии:</translation>
+        <translation>Em1 выходная инверсии:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="213"/>
         <source>扩展模块2输出反相：</source>
-        <translation>Em2 выход инверсии:</translation>
+        <translation>Em2 выходная инверсии:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="215"/>
         <source>扩展模块3输出反相：</source>
-        <translation>Em3 выход инверсии:</translation>
+        <translation>Em3 выходная инверсии:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="217"/>
         <source>扩展模块4输出反相：</source>
-        <translation>Em4 выход инверсии:</translation>
+        <translation>Em4 выходная инверсии:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="220"/>
         <source>主控模块输入报警允许忽略：</source>
-        <translation>Сигналы основного входа игнорируются:</translation>
+        <translation>Сигн. основ. входа игнор.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="222"/>
         <source>主控模块2输入报警允许忽略：</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигн. основ. входа2 игнорир.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="224"/>
         <source>主控模块3输入报警允许忽略：</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигн. основ. входа3 игнорир.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="226"/>
         <source>主控模块4输入报警允许忽略：</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигн. основ. входа4 игнорир.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="228"/>
         <source>扩展模块1输入报警允许忽略：</source>
-        <translation>Входные тревоги Em1 игнорируют:</translation>
+        <translation>Входные тревоги Em1 игнорир.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="230"/>
         <source>扩展模块2输入报警允许忽略：</source>
-        <translation>Входные тревоги Em2 игнорируют:</translation>
+        <translation>Входные тревоги Em2 игнорир.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="232"/>
         <source>扩展模块3输入报警允许忽略：</source>
-        <translation>Входные тревоги Em3 игнорируют:</translation>
+        <translation>Входные тревоги Em3 игнорир.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="234"/>
         <source>扩展模块4输入报警允许忽略：</source>
-        <translation>Входные тревоги Em4 игнорируют:</translation>
+        <translation>Входные тревоги Em4 игнорир.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="236"/>
         <source>主控模块模内不报警：</source>
-        <translation>Основное отсутствие тревоги в плесени:</translation>
+        <translation>Основ.сигн. тревоги отсут.в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="238"/>
         <source>主控模块2模内不报警：</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигн.2 тревоги отсут.в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="240"/>
         <source>主控模块3模内不报警：</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигн.3 тревоги отсут.в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="242"/>
         <source>主控模块4模内不报警：</source>
-        <translation type="unfinished"></translation>
+        <translation>Сигн.4 тревоги отсут.в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="244"/>
         <source>扩展模块1模内不报警：</source>
-        <translation>Em1 нет тревоги в плесени:</translation>
+        <translation>Em1 нет тревоги в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="246"/>
         <source>扩展模块2模内不报警：</source>
-        <translation>Em2 нет тревоги в плесени:</translation>
+        <translation>Em2 нет тревоги в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="248"/>
         <source>扩展模块3模内不报警：</source>
-        <translation>Em3 нет тревоги в плесени:</translation>
+        <translation>Em3 нет тревоги в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="250"/>
         <source>扩展模块4模内不报警：</source>
-        <translation>Em4 нет тревоги в плесени:</translation>
+        <translation>Em4 нет тревоги в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="260"/>
@@ -2492,377 +2491,377 @@
         <location filename="dialoglogpar.cpp" line="267"/>
         <source>伺服参数设置：
 </source>
-        <translation>Параметры сервопривода:</translation>
+        <translation>Парам.серво:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="269"/>
         <source>正臂上行位置安全区域：0 - </source>
-        <translation>Безопасная зона Главная сверху: 0 -</translation>
+        <translation>РА.Зона безоп. верх: 0 -</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="271"/>
         <source>副臂上行位置安全区域：0 - </source>
-        <translation>Зона безопасности выше: 0 -</translation>
+        <translation>RА.Зона безоп. верх: 0 -</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="273"/>
         <source>正臂引拔模内安全区域：</source>
-        <translation>Безопасная и обратная безопасная зона:</translation>
+        <translation>РА.Зона безоп.гориз:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="277"/>
         <source>副臂引拔模内安全区域：</source>
-        <translation>Зона безопасности Задний выключатель Подсветка:</translation>
+        <translation>RA.Зона безоп.гориз:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="281"/>
         <source>副臂引拔横行安全区域：</source>
-        <translation>Зона безопасности Аксессуары бегут Статус:</translation>
+        <translation>RA.Зона безоп.движ.гориз:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="285"/>
         <source>横行模外安全区域：</source>
-        <translation>Безопасная зона в и из блока:</translation>
+        <translation>Зона безоп. за предел.ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="289"/>
         <source>正臂引拔轴模内安全区域：</source>
-        <translation>PA.наъездная зона безопасности:</translation>
+        <translation>PA.Зона безоп.движ. в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="293"/>
         <source>正臂引拔轴横行安全区域：</source>
-        <translation>PA.Hor путешествия зоны безопасности:</translation>
+        <translation>PA.Зона безоп.движ.гориз:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="297"/>
         <source>副臂横行模内安全区域：</source>
-        <translation>RA.путешествие в зону безопасности плесени:</translation>
+        <translation>RA.Зона безоп.движ. в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="301"/>
         <source>横行模外安全区域2：</source>
-        <translation>Зона безопасности выездной формы 2:</translation>
+        <translation>Зона безоп. за предел.ПФ2:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="305"/>
         <source>副臂上下轴(倒角)模内安全区域：</source>
-        <translation>RA Ver(Повернуть) в форме SAF:</translation>
+        <translation>RA Верт(Повор)ЗонБез в ПФ :</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="309"/>
         <source>副臂上下轴(倒角)横行安全区域：</source>
-        <translation>RA Ver(Поворот) путешествия SAF:</translation>
+        <translation>RA Верт(Повор)движ. в ПФ :</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="313"/>
         <source>扩展轴模内安全区域：</source>
-        <translation>Расширенная зона безопасности:</translation>
+        <translation>Расш.зона безоп. в ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="317"/>
         <source>扩展轴横行安全区域：</source>
-        <translation>Зона безопасности распространяется на:</translation>
+        <translation>Расш.зона безоп.движ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="321"/>
         <source>正臂原点和副臂原点距离：</source>
-        <translation>Начало положительного рычага и расстояние начала стрелы：</translation>
+        <translation>Начал.полож:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="323"/>
         <source>正臂和副臂最小安全间距：</source>
-        <translation>Минимальное расстояние между основным рычагом и стрелой:</translation>
+        <translation>Миним.дистанц.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="326"/>
         <source>正臂引拔轴运行速度：</source>
-        <translation>PA.Hor скорость:</translation>
+        <translation>PA.гориз.скор:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="328"/>
         <source>正臂引拔轴加速度：</source>
-        <translation>PA.Hor ускорение:</translation>
+        <translation>PA.гориз.ускор:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="330"/>
         <source>正臂引拔轴JERK加加速：</source>
-        <translation>Положительный рычаг извлечения вала ускорения JERK:</translation>
+        <translation>PA.гориз. JERK уск.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="332"/>
         <source>正臂引拔轴马达转动一圈距离：</source>
-        <translation>Положительный рычаг тянет вал двигателя, чтобы вращать круг:</translation>
+        <translation>PA гориз. расст. вращ. мотора:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="334"/>
         <source>正臂引拔轴马达转动一圈需脉冲：</source>
-        <translation>Положительный рычаг тянет вал двигателя для вращения на один оборот и нуждается в импульсе:</translation>
+        <translation>PA гориз. импульс вращ. мотора:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="336"/>
         <source>正臂引拔轴原点偏移：</source>
-        <translation>PA Hor Смещение начала координат:</translation>
+        <translation>PA Гориз. Дом.смещ.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="338"/>
         <source>正臂引拔轴编码器：</source>
-        <translation>Датчик положения съемника положительного рычага：</translation>
+        <translation>PA Гориз. энкодер:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="340"/>
         <source>正臂引拔轴原点待机点：</source>
-        <translation>Начальная точка ожидания положительной оси рычага：</translation>
+        <translation>PA Гориз. Дом. ожид.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="342"/>
         <source>正臂引拔轴模：</source>
-        <translation>Положительный рычаг волочения вала умирает：</translation>
+        <translation>PA.Гориз. ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="344"/>
         <source>副臂引拔轴运行速度：</source>
-        <translation>RA.Hor скорость:</translation>
+        <translation>RA.Гориз. скор.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="346"/>
         <source>副臂引拔轴加速度：</source>
-        <translation>RA.Hor ускорение:</translation>
+        <translation>RA.гориз.ускор:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="348"/>
         <source>副臂引拔轴JERK加加速：</source>
-        <translation>Ось тяги стрелы JERK плюс ускорение：</translation>
+        <translation>RA.гориз. JERK уск.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="350"/>
         <source>副臂引拔轴马达转动一圈距离：</source>
-        <translation>Стрела тянет вал двигателя, чтобы вращать круг：</translation>
+        <translation>RA гориз. расст. вращ. мотора:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="352"/>
         <source>副臂引拔轴马达转动一圈需脉冲：</source>
-        <translation>Стрела тянет вал двигателя, чтобы вращать один оборот, и должен пульсировать：</translation>
+        <translation>RA гориз. импульс вращ. мотора:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="354"/>
         <source>副臂引拔轴原点偏移：</source>
-        <translation>Начальное смещение оси тяги оси：</translation>
+        <translation>RA Гориз. Дом.смещ.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="356"/>
         <source>副臂引拔轴编码器：</source>
-        <translation>Датчик положения съемника вторичного рычага：</translation>
+        <translation>RA Гориз. энкодер:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="358"/>
         <source>副臂引拔轴原点待机点：</source>
-        <translation>Начальная точка ожидания оси выдвижения вспомогательного рычага：</translation>
+        <translation>RA Гориз. Дом. ожид.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="360"/>
         <source>副臂引拔轴模：</source>
-        <translation>Матрица тяги оси：</translation>
+        <translation>RA. Гориз.ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="363"/>
         <source>正臂上下轴软件行程：</source>
-        <translation>PA.Hor Программное обеспечение поездки:</translation>
+        <translation>PA. Гориз. програм. расст.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="365"/>
         <source>正臂上下轴运行速度：</source>
-        <translation>PA.Ver скорость:</translation>
+        <translation>PA. Верт. скор.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="367"/>
         <source>正臂上下轴加速度：</source>
-        <translation>PA.Ver ускорение:</translation>
+        <translation>PA. Верт. уск.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="369"/>
         <source>正臂上下轴JERK加加速：</source>
-        <translation>Положительный рычаг вверх и вниз по оси JERK плюс ускорение：</translation>
+        <translation>PA.гориз. JERK уск.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="371"/>
         <source>正臂上下轴马达转动一圈距离：</source>
-        <translation>Верхний и нижний вал положительного рычага вращаются на один оборот：</translation>
+        <translation>PA верт. расст. вращ. мотора:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="373"/>
         <source>正臂上下轴马达转动一圈需脉冲：</source>
-        <translation>Импульсы мотора поворачивают по кругу PA Ver:</translation>
+        <translation>PA верт. импульс вращ. мотора:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="375"/>
         <source>正臂上下轴原点偏移：</source>
-        <translation>PA Ver 0смещение:</translation>
+        <translation>PA верт. Дом.смещ.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="377"/>
         <source>正臂上下轴编码器：</source>
-        <translation>Датчик положения верхнего и нижнего вала положительного рычага：</translation>
+        <translation>PA верт. энкодер:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="379"/>
         <source>正臂上下轴原点待机点：</source>
-        <translation>Начальная точка ожидания положительного рычага вверх и вниз：</translation>
+        <translation>PA верт. Дом. ожид.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="381"/>
         <source>正臂上下轴模：</source>
-        <translation>Режим верхней и нижней оси положительного рычага：</translation>
+        <translation>PA. верт.ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="383"/>
         <source>副臂上下轴软件行程：</source>
-        <translation>RA.Ver Программное обеспечение поездки:</translation>
+        <translation>RA. верт. програм. расст.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="385"/>
         <source>副臂上下轴运行速度：</source>
-        <translation>RA.Ver скорость:</translation>
+        <translation>RA. Верт. скор.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="387"/>
         <source>副臂上下轴加速度：</source>
-        <translation>RA.Ver ускорение:</translation>
+        <translation>RA. Верт. уск.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="389"/>
         <source>副臂上下轴JERK加加速：</source>
-        <translation>ДЖЕРК ускорение верхней и нижней оси стрелы：</translation>
+        <translation>RA.гориз. JERK уск.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="391"/>
         <source>副臂上下轴马达转动一圈距离：</source>
-        <translation>Стрела верхнего и нижнего вала двигателя вращается на один оборот：</translation>
+        <translation>RA верт. расст. вращ. мотора:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="393"/>
         <source>副臂上下轴马达转动一圈需脉冲：</source>
-        <translation>Верхнему и нижнему валу двигателя стрелы требуется один импульс для вращения на один оборот：</translation>
+        <translation>RA верт. импульс вращ. мотора:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="395"/>
         <source>副臂上下轴原点偏移：</source>
-        <translation>Смещение начала координат нижней и нижней оси вспомогательного рычага：</translation>
+        <translation>RA верт. Дом.смещ.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="397"/>
         <source>副臂上下轴编码器：</source>
-        <translation>Датчик верхнего и нижнего вала вспомогательного рычага：</translation>
+        <translation>RA верт. энкодер:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="399"/>
         <source>副臂上下轴原点待机点：</source>
-        <translation>Вспомогательный рычаг нижней и нижней оси, начальная точка ожидания：</translation>
+        <translation>RA верт. Дом. ожид.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="401"/>
         <source>副臂上下轴模：</source>
-        <translation>Режим нижнего и нижнего вала вторичного рычага：</translation>
+        <translation>RA верт.ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="404"/>
         <source>横行轴软件行程：</source>
-        <translation>Программный ход по горизонтальной оси:</translation>
+        <translation>Попереч. прогр. расст.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="406"/>
         <source>横行轴运行速度：</source>
-        <translation>Скорость доступа:</translation>
+        <translation>Trv скор.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="408"/>
         <source>横行轴加速度：</source>
-        <translation>Ускорение боковой оси:</translation>
+        <translation>Trv ускор.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="410"/>
         <source>横行轴JERK加加速：</source>
-        <translation>Горизонтальная ось JERK плюс ускорение：</translation>
+        <translation>Trv JERK уск.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="412"/>
         <source>横行轴马达转动一圈距离：</source>
-        <translation>Горизонтальная ось двигателя вращается на один оборот：</translation>
+        <translation>Расст. обор. Trv оси:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="414"/>
         <source>横行轴马达转动一圈需脉冲：</source>
-        <translation>Двигателю с горизонтальной осью требуется один импульс для вращения на один оборот：</translation>
+        <translation>Импул. обор. Trv оси:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="416"/>
         <source>横行轴原点偏移：</source>
-        <translation>Смещение начала горизонтальной оси：</translation>
+        <translation>Trv Дом.смещ.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="418"/>
         <source>横行轴编码器：</source>
-        <translation>Датчик горизонтальной оси：</translation>
+        <translation>Trv энкодер:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="420"/>
         <source>横行轴原点待机点：</source>
-        <translation>Начальная точка ожидания горизонтальной оси：</translation>
+        <translation>Trv Дом. ожид.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="422"/>
         <source>横行轴模：</source>
-        <translation>Режим боковой оси：</translation>
+        <translation>Trv ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="424"/>
         <source>扩展轴软件行程：</source>
-        <translation>дистанция программного обеспечения:</translation>
+        <translation>Доп.ось прогр. расст.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="426"/>
         <source>扩展轴运行速度：</source>
-        <translation>Скорость расширения:</translation>
+        <translation>Доп.ось скор.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="428"/>
         <source>扩展轴加速度：</source>
-        <translation>Расширенное ускорение:</translation>
+        <translation>Доп.ось ускор.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="430"/>
         <source>扩展轴JERK加加速：</source>
-        <translation>Выдвинутая ось JERK плюс ускорение：</translation>
+        <translation>Доп.ось JERK уск.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="432"/>
         <source>扩展轴马达转动一圈距离：</source>
-        <translation>Удлиненный вал двигателя вращается на один оборот：</translation>
+        <translation>Расст. обор. дополн. оси:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="434"/>
         <source>扩展轴马达转动一圈需脉冲：</source>
-        <translation>Двигателю расширительного вала требуется один импульс для вращения на один оборот.：</translation>
+        <translation>Импул. обор. дополн. оси:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="436"/>
         <source>扩展轴原点偏移：</source>
-        <translation>Исходное смещение расширенной оси：</translation>
+        <translation>Дополн.ось Дом.смещ.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="438"/>
         <source>扩展轴编码器：</source>
-        <translation>Расширенный датчик положения вала：</translation>
+        <translation>Дополн.ось энкодер:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="440"/>
         <source>扩展轴原点待机点：</source>
-        <translation>Начальная точка ожидания расширенной оси：</translation>
+        <translation>Дополн.ось Дом. ожид.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="442"/>
         <source>扩展轴模：</source>
-        <translation>Расширенный режим вала：</translation>
+        <translation>Дополн.ось.ПФ:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="445"/>
@@ -2872,22 +2871,22 @@
     <message>
         <location filename="dialoglogpar.cpp" line="447"/>
         <source>减速类型：</source>
-        <translation>Тип замедления：</translation>
+        <translation>Тип замедл.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="449"/>
         <source>原点归位模式：</source>
-        <translation>Исходный режим самонаведения：</translation>
+        <translation>Режим Дом:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="451"/>
         <source>原点归位快速速度：</source>
-        <translation>О высокой скорости:</translation>
+        <translation>Дом, быстр.скор.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="453"/>
         <source>原点归位慢速速度：</source>
-        <translation>О низкой скорости:</translation>
+        <translation>Дом, низк.скор.:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="462"/>
@@ -2898,7 +2897,7 @@
         <location filename="dialoglogpar.cpp" line="468"/>
         <source>界面参数设置：
 </source>
-        <translation>Настройки интерфейса:</translation>
+        <translation>Настр. интерф-са:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="470"/>
@@ -2927,7 +2926,7 @@
         <location filename="dialoglogpar.cpp" line="478"/>
         <source>РУССКИЕ</source>
         <comment>不要翻译</comment>
-        <translation>РУССКИЕ</translation>
+        <translation>Я Русский</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="480"/>
@@ -2960,17 +2959,17 @@
     <message>
         <location filename="dialoglogpar.cpp" line="490"/>
         <source>震动反馈：</source>
-        <translation>Вибрационная обратная связь:</translation>
+        <translation>Виброотклик:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="492"/>
         <source>按键提示音：</source>
-        <translation>Ключевой тон:</translation>
+        <translation>Звук клавиш:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="494"/>
         <source>触屏提示音：</source>
-        <translation>Сенсорный тон:</translation>
+        <translation>Звук сенсор:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="496"/>
@@ -2985,7 +2984,7 @@
     <message>
         <location filename="dialoglogpar.cpp" line="500"/>
         <source>原点归位安全开关长按：</source>
-        <translation>возвращаться всегда:</translation>
+        <translation>ДОМ всегда включен:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="509"/>
@@ -2997,7 +2996,7 @@
         <location filename="dialoglogpar.cpp" line="514"/>
         <source>报警时各轴伺服位置：
 </source>
-        <translation>Сервоприводы:</translation>
+        <translation>Сервопозиции:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="516"/>
@@ -3039,12 +3038,12 @@
         <location filename="dialoglogpar.cpp" line="534"/>
         <source>系统状态改变时各轴伺服位置：
 </source>
-        <translation>Текущая позиция:</translation>
+        <translation>Текущ.позиция:</translation>
     </message>
     <message>
         <location filename="dialoglogpar.cpp" line="548"/>
         <source>当前日志记录没有参数设置状态。</source>
-        <translation>Текущая запись в журнале не имеет параметров.</translation>
+        <translation>Текущ. запись в журн.не имеет параметров.</translation>
     </message>
 </context>
 <context>
@@ -3052,12 +3051,12 @@
     <message>
         <location filename="dialoglogquery.ui" line="130"/>
         <source>日志记录查询</source>
-        <translation>Дневник доступа</translation>
+        <translation>Журнал запросов</translation>
     </message>
     <message>
         <location filename="dialoglogquery.ui" line="265"/>
         <source>显示系统消息日志记录</source>
-        <translation>Показать системные сообщения</translation>
+        <translation>Показать систем. сообщ.</translation>
     </message>
     <message>
         <location filename="dialoglogquery.ui" line="305"/>
@@ -3067,32 +3066,32 @@
     <message>
         <location filename="dialoglogquery.ui" line="345"/>
         <source>显示一般日志记录</source>
-        <translation>Показать нормальные записи</translation>
+        <translation>Показать нормал.записи</translation>
     </message>
     <message>
         <location filename="dialoglogquery.ui" line="403"/>
         <source>开始时间：</source>
-        <translation>Начать:</translation>
+        <translation>Начало:</translation>
     </message>
     <message>
         <location filename="dialoglogquery.ui" line="499"/>
         <source>结束时间：</source>
-        <translation>Конец:</translation>
+        <translation>Окончание:</translation>
     </message>
     <message>
         <location filename="dialoglogquery.ui" line="591"/>
         <source>按日期查询日志记录</source>
-        <translation>Запись времени запроса</translation>
+        <translation>Запись врем. запроса</translation>
     </message>
     <message>
         <location filename="dialoglogquery.ui" line="631"/>
         <source>显示系统报警日志记录</source>
-        <translation>Показать системные тревоги</translation>
+        <translation>Показ. систем. ошибки</translation>
     </message>
     <message>
         <location filename="dialoglogquery.ui" line="678"/>
         <source>取消</source>
-        <translation>отменить</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="dialoglogquery.ui" line="719"/>
@@ -3105,22 +3104,22 @@
     <message>
         <location filename="dialognumberpad.ui" line="143"/>
         <source>数字键盘</source>
-        <translation>Цифровая клавиатура</translation>
+        <translation>Цифр.клавиатура</translation>
     </message>
     <message>
         <location filename="dialognumberpad.ui" line="583"/>
         <source>待机点</source>
-        <translation>Точка ожидания</translation>
+        <translation>Точка ожидан.</translation>
     </message>
     <message>
         <location filename="dialognumberpad.ui" line="623"/>
         <source>取物点</source>
-        <translation>Точка получения</translation>
+        <translation>Точка получ.</translation>
     </message>
     <message>
         <location filename="dialognumberpad.ui" line="663"/>
         <source>置物点</source>
-        <translation>Точка размещения</translation>
+        <translation>Точка размещ.</translation>
     </message>
     <message>
         <location filename="dialognumberpad.ui" line="703"/>
@@ -3145,7 +3144,7 @@
         <location filename="dialognumberpad.cpp" line="213"/>
         <location filename="dialognumberpad.cpp" line="356"/>
         <source>变量范围：400~499</source>
-        <translation>Диапазон варьирования: 400 ~ 499</translation>
+        <translation>Диапазон перем-х: 400 ~ 499</translation>
     </message>
 </context>
 <context>
@@ -3153,12 +3152,12 @@
     <message>
         <location filename="dialogoption.ui" line="23"/>
         <source>Option定制</source>
-        <translation>Tùy chọn tùy chọn</translation>
+        <translation>Опции</translation>
     </message>
     <message>
         <location filename="dialogoption.ui" line="84"/>
         <source>有效名称：</source>
-        <translation>Действительное имя:</translation>
+        <translation>Действ. имя:</translation>
     </message>
     <message>
         <location filename="dialogoption.ui" line="112"/>
@@ -3173,7 +3172,7 @@
     <message>
         <location filename="dialogoption.ui" line="223"/>
         <source>取消</source>
-        <translation>отменить</translation>
+        <translation>Отмена</translation>
     </message>
 </context>
 <context>
@@ -3181,17 +3180,17 @@
     <message>
         <location filename="dialogparaedit.ui" line="38"/>
         <source>参数编辑框</source>
-        <translation>поле редактирования параметров</translation>
+        <translation>Поле редактир. парам.</translation>
     </message>
     <message>
         <location filename="dialogparaedit.ui" line="105"/>
         <source>取消</source>
-        <translation>отмена</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="dialogparaedit.ui" line="133"/>
         <source>确定</source>
-        <translation>определить</translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
@@ -3199,13 +3198,13 @@
     <message>
         <location filename="dialogportedit.ui" line="26"/>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>Диалог</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="54"/>
         <location filename="dialogportedit.cpp" line="114"/>
         <source>扩展输入</source>
-        <translation>Расширенный ввод</translation>
+        <translation>Расш.й ввод</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="82"/>
@@ -3853,21 +3852,21 @@
         <location filename="dialogportedit.ui" line="3290"/>
         <location filename="dialogportedit.cpp" line="117"/>
         <source>端口</source>
-        <translation>порт</translation>
+        <translation>Порт</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1486"/>
         <location filename="dialogportedit.ui" line="3303"/>
         <location filename="dialogportedit.cpp" line="117"/>
         <source>默认名称</source>
-        <translation type="unfinished"></translation>
+        <translation>ИмяПоУмолч</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1499"/>
         <location filename="dialogportedit.ui" line="3316"/>
         <location filename="dialogportedit.cpp" line="117"/>
         <source>修改名称</source>
-        <translation type="unfinished"></translation>
+        <translation>ИзменИмя</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1512"/>
@@ -4185,151 +4184,151 @@
         <location filename="dialogportedit.ui" line="1772"/>
         <location filename="dialogportedit.ui" line="3589"/>
         <source>塑机急停</source>
-        <translation type="unfinished"></translation>
+        <translation>Стоп ТПА</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1777"/>
         <location filename="dialogportedit.ui" line="3594"/>
         <source>塑机安全门</source>
-        <translation type="unfinished"></translation>
+        <translation>Дверь ТПА</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1782"/>
         <location filename="dialogportedit.ui" line="3599"/>
         <source>塑机不良品</source>
-        <translation type="unfinished"></translation>
+        <translation>Брак на ТПА</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1787"/>
         <location filename="dialogportedit.ui" line="3604"/>
         <source>塑机关模完</source>
-        <translation type="unfinished"></translation>
+        <translation>ПФ закрыта</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1792"/>
         <location filename="dialogportedit.ui" line="3609"/>
         <source>塑机开模完</source>
-        <translation type="unfinished"></translation>
+        <translation>ПФ открыта</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1797"/>
         <location filename="dialogportedit.ui" line="3614"/>
         <source>塑机开模中间</source>
-        <translation type="unfinished"></translation>
+        <translation>ПФ в середине</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1802"/>
         <location filename="dialogportedit.ui" line="3619"/>
         <source>塑机全自动</source>
-        <translation type="unfinished"></translation>
+        <translation>ТПА в авто</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1807"/>
         <location filename="dialogportedit.ui" line="3624"/>
         <source>塑机顶针退</source>
-        <translation type="unfinished"></translation>
+        <translation>ТПА EEB</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1812"/>
         <location filename="dialogportedit.ui" line="3629"/>
         <source>塑机顶针进</source>
-        <translation type="unfinished"></translation>
+        <translation>ТПА EEF</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1817"/>
         <location filename="dialogportedit.ui" line="3634"/>
         <source>塑机抽芯1位1</source>
-        <translation type="unfinished"></translation>
+        <translation>ТПА Знак 1 поз1</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1822"/>
         <location filename="dialogportedit.ui" line="3639"/>
         <source>塑机抽芯1位2</source>
-        <translation type="unfinished"></translation>
+        <translation>ТПА Знак 1 поз2</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1827"/>
         <location filename="dialogportedit.ui" line="3644"/>
         <source>塑机抽芯2位1</source>
-        <translation type="unfinished"></translation>
+        <translation>ТПА Знак 2 поз1</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1832"/>
         <location filename="dialogportedit.ui" line="3649"/>
         <source>塑机抽芯2位2</source>
-        <translation type="unfinished"></translation>
+        <translation>ТПА Знак 2 поз2</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1837"/>
         <location filename="dialogportedit.ui" line="3654"/>
         <source>塑机中板模确认</source>
-        <translation type="unfinished"></translation>
+        <translation>ТПА средняя форма подтвержд.</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1842"/>
         <location filename="dialogportedit.ui" line="3659"/>
         <source>机械手低气压</source>
-        <translation type="unfinished"></translation>
+        <translation>Робот низк.давл.возд.</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1847"/>
         <location filename="dialogportedit.ui" line="3664"/>
         <source>机械手副臂前进</source>
-        <translation type="unfinished"></translation>
+        <translation>Робот Вперед</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1852"/>
         <location filename="dialogportedit.ui" line="3669"/>
         <source>机械手副臂后退</source>
-        <translation type="unfinished"></translation>
+        <translation>Робот Назад</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1857"/>
         <location filename="dialogportedit.ui" line="3674"/>
         <source>机械手副臂上升</source>
-        <translation type="unfinished"></translation>
+        <translation>Робот Вверх</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1862"/>
         <location filename="dialogportedit.ui" line="3679"/>
         <source>机械手副臂下降</source>
-        <translation type="unfinished"></translation>
+        <translation>Робот Вниз</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1867"/>
         <location filename="dialogportedit.ui" line="3684"/>
         <source>机械手正臂倒平</source>
-        <translation type="unfinished"></translation>
+        <translation>Робот  PA-O.HOR </translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1872"/>
         <location filename="dialogportedit.ui" line="3689"/>
         <source>机械手正臂倒直</source>
-        <translation type="unfinished"></translation>
+        <translation>Робот PA-O.VER</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1877"/>
         <location filename="dialogportedit.ui" line="3694"/>
         <source>机械手治具确认</source>
-        <translation type="unfinished"></translation>
+        <translation>Робот подтв .Fixture</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="1884"/>
         <location filename="dialogportedit.cpp" line="115"/>
         <source>扩展输出</source>
-        <translation type="unfinished"></translation>
+        <translation>Доп. выход</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="3791"/>
         <location filename="dialogportedit.cpp" line="120"/>
         <source>关闭</source>
-        <translation>неисправность</translation>
+        <translation>Выкл</translation>
     </message>
     <message>
         <location filename="dialogportedit.ui" line="3860"/>
         <location filename="dialogportedit.cpp" line="121"/>
         <source>保存</source>
-        <translation>спасти</translation>
+        <translation>Сохр.</translation>
     </message>
     <message>
         <source>EM1-Y00</source>
@@ -5578,72 +5577,72 @@
     <message>
         <location filename="dialogselectaction.ui" line="145"/>
         <source>选择动作指令</source>
-        <translation>Выберите команду действия</translation>
+        <translation>Выбор действия</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="278"/>
         <source>动作</source>
-        <translation>действие</translation>
+        <translation>Действие</translation>
     </message>
     <message>
         <source>伺服单轴运行指令</source>
-        <translation type="obsolete">Серво-одноосная рабочая команда</translation>
+        <translation type="obsolete">Серво позиция</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="558"/>
         <source>插补指令</source>
-        <translation>интерп</translation>
+        <translation>Интерпол-ия</translation>
     </message>
     <message>
         <source>矩阵定位</source>
-        <translation type="obsolete">Матричное позиционирование</translation>
+        <translation type="obsolete">Матрич. позиц-ие</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="319"/>
         <source>循环定位</source>
-        <translation>Loop позиционирование</translation>
+        <translation>Циклич. позиц-ие</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="356"/>
         <source>单轴循环定位</source>
-        <translation>Одноосное циклическое позиционирование</translation>
+        <translation>Позиц. по оси</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="393"/>
         <source>搜索指令</source>
-        <translation>Команда поиска</translation>
+        <translation>Поиск</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="430"/>
         <source>连续路径开始</source>
-        <translation>Непрерывный путь начинается</translation>
+        <translation>Начало пути</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="467"/>
         <source>连续路径结束</source>
-        <translation>Конец непрерывного пути</translation>
+        <translation>Конец пути</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="595"/>
         <source>多扩展输出指令</source>
-        <translation type="unfinished">Несколько расширенных инструкций вывода</translation>
+        <translation>Неск. расшир.инстр. вывода</translation>
     </message>
     <message>
         <source>正臂气动指令</source>
-        <translation type="obsolete">Пневматическая рука положительной команды</translation>
+        <translation type="obsolete">PA.Пневмо</translation>
     </message>
     <message>
         <source>副臂气动指令</source>
-        <translation type="obsolete">Вспомогательный рычаг пневматической команды</translation>
+        <translation type="obsolete">RA.Пневмо</translation>
     </message>
     <message>
         <source>治具指令</source>
-        <translation type="obsolete">Джиг команда</translation>
+        <translation type="obsolete">Jig</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="632"/>
         <source>扩展输入指令</source>
-        <translation>Расширенная инструкция ввода</translation>
+        <translation>Расшир. ввод</translation>
     </message>
     <message>
         <source>注塑机指令</source>
@@ -5652,7 +5651,7 @@
     <message>
         <location filename="dialogselectaction.ui" line="669"/>
         <source>延时指令</source>
-        <translation>Задержка инструкции</translation>
+        <translation>Задерж.</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="706"/>
@@ -5662,12 +5661,12 @@
     <message>
         <location filename="dialogselectaction.ui" line="504"/>
         <source>单轴循环自由定位</source>
-        <translation>Одноосное циклическое свободное позиционирование</translation>
+        <translation>Своб. позиц. по оси</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="755"/>
         <source>流程</source>
-        <translation>процесс</translation>
+        <translation>Процесс</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="796"/>
@@ -5701,54 +5700,54 @@
     </message>
     <message>
         <source>等待端口信号</source>
-        <translation type="obsolete">Ожидание сигнала порта</translation>
+        <translation type="obsolete">Ожид.</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="1038"/>
         <source>伺服速度调整</source>
-        <translation>Регулировка скорости сервопривода</translation>
+        <translation>Скор.</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="1075"/>
         <source>程序结束</source>
-        <translation>Конец программы</translation>
+        <translation>КонецПрогр</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="1112"/>
         <source>用户变量操作</source>
-        <translation>Пользовательская переменная операция</translation>
+        <translation>ПользПерем-я</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="1152"/>
         <source>圆弧指令</source>
-        <translation>Команда дуги</translation>
+        <translation>По кругу</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="1192"/>
         <source>视觉指令</source>
-        <translation>Визуальная инструкция</translation>
+        <translation>Визуал. инструк.</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="1292"/>
         <source>取消</source>
-        <translation>отменен</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="dialogselectaction.ui" line="1333"/>
         <source>确定</source>
-        <translation>определить</translation>
+        <translation>Ок</translation>
     </message>
     <message>
         <source>取件臂气动指令</source>
-        <translation type="obsolete">Пневматический рычаг пикапа</translation>
+        <translation type="obsolete">PA.Пневмо</translation>
     </message>
     <message>
         <source>喷雾臂气动指令</source>
-        <translation type="obsolete">Пневматическая команда распылителя</translation>
+        <translation type="obsolete">RA.Пневмо</translation>
     </message>
     <message>
         <source>压铸机指令</source>
-        <translation type="obsolete">Инструкция по литью под давлением</translation>
+        <translation type="obsolete">IMM</translation>
     </message>
     <message>
         <source>机床指令</source>
@@ -5760,81 +5759,81 @@
     <message>
         <location filename="dialogselectvariable.ui" line="145"/>
         <source>选择变量</source>
-        <translation>Переменная выбора</translation>
+        <translation>Выбор переменной</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="293"/>
         <source>用户/常数</source>
-        <translation>Пользователь / постоянная</translation>
+        <translation>Пользов./Постоян.</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="492"/>
         <source>选择用户变量 (U-00 - C-999)</source>
-        <translation>Выберите переменную пользователя (U-00-C-999)</translation>
+        <translation>ВыбПеременПользов(U-00-C-999)</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="532"/>
         <source>选择常数 (0 - 6000000)</source>
-        <translation>Постоянная выбора (0 - 6000000)</translation>
+        <translation>Постоянная(0 - 6000000)</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="552"/>
         <source>扩展输入</source>
-        <translation>Расширенный ввод</translation>
+        <translation>РасшВвод</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="591"/>
         <location filename="dialogselectvariable.ui" line="1710"/>
         <source>模块选择</source>
-        <translation>Выбор модуля</translation>
+        <translation>Модуль</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="627"/>
         <location filename="dialogselectvariable.ui" line="1746"/>
         <source>主控模块</source>
-        <translation>Мастер модуль</translation>
+        <translation>Главн.</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="661"/>
         <location filename="dialogselectvariable.ui" line="1780"/>
         <source>主控模块2</source>
-        <translation type="unfinished"></translation>
+        <translation>Главн2</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="695"/>
         <location filename="dialogselectvariable.ui" line="1814"/>
         <source>主控模块3</source>
-        <translation type="unfinished"></translation>
+        <translation>Главн3</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="729"/>
         <location filename="dialogselectvariable.ui" line="1848"/>
         <source>主控模块4</source>
-        <translation type="unfinished"></translation>
+        <translation>Главн4</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="763"/>
         <location filename="dialogselectvariable.ui" line="1882"/>
         <source>扩展模块1</source>
-        <translation>Модуль расширения 1</translation>
+        <translation>Доп 1</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="797"/>
         <location filename="dialogselectvariable.ui" line="1916"/>
         <source>扩展模块2</source>
-        <translation>Модуль расширения 2</translation>
+        <translation>Доп 2</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="831"/>
         <location filename="dialogselectvariable.ui" line="1950"/>
         <source>扩展模块3</source>
-        <translation>Модуль расширения 3</translation>
+        <translation>Доп 3</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="862"/>
         <location filename="dialogselectvariable.ui" line="1981"/>
         <source>扩展模块4</source>
-        <translation>Модуль расширения 4</translation>
+        <translation>Доп 4</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="1257"/>
@@ -5849,12 +5848,12 @@
     <message>
         <location filename="dialogselectvariable.ui" line="1671"/>
         <source>扩展输出</source>
-        <translation>Расширенный вывод</translation>
+        <translation>РасшВыв</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="2799"/>
         <source>系统变量</source>
-        <translation>Системная переменная</translation>
+        <translation>СистПерем</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3331"/>
@@ -5874,213 +5873,213 @@
     <message>
         <location filename="dialogselectvariable.ui" line="3396"/>
         <source>系统自动生产累计总模数（每完成一个周期加一）</source>
-        <translation>Система автоматически создает совокупный общий модуль (по одному на каждый цикл)</translation>
+        <translation>Общ.объем произв.(прирост)</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3418"/>
         <source>正臂引拔轴当前位置</source>
-        <translation>Текущее положение оси тяги положительного рычага</translation>
+        <translation>PA.Hor Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3440"/>
         <source>正臂上下轴当前位置</source>
-        <translation>Текущее положение оси вверх и вниз положительного рычага</translation>
+        <translation>PA.Ver Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3462"/>
         <source>机械手横行轴当前位置</source>
-        <translation>Робот текущая ось текущее положение</translation>
+        <translation>Trv Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3484"/>
         <source>副臂上下轴当前位置</source>
-        <translation>Текущее положение стрелы верхней и нижней осей</translation>
+        <translation>RA.Ver Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3506"/>
         <source>副臂引拔轴当前位置</source>
-        <translation>Стрела тянет текущее положение вала</translation>
+        <translation>RA.Hor Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3528"/>
         <source>扩展轴当前位置</source>
-        <translation>Расширить текущее положение оси</translation>
+        <translation>Ext Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3550"/>
         <source>正臂上下轴模内上位安全区终点设置</source>
-        <translation>Настройка конечной точки зоны безопасности плеча на верхней и нижней оси</translation>
+        <translation>PA.Ver top SAF end Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3572"/>
         <source>副臂上下轴模内上位安全区终点设置</source>
-        <translation>Настройка конечной точки верхней зоны безопасности в режимах верхней и нижней оси стрелы</translation>
+        <translation>RA.Ver top SAF end Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3594"/>
         <source>机械手横行轴模外安全区起点设置</source>
-        <translation>Ось стартовой линии робота умирает вне установки начальной точки зоны безопасности</translation>
+        <translation>Trv out mold SAF start Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3616"/>
         <source>机械手横行轴模外安全区终点设置</source>
-        <translation>Установка конечной точки внешней зоны безопасности роботизированной поперечной оси</translation>
+        <translation>Trv out mold SAF end Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3638"/>
         <source>机械手横行轴模内安全区起点设置</source>
-        <translation>Начальная точка зоны безопасности в поперечной оси робота</translation>
+        <translation>Trv in mold SAF start Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3660"/>
         <source>机械手横行轴模内安全区终点设置</source>
-        <translation>Настройка конечной точки зоны безопасности на поперечной оси манипулятора</translation>
+        <translation>Trv in mold SAF end Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3682"/>
         <source>正臂引拔轴模内安全区起点设置</source>
-        <translation>Начальная точка зоны безопасности в матрице вытяжного вала положительного рычага</translation>
+        <translation>PA.Hor in mold SAF start Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3704"/>
         <source>正臂引拔轴模内安全区终点设置</source>
-        <translation>Конечная зона зоны безопасности в матрице тяги положительного рычага</translation>
+        <translation>PA.Hor in mold SAF end Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3726"/>
         <source>副臂引拔轴模内安全区起点设置</source>
-        <translation>Начальная точка зоны безопасности в вытяжном чертеже вала умирает</translation>
+        <translation>RA.Hor in mold SAF start Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3745"/>
         <source>副臂引拔轴模内安全区终点设置</source>
-        <translation>Установка конечной точки зоны безопасности пресс-формы оси вспомогательного рычага</translation>
+        <translation>RA.Hor in mold SAF end Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3764"/>
         <source>横行时正臂倒角水平设置</source>
-        <translation>Положительная настройка уровня фаски рычага при беге</translation>
+        <translation>Настройка поворота при движ.</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3783"/>
         <source>计划生产数量（每完成一个周期减一）</source>
-        <translation>Планируемый объем производства (один меньше за цикл)</translation>
+        <translation>Планир.производ.(Уменьшение)</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3802"/>
         <source>累计不良品报警数量设置</source>
-        <translation>Накопленная настройка количества аварийного продукта</translation>
+        <translation>Число тревог</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3821"/>
         <source>本次自动生产累计模数（每完成一个周期加一）</source>
-        <translation>Совокупный модуль производства этого автоматического производства (плюс один для каждого завершенного цикла)</translation>
+        <translation>Общ.объем произв.(прирост)</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3840"/>
         <source>当前产品的不良品锁存信号</source>
-        <translation>Текущий продукт неисправен сигнал защелки</translation>
+        <translation>Сигнал тревоги</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3853"/>
         <source>机械手横行轴模外安全区2起点设置</source>
-        <translation>Установка начальной точки роботизированной поперечной оси для внешней зоны безопасности 2</translation>
+        <translation>Trv out mold SAF 2 start Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3866"/>
         <source>机械手横行轴模外安全区2终点设置</source>
-        <translation>Ручная установка горизонтальной оси робота в зоне безопасности 2 Установка конечной точки</translation>
+        <translation>Trv out mold SAF 2 end Pos</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3896"/>
         <source>系统 I/O</source>
-        <translation>Систематический ввод / вывод</translation>
+        <translation>Сист.I/O</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="3917"/>
         <source>I/O 类型</source>
-        <translation>Тип ввода / вывода</translation>
+        <translation>I/O Тип</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="4853"/>
         <source>取消</source>
-        <translation>отменен</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.ui" line="4894"/>
         <source>确定</source>
-        <translation>определить</translation>
+        <translation>Ок</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="259"/>
         <location filename="dialogselectvariable.cpp" line="286"/>
         <source>伺服信号输入</source>
-        <translation>Вход сервосигнала</translation>
+        <translation>Серво вх</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="260"/>
         <location filename="dialogselectvariable.cpp" line="287"/>
         <source>伺服信号输出</source>
-        <translation>Выход сервосигнала</translation>
+        <translation>Серво вых</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="261"/>
         <location filename="dialogselectvariable.cpp" line="288"/>
         <source>其他信号输入</source>
-        <translation>Другой входной сигнал</translation>
+        <translation>Другой вх</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="262"/>
         <location filename="dialogselectvariable.cpp" line="289"/>
         <source>其他信号输出</source>
-        <translation>Другой выходной сигнал</translation>
+        <translation>Другой вых</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="484"/>
         <source>选择用户变量 (User-00 - User-399)</source>
-        <translation>Выберите переменную пользователя (User-00 - User-399)</translation>
+        <translation>ВыбПеремПользов (User-00 - User-399)</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="491"/>
         <source>选择用户变量 (Counter-500 - Counter-999)</source>
-        <translation>Выберите переменную пользователя (Counter-500 - Counter-999)</translation>
+        <translation>ВыбПеремПользов (Counter-500 - Counter-999)</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="498"/>
         <source>选择用户变量 (User-00 - Counter-999)</source>
-        <translation>Выберите переменную пользователя (User-00 - Counter-999)</translation>
+        <translation>ВыбПеремПользов (User-00 - User-999)</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="507"/>
         <location filename="dialogselectvariable.cpp" line="515"/>
         <source>压铸机信号输入</source>
-        <translation>Входной сигнал машины литья под давлением</translation>
+        <translation>ТПА Вх</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="508"/>
         <location filename="dialogselectvariable.cpp" line="516"/>
         <source>压铸机信号输出</source>
-        <translation>Выходной сигнал машины литья под давлением</translation>
+        <translation>ТПА Вых</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="510"/>
         <source>机床信号输入</source>
-        <translation>Машинный сигнал ввода</translation>
+        <translation>ТПА Вх</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="511"/>
         <source>机床信号输出</source>
-        <translation>Машинный выходной сигнал</translation>
+        <translation>ТПА Вых</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="520"/>
         <source>注塑机信号输入</source>
-        <translation>Ввод сигнала машины литья под давлением</translation>
+        <translation>ТПА Вх</translation>
     </message>
     <message>
         <location filename="dialogselectvariable.cpp" line="521"/>
         <source>注塑机信号输出</source>
-        <translation>Выходной сигнал машины литья под давлением</translation>
+        <translation>ТПА Вых</translation>
     </message>
 </context>
 <context>
@@ -6089,67 +6088,67 @@
         <location filename="dialogservocontrol.ui" line="960"/>
         <location filename="dialogservocontrol.ui" line="1312"/>
         <source>模内安全区起点</source>
-        <translation>Начальная точка зоны безопасности</translation>
+        <translation>НачТочБезоп в ПФ</translation>
     </message>
     <message>
         <location filename="dialogservocontrol.ui" line="1001"/>
         <location filename="dialogservocontrol.ui" line="1353"/>
         <source>模内安全区终点</source>
-        <translation>Конечная точка зоны безопасности в форме</translation>
+        <translation>КонТочБезоп в ПФ</translation>
     </message>
     <message>
         <location filename="dialogservocontrol.ui" line="1048"/>
         <location filename="dialogservocontrol.ui" line="1224"/>
         <source>模内上位待机点</source>
-        <translation>Верхняя точка ожидания в форме</translation>
+        <translation>ВерхТочОж в ПФ</translation>
     </message>
     <message>
         <location filename="dialogservocontrol.ui" line="1089"/>
         <location filename="dialogservocontrol.ui" line="1265"/>
         <source>模内下行取物点</source>
-        <translation>In-mould вниз точка объекта</translation>
+        <translation>НижТочЗах в ПФ</translation>
     </message>
     <message>
         <location filename="dialogservocontrol.ui" line="1136"/>
         <source>横行模内取物点</source>
-        <translation>Траверс режим</translation>
+        <translation>ГоризТочЗах в ПФ</translation>
     </message>
     <message>
         <location filename="dialogservocontrol.ui" line="1177"/>
         <source>横行模外置物点</source>
-        <translation>Поперечная матрица внешней точки</translation>
+        <translation>ГоризТочОсвоб в ПФ</translation>
     </message>
     <message>
         <location filename="dialogservocontrol.ui" line="1476"/>
         <source>正臂上下轴原点</source>
-        <translation>Начало положительной оси верхней и нижней оси</translation>
+        <translation>PA Ver Home</translation>
     </message>
     <message>
         <location filename="dialogservocontrol.ui" line="1604"/>
         <source>横行轴原点</source>
-        <translation>Начало оси перемещения</translation>
+        <translation>Trv Home</translation>
     </message>
     <message>
         <location filename="dialogservocontrol.ui" line="1652"/>
         <source>副臂上下轴原点</source>
-        <translation>Вспомогательный рычаг нижней и нижней оси происхождения</translation>
+        <translation>RA Ver Home</translation>
     </message>
     <message>
         <location filename="dialogservocontrol.ui" line="1700"/>
         <source>横行安全区</source>
-        <translation>Горизонтальная зона безопасности</translation>
+        <translation>Travel SAF</translation>
     </message>
     <message>
         <location filename="dialogservocontrol.cpp" line="251"/>
         <source> - 无安全区域限制</source>
-        <translation>- Нет ограничений зоны безопасности</translation>
+        <translation> НетОгрБезопасн</translation>
     </message>
     <message>
         <location filename="dialogservocontrol.cpp" line="328"/>
         <location filename="dialogservocontrol.cpp" line="329"/>
         <location filename="dialogservocontrol.cpp" line="330"/>
         <source>轴原点</source>
-        <translation>Ось происхождения</translation>
+        <translation>Дом</translation>
     </message>
     <message>
         <location filename="dialogservocontrol.cpp" line="366"/>
@@ -6159,7 +6158,7 @@
         <location filename="dialogservocontrol.cpp" line="382"/>
         <location filename="dialogservocontrol.cpp" line="386"/>
         <source> 轴伺服</source>
-        <translation>Ось сервопривод</translation>
+        <translation>Серво</translation>
     </message>
     <message>
         <source>－</source>
@@ -6175,12 +6174,12 @@
     <message>
         <location filename="dialogspeed.ui" line="144"/>
         <source>设置全局伺服运行速度</source>
-        <translation>Установить глобальную скорость сервопривода</translation>
+        <translation>Устан. скорость Серво</translation>
     </message>
     <message>
         <location filename="dialogspeed.ui" line="349"/>
         <source>取消</source>
-        <translation>отменить</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="dialogspeed.ui" line="390"/>
@@ -6193,66 +6192,66 @@
     <message>
         <location filename="dialogusermanager.ui" line="147"/>
         <source>用户管理</source>
-        <translation>Диспетчер пользователей</translation>
+        <translation>Пользов-ль</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="274"/>
         <source>用户登录</source>
-        <translation>Авторизоваться</translation>
+        <translation>Логин</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="304"/>
         <location filename="dialogusermanager.ui" line="610"/>
         <source>选择用户</source>
-        <translation>Выберите пользователя</translation>
+        <translation>Выбор польз.</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="349"/>
         <location filename="dialogusermanager.ui" line="652"/>
         <source>高级操作员</source>
-        <translation>Предварительный оператор</translation>
+        <translation>Оператор</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="398"/>
         <location filename="dialogusermanager.ui" line="701"/>
         <source>管理员</source>
-        <translation>Администратор</translation>
+        <translation>Админ</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="447"/>
         <location filename="dialogusermanager.ui" line="753"/>
         <source>高级管理员</source>
-        <translation>Предварительный админ</translation>
+        <translation>СуперАдмин</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="491"/>
         <source>输入密码</source>
-        <translation>Введите пароль</translation>
+        <translation>Пароль</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="580"/>
         <source>密码修改</source>
-        <translation>Изменить пароль</translation>
+        <translation>Изм. пароль</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="797"/>
         <source>修改密码</source>
-        <translation>Изменить пароль</translation>
+        <translation>Изм. пароль</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="882"/>
         <source>输入新密码</source>
-        <translation>новый</translation>
+        <translation>Новый</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="919"/>
         <source>确认新密码</source>
-        <translation>подтвердить</translation>
+        <translation>Подтв.</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="1054"/>
         <source>输入旧密码</source>
-        <translation>старый</translation>
+        <translation>Старый</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="1167"/>
@@ -6262,7 +6261,7 @@
     <message>
         <location filename="dialogusermanager.ui" line="1208"/>
         <source>取消</source>
-        <translation>отменить</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="dialogusermanager.ui" line="1249"/>
@@ -6281,7 +6280,7 @@
     <message>
         <location filename="dialogusermanager.cpp" line="259"/>
         <source>新密码确认错误！</source>
-        <translation>Подтверждает ошибку пароля!</translation>
+        <translation>Ошибка подтв. нового пароля!</translation>
     </message>
     <message>
         <location filename="dialogusermanager.cpp" line="265"/>
@@ -6294,7 +6293,7 @@
     <message>
         <location filename="utility/elccalc.ui" line="149"/>
         <source>电子齿轮比计算器</source>
-        <translation>Elec Gear Калькулятор</translation>
+        <translation>Калькул. передат. числа</translation>
     </message>
     <message>
         <location filename="utility/elccalc.ui" line="256"/>
@@ -6304,31 +6303,31 @@
     <message>
         <location filename="utility/elccalc.ui" line="341"/>
         <source>计 算</source>
-        <translation>расчет</translation>
+        <translation>Расчет</translation>
     </message>
     <message>
         <location filename="utility/elccalc.ui" line="504"/>
         <source>同步轮周长：</source>
-        <translation>Синхронная окружность колеса:</translation>
+        <translation>Окружн. синхр. колеса</translation>
     </message>
     <message>
         <location filename="utility/elccalc.ui" line="575"/>
         <source>减速比分子：</source>
-        <translation>Коэффициент замедления молекул:</translation>
+        <translation>Числитель коэф. умен.:</translation>
     </message>
     <message>
         <location filename="utility/elccalc.ui" line="640"/>
         <source>减速比分母：</source>
-        <translation>Коэффициент уменьшения знаменателя:</translation>
+        <translation>Знаменатель коэф. замед.:</translation>
     </message>
     <message>
         <location filename="utility/elccalc.ui" line="714"/>
         <source>注意:
 1. 计算结果只能用于本控制系统，不能用于其他系统！
 2. 如果伺服轴是双截的，输入同步轮周长时要乘以2！</source>
-        <translation>НОТА:
+        <translation>Сообщ.:
 1. Результаты расчетов могут быть использованы только для этой системы!
-2. Если сервопривод в два раза больше хода, удвойте периметр шкива!</translation>
+2. Если сервопривод в два раза больше хода, удвойте окружн. колеса!</translation>
     </message>
 </context>
 <context>
@@ -6371,22 +6370,22 @@
     <message>
         <location filename="form.ui" line="126"/>
         <source>默认名称</source>
-        <translation type="unfinished"></translation>
+        <translation>ИмяУмолч</translation>
     </message>
     <message>
         <location filename="form.ui" line="137"/>
         <source>修改名称</source>
-        <translation type="unfinished"></translation>
+        <translation>ИмяИзмен</translation>
     </message>
     <message>
         <location filename="form.ui" line="325"/>
         <source>保存</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохр.</translation>
     </message>
     <message>
         <location filename="form.ui" line="360"/>
         <source>关闭</source>
-        <translation type="unfinished"></translation>
+        <translation>Выкл</translation>
     </message>
     <message>
         <location filename="form.cpp" line="163"/>
@@ -6399,49 +6398,49 @@
     <message>
         <location filename="formactassist.ui" line="108"/>
         <source>辅助设备参数</source>
-        <translation>параметр вспомогательного оборудования</translation>
+        <translation>Параметр вспомог.оборуд.</translation>
     </message>
     <message>
         <location filename="formactassist.ui" line="176"/>
         <source>执行间隔：</source>
-        <translation>интервал выполнения:</translation>
+        <translation>Интервал:</translation>
     </message>
     <message>
         <location filename="formactassist.ui" line="275"/>
         <source>动作时间：</source>
-        <translation>время действия:</translation>
+        <translation>Время действия:</translation>
     </message>
     <message>
         <location filename="formactassist.ui" line="381"/>
         <location filename="formactassist.ui" line="424"/>
         <source>打开</source>
         <extracomment>扩展输出开关</extracomment>
-        <translation>открыть</translation>
+        <translation>Откр</translation>
     </message>
     <message>
         <location filename="formactassist.ui" line="465"/>
         <location filename="formactassist.ui" line="505"/>
         <source>关闭</source>
         <extracomment>扩展输出开关</extracomment>
-        <translation>закрыть</translation>
+        <translation>Закр</translation>
     </message>
     <message>
         <location filename="formactassist.ui" line="550"/>
         <location filename="formactassist.cpp" line="63"/>
         <source>不良品</source>
-        <translation>плохой товар</translation>
+        <translation>Брак</translation>
     </message>
     <message>
         <location filename="formactassist.ui" line="643"/>
         <location filename="formactassist.cpp" line="61"/>
         <source>打油</source>
-        <translation>прокачка</translation>
+        <translation>Смазка</translation>
     </message>
     <message>
         <location filename="formactassist.ui" line="690"/>
         <location filename="formactassist.cpp" line="62"/>
         <source>传送带</source>
-        <translation>Ленточный конвейер</translation>
+        <translation>Конвейер</translation>
     </message>
 </context>
 <context>
@@ -6449,7 +6448,7 @@
     <message>
         <location filename="formactcircle.ui" line="216"/>
         <source>逆时针</source>
-        <translation>С-часовой</translation>
+        <translation>ПрЧасСтр</translation>
     </message>
     <message>
         <location filename="formactcircle.ui" line="251"/>
@@ -6459,12 +6458,12 @@
     <message>
         <location filename="formactcircle.ui" line="288"/>
         <source>mm</source>
-        <translation>mm</translation>
+        <translation>мм</translation>
     </message>
     <message>
         <location filename="formactcircle.ui" line="338"/>
         <source>起点：</source>
-        <translation>начать:</translation>
+        <translation>начало:</translation>
     </message>
     <message>
         <location filename="formactcircle.ui" line="379"/>
@@ -6564,7 +6563,7 @@
     <message>
         <location filename="formactdelay.ui" line="108"/>
         <source>延时指令参数</source>
-        <translation>параметр команды с выдержкой времени</translation>
+        <translation>Параметры задержки команды</translation>
     </message>
     <message>
         <location filename="formactdelay.ui" line="166"/>
@@ -6577,7 +6576,7 @@
     <message>
         <location filename="formactextin.ui" line="99"/>
         <source>扩展输入参数</source>
-        <translation>расширенный входной параметр</translation>
+        <translation>Расшир. входной параметр</translation>
     </message>
     <message>
         <location filename="formactextin.ui" line="243"/>
@@ -6592,17 +6591,17 @@
     <message>
         <location filename="formactextin.ui" line="427"/>
         <source>检测使能(信号有效)</source>
-        <translation>сигнал действителен</translation>
+        <translation>Нач. тест (действит)</translation>
     </message>
     <message>
         <location filename="formactextin.ui" line="473"/>
         <source>检测使能(信号无效)</source>
-        <translation>Неверный сигнал</translation>
+        <translation>Нач. тест (не действит)</translation>
     </message>
     <message>
         <location filename="formactextin.ui" line="519"/>
         <source>检测禁止</source>
-        <translation>Обнаружение запрещено</translation>
+        <translation>Оконч. тест</translation>
     </message>
     <message>
         <location filename="formactextin.ui" line="163"/>
@@ -6617,14 +6616,14 @@
         <location filename="formactextout.ui" line="734"/>
         <source>打开</source>
         <extracomment>扩展输出开关</extracomment>
-        <translation>ON</translation>
+        <translation>Вкл</translation>
     </message>
     <message>
         <location filename="formactextout.ui" line="604"/>
         <location filename="formactextout.ui" line="781"/>
         <source>关闭</source>
         <extracomment>扩展输出开关</extracomment>
-        <translation>OFF</translation>
+        <translation>Выкл</translation>
     </message>
     <message>
         <location filename="formactextout.ui" line="647"/>
@@ -6634,7 +6633,7 @@
     <message>
         <location filename="formactextout.ui" line="690"/>
         <source>取反</source>
-        <translation>сводить на нет</translation>
+        <translation>Отриц.</translation>
     </message>
     <message>
         <location filename="formactextout.ui" line="393"/>
@@ -6645,7 +6644,7 @@
         <location filename="formactextout.ui" line="105"/>
         <source>扩展输出参数</source>
         <oldsource>扩展输入参数</oldsource>
-        <translation>Расширенные выходные параметры</translation>
+        <translation>Расшир. выходной параметр</translation>
     </message>
     <message>
         <location filename="formactextout.ui" line="474"/>
@@ -6671,12 +6670,12 @@
     </message>
     <message>
         <source>参数</source>
-        <translation type="obsolete">параметр</translation>
+        <translation type="obsolete">Параметр</translation>
     </message>
     <message>
         <location filename="formactextpos.ui" line="102"/>
         <source>伺服定位参数</source>
-        <translation>параметр сервоустановки</translation>
+        <translation>Парам. серво</translation>
     </message>
     <message>
         <location filename="formactextpos.ui" line="702"/>
@@ -6686,12 +6685,12 @@
     <message>
         <location filename="formactextpos.ui" line="884"/>
         <source>结束距离：</source>
-        <translation>Конечное расстояние:</translation>
+        <translation>Конеч. расстояние:</translation>
     </message>
     <message>
         <location filename="formactextpos.ui" line="1085"/>
         <source>改变速度：</source>
-        <translation>Изменить скорость:</translation>
+        <translation>Изм. скорость:</translation>
     </message>
     <message>
         <location filename="formactextpos.ui" line="269"/>
@@ -6701,31 +6700,31 @@
     <message>
         <location filename="formactextpos.ui" line="1245"/>
         <source>相对</source>
-        <translation>относительно</translation>
+        <translation>Относит.</translation>
     </message>
     <message>
         <location filename="formactextpos.ui" line="1273"/>
         <source>延时：</source>
-        <translation>Задержка:</translation>
+        <translation>Задер.:</translation>
     </message>
     <message>
         <location filename="formactextpos.ui" line="733"/>
         <source>提前变速</source>
-        <translation>Ранняя смена</translation>
+        <translation>Ранний сдвиг</translation>
     </message>
     <message>
         <source>加速度</source>
-        <translation type="obsolete">ускорение</translation>
+        <translation type="obsolete">Ускорение</translation>
     </message>
     <message>
         <location filename="formactextpos.ui" line="983"/>
         <source>加速度：</source>
-        <translation>ускорение:</translation>
+        <translation>Ускор:</translation>
     </message>
     <message>
         <location filename="formactextpos.ui" line="600"/>
         <source>JERK加加速：</source>
-        <translation>подонок:</translation>
+        <translation>JERK ускорен.:</translation>
     </message>
     <message>
         <location filename="formactextpos.cpp" line="143"/>
@@ -6741,7 +6740,7 @@
         <location filename="formactextpos.cpp" line="801"/>
         <location filename="formactextpos.cpp" line="896"/>
         <source>取物点</source>
-        <translation>Точка выбора</translation>
+        <translation>Точка выб.</translation>
     </message>
     <message>
         <location filename="formactextpos.cpp" line="146"/>
@@ -6757,7 +6756,7 @@
         <location filename="formactextpos.cpp" line="804"/>
         <location filename="formactextpos.cpp" line="899"/>
         <source>置物点</source>
-        <translation>Точка хранения</translation>
+        <translation>Точка хран.</translation>
     </message>
     <message>
         <location filename="formactextpos.cpp" line="149"/>
@@ -6773,7 +6772,7 @@
         <location filename="formactextpos.cpp" line="807"/>
         <location filename="formactextpos.cpp" line="902"/>
         <source>待机点</source>
-        <translation>Точка ожидания</translation>
+        <translation>Точка ожид.</translation>
     </message>
     <message>
         <location filename="formactextpos.cpp" line="428"/>
@@ -6805,7 +6804,7 @@
         <location filename="formactextpos.cpp" line="922"/>
         <location filename="formactextpos.cpp" line="927"/>
         <source>自动时修改位置很危险，每次修改值只能小于+-5mm</source>
-        <translation>Опасно изменять местоположение в автоматическом состоянии, значение должно быть меньше + - 5 мм каждый раз</translation>
+        <translation>Опасно изм. местопол.в авто. состоянии, знач. должно быть меньше + - 5 мм каждый раз</translation>
     </message>
 </context>
 <context>
@@ -6813,17 +6812,17 @@
     <message>
         <location filename="formactfor.ui" line="99"/>
         <source>循环指令参数</source>
-        <translation>параметр циклической команды</translation>
+        <translation>Парам. цикл. команды</translation>
     </message>
     <message>
         <location filename="formactfor.ui" line="335"/>
         <source>循环次数为变量</source>
-        <translation>Количество циклов переменная</translation>
+        <translation>КолПостЦикл</translation>
     </message>
     <message>
         <location filename="formactfor.ui" line="166"/>
         <source>循环次数为常数</source>
-        <translation>Количество циклов постоянная </translation>
+        <translation>КолПеремЦикл</translation>
     </message>
 </context>
 <context>
@@ -6831,149 +6830,149 @@
     <message>
         <location filename="formactimm.ui" line="302"/>
         <source>允许关模</source>
-        <translation>Разрешить режим</translation>
+        <translation>EMC</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="345"/>
         <source>允许顶进</source>
-        <translation>Разрешить домкрат</translation>
+        <translation>EEF</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="474"/>
         <source>禁止顶退</source>
-        <translation>Нет выхода на пенсию</translation>
+        <translation>EEB OFF</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="256"/>
         <source>等待开模</source>
-        <translation>В ожидании открытия формы</translation>
+        <translation>EMO</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="87"/>
         <source>注塑机动作参数</source>
-        <translation>рабочий параметр литника</translation>
+        <translation>Параметры ТПА</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="388"/>
         <source>禁止顶进</source>
-        <translation>Запретить домкрат</translation>
+        <translation>EEF OFF</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="431"/>
         <source>允许顶退</source>
-        <translation>Разрешить сверху</translation>
+        <translation>EEB</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="517"/>
         <source>允许抽1进</source>
-        <translation>Разрешить 1 ход</translation>
+        <translation>EC1P1</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="689"/>
         <source>禁止抽1进</source>
-        <translation>Разрешить 1 снятие</translation>
+        <translation>EC1P2</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="646"/>
         <source>允许抽2退</source>
-        <translation>Разрешить 2 снятия</translation>
+        <translation>EC2P2</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="775"/>
         <source>禁止抽2进</source>
-        <translation>Не курить 2</translation>
+        <translation>EC2P1 OFF</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="818"/>
         <source>禁止抽2退</source>
-        <translation>Не курить 2</translation>
+        <translation>EC2P2 OFF</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="732"/>
         <source>禁止抽1退</source>
-        <translation>Не курить</translation>
+        <translation>EC1P2 OFF</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="603"/>
         <source>允许抽2进</source>
-        <translation>Разрешить 2 розыгрыша</translation>
+        <translation>EC2P1</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="560"/>
         <source>允许抽1退</source>
-        <translation>Разрешить 1 снятие</translation>
+        <translation>EC1P2</translation>
     </message>
     <message>
         <location filename="formactimm.ui" line="153"/>
         <source>动作时间：</source>
-        <translation>Время действия：</translation>
+        <translation>Время дейст.:</translation>
     </message>
     <message>
         <source>翻页</source>
-        <translation type="obsolete">Перелистывание страниц</translation>
+        <translation type="obsolete">След.</translation>
     </message>
     <message>
         <location filename="formactimm.cpp" line="38"/>
         <source>允中子1进</source>
         <comment>由于长度受限, 翻译时无论什么语言一律使用(中文除外): IMM-EC1P1</comment>
-        <translation>Разрешить нейтрон 1</translation>
+        <translation>IMM-EC1P1</translation>
     </message>
     <message>
         <location filename="formactimm.cpp" line="39"/>
         <source>允中子1退</source>
         <comment>由于长度受限, 翻译时无论什么语言一律使用(中文除外): IMM-EC1P2</comment>
-        <translation>Разрешить нейтрон 1</translation>
+        <translation>IMM-EC1P2</translation>
     </message>
     <message>
         <location filename="formactimm.cpp" line="40"/>
         <source>允中子2进</source>
         <comment>由于长度受限, 翻译时无论什么语言一律使用(中文除外): IMM-EC2P1</comment>
-        <translation>Юньзи 2</translation>
+        <translation>IMM-EC2P1</translation>
     </message>
     <message>
         <location filename="formactimm.cpp" line="41"/>
         <source>允中子2退</source>
         <comment>由于长度受限, 翻译时无论什么语言一律使用(中文除外): IMM-EC2P2</comment>
-        <translation>Юньзи 2</translation>
+        <translation>IMM-EC2P2</translation>
     </message>
     <message>
         <location filename="formactimm.cpp" line="42"/>
         <source>禁中子1进</source>
         <comment>由于长度受限, 翻译时无论什么语言一律使用(中文除外): IMM-EC1P1_OFF</comment>
-        <translation>Запретный нейтрон 1</translation>
+        <translation>IMM-EC1P1_OFF</translation>
     </message>
     <message>
         <location filename="formactimm.cpp" line="43"/>
         <source>禁中子1退</source>
         <comment>由于长度受限, 翻译时无论什么语言一律使用(中文除外): IMM-EC1P2_OFF</comment>
-        <translation>Нейтральный нейтрон 1</translation>
+        <translation>IMM-EC1P2_OFF</translation>
     </message>
     <message>
         <location filename="formactimm.cpp" line="44"/>
         <source>禁中子2进</source>
         <comment>由于长度受限, 翻译时无论什么语言一律使用(中文除外): IMM-EC2P1_OFF</comment>
-        <translation>Запрещенные нейтроны 2</translation>
+        <translation>IMM-EC2P1_OFF</translation>
     </message>
     <message>
         <location filename="formactimm.cpp" line="45"/>
         <source>禁中子2退</source>
         <comment>由于长度受限, 翻译时无论什么语言一律使用(中文除外): IMM-EC2P2_OFF</comment>
-        <translation>Запрещенные нейтроны 2</translation>
+        <translation>IMM-EC2P2_OFF</translation>
     </message>
     <message>
         <location filename="formactimm.cpp" line="185"/>
         <source>加工完成</source>
-        <translation>Обработка завершена</translation>
+        <translation>EMO</translation>
     </message>
     <message>
         <location filename="formactimm.cpp" line="186"/>
         <source>加工启动</source>
-        <translation>Начало обработки</translation>
+        <translation>EMC</translation>
     </message>
     <message>
         <location filename="formactimm.cpp" line="201"/>
         <source>等待加工</source>
-        <translation type="unfinished"></translation>
+        <translation> </translation>
     </message>
     <message>
         <location filename="formactimm.cpp" line="202"/>
@@ -6986,7 +6985,7 @@
     <message>
         <location filename="formactif.ui" line="105"/>
         <source>条件指令参数</source>
-        <translation>условный параметр команды</translation>
+        <translation>Парам.условной команды</translation>
     </message>
     <message>
         <location filename="formactif.ui" line="337"/>
@@ -7008,7 +7007,7 @@
     <name>FormActInterp</name>
     <message>
         <source>相对</source>
-        <translation type="obsolete">относительно</translation>
+        <translation type="obsolete">Относит.</translation>
     </message>
     <message>
         <location filename="formactinterp.cpp" line="122"/>
@@ -7024,7 +7023,7 @@
         <location filename="formactinterp.cpp" line="725"/>
         <location filename="formactinterp.cpp" line="794"/>
         <source>取物点</source>
-        <translation>Получить товар</translation>
+        <translation>Точка выб.</translation>
     </message>
     <message>
         <location filename="formactinterp.cpp" line="125"/>
@@ -7040,7 +7039,7 @@
         <location filename="formactinterp.cpp" line="728"/>
         <location filename="formactinterp.cpp" line="797"/>
         <source>置物点</source>
-        <translation>Координаты хранения</translation>
+        <translation>Точка хран.</translation>
     </message>
     <message>
         <location filename="formactinterp.cpp" line="128"/>
@@ -7056,7 +7055,7 @@
         <location filename="formactinterp.cpp" line="731"/>
         <location filename="formactinterp.cpp" line="800"/>
         <source>待机点</source>
-        <translation>ждать</translation>
+        <translation>Точка ожид.</translation>
     </message>
     <message>
         <location filename="formactinterp.cpp" line="459"/>
@@ -7072,7 +7071,7 @@
         <location filename="formactinterp.cpp" line="820"/>
         <location filename="formactinterp.cpp" line="825"/>
         <source>输入有误</source>
-        <translation>Неверный ввод</translation>
+        <translation>Ошибка ввода</translation>
     </message>
     <message>
         <location filename="formactinterp.cpp" line="459"/>
@@ -7088,17 +7087,17 @@
         <location filename="formactinterp.cpp" line="820"/>
         <location filename="formactinterp.cpp" line="825"/>
         <source>自动时修改位置很危险，每次修改值只能小于+-5mm</source>
-        <translation>Опасно изменять местоположение в автоматическом состоянии, значение должно быть меньше + - 5 мм каждый раз</translation>
+        <translation>Опасно изм. местопол.в авто. состоянии, знач. должно быть меньше + - 5 мм каждый раз</translation>
     </message>
     <message>
         <location filename="formactinterp.ui" line="99"/>
         <source>伺服插补参数</source>
-        <translation>сервомоторный параметр</translation>
+        <translation>Парам. сервоинтерпол.</translation>
     </message>
     <message>
         <location filename="formactinterp.ui" line="280"/>
         <source>速度：</source>
-        <translation>скорость:</translation>
+        <translation>Скорость:</translation>
     </message>
 </context>
 <context>
@@ -7110,76 +7109,76 @@
     <message>
         <location filename="formactloopfree.ui" line="174"/>
         <source>副臂</source>
-        <translation>Вспомогательный рычаг</translation>
+        <translation>RA</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="211"/>
         <source>垂直基准面定位</source>
-        <translation>Вертикальное позиционирование</translation>
+        <translation>Ver REF plane</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="258"/>
         <source>横行时倒平</source>
-        <translation>Выровнять при прохождении</translation>
+        <translation>Trv rot hor</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="295"/>
         <source>定位时倒角水平</source>
-        <translation>Рот Хор</translation>
+        <translation>Rot Hor</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="991"/>
         <source>运行速度：</source>
-        <translation>Скорость бега：</translation>
+        <translation>Скор.：</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="1195"/>
         <source>减速距离：</source>
-        <translation>Расстояние замедления:</translation>
+        <translation>Расст.замед.:</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="1093"/>
         <source>低速速度：</source>
-        <translation>Выровнять при прохождении：</translation>
+        <translation>Низк.скорость:</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="99"/>
         <source>循环定位参数</source>
-        <translation>параметр установки цикла</translation>
+        <translation>Парам. установки цикла</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="1294"/>
         <source>计数器：</source>
-        <translation>счетчик：</translation>
+        <translation>Счетчик：</translation>
     </message>
     <message>
         <source>参数</source>
-        <translation type="obsolete">параметры</translation>
+        <translation type="obsolete">Парам.</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="339"/>
         <source>定位点数：</source>
-        <translation>Количество якорей：</translation>
+        <translation>Колич.:</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="444"/>
         <source>当前点：</source>
-        <translation>Текущая точка：</translation>
+        <translation>Поз.:</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="607"/>
         <source>引拔轴：</source>
-        <translation>Потянув вал：</translation>
+        <translation>Гориз:</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="735"/>
         <source>上下轴：</source>
-        <translation>Верхняя и нижняя ось：</translation>
+        <translation>Верт:</translation>
     </message>
     <message>
         <location filename="formactloopfree.ui" line="863"/>
         <source>横行轴：</source>
-        <translation>Горизонтальная ось:</translation>
+        <translation>Гор. ось:</translation>
     </message>
     <message>
         <location filename="formactloopfree.cpp" line="35"/>
@@ -7192,59 +7191,59 @@
         <location filename="formactloopfree.cpp" line="410"/>
         <location filename="formactloopfree.cpp" line="411"/>
         <source>轴：</source>
-        <translation type="unfinished">вал:</translation>
+        <translation>Ось:</translation>
     </message>
 </context>
 <context>
     <name>FormActLoopMatrix</name>
     <message>
         <source>模式</source>
-        <translation type="obsolete">режим</translation>
+        <translation type="obsolete">Модель</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="489"/>
         <source>副臂</source>
-        <translation>Вспомогательный рычаг</translation>
+        <translation>RA</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="415"/>
         <source>计数器：</source>
-        <translation>счетчик：</translation>
+        <translation>Счетчик：</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="105"/>
         <source>矩阵定位参数</source>
-        <translation>параметр позиционирования матрицы</translation>
+        <translation>Парам.позиц.матрицы</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="575"/>
         <source>垂直基准面</source>
-        <translation>Вертикальные данные</translation>
+        <translation>Ver REF plane</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="618"/>
         <source>横行时倒平</source>
-        <translation>Выровнять при прохождении</translation>
+        <translation>Trv rot hor</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="665"/>
         <source>第一点(mm)</source>
-        <translation>Первая точка (мм)</translation>
+        <translation>Перв. точка (мм)</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="690"/>
         <source>间距(mm)</source>
-        <translation>интервал (мм)</translation>
+        <translation>Интервал (мм)</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="721"/>
         <source>点数</source>
-        <translation>точка</translation>
+        <translation>Точка</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="752"/>
         <source>速度</source>
-        <translation>Скорость</translation>
+        <translation>Скор</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="1128"/>
@@ -7254,36 +7253,36 @@
     <message>
         <location filename="formactloopmatrix.ui" line="1978"/>
         <source>输送带使用</source>
-        <translation>Использование конвейерной ленты</translation>
+        <translation>Исп. конвейер</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="2018"/>
         <source>               输送带端口：</source>
         <oldsource>输送带延时：</oldsource>
-        <translation>               Конвейерный порт：</translation>
+        <translation>               Порт конвейера：</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="2095"/>
         <source>S</source>
-        <translation></translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="2144"/>
         <source>         输送带动作时间：</source>
-        <translation>         Время действия конвейерной ленты:</translation>
+        <translation>         Время конвейера:</translation>
     </message>
     <message>
         <source>输送带端口：</source>
-        <translation type="obsolete">Конвейерный порт:</translation>
+        <translation type="obsolete">Порт конвейера：</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="532"/>
         <source>倒角水平</source>
-        <translation>Уровень фаски</translation>
+        <translation>Горизонт.</translation>
     </message>
     <message>
         <source>轴顺序：</source>
-        <translation type="obsolete">Порядок оси:</translation>
+        <translation type="obsolete">Поряд.оси:</translation>
     </message>
     <message>
         <source>矩阵</source>
@@ -7291,45 +7290,45 @@
     </message>
     <message>
         <source>上下间距：</source>
-        <translation type="obsolete">Верхний и нижний интервал:</translation>
+        <translation type="obsolete">Верх.ниж.интерв.:</translation>
     </message>
     <message>
         <source>伺服</source>
-        <translation type="obsolete">сервопривод</translation>
+        <translation type="obsolete">Серво</translation>
     </message>
     <message>
         <source>参数</source>
-        <translation type="obsolete">параметры</translation>
+        <translation type="obsolete">Парам.</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="1780"/>
         <source>低速速度：</source>
-        <translation>Выровнять при прохождении：</translation>
+        <translation>Низк.скорость:</translation>
     </message>
     <message>
         <location filename="formactloopmatrix.ui" line="1878"/>
         <source>减速距离：</source>
-        <translation>Расстояние замедления:</translation>
+        <translation>Расст.замед.:</translation>
     </message>
     <message>
         <source>运行速度：</source>
-        <translation type="obsolete">Скорость бега：</translation>
+        <translation type="obsolete">Скорость：</translation>
     </message>
     <message>
         <source>第一点位置</source>
-        <translation type="obsolete">Первая позиция</translation>
+        <translation type="obsolete">Перв. позиц.</translation>
     </message>
     <message>
         <source>相对</source>
-        <translation type="obsolete">относительно</translation>
+        <translation type="obsolete">Относ.</translation>
     </message>
     <message>
         <source>点数：</source>
-        <translation type="obsolete">Очки:</translation>
+        <translation type="obsolete">Поз:</translation>
     </message>
     <message>
         <source>间距：</source>
-        <translation type="obsolete">Расстояние:</translation>
+        <translation type="obsolete">Интервал:</translation>
     </message>
     <message>
         <source>：</source>
@@ -7346,7 +7345,7 @@
         <location filename="formactloopmatrix.cpp" line="808"/>
         <location filename="formactloopmatrix.cpp" line="809"/>
         <source>轴：</source>
-        <translation>вал:</translation>
+        <translation>Ось:</translation>
     </message>
 </context>
 <context>
@@ -7354,17 +7353,17 @@
     <message>
         <location filename="formactmextout.ui" line="99"/>
         <source>多扩展输出参数</source>
-        <translation>параметр вывода с несколькими расширениями</translation>
+        <translation>Расшир. выход. парам.</translation>
     </message>
     <message>
         <location filename="formactmextout.ui" line="613"/>
         <source>输出打开</source>
-        <translation>Открытый вывод</translation>
+        <translation>Вкл</translation>
     </message>
     <message>
         <location filename="formactmextout.ui" line="659"/>
         <source>输出关闭</source>
-        <translation>Выход выключен</translation>
+        <translation>Выкл</translation>
     </message>
     <message>
         <location filename="formactmextout.ui" line="702"/>
@@ -7390,17 +7389,17 @@
     <message>
         <location filename="formactoperate.ui" line="323"/>
         <source>运算符</source>
-        <translation>оператор</translation>
+        <translation>Оператор</translation>
     </message>
     <message>
         <location filename="formactoperate.ui" line="151"/>
         <source>用户变量：</source>
-        <translation>Пользовательские переменные:</translation>
+        <translation>Пользов.перемен.:</translation>
     </message>
     <message>
         <location filename="formactoperate.ui" line="87"/>
         <source>用户变量运算指令参数</source>
-        <translation>параметр команды</translation>
+        <translation>Параметры команд</translation>
     </message>
     <message>
         <location filename="formactoperate.ui" line="234"/>
@@ -7423,7 +7422,7 @@
     <message>
         <location filename="formactpaper.ui" line="99"/>
         <source>搜索指令参数</source>
-        <translation>параметр команды поиска</translation>
+        <translation>Параметр команды поиска</translation>
     </message>
     <message>
         <location filename="formactpaper.ui" line="219"/>
@@ -7448,17 +7447,17 @@
     <message>
         <location filename="formactpaper.ui" line="717"/>
         <source>搜索点最大位置：</source>
-        <translation>Максимальное местоположение поиска:</translation>
+        <translation>Макс. поз.поиска:</translation>
     </message>
     <message>
         <location filename="formactpaper.ui" line="633"/>
         <source>减速输入端口:</source>
-        <translation>Сокращенный входной порт:</translation>
+        <translation>Замедл.порт:</translation>
     </message>
     <message>
         <location filename="formactpaper.ui" line="555"/>
         <source>停止输入端口:</source>
-        <translation>Остановить порт:</translation>
+        <translation>Остан.порт:</translation>
     </message>
     <message>
         <location filename="formactpaper.ui" line="351"/>
@@ -7468,7 +7467,7 @@
     <message>
         <location filename="formactpaper.ui" line="456"/>
         <source>低速速度：</source>
-        <translation>Низкая скорость:</translation>
+        <translation>Низк.скорость:</translation>
     </message>
     <message>
         <location filename="formactpaper.cpp" line="270"/>
@@ -7480,7 +7479,7 @@
         <location filename="formactpaper.cpp" line="270"/>
         <location filename="formactpaper.cpp" line="275"/>
         <source>自动时修改位置很危险，每次修改值只能小于+-5mm</source>
-        <translation>Опасно изменять местоположение в автоматическом состоянии, значение должно быть меньше + - 5 мм каждый раз</translation>
+        <translation>Опасно изм. местопол.в авто. состоянии, знач. должно быть меньше + - 5 мм каждый раз</translation>
     </message>
 </context>
 <context>
@@ -7488,12 +7487,12 @@
     <message>
         <location filename="formactpath.ui" line="81"/>
         <source>连续路径指令参数</source>
-        <translation>параметр команды непрерывного пути</translation>
+        <translation>Парам. команды непрер.пути</translation>
     </message>
     <message>
         <location filename="formactpath.ui" line="142"/>
         <source>公差(mm)：</source>
-        <translation>Толерантность(mm):</translation>
+        <translation>Допуск (мм):</translation>
     </message>
 </context>
 <context>
@@ -7501,27 +7500,27 @@
     <message>
         <location filename="formactpos.ui" line="989"/>
         <source>相对</source>
-        <translation>относительно</translation>
+        <translation>Относит.</translation>
     </message>
     <message>
         <location filename="formactpos.ui" line="102"/>
         <source>伺服定位参数</source>
-        <translation>параметр сервоустановки</translation>
+        <translation>Парам. серво</translation>
     </message>
     <message>
         <location filename="formactpos.ui" line="374"/>
         <source>速度：</source>
-        <translation>скорость:</translation>
+        <translation>Скор.:</translation>
     </message>
     <message>
         <location filename="formactpos.ui" line="476"/>
         <source>延时：</source>
-        <translation>Задержка:</translation>
+        <translation>Задер.:</translation>
     </message>
     <message>
         <location filename="formactpos.ui" line="534"/>
         <source>s</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="formactpos.cpp" line="144"/>
@@ -7537,7 +7536,7 @@
         <location filename="formactpos.cpp" line="801"/>
         <location filename="formactpos.cpp" line="896"/>
         <source>取物点</source>
-        <translation>Получить товар</translation>
+        <translation>Точка выб.</translation>
     </message>
     <message>
         <location filename="formactpos.cpp" line="147"/>
@@ -7553,7 +7552,7 @@
         <location filename="formactpos.cpp" line="804"/>
         <location filename="formactpos.cpp" line="899"/>
         <source>置物点</source>
-        <translation>Вернуть товар</translation>
+        <translation>Точка хран.</translation>
     </message>
     <message>
         <location filename="formactpos.cpp" line="150"/>
@@ -7569,7 +7568,7 @@
         <location filename="formactpos.cpp" line="807"/>
         <location filename="formactpos.cpp" line="902"/>
         <source>待机点</source>
-        <translation>Точка ожидания</translation>
+        <translation>Точка ожид.</translation>
     </message>
     <message>
         <location filename="formactpos.cpp" line="429"/>
@@ -7601,7 +7600,7 @@
         <location filename="formactpos.cpp" line="922"/>
         <location filename="formactpos.cpp" line="927"/>
         <source>自动时修改位置很危险，每次修改值只能小于+-5mm</source>
-        <translation>Опасно изменять местоположение в автоматическом состоянии, значение должно быть меньше + - 5 мм каждый раз</translation>
+        <translation>Опасно изм. местопол.в авто. состоянии, знач. должно быть меньше + - 5 мм каждый раз</translation>
     </message>
 </context>
 <context>
@@ -7614,7 +7613,7 @@
     <message>
         <location filename="formactpower.ui" line="453"/>
         <source>电源关</source>
-        <translation>Выключение</translation>
+        <translation>Выкл.</translation>
     </message>
 </context>
 <context>
@@ -7622,52 +7621,52 @@
     <message>
         <location filename="formactpro.ui" line="357"/>
         <source>倒角垂直</source>
-        <translation>Переверните вертикальный лоток</translation>
+        <translation>Вертикал.</translation>
     </message>
     <message>
         <location filename="formactpro.ui" line="397"/>
         <source>垂直</source>
-        <translation>вертикальный</translation>
+        <translation>Верт.</translation>
     </message>
     <message>
         <location filename="formactpro.ui" line="273"/>
         <source>倒角水平</source>
-        <translation>Переверните горизонтальный лоток</translation>
+        <translation>Горизонт.</translation>
     </message>
     <message>
         <location filename="formactpro.ui" line="316"/>
         <source>水平</source>
-        <translation>уровень</translation>
+        <translation>Гориз.</translation>
     </message>
     <message>
         <location filename="formactpro.ui" line="165"/>
         <source>动作时间：</source>
-        <translation>задержка:</translation>
+        <translation>Задер.:</translation>
     </message>
     <message>
         <location filename="formactpro.ui" line="99"/>
         <source>正臂动作参数</source>
-        <translation>параметр действия прямой руки</translation>
+        <translation>Парам. дейст. руки</translation>
     </message>
     <message>
         <location filename="formactpro.ui" line="438"/>
         <source>治具松开</source>
-        <translation>Лотки свободные</translation>
+        <translation>Jig освоб.</translation>
     </message>
     <message>
         <location filename="formactpro.ui" line="478"/>
         <source>松开</source>
-        <translation>разрыхление</translation>
+        <translation>Освобожд.</translation>
     </message>
     <message>
         <location filename="formactpro.ui" line="519"/>
         <source>治具夹紧</source>
-        <translation>Крепежный зажим</translation>
+        <translation>Jig зажим.</translation>
     </message>
     <message>
         <location filename="formactpro.ui" line="559"/>
         <source>夹紧</source>
-        <translation>Зажимные</translation>
+        <translation>Зажим</translation>
     </message>
     <message>
         <location filename="formactpro.cpp" line="117"/>
@@ -7685,66 +7684,66 @@
     <message>
         <location filename="formactrun.ui" line="476"/>
         <source>上行</source>
-        <translation>Идти вверх</translation>
+        <translation>Вверх</translation>
     </message>
     <message>
         <location filename="formactrun.ui" line="522"/>
         <source>下行</source>
-        <translation>вниз</translation>
+        <translation>Вниз</translation>
     </message>
     <message>
         <location filename="formactrun.ui" line="559"/>
         <source>上下</source>
-        <translation>Вверх и вниз</translation>
+        <translation>вверх и вниз</translation>
     </message>
     <message>
         <location filename="formactrun.ui" line="343"/>
         <location filename="formactrun.cpp" line="23"/>
         <location filename="formactrun.cpp" line="25"/>
         <source>引拔进</source>
-        <translation>продвижение</translation>
+        <translation>Двиг.</translation>
     </message>
     <message>
         <location filename="formactrun.ui" line="81"/>
         <source>副臂动作参数</source>
-        <translation>параметр действия плеча</translation>
+        <translation>Парам. действий</translation>
     </message>
     <message>
         <location filename="formactrun.ui" line="389"/>
         <location filename="formactrun.cpp" line="22"/>
         <location filename="formactrun.cpp" line="26"/>
         <source>引拔退</source>
-        <translation>вернуть</translation>
+        <translation>Возвр.</translation>
     </message>
     <message>
         <location filename="formactrun.ui" line="426"/>
         <source>引拔</source>
-        <translation>взад и вперед</translation>
+        <translation>Гориз.</translation>
     </message>
     <message>
         <location filename="formactrun.ui" line="609"/>
         <source>倒角水平</source>
-        <translation>Переверните горизонтальный лоток</translation>
+        <translation>Горизонтальн.</translation>
     </message>
     <message>
         <location filename="formactrun.ui" line="649"/>
         <source>水平</source>
-        <translation>поперечный</translation>
+        <translation>Гориз.</translation>
     </message>
     <message>
         <location filename="formactrun.ui" line="147"/>
         <source>倒角垂直</source>
-        <translation>вертикальный</translation>
+        <translation>Вертикал.</translation>
     </message>
     <message>
         <location filename="formactrun.ui" line="184"/>
         <source>垂直</source>
-        <translation>вертикальный</translation>
+        <translation>Верт.</translation>
     </message>
     <message>
         <location filename="formactrun.ui" line="244"/>
         <source>动作时间：</source>
-        <translation>Задержка:</translation>
+        <translation>Задер.:</translation>
     </message>
     <message>
         <location filename="formactrun.cpp" line="137"/>
@@ -7761,23 +7760,23 @@
     <name>FormActSingleLoop</name>
     <message>
         <source>伺服</source>
-        <translation type="obsolete">Servo</translation>
+        <translation type="obsolete">Серво</translation>
     </message>
     <message>
         <location filename="formactsingleloop.ui" line="371"/>
         <source>第一点：</source>
-        <translation>Первый поз:</translation>
+        <translation>Перв. поз:</translation>
     </message>
     <message>
         <location filename="formactsingleloop.ui" line="205"/>
         <location filename="formactsingleloop.ui" line="550"/>
         <source>mm</source>
-        <translation>mm</translation>
+        <translation>мм</translation>
     </message>
     <message>
         <location filename="formactsingleloop.ui" line="98"/>
         <source>单轴循环定位参数</source>
-        <translation>параметр установки одноосного цикла</translation>
+        <translation>Парам. установки одноосного цикла</translation>
     </message>
     <message>
         <location filename="formactsingleloop.ui" line="162"/>
@@ -7816,7 +7815,7 @@
     </message>
     <message>
         <source>参数</source>
-        <translation type="obsolete">параметры</translation>
+        <translation type="obsolete">Парам.</translation>
     </message>
     <message>
         <location filename="formactsingleloop.ui" line="439"/>
@@ -7831,7 +7830,7 @@
     <message>
         <location filename="formactsingleloop.ui" line="473"/>
         <source>每点次数</source>
-        <translation>точки</translation>
+        <translation>Точки</translation>
     </message>
     <message>
         <location filename="formactsingleloop.ui" line="242"/>
@@ -7841,12 +7840,12 @@
     <message>
         <location filename="formactsingleloop.ui" line="405"/>
         <source>减速距离：</source>
-        <translation>Расстояние замедления:</translation>
+        <translation>РасстЗамедл:</translation>
     </message>
     <message>
         <location filename="formactsingleloop.ui" line="507"/>
         <source>低速速度：</source>
-        <translation>низкая скорость:</translation>
+        <translation>НизкСкор:</translation>
     </message>
     <message>
         <location filename="formactsingleloop.cpp" line="280"/>
@@ -7858,19 +7857,19 @@
         <location filename="formactsingleloop.cpp" line="280"/>
         <location filename="formactsingleloop.cpp" line="285"/>
         <source>自动时修改位置很危险，每次修改值只能小于+-5mm</source>
-        <translation>Опасно изменять местоположение в автоматическом состоянии, значение должно быть меньше + - 5 мм каждый раз</translation>
+        <translation>Опасно изм. местопол.в авто. состоянии, знач. должно быть меньше + - 5 мм каждый раз</translation>
     </message>
 </context>
 <context>
     <name>FormActSingleLoopFree</name>
     <message>
         <source>伺服</source>
-        <translation type="obsolete">Servo</translation>
+        <translation type="obsolete">Серво</translation>
     </message>
     <message>
         <location filename="formactsingleloopfree.ui" line="99"/>
         <source>单轴循环自由定位参数</source>
-        <translation>параметр свободной установки одноосного цикла</translation>
+        <translation>Парам. устан. свобод. одноосного цикла</translation>
     </message>
     <message>
         <location filename="formactsingleloopfree.ui" line="172"/>
@@ -7910,16 +7909,16 @@
     <message>
         <location filename="formactsingleloopfree.ui" line="471"/>
         <source>低速速度：</source>
-        <translation>Низкая скорость:</translation>
+        <translation>НизкСкор:</translation>
     </message>
     <message>
         <location filename="formactsingleloopfree.ui" line="573"/>
         <source>减速距离：</source>
-        <translation>Расстояние замедления:</translation>
+        <translation>НизкСкор:</translation>
     </message>
     <message>
         <source>参数</source>
-        <translation type="obsolete">параметры</translation>
+        <translation type="obsolete">Парам.</translation>
     </message>
     <message>
         <location filename="formactsingleloopfree.ui" line="672"/>
@@ -7929,12 +7928,12 @@
     <message>
         <location filename="formactsingleloopfree.ui" line="876"/>
         <source>当前点：</source>
-        <translation>Текущая точка：</translation>
+        <translation>Поз:</translation>
     </message>
     <message>
         <location filename="formactsingleloopfree.ui" line="1039"/>
         <source>当前位置：</source>
-        <translation>текущая позиция:</translation>
+        <translation>ТекПоз:</translation>
     </message>
     <message>
         <location filename="formactsingleloopfree.ui" line="1144"/>
@@ -7956,7 +7955,7 @@
         <location filename="formactsingleloopfree.cpp" line="257"/>
         <location filename="formactsingleloopfree.cpp" line="262"/>
         <source>自动时修改位置很危险，每次修改值只能小于+-5mm</source>
-        <translation>Опасно изменять местоположение в автоматическом состоянии, значение должно быть меньше + - 5 мм каждый раз</translation>
+        <translation>Опасно изм. местопол.в авто. состоянии, знач. должно быть меньше + - 5 мм каждый раз</translation>
     </message>
 </context>
 <context>
@@ -7964,7 +7963,7 @@
     <message>
         <location filename="formactspeed.ui" line="102"/>
         <source>伺服速度调整参数</source>
-        <translation>параметр сервомотора</translation>
+        <translation>Серво</translation>
     </message>
     <message>
         <location filename="formactspeed.ui" line="162"/>
@@ -7979,24 +7978,24 @@
         <location filename="formactvacuum.ui" line="428"/>
         <source>打开</source>
         <extracomment>扩展输出开关</extracomment>
-        <translation>ON</translation>
+        <translation>Вкл</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="469"/>
         <location filename="formactvacuum.ui" line="509"/>
         <source>关闭</source>
         <extracomment>扩展输出开关</extracomment>
-        <translation>OFF</translation>
+        <translation>Выкл</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="181"/>
         <source>动作时间：</source>
-        <translation>Задержка:</translation>
+        <translation>задер.:</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="99"/>
         <source>治具组参数</source>
-        <translation>групповой параметр</translation>
+        <translation>Групповой параметр</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="280"/>
@@ -8007,7 +8006,7 @@
         <location filename="formactvacuum.ui" line="1085"/>
         <source>下一页</source>
         <extracomment>扩展输出开关</extracomment>
-        <translation>Следующая страница</translation>
+        <translation>След.</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="550"/>
@@ -8045,7 +8044,7 @@
     <message>
         <location filename="formactvacuum.ui" line="640"/>
         <source>吸具二</source>
-        <translation>Всасывание два</translation>
+        <translation>Vac-2</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="1869"/>
@@ -8054,7 +8053,7 @@
         <extracomment>扩展输出开关
 ----------
 扩展输出开关</extracomment>
-        <translation>предыдущий</translation>
+        <translation>Предыд.</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="1154"/>
@@ -8099,72 +8098,72 @@
     <message>
         <location filename="formactvacuum.ui" line="1972"/>
         <source>主板-Y01</source>
-        <translation>Материнская плата-Y01</translation>
+        <translation>Main-Y01</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="2058"/>
         <source>主板-Y02</source>
-        <translation>Материнская плата-Y02</translation>
+        <translation>Main-Y02</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="2144"/>
         <source>主板-Y03</source>
-        <translation>Материнская плата-Y03</translation>
+        <translation>Main-Y03</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="2230"/>
         <source>主板-Y04</source>
-        <translation>Материнская плата-Y04</translation>
+        <translation>Main-Y04</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="2316"/>
         <source>主板-Y05</source>
-        <translation>Материнская плата-Y05</translation>
+        <translation>Main-Y05</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="2402"/>
         <source>主板-Y08</source>
-        <translation>Материнская плата-Y08</translation>
+        <translation>Main-Y08</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="2488"/>
         <source>主板-Y09</source>
-        <translation>Материнская плата-Y09</translation>
+        <translation>Main-Y09</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="2574"/>
         <source>主板-Y10</source>
-        <translation>Материнская плата-Y10</translation>
+        <translation>Main-Y10</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="2660"/>
         <source>主板-Y11</source>
-        <translation>Материнская плата-Y11</translation>
+        <translation>Main-Y11</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="2746"/>
         <source>主板-Y15</source>
-        <translation>Материнская плата-Y15</translation>
+        <translation>Main-Y15</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="730"/>
         <source>抱具一</source>
-        <translation>Одно объятие</translation>
+        <translation>Grp-1</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="820"/>
         <source>抱具二</source>
-        <translation>Клетка два</translation>
+        <translation>Grp-2</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="910"/>
         <source>抱具三</source>
-        <translation>Клетка три</translation>
+        <translation>Grp-3</translation>
     </message>
     <message>
         <location filename="formactvacuum.ui" line="1000"/>
         <source>抱具四</source>
-        <translation>Холдинг четыре</translation>
+        <translation>Grp-4</translation>
     </message>
 </context>
 <context>
@@ -8172,7 +8171,7 @@
     <message>
         <location filename="formactvision.ui" line="108"/>
         <source>视觉参数</source>
-        <translation>визуальный параметр</translation>
+        <translation>Визуал. параметры</translation>
     </message>
     <message>
         <location filename="formactvision.ui" line="174"/>
@@ -8182,7 +8181,7 @@
     <message>
         <location filename="formactvision.ui" line="282"/>
         <source>视觉设备号：</source>
-        <translation>Номер визуального устройства:</translation>
+        <translation>Номер визуал. устр.:</translation>
     </message>
     <message>
         <location filename="formactvision.ui" line="311"/>
@@ -8227,22 +8226,22 @@
     <message>
         <location filename="formactvision.ui" line="383"/>
         <source>用户变量：</source>
-        <translation>Выберите переменную:</translation>
+        <translation>Выб. перем.:</translation>
     </message>
     <message>
         <location filename="formactvision.ui" line="399"/>
         <source>第一组</source>
-        <translation>Первая группа</translation>
+        <translation>Пер. группа</translation>
     </message>
     <message>
         <location filename="formactvision.ui" line="553"/>
         <source>第二组</source>
-        <translation>Вторая группа</translation>
+        <translation>Втор. группа</translation>
     </message>
     <message>
         <location filename="formactvision.ui" line="707"/>
         <source>第三组</source>
-        <translation>Третья группа</translation>
+        <translation>Трет. группа</translation>
     </message>
 </context>
 <context>
@@ -8250,7 +8249,7 @@
     <message>
         <location filename="formactwait.ui" line="81"/>
         <source>等待信号指令参数</source>
-        <translation>параметр команды ожидания</translation>
+        <translation>Параметр команды ожидания</translation>
     </message>
     <message>
         <location filename="formactwait.ui" line="142"/>
@@ -8261,27 +8260,27 @@
     <message>
         <location filename="formactwait.ui" line="237"/>
         <source>无效</source>
-        <translation type="unfinished"></translation>
+        <translation>Не дейст.</translation>
     </message>
     <message>
         <location filename="formactwait.ui" line="268"/>
         <source>有效</source>
-        <translation type="unfinished"></translation>
+        <translation>Дейст.</translation>
     </message>
     <message>
         <location filename="formactwait.ui" line="290"/>
         <source>&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <location filename="formactwait.ui" line="312"/>
         <source>&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <location filename="formactwait.ui" line="334"/>
         <source>!=</source>
-        <translation type="unfinished"></translation>
+        <translation>!=</translation>
     </message>
     <message>
         <location filename="formactwait.ui" line="356"/>
@@ -8291,11 +8290,11 @@
     <message>
         <location filename="formactwait.ui" line="579"/>
         <source>有效时间：</source>
-        <translation type="unfinished"></translation>
+        <translation>Вр. действия:</translation>
     </message>
     <message>
         <source>等待端口信号无效</source>
-        <translation type="obsolete">Сигнал недействителен</translation>
+        <translation type="obsolete">Сигнал недейств.</translation>
     </message>
     <message>
         <location filename="formactwait.ui" line="392"/>
@@ -8308,12 +8307,12 @@
     <message>
         <location filename="formadjust.ui" line="128"/>
         <source>伺服调位</source>
-        <translation>Регулировка сервопривода</translation>
+        <translation>Настр. серво</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="170"/>
         <source>正臂引拔轴</source>
-        <translation>Вал съемника положительного рычага</translation>
+        <translation>PA гориз</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="218"/>
@@ -8323,7 +8322,7 @@
         <location filename="formadjust.ui" line="1358"/>
         <location filename="formadjust.ui" line="1649"/>
         <source>负限</source>
-        <translation>Отрицательный предел</translation>
+        <translation>ОтрицПредел</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="318"/>
@@ -8333,7 +8332,7 @@
         <location filename="formadjust.ui" line="1461"/>
         <location filename="formadjust.ui" line="1752"/>
         <source>原点</source>
-        <translation>происхождения</translation>
+        <translation>Ориг.</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="418"/>
@@ -8343,133 +8342,133 @@
         <location filename="formadjust.ui" line="1564"/>
         <location filename="formadjust.ui" line="1855"/>
         <source>正限</source>
-        <translation>Положительный предел</translation>
+        <translation>ПоложПредел</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="452"/>
         <source>正臂上下轴</source>
-        <translation>Вертикальная ось плеча</translation>
+        <translation>PA верт</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="734"/>
         <source>正臂横行轴</source>
-        <translation>Поперечная ось положительного рычага</translation>
+        <translation>Trv (попереч)</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="1019"/>
         <source>副臂引拔轴</source>
-        <translation>Вспомогательный вал</translation>
+        <translation>RA гориз</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="1310"/>
         <source>副臂上下轴</source>
-        <translation>Верхняя и нижняя ось стрелы</translation>
+        <translation>RA верт</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="1601"/>
         <source>扩展轴</source>
-        <translation>Выдвинутая ось</translation>
+        <translation>Дополн</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="1898"/>
         <source>速度设置</source>
-        <translation>Установка скорости</translation>
+        <translation>скор.</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2003"/>
         <source>刻度设置</source>
-        <translation>Настройка масштаба</translation>
+        <translation>масшт.</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2055"/>
         <source>mm</source>
-        <translation>mm</translation>
+        <translation>мм</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2477"/>
         <source>治具</source>
-        <translation>кондуктор</translation>
+        <translation>Jig</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2504"/>
         <source>打开</source>
-        <translation>включи</translation>
+        <translation>Вкл</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2554"/>
         <source>吸具一</source>
-        <translation>Присоска</translation>
+        <translation>Vac-1</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2597"/>
         <source>抱具二</source>
-        <translation>Держатель II</translation>
+        <translation>Grp-2</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2640"/>
         <source>抱具一</source>
-        <translation>Держа один</translation>
+        <translation>Grp-1</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2683"/>
         <source>吸具二</source>
-        <translation>Всасывание 2</translation>
+        <translation>Vac-2</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2726"/>
         <source>抱具三</source>
-        <translation>Удерживающая шестерня три</translation>
+        <translation>Grp-3</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2769"/>
         <source>抱具四</source>
-        <translation>Держи четыре</translation>
+        <translation>Grp-4</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2803"/>
         <source>关闭</source>
-        <translation>неисправность</translation>
+        <translation>Выкл</translation>
     </message>
     <message>
         <source>气动限位调位</source>
-        <translation type="obsolete">Пневматическая регулировка предела</translation>
+        <translation type="obsolete">ПневмРегулПредела</translation>
     </message>
     <message>
         <source>副臂引拔距离</source>
-        <translation type="obsolete">Расстояние вытягивания вспомогательного рычага</translation>
+        <translation type="obsolete">RA.ГорДист</translation>
     </message>
     <message>
         <source>副臂引拔位置</source>
-        <translation type="obsolete">Положение извлечения вспомогательного рычага</translation>
+        <translation type="obsolete">RA.ГорПоз</translation>
     </message>
     <message>
         <source>副臂上行</source>
-        <translation type="obsolete">Вспомогательный рычаг вверх</translation>
+        <translation type="obsolete">RA.Вверх</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2082"/>
         <source>正臂气动动作</source>
-        <translation>Позитивное плечо пневматического действия</translation>
+        <translation>ПозитДейстПневмоРуки</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2221"/>
         <source>副臂气动动作</source>
-        <translation>Вспомогательный рычаг аэродинамического действия</translation>
+        <translation>ДействВспомогРуки</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2311"/>
         <source>副臂水平-Y10 </source>
-        <translation>Уровень ядра-Y10</translation>
+        <translation>PA-O.HOR-Y10</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2362"/>
         <source>副臂垂直-Y11 </source>
-        <translation>Вторичный рычаг вертикальный-Y11</translation>
+        <translation>RA-O.Ver-Y11</translation>
     </message>
     <message>
         <location filename="formadjust.ui" line="2426"/>
         <source>副臂后退 Y14</source>
-        <translation>Вторичное отступление руки Y14</translation>
+        <translation>ВтягВторойРуки Y14</translation>
     </message>
     <message>
         <location filename="formadjust.cpp" line="106"/>
@@ -8484,23 +8483,23 @@
     <message>
         <location filename="formadjust.cpp" line="111"/>
         <source>(旋转)轴</source>
-        <translation>ось вращения</translation>
+        <translation>(Rel)axis</translation>
     </message>
     <message>
         <location filename="formadjust.cpp" line="112"/>
         <source>(倒角)轴</source>
-        <translation>(РОТ) оси</translation>
+        <translation>(Rot)axis</translation>
     </message>
     <message>
         <location filename="formadjust.cpp" line="183"/>
         <location filename="formadjust.cpp" line="404"/>
         <source>选择开关不在手动状态不能进行调位操作！</source>
-        <translation>Công tắc chọn không ở trạng thái thủ công và không thể điều chỉnh!</translation>
+        <translation>Невоз. отрег. полож.я, если перекл. не находится в ручн. режиме!</translation>
     </message>
     <message>
         <location filename="formadjust.cpp" line="190"/>
         <source>机械手在自动状态时，不能进行调位操作！</source>
-        <translation>Не могу отрегулировать, когда авто состояние!</translation>
+        <translation>Не возм. регул., в авто состоянии!</translation>
     </message>
     <message>
         <location filename="formadjust.cpp" line="194"/>
@@ -8508,7 +8507,7 @@
         <location filename="formadjust.cpp" line="202"/>
         <location filename="formadjust.cpp" line="207"/>
         <source>系统提示</source>
-        <translation>Системная подсказка</translation>
+        <translation>Сист. подсказка</translation>
     </message>
     <message>
         <location filename="formadjust.cpp" line="194"/>
@@ -8519,10 +8518,10 @@
 一切后果将由用户负责， 
 确定进入吗？</source>
         <translation>При настройке операции,
-Запрессовка кокильного пресса, открытие формы, закрытие формы и другие операции будут запрещены,
+EMO, EMC, EEF и другие операции игнор-ся!
 Робот не выполняет никаких проверок безопасности, и работа контролируется пользователем.
 Ответственность за все последствия несет пользователь.
-Вы уверены, что войти?</translation>
+Продолжить? Вы уверены?</translation>
     </message>
     <message>
         <location filename="formadjust.cpp" line="197"/>
@@ -8532,10 +8531,10 @@
 一切后果将由用户负责， 
 确定进入吗？</source>
         <translation>При настройке операции,
-Наперсток, режим открывания и закрывания пресс-формы машины будет запрещен.
+EMO, EMC, EEF и другие операции игнор-ся!
 Робот не выполняет никаких проверок безопасности, и работа контролируется пользователем.
 Ответственность за все последствия несет пользователь.
-Вы уверены, что войти?</translation>
+Продолжить? Вы уверены?</translation>
     </message>
     <message>
         <location filename="formadjust.cpp" line="207"/>
@@ -8545,10 +8544,10 @@
 一切后果将由用户负责， 
 确定进入吗？</source>
         <translation>При настройке операции,
-Запрещается выталкивать штифт, открывать форму и закрывать форму машины для литья под давлением.
+EMO, EMC, EEF и другие операции игнор-ся!
 Робот не выполняет никаких проверок безопасности, и работа контролируется пользователем.
 Ответственность за все последствия несет пользователь.
-Вы уверены, что войти?</translation>
+Продолжить? Вы уверены?</translation>
     </message>
     <message>
         <location filename="formadjust.cpp" line="214"/>
@@ -8558,7 +8557,7 @@
     <message>
         <location filename="formadjust.cpp" line="331"/>
         <source>机械手没有切回手动状态！</source>
-        <translation>Робот не переключился обратно в ручное состояние!</translation>
+        <translation>Робот не перекл. в ручное состояние!</translation>
     </message>
 </context>
 <context>
@@ -8572,78 +8571,78 @@
         <location filename="formalarm.ui" line="196"/>
         <location filename="formalarm.ui" line="1291"/>
         <source>报警信息：</source>
-        <translation>Информация о тревоге:</translation>
+        <translation>Детали тревоги:</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="212"/>
         <source>请选择报警源</source>
-        <translation>Пожалуйста, выберите источник тревоги</translation>
+        <translation>Источники тревог</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="260"/>
         <source>正臂倒角</source>
-        <translation>Фаска положительного рычага</translation>
+        <translation>PA.Rotate</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="313"/>
         <source>副臂气动上下</source>
-        <translation>Пневматическая верхняя и нижняя</translation>
+        <translation>RA Pneu Ver</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="363"/>
         <source>扩展模块2</source>
-        <translation>Модуль расширения 2</translation>
+        <translation>EM2 Ports</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="413"/>
         <source>扩展模块4</source>
-        <translation>Модуль расширения 4</translation>
+        <translation>EM4 Ports</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="463"/>
         <source>扩展模块1</source>
-        <translation>Модуль расширения 1</translation>
+        <translation>EM1 Ports</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="513"/>
         <source>扩展模块3</source>
-        <translation>Модуль расширения 3</translation>
+        <translation>EM3 Ports</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="563"/>
         <source>副臂上下轴伺服</source>
-        <translation>Сервопривод верхней и нижней оси вторичного рычага</translation>
+        <translation>RA.Ver Servo</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="613"/>
         <location filename="formalarm.cpp" line="97"/>
         <source>注塑机/系统</source>
-        <translation>Литьевая машина / система</translation>
+        <translation>IMM/System</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="666"/>
         <source>正臂引拔轴伺服</source>
-        <translation>Сервопривод положительной оси рычага</translation>
+        <translation>PA.Hor Servo</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="716"/>
         <source>正臂上下轴伺服</source>
-        <translation>Положительный рычаг сервопривода вверх и вниз по оси</translation>
+        <translation>PA.Ver Servo</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="766"/>
         <source>副臂引拔轴伺服</source>
-        <translation>Сервопривод тяги оси</translation>
+        <translation>RA.Hor Servo</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="816"/>
         <source>横行轴伺服</source>
-        <translation>Горизонтальная ось сервопривод</translation>
+        <translation>Travel Servo</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="866"/>
         <source>扩展轴伺服</source>
-        <translation>Серво с увеличенной осью</translation>
+        <translation>Ext Servo</translation>
     </message>
     <message>
         <location filename="formalarm.ui" line="992"/>
@@ -8665,12 +8664,12 @@
         <location filename="formalarm.cpp" line="89"/>
         <location filename="formalarm.cpp" line="94"/>
         <source>压铸机/系统</source>
-        <translation>Машина для литья под давлением / система</translation>
+        <translation>IMM/System</translation>
     </message>
     <message>
         <location filename="formalarm.cpp" line="91"/>
         <source>机床/系统</source>
-        <translation>Машина / System</translation>
+        <translation>IMM/System</translation>
     </message>
     <message>
         <location filename="formalarm.cpp" line="100"/>
@@ -8680,7 +8679,7 @@
         <location filename="formalarm.cpp" line="104"/>
         <location filename="formalarm.cpp" line="105"/>
         <source>轴伺服</source>
-        <translation>Ось сервопривод</translation>
+        <translation>Ось серво</translation>
     </message>
 </context>
 <context>
@@ -8688,57 +8687,57 @@
     <message>
         <location filename="formalfapgmexplorer.ui" line="100"/>
         <source>程序目录</source>
-        <translation>Каталог программ</translation>
+        <translation>Программы</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.ui" line="246"/>
         <source>载入</source>
-        <translation>загрузка</translation>
+        <translation>Загрузка</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.ui" line="293"/>
         <source>新建</source>
-        <translation>новый</translation>
+        <translation>Новая</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.ui" line="340"/>
         <source>重命名</source>
-        <translation>Переименование</translation>
+        <translation>ИзмИмя</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.ui" line="400"/>
         <source>另存为</source>
-        <translation>Сохранить как</translation>
+        <translation>Сохр. как</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.ui" line="447"/>
         <source>导到U盘</source>
-        <translation>Руководство по U диск</translation>
+        <translation>На USB</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.ui" line="494"/>
         <source>删除</source>
-        <translation>удалять</translation>
+        <translation>Удалить</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.ui" line="525"/>
         <source>USB目录</source>
-        <translation>USB-каталог</translation>
+        <translation>USB</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.ui" line="667"/>
         <source>导到程序</source>
-        <translation>Привести к программе</translation>
+        <translation>Программ.</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.ui" line="704"/>
         <source>刷新</source>
-        <translation>обновление</translation>
+        <translation>Обновить</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.ui" line="744"/>
         <source>弹出U盘</source>
-        <translation>Всплывающее U диск</translation>
+        <translation>Извл. USB</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.cpp" line="117"/>
@@ -8762,12 +8761,12 @@
         <location filename="formalfapgmexplorer.cpp" line="456"/>
         <location filename="formalfapgmexplorer.cpp" line="468"/>
         <source>系统警告</source>
-        <translation>Системное предупреждение</translation>
+        <translation>Предупрежд.</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.cpp" line="117"/>
         <source>系统为教导模式，不能进入！</source>
-        <translation>Система находится в режиме обучения и не может быть введена!</translation>
+        <translation>Система наход. в реж. обучения и войти в нее невозможно!</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.cpp" line="188"/>
@@ -8822,7 +8821,7 @@
     <message>
         <location filename="formalfapgmexplorer.cpp" line="353"/>
         <source>不能删除系统载入的当前程序，无法进行删除操作！</source>
-        <translation>Текущая программа, загруженная системой, не может быть удалена и не может быть удалена!</translation>
+        <translation>Невозможно удалить файл программы, загруженный как текущая системная программа!</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.cpp" line="356"/>
@@ -8830,12 +8829,12 @@
         <location filename="formalfapgmexplorer.cpp" line="477"/>
         <location filename="formalfapgmexplorer.cpp" line="489"/>
         <source>系统提示</source>
-        <translation>Системная подсказка</translation>
+        <translation>Систем. подсказка</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.cpp" line="356"/>
         <source>删除文件后将无法恢复，是否真的要删除所选择的文件？</source>
-        <translation>Файлы не могут быть восстановлены, удаляя？</translation>
+        <translation>Файлы не могут быть восстановлены, удалить？</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.cpp" line="388"/>
@@ -8861,7 +8860,7 @@
     <message>
         <location filename="formalfapgmexplorer.cpp" line="425"/>
         <source>所选的系统存储器程序文件已经成功导出到USB存储器中！</source>
-        <translation>Успешно экспортировать на USB!</translation>
+        <translation>Успешно экспортировано на USB!</translation>
     </message>
     <message>
         <location filename="formalfapgmexplorer.cpp" line="438"/>
@@ -8892,7 +8891,7 @@
     <message>
         <location filename="formalfapgmexplorer.cpp" line="489"/>
         <source>USB存储器现在可以安全移除。</source>
-        <translation>USB-память безопасно удалить.</translation>
+        <translation>Теперь USB-накопитель можно безопасно извлечь.</translation>
     </message>
 </context>
 <context>
@@ -8915,17 +8914,17 @@
     <message>
         <location filename="formauto.ui" line="466"/>
         <source>单周期</source>
-        <translation>Один цикл</translation>
+        <translation>Цикл</translation>
     </message>
     <message>
         <location filename="formauto.ui" line="500"/>
         <source>单步</source>
-        <translation>Один шаг</translation>
+        <translation>Шаг</translation>
     </message>
     <message>
         <location filename="formauto.ui" line="547"/>
         <source>跟随</source>
-        <translation>следовать</translation>
+        <translation>Следовать</translation>
     </message>
     <message>
         <location filename="formauto.ui" line="576"/>
@@ -8935,12 +8934,12 @@
     <message>
         <location filename="formauto.ui" line="619"/>
         <source>完成产品：</source>
-        <translation>Готовый продукт:</translation>
+        <translation>Всего:</translation>
     </message>
     <message>
         <location filename="formauto.ui" line="703"/>
         <source>计划剩余：</source>
-        <translation>Оставшийся план:</translation>
+        <translation>Остаток:</translation>
     </message>
     <message>
         <location filename="formauto.ui" line="787"/>
@@ -8950,7 +8949,7 @@
     <message>
         <location filename="formauto.ui" line="871"/>
         <source>模内时间：</source>
-        <translation>Время в форме:</translation>
+        <translation>Время в ПФ:</translation>
     </message>
     <message>
         <location filename="formauto.ui" line="940"/>
@@ -8961,47 +8960,47 @@
     <message>
         <location filename="formauto.ui" line="993"/>
         <source>开模完成</source>
-        <translation>Открытие пресс-формы</translation>
+        <translation>MOP</translation>
     </message>
     <message>
         <location filename="formauto.ui" line="1041"/>
         <source>关模完成</source>
-        <translation>Закрытый режим</translation>
+        <translation>MCP</translation>
     </message>
     <message>
         <location filename="formauto.ui" line="1089"/>
         <source>允许开模</source>
-        <translation>Разрешить открытие формы</translation>
+        <translation>EMO</translation>
     </message>
     <message>
         <location filename="formauto.ui" line="1137"/>
         <source>允许关模</source>
-        <translation>Разрешить режим</translation>
+        <translation>EMC</translation>
     </message>
     <message>
         <location filename="formauto.ui" line="1185"/>
         <source>安全设备</source>
-        <translation>Оборудование для обеспечения безопасности</translation>
+        <translation>SDM</translation>
     </message>
     <message>
         <location filename="formauto.ui" line="1233"/>
         <source>模区安全</source>
-        <translation>Die области безопасности</translation>
+        <translation>MAF</translation>
     </message>
     <message>
         <location filename="formauto.cpp" line="97"/>
         <source>加工完成</source>
-        <translation>Обработка завершена</translation>
+        <translation>MOP</translation>
     </message>
     <message>
         <location filename="formauto.cpp" line="98"/>
         <source>加工启动</source>
-        <translation>Начало обработки</translation>
+        <translation>MCP</translation>
     </message>
     <message>
         <location filename="formauto.cpp" line="99"/>
         <source>防护门</source>
-        <translation>Защитная дверь</translation>
+        <translation>SDM</translation>
     </message>
     <message>
         <location filename="formauto.cpp" line="131"/>
@@ -9018,7 +9017,7 @@
         <location filename="formauto.cpp" line="683"/>
         <location filename="formauto.cpp" line="692"/>
         <source>系统警告</source>
-        <translation>Системное предупреждение</translation>
+        <translation>Предупр.</translation>
     </message>
     <message>
         <location filename="formauto.cpp" line="131"/>
@@ -9029,12 +9028,12 @@
     <message>
         <location filename="formauto.cpp" line="138"/>
         <source>装载程序文件出错，不能修改伺服全局速度设置！</source>
-        <translation>Ошибка загрузки программы, невозможно установить глобальную скорость сервоприводов!</translation>
+        <translation>Ошибка загр. прогр., невозможно устан. глобальную скор. сервоприводов!</translation>
     </message>
     <message>
         <location filename="formauto.cpp" line="143"/>
         <source>向导生成运行程序出错！</source>
-        <translation>Мастер сгенерировал ошибку запущенной программы!</translation>
+        <translation>Ошибка в создании и запуске программы!</translation>
     </message>
     <message>
         <location filename="formauto.cpp" line="150"/>
@@ -9057,7 +9056,7 @@
     <message>
         <location filename="formauto.cpp" line="194"/>
         <source>检查程序</source>
-        <translation>Процедура осмотра</translation>
+        <translation>Проверка программы</translation>
     </message>
     <message>
         <location filename="formauto.cpp" line="194"/>
@@ -9070,12 +9069,12 @@
         <location filename="formauto.cpp" line="219"/>
         <location filename="formauto.cpp" line="224"/>
         <source>压铸机信号</source>
-        <translation>Сигнал машины литья под давлением</translation>
+        <translation>IMM Сигналы</translation>
     </message>
     <message>
         <location filename="formauto.cpp" line="221"/>
         <source>机床信号</source>
-        <translation>Машинный сигнал</translation>
+        <translation>IMM</translation>
     </message>
     <message>
         <location filename="formauto.cpp" line="424"/>
@@ -9083,12 +9082,12 @@
         <location filename="formauto.cpp" line="434"/>
         <location filename="formauto.cpp" line="638"/>
         <source>系统提示</source>
-        <translation>Системная подсказка</translation>
+        <translation>Сист.подсказка</translation>
     </message>
     <message>
         <location filename="formauto.cpp" line="424"/>
         <source>正在停止系统全自动运行，请稍候...</source>
-        <translation>Остановка системы полностью в автоматическом режиме, подождите ...</translation>
+        <translation>Остановка системы в автоматическом режиме, подождите ...</translation>
     </message>
     <message>
         <location filename="formauto.cpp" line="429"/>
@@ -9132,7 +9131,7 @@
     <message>
         <location filename="formbacklight.ui" line="158"/>
         <source>日期时间</source>
-        <translation type="unfinished"></translation>
+        <translation>дата и время</translation>
     </message>
     <message>
         <location filename="formbacklight.ui" line="189"/>
@@ -9143,7 +9142,7 @@
     <message>
         <location filename="formbacklight.ui" line="241"/>
         <source>yyyy-MM-dd</source>
-        <translation type="unfinished"></translation>
+        <translation>гггг-мм-дд</translation>
     </message>
     <message>
         <location filename="formbacklight.ui" line="269"/>
@@ -9153,22 +9152,22 @@
     <message>
         <location filename="formbacklight.ui" line="297"/>
         <source>循环周期</source>
-        <translation type="unfinished"></translation>
+        <translation>Цикл</translation>
     </message>
     <message>
         <location filename="formbacklight.ui" line="325"/>
         <source>生产模数</source>
-        <translation type="unfinished"></translation>
+        <translation>Работа</translation>
     </message>
     <message>
         <location filename="formbacklight.ui" line="353"/>
         <source>取件时间</source>
-        <translation type="unfinished"></translation>
+        <translation>Произв.</translation>
     </message>
     <message>
         <location filename="formbacklight.ui" line="415"/>
         <source>HH:mm:ss</source>
-        <translation type="unfinished"></translation>
+        <translation>чч:мм:сс</translation>
     </message>
 </context>
 <context>
@@ -9176,7 +9175,7 @@
     <message>
         <location filename="formbtnassist.ui" line="104"/>
         <source>时间(秒)</source>
-        <translation>время (s)</translation>
+        <translation>время (с)</translation>
     </message>
     <message>
         <location filename="formbtnassist.ui" line="129"/>
@@ -9187,30 +9186,30 @@
         <location filename="formbtnassist.ui" line="199"/>
         <location filename="formbtnassist.cpp" line="171"/>
         <source>打油关</source>
-        <translation>масляный затвор</translation>
+        <translation>Смазка</translation>
     </message>
     <message>
         <location filename="formbtnassist.ui" line="392"/>
         <location filename="formbtnassist.cpp" line="186"/>
         <source>传送带关</source>
-        <translation>шлюз конвейера</translation>
+        <translation>Конвейер вкл</translation>
     </message>
     <message>
         <location filename="formbtnassist.ui" line="585"/>
         <location filename="formbtnassist.cpp" line="201"/>
         <location filename="formbtnassist.cpp" line="207"/>
         <source>不良品</source>
-        <translation>плохой товар</translation>
+        <translation>Брак</translation>
     </message>
     <message>
         <location filename="formbtnassist.cpp" line="177"/>
         <source>打油开</source>
-        <translation>отполировать</translation>
+        <translation>Смазка</translation>
     </message>
     <message>
         <location filename="formbtnassist.cpp" line="192"/>
         <source>传送带开</source>
-        <translation>Открытие конвейера</translation>
+        <translation>Конвейер отк</translation>
     </message>
 </context>
 <context>
@@ -9223,7 +9222,7 @@
         <location filename="formbtnextpos.ui" line="1402"/>
         <location filename="formbtnextpos.ui" line="1670"/>
         <source>s</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="formbtnextpos.cpp" line="263"/>
@@ -9233,7 +9232,7 @@
         <location filename="formbtnextpos.cpp" line="565"/>
         <location filename="formbtnextpos.cpp" line="636"/>
         <source>取物点</source>
-        <translation>Пункт забора</translation>
+        <translation>Точка выб.</translation>
     </message>
     <message>
         <location filename="formbtnextpos.cpp" line="266"/>
@@ -9243,7 +9242,7 @@
         <location filename="formbtnextpos.cpp" line="568"/>
         <location filename="formbtnextpos.cpp" line="639"/>
         <source>置物点</source>
-        <translation>точка установки</translation>
+        <translation>Точка хран.</translation>
     </message>
     <message>
         <location filename="formbtnextpos.cpp" line="269"/>
@@ -9253,7 +9252,7 @@
         <location filename="formbtnextpos.cpp" line="571"/>
         <location filename="formbtnextpos.cpp" line="642"/>
         <source>待机点</source>
-        <translation>конгруэнтная ожидания</translation>
+        <translation>Точка ожид.</translation>
     </message>
     <message>
         <location filename="formbtnextpos.cpp" line="289"/>
@@ -9269,7 +9268,7 @@
         <location filename="formbtnextpos.cpp" line="662"/>
         <location filename="formbtnextpos.cpp" line="667"/>
         <source>输入有误</source>
-        <translation>Ошибка при вводе</translation>
+        <translation>Ошиб. ввода</translation>
     </message>
     <message>
         <location filename="formbtnextpos.cpp" line="289"/>
@@ -9285,7 +9284,7 @@
         <location filename="formbtnextpos.cpp" line="662"/>
         <location filename="formbtnextpos.cpp" line="667"/>
         <source>自动时修改位置很危险，每次修改值只能小于+-5mm</source>
-        <translation>Опасно изменять местоположение в автоматическом состоянии, значение должно быть меньше + - 5 мм каждый раз</translation>
+        <translation>Опасно изм. местопол.в авто. состоянии, знач. должно быть меньше + - 5 мм каждый раз</translation>
     </message>
 </context>
 <context>
@@ -9297,12 +9296,12 @@
     <message>
         <location filename="formbtnimm.ui" line="152"/>
         <source>等待开模</source>
-        <translation type="unfinished">В ожидании открытия формы</translation>
+        <translation>EMO</translation>
     </message>
     <message>
         <location filename="formbtnimm.ui" line="186"/>
         <source>s</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="formbtnimm.ui" line="264"/>
@@ -9458,19 +9457,19 @@
     <name>FormBtnMExtOut</name>
     <message>
         <source>动作时间：</source>
-        <translation type="obsolete">время действия:</translation>
+        <translation type="obsolete">Время дейст.:</translation>
     </message>
     <message>
         <source>输出打开</source>
-        <translation type="obsolete">Открыть вывод</translation>
+        <translation type="obsolete">Вкл</translation>
     </message>
     <message>
         <source>输出关闭</source>
-        <translation type="obsolete">Выход выключен</translation>
+        <translation type="obsolete">Выкл</translation>
     </message>
     <message>
         <source>输出脉冲</source>
-        <translation type="obsolete">Выходной импульс</translation>
+        <translation type="obsolete">Вых. импульс</translation>
     </message>
     <message>
         <source>抱1Y05</source>
@@ -9496,12 +9495,12 @@
     <message>
         <location filename="formbtnmextout.ui" line="235"/>
         <source>打开</source>
-        <translation type="unfinished"></translation>
+        <translation>Вкл</translation>
     </message>
     <message>
         <location filename="formbtnmextout.ui" line="281"/>
         <source>关闭</source>
-        <translation type="unfinished"></translation>
+        <translation>Выкл</translation>
     </message>
     <message>
         <location filename="formbtnmextout.ui" line="337"/>
@@ -9511,7 +9510,7 @@
     <message>
         <location filename="formbtnmextout.ui" line="380"/>
         <source>取反</source>
-        <translation type="unfinished">сводить на нет</translation>
+        <translation>Негатив</translation>
     </message>
     <message>
         <location filename="formbtnmextout.ui" line="424"/>
@@ -9526,7 +9525,7 @@
     <message>
         <location filename="formbtnmextout.ui" line="616"/>
         <source>计数器：</source>
-        <translation type="unfinished"></translation>
+        <translation>Счетч:</translation>
     </message>
 </context>
 <context>
@@ -9549,7 +9548,7 @@
         <location filename="formbtnpos.cpp" line="566"/>
         <location filename="formbtnpos.cpp" line="637"/>
         <source>取物点</source>
-        <translation>Пункт забора</translation>
+        <translation>Точка выб.</translation>
     </message>
     <message>
         <location filename="formbtnpos.cpp" line="267"/>
@@ -9559,7 +9558,7 @@
         <location filename="formbtnpos.cpp" line="569"/>
         <location filename="formbtnpos.cpp" line="640"/>
         <source>置物点</source>
-        <translation>точка установки</translation>
+        <translation>Точка хран.</translation>
     </message>
     <message>
         <location filename="formbtnpos.cpp" line="270"/>
@@ -9569,7 +9568,7 @@
         <location filename="formbtnpos.cpp" line="572"/>
         <location filename="formbtnpos.cpp" line="643"/>
         <source>待机点</source>
-        <translation>конгруэнтная ожидания</translation>
+        <translation>Точка ожид.</translation>
     </message>
     <message>
         <location filename="formbtnpos.cpp" line="290"/>
@@ -9601,7 +9600,7 @@
         <location filename="formbtnpos.cpp" line="663"/>
         <location filename="formbtnpos.cpp" line="668"/>
         <source>自动时修改位置很危险，每次修改值只能小于+-5mm</source>
-        <translation>Опасно изменять местоположение в автоматическом состоянии, значение должно быть меньше + - 5 мм каждый раз</translation>
+        <translation>Опасно изм. местопол.в авто. состоянии, знач. должно быть меньше + - 5 мм каждый раз</translation>
     </message>
 </context>
 <context>
@@ -9609,47 +9608,47 @@
     <message>
         <location filename="formbtnpro.ui" line="124"/>
         <source>动作时间：</source>
-        <translation>время действия:</translation>
+        <translation>Время дейст.:</translation>
     </message>
     <message>
         <location filename="formbtnpro.ui" line="232"/>
         <source>倒角水平</source>
-        <translation>уровень фаски</translation>
+        <translation>Горизонт.</translation>
     </message>
     <message>
         <location filename="formbtnpro.ui" line="275"/>
         <source>水平</source>
-        <translation>Hor</translation>
+        <translation>Гориз</translation>
     </message>
     <message>
         <location filename="formbtnpro.ui" line="316"/>
         <source>倒角垂直</source>
-        <translation>уровень фаски</translation>
+        <translation>Вертикал.</translation>
     </message>
     <message>
         <location filename="formbtnpro.ui" line="356"/>
         <source>垂直</source>
-        <translation>Ver</translation>
+        <translation>Верт</translation>
     </message>
     <message>
         <location filename="formbtnpro.ui" line="397"/>
         <source>治具松开</source>
-        <translation>Лотки свободные</translation>
+        <translation>Jig освоб.</translation>
     </message>
     <message>
         <location filename="formbtnpro.ui" line="437"/>
         <source>松开</source>
-        <translation>разрыхление</translation>
+        <translation>Освобожд.</translation>
     </message>
     <message>
         <location filename="formbtnpro.ui" line="478"/>
         <source>治具夹紧</source>
-        <translation>Крепежный зажим</translation>
+        <translation>Jig зажим.</translation>
     </message>
     <message>
         <location filename="formbtnpro.ui" line="518"/>
         <source>夹紧</source>
-        <translation>Зажимные</translation>
+        <translation>Зажим</translation>
     </message>
     <message>
         <location filename="formbtnpro.cpp" line="113"/>
@@ -9667,25 +9666,25 @@
     <message>
         <location filename="formbtnquick.ui" line="287"/>
         <source>取成品治具：</source>
-        <translation>получение готовой продукции:</translation>
+        <translation>Вакуум продукц.:</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="310"/>
         <location filename="formbtnquick.ui" line="456"/>
         <source>吸具1</source>
-        <translation>Всасывающее устройство 1</translation>
+        <translation>Vac 1</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="315"/>
         <location filename="formbtnquick.ui" line="461"/>
         <source>吸具2</source>
-        <translation>Всасывающее устройство 2</translation>
+        <translation>Vac 2</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="320"/>
         <location filename="formbtnquick.ui" line="466"/>
         <source>抱具1</source>
-        <translation>Клетка 1</translation>
+        <translation>Grp 1</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="325"/>
@@ -9757,12 +9756,12 @@
         <location filename="formbtnquick.ui" line="404"/>
         <location filename="formbtnquick.ui" line="550"/>
         <source>检测</source>
-        <translation>обнаружение</translation>
+        <translation>Монитор</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="430"/>
         <source>取水口治具：</source>
-        <translation>захват инструмента:</translation>
+        <translation>Брак вакуум:</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="969"/>
@@ -9777,7 +9776,7 @@
     <message>
         <location filename="formbtnquick.ui" line="1801"/>
         <source>取物参数设置</source>
-        <translation>Получение настройки параметров</translation>
+        <translation>Настр.парам.</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1656"/>
@@ -9785,7 +9784,7 @@
         <location filename="formbtnquick.cpp" line="179"/>
         <location filename="formbtnquick.cpp" line="2024"/>
         <source>上升</source>
-        <translation>подниматься</translation>
+        <translation>Подним.</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1695"/>
@@ -9794,12 +9793,12 @@
         <location filename="formbtnquick.cpp" line="1738"/>
         <location filename="formbtnquick.cpp" line="2028"/>
         <source>下降</source>
-        <translation>упасть</translation>
+        <translation>Опускан.</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="2395"/>
         <source>6/6</source>
-        <translation>6/6</translation>
+        <translation>2024-06-06T00:00:00</translation>
     </message>
     <message>
         <source>副臂下行</source>
@@ -9808,78 +9807,78 @@
     <message>
         <location filename="formbtnquick.ui" line="192"/>
         <source>选择手臂：</source>
-        <translation>Выберите руку:</translation>
+        <translation>Выб. руку:</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="165"/>
         <source>1/6</source>
-        <translation>1/6</translation>
+        <translation>2024-01-06T00:00:00</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="220"/>
         <source>正臂</source>
-        <translation>Положительная рука</translation>
+        <translation>PA</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="248"/>
         <source>副臂</source>
-        <translation>Вспомогательный рычаг</translation>
+        <translation>RA</translation>
     </message>
     <message>
         <source>副臂气动</source>
-        <translation type="obsolete">Стрела пневматическая</translation>
+        <translation type="obsolete">RA пневмо</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="697"/>
         <location filename="formbtnquick.ui" line="1210"/>
         <location filename="formbtnquick.ui" line="2179"/>
         <source>正引拔轴：</source>
-        <translation>ось отбора:</translation>
+        <translation>PA Гориз:</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1140"/>
         <source>2/6</source>
-        <translation>2/6</translation>
+        <translation>2024-02-06T00:00:00</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1108"/>
         <source>       待机参数设置</source>
-        <translation>Параметры ожидания</translation>
+        <translation>Парам. ожидания</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="821"/>
         <location filename="formbtnquick.ui" line="1405"/>
         <location filename="formbtnquick.ui" line="2552"/>
         <source>副引拔轴：</source>
-        <translation>RA Hor:</translation>
+        <translation>RA Гориз:</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="759"/>
         <location filename="formbtnquick.ui" line="1336"/>
         <location filename="formbtnquick.ui" line="2247"/>
         <source>正上下轴：</source>
-        <translation>PA Ver:</translation>
+        <translation>PA Верт:</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="613"/>
         <location filename="formbtnquick.ui" line="2083"/>
         <location filename="formbtnquick.ui" line="2456"/>
         <source>水平</source>
-        <translation>уровень</translation>
+        <translation>Гориз.</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="883"/>
         <location filename="formbtnquick.ui" line="1473"/>
         <location filename="formbtnquick.ui" line="2620"/>
         <source>副上下轴：</source>
-        <translation>RA Ver:</translation>
+        <translation>RA Верт:</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="591"/>
         <location filename="formbtnquick.ui" line="2055"/>
         <location filename="formbtnquick.ui" line="2428"/>
         <source>倒角状态：</source>
-        <translation>состояние фаски:</translation>
+        <translation>Поворот:</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="635"/>
@@ -9890,18 +9889,18 @@
     </message>
     <message>
         <source>       取物参数设置</source>
-        <translation type="obsolete">Параметры отбора</translation>
+        <translation type="obsolete">Настр.парам.</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1177"/>
         <source>成品位置设置</source>
-        <translation>местонахождение готовой продукции</translation>
+        <translation>Парам. продукта</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="947"/>
         <location filename="formbtnquick.ui" line="2676"/>
         <source>气动副臂：</source>
-        <translation>Пневматическая стрела:</translation>
+        <translation>RA пневмо</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1036"/>
@@ -9913,60 +9912,60 @@
         <location filename="formbtnquick.cpp" line="1984"/>
         <location filename="formbtnquick.cpp" line="1988"/>
         <source>前进</source>
-        <translation>преуспевать</translation>
+        <translation>Двигаться</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1732"/>
         <source>3/6</source>
-        <translation>3/6</translation>
+        <translation>2024-03-06T00:00:00</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1372"/>
         <source>水口位置设置</source>
-        <translation>расположение водозаборника</translation>
+        <translation>Парам. брака</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1534"/>
         <source>气动副臂:</source>
-        <translation>Пневматическая стрела:</translation>
+        <translation>Пневмострела</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1844"/>
         <source>4/6</source>
-        <translation>4/6</translation>
+        <translation>2024-04-06T00:00:00</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1990"/>
         <source>       放成品参数设置</source>
-        <translation>Параметры выпуска готовой продукции</translation>
+        <translation>Парам. готов. продукции</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="2022"/>
         <source>5/6</source>
-        <translation>5/6</translation>
+        <translation>2024-05-06T00:00:00</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="2363"/>
         <source>       放水口参数设置</source>
-        <translation>Параметры выхода воды</translation>
+        <translation>Парам. брака</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1927"/>
         <source>先放水口</source>
-        <translation>Слить первым</translation>
+        <translation>Перв. брак</translation>
     </message>
     <message>
         <source>横出倒角状态：</source>
-        <translation type="obsolete">режим поперечного фаски:</translation>
+        <translation type="obsolete">Статус повор. вых:</translation>
     </message>
     <message>
         <source>横入倒角状态：</source>
-        <translation type="obsolete">&amp; Горизонтально:</translation>
+        <translation type="obsolete">Статус повор. вх:</translation>
     </message>
     <message>
         <location filename="formbtnquick.ui" line="1899"/>
         <source>使用矩阵</source>
-        <translation>использовать матрицу</translation>
+        <translation>Исп. матрицу</translation>
     </message>
     <message>
         <location filename="formbtnquick.cpp" line="342"/>
@@ -9985,7 +9984,7 @@
         <location filename="formbtnquick.cpp" line="358"/>
         <location filename="formbtnquick.cpp" line="359"/>
         <source>轴:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ось:</translation>
     </message>
     <message>
         <location filename="formbtnquick.cpp" line="710"/>
@@ -10004,7 +10003,7 @@
         <location filename="formbtnquick.cpp" line="1483"/>
         <location filename="formbtnquick.cpp" line="1539"/>
         <source>取物点</source>
-        <translation>Пункт забора</translation>
+        <translation>Точка выб.</translation>
     </message>
     <message>
         <location filename="formbtnquick.cpp" line="713"/>
@@ -10023,7 +10022,7 @@
         <location filename="formbtnquick.cpp" line="1486"/>
         <location filename="formbtnquick.cpp" line="1542"/>
         <source>置物点</source>
-        <translation>точка установки</translation>
+        <translation>Точка хран.</translation>
     </message>
     <message>
         <location filename="formbtnquick.cpp" line="716"/>
@@ -10042,7 +10041,7 @@
         <location filename="formbtnquick.cpp" line="1489"/>
         <location filename="formbtnquick.cpp" line="1545"/>
         <source>待机点</source>
-        <translation>ждать</translation>
+        <translation>Точка ожид.</translation>
     </message>
     <message>
         <location filename="formbtnquick.cpp" line="736"/>
@@ -10076,7 +10075,7 @@
         <location filename="formbtnquick.cpp" line="1565"/>
         <location filename="formbtnquick.cpp" line="1570"/>
         <source>输入有误</source>
-        <translation>Ошибка при вводе</translation>
+        <translation>Ошиб. ввода</translation>
     </message>
     <message>
         <location filename="formbtnquick.cpp" line="736"/>
@@ -10110,7 +10109,7 @@
         <location filename="formbtnquick.cpp" line="1565"/>
         <location filename="formbtnquick.cpp" line="1570"/>
         <source>自动时修改位置很危险，每次修改值只能小于+-5mm</source>
-        <translation>Опасно изменять местоположение в автоматическом состоянии, значение должно быть меньше + - 5 мм каждый раз</translation>
+        <translation>Опасно изм. местопол.в авто. состоянии, знач. должно быть меньше + - 5 мм каждый раз</translation>
     </message>
 </context>
 <context>
@@ -10118,61 +10117,61 @@
     <message>
         <location filename="formbtnrun.ui" line="106"/>
         <source>倒角垂直</source>
-        <translation>вертикальный</translation>
+        <translation>Вертик.</translation>
     </message>
     <message>
         <location filename="formbtnrun.ui" line="143"/>
         <source>垂直</source>
-        <translation>Ver</translation>
+        <translation>Верт</translation>
     </message>
     <message>
         <location filename="formbtnrun.ui" line="203"/>
         <source>动作时间：</source>
-        <translation>время действия:</translation>
+        <translation>Время дейст:</translation>
     </message>
     <message>
         <location filename="formbtnrun.ui" line="302"/>
         <location filename="formbtnrun.cpp" line="23"/>
         <location filename="formbtnrun.cpp" line="25"/>
         <source>引拔进</source>
-        <translation>продвижение</translation>
+        <translation>Движен.</translation>
     </message>
     <message>
         <location filename="formbtnrun.ui" line="348"/>
         <location filename="formbtnrun.cpp" line="22"/>
         <location filename="formbtnrun.cpp" line="26"/>
         <source>引拔退</source>
-        <translation>вернуть</translation>
+        <translation>Возвр.</translation>
     </message>
     <message>
         <location filename="formbtnrun.ui" line="385"/>
         <source>引拔</source>
-        <translation>Adv-Ret</translation>
+        <translation>Туда-Сюда</translation>
     </message>
     <message>
         <location filename="formbtnrun.ui" line="435"/>
         <source>上行</source>
-        <translation>Идти вверх</translation>
+        <translation>Вверх</translation>
     </message>
     <message>
         <location filename="formbtnrun.ui" line="481"/>
         <source>下行</source>
-        <translation>спуск</translation>
+        <translation>Вниз</translation>
     </message>
     <message>
         <location filename="formbtnrun.ui" line="518"/>
         <source>上下</source>
-        <translation>Asc-Des</translation>
+        <translation>верх и низ</translation>
     </message>
     <message>
         <location filename="formbtnrun.ui" line="568"/>
         <source>倒角水平</source>
-        <translation>уровень фаски</translation>
+        <translation>Горизонт.</translation>
     </message>
     <message>
         <location filename="formbtnrun.ui" line="608"/>
         <source>水平</source>
-        <translation>Hor</translation>
+        <translation>Гор.</translation>
     </message>
     <message>
         <location filename="formbtnrun.cpp" line="129"/>
@@ -10190,22 +10189,22 @@
     <message>
         <location filename="formbtnvacuum.ui" line="642"/>
         <source>动作时间：</source>
-        <translation>Время действия:</translation>
+        <translation>Время дейст:</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="428"/>
         <source>打开</source>
-        <translation>открытый</translation>
+        <translation>Вкл</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="474"/>
         <source>关闭</source>
-        <translation>близко</translation>
+        <translation>Выкл</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="552"/>
         <source>吸具一</source>
-        <translation>При всасывании-1</translation>
+        <translation>Vac-1</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="192"/>
@@ -10233,33 +10232,33 @@
         <location filename="formbtnvacuum.ui" line="2514"/>
         <location filename="formbtnvacuum.ui" line="2600"/>
         <source>检测</source>
-        <translation>обнаружение</translation>
+        <translation>Обнаруж.</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="335"/>
         <source>吸具二</source>
-        <translation>При всасывании-2</translation>
+        <translation>Vac-2</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="508"/>
         <source>下一页</source>
-        <translation>Следующая страница</translation>
+        <translation>След.</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="747"/>
         <source>抱具一</source>
-        <translation>державка1</translation>
+        <translation>Grp-1</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="840"/>
         <source>抱具二</source>
-        <translation>державка2</translation>
+        <translation>Grp-2</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="957"/>
         <location filename="formbtnvacuum.ui" line="2640"/>
         <source>上一页</source>
-        <translation>предыдущий</translation>
+        <translation>Предыд.</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="1001"/>
@@ -10304,62 +10303,62 @@
     <message>
         <location filename="formbtnvacuum.ui" line="1757"/>
         <source>主板-Y09</source>
-        <translation>Материнская плата-Y09</translation>
+        <translation>Матплата-Y09</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="1800"/>
         <source>主板-Y01</source>
-        <translation>Материнская плата-Y01</translation>
+        <translation>Матплата-Y01</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="1843"/>
         <source>主板-Y02</source>
-        <translation>Материнская плата-Y02</translation>
+        <translation>Матплата-Y02</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="1886"/>
         <source>主板-Y10</source>
-        <translation>Материнская плата-Y10</translation>
+        <translation>Матплата-Y10</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="1929"/>
         <source>主板-Y04</source>
-        <translation>Материнская плата-Y04</translation>
+        <translation>Матплата-Y04</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="2015"/>
         <source>主板-Y11</source>
-        <translation>Материнская плата-Y11</translation>
+        <translation>Матплата-Y11</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="2058"/>
         <source>主板-Y05</source>
-        <translation>Материнская плата-Y05</translation>
+        <translation>Матплата-Y05</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="2101"/>
         <source>主板-Y08</source>
-        <translation>Материнская плата-Y08</translation>
+        <translation>Матплата-Y08</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="2471"/>
         <source>主板-Y03</source>
-        <translation>Материнская плата-Y03</translation>
+        <translation>Матплата-Y03</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="2557"/>
         <source>主板-Y15</source>
-        <translation>Материнская плата-Y15</translation>
+        <translation>Матплата-Y15</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="149"/>
         <source>抱具三</source>
-        <translation>державка3</translation>
+        <translation>Grp-3</translation>
     </message>
     <message>
         <location filename="formbtnvacuum.ui" line="242"/>
         <source>抱具四</source>
-        <translation>державка4</translation>
+        <translation>Grp-4</translation>
     </message>
 </context>
 <context>
@@ -10373,27 +10372,27 @@
     <message>
         <location filename="formbtnwait.ui" line="206"/>
         <source>无效</source>
-        <translation type="unfinished"></translation>
+        <translation>Недейств.</translation>
     </message>
     <message>
         <location filename="formbtnwait.ui" line="237"/>
         <source>有效</source>
-        <translation type="unfinished"></translation>
+        <translation>Действ.</translation>
     </message>
     <message>
         <location filename="formbtnwait.ui" line="259"/>
         <source>&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <location filename="formbtnwait.ui" line="281"/>
         <source>&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <location filename="formbtnwait.ui" line="303"/>
         <source>!=</source>
-        <translation type="unfinished"></translation>
+        <translation>!=</translation>
     </message>
     <message>
         <location filename="formbtnwait.ui" line="325"/>
@@ -10403,11 +10402,11 @@
     <message>
         <location filename="formbtnwait.ui" line="558"/>
         <source>有效时间：</source>
-        <translation type="unfinished"></translation>
+        <translation>Дейст.время</translation>
     </message>
     <message>
         <source>等待端口信号无效</source>
-        <translation type="obsolete">Сигнал недействителен</translation>
+        <translation type="obsolete">СигнНедейств</translation>
     </message>
     <message>
         <location filename="formbtnwait.ui" line="363"/>
@@ -10420,32 +10419,32 @@
     <message>
         <location filename="formeditoption.ui" line="290"/>
         <source>编号</source>
-        <translation>номер</translation>
+        <translation>Номер</translation>
     </message>
     <message>
         <location filename="formeditoption.ui" line="295"/>
         <source>名称1</source>
-        <translation>Имя 1</translation>
+        <translation>имя1</translation>
     </message>
     <message>
         <location filename="formeditoption.ui" line="300"/>
         <source>名称2</source>
-        <translation>Имя 2</translation>
+        <translation>имя2</translation>
     </message>
     <message>
         <location filename="formeditoption.ui" line="347"/>
         <source>增加</source>
-        <translation>прибавление</translation>
+        <translation>Добав</translation>
     </message>
     <message>
         <location filename="formeditoption.ui" line="388"/>
         <source>删除</source>
-        <translation>удалять</translation>
+        <translation>Удал</translation>
     </message>
     <message>
         <location filename="formeditoption.ui" line="442"/>
         <source>保存</source>
-        <translation>Сохранить</translation>
+        <translation>Сохр</translation>
     </message>
     <message>
         <location filename="formeditoption.cpp" line="47"/>
@@ -10454,7 +10453,7 @@
         <location filename="formeditoption.cpp" line="66"/>
         <location filename="formeditoption.cpp" line="71"/>
         <source>系统警告</source>
-        <translation>Системное предупреждение</translation>
+        <translation>СистПредупр</translation>
     </message>
     <message>
         <location filename="formeditoption.cpp" line="47"/>
@@ -10484,7 +10483,7 @@
     <message>
         <location filename="formeditoption.cpp" line="77"/>
         <source>检查程序</source>
-        <translation>Процедура осмотра</translation>
+        <translation>Проерка программы</translation>
     </message>
     <message>
         <location filename="formeditoption.cpp" line="77"/>
@@ -10499,7 +10498,7 @@
         <location filename="formeditoption.cpp" line="203"/>
         <location filename="formeditoption.cpp" line="244"/>
         <source>系统提示</source>
-        <translation>Системная подсказка</translation>
+        <translation>Сист.подсказка</translation>
     </message>
     <message>
         <location filename="formeditoption.cpp" line="157"/>
@@ -10529,7 +10528,7 @@
     <message>
         <location filename="formio.ui" line="142"/>
         <source>输入极性</source>
-        <translation>Входная полярность</translation>
+        <translation>Поляр. входа</translation>
     </message>
     <message>
         <location filename="formio.ui" line="175"/>
@@ -10537,7 +10536,7 @@
         <location filename="formio.ui" line="15038"/>
         <location filename="formio.ui" line="15096"/>
         <source>后一页</source>
-        <translation>Следующая страница</translation>
+        <translation>След.</translation>
     </message>
     <message>
         <location filename="formio.ui" line="203"/>
@@ -10545,36 +10544,36 @@
         <location filename="formio.ui" line="15010"/>
         <location filename="formio.ui" line="15124"/>
         <source>前一页</source>
-        <translation>Предыдущая страница</translation>
+        <translation>Предыд.</translation>
     </message>
     <message>
         <location filename="formio.ui" line="244"/>
         <source>主控模块输入信号反相</source>
-        <translation>Инверсия входного сигнала главного модуля управления</translation>
+        <translation>Инверсия осн. входа</translation>
     </message>
     <message>
         <source>气压低检测</source>
-        <translation type="obsolete">Обнаружение низкого давления воздуха</translation>
+        <translation type="obsolete">Низк. давление воздуха</translation>
     </message>
     <message>
         <location filename="formio.ui" line="2257"/>
         <source>扩展模块1输入信号反相</source>
-        <translation>Модуль расширения 1, входной сигнал инверсии</translation>
+        <translation>Em1 вх. инверсия</translation>
     </message>
     <message>
         <location filename="formio.ui" line="2972"/>
         <source>扩展模块2输入信号反相</source>
-        <translation>Модуль расширения 2, входной сигнал, инверсия</translation>
+        <translation>Em2 вх. инверсия</translation>
     </message>
     <message>
         <location filename="formio.ui" line="3687"/>
         <source>扩展模块3输入信号反相</source>
-        <translation>Модуль расширения 3, входной сигнал инверсии</translation>
+        <translation>Em3 вх. инверсия</translation>
     </message>
     <message>
         <location filename="formio.ui" line="4402"/>
         <source>扩展模块4输入信号反相</source>
-        <translation>Модуль расширения 4, входной сигнал инверсии</translation>
+        <translation>Em4 вх. инверсия</translation>
     </message>
     <message>
         <location filename="formio.ui" line="5114"/>
@@ -10582,17 +10581,17 @@
         <location filename="formio.ui" line="15054"/>
         <location filename="formio.ui" line="20011"/>
         <source>TextLabel</source>
-        <translation>TextLabel</translation>
+        <translation>ТекстМетка</translation>
     </message>
     <message>
         <location filename="formio.ui" line="5122"/>
         <source>输出极性</source>
-        <translation>Выходная полярность</translation>
+        <translation>Поляр. выхода</translation>
     </message>
     <message>
         <location filename="formio.ui" line="5237"/>
         <source>主控模块输出信号反相</source>
-        <translation>Инверсия выходного сигнала основного модуля управления</translation>
+        <translation>Инверсия осн. выхода</translation>
     </message>
     <message>
         <location filename="formio.ui" line="7247"/>
@@ -10617,62 +10616,62 @@
     <message>
         <location filename="formio.ui" line="10109"/>
         <source>报警忽略</source>
-        <translation>Сигнал игнорировать</translation>
+        <translation>ИгнорАварии</translation>
     </message>
     <message>
         <location filename="formio.ui" line="10137"/>
         <source>主控模块输入报警允许忽略</source>
-        <translation>Включить сигналы игнорирования в главном модуле</translation>
+        <translation>Вкл.  игнорир.в главном модуле</translation>
     </message>
     <message>
         <location filename="formio.ui" line="12141"/>
         <source>扩展模块1输入报警允许忽略</source>
-        <translation>Включить сигналы игнорирования в EM1</translation>
+        <translation>Вкл. сигналы игнор. в EM1</translation>
     </message>
     <message>
         <location filename="formio.ui" line="12856"/>
         <source>扩展模块2输入报警允许忽略</source>
-        <translation>Включить сигналы игнорирования в EM2</translation>
+        <translation>Вкл. сигналы игнор. в EM2</translation>
     </message>
     <message>
         <location filename="formio.ui" line="13571"/>
         <source>扩展模块3输入报警允许忽略</source>
-        <translation>Включить сигналы игнорирования в EM3</translation>
+        <translation>Вкл. сигналы игнор. в EM3</translation>
     </message>
     <message>
         <location filename="formio.ui" line="14286"/>
         <source>扩展模块4输入报警允许忽略</source>
-        <translation>Включить сигналы игнорирования в EM4</translation>
+        <translation>Вкл. сигналы игнор. в EM4</translation>
     </message>
     <message>
         <location filename="formio.ui" line="15066"/>
         <source>模内不报警</source>
-        <translation>Нет тревоги в форме</translation>
+        <translation>ИгнорАварВ ПФ</translation>
     </message>
     <message>
         <location filename="formio.ui" line="15150"/>
         <source>主控模块模内不报警</source>
-        <translation>Нет модуля управления в главном модуле управления</translation>
+        <translation>Вкл.  игнорир.в главном модуле</translation>
     </message>
     <message>
         <location filename="formio.ui" line="17154"/>
         <source>扩展模块1模内不报警</source>
-        <translation>Включить не тревоги в EM1</translation>
+        <translation>Включить в EM1</translation>
     </message>
     <message>
         <location filename="formio.ui" line="17869"/>
         <source>扩展模块2模内不报警</source>
-        <translation>Включить не тревоги в EM2</translation>
+        <translation>Включить в EM2</translation>
     </message>
     <message>
         <location filename="formio.ui" line="18584"/>
         <source>扩展模块3模内不报警</source>
-        <translation>Включить не тревоги в EM3</translation>
+        <translation>Включить в EM3</translation>
     </message>
     <message>
         <location filename="formio.ui" line="19299"/>
         <source>扩展模块4模内不报警</source>
-        <translation>Включить не тревоги в EM4</translation>
+        <translation>Включить в EM4</translation>
     </message>
     <message>
         <location filename="formio.ui" line="20107"/>
@@ -10682,122 +10681,122 @@
     <message>
         <location filename="formio.cpp" line="1089"/>
         <source>[1/5] 主控模块输入信号反相</source>
-        <translation>[1/5] Инверсия основного входа</translation>
+        <translation>[1/5] Инверсия осн. входа</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1092"/>
         <source>[2/5] 扩展模块1输入信号反相</source>
-        <translation>[2/5] Инверсия основного входа</translation>
+        <translation>[2/5] Инверсия осн. входа</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1095"/>
         <source>[3/5] 扩展模块2输入信号反相</source>
-        <translation>[3/5] Инверсия основного входа</translation>
+        <translation>[3/5] Инверсия осн. входа</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1098"/>
         <source>[4/5] 扩展模块3输入信号反相</source>
-        <translation>[4/5] Инверсия основного входа</translation>
+        <translation>[4/5] Инверсия осн. входа</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1101"/>
         <source>[5/5] 扩展模块4输入信号反相</source>
-        <translation>[5/5] Инверсия основного входа</translation>
+        <translation>[5/5] Инверсия осн. входа</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1107"/>
         <source>[1/5] 主控模块输出信号反相</source>
-        <translation>[1/5] Инверсия основного выхода</translation>
+        <translation>[1/5] Инверсия осн. выхода</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1110"/>
         <source>[2/5] 扩展模块1输出信号反相</source>
-        <translation>[2/5] Инверсия основного выхода</translation>
+        <translation>[2/5] Инверсия осн. выхода</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1113"/>
         <source>[3/5] 扩展模块2输出信号反相</source>
-        <translation>3/5] Инверсия основного выхода</translation>
+        <translation>3/5] Инверсия осн. выхода</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1116"/>
         <source>[4/5] 扩展模块3输出信号反相</source>
-        <translation>[4/5] Инверсия основного выхода</translation>
+        <translation>[4/5] Инверсия осн. выхода</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1119"/>
         <source>[5/5] 扩展模块4输出信号反相</source>
-        <translation>[5/5] Инверсия основного выхода</translation>
+        <translation>[5/5] Инверсия осн. выхода</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1125"/>
         <source>[1/5] 主控模块输入报警允许忽略</source>
-        <translation>[1/5] Разрешить игнорирование аварий в главном модуле</translation>
+        <translation>[1/5] Разреш. игнор. аварий в главном модуле</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1128"/>
         <source>[2/5] 扩展模块1输入报警允许忽略</source>
-        <translation>[2/5] Разрешить игнорирование аварий в главном модуле</translation>
+        <translation>[2/5] Разреш. игнор. аварий в главном модуле</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1131"/>
         <source>[3/5] 扩展模块2输入报警允许忽略</source>
-        <translation>[3/5] Разрешить игнорирование аварий в главном модуле</translation>
+        <translation>[3/5] Разреш. игнор. аварий в главном модуле</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1134"/>
         <source>[4/5] 扩展模块3输入报警允许忽略</source>
-        <translation>[4/5] Разрешить игнорирование аварий в главном модуле</translation>
+        <translation>[4/5] Разреш. игнор. аварий в главном модуле</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1137"/>
         <source>[5/5] 扩展模块4输入报警允许忽略</source>
-        <translation>[5/5] Разрешить игнорирование аварий в главном модуле</translation>
+        <translation>[5/5] Разреш. игнор. аварий в главном модуле</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1143"/>
         <source>[1/5] 主控模块模内不报警</source>
-        <translation>[1/5] Главный модуль управления не сигнализирует в модуле</translation>
+        <translation>[1/5] EM управления не сигнализирует в модуле</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1146"/>
         <source>[2/5] 扩展模块1模内不报警</source>
-        <translation>[2/5] Главный модуль управления не сигнализирует в модуле</translation>
+        <translation>[2/5] EM управления не сигнализирует в модуле</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1149"/>
         <source>[3/5] 扩展模块2模内不报警</source>
-        <translation>[3/5] Главный модуль управления не сигнализирует в модуле</translation>
+        <translation>[3/5] EM управления не сигнализирует в модуле</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1152"/>
         <source>[4/5] 扩展模块3模内不报警</source>
-        <translation>[4/5] Главный модуль управления не сигнализирует в модуле</translation>
+        <translation>[4/5] EM управления не сигнализирует в модуле</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1155"/>
         <source>[5/5] 扩展模块4模内不报警</source>
-        <translation>[5/5] Главный модуль управления не сигнализирует в модуле</translation>
+        <translation>[5/5] EM управления не сигнализирует в модуле</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1382"/>
         <source>打油反馈-X09</source>
-        <translation>Масло обратной связи-X09</translation>
+        <translation>СмазОбрСвязь-X09</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1553"/>
         <source>打油-Y12</source>
-        <translation>Dayou -Y12</translation>
+        <translation>Смазка -Y12</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1660"/>
         <source>系统提示</source>
-        <translation>Системная подсказка</translation>
+        <translation>Сист.подсказка</translation>
     </message>
     <message>
         <location filename="formio.cpp" line="1728"/>
         <source>保存参数</source>
-        <translation>Сохранить параметр</translation>
+        <translation>Сохр.</translation>
     </message>
 </context>
 <context>
@@ -10805,13 +10804,13 @@
     <message>
         <location filename="formmanual.ui" line="169"/>
         <source>伺服信号</source>
-        <translation>Сервосигнал</translation>
+        <translation>Серво</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="200"/>
         <location filename="formmanual.ui" line="10198"/>
         <source>副臂引拔轴</source>
-        <translation>Вспомогательный вал</translation>
+        <translation>RA Гориз</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="250"/>
@@ -10821,7 +10820,7 @@
         <location filename="formmanual.ui" line="1306"/>
         <location filename="formmanual.ui" line="1570"/>
         <source>原点</source>
-        <translation>происхождения</translation>
+        <translation>Начал.</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="298"/>
@@ -10831,7 +10830,7 @@
         <location filename="formmanual.ui" line="1354"/>
         <location filename="formmanual.ui" line="1618"/>
         <source>负限</source>
-        <translation>Отрицательный предел</translation>
+        <translation>Отриц. предел</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="346"/>
@@ -10841,7 +10840,7 @@
         <location filename="formmanual.ui" line="1402"/>
         <location filename="formmanual.ui" line="1666"/>
         <source>正限</source>
-        <translation>Положительный предел</translation>
+        <translation>Полож. предел</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="394"/>
@@ -10851,7 +10850,7 @@
         <location filename="formmanual.ui" line="1450"/>
         <location filename="formmanual.ui" line="1714"/>
         <source>报警</source>
-        <translation>正限</translation>
+        <translation>Авар</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="442"/>
@@ -10861,178 +10860,178 @@
         <location filename="formmanual.ui" line="1498"/>
         <location filename="formmanual.ui" line="1762"/>
         <source>使能</source>
-        <translation>Включить</translation>
+        <translation>Вкл</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="464"/>
         <location filename="formmanual.ui" line="10242"/>
         <source>扩展轴</source>
-        <translation>Выдвинутая ось</translation>
+        <translation>РасшОсь</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="728"/>
         <location filename="formmanual.ui" line="10044"/>
         <source>正臂引拔轴</source>
-        <translation>Вал съемника положительного рычага</translation>
+        <translation>PA Гориз</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="992"/>
         <location filename="formmanual.ui" line="10154"/>
         <source>正臂上下轴</source>
-        <translation>Вертикальная ось плеча</translation>
+        <translation>PA Верт</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="1256"/>
         <location filename="formmanual.ui" line="10176"/>
         <source>横行轴</source>
-        <translation>Горизонтальная ось</translation>
+        <translation>Trv (попереч)</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="1520"/>
         <location filename="formmanual.ui" line="10220"/>
         <source>副臂上下轴</source>
-        <translation>Верхняя и нижняя ось стрелы</translation>
+        <translation>RA Верт</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="1998"/>
         <location filename="formmanual.cpp" line="1730"/>
         <source>塑机信号</source>
-        <translation>Пластиковый машинный сигнал</translation>
+        <translation>IMM</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="2025"/>
         <source>输出</source>
-        <translation>輸入</translation>
+        <translation>ВыхСигн</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="2503"/>
         <source>EMC 允许关模</source>
-        <translation>ЭМС позволяет закрывать плесень</translation>
+        <translation>EMC</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="9624"/>
         <source>副臂前进-E1Y14</source>
-        <translation type="unfinished"></translation>
+        <translation>РукаВпер-E1Y14</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="9790"/>
         <source>传送带</source>
-        <translation type="unfinished">Ленточный конвейер</translation>
+        <translation>Конвейер</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="10023"/>
         <source>伺服监视</source>
-        <translation type="unfinished"></translation>
+        <translation>МонитСерво</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="10066"/>
         <source>实时扭矩</source>
-        <translation type="unfinished"></translation>
+        <translation>КрутМом</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="10088"/>
         <source>峰值扭矩</source>
-        <translation type="unfinished"></translation>
+        <translation>Пик КрутМом</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="10110"/>
         <source>实时转速</source>
-        <translation type="unfinished"></translation>
+        <translation>Скор.</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="10132"/>
         <source>峰值转速</source>
-        <translation type="unfinished"></translation>
+        <translation>Пик скор.</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="2235"/>
         <source>EMO 允许开模</source>
-        <translation>EMO позволяет открывать форму</translation>
+        <translation>EMO</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="2127"/>
         <source>EEF 顶针前进</source>
-        <translation>ЭЭФ продвижение наперстка</translation>
+        <translation>EEF</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="2449"/>
         <source>EEB 顶针后退</source>
-        <translation>EEB наперсток назад</translation>
+        <translation>EEB</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="2181"/>
         <source>抽芯1位置1</source>
-        <translation>Core 1 позиция 1</translation>
+        <translation>C1P1</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="2659"/>
         <source>抽芯1位置2</source>
-        <translation>Вытащите сердечник 1 в положение 2</translation>
+        <translation>C1P2</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="2343"/>
         <source>抽芯2位置1</source>
-        <translation>Потяните сердечник 2 в положение 1</translation>
+        <translation>C2P1</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="2557"/>
         <source>抽芯2位置2</source>
-        <translation>Вытянуть сердечник 2 в положение 2</translation>
+        <translation>C2P2</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="2289"/>
         <source>机械手不使用</source>
-        <translation>Робот не использует</translation>
+        <translation>Робот не используется</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="2714"/>
         <source>输入</source>
-        <translation>запись</translation>
+        <translation>Вх. сигналы</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="6130"/>
         <source>扩展输出</source>
-        <translation>Sản lượng mở rộng</translation>
+        <translation>Доп.выходы</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="3494"/>
         <source>主控模块</source>
-        <translation>Мастер модуль</translation>
+        <translation>Главный модуль</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="3456"/>
         <source>扩展输入输出</source>
-        <translation type="unfinished"></translation>
+        <translation>Доп IO</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="3548"/>
         <source>扩展模块1</source>
-        <translation>Модуль расширения 1</translation>
+        <translation>Модуль расш. 1</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="3602"/>
         <source>扩展模块2</source>
-        <translation>Модуль расширения 2</translation>
+        <translation>Модуль расш. 2</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="3656"/>
         <source>扩展模块3</source>
-        <translation>Модуль расширения 3</translation>
+        <translation>Модуль расш. 3</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="3710"/>
         <source>扩展模块4</source>
-        <translation>Модуль расширения 4</translation>
+        <translation>Модуль расш. 4</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="3745"/>
         <source>扩展输入</source>
-        <translation>Расширенный ввод</translation>
+        <translation>Доп.выходы</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="8802"/>
         <source>机械手信号</source>
-        <translation>Сигнал робота</translation>
+        <translation>сигналы Робота</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="8820"/>
@@ -11042,26 +11041,26 @@
     <message>
         <location filename="formmanual.ui" line="9190"/>
         <source>副臂水平到位-X10 </source>
-        <translation>Стрела на месте -X10</translation>
+        <translation>RA-I.HOR-X10</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="9240"/>
         <source>副臂水平-Y10 </source>
-        <translation>Уровень стрелы - Y10</translation>
+        <translation>PA-O.HOR-Y10</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="9305"/>
         <source>副臂垂直到位-X11 </source>
-        <translation>Стрела вертикальная на месте - X11</translation>
+        <translation>RA-I.Ver-X11</translation>
     </message>
     <message>
         <location filename="formmanual.ui" line="9352"/>
         <source>副臂垂直-Y11 </source>
-        <translation>Вспомогательный рычаг вертикальный - Y11</translation>
+        <translation>RA-O.Ver-Y11</translation>
     </message>
     <message>
         <source>副臂前进 Y14</source>
-        <translation type="obsolete">Выгиб стрелы Y14</translation>
+        <translation type="obsolete">RA-O.Adv-Y14</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="174"/>
@@ -11071,17 +11070,17 @@
         <location filename="formmanual.cpp" line="185"/>
         <location filename="formmanual.cpp" line="187"/>
         <source>轴</source>
-        <translation>ось</translation>
+        <translation>Ось</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="179"/>
         <source>(旋转)轴</source>
-        <translation>ось вращения</translation>
+        <translation>(Rel)ось</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="180"/>
         <source>(倒角)轴</source>
-        <translation>(скошенный) вал</translation>
+        <translation>(rot)ось</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="308"/>
@@ -11091,60 +11090,60 @@
     <message>
         <location filename="formmanual.cpp" line="339"/>
         <source>运行灯-Y21</source>
-        <translation type="unfinished"></translation>
+        <translation>Старт-Y21</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="340"/>
         <source>停止灯-Y06</source>
-        <translation type="unfinished"></translation>
+        <translation>Стоп-Y06</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="437"/>
         <source>打油-Y12</source>
-        <translation>Dayou -Y12</translation>
+        <translation>Смазка-Y12</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="526"/>
         <source>外部运行-X09</source>
-        <translation>Внешняя операция -X09</translation>
+        <translation>ВнешОпер -X09</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="527"/>
         <source>外部停止-X10</source>
-        <translation>Внешняя остановка - X10</translation>
+        <translation>ВнешСтоп - X10</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="528"/>
         <source>外部原点-X11</source>
-        <translation>Внешнее происхождение - X11</translation>
+        <translation>ВнешнНачДан - X11</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="585"/>
         <source>打油反馈-X09</source>
-        <translation>Масло-X09</translation>
+        <translation>Смазка-X09</translation>
     </message>
     <message>
         <source>打油反馈-E1X09</source>
-        <translation type="obsolete">Масло обратной связи-E1X09</translation>
+        <translation type="obsolete">СмазОбрСвязь-E1X09</translation>
     </message>
     <message>
         <source>打油-E1Y12</source>
-        <translation type="obsolete">Dayou -E1Y12</translation>
+        <translation type="obsolete">Смазка -E1Y12</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="1723"/>
         <source>压铸机信号</source>
-        <translation>Сигнал машины литья под давлением</translation>
+        <translation>сигналы ТПА</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="1725"/>
         <source>机床信号</source>
-        <translation>Машинный сигнал</translation>
+        <translation>ТПА</translation>
     </message>
     <message>
         <location filename="formmanual.cpp" line="1728"/>
         <source>铸机信号</source>
-        <translation>Сигнал литейной машины</translation>
+        <translation>сигналы ТПА</translation>
     </message>
 </context>
 <context>
@@ -11153,17 +11152,17 @@
         <location filename="formmanufacturer.ui" line="119"/>
         <location filename="formmanufacturer.ui" line="636"/>
         <source>厂商信息</source>
-        <translation>Информация</translation>
+        <translation>Инфо </translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="159"/>
         <source>端口名称</source>
-        <translation>порт</translation>
+        <translation>Порты</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="196"/>
         <source>参数维护</source>
-        <translation>пары</translation>
+        <translation>Парам</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="236"/>
@@ -11173,22 +11172,22 @@
     <message>
         <location filename="formmanufacturer.ui" line="270"/>
         <source>系统日志</source>
-        <translation>Системный журнал</translation>
+        <translation>Лог</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="488"/>
         <source>弹出</source>
-        <translation>Неожиданно возникнуть</translation>
+        <translation>ВсплСообщ</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="562"/>
         <source>开机画面</source>
-        <translation>всплеск</translation>
+        <translation>Заставка</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="599"/>
         <source>待机画面</source>
-        <translation>Обои на стену</translation>
+        <translation>Обои</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="722"/>
@@ -11203,27 +11202,27 @@
     <message>
         <location filename="formmanufacturer.ui" line="775"/>
         <source>导入名称</source>
-        <translation>Импортировать</translation>
+        <translation>Импорт</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="849"/>
         <source>编辑本地端口名称</source>
-        <translation>Изменить имя порта</translation>
+        <translation>ИзмИмяПорта</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="883"/>
         <source>编辑轴名称</source>
-        <translation type="unfinished"></translation>
+        <translation>ИзмИмяОси</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="937"/>
         <source>导出设置</source>
-        <translation>экспорт</translation>
+        <translation>Экспорт</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="974"/>
         <source>导入设置</source>
-        <translation>Импортировать</translation>
+        <translation>Импорт</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="1043"/>
@@ -11233,7 +11232,7 @@
     <message>
         <location filename="formmanufacturer.ui" line="1080"/>
         <source>恢复</source>
-        <translation>Восстановить</translation>
+        <translation>Восстан.</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="1124"/>
@@ -11243,22 +11242,22 @@
     <message>
         <location filename="formmanufacturer.ui" line="1161"/>
         <source>重启</source>
-        <translation>перезагружать</translation>
+        <translation>Перезагр.</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="1217"/>
         <source>导出</source>
-        <translation>экспорт</translation>
+        <translation>Экспорт</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="1254"/>
         <source>清除</source>
-        <translation>чистый</translation>
+        <translation>Очистка</translation>
     </message>
     <message>
         <location filename="formmanufacturer.ui" line="1363"/>
         <source>刷新</source>
-        <translation>обновление</translation>
+        <translation>Обновить</translation>
     </message>
     <message>
         <location filename="formmanufacturer.cpp" line="127"/>
@@ -11303,7 +11302,7 @@
     <message>
         <location filename="formmanufacturer.cpp" line="335"/>
         <source>复制待机画面文件失败！</source>
-        <translation>Скопируйте выбранный файл обоев с ошибкой!</translation>
+        <translation>Скопир. выбранный файл обоев с ошибкой!</translation>
     </message>
     <message>
         <location filename="formmanufacturer.cpp" line="338"/>
@@ -11353,7 +11352,7 @@
     <message>
         <location filename="formmanufacturer.cpp" line="423"/>
         <source>是否清除端口名称？</source>
-        <translation type="unfinished"></translation>
+        <translation>Имя порта очищено?</translation>
     </message>
     <message>
         <location filename="formmanufacturer.cpp" line="439"/>
@@ -11410,14 +11409,14 @@
         <location filename="formmanufacturer.cpp" line="503"/>
         <location filename="formmanufacturer.cpp" line="1210"/>
         <source>系统提示</source>
-        <translation>Системный совет</translation>
+        <translation>Систем. совет</translation>
     </message>
     <message>
         <location filename="formmanufacturer.cpp" line="503"/>
         <source>本操作将会把系统回退到升级前版本,并且无法撤销.
 如果要重置系统、伺服等参数,请进入系统设置--系统维护页面进行操作！
 确定要恢复到旧版本吗？</source>
-        <translation>Msgstr &quot;Эта операция откатит систему до предыдущей версии и не может быть отменена.
+        <translation>&quot;Эта операция откатит систему до предыдущей версии и не может быть отменена.
 Если вы хотите сбросить настройки системы, сервопривода и другие параметры, пожалуйста, введите системные настройки -
 Страница обслуживания системы, чтобы работать!
 Вы уверены, что хотите вернуться к старой версии?</translation>
@@ -11550,7 +11549,7 @@
         <location filename="formoption.cpp" line="106"/>
         <location filename="formoption.cpp" line="111"/>
         <source>系统警告</source>
-        <translation>системное предупреждение</translation>
+        <translation>системное предупр.</translation>
     </message>
     <message>
         <location filename="formoption.cpp" line="69"/>
@@ -11585,7 +11584,7 @@
     <message>
         <location filename="formoption.cpp" line="117"/>
         <source>检查程序</source>
-        <translation>Процедура осмотра</translation>
+        <translation>Проверка программы</translation>
     </message>
     <message>
         <location filename="formoption.cpp" line="117"/>
@@ -11596,7 +11595,7 @@
     <message>
         <location filename="formoption.cpp" line="176"/>
         <source>系统提示</source>
-        <translation>Системный совет</translation>
+        <translation>Систем.совет</translation>
     </message>
     <message>
         <location filename="formoption.cpp" line="176"/>
@@ -11620,22 +11619,22 @@
     <message>
         <location filename="formpgmexplorer.ui" line="136"/>
         <source>程序目录</source>
-        <translation>программа</translation>
+        <translation>Програм.</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.ui" line="479"/>
         <source>载入</source>
-        <translation>нагрузка</translation>
+        <translation>Загрузка</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.ui" line="385"/>
         <source>新建</source>
-        <translation>новый</translation>
+        <translation>Новая</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.ui" line="291"/>
         <source>重命名</source>
-        <translation>переименовывать</translation>
+        <translation>Переимен.</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.ui" line="432"/>
@@ -11646,24 +11645,24 @@
         <location filename="formpgmexplorer.ui" line="526"/>
         <location filename="formpgmexplorer.ui" line="717"/>
         <source>导到U盘</source>
-        <translation>Выход USB</translation>
+        <translation>На USB</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.ui" line="338"/>
         <location filename="formpgmexplorer.ui" line="807"/>
         <source>删除</source>
-        <translation>удалять</translation>
+        <translation>Удалить</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.ui" line="559"/>
         <source>模板目录</source>
-        <translation>шаблон</translation>
+        <translation>Шаблон</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.ui" line="764"/>
         <location filename="formpgmexplorer.ui" line="1118"/>
         <source>导到程序</source>
-        <translation>Привести к программе</translation>
+        <translation>Прогр. импорта</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.ui" line="840"/>
@@ -11678,12 +11677,12 @@
     <message>
         <location filename="formpgmexplorer.ui" line="1078"/>
         <source>刷新</source>
-        <translation>обновление</translation>
+        <translation>Обновить</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.ui" line="1041"/>
         <source>弹出U盘</source>
-        <translation>Всплывающее U диск</translation>
+        <translation>Извлеките флешку</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.cpp" line="125"/>
@@ -11714,7 +11713,7 @@
         <location filename="formpgmexplorer.cpp" line="597"/>
         <location filename="formpgmexplorer.cpp" line="609"/>
         <source>系统警告</source>
-        <translation>системное предупреждение</translation>
+        <translation>систем. предупрежд.</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.cpp" line="125"/>
@@ -11723,7 +11722,7 @@
     </message>
     <message>
         <source>系统提醒</source>
-        <translation type="obsolete">Системное напоминание</translation>
+        <translation type="obsolete">Систем. напоминание</translation>
     </message>
     <message>
         <source>是否切换到新创建的程序？</source>
@@ -11792,12 +11791,12 @@
         <location filename="formpgmexplorer.cpp" line="618"/>
         <location filename="formpgmexplorer.cpp" line="631"/>
         <source>系统提示</source>
-        <translation>Системный совет</translation>
+        <translation>Систем. совет</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.cpp" line="398"/>
         <source>删除文件后将无法恢复，是否真的要删除所选择的文件？</source>
-        <translation>Файлы не могут быть восстановлены, удаляя?</translation>
+        <translation>Файлы не могут быть восстановлены, удаляить?</translation>
     </message>
     <message>
         <location filename="formpgmexplorer.cpp" line="434"/>
@@ -11893,18 +11892,18 @@
     <message>
         <location filename="formsyslog.ui" line="253"/>
         <source>参数状态</source>
-        <translation>Состояние параметра</translation>
+        <translation>Парам</translation>
     </message>
     <message>
         <location filename="formsyslog.ui" line="284"/>
         <source>详细内容</source>
-        <translation>подробность</translation>
+        <translation>Детали</translation>
     </message>
     <message>
         <location filename="formsyslog.ui" line="315"/>
         <source>日志查询3</source>
         <oldsource>日志查询</oldsource>
-        <translation type="unfinished">запрос</translation>
+        <translation>Запрос</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="91"/>
@@ -11915,7 +11914,7 @@
     <message>
         <location filename="formsyslog.cpp" line="114"/>
         <source>警告</source>
-        <translation>Предупреждение</translation>
+        <translation>Предупр.</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="126"/>
@@ -11958,7 +11957,7 @@
         <source>
 主控模块输入状态: </source>
         <translation>
-Состояние входа основного модуля управления:</translation>
+Сост. входа осн. мод.управ.:</translation>
     </message>
     <message>
         <source>
@@ -11969,107 +11968,107 @@
     <message>
         <location filename="formsyslog.cpp" line="204"/>
         <source>扩展模块1输入状态: </source>
-        <translation>Вход модуля расширения 1:</translation>
+        <translation>Вход мод. расшир.1</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="205"/>
         <source>扩展模块2输入状态: </source>
-        <translation>Вход модуля расширения 2:</translation>
+        <translation>Вход мод. расшир.2</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="206"/>
         <source>扩展模块3输入状态: </source>
-        <translation>Вход модуля расширения 3:</translation>
+        <translation>Вход мод. расшир.3</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="207"/>
         <source>扩展模块4输入状态: </source>
-        <translation>Вход модуля расширения 4:</translation>
+        <translation>Вход мод. расшир.4</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="208"/>
         <source>主控模块输出状态: </source>
-        <translation>Состояние выхода основного модуля управления:</translation>
+        <translation>Сост. вых.осн. модуля управ.:</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="209"/>
         <source>扩展模块1输出状态: </source>
-        <translation>Выход модуля расширения 1:</translation>
+        <translation>Выход мод.расшир. 1</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="210"/>
         <source>扩展模块2输出状态: </source>
-        <translation>Выход модуля расширения 2:</translation>
+        <translation>Выход мод.расшир. 2</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="211"/>
         <source>扩展模块3输出状态: </source>
-        <translation>Выход модуля расширения 3:</translation>
+        <translation>Выход мод.расшир. 3</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="212"/>
         <source>扩展模块4输出状态: </source>
-        <translation>Выход модуля расширения 4:</translation>
+        <translation>Выход мод.расшир. 4</translation>
     </message>
     <message>
         <source>
 扩展模块1输入状态: </source>
-        <translation type="obsolete">Вход модуля расширения 1:</translation>
+        <translation type="obsolete">Вход модуля расш.1</translation>
     </message>
     <message>
         <source>
 扩展模块2输入状态: </source>
-        <translation type="obsolete">Вход модуля расширения 2:</translation>
+        <translation type="obsolete">Вход модуля расш.2</translation>
     </message>
     <message>
         <source>
 扩展模块3输入状态: </source>
-        <translation type="obsolete">Вход модуля расширения 3:</translation>
+        <translation type="obsolete">Вход модуля расш.3</translation>
     </message>
     <message>
         <source>
 扩展模块4输入状态: </source>
-        <translation type="obsolete">Вход модуля расширения 4:</translation>
+        <translation type="obsolete">Вход модуля расш.4</translation>
     </message>
     <message>
         <source>
 主控模块输出状态: </source>
-        <translation type="obsolete">Состояние выхода основного модуля управления:</translation>
+        <translation type="obsolete">Сост. вых.осн. модуля управ.:</translation>
     </message>
     <message>
         <source>
 扩展模块1输出状态: </source>
-        <translation type="obsolete">Выход модуля расширения 1:</translation>
+        <translation type="obsolete">Выход мод.расшир. 1</translation>
     </message>
     <message>
         <source>
 扩展模块2输出状态: </source>
-        <translation type="obsolete">Выход модуля расширения 2:</translation>
+        <translation type="obsolete">Выход мод.расшир. 2</translation>
     </message>
     <message>
         <source>
 扩展模块3输出状态: </source>
-        <translation type="obsolete">Выход модуля расширения 3:</translation>
+        <translation type="obsolete">Выход мод.расшир. 3</translation>
     </message>
     <message>
         <source>
 扩展模块4输出状态: </source>
-        <translation type="obsolete">Выход модуля расширения 4:</translation>
+        <translation type="obsolete">Выход мод.расшир. 4</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="229"/>
         <source>一般记录</source>
-        <translation>Нормальные записи</translation>
+        <translation>Норм. записи</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="235"/>
         <source>系统消息</source>
-        <translation>Системные сообщения</translation>
+        <translation>Систем. сообщения</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="241"/>
         <source>系统报警</source>
-        <translation>Системные Тревоги</translation>
+        <translation>Систем. Тревоги</translation>
     </message>
     <message>
         <location filename="formsyslog.cpp" line="247"/>
@@ -12087,12 +12086,12 @@
     <message>
         <location filename="formteach.ui" line="602"/>
         <source>修改</source>
-        <translation>изменять</translation>
+        <translation>Изменить</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="1029"/>
         <source>正臂气动</source>
-        <translation>Положительный рычаг пневматический</translation>
+        <translation>PA пневмо</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="857"/>
@@ -12102,7 +12101,7 @@
     <message>
         <location filename="formteach.ui" line="921"/>
         <source>副臂气动</source>
-        <translation>Стрела пневматическая</translation>
+        <translation>RA пневмо</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="813"/>
@@ -12112,12 +12111,12 @@
     <message>
         <location filename="formteach.ui" line="965"/>
         <source>轴定位</source>
-        <translation>разместить</translation>
+        <translation>Поз</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="717"/>
         <source>治具</source>
-        <translation>кондуктор</translation>
+        <translation>Jig</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="997"/>
@@ -12128,27 +12127,27 @@
         <location filename="formteach.ui" line="889"/>
         <source>扩展输出</source>
         <oldsource>多扩展输出</oldsource>
-        <translation type="unfinished">Выход с несколькими расширениями</translation>
+        <translation>ДопВых</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="749"/>
         <source>等待</source>
-        <translation>Подождите</translation>
+        <translation>Ожид.</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="781"/>
         <source>延时</source>
-        <translation>задержка</translation>
+        <translation>Задер.</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="1079"/>
         <source>上一页</source>
-        <translation>предыдущий</translation>
+        <translation>Предыд.</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="1107"/>
         <source>下一页</source>
-        <translation>Следующая страница</translation>
+        <translation>Следующ.</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="1135"/>
@@ -12158,17 +12157,17 @@
     <message>
         <location filename="formteach.ui" line="1186"/>
         <source>主菜单</source>
-        <translation>Главное меню</translation>
+        <translation>Главный</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="1208"/>
         <source>快速教导</source>
-        <translation>Быстрое обучение</translation>
+        <translation>БыстОбуч</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="1230"/>
         <source>插入动作</source>
-        <translation>Вставить действие</translation>
+        <translation>Вставить</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="1272"/>
@@ -12188,36 +12187,36 @@
     <message>
         <location filename="formteach.ui" line="458"/>
         <source>分解</source>
-        <translation>декомпозиция</translation>
+        <translation>Передел.</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="279"/>
         <source>上移</source>
-        <translation>Двигаться вверх</translation>
+        <translation>Вверх</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="325"/>
         <source>下移</source>
-        <translation>Двигаться вниз</translation>
+        <translation>Вниз</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="362"/>
         <source>删除</source>
-        <translation>удалять</translation>
+        <translation>Удал.</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="399"/>
         <source>试</source>
-        <translation>тест</translation>
+        <translation>Тест</translation>
     </message>
     <message>
         <location filename="formteach.ui" line="508"/>
         <source>组合</source>
-        <translation>комбинирование</translation>
+        <translation>Комбин.</translation>
     </message>
     <message>
         <source>保存</source>
-        <translation type="obsolete">Сохранить</translation>
+        <translation type="obsolete">Сохр.</translation>
     </message>
     <message>
         <location filename="formteach.cpp" line="312"/>
@@ -12237,7 +12236,7 @@
         <location filename="formteach.cpp" line="1492"/>
         <location filename="formteach.cpp" line="1499"/>
         <source>系统警告</source>
-        <translation>Системное предупреждение</translation>
+        <translation>Предупр.</translation>
     </message>
     <message>
         <location filename="formteach.cpp" line="312"/>
@@ -12267,13 +12266,13 @@
     <message>
         <location filename="formteach.cpp" line="459"/>
         <source>检查程序</source>
-        <translation>Процедура осмотра</translation>
+        <translation>Проверка прогр.</translation>
     </message>
     <message>
         <location filename="formteach.cpp" line="777"/>
         <location filename="formteach.cpp" line="1645"/>
         <source>系统提示</source>
-        <translation>Системный совет</translation>
+        <translation>Сист.совет</translation>
     </message>
     <message>
         <location filename="formteach.cpp" line="1461"/>
@@ -12295,9 +12294,9 @@
 点击[不保存]将会放弃当前程序修改并退出；
 点击[取消]将会放弃退出操作继续教导程序。</source>
         <translation type="obsolete">Программа была изменена, запись в файл или нет?
-Нажмите [сохранить], чтобы записать файл и выйти;
-Нажмите [не сохранить], чтобы отменить изменения и выйти;
-Cick [отмена] вернется и продолжит обучение программе.</translation>
+Нажм. [сохранить], чтобы записать файл и выйти;
+Нажм. [не сохранить], чтобы отменить изменения и выйти;
+Нажм. [отмена] вернется и продолжит обучение программе.</translation>
     </message>
     <message>
         <location filename="formteach.cpp" line="777"/>
@@ -12316,7 +12315,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>警告</source>
-        <translation type="obsolete">предупреждение</translation>
+        <translation type="obsolete">Предупр.</translation>
     </message>
     <message>
         <source>密码错误，将仅保存但不覆盖！</source>
@@ -12324,7 +12323,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>保存参数</source>
-        <translation type="obsolete">Сохранить параметр</translation>
+        <translation type="obsolete">Сохран.</translation>
     </message>
     <message>
         <location filename="formteach.cpp" line="870"/>
@@ -12356,53 +12355,53 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formvactvacuum.ui" line="162"/>
         <source>输出端口：</source>
-        <translation>Выходной порт:</translation>
+        <translation>ВыхПорт:</translation>
     </message>
     <message>
         <location filename="formvactvacuum.ui" line="243"/>
         <source>输入端口：</source>
-        <translation>Входной порт:</translation>
+        <translation>ВхПорт:</translation>
     </message>
     <message>
         <source>治具动作</source>
-        <translation type="obsolete">Джиг операция</translation>
+        <translation type="obsolete">Jig действ.</translation>
     </message>
     <message>
         <location filename="formvactvacuum.ui" line="99"/>
         <source>治具参数</source>
-        <translation>Параметры крепежа</translation>
+        <translation>Fixture парам.</translation>
     </message>
     <message>
         <location filename="formvactvacuum.ui" line="327"/>
         <source>输出打开</source>
-        <translation>Выход открыт</translation>
+        <translation>Вкл</translation>
     </message>
     <message>
         <location filename="formvactvacuum.ui" line="370"/>
         <source>打开</source>
         <extracomment>扩展输出开关</extracomment>
-        <translation>открытый</translation>
+        <translation>Вкл</translation>
     </message>
     <message>
         <location filename="formvactvacuum.ui" line="411"/>
         <source>输出关闭</source>
-        <translation>Выход выключен</translation>
+        <translation>Выкл</translation>
     </message>
     <message>
         <location filename="formvactvacuum.ui" line="451"/>
         <source>关闭</source>
         <extracomment>扩展输出开关</extracomment>
-        <translation>близко</translation>
+        <translation>Выкл</translation>
     </message>
     <message>
         <location filename="formvactvacuum.ui" line="489"/>
         <source>动作时间：</source>
-        <translation>Время действия:</translation>
+        <translation>Время:</translation>
     </message>
     <message>
         <location filename="formvactvacuum.ui" line="588"/>
         <source>执行间隔：</source>
-        <translation>Интервал исполнения:</translation>
+        <translation>Интервал:</translation>
     </message>
     <message>
         <location filename="formvactvacuum.ui" line="693"/>
@@ -12412,7 +12411,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formvactvacuum.ui" line="774"/>
         <source>输入计数器：</source>
-        <translation>Счетчик входных данных:</translation>
+        <translation>Счетчик входа:</translation>
     </message>
 </context>
 <context>
@@ -12425,57 +12424,57 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formvarinit.ui" line="138"/>
         <source>变量名：</source>
-        <translation>Имя переменной:</translation>
+        <translation>Имя перем.:</translation>
     </message>
     <message>
         <location filename="formvarinit.ui" line="206"/>
         <source>初始值：</source>
-        <translation>Начальное значение:</translation>
+        <translation>Нач. знач.:</translation>
     </message>
     <message>
         <location filename="formvarinit.ui" line="280"/>
         <source>写初始值</source>
-        <translation>Напишите начальное значение</translation>
+        <translation>Написать</translation>
     </message>
     <message>
         <location filename="formvarinit.ui" line="317"/>
         <source>当前值：</source>
-        <translation>Текущее значение:</translation>
+        <translation>ТекЗнач:</translation>
     </message>
     <message>
         <location filename="formvarinit.ui" line="397"/>
         <source>读当前值</source>
-        <translation>Напишите начальное значение</translation>
+        <translation>Чтение</translation>
     </message>
     <message>
         <location filename="formvarinit.ui" line="441"/>
         <source>自动初始化</source>
-        <translation>Автоматическая инициализация</translation>
+        <translation>АвтоИниц</translation>
     </message>
     <message>
         <location filename="formvarinit.ui" line="478"/>
         <source>询问初始化</source>
-        <translation>Инициализация запроса</translation>
+        <translation>ИницЗапроса</translation>
     </message>
     <message>
         <location filename="formvarinit.ui" line="515"/>
         <source>从不初始化</source>
-        <translation>Никогда не инициализировать</translation>
+        <translation>Не инициир.</translation>
     </message>
     <message>
         <location filename="formvarinit.ui" line="689"/>
         <source>增加</source>
-        <translation>прибавление</translation>
+        <translation>Добав.</translation>
     </message>
     <message>
         <location filename="formvarinit.ui" line="727"/>
         <source>删除</source>
-        <translation>удалять</translation>
+        <translation>Удал.</translation>
     </message>
     <message>
         <location filename="formvarinit.ui" line="778"/>
         <source>保存</source>
-        <translation>Сохранить</translation>
+        <translation>Сохр.</translation>
     </message>
     <message>
         <location filename="formvarinit.cpp" line="104"/>
@@ -12485,7 +12484,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formvarinit.cpp" line="358"/>
         <location filename="formvarinit.cpp" line="366"/>
         <source>系统提示</source>
-        <translation>Системная подсказка</translation>
+        <translation>Сист.я подсказка</translation>
     </message>
     <message>
         <location filename="formvarinit.cpp" line="104"/>
@@ -12509,7 +12508,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formvarinit.cpp" line="195"/>
         <location filename="formvarinit.cpp" line="200"/>
         <source>系统警告</source>
-        <translation>Системное предупреждение</translation>
+        <translation>СистПредупр</translation>
     </message>
     <message>
         <location filename="formvarinit.cpp" line="183"/>
@@ -12539,7 +12538,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formvarinit.cpp" line="309"/>
         <source>保存参数</source>
-        <translation>Сохранить параметр</translation>
+        <translation>Сохр.</translation>
     </message>
     <message>
         <location filename="formvarinit.cpp" line="358"/>
@@ -12557,22 +12556,22 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formwallpaper.cpp" line="81"/>
         <source>正臂水平-E1Y01</source>
-        <translation type="unfinished"></translation>
+        <translation>PA Horizontal-E1Y01</translation>
     </message>
     <message>
         <location filename="formwallpaper.cpp" line="82"/>
         <source>正臂垂直-E1Y02</source>
-        <translation type="unfinished"></translation>
+        <translation>PA vertical-E1Y02</translation>
     </message>
     <message>
         <location filename="formwallpaper.cpp" line="90"/>
         <source>水平到位-E1X01</source>
-        <translation type="unfinished"></translation>
+        <translation>УровНаМесте-E1X01</translation>
     </message>
     <message>
         <location filename="formwallpaper.cpp" line="91"/>
         <source>垂直到位-E1X02</source>
-        <translation type="unfinished"></translation>
+        <translation>ВертикПолож-E1X02</translation>
     </message>
 </context>
 <context>
@@ -12587,24 +12586,24 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formalfaoption.ui" line="222"/>
         <location filename="formalfaoption.ui" line="1087"/>
         <source>不使用</source>
-        <translation>Не используется</translation>
+        <translation>Не исп.</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="227"/>
         <location filename="formalfaoption.ui" line="1092"/>
         <source>点置物模式</source>
-        <translation>Режим хранения точек</translation>
+        <translation>РежХранПолож</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="232"/>
         <source>矩阵置物模式</source>
-        <translation>Режим хранения матрицы</translation>
+        <translation>РежХранМатриц</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="280"/>
         <location filename="formalfaoption.ui" line="1127"/>
         <source>模内引拔下行点：</source>
-        <translation>Неразрушенная верхняя и нижняя точки:</translation>
+        <translation>Точка опуск. в ПФ:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="335"/>
@@ -12625,130 +12624,130 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formalfaoption.ui" line="2095"/>
         <location filename="formalfaoption.ui" line="2202"/>
         <source>mm</source>
-        <translation>mm</translation>
+        <translation>мм</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="387"/>
         <location filename="formalfaoption.ui" line="1234"/>
         <source>模内引拔取物点：</source>
-        <translation>Точки извлечения из пресс-формы:</translation>
+        <translation>Hor Cat in mold:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="491"/>
         <location filename="formalfaoption.ui" line="1341"/>
         <source>模内上下取物点：</source>
-        <translation>Возьмите верхнюю и нижнюю точки в форме:</translation>
+        <translation>Ver Cat in mold:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="595"/>
         <location filename="formalfaoption.ui" line="1448"/>
         <source>模内引拔上行点：</source>
-        <translation>Точка подтягивания в пресс-форме:</translation>
+        <translation>Hor Ris in mold:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="699"/>
         <location filename="formalfaoption.ui" line="1555"/>
         <source>模内上下待机点：</source>
-        <translation>Точка ожидания в форме:</translation>
+        <translation>Ver Wait in mold:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="806"/>
         <location filename="formalfaoption.ui" line="1662"/>
         <source>模外引拔置物点：</source>
-        <translation>Внережимная точка извлечения:</translation>
+        <translation>Hor Rel out mold:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="910"/>
         <location filename="formalfaoption.ui" line="1769"/>
         <source>模外上下置物点：</source>
-        <translation>Неразрушенная верхняя и нижняя точки:</translation>
+        <translation>Ver Rel out mold:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="1011"/>
         <source>主臂置料使用</source>
-        <translation>Использование чулок</translation>
+        <translation>PA Stocking use</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="1023"/>
         <location filename="formalfaoption.ui" line="4227"/>
         <location filename="formalfaoption.ui" line="5003"/>
         <source>副臂</source>
-        <translation>Вспомогательный рычаг</translation>
+        <translation>ВспомРука</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="1876"/>
         <source>横行和速度</source>
-        <translation>Горизонтальная и скорость</translation>
+        <translation>Гориз. и скор.</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="1897"/>
         <source>横行轴</source>
-        <translation>Точка хранения</translation>
+        <translation>Trv (попереч)</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="1936"/>
         <source>置物点：</source>
-        <translation>Точка хранения:</translation>
+        <translation>PA Rel:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="2040"/>
         <source>取物点：</source>
-        <translation>Точка подбора:</translation>
+        <translation>Cat:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="2147"/>
         <source>置料点：</source>
-        <translation>Точка кормления:</translation>
+        <translation>RA Rel:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="2236"/>
         <source>速度</source>
-        <translation>Скорость</translation>
+        <translation>скор</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="2275"/>
         <source>B轴速度：</source>
-        <translation>Скорость оси B:</translation>
+        <translation>Скор.оси B:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="2379"/>
         <source>Y轴模外速度：</source>
-        <translation>Скорость по оси Y:</translation>
+        <translation>Скор. оси Y:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="2483"/>
         <source>X轴速度：</source>
-        <translation>Скорость оси X:</translation>
+        <translation>Скор.X:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="2587"/>
         <source>Z轴速度：</source>
-        <translation>Скорость оси Z:</translation>
+        <translation>Скор. Z:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="2691"/>
         <source>Y轴速度：</source>
-        <translation>Скорость оси Y:</translation>
+        <translation>Скор. Y:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="2728"/>
         <source>A轴速度：</source>
-        <translation>Скорость оси A:</translation>
+        <translation>Скор. A:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="2832"/>
         <source>C轴速度：</source>
-        <translation>Скорость оси C:</translation>
+        <translation>Скор. C:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="3003"/>
         <source>A轴模外速度：</source>
-        <translation>Скорость по оси А:</translation>
+        <translation>Скор.А:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="3097"/>
         <source>倒角</source>
-        <translation>флип</translation>
+        <translation>Поворот</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="3141"/>
@@ -12761,7 +12760,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formalfaoption.ui" line="3372"/>
         <location filename="formalfaoption.ui" line="3472"/>
         <source>倒平</source>
-        <translation>Hor</translation>
+        <translation>Гориз</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="3203"/>
@@ -12769,7 +12768,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formalfaoption.ui" line="3403"/>
         <location filename="formalfaoption.ui" line="3503"/>
         <source>倒直</source>
-        <translation>Ver</translation>
+        <translation>Верт.</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="3241"/>
@@ -12779,17 +12778,17 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formalfaoption.ui" line="3341"/>
         <source>置物倒角姿态</source>
-        <translation>Отпустить поворот</translation>
+        <translation>ОсвобВПовор</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="3441"/>
         <source>取物倒角姿态</source>
-        <translation>Получить Повернуть</translation>
+        <translation>ВзятьВПовор</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="3539"/>
         <source>治具</source>
-        <translation>кондуктор</translation>
+        <translation>Jig</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="3611"/>
@@ -12811,7 +12810,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formalfaoption.ui" line="4611"/>
         <location filename="formalfaoption.ui" line="4685"/>
         <source>检测</source>
-        <translation>детектировать</translation>
+        <translation>Мониторинг</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="3685"/>
@@ -12847,170 +12846,170 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formalfaoption.ui" line="4052"/>
         <location filename="formalfaoption.ui" line="4719"/>
         <source>治具延时：</source>
-        <translation>Задержка крепления:</translation>
+        <translation>Jig задер:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="4147"/>
         <source>倒角延时：</source>
-        <translation>Задержка фаски:</translation>
+        <translation>ЗадерПовор:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="4804"/>
         <source>矩阵</source>
-        <translation>матрица</translation>
+        <translation>Матрица</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="4886"/>
         <source>倒角水平</source>
-        <translation>Уровень фаски</translation>
+        <translation>Горизонт.</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="4929"/>
         <source>垂直基准面</source>
-        <translation>Вертикальные данные</translation>
+        <translation>Вертик.данные</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="4966"/>
         <source>计数：</source>
-        <translation>Количество:</translation>
+        <translation>Колич.:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="5046"/>
         <source>横行时倒平</source>
-        <translation>Выровнять при прохождении</translation>
+        <translation>Trv rot hor</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="5084"/>
         <source>第一点位置</source>
-        <translation>Первая позиция</translation>
+        <translation>Перв. поз.</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="5289"/>
         <location filename="formalfaoption.ui" line="5454"/>
         <location filename="formalfaoption.ui" line="5485"/>
         <source>相对</source>
-        <translation>относительно</translation>
+        <translation>Относит.</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="5825"/>
         <source>间距</source>
-        <translation>интервал</translation>
+        <translation>Интервал</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="5864"/>
         <source>上下间距：</source>
-        <translation>Верхний и нижний интервал:</translation>
+        <translation>ВерхНизИнтервал:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="6194"/>
         <source>运行速度：</source>
-        <translation>Скорость бега:</translation>
+        <translation>Скор:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="6292"/>
         <source>低速速度：</source>
-        <translation>Низкая скорость:</translation>
+        <translation>НизкСкор:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="6390"/>
         <source>减速距离：</source>
-        <translation>Расстояние замедления:</translation>
+        <translation>РасстЗамедл:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="6470"/>
         <source>轴顺序</source>
-        <translation>Порядок оси</translation>
+        <translation>Порядок</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="6787"/>
         <location filename="formalfaoption.ui" line="6808"/>
         <source>塑机</source>
-        <translation>Пластиковая машина</translation>
+        <translation>ТПА</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="6850"/>
         <source>顶针进控制</source>
-        <translation>Наперсток управления</translation>
+        <translation>EEF</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="6890"/>
         <source>顶针进延时：</source>
-        <translation>Задержка продвижения наперстка:</translation>
+        <translation>EEF задер:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="6988"/>
         <source>顶针退控制</source>
-        <translation>Контроль отступления наперстка</translation>
+        <translation>EEB</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7028"/>
         <source>顶针退延时：</source>
-        <translation>Задержка наперстка:</translation>
+        <translation>EEB задер:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7126"/>
         <source>抽芯1进控制</source>
-        <translation>Элемент управления Core Pull 1</translation>
+        <translation>C1P1</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7166"/>
         <source>抽芯1进延时：</source>
-        <translation>Задержка тяги сердечника 1:</translation>
+        <translation>C1P1 задер:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7264"/>
         <source>抽芯1退控制</source>
-        <translation>Управление откатом сердечника</translation>
+        <translation>C1P2</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7304"/>
         <source>抽芯1退延时：</source>
-        <translation>Задержка сердечника 1 с обратной задержкой:</translation>
+        <translation>C1P2 задер:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7402"/>
         <source>抽芯2进控制</source>
-        <translation>Контроль тяги</translation>
+        <translation>C2P1</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7442"/>
         <source>抽芯2进延时：</source>
-        <translation>Задержка сердечника 2:</translation>
+        <translation>C2P1 задер:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7540"/>
         <source>抽芯2退控制</source>
-        <translation>Управление откатом сердечника</translation>
+        <translation>C2P2</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7580"/>
         <source>抽芯2退延时：</source>
-        <translation>Задержка сердечника 2 с задержкой:</translation>
+        <translation>C2P2 задер:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7675"/>
         <source>开模超时：</source>
-        <translation>Тайм-аут режима открытия:</translation>
+        <translation>MOP время:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7770"/>
         <source>关模延时：</source>
-        <translation>Задержка в режиме выключения:</translation>
+        <translation>MCP задер:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7850"/>
         <source>传送带</source>
-        <translation>Ленточный конвейер</translation>
+        <translation>Конвейер</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7892"/>
         <source>传送带控制</source>
-        <translation>Конвейерное управление</translation>
+        <translation>Контроль</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7932"/>
         <source>传送带输出:</source>
-        <translation>Конвейерная продукция:</translation>
+        <translation>ПроизвКонвейр:</translation>
     </message>
     <message>
         <location filename="formalfaoption.ui" line="7997"/>
@@ -13020,7 +13019,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formalfaoption.ui" line="8092"/>
         <source>传送带间隔:</source>
-        <translation>Расстояние между конвейерами:</translation>
+        <translation>Интервал:</translation>
     </message>
     <message>
         <location filename="formalfaoption.cpp" line="345"/>
@@ -13031,7 +13030,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formalfaoption.cpp" line="466"/>
         <location filename="formalfaoption.cpp" line="471"/>
         <source>系统警告</source>
-        <translation>Системное предупреждение</translation>
+        <translation>Предупр.</translation>
     </message>
     <message>
         <location filename="formalfaoption.cpp" line="345"/>
@@ -13059,7 +13058,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formalfaoption.cpp" line="384"/>
         <source>主控模块更新当前程序失败，不能进行程序运行操作！
 请检查操作器和主控模块的通讯链路。</source>
-        <translation>Главный модуль управления не может обновить текущую программу и не может запустить программу!
+        <translation>EM управления не может обновить текущую программу и не может запустить программу!
 Пожалуйста, проверьте связь между оператором и ведущим модулем.</translation>
     </message>
     <message>
@@ -13067,14 +13066,14 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formalfaoption.cpp" line="421"/>
         <location filename="formalfaoption.cpp" line="422"/>
         <source>点数：</source>
-        <translation>Очки:</translation>
+        <translation>Поз:</translation>
     </message>
     <message>
         <location filename="formalfaoption.cpp" line="424"/>
         <location filename="formalfaoption.cpp" line="425"/>
         <location filename="formalfaoption.cpp" line="426"/>
         <source>间距：</source>
-        <translation>Расстояние:</translation>
+        <translation>Интервал:</translation>
     </message>
     <message>
         <source>：</source>
@@ -13088,33 +13087,33 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formalfaoption.cpp" line="436"/>
         <location filename="formalfaoption.cpp" line="437"/>
         <source>轴速度：</source>
-        <translation>Скорость оси:</translation>
+        <translation>Скор:</translation>
     </message>
     <message>
         <location filename="formalfaoption.cpp" line="438"/>
         <location filename="formalfaoption.cpp" line="439"/>
         <source>轴模外速度：</source>
-        <translation>Внешняя скорость вала:</translation>
+        <translation>СкорВнеПФ:</translation>
     </message>
     <message>
         <location filename="formalfaoption.cpp" line="466"/>
         <source>没有载入当前程序文件，不能进入向导！</source>
-        <translation>Нет загрузки программы, не могу войти в руководство!</translation>
+        <translation>Нет загрузки программы, не могу войти в инструк.!</translation>
     </message>
     <message>
         <location filename="formalfaoption.cpp" line="471"/>
         <source>装载当前程序文件出错，不能进入向导！</source>
-        <translation>Ошибка загрузки файла программы, невозможно ввести руководство!</translation>
+        <translation>Ошибка загрузки файла программы, не могу войти в инструк.!</translation>
     </message>
     <message>
         <location filename="formalfaoption.cpp" line="649"/>
         <source>系统提示</source>
-        <translation>Системный совет</translation>
+        <translation>Сист. совет</translation>
     </message>
     <message>
         <location filename="formalfaoption.cpp" line="701"/>
         <source>保存参数</source>
-        <translation>Сохранить параметр</translation>
+        <translation>Сохранить</translation>
     </message>
 </context>
 <context>
@@ -13127,32 +13126,32 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="forminformation.cpp" line="57"/>
         <source>ECat双臂</source>
-        <translation>ECat оружие</translation>
+        <translation>ECat руки</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="59"/>
         <source>ECat压铸</source>
-        <translation>ECat литье под давлением</translation>
+        <translation>ECat литье </translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="61"/>
         <source>ECat新三轴</source>
-        <translation>ECat новый трехосный</translation>
+        <translation>ECat новый 3хосный</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="63"/>
         <source>ECat高速三轴</source>
-        <translation>ECat высокоскоростной трехосный</translation>
+        <translation>ECat высокоскор. 3хосный</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="65"/>
         <source>ECat高速六轴双臂</source>
-        <translation>Высокоскоростной шестиосевой двойной рычаг ECat</translation>
+        <translation>Ecat высокоскор. 6хосный 2руки</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="67"/>
         <source>ECat高速六轴单臂</source>
-        <translation>ECat высокоскоростной шестиосевой одинарный рычаг</translation>
+        <translation>Ecat высокоскор. 6хосный 1рука</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="69"/>
@@ -13163,41 +13162,41 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="forminformation.cpp" line="74"/>
         <location filename="forminformation.cpp" line="93"/>
         <source>单臂</source>
-        <translation>Одной рукой</translation>
+        <translation>Одна</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="76"/>
         <location filename="forminformation.cpp" line="95"/>
         <source>双臂</source>
-        <translation>Две руки</translation>
+        <translation>Две</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="78"/>
         <location filename="forminformation.cpp" line="97"/>
         <source>压铸</source>
-        <translation>выжимать</translation>
+        <translation>Литье</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="80"/>
         <location filename="forminformation.cpp" line="99"/>
         <source>新三轴</source>
-        <translation>3 новые оси</translation>
+        <translation>3хосев</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="82"/>
         <location filename="forminformation.cpp" line="101"/>
         <source>高速三轴</source>
-        <translation>3 оси высокой скорости</translation>
+        <translation>3хосВ/скор</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="103"/>
         <source>高速六轴双臂</source>
-        <translation>Hspd-6as</translation>
+        <translation>6хосВ/скор2руч</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="105"/>
         <source>高速六轴单臂</source>
-        <translation>Hspd-6d</translation>
+        <translation>6хосВ/скор1руч</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="88"/>
@@ -13208,105 +13207,105 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="forminformation.cpp" line="84"/>
         <source>高速五轴双臂</source>
-        <translation type="unfinished"></translation>
+        <translation>5хосВ/скор2руч</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="86"/>
         <source>高速五轴单臂</source>
-        <translation type="unfinished"></translation>
+        <translation>5хосВ/скор1руч</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="112"/>
         <source>双总线单臂</source>
-        <translation type="unfinished"></translation>
+        <translation>Dual-Bus Single</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="114"/>
         <source>双总线双臂</source>
-        <translation type="unfinished"></translation>
+        <translation>Dual-Bus Double</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="116"/>
         <source>双总线压铸</source>
-        <translation type="unfinished"></translation>
+        <translation>Dual-Bus YZ</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="118"/>
         <source>双总线新三轴</source>
-        <translation type="unfinished"></translation>
+        <translation>Dual-Bus 3axis</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="120"/>
         <source>双总线高速三轴</source>
-        <translation type="unfinished"></translation>
+        <translation>Dual-Bus HSpd3</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="122"/>
         <source>双总线高速六轴双臂</source>
-        <translation type="unfinished"></translation>
+        <translation>Dual-Bus HSpd6 Double</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="124"/>
         <source>双总线高速六轴单臂</source>
-        <translation type="unfinished"></translation>
+        <translation>Dual-Bus HSpd6 Singel</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="126"/>
         <source>双总线-欧规</source>
-        <translation type="unfinished"></translation>
+        <translation>Dual-Bus-Euro</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="131"/>
         <source>驱控一体单臂</source>
-        <translation type="unfinished"></translation>
+        <translation>DVS Single</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="133"/>
         <source>驱控一体双臂</source>
-        <translation type="unfinished"></translation>
+        <translation>DVS Double</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="135"/>
         <source>驱控一体压铸</source>
-        <translation type="unfinished"></translation>
+        <translation>DVS YZ</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="137"/>
         <source>驱控一体新三轴</source>
-        <translation type="unfinished"></translation>
+        <translation>DVS 3axis</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="139"/>
         <source>驱控一体高速三轴</source>
-        <translation type="unfinished"></translation>
+        <translation>DVS HSpd3</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="141"/>
         <source>驱控一体高速六轴双臂</source>
-        <translation type="unfinished"></translation>
+        <translation>DVS HSpd6 Double</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="143"/>
         <source>驱控一体高速六轴单臂</source>
-        <translation type="unfinished"></translation>
+        <translation>DVS HSpd6 Single</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="145"/>
         <source>驱控一体-欧规</source>
-        <translation type="unfinished"></translation>
+        <translation>DVS-Euro</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="166"/>
         <location filename="forminformation.cpp" line="173"/>
         <source>手控器：</source>
         <oldsource>操作器版本：</oldsource>
-        <translation type="unfinished"></translation>
+        <translation>РучнКонтр：</translation>
     </message>
     <message>
         <location filename="forminformation.cpp" line="166"/>
         <location filename="forminformation.cpp" line="173"/>
         <source>主板版本：</source>
-        <translation type="unfinished"></translation>
+        <translation>ГлавнВерсия:</translation>
     </message>
 </context>
 <context>
@@ -13314,52 +13313,52 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formmenu.ui" line="170"/>
         <source>程序初始化</source>
-        <translation>Инициализация программы</translation>
+        <translation>Инициал-ия</translation>
     </message>
     <message>
         <location filename="formmenu.ui" line="217"/>
         <source>界面设置</source>
-        <translation>Настройки интерфейса</translation>
+        <translation>НастрИнтерф</translation>
     </message>
     <message>
         <location filename="formmenu.ui" line="264"/>
         <source>系统信息</source>
-        <translation>Системная информация</translation>
+        <translation>Информация</translation>
     </message>
     <message>
         <location filename="formmenu.ui" line="308"/>
         <source>系统日志</source>
-        <translation>Системный журнал</translation>
+        <translation>Лог</translation>
     </message>
     <message>
         <location filename="formmenu.ui" line="355"/>
         <source>端口设置</source>
-        <translation>Настройка порта</translation>
+        <translation>Вх/Вых</translation>
     </message>
     <message>
         <location filename="formmenu.ui" line="408"/>
         <source>系统设置</source>
-        <translation>Системные настройки</translation>
+        <translation>Системные</translation>
     </message>
     <message>
         <location filename="formmenu.ui" line="455"/>
         <source>伺服设置</source>
-        <translation>Настройки сервопривода</translation>
+        <translation>Серво</translation>
     </message>
     <message>
         <location filename="formmenu.ui" line="502"/>
         <source>软件升级</source>
-        <translation>Обновление программного обеспечения</translation>
+        <translation>Обновления</translation>
     </message>
     <message>
         <location filename="formmenu.ui" line="549"/>
         <source> 程序配置</source>
-        <translation>Конфигурация программы</translation>
+        <translation>Конфиг</translation>
     </message>
     <message>
         <location filename="formmenu.ui" line="596"/>
         <source>调位操作</source>
-        <translation>Операция позиционирования</translation>
+        <translation>Настр. положения</translation>
     </message>
 </context>
 <context>
@@ -13367,22 +13366,22 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.ui" line="15760"/>
         <source>安全区1</source>
-        <translation>Зона безопасности 1</translation>
+        <translation>Зоны безопасн. 1</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="399"/>
         <source>横行模外安全区域</source>
-        <translation>Боковая зона безопасности</translation>
+        <translation>БоковЗонаБезоп</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="901"/>
         <source>副臂横行模内安全区域</source>
-        <translation>Зона безопасности поперечного режима вторичного рычага</translation>
+        <translation>RA ЗонаБезопВПФ</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="941"/>
         <source>横行轴原点复归后待机位置</source>
-        <translation>Трв в ожидании пос</translation>
+        <translation>ПозицОжид</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="985"/>
@@ -13393,38 +13392,38 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.ui" line="1036"/>
         <source>横行轴外安全区域2</source>
-        <translation>Боковая модель зоны безопасности 2</translation>
+        <translation>БоковЗонаБезоп2</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="1212"/>
         <source>正臂横行模内安全区域</source>
-        <translation>PA trv в форме SAF</translation>
+        <translation>PA ЗонаБезопВПФ</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="1252"/>
         <source>正臂引拔模内安全区域</source>
-        <translation>Паор, зона безопасности для путешествий</translation>
+        <translation>PA ЗонаБезопГориз</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="1283"/>
         <location filename="formservo.ui" line="2615"/>
         <source>起点</source>
-        <translation>Начните</translation>
+        <translation>Старт</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="1334"/>
         <source>正臂上行位置安全区域</source>
-        <translation>Зона безопасности положительного рычага вверх</translation>
+        <translation>PA.ЗонаБезопВерх</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="1438"/>
         <source>正臂引拔横行安全区域</source>
-        <translation>Зона безопасности принудительного извлечения руки из пресс-формы</translation>
+        <translation>PA.ЗонаБезопГориз</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="2019"/>
         <source>副臂上下(倒角)模内安全区域</source>
-        <translation>Рейвер (путешествия) чистый</translation>
+        <translation>RA.Ver(Rot) ЗонаБезопДвиж</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="2068"/>
@@ -13437,52 +13436,52 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.ui" line="2187"/>
         <source>副臂上下(倒角)横行安全区域</source>
-        <translation>R.var (гниль) в форме очищается</translation>
+        <translation>Ra.Ver(Rot) ЗонаБезопВПФ</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="2666"/>
         <source>副臂上行位置安全区域</source>
-        <translation>Зона безопасности положения дополнительного рычага</translation>
+        <translation>RA.ЗонаБезопВерх</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="2706"/>
         <source>副臂引拔模内安全区域</source>
-        <translation>Зона безопасности извлечения вспомогательного рычага в пресс-форме</translation>
+        <translation>RA.ЗонаБезопГориз</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="2746"/>
         <source>副臂引拔横行安全区域</source>
-        <translation>Ра Хор путешествует чисто</translation>
+        <translation>RA ЗонаБезопГоризДвиж</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="2786"/>
         <source>扩展轴模内安全区域</source>
-        <translation>Ext inmold SAF</translation>
+        <translation>РасшОсь  БезопВПФ</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="2826"/>
         <source>扩展轴横行安全区域</source>
-        <translation>Расширенная зона поперечной безопасности</translation>
+        <translation>РасшОсь БезопДвиж</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="2870"/>
         <source>取物点</source>
-        <translation>Получить товар</translation>
+        <translation>Точка выб.</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="2910"/>
         <source>置物点</source>
-        <translation>заказ</translation>
+        <translation>Точка хран.</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="2950"/>
         <source>待机点</source>
-        <translation>ждать</translation>
+        <translation>Точка ожид.</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="2969"/>
         <source>正臂引拔轴</source>
-        <translation>Вал съемника положительного рычага</translation>
+        <translation>PA Гориз</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="3029"/>
@@ -13504,36 +13503,36 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="4227"/>
         <location filename="formservo.ui" line="4294"/>
         <source>mm</source>
-        <translation>mm</translation>
+        <translation>мм</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="3197"/>
         <source>副臂引拔轴</source>
-        <translation>RA Hor</translation>
+        <translation>RA Гориз</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="3425"/>
         <source>正臂上下轴</source>
-        <translation>PA Ver</translation>
+        <translation>PA Верт</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="3650"/>
         <source>副臂上下轴</source>
-        <translation>RA Ver</translation>
+        <translation>RA Верт</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="3878"/>
         <location filename="formservo.ui" line="14010"/>
         <location filename="formservo.ui" line="16093"/>
         <source>横行轴</source>
-        <translation>Trv</translation>
+        <translation>Trv(Попереч)</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="4103"/>
         <location filename="formservo.ui" line="14106"/>
         <location filename="formservo.ui" line="16019"/>
         <source>扩展轴</source>
-        <translation>Ext</translation>
+        <translation>РасшОсь</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="4763"/>
@@ -13543,7 +13542,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11341"/>
         <location filename="formservo.ui" line="12951"/>
         <source>最高转速：</source>
-        <translation type="unfinished"></translation>
+        <translation>МаксСкор:</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="4779"/>
@@ -13563,7 +13562,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11373"/>
         <location filename="formservo.ui" line="12983"/>
         <source>转</source>
-        <translation type="unfinished"></translation>
+        <translation>изм</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="4994"/>
@@ -13573,7 +13572,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11508"/>
         <location filename="formservo.ui" line="13118"/>
         <source>原点偏移</source>
-        <translation>происхождения офсет</translation>
+        <translation>Дом, смещение</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="4747"/>
@@ -13583,7 +13582,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11258"/>
         <location filename="formservo.ui" line="12868"/>
         <source>运行速度</source>
-        <translation>скорость</translation>
+        <translation>Скорость</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="4474"/>
@@ -13593,7 +13592,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="10884"/>
         <location filename="formservo.ui" line="12494"/>
         <source>减速类型</source>
-        <translation>Тип замедления</translation>
+        <translation>ТипЗамедл</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="4502"/>
@@ -13603,7 +13602,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="10912"/>
         <location filename="formservo.ui" line="12522"/>
         <source>指数减速</source>
-        <translation>экспонент</translation>
+        <translation>Экспонента</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="4640"/>
@@ -13613,7 +13612,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11151"/>
         <location filename="formservo.ui" line="12761"/>
         <source>马达转动一圈所需脉冲</source>
-        <translation>Мотор крутит круговые импульсы</translation>
+        <translation>Мотор по импульсам</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="4536"/>
@@ -13623,7 +13622,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11047"/>
         <location filename="formservo.ui" line="12657"/>
         <source>马达转动一圈距离</source>
-        <translation>Мотор поворачивает на круг</translation>
+        <translation>Мотор по расстоянию</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="4350"/>
@@ -13643,7 +13642,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11820"/>
         <location filename="formservo.ui" line="13430"/>
         <source>原点归位模式</source>
-        <translation>Режим точки O</translation>
+        <translation>Режим Дом</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5344"/>
@@ -13653,7 +13652,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11855"/>
         <location filename="formservo.ui" line="13465"/>
         <source>不归原点</source>
-        <translation>Не возвращается к 0</translation>
+        <translation>Не возвр. к 0</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5349"/>
@@ -13663,7 +13662,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11860"/>
         <location filename="formservo.ui" line="13470"/>
         <source>原点信号+Z相</source>
-        <translation>0+Z</translation>
+        <translation>Дом+Z</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5354"/>
@@ -13673,7 +13672,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11865"/>
         <location filename="formservo.ui" line="13475"/>
         <source>原点信号</source>
-        <translation>происхождения</translation>
+        <translation>Дом</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="4378"/>
@@ -13683,12 +13682,12 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="10788"/>
         <location filename="formservo.ui" line="12398"/>
         <source>旋转</source>
-        <translation>фаска</translation>
+        <translation>Вращ.</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5682"/>
         <source>正副臂原点距离</source>
-        <translation>Домашнее расстояние</translation>
+        <translation>Дом, расстояние</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="4896"/>
@@ -13698,7 +13697,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11407"/>
         <location filename="formservo.ui" line="13017"/>
         <source>加速度</source>
-        <translation>ускорение</translation>
+        <translation>Ускорение</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5389"/>
@@ -13714,7 +13713,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="13510"/>
         <location filename="formservo.ui" line="13738"/>
         <source>编码器类型</source>
-        <translation>Тип кодировщика</translation>
+        <translation>Тип энкодера</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5424"/>
@@ -13724,7 +13723,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11932"/>
         <location filename="formservo.ui" line="13542"/>
         <source>无</source>
-        <translation>Никто</translation>
+        <translation>Ничто</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5429"/>
@@ -13784,7 +13783,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11962"/>
         <location filename="formservo.ui" line="13572"/>
         <source>新思SS</source>
-        <translation>Новое мышление СС</translation>
+        <translation>New thinking SS</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5459"/>
@@ -13794,7 +13793,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11967"/>
         <location filename="formservo.ui" line="13577"/>
         <source>汇川SV660P</source>
-        <translation>Kymmene SV660P</translation>
+        <translation>SV660P</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5464"/>
@@ -13824,7 +13823,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11982"/>
         <location filename="formservo.ui" line="13592"/>
         <source>SIGRINER</source>
-        <translation type="unfinished"></translation>
+        <translation>SIGRINER</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5479"/>
@@ -13834,7 +13833,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11987"/>
         <location filename="formservo.ui" line="13597"/>
         <source>瑞能</source>
-        <translation type="unfinished"></translation>
+        <translation>RuiNeng</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5484"/>
@@ -13844,7 +13843,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11992"/>
         <location filename="formservo.ui" line="13602"/>
         <source>新睿DVS</source>
-        <translation type="unfinished"></translation>
+        <translation>SinRobot DVS</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5519"/>
@@ -13884,7 +13883,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11612"/>
         <location filename="formservo.ui" line="13222"/>
         <source>原点待机点</source>
-        <translation>Начальная точка ожидания</translation>
+        <translation>Дом, ожидание</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5202"/>
@@ -13894,7 +13893,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="11716"/>
         <location filename="formservo.ui" line="13326"/>
         <source>模</source>
-        <translation>плесень</translation>
+        <translation>ПФ</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5881"/>
@@ -13904,7 +13903,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="12291"/>
         <location filename="formservo.ui" line="13901"/>
         <source>找原点方式</source>
-        <translation>Найди способ происхождения</translation>
+        <translation>Режим Дом</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5909"/>
@@ -13914,7 +13913,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="12319"/>
         <location filename="formservo.ui" line="13929"/>
         <source>末端</source>
-        <translation>оконечность</translation>
+        <translation>Оконч.</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5783"/>
@@ -13924,7 +13923,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="12190"/>
         <location filename="formservo.ui" line="13800"/>
         <source>JERK加加速</source>
-        <translation>ДЖЕРК плюс ускорение</translation>
+        <translation>JERK ускорение</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="5648"/>
@@ -13934,7 +13933,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.ui" line="12156"/>
         <location filename="formservo.ui" line="13766"/>
         <source>绝对值</source>
-        <translation>Абсолютная величина</translation>
+        <translation>Абс.величина</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="6146"/>
@@ -13946,97 +13945,97 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.cpp" line="237"/>
         <location filename="formservo.cpp" line="238"/>
         <source>软件行程</source>
-        <translation>Программный ход</translation>
+        <translation>Прогр. ход</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="10479"/>
         <source>正副臂最小安全间距</source>
-        <translation>Минимальное безопасное расстояние положительного и вторичного плеча</translation>
+        <translation>Мин. расстояние</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="13962"/>
         <source>绝对值编码器</source>
-        <translation>Абсолютный энкодер</translation>
+        <translation>Абсол. энкодер</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14038"/>
         <source>设置编码器原点</source>
-        <translation>Установите источник кодера</translation>
+        <translation>НачкоордЭнкодера</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14181"/>
         <location filename="formservo.ui" line="15945"/>
         <source>副上下轴</source>
-        <translation>RA Ver</translation>
+        <translation>RA верт</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14134"/>
         <source>清除编码器原点</source>
-        <translation>Очистить источник кодировщика</translation>
+        <translation>Очистить</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14072"/>
         <location filename="formservo.ui" line="15834"/>
         <source>正引拔轴</source>
-        <translation>Вал съемника положительного рычага</translation>
+        <translation>PA Гориз</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14249"/>
         <location filename="formservo.ui" line="15982"/>
         <source>副引拔轴</source>
-        <translation>RA Hor</translation>
+        <translation>RA Гориз</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14215"/>
         <location filename="formservo.ui" line="15908"/>
         <source>正上下轴</source>
-        <translation>PA Ver</translation>
+        <translation>PA Верт</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14372"/>
         <location filename="formservo.cpp" line="1788"/>
         <source>原点快速速度</source>
-        <translation>Происхождение быстрой скорости</translation>
+        <translation>БыстСкор</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14271"/>
         <source>原点慢速速度</source>
-        <translation>Начало медленной скорости</translation>
+        <translation>МедлСкор</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="15685"/>
         <source>保存</source>
-        <translation>Сохранить</translation>
+        <translation>Сохр.</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="15093"/>
         <source>PA5速度环比例增益</source>
-        <translation type="unfinished"></translation>
+        <translation>PA5 ПропУсилСкор</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14472"/>
         <source>PaHor</source>
-        <translation type="unfinished"></translation>
+        <translation>PA Гориз</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14491"/>
         <source>PaVer</source>
-        <translation type="unfinished"></translation>
+        <translation>PA Верт</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14507"/>
         <source>Trv</source>
-        <translation type="unfinished"></translation>
+        <translation>Trv (попереч)</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14523"/>
         <source>RaHor</source>
-        <translation type="unfinished"></translation>
+        <translation>RA Гориз</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14539"/>
         <source>RaVer</source>
-        <translation type="unfinished"></translation>
+        <translation>RA Верт</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14567"/>
@@ -14051,32 +14050,32 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.ui" line="15077"/>
         <source>PA6速度积分常数</source>
-        <translation type="unfinished"></translation>
+        <translation>PA6 ПостИнтегрСкор</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14901"/>
         <source>PA7转矩滤波器</source>
-        <translation type="unfinished"></translation>
+        <translation>PA7 ФильтКрМом</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14997"/>
         <source>PA8速度检测滤波器</source>
-        <translation type="unfinished"></translation>
+        <translation>PA8 ФильтОбнарСкор</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14677"/>
         <source>PA19位置平滑滤波</source>
-        <translation type="unfinished"></translation>
+        <translation>PA19 ПозПлавнФильтр</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14917"/>
         <source>PA9位置比例增益</source>
-        <translation type="unfinished"></translation>
+        <translation>PA9 ПропорУсилПолож</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="14821"/>
         <source>PA63负载惯量比</source>
-        <translation type="unfinished"></translation>
+        <translation>PA63 КоэфИнерцНагр</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="15165"/>
@@ -14131,50 +14130,50 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.ui" line="15871"/>
         <source>原点</source>
-        <translation>происхождения</translation>
+        <translation>Дом</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="16056"/>
         <source>快速定位</source>
-        <translation>Быстрое позиционирование</translation>
+        <translation>БыстрПозицир</translation>
     </message>
     <message>
         <location filename="formservo.ui" line="15797"/>
         <source>安全区2</source>
-        <translation>Безопасная зона 2</translation>
+        <translation>БезЗона 2</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="144"/>
         <location filename="formservo.cpp" line="146"/>
         <location filename="formservo.cpp" line="147"/>
         <source>轴上位安全区</source>
-        <translation>Ось зона безопасности</translation>
+        <translation>ВерхБезопЗона</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="143"/>
         <location filename="formservo.cpp" line="149"/>
         <source>轴模外安全区</source>
-        <translation>Внешняя зона безопасности оси</translation>
+        <translation>ЗонБезопВнеПФ</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="150"/>
         <source>(倒角)轴模內安全区</source>
-        <translation>(скошенная) зона безопасности внутри формы вала</translation>
+        <translation>(повор) ЗонБезопВнутриПФ</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="151"/>
         <source>(倒角)轴横行安全区</source>
-        <translation>(скошенный) вал поперечной зоны безопасности</translation>
+        <translation>(повор) ЗонБезопПопереч</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="152"/>
         <source>轴原点复归后待机位置</source>
-        <translation>Положение в режиме ожидания после возврата к началу координат</translation>
+        <translation>ПоложОжидан</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="153"/>
         <source>轴模外安全区2</source>
-        <translation>Внешняя безопасная зона оси 2</translation>
+        <translation>ВнешБезЗона 2</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="154"/>
@@ -14183,7 +14182,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.cpp" line="202"/>
         <location filename="formservo.cpp" line="212"/>
         <source>轴横行安全区</source>
-        <translation>Ось, бегущая SAF</translation>
+        <translation>ПеремОси ЗонБезоп</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="156"/>
@@ -14215,32 +14214,32 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.cpp" line="185"/>
         <source>横行X模外安全区域</source>
-        <translation>Горизонтальный X-режим внешней зоны безопасности</translation>
+        <translation>ЗонБезопПоперечВнеПФ</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="186"/>
         <source>(取件臂Z1) 前后Y方向模内安全区</source>
-        <translation>(Z1) Ось Y в пресс-форме SAF</translation>
+        <translation>(Z1) Y ЗонБезВнутПФ</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="187"/>
         <source>(喷雾臂Z2) 前后Y方向模内安全区</source>
-        <translation>(Z2) Ось Y в пресс-форме SAF</translation>
+        <translation>(Z2) Y ЗонБезВнутПФ</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="188"/>
         <source>(取件臂Z1) 横行X方向模内安全区</source>
-        <translation>(Z1) ось trv в пресс-форме SAF</translation>
+        <translation>(Z1) Попереч.ЗонБезВнутПФ</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="189"/>
         <source>(喷雾臂Z2) 横行X方向模内安全区</source>
-        <translation>(распылительный рычаг Z2) в зоне безопасности пресс-формы в поперечном направлении X</translation>
+        <translation>(Пневмо Z2) Попереч.ЗонБезВнутПФ по X</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="190"/>
         <source>(喷雾臂Z2) 横行X方向安全区</source>
-        <translation>(Z2) trv ось SAF</translation>
+        <translation>(Z2) Попереч.ЗонБез</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="191"/>
@@ -14249,7 +14248,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.cpp" line="201"/>
         <location filename="formservo.cpp" line="211"/>
         <source>轴模内安全区</source>
-        <translation>Безопасная зона внутри шахты</translation>
+        <translation>ЗонБезВнутПФ</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="196"/>
@@ -14257,44 +14256,44 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.cpp" line="206"/>
         <location filename="formservo.cpp" line="207"/>
         <source>轴模內安全区</source>
-        <translation>Безопасная зона внутри шахты</translation>
+        <translation>ЗонБезВнутПФ</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="206"/>
         <source>正臂</source>
-        <translation>Положительная рука</translation>
+        <translation>PA</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="207"/>
         <source>副臂</source>
-        <translation>Вспомогательный рычаг</translation>
+        <translation>RA</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="208"/>
         <source>轴模内安全区域</source>
-        <translation>Безопасная зона внутри шахты</translation>
+        <translation>ЗонБезВнутПФ</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="209"/>
         <source>(旋转)轴模内安全角度</source>
-        <translation>(rev) степень безопасности</translation>
+        <translation>(Вращ) степень безопасности</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="210"/>
         <source>(旋转)轴横行安全区</source>
-        <translation>(фаски) ось бегущая SAF</translation>
+        <translation>(Вращ) ОсьПеремещЗонБез</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="217"/>
         <location filename="formservo.cpp" line="224"/>
         <source>前后Y轴软件行程</source>
-        <translation> (rev)safety degree</translation>
+        <translation> Y ПрогрОгранПерем</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="219"/>
         <location filename="formservo.cpp" line="226"/>
         <source>取件和喷雾臂原点距离</source>
-        <translation>Расстояние между источниками</translation>
+        <translation>Расст. между точками</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="242"/>
@@ -14306,12 +14305,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.cpp" line="242"/>
         <source>原点距离</source>
-        <translation>домашнее расстояние</translation>
+        <translation>Дом, дистанция</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="243"/>
         <source>最小距离</source>
-        <translation>минимальное расстояние</translation>
+        <translation>Мин. расстояние</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1010"/>
@@ -14375,29 +14374,29 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.cpp" line="1342"/>
         <location filename="formservo.cpp" line="1350"/>
         <source>系统警告</source>
-        <translation>Системное предупреждение</translation>
+        <translation>Предупр.</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1010"/>
         <location filename="formservo.cpp" line="1108"/>
         <source>取件臂和喷雾臂的最小间距必须要小于取件臂原点和喷雾臂原点的距离！</source>
-        <translation>Минимальное расстояние между подъемным рычагом и распылительным рычагом должно быть меньше исходного расстояния!</translation>
+        <translation>Миним. расстояние между подъемной рукой и распылительной рукой должно быть меньше исходного расстояния!</translation>
     </message>
     <message>
         <source>(取件臂Z1)前后Y方向模内安全区开始位置必须要小于结束位置！</source>
-        <translation type="obsolete">(Извлечь рычаг Z1) Начальное положение оси Y в зоне безопасности пресс-формы должно быть меньше конечного положения!</translation>
+        <translation type="obsolete">(Извлечь рукой Z1) Начальное положение оси Y в зоне безопасности ПФ должно быть меньше конечного положения!</translation>
     </message>
     <message>
         <source>(取件臂Z1)前后Y方向模内安全区结束位置必须要小于软件行程！</source>
-        <translation type="obsolete">(Извлечь рычаг Z1) Конечное положение оси Y в зоне безопасности пресс-формы должно быть меньше программного расстояния!</translation>
+        <translation type="obsolete">(Извлечь рукой Z1) Конечное положение оси Y в зоне безопасности ПФ должно быть меньше программного расстояния!</translation>
     </message>
     <message>
         <source>(喷雾臂Z2)前后Y方向模内安全区结束位置必须要小于软件行程！</source>
-        <translation type="obsolete">(Распылительный рычаг Z2) Конечное положение оси Y в зоне безопасности пресс-формы должно быть меньше программного расстояния!</translation>
+        <translation type="obsolete">(Распылит. рукой Z2) Конечное положение оси Y в зоне безопасности ПФ должно быть меньше программного расстояния!</translation>
     </message>
     <message>
         <source>(喷雾臂Z2)前后Y方向模内安全区开始位置必须要小于结束位置！</source>
-        <translation type="obsolete">(Распылительный рычаг Z2) Начальное положение оси Y в зоне безопасности пресс-формы должно быть меньше конечного положения!</translation>
+        <translation type="obsolete">(Распылит. рукой Z2) Начальное положение оси Y в зоне безопасности ПФ должно быть меньше конечного положения!</translation>
     </message>
     <message>
         <source>横行X轴模外安全区开始位置必须要小于模外安全区结束位置！</source>
@@ -14405,11 +14404,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>(取件臂Z1)横行X方向模内安全区开始位置必须要小于结束位置！</source>
-        <translation type="obsolete">(Извлечь рычаг Z1) Начальное положение оси X в зоне безопасности пресс-формы должно быть меньше конечного положения!</translation>
+        <translation type="obsolete">(Извлечь руку Z1) Начальное положение оси X в зоне безопасности ПФ должно быть меньше конечного положения!</translation>
     </message>
     <message>
         <source>(喷雾臂Z2)横行X方向模内安全区开始位置必须要小于结束位置！</source>
-        <translation type="obsolete">(Распылительный рычаг Z2) Начальное положение оси X в зоне безопасности пресс-формы должно быть меньше конечного положения!</translation>
+        <translation type="obsolete">(Распылительный руку Z2) Начальное положение оси X в зоне безопасности ПФ должно быть меньше конечного положения!</translation>
     </message>
     <message>
         <source>取件臂Z1上行位置安全区必须要小于软件行程！</source>
@@ -14425,11 +14424,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>(取件臂Z1)横行X方向模内安全区终点必须要小于软件行程！</source>
-        <translation type="obsolete">(Рычаг извлечения Z1) Конечное положение оси X в зоне безопасности пресс-формы должно быть меньше программного расстояния!</translation>
+        <translation type="obsolete">(извлеч. руку Z1) Конечное положение оси X в зоне безопасности ПФ должно быть меньше программного расстояния!</translation>
     </message>
     <message>
         <source>(喷雾臂Z2)横行X方向模内安全区终点必须要小于软件行程！</source>
-        <translation type="obsolete">(Распылительный рычаг Z2) Конечное положение оси X в зоне безопасности пресс-формы должно быть меньше программного расстояния!</translation>
+        <translation type="obsolete">(Распылит. рука Z2) Конечное положение оси X в зоне безопасности ПФ должно быть меньше программного расстояния!</translation>
     </message>
     <message>
         <source>横行X轴置物点位置必须要小于软件行程！</source>
@@ -14456,7 +14455,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.cpp" line="1215"/>
         <location filename="formservo.cpp" line="1227"/>
         <source>轴模内安全区开始位置必须要小于模内安全区结束位置！</source>
-        <translation>ось в начальной зоне безопасности пресс-формы должна быть меньше конечной позиции!</translation>
+        <translation>ось в начальной зоне безопасности ПФ должна быть меньше конечной позиции!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1037"/>
@@ -14475,7 +14474,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.cpp" line="1141"/>
         <location filename="formservo.cpp" line="1146"/>
         <source>方向模内安全区开始位置必须要小于结束位置！</source>
-        <translation type="unfinished"></translation>
+        <translation>Начальное положение безопасной зоны в режиме направления должно быть меньше конечного положения!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1021"/>
@@ -14483,7 +14482,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.cpp" line="1119"/>
         <location filename="formservo.cpp" line="1124"/>
         <source>方向模内安全区结束位置必须要小于软件行程！</source>
-        <translation type="unfinished"></translation>
+        <translation>Конечное положение безопасной зоны в режиме направления должно быть меньше программного хода!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1054"/>
@@ -14491,13 +14490,13 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.cpp" line="1152"/>
         <location filename="formservo.cpp" line="1157"/>
         <source>上行位置安全区必须要小于软件行程！</source>
-        <translation type="unfinished"></translation>
+        <translation>Зона безопасности положения восходящей линии связи должна быть меньше программного хода!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1064"/>
         <location filename="formservo.cpp" line="1162"/>
         <source>模外安全区终点必须要小于软件行程！</source>
-        <translation type="unfinished"></translation>
+        <translation>Конец безопасной зоны выключенного режима должен быть меньше программного хода!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1069"/>
@@ -14505,7 +14504,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.cpp" line="1167"/>
         <location filename="formservo.cpp" line="1172"/>
         <source>方向模内安全区终点必须要小于软件行程！</source>
-        <translation type="unfinished"></translation>
+        <translation>Конец безопасной зоны в режиме направления должен быть меньше программного хода!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1233"/>
@@ -14516,7 +14515,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.cpp" line="1242"/>
         <source>轴模内安全区开始位置必须小于结束位置！</source>
-        <translation>ось в начальной зоне безопасности пресс-формы должна быть меньше конечной позиции!</translation>
+        <translation>ось в начальной зоне безопасности ПФ должна быть меньше конечной позиции!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1247"/>
@@ -14526,7 +14525,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.cpp" line="1252"/>
         <source>轴模内安全区结束位置必须要小于软件行程！</source>
-        <translation>ось в конечной позиции зоны безопасности пресс-формы должна превышать дистанцию программного обеспечения!</translation>
+        <translation>ось в конечной позиции зоны безопасности ПФ должна превышать дистанцию программного обеспечения!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1257"/>
@@ -14546,7 +14545,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.cpp" line="1281"/>
         <source>轴模内安全区终点必须要小于软件行程！</source>
-        <translation>Ось в конечной позиции зоны безопасности пресс-формы должна быть меньше программного расстояния!</translation>
+        <translation>Ось в конечной позиции зоны безопасности ПФ должна быть меньше программного расстояния!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1286"/>
@@ -14556,12 +14555,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.cpp" line="1291"/>
         <source>轴模外安全区终点必须要小于软件行程！</source>
-        <translation>Ось второй в начальной зоне безопасности пресс-формы должна быть меньше программного расстояния!</translation>
+        <translation>Ось второй в начальной зоне безопасности ПФ должна быть меньше программного расстояния!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1299"/>
         <source>轴模外安全区2起点必须要小于软件行程！</source>
-        <translation>Ось в конечной позиции зоны безопасности пресс-формы должна быть меньше программного расстояния!</translation>
+        <translation>Ось в конечной позиции зоны безопасности ПФ должна быть меньше программного расстояния!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1304"/>
@@ -14571,7 +14570,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.cpp" line="1309"/>
         <source>轴模外安全区2终点必须要小于软件行程！</source>
-        <translation>Ось второй в конечной позиции зоны безопасности пресс-формы должна быть меньше программного расстояния!</translation>
+        <translation>Ось второй в конечной позиции зоны безопасности ПФ должна быть меньше программного расстояния!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1079"/>
@@ -14607,12 +14606,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formservo.cpp" line="1350"/>
         <source>轴模内安全区起点位置必须要小于终点位置！</source>
-        <translation>ось в начальной зоне безопасности пресс-формы должна быть меньше конечной позиции!</translation>
+        <translation>ось в начальной зоне безопасности ПФ должна быть меньше конечной позиции!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="1793"/>
         <source>原点速度</source>
-        <translation>Начальная скорость</translation>
+        <translation>Дом, скорость</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="2235"/>
@@ -14622,17 +14621,17 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formservo.cpp" line="3476"/>
         <location filename="formservo.cpp" line="3489"/>
         <source>系统提示</source>
-        <translation>Системный совет</translation>
+        <translation>Сист.совет</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="2526"/>
         <source>常用参数请到常用参数栏设置！</source>
-        <translation type="unfinished"></translation>
+        <translation>Пожалуйста, перейдите в столбец общих параметров, чтобы установить общие параметры!</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="3301"/>
         <source>保存参数</source>
-        <translation>Сохранить параметр</translation>
+        <translation>Сохран.</translation>
     </message>
     <message>
         <location filename="formservo.cpp" line="3458"/>
@@ -14670,37 +14669,37 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.ui" line="142"/>
         <source>运行参数</source>
-        <translation>Рабочий параметр</translation>
+        <translation>Парам. работы</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="163"/>
         <source>生产管理</source>
-        <translation>Управление производством</translation>
+        <translation>Управ.производ.</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="202"/>
         <source>计划生产数量</source>
-        <translation>Планируемый объем производства</translation>
+        <translation>План произ-ва</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="303"/>
         <source>生产数量提醒</source>
-        <translation>Напоминание количества продукции</translation>
+        <translation>Напом. колич.</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="395"/>
         <source>不良品数量报警</source>
-        <translation>Количество бракованной продукции</translation>
+        <translation>Колич. брака</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="487"/>
         <source>报警器鸣叫次数</source>
-        <translation>Номер тревоги</translation>
+        <translation>колич. тревог</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="585"/>
         <source>报警器鸣叫时间</source>
-        <translation>Время твита будильника</translation>
+        <translation>Задерж.звука</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="686"/>
@@ -14710,41 +14709,41 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.ui" line="787"/>
         <source>打油间隔</source>
-        <translation>Интервал между маслами</translation>
+        <translation>Интерв. смазки</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1010"/>
         <source>横行时倒角状态</source>
-        <translation>Состояние фаски при работе</translation>
+        <translation>Статус поворота</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1058"/>
         <location filename="formsystem.ui" line="1339"/>
         <source>不限制</source>
-        <translation>Нет ограничений</translation>
+        <translation>Нет огранич.</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1098"/>
         <location filename="formsystem.ui" line="1379"/>
         <source>垂直</source>
-        <translation>вертикальный</translation>
+        <translation>Вертикал</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1138"/>
         <location filename="formsystem.ui" line="1419"/>
         <source>水平</source>
-        <translation>уровень</translation>
+        <translation>Горизонтал</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1172"/>
         <location filename="formsystem.cpp" line="1002"/>
         <source>自动运行时开安全门</source>
-        <translation>Откройте защитную дверь при работе автоматически</translation>
+        <translation>Откр.защ. дверь при работе автоматически</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1220"/>
         <source>暂停</source>
-        <translation>пауза</translation>
+        <translation>Пауза</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1260"/>
@@ -14754,84 +14753,84 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.ui" line="1291"/>
         <source>模内倒角动作</source>
-        <translation>Снятие фаски в форме</translation>
+        <translation>Поворот в ПФ</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1450"/>
         <source>待机选项</source>
-        <translation>Вариант ожидания</translation>
+        <translation>Ожидание</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1498"/>
         <source>模外待机</source>
-        <translation>Режим ожидания</translation>
+        <translation>ОжидВнеПФ</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1538"/>
         <source>模内待机</source>
-        <translation>В режиме ожидания</translation>
+        <translation>ОжидВПФ</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1562"/>
         <source>初始设置</source>
-        <translation>Начальная настройка</translation>
+        <translation>НачНастройка</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1603"/>
         <location filename="formsystem.cpp" line="999"/>
         <source>使用注塑机关模完成信号</source>
-        <translation>Используйте литьевую машину для завершения сигнала</translation>
+        <translation>Разр. IMM MCP</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1640"/>
         <location filename="formsystem.cpp" line="1001"/>
         <source>使用注塑机中板模确认信号</source>
-        <translation>Подтвердите сигнал, используя форму в литьевой машине</translation>
+        <translation>Разр. IMM MMOP</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1677"/>
         <source>气动调位使用</source>
-        <translation>Включить Pneu Adjust</translation>
+        <translation>Разр. ПневмоНастр</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1714"/>
         <source>打油使用</source>
-        <translation>Играя масло</translation>
+        <translation>РазрСмазку</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1751"/>
         <source>开机打油</source>
-        <translation>Стартап масло</translation>
+        <translation>ВклСмазку</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1788"/>
         <source>气动副臂使用</source>
-        <translation>Включить Пнеу РА</translation>
+        <translation>ВклПневмо RA</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1825"/>
         <source>气动副臂下位电眼使用</source>
-        <translation>Включить сигнал Pneu RA From</translation>
+        <translation>ВклПневмо RA ниж. сигнал</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1862"/>
         <source>气动副臂前进电眼使用</source>
-        <translation>Включить сигнал Pneu RA Adv</translation>
+        <translation>ВклПневмо RA перед. сигнал</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1899"/>
         <source>气动副臂后退电眼使用</source>
-        <translation>Включить сигнал Pneu RA Ret</translation>
+        <translation>ВклПневмо RA обрат. сигнал</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1936"/>
         <source>气动正臂倒角使用</source>
-        <translation>Включить Pneu PA</translation>
+        <translation>ВклПневмо PA</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="1976"/>
         <source>气动副臂倒角使用</source>
-        <translation>Включить Пнеу РА</translation>
+        <translation>ВклПневмо RA</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2053"/>
@@ -14841,125 +14840,125 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.ui" line="2093"/>
         <source>换治具使用</source>
-        <translation>Изменить использование светильника</translation>
+        <translation>Исп. jig</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2130"/>
         <location filename="formsystem.cpp" line="1000"/>
         <source>使用注塑机开模中间信号</source>
-        <translation>Использование литьевой машины для открытия промежуточного сигнала</translation>
+        <translation>Разр. IMM IMOP</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2016"/>
         <source>安全门输出不报警</source>
-        <translation>Нет тревоги при выходе SDM</translation>
+        <translation>Нет ошиб. при откр. двери</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2210"/>
         <source>不使用正臂引拔轴伺服</source>
-        <translation>Отключить PA.Hor</translation>
+        <translation>Откл. PA.гориз</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2250"/>
         <source>使用副臂上下轴伺服</source>
-        <translation>Включить РА Вертикальный</translation>
+        <translation>Вкл. RA Верт</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2287"/>
         <source>使用副臂引拔轴伺服</source>
-        <translation>Используйте стрелу, чтобы вытащить вал сервопривод</translation>
+        <translation>Вкл. RA Гориз</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2324"/>
         <source>使用扩展轴伺服</source>
-        <translation>Использование расширенного сервопривода</translation>
+        <translation>Вкл. расш.ось</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2361"/>
         <location filename="formsystem.cpp" line="977"/>
         <location filename="formsystem.cpp" line="998"/>
         <source>使用进程二</source>
-        <translation>Используйте процесс два</translation>
+        <translation>Исп. процесс2</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2398"/>
         <source>使用进程三</source>
-        <translation>Используйте процесс три</translation>
+        <translation>Исп. процесс3</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2435"/>
         <source>原点在模内</source>
-        <translation>Дом в плесени</translation>
+        <translation>Дом в ПФ</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2472"/>
         <source>非教导模式</source>
-        <translation>Шаблонный режим</translation>
+        <translation>Реж. без обуч.</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2509"/>
         <source>取物失败开关安全门程序结束</source>
-        <translation>Используйте процесс два</translation>
+        <translation>Исп. процесс3</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2546"/>
         <source>模外安全区2使用</source>
-        <translation>Получить неудачный конец программы</translation>
+        <translation>Исп. ЗонБезопВнеПФ2</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2583"/>
         <source>模外安全区信号不使用</source>
-        <translation>Включить форму 2</translation>
+        <translation>НеИсп. ЗонБезопВнеПФ2</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2623"/>
         <source>模内安全区信号不使用</source>
-        <translation>Отключить сигнал формы</translation>
+        <translation>ОтклСигнВнеПФ</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2663"/>
         <source>外部控制功能使用</source>
-        <translation>Отключить в сигнале формы</translation>
+        <translation>ОтклСигн В ПФ</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2703"/>
         <source>退出自动时清除IO口</source>
-        <translation>Очистить порт ввода-вывода при автоматическом выходе</translation>
+        <translation>Очист.IO при выходе</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2743"/>
         <source>开模完信号自锁</source>
-        <translation>Самофиксирующий сигнал после открытия формы</translation>
+        <translation>Сигнал MOP самоблокир.</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2773"/>
         <source>原点IP</source>
-        <translation>Происхождение IP</translation>
+        <translation>Дом/IP</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2791"/>
         <source>原点定制</source>
-        <translation>Настройка происхождения</translation>
+        <translation>Дом</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2828"/>
         <source>顶部</source>
-        <translation>топ</translation>
+        <translation>Вершина</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2866"/>
         <source>上移</source>
-        <translation>Двигаться вверх</translation>
+        <translation>Вверх</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2904"/>
         <source>下移</source>
-        <translation>Двигаться вниз</translation>
+        <translation>Вниз</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="2942"/>
         <source>底部</source>
-        <translation>дно</translation>
+        <translation>Низ</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="3189"/>
@@ -14986,7 +14985,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.ui" line="3393"/>
         <source>IP设置</source>
-        <translation>Настройки IP</translation>
+        <translation>Настр. IP</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="3432"/>
@@ -15017,18 +15016,18 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.ui" line="4005"/>
         <source>默认网关：</source>
-        <translation>Шлюз по умолчанию:</translation>
+        <translation>Шлюз по умолч.:</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="4286"/>
         <location filename="formsystem.cpp" line="1100"/>
         <source>系统维护</source>
-        <translation>Обслуживание системы</translation>
+        <translation>Обсл. системы</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="4338"/>
         <source>翻页</source>
-        <translation>Перелистывание страниц</translation>
+        <translation>След.</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="4561"/>
@@ -15038,27 +15037,27 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.ui" line="4699"/>
         <source>输入当前密钥</source>
-        <translation>Введите текущий ключ</translation>
+        <translation>Ввод</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="4634"/>
         <source>输入新密钥</source>
-        <translation>Введите новый ключ</translation>
+        <translation>Новый</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="4765"/>
         <source>确认新密钥</source>
-        <translation>Подтвердите новый ключ</translation>
+        <translation>Подтверд.</translation>
     </message>
     <message>
         <source>清除</source>
-        <translation type="obsolete">удаление</translation>
+        <translation type="obsolete">Удалить</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="4434"/>
         <location filename="formsystem.ui" line="4732"/>
         <source>更新</source>
-        <translation>обновление</translation>
+        <translation>Обновить</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="4915"/>
@@ -15084,47 +15083,47 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formsystem.cpp" line="1512"/>
         <location filename="formsystem.cpp" line="1521"/>
         <source>系统剩余使用时间：</source>
-        <translation>Оставшееся время использования:</translation>
+        <translation>Оставш. время использования:</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="5015"/>
         <source>按模数维护</source>
-        <translation>Поддержание по модулю</translation>
+        <translation>Обслуж. по модулю</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="5121"/>
         <source>清除生产总模数</source>
-        <translation>Очистить общий модуль производства</translation>
+        <translation>Очистить всего произв.</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="5193"/>
         <source>参数重置</source>
-        <translation>Сброс параметров</translation>
+        <translation>Сброс</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="5336"/>
         <source>重置系统参数</source>
-        <translation>Сбросить параметры системы</translation>
+        <translation>Сбросить парам.системы</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="5289"/>
         <source>重置伺服参数</source>
-        <translation>Сброс параметров сервопривода</translation>
+        <translation>Сброс парам. серво</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="5229"/>
         <source>重置系统密码</source>
-        <translation>Сбросить системный пароль</translation>
+        <translation>Сбросить сист. пароль</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="5383"/>
         <source>重置驱动器参数</source>
-        <translation type="unfinished"></translation>
+        <translation>Сброс парам. драйвера</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="5408"/>
         <source>视觉设置</source>
-        <translation>Визуальная настройка</translation>
+        <translation>Визуал. настройка</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="5452"/>
@@ -15154,12 +15153,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.ui" line="5867"/>
         <source>固定</source>
-        <translation>фиксированный</translation>
+        <translation>Фиксир.</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="5872"/>
         <source>跟随</source>
-        <translation>следовать</translation>
+        <translation>Следовать</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="5914"/>
@@ -15169,7 +15168,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.ui" line="5980"/>
         <source>类型：</source>
-        <translation>Types of:</translation>
+        <translation>Тип:</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="6015"/>
@@ -15196,38 +15195,38 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formsystem.ui" line="6309"/>
         <location filename="formsystem.ui" line="6435"/>
         <source>Data1</source>
-        <translation>Data1</translation>
+        <translation>Дата1</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="6193"/>
         <location filename="formsystem.ui" line="6331"/>
         <location filename="formsystem.ui" line="6463"/>
         <source>Data2</source>
-        <translation>Data2</translation>
+        <translation>Дата2</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="6221"/>
         <location filename="formsystem.ui" line="6353"/>
         <location filename="formsystem.ui" line="6491"/>
         <source>Data3</source>
-        <translation>Data3</translation>
+        <translation>Дата3</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="6249"/>
         <location filename="formsystem.ui" line="6375"/>
         <location filename="formsystem.ui" line="6519"/>
         <source>Data4</source>
-        <translation>Data4</translation>
+        <translation>Дата4</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="6287"/>
         <source>一</source>
-        <translation>One</translation>
+        <translation>Один</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="6407"/>
         <source>三</source>
-        <translation>three</translation>
+        <translation>Три</translation>
     </message>
     <message>
         <location filename="formsystem.ui" line="6562"/>
@@ -15247,12 +15246,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.cpp" line="89"/>
         <source> 模</source>
-        <translation>плесень</translation>
+        <translation>ПФ</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="115"/>
         <source>不使用</source>
-        <translation>Не используется</translation>
+        <translation>Не исп.</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="115"/>
@@ -15260,7 +15259,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formsystem.cpp" line="117"/>
         <location filename="formsystem.cpp" line="118"/>
         <source>轴伺服</source>
-        <translation>Ось сервопривод</translation>
+        <translation>Серво</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="116"/>
@@ -15272,7 +15271,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formsystem.cpp" line="967"/>
         <location filename="formsystem.cpp" line="969"/>
         <source>使用</source>
-        <translation>использование</translation>
+        <translation>Использ</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="239"/>
@@ -15282,14 +15281,14 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.cpp" line="930"/>
         <source>上下时倒角状态</source>
-        <translation type="unfinished"></translation>
+        <translation>Сост. вверх и вниз</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="934"/>
         <location filename="formsystem.cpp" line="1927"/>
         <location filename="formsystem.cpp" line="1944"/>
         <source>当前视觉编号：</source>
-        <translation>Текущий визуальный номер:</translation>
+        <translation>Текущ.визуал. номер:</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="934"/>
@@ -15303,7 +15302,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formsystem.cpp" line="1171"/>
         <location filename="formsystem.cpp" line="1512"/>
         <source>无限期</source>
-        <translation>Неограниченный срок</translation>
+        <translation>Неогранич.</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="950"/>
@@ -15336,71 +15335,71 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.cpp" line="961"/>
         <source>(倒角)伺服</source>
-        <translation>серво (фаска)</translation>
+        <translation>(скос)серво</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="962"/>
         <source>(旋转)伺服</source>
-        <translation>(вращение) сервопривод</translation>
+        <translation>(вращ)серво</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="966"/>
         <location filename="formsystem.cpp" line="967"/>
         <location filename="formsystem.cpp" line="969"/>
         <source>伺服</source>
-        <translation>сервопривод</translation>
+        <translation>Серво</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="971"/>
         <location filename="formsystem.cpp" line="990"/>
         <source>使用喷雾臂进程</source>
-        <translation>Использование процесса распыления</translation>
+        <translation>Использ. распылен.</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="972"/>
         <location filename="formsystem.cpp" line="978"/>
         <location filename="formsystem.cpp" line="991"/>
         <source>使用压铸机关模完成信号</source>
-        <translation>Используйте механизм литья под давлением для завершения сигнала</translation>
+        <translation>Исп. MCP signal</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="973"/>
         <location filename="formsystem.cpp" line="979"/>
         <location filename="formsystem.cpp" line="992"/>
         <source>使用压铸机开模中间信号</source>
-        <translation>Использование машины для литья под давлением, чтобы открыть промежуточный сигнал</translation>
+        <translation>Исп. IMOP signal</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="974"/>
         <location filename="formsystem.cpp" line="980"/>
         <location filename="formsystem.cpp" line="993"/>
         <source>使用压铸机中板模确认信号</source>
-        <translation>Подтвердите сигнал, используя матрицу в машине для литья под давлением</translation>
+        <translation>Исп. MMOP signal</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="983"/>
         <source>使用机床关模完成信号</source>
-        <translation>Включить сигнал MCP</translation>
+        <translation>Исп. MCP signal</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="984"/>
         <source>使用机床开模中间信号</source>
-        <translation>Включить сигнал IMOP</translation>
+        <translation>Исп. IMOP signal</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="985"/>
         <source>使用机床中板模确认信号</source>
-        <translation>Используйте сигнал подтверждения режима платы в машине</translation>
+        <translation>Исп. MMOP signal</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="986"/>
         <source>自动运行时开防护门</source>
-        <translation>Откройте защитную дверь при работе автоматически</translation>
+        <translation>Откр. дверь при раб. авто.</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1053"/>
         <source>安全门不使用</source>
-        <translation>Защитная дверь не используется</translation>
+        <translation>Не исп. SDM</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1065"/>
@@ -15418,12 +15417,12 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formsystem.cpp" line="1317"/>
         <location filename="formsystem.cpp" line="1656"/>
         <source>系统提示</source>
-        <translation>Системная подсказка</translation>
+        <translation>Сист.подсказка</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1107"/>
         <source>操作器与主控模块厂商代码不一致！</source>
-        <translation>Код оператора и основного производителя модуля управления не совпадают!</translation>
+        <translation>Код оператора и осн. производителя модуля управления не совпадают!</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1112"/>
@@ -15471,7 +15470,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formsystem.cpp" line="1287"/>
         <source>本操作将会把驱动器参数重置为出厂默认值并且无法恢复！
 确定要重置驱动器参数设置吗？</source>
-        <translation type="unfinished"></translation>
+        <translation>«Это действие сбросит параметры драйвера до заводских значений по умолчанию и не может быть восстановлено! Вы уверены, что хотите сбросить параметры драйвера?»</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1302"/>
@@ -15506,7 +15505,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.cpp" line="1358"/>
         <source>保存参数</source>
-        <translation>Сохранить параметр</translation>
+        <translation>Сохран.</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1372"/>
@@ -15518,7 +15517,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formsystem.cpp" line="1384"/>
         <location filename="formsystem.cpp" line="1385"/>
         <source>伺服 </source>
-        <translation>сервопривод</translation>
+        <translation>Серво</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1372"/>
@@ -15528,67 +15527,67 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formsystem.cpp" line="1384"/>
         <location filename="formsystem.cpp" line="1385"/>
         <source>轴原点</source>
-        <translation>Ось происхождения</translation>
+        <translation>дом</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1377"/>
         <source>(倒角)轴原点</source>
-        <translation>начало оси (фаски)</translation>
+        <translation>(скос) Дом</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1382"/>
         <source>(旋转)轴原点</source>
-        <translation>начало оси вращения</translation>
+        <translation>(вращ) Дом</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1386"/>
         <source>气动 主臂上行</source>
-        <translation>Пневматический основной рычаг</translation>
+        <translation>Пневмо: PA вверх</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1387"/>
         <source>气动 主臂引拔</source>
-        <translation>Пневматическая положительная рука</translation>
+        <translation>Пневмо: PA гориз</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1388"/>
         <source>气动 主臂倒角</source>
-        <translation>Фаска пневматического основного рычага</translation>
+        <translation>Пневмо: PA скос</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1389"/>
         <source>气动 主臂旋转</source>
-        <translation>Пневматическое вращение главного рычага</translation>
+        <translation>Пневмо: RA вращ</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1390"/>
         <source>气动 副臂上行</source>
-        <translation>Пневматический: RA Adc</translation>
+        <translation>Пневмо: RA вверх</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1391"/>
         <source>气动 副臂引拔</source>
-        <translation>Пневматическая тяга стрелы</translation>
+        <translation>Пневмо: RA гориз</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1392"/>
         <source>气动 副臂倒角</source>
-        <translation>Пневматическая фаска</translation>
+        <translation>Пневмо: RA скос</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1393"/>
         <source>气动 副臂旋转</source>
-        <translation>Пневматическое вращение стрелы</translation>
+        <translation>Пневмо: RA вращ</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1394"/>
         <source>其他 扩展动作</source>
-        <translation>Другие действия по расширению</translation>
+        <translation>Другие: Доп. выходы</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1474"/>
         <source>提示</source>
-        <translation>оконечность</translation>
+        <translation>Подсказ.</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1474"/>
@@ -15598,7 +15597,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.cpp" line="1481"/>
         <source>更新激活码</source>
-        <translation>Обновить код активации</translation>
+        <translation>Обновить</translation>
     </message>
     <message>
         <location filename="formsystem.cpp" line="1481"/>
@@ -15682,7 +15681,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formsystem.cpp" line="1834"/>
         <source>[1/2] 激活信息</source>
-        <translation>[1/2] Информация о запуске</translation>
+        <translation>[1/2] Активац.</translation>
     </message>
 </context>
 <context>
@@ -15690,12 +15689,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formuisetup.ui" line="122"/>
         <source>语言选择</source>
-        <translation>язык</translation>
+        <translation>Язык</translation>
     </message>
     <message>
         <location filename="formuisetup.ui" line="636"/>
         <source>屏幕参数</source>
-        <translation>Настройка экрана</translation>
+        <translation>Настр. экрана</translation>
     </message>
     <message>
         <location filename="formuisetup.ui" line="675"/>
@@ -15705,7 +15704,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formuisetup.ui" line="727"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="formuisetup.ui" line="776"/>
@@ -15716,12 +15715,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formuisetup.ui" line="880"/>
         <source>重新校准触摸屏：</source>
-        <translation>Калибровать экран:</translation>
+        <translation>Калибров. экран:</translation>
     </message>
     <message>
         <location filename="formuisetup.ui" line="917"/>
         <source>重校准</source>
-        <translation>Перекалибруйте</translation>
+        <translation>Перекалибровка</translation>
     </message>
     <message>
         <location filename="formuisetup.ui" line="936"/>
@@ -15737,22 +15736,22 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formuisetup.ui" line="1082"/>
         <source>按键提示音</source>
-        <translation>Ключевой тон</translation>
+        <translation>Тон клавиш</translation>
     </message>
     <message>
         <location filename="formuisetup.ui" line="1128"/>
         <source>触屏提示音</source>
-        <translation>Сенсорный тон</translation>
+        <translation>Тон сенсор</translation>
     </message>
     <message>
         <location filename="formuisetup.ui" line="1166"/>
         <source>安全开关配置</source>
-        <translation>Опция безопасного переключения</translation>
+        <translation>Опция безоп. перекл.</translation>
     </message>
     <message>
         <location filename="formuisetup.ui" line="1208"/>
         <source>安全开关使用</source>
-        <translation>включить</translation>
+        <translation>Включить</translation>
     </message>
     <message>
         <location filename="formuisetup.ui" line="1248"/>
@@ -15762,7 +15761,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="formuisetup.ui" line="1285"/>
         <source>保存</source>
-        <translation>спасти</translation>
+        <translation>Сохран.</translation>
     </message>
     <message>
         <location filename="formuisetup.cpp" line="132"/>
@@ -15770,7 +15769,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="formuisetup.cpp" line="263"/>
         <location filename="formuisetup.cpp" line="268"/>
         <source>系统提示</source>
-        <translation>Системный совет</translation>
+        <translation>Систем.совет</translation>
     </message>
     <message>
         <location filename="formuisetup.cpp" line="254"/>
@@ -15893,7 +15892,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="480"/>
         <source>检测-设置OSC错误</source>
-        <translation>Detection - Set OSC Error</translation>
+        <translation>Обнаружение - Уст. OSC Ошиб.</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="483"/>
@@ -15923,7 +15922,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="499"/>
         <source>通讯-接收超时</source>
-        <translation>Связь - получение тайм-аута</translation>
+        <translation>Связь - получение тайм-аут</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="502"/>
@@ -16012,69 +16011,69 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="887"/>
         <source>-单轴一体机主板</source>
-        <translation>-Одноосная моноблочная материнская плата</translation>
+        <translation>-Одноосная моноблочная Матплата</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="893"/>
         <location filename="utility/isp/thread/isp_thread.cpp" line="1031"/>
         <location filename="utility/isp/thread/isp_thread.cpp" line="1055"/>
         <source>-6轴主板</source>
-        <translation>Материнская плата с 6 осями</translation>
+        <translation>Матплата с 6 осями</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="899"/>
         <location filename="utility/isp/thread/isp_thread.cpp" line="1037"/>
         <location filename="utility/isp/thread/isp_thread.cpp" line="1061"/>
         <source>-2轴主板</source>
-        <translation>Материнская плата с 2 осями</translation>
+        <translation>Матплата с 2 осями</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="905"/>
         <location filename="utility/isp/thread/isp_thread.cpp" line="1043"/>
         <location filename="utility/isp/thread/isp_thread.cpp" line="1067"/>
         <source>-3轴主板</source>
-        <translation>Материнская плата с 3 осями</translation>
+        <translation>Матплата с 3 осями</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="911"/>
         <location filename="utility/isp/thread/isp_thread.cpp" line="1049"/>
         <location filename="utility/isp/thread/isp_thread.cpp" line="1073"/>
         <source>-PLC主板</source>
-        <translation>-PLC материнская плата</translation>
+        <translation>-PLC Матплата</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="917"/>
         <source>-六轴主板</source>
-        <translation type="unfinished"></translation>
+        <translation>Матплата с 6 осями</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="923"/>
         <source>-5轴主板</source>
-        <translation>Материнская плата с 3 осями {5轴?}</translation>
+        <translation>Матплата с 3 осями</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="929"/>
         <location filename="utility/isp/thread/isp_thread.cpp" line="1007"/>
         <source>-6轴ECAT主板</source>
-        <translation>-6-осевая материнская плата ECAT</translation>
+        <translation>-6-осевая Матплата ECAT</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="935"/>
         <location filename="utility/isp/thread/isp_thread.cpp" line="1013"/>
         <source>-2轴ECAT主板</source>
-        <translation>-2-осевая материнская плата ECAT</translation>
+        <translation>-2-осевая Матплата ECAT</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="941"/>
         <location filename="utility/isp/thread/isp_thread.cpp" line="1019"/>
         <source>-3轴ECAT主板</source>
-        <translation>-3-осевая материнская плата ECAT</translation>
+        <translation>-3-осевая Матплата ECAT</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="947"/>
         <location filename="utility/isp/thread/isp_thread.cpp" line="1025"/>
         <source>-PLC-ECAT主板</source>
-        <translation>-PLC-ECAT материнская плата</translation>
+        <translation>-PLC-ECAT Матплата</translation>
     </message>
     <message>
         <location filename="utility/isp/thread/isp_thread.cpp" line="953"/>
@@ -16203,7 +16202,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="servoalias.cpp" line="140"/>
         <location filename="servoalias.cpp" line="266"/>
         <source>引拔</source>
-        <translation>Туда и обратно</translation>
+        <translation>гориз</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="105"/>
@@ -16211,7 +16210,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="servoalias.cpp" line="162"/>
         <location filename="servoalias.cpp" line="268"/>
         <source>上下</source>
-        <translation>восхождение</translation>
+        <translation>вверх</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="107"/>
@@ -16219,13 +16218,13 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="servoalias.cpp" line="144"/>
         <location filename="servoalias.cpp" line="270"/>
         <source>横行</source>
-        <translation>Вход и выход</translation>
+        <translation>TRV</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="109"/>
         <location filename="servoalias.cpp" line="146"/>
         <source>旋转</source>
-        <translation>поворотный</translation>
+        <translation>поворот</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="111"/>
@@ -16242,7 +16241,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="servoalias.cpp" line="276"/>
         <location filename="servoalias.cpp" line="420"/>
         <source>扩展</source>
-        <translation>простираться</translation>
+        <translation>расшир.</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="115"/>
@@ -16254,40 +16253,40 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="servoalias.cpp" line="346"/>
         <location filename="servoalias.cpp" line="416"/>
         <source>保留</source>
-        <translation>убежденный</translation>
+        <translation>резерв</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="121"/>
         <location filename="servoalias.cpp" line="158"/>
         <source>正引拔</source>
-        <translation>Главный вперед и назад</translation>
+        <translation>PA.гориз</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="123"/>
         <source>正上下</source>
-        <translation>Вверх и вниз по основному</translation>
+        <translation>PA.верт</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="127"/>
         <location filename="servoalias.cpp" line="164"/>
         <source>副引拔</source>
-        <translation>Вперед и назад сторона</translation>
+        <translation>RA.гориз</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="129"/>
         <location filename="servoalias.cpp" line="166"/>
         <source>副上下</source>
-        <translation>Вверх и вниз</translation>
+        <translation>RA.верт</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="160"/>
         <source>出入模</source>
-        <translation type="unfinished"></translation>
+        <translation>Вх/ВыхПФ</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="334"/>
         <source>MX</source>
-        <translation type="unfinished"></translation>
+        <translation>MX</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="338"/>
@@ -16297,7 +16296,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="servoalias.cpp" line="340"/>
         <source>SX</source>
-        <translation type="unfinished"></translation>
+        <translation>SX</translation>
     </message>
     <message>
         <source>Z</source>
@@ -16353,12 +16352,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="servoalias.cpp" line="272"/>
         <source>引拔2</source>
-        <translation>Назад и Вперед 2</translation>
+        <translation>Гориз 2</translation>
     </message>
     <message>
         <location filename="servoalias.cpp" line="274"/>
         <source>上下2</source>
-        <translation>Вверх и вниз 2</translation>
+        <translation>Вертик 2</translation>
     </message>
     <message>
         <source>MY</source>
@@ -16381,7 +16380,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/codebreak.cpp" line="5"/>
         <source>循环跳出</source>
-        <translation>Выпрыгнуть</translation>
+        <translation>ВыхИзЦикл</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeelse.cpp" line="5"/>
@@ -16391,7 +16390,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/codeend.cpp" line="4"/>
         <source>程序结束</source>
-        <translation>End</translation>
+        <translation>КонецПрогр</translation>
     </message>
     <message>
         <location filename="xmlmodel/codeendfor.cpp" line="5"/>
@@ -16406,7 +16405,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/codespeed.cpp" line="7"/>
         <source>伺服速度调整</source>
-        <translation>Серво скорость</translation>
+        <translation>Серво скор.</translation>
     </message>
     <message>
         <location filename="xmlmodel/codetend.cpp" line="4"/>
@@ -16429,7 +16428,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="139"/>
         <source>个选项包含，确定替换吗？</source>
-        <translation>Вариант, обязательно заменить?</translation>
+        <translation>Опции вкл. Вы уверены, что хотите замен. их?</translation>
     </message>
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="209"/>
@@ -16439,12 +16438,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="211"/>
         <source>变量名</source>
-        <translation>Имя переменной</translation>
+        <translation>Имя перем.</translation>
     </message>
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="213"/>
         <source>初始值</source>
-        <translation>инициализировать</translation>
+        <translation>Инициал-ия</translation>
     </message>
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="215"/>
@@ -16456,7 +16455,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xmlmodel/teachtablemodel.cpp" line="1175"/>
         <location filename="xmlmodel/teachtablemodel.cpp" line="1183"/>
         <source>系统提示</source>
-        <translation>Системный совет</translation>
+        <translation>Сист. совет</translation>
     </message>
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="1164"/>
@@ -16473,13 +16472,13 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="1755"/>
         <source>循环结束没有相应的循环开始！</source>
-        <translation>«ЭНДФОР» не соответствует «ЗА»!</translation>
+        <translation>«ENDFOR» не соответствует «FOR»!</translation>
     </message>
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="1761"/>
         <location filename="xmlmodel/teachtablemodel.cpp" line="1838"/>
         <source>循环跳出只能在循环中！</source>
-        <translation>«BREAK» только в «ЗА»!</translation>
+        <translation>«BREAK» только в «FOR»!</translation>
     </message>
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="1773"/>
@@ -16514,7 +16513,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="1861"/>
         <source>没有相应的条件结束！</source>
-        <translation>«ЕСЛИ» нет соответствующего «ENDIF»!</translation>
+        <translation>«IF» нет соответствующего «ENDIF»!</translation>
     </message>
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="1898"/>
@@ -16534,7 +16533,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="1925"/>
         <source>没有相应的循环结束！</source>
-        <translation>«ЗА» нет соответствующего «ENDFOR»!</translation>
+        <translation>«FOR» нет соответствующего «ENDFOR»!</translation>
     </message>
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="1944"/>
@@ -16575,7 +16574,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="2006"/>
         <source>组合中不能调用原点归位指令！</source>
-        <translation>Выписка «Домашний клиент» не может быть использована в выписке «Объединить»!</translation>
+        <translation>Выписка «Дом» не может быть использована в выписке «Объединить»!</translation>
     </message>
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="2012"/>
@@ -16630,7 +16629,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="2104"/>
         <source>组合中不能使用延时语句！</source>
-        <translation>Оператор «Задержка» не может использоваться в операторе «Объединение»!</translation>
+        <translation>Оператор «задер.» не может использоваться в операторе «Объединение»!</translation>
     </message>
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="2115"/>
@@ -16746,7 +16745,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="2418"/>
         <source>只有允许关模动作能在组合中！</source>
-        <translation>Разрешить IMM-EMC только в комбайне!</translation>
+        <translation>Разреш. IMM-EMC только в сочитании!</translation>
     </message>
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="2424"/>
@@ -16841,7 +16840,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="2591"/>
         <source>路径中不能使用路径开始语句！</source>
-        <translation>Инструкция «Путь начало» не может использоваться в инструкции «Путь»!</translation>
+        <translation>Инструкция начало пути» не может использоваться в инструкции «Путь»!</translation>
     </message>
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="2601"/>
@@ -16906,7 +16905,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/teachtablemodel.cpp" line="2695"/>
         <source>没有相应的路径结束！</source>
-        <translation>«ЕСЛИ» нет соответствующего «ENDIF»!</translation>
+        <translation>«IF» нет соответствующего «ENDIF»!</translation>
     </message>
 </context>
 <context>
@@ -16914,7 +16913,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/vcodevacuum.cpp" line="220"/>
         <source>开启[</source>
-        <translation>открыто[</translation>
+        <translation>Откр.[</translation>
     </message>
     <message>
         <location filename="xmlmodel/vcodevacuum.cpp" line="220"/>
@@ -16925,24 +16924,24 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xmlmodel/vcodevacuum.cpp" line="220"/>
         <location filename="xmlmodel/vcodevacuum.cpp" line="222"/>
         <source>] 时间</source>
-        <translation>] Задержка</translation>
+        <translation>] задер.</translation>
     </message>
     <message>
         <location filename="xmlmodel/vcodevacuum.cpp" line="220"/>
         <location filename="xmlmodel/vcodevacuum.cpp" line="222"/>
         <source> %1</source>
-        <translation>%1</translation>
+        <translation>0.01</translation>
     </message>
     <message>
         <location filename="xmlmodel/vcodevacuum.cpp" line="220"/>
         <location filename="xmlmodel/vcodevacuum.cpp" line="222"/>
         <source>秒</source>
-        <translation>s</translation>
+        <translation>с</translation>
     </message>
     <message>
         <location filename="xmlmodel/vcodevacuum.cpp" line="222"/>
         <source>关闭[</source>
-        <translation>близко[</translation>
+        <translation>Закр[</translation>
     </message>
     <message>
         <location filename="xmlmodel/vcodevacuum.cpp" line="222"/>
@@ -16955,7 +16954,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmlmodel/xmlmodelvarinititem.cpp" line="62"/>
         <source>自动</source>
-        <translation>автоматическая</translation>
+        <translation>Авто</translation>
     </message>
     <message>
         <location filename="xmlmodel/xmlmodelvarinititem.cpp" line="64"/>
@@ -16983,17 +16982,17 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="utility/isp/ispdialog.ui" line="376"/>
         <source>波特率：</source>
-        <translation>Скорость передачи:</translation>
+        <translation>Скор. передачи:</translation>
     </message>
     <message>
         <location filename="utility/isp/ispdialog.ui" line="498"/>
         <source>编程</source>
-        <translation>программа</translation>
+        <translation>Программа</translation>
     </message>
     <message>
         <location filename="utility/isp/ispdialog.ui" line="603"/>
         <source>软件版本：V2.11</source>
-        <translation>Версия программного обеспечения:V2.11</translation>
+        <translation>Версия ПО:V2.11</translation>
     </message>
     <message>
         <location filename="utility/isp/ispdialog.ui" line="637"/>
@@ -17003,13 +17002,13 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="utility/isp/ispdialog.ui" line="785"/>
         <source>重启</source>
-        <translation>перезапуск</translation>
+        <translation>Перезапуск</translation>
     </message>
     <message>
         <location filename="utility/isp/ispdialog.cpp" line="204"/>
         <location filename="utility/isp/ispdialog.cpp" line="237"/>
         <source>软件版本：</source>
-        <translation>Версия программного обеспечения:</translation>
+        <translation>Версия ПО:</translation>
     </message>
     <message>
         <location filename="utility/isp/ispdialog.cpp" line="289"/>
@@ -17042,7 +17041,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="widget/xfilesystemmodel.cpp" line="19"/>
         <source>尺寸</source>
-        <translation>размер</translation>
+        <translation>Размер</translation>
     </message>
     <message>
         <location filename="widget/xfilesystemmodel.cpp" line="21"/>
@@ -17052,7 +17051,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="widget/xfilesystemmodel.cpp" line="23"/>
         <source>修改时间</source>
-        <translation>Модифицированное время</translation>
+        <translation>Модиф.время</translation>
     </message>
 </context>
 <context>
@@ -17070,17 +17069,17 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xmessagebox.cpp" line="218"/>
         <location filename="xmessagebox.cpp" line="267"/>
         <source>取消</source>
-        <translation>отменить</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="195"/>
         <source>关闭</source>
-        <translation type="unfinished"></translation>
+        <translation>Выкл</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="197"/>
         <source>打开</source>
-        <translation type="unfinished"></translation>
+        <translation>Вкл</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="243"/>
@@ -17090,7 +17089,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmessagebox.cpp" line="244"/>
         <source>复位</source>
-        <translation>сброс</translation>
+        <translation>Сброс</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="268"/>
@@ -17105,7 +17104,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmessagebox.cpp" line="293"/>
         <source>不覆盖</source>
-        <translation>Не покрыты</translation>
+        <translation>Не покрыто</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="294"/>
@@ -17132,62 +17131,62 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xmessagebox.cpp" line="444"/>
         <location filename="xmessagebox.cpp" line="447"/>
         <source>轴原点</source>
-        <translation>Ось происхождения</translation>
+        <translation>Дом</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="437"/>
         <source>(倒角)轴原点</source>
-        <translation>(фаска)происхождения</translation>
+        <translation>(скос) Дом</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="442"/>
         <source>(旋转)轴原点</source>
-        <translation>(вращение)происхождения</translation>
+        <translation>(вращ) Дом</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="448"/>
         <source>气动 主臂上行</source>
-        <translation>пневматический PA Asc</translation>
+        <translation>Пневмо: PA вверх</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="449"/>
         <source>气动 主臂引拔</source>
-        <translation>пневматический PA Hor</translation>
+        <translation>Пневмо: PA гориз</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="450"/>
         <source>气动 主臂倒角</source>
-        <translation>пневматический PA Rotate</translation>
+        <translation>Пневмо: PA скос</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="451"/>
         <source>气动 主臂旋转</source>
-        <translation>пневматический PA Chamfer</translation>
+        <translation>Пневмо: RA вращ</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="452"/>
         <source>气动 副臂上行</source>
-        <translation>пневматический RA Asc</translation>
+        <translation>Пневмо: RA вверх</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="453"/>
         <source>气动 副臂引拔</source>
-        <translation>пневматический RA Hor</translation>
+        <translation>Пневмо: RA гориз</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="454"/>
         <source>气动 副臂倒角</source>
-        <translation>пневматический RA Rotate</translation>
+        <translation>Пневмо: RA скос</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="455"/>
         <source>气动 副臂旋转</source>
-        <translation>пневматический RA Chamfer</translation>
+        <translation>Пневмо: RA вращ</translation>
     </message>
     <message>
         <location filename="xmessagebox.cpp" line="456"/>
         <source>其他 扩展动作</source>
-        <translation>Другое: Расширенные выходные порты</translation>
+        <translation>Другие: Доп. выходы</translation>
     </message>
 </context>
 <context>
@@ -17195,12 +17194,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmessageboxactive.ui" line="211"/>
         <source>确定</source>
-        <translation>Хорошо</translation>
+        <translation>Ок</translation>
     </message>
     <message>
         <location filename="xmessageboxactive.ui" line="248"/>
         <source>激活码</source>
-        <translation>активация</translation>
+        <translation>Активация</translation>
     </message>
     <message>
         <location filename="xmessageboxactive.ui" line="307"/>
@@ -17212,18 +17211,18 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmessageboxactive.ui" line="345"/>
         <source>取消</source>
-        <translation>отменить</translation>
+        <translation>Отмена</translation>
     </message>
     <message>
         <location filename="xmessageboxactive.cpp" line="45"/>
         <source>系统提示</source>
-        <translation>Системный совет</translation>
+        <translation>Сист. совет</translation>
     </message>
     <message>
         <location filename="xmessageboxactive.cpp" line="45"/>
         <source>含有不符合要求的字符，
 请重新输入！</source>
-        <translation>Содержит не соответствует требованиям символов,
+        <translation>Содержит не соответствует требованиям символ,
 Пожалуйста, введите снова!</translation>
     </message>
 </context>
@@ -17242,7 +17241,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmessageboxIP.ui" line="285"/>
         <source>IP地址：</source>
-        <translation>Айпи адрес:</translation>
+        <translation>IP  адрес:</translation>
     </message>
     <message>
         <location filename="xmessageboxIP.ui" line="355"/>
@@ -17260,12 +17259,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xmessageboxIP.ui" line="583"/>
         <source>重试</source>
-        <translation>Retry</translation>
+        <translation>Повтор</translation>
     </message>
     <message>
         <location filename="xmessageboxIP.ui" line="884"/>
         <source>子网掩码：</source>
-        <translation>маска сети:</translation>
+        <translation>Маска сети:</translation>
     </message>
     <message>
         <location filename="xmessageboxIP.ui" line="1169"/>
@@ -17283,23 +17282,23 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="75"/>
         <source>不存在的字符串资源</source>
-        <translation>строковый ресурс, который не существует</translation>
+        <translation>Пустая строка</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="77"/>
         <source>系统警告</source>
-        <translation>Системное предупреждение</translation>
+        <translation>Предупреждение</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="79"/>
         <source>机械手不在手动操作状态时，不能进入伺服参数设置画面！</source>
-        <translation>Невозможно открыть экран настройки параметров сервопривода, если робот не находится в состоянии ручного управления!</translation>
+        <translation>Невозм. открыть экран настройки парам. серво, если робот нев ручн. управ.!</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="81"/>
         <source>从主控模块查询参数失败！
 请检查操作器和主控模块的通讯线路。</source>
-        <translation>Запрос параметров из основного модуля управления не выполнен!
+        <translation>Запрос параметров из осн. модуля управления не выполнен!
 Пожалуйста, проверьте связь между подвеской и основным модулем управления.</translation>
     </message>
     <message>
@@ -17324,7 +17323,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="87"/>
         <location filename="xstringresource.cpp" line="4053"/>
         <source>手动</source>
-        <translation>Руководство</translation>
+        <translation>Ручной</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="89"/>
@@ -17342,7 +17341,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="93"/>
         <location filename="xstringresource.cpp" line="4063"/>
         <source>运行</source>
-        <translation>Бежать</translation>
+        <translation>В работе</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="95"/>
@@ -17372,7 +17371,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="103"/>
         <source>操作器与主控模块类型不匹配！请检查操作器和主控模块类型。
 </source>
-        <translation>Типы подвески и основного модуля управления не совпадают! Пожалуйста, проверьте тип основного модуля управления.</translation>
+        <translation>Типы подвески и осн. модуля управления не совпадают! Пожалуйста, проверьте тип осн. модуля управления.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="105"/>
@@ -17584,11 +17583,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[027] 请确认C轴是否在安全位置，不在则移到安全位置，再关模；在，则检查安全区域信号。</source>
-        <translation type="obsolete">[027] Убедитесь, что бегун вертикальный рычаг находится в безопасной зоне Если нет, то перейти в безопасную зону, а затем близко плесень;. В противном случае, проверьте сигнал.</translation>
+        <translation type="obsolete">[027] Убедитесь, что бегун вертикальный рукой находится в безопасной зоне Если нет, то перейти в безопасную зону, а затем близко плесень;. В противном случае, проверьте сигнал.</translation>
     </message>
     <message>
         <source>[028] 请确认Y轴是否在安全区域，不在则移到安全位置，再关模；在，则检查安全区域信号。</source>
-        <translation type="obsolete">[028] Make sure the product vertical arm is in the safe area. If not, move to the safe area, then close mold; otherwise, check the signal.</translation>
+        <translation type="obsolete">[028] Убедитесь, что вертикальный рычаг продукта находится в безопасной зоне. Если нет, перейдите в безопасную зону, затем закройте форму; в противном случае проверьте сигнал.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="148"/>
@@ -17639,15 +17638,15 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="470"/>
         <location filename="xstringresource.cpp" line="784"/>
         <source>[036] 请先复归原点再进行操作。</source>
-        <translation>[036] Please return to the origin then operate again.</translation>
+        <translation>[036] Вернитесь в исходное положение и повторите операцию.</translation>
     </message>
     <message>
         <source>[037] 请确认Y轴是否在安全区域，不在则移到安全位置，再横移；在则检查安全区域信号。</source>
-        <translation type="obsolete">[037] Make sure that the product vertical arm is in the safe area, if not, move to the safety area; otherwise check the safety signal.</translation>
+        <translation type="obsolete">[037] Убедитесь, что вертикальный рычаг продукта находится в безопасной зоне, если нет, перейдите в безопасную зону; в противном случае проверьте сигнал безопасности.</translation>
     </message>
     <message>
         <source>[038] 请确认C轴是否在安全位置，不在则移到安全位置，再横移；在则检查安全区域信号。</source>
-        <translation type="obsolete">[038] Make sure that the runner vertical arm is in the safe area, if not, move to the safety area; otherwise check the safety signal.</translation>
+        <translation type="obsolete">[038] Убедитесь, что вертикальный рычаг бегунка находится в безопасной зоне, если нет, перейдите в безопасную зону; в противном случае проверьте сигнал безопасности.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="158"/>
@@ -17700,7 +17699,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="792"/>
         <source>[044] 请确认注塑机已开中板模再操作%1轴运转，若已开模则检查主板CN2的MID端口是否有0V电压。</source>
         <oldsource>[044] 请确认注塑机已开中板模再操作</oldsource>
-        <translation type="unfinished">[045] Пожалуйста, подтвердите зону безопасности движущегося рычага, затем включите вертикальный рычаг.</translation>
+        <translation>[045] Пожалуйста, подтвердите зону безопасности движущегося руки, затем включите вертик. руку.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="164"/>
@@ -17708,14 +17707,14 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="793"/>
         <source>[045] 请确认%1轴安全区域范围，再执行%2轴运行。</source>
         <oldsource>[045] 请确认</oldsource>
-        <translation type="unfinished">[046] Пожалуйста, подтвердите зону безопасности движущегося рычага, затем включите вертикальный рычаг.</translation>
+        <translation>[046] Пожалуйста, подтвердите зону безопасности движущегося руки, затем включите вертик. руку.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="166"/>
         <location filename="xstringresource.cpp" line="481"/>
         <location filename="xstringresource.cpp" line="795"/>
         <source>[047] 请确认伺服设置里引拔模内安全区域范围。</source>
-        <translation>[047] Убедитесь, что в зоне безопасности горизонтального рычага.</translation>
+        <translation>[047] Убедитесь, что в зоне безопасности горизонтальной руки.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="167"/>
@@ -17728,7 +17727,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[049] 请确认C轴是否在原点位置，如不在则手动移到原点位置，再自动；如已在则确认C轴SCN4的ORG端口原点信号是否正常。</source>
-        <translation type="obsolete">[049] Пожалуйста, подтвердите, находится ли бегунок вертикального рычага в исходном положении, если нет перемещения в исходное положение, в противном случае проверьте исходный сигнал.</translation>
+        <translation type="obsolete">[049] Пожалуйста, подтвердите, находится ли бегунок вертикального руки в исходном положении, если нет перемещения в исходное положение, в противном случае проверьте исходный сигнал.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="169"/>
@@ -17795,7 +17794,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="492"/>
         <location filename="xstringresource.cpp" line="806"/>
         <source>[058] 请进入系统设置，设置允许模内倒角后，再次运行。</source>
-        <translation>[058] Пожалуйста, введите системные настройки, установите, чтобы фаска пресс-формы запускалась снова.</translation>
+        <translation>[058] Введите системные настройки, разрешающие снятие фасок в форме, и запустите снова.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="178"/>
@@ -17860,7 +17859,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[069] 请检查Y轴上位待机安全区域信号是否故障，如正常请检查伺服设置里的安全区域设置范围是否在感应信号范围内。</source>
-        <translation type="obsolete">Если это нормально, проверьте, находится ли диапазон настройки безопасной зоны в настройке сервопривода в пределах диапазона чувствительного сигнала.</translation>
+        <translation type="obsolete">[069] Если это нормально, проверьте, находится ли диапазон настройки безопасной зоны в настройке сервопривода в пределах диапазона чувствительного сигнала.</translation>
     </message>
     <message>
         <source>[070] 请检查Y2轴上位待机安全区域信号是否故障，如正常请检查伺服设置里的安全区域设置范围是否在感应信号范围内。</source>
@@ -17868,14 +17867,14 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[071] 删除当前程序重新教导，若不能解决则联系厂商。</source>
-        <translation type="obsolete">[071] Delete the current program re-teach, if not resolved contact manufacturers.</translation>
+        <translation type="obsolete">[071] Удалить текущую программу, переобучить, если не решено, свяжитесь с производителями.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="191"/>
         <location filename="xstringresource.cpp" line="506"/>
         <location filename="xstringresource.cpp" line="820"/>
         <source>[072] 检查循环定位设置是否正常，若不能解决联系厂商。</source>
-        <translation>[072] Check the loop free settings are normal, if not solve the contact manufacturers.</translation>
+        <translation>[072] Проверить, что настройки loop free в норме, если не решено, свяжитесь с производителями.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="192"/>
@@ -18074,28 +18073,28 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="534"/>
         <location filename="xstringresource.cpp" line="848"/>
         <source>[100] 请检查注塑机开模完成信号，是否有闪断。</source>
-        <translation>[100] Пожалуйста, проверьте, мигает ли полный сигнал пресс-формы машины для литья под давлением.</translation>
+        <translation>[100] Пожалуйста, проверьте, мигает ли полный сигнал ПФ машины для литья под давлением.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="220"/>
         <location filename="xstringresource.cpp" line="535"/>
         <location filename="xstringresource.cpp" line="849"/>
         <source>[101] 请检查注塑机开中板模信号，是否有闪断。</source>
-        <translation>[101] Проверьте, не мигает ли средний сигнал пресс-формы машины для литья под давлением.</translation>
+        <translation>[101] Проверьте, не мигает ли средний сигнал ПФ машины для литья под давлением.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="221"/>
         <location filename="xstringresource.cpp" line="536"/>
         <location filename="xstringresource.cpp" line="850"/>
         <source>[102] 请检查注塑机开模完成信号，是否有闪断。</source>
-        <translation>[102] Пожалуйста, проверьте, мигает ли полный сигнал пресс-формы машины для литья под давлением.</translation>
+        <translation>[102] Пожалуйста, проверьте, мигает ли полный сигнал ПФ машины для литья под давлением.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="222"/>
         <location filename="xstringresource.cpp" line="537"/>
         <location filename="xstringresource.cpp" line="851"/>
         <source>[103] 请检查注塑机开中板模信号，是否有闪断。</source>
-        <translation>[103] Проверьте, мигает ли средний сигнал пресс-формы на машине для литья под давлением.</translation>
+        <translation>[103] Проверьте, мигает ли средний сигнал ПФ на машине для литья под давлением.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="223"/>
@@ -18249,7 +18248,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="559"/>
         <location filename="xstringresource.cpp" line="873"/>
         <source>[125] 请检查伺服设置里的安全区域。</source>
-        <translation>[125] Please check the safety area.</translation>
+        <translation>[125] Пожалуйста, проверьте зону безопасности.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="245"/>
@@ -18263,7 +18262,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="561"/>
         <location filename="xstringresource.cpp" line="875"/>
         <source>[127] 请检查机械手的接近开关是否正常，主板SCN4的ORG端口是否有信号输入。</source>
-        <translation>[127] Убедитесь, что бесконтактный переключатель в норме, или материнская плата SCN4 ORG переносит входной сигнал.</translation>
+        <translation>[127] Убедитесь, что бесконтактный переключатель в норме, или Матплата SCN4 ORG переносит входной сигнал.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="247"/>
@@ -18285,7 +18284,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="878"/>
         <source>[130] 请检查程序，确认正臂和%1位置是否安全。</source>
         <oldsource>[130] 请检查程序，确认正臂和</oldsource>
-        <translation type="unfinished"></translation>
+        <translation>[130] Пожалуйста, проверьте процедуру подтверждения положительной суммы руки</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="250"/>
@@ -18333,27 +18332,27 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="256"/>
         <location filename="xstringresource.cpp" line="571"/>
         <source>[137] 请确认系统设置是否使用气动副臂，检查机械手是否动作，检查IO板1的X14是否有0V输入，检查线路。</source>
-        <translation>[137] Убедитесь, что включен пневматический рычаг, проверьте, работает ли робот, проверьте, имеет ли X14 платы ввода-вывода 1 вход 0 В, и проверьте линию.</translation>
+        <translation>[137] Убедитесь, что включен пневматический рукой, проверьте, работает ли робот, проверьте, имеет ли X14 платы ввода-вывода 1 вход 0 В, и проверьте линию.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="257"/>
         <location filename="xstringresource.cpp" line="572"/>
         <location filename="xstringresource.cpp" line="886"/>
         <source>[138] 请确认系统设置是否使用气动副臂，检查机械手是否动作，检查检查线路。</source>
-        <translation>[138] Убедитесь, что пневматический рычаг включен, проверьте работу робота, проверьте линию осмотра.</translation>
+        <translation>[138] Убедитесь, что пневматический рукой включен, проверьте работу робота, проверьте линию осмотра.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="258"/>
         <location filename="xstringresource.cpp" line="573"/>
         <source>[139] 请确认系统设置是否使用气动副臂，检查机械手是否动作，检查IO板1的X13是否有0V输入，检查线路。</source>
-        <translation>[139] Убедитесь, что пневматический рычаг включен, проверьте, работает ли робот, проверьте, имеет ли X13 платы ввода-вывода 1 вход 0 В, и проверьте линию.</translation>
+        <translation>[139] Убедитесь, что пневматический рукой включен, проверьте, работает ли робот, проверьте, имеет ли X13 платы ввода-вывода 1 вход 0 В, и проверьте линию.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="259"/>
         <location filename="xstringresource.cpp" line="574"/>
         <location filename="xstringresource.cpp" line="888"/>
         <source>[140] 请确认系统设置是否使用气动副臂，检查机械手是否动作，检查检查线路。</source>
-        <translation>[140] Убедитесь, что пневматический рычаг включен, проверьте работу робота, проверьте линию осмотра.</translation>
+        <translation>[140] Убедитесь, что пневматический рукой включен, проверьте работу робота, проверьте линию осмотра.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="260"/>
@@ -18776,7 +18775,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="633"/>
         <location filename="xstringresource.cpp" line="947"/>
         <source>[199] 系统走到某一位置但是机械实际没走到。可以把安全区设置小点或模内模外电眼距离大点。</source>
-        <translation>[199] Система прибывает в положение, а IMM - нет. Установите меньшую зону безопасности или дольше расстояние между электрическим глазком в отлитой и отлитой форме.</translation>
+        <translation>[199] Система прибывает в положение, а IMM - нет. Установите меньшую зону безопасности или дольше расстояние между электрическим глазком внутри ПФ и снаружи ПФ.</translation>
     </message>
     <message>
         <source>[200]</source>
@@ -19104,7 +19103,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1366"/>
         <location filename="xstringresource.cpp" line="2093"/>
         <source>[237] EtherCat总线错误</source>
-        <translation type="unfinished"></translation>
+        <translation>[237] Ошибка шины EtherCat</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="165"/>
@@ -19112,7 +19111,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="794"/>
         <source>[046] 请确认%1轴安全区域范围，再执行%2轴运行。</source>
         <oldsource>[046] 请确认</oldsource>
-        <translation type="unfinished"></translation>
+        <translation>[046] Пожалуйста, подтвердите</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="358"/>
@@ -19751,7 +19750,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[038] 请确认Y2轴是否在安全位置，不在则移到安全位置，再横移；在则检查安全区域信号。</source>
-        <translation type="obsolete">[038] Please make sure Y2 axis is in safety position.</translation>
+        <translation type="obsolete">[038] Пожалуйста, убедитесь, что ось Y2 находится в безопасном положении.</translation>
     </message>
     <message>
         <source>[046] 请确认z轴安全区域范围，再执行Y2轴运行。</source>
@@ -19769,30 +19768,30 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[027] 请确认副臂上下是否在安全位置，不在则移到安全位置，再关模；在，则检查副臂上下安全区域信号。</source>
-        <translation type="obsolete">[027] Убедитесь, что бегун вертикальный рычаг находится в безопасной зоне Если нет, то перейти в безопасную зону, а затем близко плесень;. В противном случае, проверьте сигнал.</translation>
+        <translation type="obsolete">[027] Убедитесь, что бегун вертикальной руки находится в безопасной зоне Если нет, то перейти в безопасную зону, а затем смыкайте ПФ;. В противном случае, проверьте сигнал.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="776"/>
         <source>[028] 请确认正臂上下是否在安全区域，不在则移到安全位置，再关模；在，则检查正臂上下安全区域信号。</source>
-        <translation>[028] Make sure the product vertical arm is in the safe area. If not, move to the safe area, then close mold; otherwise, check the signal.</translation>
+        <translation>[028] Убедитесь, что продукт вертикальной руки находится в безопасной зоне Если нет, то перейти в безопасную зону, а затем смыкайте ПФ;. В противном случае, проверьте сигнал.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="785"/>
         <source>[037] 请确认正臂上下是否在安全区域，不在则移到安全位置，再横移；在则检查正臂上下安全区域信号。</source>
-        <translation>[037] Make sure that the product vertical arm is in the safe area, if not, move to the safety area; otherwise check the safety signal.</translation>
+        <translation>[037] Убедитесь, что продукт вертикальной руки находится в безопасной зоне Если нет, то перейти в безопасную зону, а затем смыкайте ПФ;. В противном случае, проверьте сигнал.</translation>
     </message>
     <message>
         <source>[046] 请确认横行轴安全区域范围，再执行上下轴运行。</source>
-        <translation type="obsolete">[046] Пожалуйста, подтвердите зону безопасности движущегося рычага, затем включите вертикальный рычаг.</translation>
+        <translation type="obsolete">[046] Пожалуйста, подтвердите зону безопасности движущегося руки, затем двигайте вертикальной рукой.</translation>
     </message>
     <message>
         <source>[049] 请确认副臂上下轴是否在原点位置，如不在则手动移到原点位置，再自动；如已在则确认副臂上下SCN4的ORG端口原点信号是否正常。</source>
-        <translation type="obsolete">[049] Пожалуйста, подтвердите, находится ли бегунок вертикального рычага в исходном положении, если нет перемещения в исходное положение, в противном случае проверьте исходный сигнал.</translation>
+        <translation type="obsolete">[049] Пожалуйста, подтвердите, находится ли бегунок вертикальной рукиа в исходном положении, если нет перемещения в исходное положение, в противном случае проверьте исходный сигнал.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="813"/>
         <source>[065] 请检查横行模内安全区域信号是否故障，如正常请检查伺服设置里的安全区域设置范围是否在感应信号范围内。</source>
-        <translation>[065] Пожалуйста, проверьте, является ли сигнал зоны безопасности пресс-формы неисправным. Если это нормально, проверьте, находится ли настройка зоны безопасности в пределах диапазона сигнала датчика.</translation>
+        <translation>[065] Пожалуйста, проверьте, является ли сигнал зоны безопасности ПФ неисправным. Если это нормально, проверьте, находится ли настройка зоны безопасности в пределах диапазона сигнала датчика.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="814"/>
@@ -19810,7 +19809,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="986"/>
         <source>[238] 绝对值编码器电池没电或掉线,需要在【伺服设置】【原点】里重新设置绝对值编码器原点</source>
-        <translation type="unfinished"></translation>
+        <translation>[238] Батарея энкодера абсолютного значения разряжена или находится в автономном режиме, необходимо сбросить исходное положение энкодера абсолютного значения в настройках сервопривода [Origin]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1070"/>
@@ -19824,7 +19823,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1445"/>
         <location filename="xstringresource.cpp" line="1781"/>
         <source>[001] 无效的气动正臂动作。</source>
-        <translation type="unfinished">[001] Недопустимое действие рычага пневматического изделия.</translation>
+        <translation>[001] Недопустимое действие пневмо.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1073"/>
@@ -19941,7 +19940,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1094"/>
         <source>[019] 自动运行时机床没有安全门信号。</source>
-        <translation type="unfinished">[019] Дверь сейфа не закрывается, когда авто работает.</translation>
+        <translation>[019] Дверь  не закрывается, когда в авто.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1095"/>
@@ -19952,7 +19951,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1097"/>
         <source>[019] 自动运行时注塑机没有安全门信号。</source>
-        <translation type="unfinished">[019] Дверь сейфа не закрывается, когда авто работает.</translation>
+        <translation>[019] Дверь  не закрывается, когда в авто.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1098"/>
@@ -20015,7 +20014,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[028] 上下轴位置不在安全区域，禁止注塑机关模。</source>
-        <translation type="obsolete">[028] Положение верхнего и нижнего валов не находится в безопасной зоне, и пресс-форма литьевой машины запрещена.</translation>
+        <translation type="obsolete">[028] Положение верхнего и нижнего валов не находится в безопасной зоне, и ПФ литьевой машины запрещена.</translation>
     </message>
     <message>
         <source>[027] C轴位置不在安全区域，禁止注塑机关模。</source>
@@ -20095,7 +20094,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[038] 倒角轴不在上位，横行轴运行不安全。</source>
-        <translation type="obsolete">[038] Вал со скошенной кромкой не находится в верхнем положении, и горизонтальная ось не безопасна для движения.</translation>
+        <translation type="obsolete">[038] Если ось  не находится в верхнем положении, работа поперечной оси небезопасна.</translation>
     </message>
     <message>
         <source>[039] 上下轴不在上位，引拔轴运行不安全。</source>
@@ -20114,7 +20113,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[043] 没有开模完信号，上下轴运行不安全。</source>
-        <translation type="obsolete">[043] Верхний и нижний валы небезопасны для работы без сигнала открытия пресс-формы.</translation>
+        <translation type="obsolete">[043] Верхний и нижний валы небезопасны для работы без сигнала открытия ПФ.</translation>
     </message>
     <message>
         <source>[044] 没有中板模信号，上下轴运行不安全。</source>
@@ -20183,7 +20182,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[037] Y轴不在上位，Z轴运行不安全。</source>
-        <translation type="obsolete">[037] The Y axis is not in the up position and the Z axis is not safe to run.</translation>
+        <translation type="obsolete">[037] Ось Y не находится в безопасной зоне, а ось Z небезопасна в эксплуатации。</translation>
     </message>
     <message>
         <source>[038] C轴不在上位，Z轴运行不安全。</source>
@@ -20195,7 +20194,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[043] 没有开模完信号，Y轴运行不安全。</source>
-        <translation type="obsolete">[043] Ось Y небезопасна для работы без сигнала открытия пресс-формы.</translation>
+        <translation type="obsolete">[043] Ось Y небезопасна для работы без сигнала открытия ПФ.</translation>
     </message>
     <message>
         <source>[044] 没有中板模信号，Y轴运行不安全。</source>
@@ -20261,7 +20260,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1146"/>
         <location filename="xstringresource.cpp" line="1859"/>
         <source>[058] 正臂或副臂气动倒角水平时，禁止在模内下行。</source>
-        <translation type="unfinished">[058] Когда положительный рычаг или стрела пневматически скошены горизонтально, запрещается опускаться в пресс-форму.</translation>
+        <translation>[058] Когда положит. рукаили стрела пневматически скошены горизонтально, запрещается опускаться в пресс-форму.</translation>
     </message>
     <message>
         <source>[059] 引拔轴位置超出了软件行程。</source>
@@ -20337,7 +20336,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[065] X轴位置在模内安全区域内，但没有检测到模内安全区域信号。</source>
-        <translation type="obsolete">[065] Положение оси X находится в пределах зоны безопасности внутри пресс-формы, но сигнал зоны безопасности внутри пресс-формы не обнаружен.</translation>
+        <translation type="obsolete">[065] Положение оси X находится в пределах зоны безопасности внутри ПФ, но сигнал зоны безопасности внутри ПФ не обнаружен.</translation>
     </message>
     <message>
         <source>[066] X轴位置在模外安全区域内，但没有检测到模外安全区域信号。</source>
@@ -20369,7 +20368,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[065] Y轴位置在模内安全区域内，但没有检测到模内安全区域信号。</source>
-        <translation type="obsolete">[065] Положение оси Y находится в пределах зоны безопасности внутри пресс-формы, но сигнал зоны безопасности внутри пресс-формы не обнаружен.</translation>
+        <translation type="obsolete">[065] Положение оси Y находится в пределах зоны безопасности внутри ПФ, но сигнал зоны безопасности внутри ПФ не обнаружен.</translation>
     </message>
     <message>
         <source>[066] Y轴位置在模外安全区域内，但没有检测到模外安全区域信号。</source>
@@ -20393,7 +20392,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[065] Z轴位置在模内安全区域内，但没有检测到模内安全区域信号。</source>
-        <translation type="obsolete">[065] Положение оси Z находится в пределах зоны безопасности внутри пресс-формы, но сигнал зоны безопасности внутри пресс-формы не обнаружен.</translation>
+        <translation type="obsolete">[065] Положение оси Z находится в пределах зоны безопасности внутри ПФ, но сигнал зоны безопасности внутри ПФ не обнаружен.</translation>
     </message>
     <message>
         <source>[066] Z轴位置在模外安全区域内，但没有检测到模外安全区域信号。</source>
@@ -20443,28 +20442,28 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1541"/>
         <location filename="xstringresource.cpp" line="1878"/>
         <source>[075] 正臂气动倒角水平，但没有检测到水平到位信号。</source>
-        <translation type="unfinished">[075] Пневматическое плечо изделия повернуто в горизонтальное положение, но сигнал не обнаружен.</translation>
+        <translation>[075] Пневмо изделия повернуто в горизонтальное положение, но сигнал не обнаружен.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1166"/>
         <location filename="xstringresource.cpp" line="1542"/>
         <location filename="xstringresource.cpp" line="1879"/>
         <source>[076] 正臂气动倒角水平，但检测到垂直到位信号。</source>
-        <translation type="unfinished">[076] Пневматическое плечо продукта вращается в горизонтальном положении, но имеет вертикальный сигнал.</translation>
+        <translation>[076] Пневмо продукта вращается в горизонтальном положении, но имеет вертикальный сигнал.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1167"/>
         <location filename="xstringresource.cpp" line="1543"/>
         <location filename="xstringresource.cpp" line="1880"/>
         <source>[077] 正臂气动倒角垂直，但没有检测到垂直到位信号。</source>
-        <translation type="unfinished">[077] Пневматическое плечо изделия повернуто вертикально, но сигнал не обнаружен.</translation>
+        <translation>[077] Пневмо изделия повернуто вертикально, но сигнал не обнаружен.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1168"/>
         <location filename="xstringresource.cpp" line="1544"/>
         <location filename="xstringresource.cpp" line="1881"/>
         <source>[078] 正臂气动倒角垂直，但检测到水平到位信号。</source>
-        <translation type="unfinished">[078] Пневматическое плечо продукта вращается вертикально, но имеет горизонтальный сигнал.</translation>
+        <translation>[078] Пневмо продукта вращается вертикально, но имеет горизонтальный сигнал.</translation>
     </message>
     <message>
         <source>[079] 引拔轴伺服报警，请检查伺服驱动器。</source>
@@ -20540,7 +20539,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1190"/>
         <source>[097] 机床紧急停止，请检查机床。</source>
-        <translation type="unfinished">[097] IMM аварийный останов.</translation>
+        <translation>[097] IMM аварийн.останов.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1192"/>
@@ -20562,7 +20561,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[100] 倒角轴在模内区域，机床开模完信号消失。</source>
-        <translation type="obsolete">[100] Ось вращения или пневматический рычаг находятся в форме, сигнал MOP исчезает.</translation>
+        <translation type="obsolete">[100] Ось вращения или пневматический рукой находятся в форме, сигнал MOP исчезает.</translation>
     </message>
     <message>
         <source>[101] 倒角轴在模内区域，机床中板模信号消失。</source>
@@ -20570,11 +20569,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[102] 上下轴在模内区域，机床开模完信号消失。</source>
-        <translation type="obsolete">[102] Вертикальный рычаг находится в области пресс-формы, но сигнал СС исчезает.</translation>
+        <translation type="obsolete">[102] Вертик. рука находится в области ПФ, но сигнал MOP исчезает.</translation>
     </message>
     <message>
         <source>[103] 上下轴在模内区域，机床中板模信号消失。</source>
-        <translation type="obsolete">[103] Вертикальный рычаг находится в области пресс-формы, но сигнал MMOP исчезает.</translation>
+        <translation type="obsolete">[103] Вертик. руканаходится в области ПФ, но сигнал MMOP исчезает.</translation>
     </message>
     <message>
         <source>[104] 引拔轴伺服运行到正极限。</source>
@@ -20626,7 +20625,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[100] 倒角轴在模内区域，注塑机开模完信号消失。</source>
-        <translation type="obsolete">[100] Вал для снятия фаски находится в области пресс-формы, и сигнал открытия пресс-формы машины для литья под давлением исчезает.</translation>
+        <translation type="obsolete">[100] Вал для снятия фаски находится в области ПФ, и сигнал открытия ПФ машины для литья под давлением исчезает.</translation>
     </message>
     <message>
         <source>[101] 倒角轴在模内区域，注塑机中板模信号消失。</source>
@@ -20634,15 +20633,15 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[102] 上下轴在模内区域，注塑机开模完信号消失。</source>
-        <translation type="obsolete">[102] Вертикальная ось находится в области пресс-формы, сигнал IMM-MOP исчезает.</translation>
+        <translation type="obsolete">[102] Вертикальная ось находится в области ПФ, сигнал IMM-MOP исчезает.</translation>
     </message>
     <message>
         <source>[103] 上下轴在模内区域，注塑机中板模信号消失。</source>
-        <translation type="obsolete">[103] Вертикальная ось находится в области пресс-формы, сигнал IMM-MMOP исчезает.</translation>
+        <translation type="obsolete">[103] Вертикальная ось находится в области ПФ, сигнал IMM-MMOP исчезает.</translation>
     </message>
     <message>
         <source>[100] C轴在模内区域，注塑机开模完信号消失。</source>
-        <translation type="obsolete">[100] Ось C находится в области пресс-формы, и сигнал о завершении пресс-формы на машине для литья под давлением исчезает.</translation>
+        <translation type="obsolete">[100] Ось C находится в области ПФ, и сигнал о завершении ПФ на машине для литья под давлением исчезает.</translation>
     </message>
     <message>
         <source>[101] C轴在模内区域，注塑机中板模信号消失。</source>
@@ -20650,7 +20649,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[102] Z轴在模内区域，注塑机开模完信号消失。</source>
-        <translation type="obsolete">[102] Ось Z находится в области пресс-формы, и сигнал открытия пресс-формы машины для литья под давлением исчезает.</translation>
+        <translation type="obsolete">[102] Ось Z находится в области ПФ, и сигнал открытия ПФ машины для литья под давлением исчезает.</translation>
     </message>
     <message>
         <source>[103] Z轴在模内区域，注塑机中板模信号消失。</source>
@@ -20722,7 +20721,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[102] Y轴在模内区域，注塑机开模完信号消失。</source>
-        <translation type="obsolete">[102] Ось Y находится в области литья под давлением, и сигнал открытия пресс-формы машины для литья под давлением исчезает.</translation>
+        <translation type="obsolete">[102] Ось Y находится в области литья под давлением, и сигнал открытия ПФ машины для литья под давлением исчезает.</translation>
     </message>
     <message>
         <source>[103] Y轴在模内区域，注塑机中板模信号消失。</source>
@@ -20796,7 +20795,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1220"/>
         <location filename="xstringresource.cpp" line="1568"/>
         <source>[123] 没有模外下行安全检测信号，手臂不能下行。</source>
-        <translation type="unfinished">[123] Нет сигнала безопасности о наличии плесени, рука не может двигаться вниз.</translation>
+        <translation>[123] Нет сигнала безопасности о наличии ПФ, рука не может двигаться вниз.</translation>
     </message>
     <message>
         <source>[124] 系统设置倒角垂直时，横行轴运行不安全。</source>
@@ -20808,7 +20807,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[126] 旋转轴运行不安全，超出模内安全区。</source>
-        <translation type="obsolete">[126] Поворотная ось небезопасна для эксплуатации за пределами зоны безопасности пресс-формы.</translation>
+        <translation type="obsolete">[126] Поворотная ось небезопасна для эксплуатации за пределами зоны безопасности ПФ.</translation>
     </message>
     <message>
         <source>[124] 系统设置倒角垂直时，X轴运行不安全。</source>
@@ -20840,13 +20839,13 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1227"/>
         <location filename="xstringresource.cpp" line="1942"/>
         <source>[128] 自动运行时机床开模完但没有中板模信号。</source>
-        <translation type="unfinished">[128] Машина была открыта во время автоматической работы, но не было сигнала о режиме средней пластины.</translation>
+        <translation>[128] Машина была открыта во время автоматической работы, но не было сигнала о режиме среднего полож.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1228"/>
         <location filename="xstringresource.cpp" line="1943"/>
         <source>[129] 自动运行时没有机床全自动信号。</source>
-        <translation type="unfinished">[129] Там нет автоматического сигнала.</translation>
+        <translation>[129] Нет автоматического сигнала.</translation>
     </message>
     <message>
         <source>[130] 引拔轴和旋转轴位置冲突。</source>
@@ -20883,13 +20882,13 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1235"/>
         <location filename="xstringresource.cpp" line="1951"/>
         <source>[132] 手臂在模内没有开模完信号(模外待机)。</source>
-        <translation type="unfinished">[132] Рука не имеет сигнала открытия пресс-формы в пресс-форме (из режима ожидания).</translation>
+        <translation>[132] Рука не имеет сигнала открытия ПФ в пресс-форме (из режима ожидания).</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1236"/>
         <location filename="xstringresource.cpp" line="1952"/>
         <source>[133] 手臂在模内没有中板模信号(模外待机)。</source>
-        <translation type="unfinished">[133] Рука в пресс-форме, но отсутствует сигнал MID (ожидание пресс-формы).</translation>
+        <translation>[133] Рука в пресс-форме, но отсутствует сигнал MID (ожидание ПФ).</translation>
     </message>
     <message>
         <source>[134] 横行轴入模不安全,没有开模完信号(模外待机)。</source>
@@ -20901,7 +20900,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[134] X轴入模不安全,没有开模完信号(模外待机)。</source>
-        <translation type="obsolete">[134] Ввод оси X небезопасен, и нет открытого завершения пресс-формы (режим ожидания вне режима).</translation>
+        <translation type="obsolete">[134] Ввод оси X небезопасен, и нет открытого завершения ПФ (режим ожидания вне режима).</translation>
     </message>
     <message>
         <source>[135] X轴入模不安全,没有中板模信号(模外待机)。</source>
@@ -20928,17 +20927,17 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1584"/>
         <location filename="xstringresource.cpp" line="1957"/>
         <source>[136] 无效的气动副臂动作。</source>
-        <translation type="unfinished">[136] Недопустимое действие пневматического рычага.</translation>
+        <translation>[136] Недопустимое действие пневматического рукойа.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1242"/>
         <source>[137] 气动副臂下行但电眼不亮。</source>
-        <translation type="unfinished">[137] Пневматический вытяжной рычаг опускается, но нет сигнала.</translation>
+        <translation>[137] Пневмострела опускается, но нет сигнала.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1243"/>
         <source>[138] 气动副臂下行但上行电眼亮。</source>
-        <translation type="unfinished">[138] Пневматический вытяжной рычаг опускается, но имеет сигнал вверх.</translation>
+        <translation>[138] Пневмострела опускается, но имеет сигнал вверх.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1244"/>
@@ -20948,11 +20947,11 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1245"/>
         <source>[140] 气动副臂上行但下行电眼亮。</source>
-        <translation type="unfinished">[140] Пневматический вытяжной рычаг движется вверх, но имеет сигнал вниз.</translation>
+        <translation>[140] Пневмострела движется вверх, но имеет сигнал вниз.</translation>
     </message>
     <message>
         <source>[141] 横行轴不在安全区内，副臂气动下行不安全。</source>
-        <translation type="obsolete">[141] Движущаяся ось не находится в безопасной зоне, так как пневматический стояк не может быть опущен вниз.</translation>
+        <translation type="obsolete">[141] Поперечная ось не находится в безопасной зоне, и пневматическое движение стрелы вниз небезопасно.</translation>
     </message>
     <message>
         <source>[141] X轴不在安全区内，副臂气动下行不安全。</source>
@@ -20976,12 +20975,12 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1256"/>
         <location filename="xstringresource.cpp" line="1591"/>
         <source>[143] 模内没有中板模信号，副臂气动下行不安全。</source>
-        <translation type="unfinished">[143] [Пневматический вытяжной рычаг не может двигаться вниз без сигнала MMOP.</translation>
+        <translation>[143] [Пневмострела не может двигаться вниз без сигнала MMOP.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1258"/>
         <source>[144] 副臂气动在模内下位，机床开模中间信号消失。</source>
-        <translation type="unfinished">[144] Пневматический стояковый рычаг находится внизу в форме, но сигнал MID исчезает.</translation>
+        <translation>[144] Пневматический стояковый рукой находится внизу в форме, но сигнал MID исчезает.</translation>
     </message>
     <message>
         <source>[145] 上下轴模内下位，机床开模中间信号消失。</source>
@@ -20990,7 +20989,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1261"/>
         <source>[144] 副臂气动在模内下位，塑机开模中间信号消失。</source>
-        <translation type="unfinished">[144] Пневматический стояковый рычаг находится внизу в форме, но сигнал MID исчезает.</translation>
+        <translation>[144] Пневматический стояковый рукой находится внизу в форме, но сигнал MID исчезает.</translation>
     </message>
     <message>
         <source>[145] 上下轴模内下位，塑机开模中间信号消失。</source>
@@ -21002,7 +21001,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[145] Y轴模内下位，塑机开模中间信号消失。</source>
-        <translation type="obsolete">[145] На нижнем конце пресс-формы по оси Y средний сигнал открытия пресс-формы пресса исчезает.</translation>
+        <translation type="obsolete">[145] На нижнем конце ПФ по оси Y средний сигнал открытия ПФ пресса исчезает.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1264"/>
@@ -21068,45 +21067,45 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[158] 手臂下行不安全，引拔轴不在模内安全区。</source>
-        <translation type="obsolete">[158] Рычаг небезопасен, а тяговый вал не находится в зоне безопасности пресс-формы.</translation>
+        <translation type="obsolete">[158] Рука не в безопасн., а тяговый вал не находится в зоне безопасности ПФ.</translation>
     </message>
     <message>
         <source>[159] 手臂下行不安全，旋转轴不在模内安全区。</source>
-        <translation type="obsolete">[159] Опускание вниз небезопасно, когда рычаг снятия фаски не находится в зоне безопасности.</translation>
+        <translation type="obsolete">[159] Опускание вниз небезопасно, когда рукой снятия фаски не находится в зоне безопасности.</translation>
     </message>
     <message>
         <source>[160] 手臂下行不安全，扩展轴不在模内安全区。</source>
-        <translation type="obsolete">[160] Рычаг небезопасен, а удлинительный вал не находится в зоне безопасности пресс-формы.</translation>
+        <translation type="obsolete">[160] Рука не в безопасн., а удлинительный вал не находится в зоне безопасности ПФ.</translation>
     </message>
     <message>
         <source>[158] 手臂下行不安全，Y轴不在模内安全区。</source>
-        <translation type="obsolete">[158] Рычаг небезопасен, а ось Y не находится в зоне безопасности в пресс-форме.</translation>
+        <translation type="obsolete">[158] Рука не в безопасн., а ось Y не находится в зоне безопасности в пресс-форме.</translation>
     </message>
     <message>
         <source>[159] 手臂下行不安全，B轴不在模内安全区。</source>
-        <translation type="obsolete">[159] Рычаг небезопасен, а ось B не находится в зоне безопасности в пресс-форме.</translation>
+        <translation type="obsolete">[159] Рука не в безопасн., а ось B не находится в зоне безопасности в пресс-форме.</translation>
     </message>
     <message>
         <source>[160] 手臂下行不安全，A轴不在模内安全区。</source>
-        <translation type="obsolete">[160] Рычаг небезопасен, а ось А не находится в зоне безопасности в пресс-форме.</translation>
+        <translation type="obsolete">[160] Рука не в безопасн., а ось А не находится в зоне безопасности в пресс-форме.</translation>
     </message>
     <message>
         <source>[158] 手臂下行不安全，X轴不在模内安全区。</source>
-        <translation type="obsolete">[158] Рычаг небезопасен, а ось X не находится в зоне безопасности в пресс-форме.</translation>
+        <translation type="obsolete">[158] Рука не в безопасн., а ось X не находится в зоне безопасности в пресс-форме.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1282"/>
         <location filename="xstringresource.cpp" line="1614"/>
         <location filename="xstringresource.cpp" line="1996"/>
         <source>[162] 副臂气动引进但电眼不亮。</source>
-        <translation type="unfinished">[162] Пневматический рычаг движется вперед, но сигнала нет.</translation>
+        <translation>[162] Пневматическая рука движется вперед, но сигнала нет.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1283"/>
         <location filename="xstringresource.cpp" line="1615"/>
         <location filename="xstringresource.cpp" line="1997"/>
         <source>[163] 副臂气动引进但引退电眼亮。</source>
-        <translation type="unfinished">[163] Пневматическая sprunnerrue рука продвигается, но имеет ответный сигнал.</translation>
+        <translation>[163] Пневматическая  рука продвигается, но имеет ответный сигнал.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1284"/>
@@ -21131,30 +21130,30 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[167] 旋转轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[167] Вращающийся вал не находится в зоне безопасности пресс-формы, и рычаг не безопасен.</translation>
+        <translation type="obsolete">[167] Ось вращения не находится в безопасной зоне внутри формы, и движение руки вниз небезопасно.</translation>
     </message>
     <message>
         <source>[168] 倒角轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[168] Вал со скошенной кромкой не находится в зоне безопасности пресс-формы, и рычаг не безопасен.</translation>
+        <translation type="obsolete">[168] Ось снятия фаски не находится в безопасной зоне внутри формы, и движение руки вниз небезопасно.</translation>
     </message>
     <message>
         <source>[169] 上下轴不在上位，手臂倒角不安全。</source>
-        <translation type="obsolete">[169] Верхний и нижний валы не находятся в верхнем положении, и фаска рычага небезопасна.</translation>
+        <translation type="obsolete">[169] Верхняя и нижняя оси не находятся в верхнем положении, и снятие фаски рычагом небезопасно.</translation>
     </message>
     <message>
         <source>[170] 上下轴不在上位，手臂旋转不安全。</source>
-        <translation type="obsolete">[170] Верхний и нижний валы не находятся в верхнем положении, и вращение рычага небезопасно.</translation>
+        <translation type="obsolete">[170] Верхняя и нижняя оси не находятся в верхнем положении, и вращение рычага небезопасно.</translation>
     </message>
     <message>
         <source>[171] 倒角轴不在安全位，手臂横行不安全。</source>
-        <translation type="obsolete">[171] Вал с фаской не находится в безопасном положении, а рукоятка небезопасна.</translation>
+        <translation type="obsolete">[171] Ось снятия фаски не находится в безопасном положении, и перемещать рычаг в сторону небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1293"/>
         <location filename="xstringresource.cpp" line="1631"/>
         <location filename="xstringresource.cpp" line="2008"/>
         <source>[172] 手臂倒角不安全,不能超过模内安全区。</source>
-        <translation type="unfinished">[172] Фаска рычага небезопасна и не может превышать безопасную площадь пресс-формы.</translation>
+        <translation>[172] Рука не безопасна и не может превышать безопасную площадь ПФ.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1294"/>
@@ -21173,39 +21172,39 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[176] 旋转轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[176] Ось вращения не находится в безопасной зоне, а рычаг не безопасен.</translation>
+        <translation type="obsolete">[176] Ось вращения находится за пределами безопасной зоны, и перемещать рычаг в сторону небезопасно.</translation>
     </message>
     <message>
         <source>[177] 扩展轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[177] Ось выдвижения не находится в безопасной зоне, а рычаг не безопасен.</translation>
+        <translation type="obsolete">[177] Ось расширения не находится в безопасной зоне, и перемещать рычаг в сторону небезопасно.</translation>
     </message>
     <message>
         <source>[178] 扩展轴运行不安全，不能超过模内安全区。</source>
-        <translation type="obsolete">[178] Движение удлиненной оси небезопасно.</translation>
+        <translation type="obsolete">[178] Работа оси расширения небезопасна и не может выходить за пределы безопасной зоны внутри формы.</translation>
     </message>
     <message>
         <source>[179] 引拔轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[179] Выдвижной вал не находится в безопасной зоне, а рычаг не безопасен.</translation>
+        <translation type="obsolete">[179] Ось извлечения находится за пределами безопасной зоны, и перемещать рычаг в сторону небезопасно.</translation>
     </message>
     <message>
         <source>[167] B轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[167] Ось B не находится в зоне безопасности пресс-формы, и рычаг не является безопасным.</translation>
+        <translation type="obsolete">[167] Ось B не находится в безопасной зоне внутри формы, и движение руки вниз небезопасно.</translation>
     </message>
     <message>
         <source>[168] C轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[168] Ось C не находится в зоне безопасности пресс-формы, и рычаг не является безопасным.</translation>
+        <translation type="obsolete">[168] Ось C не находится в безопасной зоне внутри формы, и движение руки вниз небезопасно.</translation>
     </message>
     <message>
         <source>[169] Z轴不在上位，手臂倒角不安全。</source>
-        <translation type="obsolete">[169] Ось Z не находится в верхнем положении, и фаска рычага небезопасна.</translation>
+        <translation type="obsolete">[169] Ось Z не находится в верхнем положении, и рука небезопасна.</translation>
     </message>
     <message>
         <source>[170] Z轴不在上位，手臂旋转不安全。</source>
-        <translation type="obsolete">[170] Ось Z не находится в верхнем положении, и вращение рычага небезопасно.</translation>
+        <translation type="obsolete">[170] Ось Z не находится в верхнем положении, и вращение рукой небезопасно.</translation>
     </message>
     <message>
         <source>[171] C轴不在安全位，手臂横行不安全。</source>
-        <translation type="obsolete">[171] Ось C не находится в безопасном положении, а рычаг не безопасен.</translation>
+        <translation type="obsolete">[171] Ось C не находится в безопасном положении, и перемещать рычаг в сторону небезопасно.</translation>
     </message>
     <message>
         <source>[174] C轴位置超过软件行程。</source>
@@ -21217,11 +21216,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[176] B轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[176] Ось B не находится в безопасной зоне, а рычаг не безопасен.</translation>
+        <translation type="obsolete">[176] Ось B не находится в безопасной зоне, и горизонтальное перемещение руки небезопасно.</translation>
     </message>
     <message>
         <source>[177] A轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[177] Ось A не находится в безопасной зоне, и руки не безопасны.</translation>
+        <translation type="obsolete">[177] Ось А не находится в безопасной зоне, и горизонтальное перемещение руки небезопасно.</translation>
     </message>
     <message>
         <source>[178] A轴运行不安全，不能超过模内安全区。</source>
@@ -21229,11 +21228,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[179] Y轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[179] Ось Y не находится в безопасной зоне, а руки не безопасны.</translation>
+        <translation type="obsolete">[179] Ось Y находится вне безопасной зоны, и перемещать рычаг по горизонтали небезопасно.</translation>
     </message>
     <message>
         <source>[169] Y轴不在上位，手臂倒角不安全。</source>
-        <translation type="obsolete">[169] Ось Y не находится в верхнем положении, и фаска рычага небезопасна.</translation>
+        <translation type="obsolete">[169] Ось Y не находится в верхнем положении, и снятие фаски рычагом небезопасно.</translation>
     </message>
     <message>
         <source>[170] Y轴不在上位，手臂旋转不安全。</source>
@@ -21241,19 +21240,19 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[179] X轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[179] Ось X не находится в безопасной зоне, а руки не безопасны.</translation>
+        <translation type="obsolete">[179] Ось X находится вне безопасной зоны, и перемещать рычаг по горизонтали небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1302"/>
         <location filename="xstringresource.cpp" line="2017"/>
         <source>[180] 副臂气动倒角水平，但电眼不亮。</source>
-        <translation type="unfinished">[180] Пневматический рычаг вращается горизонтально, но нет сигнала.</translation>
+        <translation>[180] Пневматический рукой вращается горизонтально, но нет сигнала.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1303"/>
         <location filename="xstringresource.cpp" line="2018"/>
         <source>[181] 副臂气动倒角水平，但垂直电眼亮。</source>
-        <translation type="unfinished">[181] Пневматический рычаг вращается горизонтально, но имеет вертикальный сигнал.</translation>
+        <translation>[181] Пневматический рукой вращается горизонтально, но имеет вертикальный сигнал.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1304"/>
@@ -21265,7 +21264,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1305"/>
         <location filename="xstringresource.cpp" line="2020"/>
         <source>[183] 副臂气动倒角垂直，但水平电眼亮。</source>
-        <translation type="unfinished">[183] Пневматический рычаг вращается вертикально, но имеет горизонтальный сигнал.</translation>
+        <translation>[183] Пневматический рукой вращается вертикально, но имеет горизонтальный сигнал.</translation>
     </message>
     <message>
         <source>[184] 引拔轴不支持的绝对值编码器。</source>
@@ -21400,18 +21399,18 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1657"/>
         <location filename="xstringresource.cpp" line="2035"/>
         <source>[196] 打油报警。</source>
-        <translation type="unfinished">[196] Нефтяная сигнализация.</translation>
+        <translation>[196] Авария, смазка</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1321"/>
         <location filename="xstringresource.cpp" line="1658"/>
         <location filename="xstringresource.cpp" line="2036"/>
         <source>[197] 外部安全门开暂停。</source>
-        <translation type="unfinished">[197] Внешняя дверь безопасности подвешена.</translation>
+        <translation>[197] Открытие наружной защитной двери приостановлено.</translation>
     </message>
     <message>
         <source>[199] 横行轴模内和模外安全区有重叠。</source>
-        <translation type="obsolete">[199] Существует перекрытие между пресс-формой с поперечной осью и внешней зоной безопасности пресс-формы.</translation>
+        <translation type="obsolete">[199] Существует перекрытие между пресс-формой с поперечной осью и внешней зоной безопасности ПФ.</translation>
     </message>
     <message>
         <source>[199] X轴模内和模外安全区有重叠。</source>
@@ -21419,7 +21418,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[199] Y轴模内和模外安全区有重叠。</source>
-        <translation type="obsolete">[199] Зона Y внутри пресс-формы и зона безопасности вне пресс-формы перекрываются.</translation>
+        <translation type="obsolete">[199] Зона Y внутри ПФ и зона безопасности вне ПФ перекрываются.</translation>
     </message>
     <message>
         <source>[199] Z轴模内和模外安全区有重叠。</source>
@@ -21455,7 +21454,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1673"/>
         <location filename="xstringresource.cpp" line="2065"/>
         <source>[211] 电池掉电。</source>
-        <translation type="unfinished">[211] The battery is powered down.</translation>
+        <translation>[211] Батарея разряжена</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1339"/>
@@ -21474,11 +21473,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[215] 横行轴绝对值编码器电池电压低。</source>
-        <translation type="obsolete">[215] Напряжение батареи датчика абсолютной величины бегущей оси низкое.</translation>
+        <translation type="obsolete">[215] Низкое напряжение аккумулятора абсолютного энкодера поперечной оси.</translation>
     </message>
     <message>
         <source>[216] 倒角轴绝对值编码器电池电压低。</source>
-        <translation type="obsolete">[216] The battery voltage of absolute value encoder of rotate axis is low.</translation>
+        <translation type="obsolete">[216] Низкое напряжение батареи абсолютного энкодера оси фаски.</translation>
     </message>
     <message>
         <source>[217] 旋转轴绝对值编码器电池电压低。</source>
@@ -21490,7 +21489,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[220] 倒角轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
-        <translation type="obsolete">[220] The chamfered shaft is not safe and cannot exceed the safety zone when it is running (the horizontal line is not currently in the safe zone).</translation>
+        <translation type="obsolete">[220] Ось снятия фаски небезопасна и не может выходить за зону безопасности во время перемещения (перемещение в настоящее время не находится в безопасной зоне).</translation>
     </message>
     <message>
         <source>[221] 旋转轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
@@ -21560,20 +21559,20 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1662"/>
         <location filename="xstringresource.cpp" line="2040"/>
         <source>[200] 伺服未到达目标位置</source>
-        <translation type="unfinished"></translation>
+        <translation>[200] Сервопривод не достиг заданного положения.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="360"/>
         <location filename="xstringresource.cpp" line="675"/>
         <location filename="xstringresource.cpp" line="989"/>
         <source>[241]手臂在模内。不允许塑机信号长输出</source>
-        <translation type="unfinished"></translation>
+        <translation>[241] Рука находится в форме. Длинный выход сигнала формовочной машины не допускается.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2118"/>
         <source>轴跟随误差过大</source>
         <oldsource>[262]Z轴跟随误差过大</oldsource>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка следования оси слишком велика</translation>
     </message>
     <message>
         <source>[260] </source>
@@ -21603,17 +21602,17 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="885"/>
         <source>[137] 请确认系统设置是否使用气动副臂，检查机械手是否动作，检查副臂气动上行输入是否有0V输入，检查线路。</source>
-        <translation type="unfinished"></translation>
+        <translation>[137] Убедитесь, что система настроена на использование пневматической стрелы, проверьте, движется ли манипулятор, проверьте, есть ли вход 0 В на пневматическом входе стрелы вверх по потоку, и проверьте цепь.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="887"/>
         <source>[139] 请确认系统设置是否使用气动副臂，检查机械手是否动作，检查副臂气动上行输入是否有0V输入，检查线路。</source>
-        <translation type="unfinished"></translation>
+        <translation>[139] Пожалуйста, подтвердите, используется ли пневматический удлинитель в настройках системы, проверьте, движется ли манипулятор, проверьте, есть ли вход 0 В на пневматическом входе переднего укосины и проверьте цепь.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="990"/>
         <source>[242]手臂进入模内，但没有X11信号</source>
-        <translation type="unfinished"></translation>
+        <translation>[242] Рычаг входит в форму, но сигнал X11 отсутствует.</translation>
     </message>
     <message>
         <source>[223] X轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
@@ -21717,7 +21716,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1463"/>
         <source>[019] 自动运行时压铸机安全门没有关闭。</source>
-        <translation type="unfinished">[019] IMM safe door open during automatic state.</translation>
+        <translation>[019] Защитная дверца машины для литья под давлением не закрывается во время автоматической работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1464"/>
@@ -21735,7 +21734,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1474"/>
         <source>[029] 系统设置中禁止[模内倒角]，在模内执行主臂或副臂气动倒角动作不安全。</source>
-        <translation type="unfinished">[029] [Снятие фаски в пресс-форме] запрещено в настройке системы, и небезопасно выполнять снятие фаски с пневматической системы основного рычага или укосины в пресс-форме.</translation>
+        <translation>[029] [Снятие фаски в пресс-форме] запрещено в настройке системы, и небезопасно выполнять снятие фаски с пневматической системы осн. рукойа или укосины в пресс-форме.</translation>
     </message>
     <message>
         <source>[031] 横行轴没有原点信号。</source>
@@ -21749,7 +21748,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1473"/>
         <source>[028] 取件臂上下位置不在安全区域，禁止压铸机关模。</source>
-        <translation type="unfinished">[028] Запрещается закрывать форму, когда вертикальный рычаг продукта не находится сверху.</translation>
+        <translation>[028] Запрещается закрывать форму, когда вертикальный рукой продукта не находится сверху.</translation>
     </message>
     <message>
         <source>[030] 取件Z1轴伺服没有原点信号。</source>
@@ -21775,11 +21774,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[037] 取件臂不在上位，横行动作不安全。</source>
-        <translation type="obsolete">[037] Рычаг захвата не находится в верхнем положении, и горизонтальное перемещение небезопасно.</translation>
+        <translation type="obsolete">[037] Рычаг подборщика не находится в верхнем положении, и горизонтальное движение небезопасно.</translation>
     </message>
     <message>
         <source>[038] 喷雾臂不在上位，横行动作不安全。</source>
-        <translation type="obsolete">[038] Распылительный рычаг не находится в верхнем положении, и горизонтальное перемещение небезопасно.</translation>
+        <translation type="obsolete">[038] Разбрызгиватель не находится в верхнем положении, и горизонтальное перемещение небезопасно.</translation>
     </message>
     <message>
         <source>[039] 取件Z1轴不在上位，前后Y轴运行不安全。</source>
@@ -21787,7 +21786,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[041] 没有开模完信号，上下2轴运行不安全。</source>
-        <translation type="obsolete">[041] Верхняя и нижняя 2 оси небезопасны для работы без сигнала открытия пресс-формы.</translation>
+        <translation type="obsolete">[041] Верхняя и нижняя 2 оси небезопасны для работы без сигнала открытия ПФ.</translation>
     </message>
     <message>
         <source>[042] 没有中板模信号，上下2轴运行不安全。</source>
@@ -21809,7 +21808,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1504"/>
         <source>[042] 没有开中板模确认信号，禁止喷雾轴运转。</source>
-        <translation type="unfinished">[042] Запрещается перемещать аэрозоль без сигнала MMOP.</translation>
+        <translation>[042] Запрещается перемещать распылитель без сигнала MMOP.</translation>
     </message>
     <message>
         <source>[043] 没有开模完成信号，禁止取件Z轴运转。</source>
@@ -21836,7 +21835,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1512"/>
         <location filename="xstringresource.cpp" line="1850"/>
         <source>[049] 气动副臂不在上位，不能自动运行。</source>
-        <translation type="unfinished">[049] Пневматический резиновый рычаг не вверху, не может автоматически работать.</translation>
+        <translation>[049] Пневматическая стрела не находится в верхнем положении и не может работать автоматически.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1519"/>
@@ -21906,7 +21905,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[065] 横行X轴位置在模内安全区域内，但没有检测到模内安全区域信号。</source>
-        <translation type="obsolete">[065] Ось X находится в зоне безопасности внутри пресс-формы, но нет сигнала.</translation>
+        <translation type="obsolete">[065] Ось X находится в зоне безопасности внутри ПФ, но нет сигнала.</translation>
     </message>
     <message>
         <source>[067] 横行X轴不在安全区内，保留轴运动不安全。</source>
@@ -21943,11 +21942,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[076] 倒角水平，但检测到垂直到位信号。</source>
-        <translation type="obsolete">[076] Pneumatic rotates horizontal, but has vertical signal.</translation>
+        <translation type="obsolete">[076] Фаска горизонтальна, но детектируется сигнал вертикального положения.</translation>
     </message>
     <message>
         <source>[077] 倒角垂直，但没有检测到垂直到位信号。</source>
-        <translation type="obsolete">[077] Pneumatic rotated vertical, but no signal is detected.</translation>
+        <translation type="obsolete">[077] Фаска вертикальная, но сигнал вертикального положения не обнаружен.</translation>
     </message>
     <message>
         <source>[078] 倒角垂直，但检测到水平到位信号。</source>
@@ -21955,15 +21954,15 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[079] 前后Y轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="obsolete">[079] И ось серво сигнализации.</translation>
+        <translation type="obsolete">[079] Аварийные сигналы сервопривода передней и задней оси Y. Проверьте сервопривод.</translation>
     </message>
     <message>
         <source>[082] 取件Z1轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="obsolete">[082] Серво-сигналы тревоги оси Z1.</translation>
+        <translation type="obsolete">[082] Сигнал сервопривода оси Z1 для подбора деталей. Проверьте сервопривод.</translation>
     </message>
     <message>
         <source>[084] 等待开模超时。</source>
-        <translation type="obsolete">[084] Ожидание открытой формы сверхурочно.</translation>
+        <translation type="obsolete">[084] Ожидание открытой формы превышено.</translation>
     </message>
     <message>
         <source>[085] 横行X轴伺服报警，请检查伺服驱动器。</source>
@@ -21979,7 +21978,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[097] 压铸机紧急停止，请检查压铸机。</source>
-        <translation type="obsolete">[097] IMM аварийный останов.</translation>
+        <translation type="obsolete">[097] IMM авар. останов.</translation>
     </message>
     <message>
         <source>[100] 上下2轴在模内区域，压铸机开模完信号消失。</source>
@@ -21991,15 +21990,15 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[102] 上下轴在模内区域，压铸机开模完信号消失。</source>
-        <translation type="obsolete">[102] Вертикальный рычаг находится в области пресс-формы, но сигнал СС исчезает.</translation>
+        <translation type="obsolete">[102] Вертикальный рукой находится в области ПФ, но сигнал СС исчезает.</translation>
     </message>
     <message>
         <source>[103] 上下轴在模内区域，压铸机中板模信号消失。</source>
-        <translation type="obsolete">[103] Вертикальный рычаг находится в области пресс-формы, но сигнал MMOP исчезает.</translation>
+        <translation type="obsolete">[103] Вертикальный рукой находится в области ПФ, но сигнал MMOP исчезает.</translation>
     </message>
     <message>
         <source>[110] 上下2轴伺服运行到正极限。</source>
-        <translation type="obsolete">[110] The second vertical axis servo runs to the positive limit.</translation>
+        <translation type="obsolete">[110] Верхний и нижний 2-осевые сервоприводы работают до положительного предела.</translation>
     </message>
     <message>
         <source>[111] 上下2轴伺服运行到负极限。</source>
@@ -22019,19 +22018,19 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[100] 喷雾臂在模内区域，压铸机开模完成信号消失。</source>
-        <translation type="obsolete">[100] Распылитель находится в области пресс-формы, но сигнал СС исчезает.</translation>
+        <translation type="obsolete">[100] Распылитель находится в области ПФ, но сигнал MOP исчезает.</translation>
     </message>
     <message>
         <source>[101] 喷雾臂在模内区域，压铸机开中板模确认信号消失。</source>
-        <translation type="obsolete">[101] Распылитель находится в области пресс-формы, но сигнал MMOP исчезает.</translation>
+        <translation type="obsolete">[101] Распылитель находится в области ПФ, но сигнал MMOP исчезает.</translation>
     </message>
     <message>
         <source>[102] 取件臂在模内区域，压铸机开模完成信号消失。</source>
-        <translation type="obsolete">[102] Рука извлечения находится в области пресс-формы, но сигнал СС исчезает.</translation>
+        <translation type="obsolete">[102] Рука извлечения находится в области ПФ, но сигнал MOP исчезает.</translation>
     </message>
     <message>
         <source>[103] 取件臂在模内区域，压铸机开中板模确认信号消失。</source>
-        <translation type="obsolete">[103] Рычаг захвата находится в области пресс-формы, и высекальный станок открывает режим пластины, чтобы подтвердить, что сигнал исчезает.</translation>
+        <translation type="obsolete">[103] Подборщик находится внутри формы, и машина для литья под давлением открыта, сигнал подтверждения формы изчезает.</translation>
     </message>
     <message>
         <source>[104] 前后Y轴伺服运行到正极限。</source>
@@ -22077,7 +22076,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1569"/>
         <location filename="xstringresource.cpp" line="1936"/>
         <source>[124] 系统设置正臂或副臂气动倒角垂直时，横行运行不安全。</source>
-        <translation type="unfinished">[124] Система устанавливает, когда пневматический продукт или рычаг бегунка вращаются вертикально, перемещение оси перемещения небезопасно.</translation>
+        <translation>[124] Система устанавливает, когда пневматический продукт или рукой бегунка вращаются вертикально, перемещение оси перемещения небезопасно.</translation>
     </message>
     <message>
         <source>[125] 上下轴不在上位，引拔2轴运行不安全。</source>
@@ -22097,7 +22096,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[126] 保留轴运行不安全，超出模内安全区。</source>
-        <translation type="obsolete">[126] Зарезервированный вал небезопасен для эксплуатации за пределами зоны безопасности пресс-формы.</translation>
+        <translation type="obsolete">[126] Зарезервированный вал небезопасен для эксплуатации за пределами зоны безопасности ПФ.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1574"/>
@@ -22120,24 +22119,24 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1579"/>
         <source>[132] 手臂在模内没有开模完(模外待机)。</source>
-        <translation type="unfinished">[132] Рука не имеет сигнала открытия пресс-формы в пресс-форме (из режима ожидания).</translation>
+        <translation>[132] Рука не имеет сигнала открытия ПФ в пресс-форме (ожидание вых. из ПФ).</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1580"/>
         <source>[133] 手臂在模内没有中板模确认信号(模外待机)。</source>
-        <translation type="unfinished">[133] Рука в пресс-форме, но отсутствует сигнал MID (ожидание пресс-формы).</translation>
+        <translation>[133] Рука в пресс-форме, но отсутствует сигнал MID (ожидание вых. из ПФ).</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1585"/>
         <location filename="xstringresource.cpp" line="1958"/>
         <source>[137] 副臂气动下行但电眼不亮。</source>
-        <translation type="unfinished">[137] Пневматический вытяжной рычаг опускается, но нет сигнала.</translation>
+        <translation>[137] Пневмострела опускается, но нет сигнала.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1586"/>
         <location filename="xstringresource.cpp" line="1959"/>
         <source>[138] 副臂气动下行但上行电眼亮。</source>
-        <translation type="unfinished">[138] Пневматический вытяжной рычаг опускается, но имеет сигнал вверх.</translation>
+        <translation>[138] Пневмострела опускается, но имеет сигнал вверх.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1587"/>
@@ -22149,12 +22148,12 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1588"/>
         <location filename="xstringresource.cpp" line="1961"/>
         <source>[140] 副臂气动上行但下行电眼亮。</source>
-        <translation type="unfinished">[140] Пневматический вытяжной рычаг движется вверх, но имеет сигнал вниз.</translation>
+        <translation>[140] Пневмострела движется вверх, но имеет сигнал вниз.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1592"/>
         <source>[144] 副臂气动在模内下位，铸机开模中间信号消失。</source>
-        <translation type="unfinished">[144] Пневматический стояковый рычаг находится внизу в форме, но сигнал MID исчезает.</translation>
+        <translation>[144] Стрела пневматически опускается в форму, и сигнал MID исчезает.</translation>
     </message>
     <message>
         <source>[145] 上下轴模内下位，铸机开模中间信号消失。</source>
@@ -22162,15 +22161,15 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[134] 横行X入模不安全,没有开模完信号(模外待机)。</source>
-        <translation type="obsolete">[134] Для движущейся оси небезопасно движение без сигнала MOP (ожидание формы).</translation>
+        <translation type="obsolete">[134] Для движущейся оси небезопасно движение без сигнала MOP (ожидание вых. из ПФ).</translation>
     </message>
     <message>
         <source>[135] 横行X入模不安全,没有中板模确认信号(模外待机)。</source>
-        <translation type="obsolete">[135] Движущемуся сервоприводу небезопасно передвигаться без сигнала MID (ожидание выхода из формы).</translation>
+        <translation type="obsolete">[135] Движущемуся сервоприводу небезопасно передвигаться без сигнала MID (ожидание вых. из ПФ).</translation>
     </message>
     <message>
         <source>[136] 无效的气动喷雾臂动作。</source>
-        <translation type="obsolete">[136] Недопустимое действие пневматического рычага.</translation>
+        <translation type="obsolete">[136] Недопустимое действие пневморукой.</translation>
     </message>
     <message>
         <source>[137] 喷雾臂下行但电眼不亮。</source>
@@ -22178,7 +22177,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[138] 喷雾臂下行但上行电眼亮。</source>
-        <translation type="obsolete">[138] Распылительный рычаг опускается, но имеет сигнал вверх.</translation>
+        <translation type="obsolete">[138] Распылительный рукой опускается, но имеет сигнал вверх.</translation>
     </message>
     <message>
         <source>[139] 喷雾臂上行但电眼不亮。</source>
@@ -22186,11 +22185,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[140] 喷雾臂上行但下行电眼亮。</source>
-        <translation type="obsolete">[140] Распылительный рычаг перемещается при подъеме, но сигнал снижения включен.</translation>
+        <translation type="obsolete">[140] Распылительный рукой перемещается при подъеме, но сигнал снижения включен.</translation>
     </message>
     <message>
         <source>[141] 横行X轴不在安全区内，喷雾臂气动下行不安全。</source>
-        <translation type="obsolete">[141] It is not safe for pneumatic spray arm to moves down when traveling axis is not in the safety area.</translation>
+        <translation type="obsolete">[141] Горизонтальная ось X не находится в безопасной зоне, и пневматическое движение разбрызгивателя вниз небезопасно.</translation>
     </message>
     <message>
         <source>[142] 模内没有开模完信号，喷雾臂下行不安全。</source>
@@ -22206,7 +22205,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[145] 取件臂在模内没有开模中间信号。</source>
-        <translation type="obsolete">[145] Рука извлечения находится в области пресс-формы, но отсутствует сигнал IMOP.</translation>
+        <translation type="obsolete">[145] Рука извлечения находится в области ПФ, но отсутствует сигнал IMOP.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1595"/>
@@ -22215,15 +22214,15 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[159] 手臂下行不安全，引拔2轴不在模内安全区</source>
-        <translation type="obsolete">[159] Рычаг небезопасен, и две оси не находятся в зоне безопасности внутри пресс-формы</translation>
+        <translation type="obsolete">[159] Рука не в безопасн., и две оси не находятся в зоне безопасности внутри ПФ</translation>
     </message>
     <message>
         <source>[158] 手臂下行不安全，前后Y1轴不在模内安全区。</source>
-        <translation type="obsolete">[158] Движение вниз не безопасно, если ось Y1 не находится в области пресс-формы.</translation>
+        <translation type="obsolete">[158] Движение вниз не безопасно, если ось Y1 не находится в области ПФ.</translation>
     </message>
     <message>
         <source>[159] 手臂下行不安全，保留轴不在模内安全区。</source>
-        <translation type="obsolete">[159] Движение вниз не безопасно, если запасная ось не находится в зоне пресс-формы.</translation>
+        <translation type="obsolete">[159] Движение вниз не безопасно, если запасная ось не находится в зоне ПФ.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1619"/>
@@ -22233,7 +22232,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1620"/>
         <source>[163] 喷雾臂气动引进但引退电眼亮。</source>
-        <translation type="unfinished">[163] Распылительный рычаг вводится пневматически, но электрический глазок яркий.</translation>
+        <translation>[163] Распылитель вводится пневматически, но датчик вкл.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1621"/>
@@ -22255,7 +22254,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[176] 引拔2轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[176] 2-ось не находится в безопасной зоне, а рычаг не безопасен.</translation>
+        <translation type="obsolete">[176] 2-ось не находится в безопасной зоне, движ. рукой не безоп.</translation>
     </message>
     <message>
         <source>[187] 上下2轴不支持的绝对值编码器。</source>
@@ -22275,23 +22274,23 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[167] 保留轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[167] Удерживающий вал не находится в зоне безопасности пресс-формы, и рычаг не безопасен.</translation>
+        <translation type="obsolete">[167] Удерживающий вал не находится в зоне безопасности ПФ, движ. рукой не безоп.</translation>
     </message>
     <message>
         <source>[168] 喷雾Z2轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[168] Ось Z2 распылителя не находится в зоне безопасности пресс-формы, и рычаг не является безопасным.</translation>
+        <translation type="obsolete">[168] Ось Z2 распылителя не находится в зоне безопасности ПФ, движ. рукой не безоп.</translation>
     </message>
     <message>
         <source>[169] 取件Z1轴不在上位，手臂倒角不安全。</source>
-        <translation type="obsolete">[169] Ось Z1 датчика не находится в верхнем положении, и фаска рычага небезопасна.</translation>
+        <translation type="obsolete">[169] Ось Z1 датчика не находится в верхнем положении, движ. рукой не безоп.</translation>
     </message>
     <message>
         <source>[170] 取件Z1轴不在上位，手臂旋转不安全。</source>
-        <translation type="obsolete">[170] Ось Z1 датчика не находится в верхнем положении, и вращение рычага небезопасно.</translation>
+        <translation type="obsolete">[170] Ось Z1 датчика не находится в верхнем положении, и вращение  рукой не безоп.</translation>
     </message>
     <message>
         <source>[171] 喷雾Z2轴不在安全位，手臂横行不安全。</source>
-        <translation type="obsolete">[171] Ось распылителя Z2 не находится в безопасном положении, а рукоятка небезопасна.</translation>
+        <translation type="obsolete">[171] Ось распылителя Z2 не находится в безопасном положении, движ. рукой не безоп.</translation>
     </message>
     <message>
         <source>[174] 喷雾Z2轴位置超过软件行程。</source>
@@ -22303,11 +22302,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[176] 保留轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[176] Стопорная ось не находится в безопасной зоне, а рычаг не безопасен.</translation>
+        <translation type="obsolete">[176] Стопорная ось не находится в безопасной зоне,  движ. рукой не безоп.</translation>
     </message>
     <message>
         <source>[179] 前后Y轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[179] Передняя и задняя оси Y не находятся в безопасной зоне, а руки не безопасны.</translation>
+        <translation type="obsolete">[179] Передняя и задняя оси Y не находятся в безопасной зоне,  движ. рукой не безоп.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1639"/>
@@ -22327,7 +22326,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1642"/>
         <source>[183] 取件臂气动倒角垂直，但水平电眼亮。</source>
-        <translation type="unfinished">[183] Рычаг захвата пневматически скошен вертикально, но горизонтальный электрический глазок яркий.</translation>
+        <translation>[183] рукой захвата пневматически скошен вертикально, но горизонтальный электрический глазок яркий.</translation>
     </message>
     <message>
         <source>[184] 前后Y轴不支持的绝对值编码器。</source>
@@ -22450,12 +22449,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1804"/>
         <source>[019] 自动运行时机床安全门没有关闭。</source>
-        <translation type="unfinished">[019] Машина не имеет сигнала защитного затвора во время автоматической работы.</translation>
+        <translation>[019] Машина не имеет сигнал SDM во время автоматической работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1807"/>
         <source>[019] 自动运行时注塑机安全门没有关闭。</source>
-        <translation type="unfinished">[019] Литьевая машина не имеет сигнала защитного затвора во время автоматической работы.</translation>
+        <translation>[019] Литьевая машина не имеет сигнала SDM во время автоматической работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1812"/>
@@ -22468,7 +22467,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[028] 正臂上下轴不在安全区域，禁止机床关模。</source>
-        <translation type="obsolete">[028] Верхнее и нижнее плечи положительного рычага не находятся в безопасной зоне, и машине запрещено закрывать форму.</translation>
+        <translation type="obsolete">[028] Верхнее и нижнее плечи полож. руки не находятся в безопасной зоне, и машине запрещено закрывать форму.</translation>
     </message>
     <message>
         <source>[027] 副上下轴不在安全区域，禁止注塑机关模。</source>
@@ -22476,7 +22475,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[028] 正上下轴不在安全区域，禁止注塑机关模。</source>
-        <translation type="obsolete">[028] Вертикальная ось не находится в безопасной зоне, и пресс-форма для литьевой машины запрещена.</translation>
+        <translation type="obsolete">[028] Вертикальная ось не находится в безопасной зоне, и ПФ для литьевой машины запрещена.</translation>
     </message>
     <message>
         <source>[027] Z2轴不在安全区域，禁止注塑机关模。</source>
@@ -22484,7 +22483,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[028] Z轴不在安全区域，禁止注塑机关模。</source>
-        <translation type="obsolete">[028] Ось Z не находится в безопасной зоне, и пресс-форма для литьевой машины запрещена.</translation>
+        <translation type="obsolete">[028] Ось Z не находится в безопасной зоне, и ПФ для литьевой машины запрещена.</translation>
     </message>
     <message>
         <source>[027] Y2轴不在安全区域，禁止注塑机关模。</source>
@@ -22492,7 +22491,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[028] Y轴不在安全区域，禁止注塑机关模。</source>
-        <translation type="obsolete">[028] Trục Y không nằm trong vùng an toàn và khuôn máy ép phun bị cấm.</translation>
+        <translation type="obsolete">[028] Ось Y не находится в безопасной зоне, и открывать литьевую форму запрещено.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1826"/>
@@ -22556,15 +22555,15 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[041] 没有开模完信号，副上下轴运行不安全。</source>
-        <translation type="obsolete">[041] Поднизу оси небезопасно работать без сигнала открытия формы.</translation>
+        <translation type="obsolete">[041] Без сигнала завершения открытия формы работа вспомогательной верхней и нижней осей небезопасна.</translation>
     </message>
     <message>
         <source>[042] 没有中板模信号，副上下轴运行不安全。</source>
-        <translation type="obsolete">[042] Без сигнала режима средней пластины субвертикальная ось не безопасна для работы.</translation>
+        <translation type="obsolete">[042] Без сигнала формы средней пластины работа вспомогательной верхней и нижней осей небезопасна.</translation>
     </message>
     <message>
         <source>[043] 没有开模完信号，正上下轴运行不安全。</source>
-        <translation type="obsolete">[043] Сигнал открытия пресс-формы отсутствует, и ось вверх и вниз не безопасна для движения.</translation>
+        <translation type="obsolete">[043] Сигнал открытия ПФ отсутствует, и ось вверх и вниз не безопасна для движения.</translation>
     </message>
     <message>
         <source>[044] 没有中板模信号，正上下轴运行不安全。</source>
@@ -22580,7 +22579,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[047] 正引拔轴运行不安全，超出模内安全区。</source>
-        <translation type="obsolete">[047] Вал положительного волочения не безопасен для эксплуатации за пределами зоны безопасности пресс-формы.</translation>
+        <translation type="obsolete">[047] Работа положительной оси вытягивания небезопасна и превышает безопасную зону в форме.</translation>
     </message>
     <message>
         <source>[038] Z2轴不在上位，X轴运行不安全。</source>
@@ -22588,7 +22587,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[041] 没有开模完信号，Z2轴运行不安全。</source>
-        <translation type="obsolete">[041] Ось Z2 небезопасна для работы без сигнала открытия пресс-формы.</translation>
+        <translation type="obsolete">[041] Ось Z2 небезопасна для работы без сигнала открытия ПФ.</translation>
     </message>
     <message>
         <source>[042] 没有中板模信号，Z2轴运行不安全。</source>
@@ -22612,7 +22611,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[047] X轴运行不安全，超出模内安全区。</source>
-        <translation type="obsolete">[047] Ось X небезопасна для эксплуатации за пределами зоны безопасности пресс-формы.</translation>
+        <translation type="obsolete">[047] Ось X небезопасна для эксплуатации за пределами зоны безопасности ПФ.</translation>
     </message>
     <message>
         <source>[038] Y2轴不在上位，Z轴运行不安全。</source>
@@ -22620,7 +22619,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[041] 没有开模完信号，Y2轴运行不安全。</source>
-        <translation type="obsolete">[041] Ось Y2 небезопасна для работы без сигнала открытия пресс-формы.</translation>
+        <translation type="obsolete">[041] Ось Y2 небезопасна для работы без сигнала открытия ПФ.</translation>
     </message>
     <message>
         <source>[042] 没有中板模信号，Y2轴运行不安全。</source>
@@ -22684,7 +22683,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[061] 上下轴位置超出了软件行程。</source>
-        <translation type="obsolete">[060] Положение осей вверх и вниз находится вне программного хода. {061]?}</translation>
+        <translation type="obsolete">[060] Положение осей вверх и вниз находится вне программного хода. </translation>
     </message>
     <message>
         <source>[062] Z2轴位置超出了软件行程。</source>
@@ -22696,7 +22695,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[065] X轴位置在模内安全区内，但没有检测到模内安全区域信号。</source>
-        <translation type="obsolete">[065] Положение оси X находится в пределах зоны безопасности внутри пресс-формы, но сигнал зоны безопасности внутри пресс-формы не обнаружен.</translation>
+        <translation type="obsolete">[065] Положение оси X находится в пределах зоны безопасности внутри ПФ, но сигнал зоны безопасности внутри ПФ не обнаружен.</translation>
     </message>
     <message>
         <source>[066] X轴位置在模外安全区内，但没有检测到模外安全区域信号。</source>
@@ -22716,7 +22715,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[065] Y轴位置在模内安全区内，但没有检测到模内安全区域信号。</source>
-        <translation type="obsolete">[065] Положение оси Y находится в пределах зоны безопасности внутри пресс-формы, но сигнал зоны безопасности внутри пресс-формы не обнаружен.</translation>
+        <translation type="obsolete">[065] Положение оси Y находится в пределах зоны безопасности внутри ПФ, но сигнал зоны безопасности внутри ПФ не обнаружен.</translation>
     </message>
     <message>
         <source>[066] Y轴位置在模外安全区内，但没有检测到模外安全区域信号。</source>
@@ -22748,7 +22747,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[065] Z轴位置在模内安全区内，但没有检测到模内安全区域信号。</source>
-        <translation type="obsolete">[065] Положение оси Z находится в пределах зоны безопасности внутри пресс-формы, но сигнал зоны безопасности внутри пресс-формы не обнаружен.</translation>
+        <translation type="obsolete">[065] Положение оси Z находится в пределах зоны безопасности внутри ПФ, но сигнал зоны безопасности внутри ПФ не обнаружен.</translation>
     </message>
     <message>
         <source>[066] Z轴位置在模外安全区内，但没有检测到模外安全区域信号。</source>
@@ -22764,24 +22763,24 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[085] 上下轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="obsolete">[082] Серво-сигнализация по вертикальной оси, пожалуйста, проверьте сервопривод. {085]?}</translation>
+        <translation type="obsolete">[085] Аварийный сигнал сервопривода верхней и нижней оси. Проверьте сервопривод.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2331"/>
         <location filename="xstringresource.cpp" line="3027"/>
         <source>吸具3</source>
-        <translation type="unfinished">Всасывающее устройство 3</translation>
+        <translation>Vac 3</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2332"/>
         <location filename="xstringresource.cpp" line="3028"/>
         <source>吸具4</source>
-        <translation type="unfinished">Всасывающее устройство 4</translation>
+        <translation>Vac 4</translation>
     </message>
     <message>
         <source>[070] 请检查</source>
         <oldsource>[071] </oldsource>
-        <translation type="obsolete">[071] </translation>
+        <translation type="obsolete">[070] Пожал-та проверьте</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1877"/>
@@ -22818,7 +22817,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[088] 副臂上下轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="obsolete">[088] Вертикальный сервопривод рычага, пожалуйста, проверьте сервопривод.</translation>
+        <translation type="obsolete">[088] Вертикальный сервопривод рукойа, пожалуйста, проверьте сервопривод.</translation>
     </message>
     <message>
         <source>[089] </source>
@@ -22830,7 +22829,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[091] 副臂引拔轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="obsolete">[091] Вспомогательный рычаг вытягивает сигнал сервопривода оси, проверьте сервопривод.</translation>
+        <translation type="obsolete">[091] Вспомогательный рукой вытягивает сигнал сервопривода оси, проверьте сервопривод.</translation>
     </message>
     <message>
         <source>[092] </source>
@@ -22871,19 +22870,19 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[100] 副上下轴在模内区域，机床开模完信号消失。</source>
-        <translation type="obsolete">[100] The sub-lower axis is in the in-mold area, and the machine mold-opening signal disappears.</translation>
+        <translation type="obsolete">[100] Вспомогательные верхняя и нижняя оси находятся в области формы, и сигнал исчезает после того, как станок открывает форму.</translation>
     </message>
     <message>
         <source>[101] 副上下轴在模内区域，机床中板模信号消失。</source>
-        <translation type="obsolete">[100] Поднизкая ось находится в области пресс-формы, и сигнал открытия пресс-формы машины исчезает.</translation>
+        <translation type="obsolete">[101] Вспомогательные верхняя и нижняя оси находятся в области формы, и сигнал пластинчатой ​​формы в станке исчезает.</translation>
     </message>
     <message>
         <source>[102] 正上下轴在模内区域，机床开模完信号消失。</source>
-        <translation type="obsolete">[102] Trục dọc nằm trong khu vực trong khuôn và tín hiệu mở khuôn máy sẽ biến mất.</translation>
+        <translation type="obsolete">[102] Верхняя и нижняя оси находятся в области формы, и сигнал исчезает после того, как станок открывает форму.</translation>
     </message>
     <message>
         <source>[103] 正上下轴在模内区域，机床中板模信号消失。</source>
-        <translation type="obsolete">[103] Вертикальная ось находится в области пресс-формы, и сигнал режима плиты исчезает в станке.</translation>
+        <translation type="obsolete">[103] Вертикальная ось находится в области ПФ, и сигнал режима плиты исчезает в станке.</translation>
     </message>
     <message>
         <source>[104] 正引拔轴伺服运行到正极限。</source>
@@ -22919,7 +22918,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[100] 副上下轴在模内区域，注塑机开模完信号消失。</source>
-        <translation type="obsolete">[100] Вторичный и нижний валы находятся в области пресс-формы, и сигнал открытия пресс-формы машины для литья под давлением исчезает.</translation>
+        <translation type="obsolete">[100] Вторичный и нижний валы находятся в области ПФ, и сигнал открытия ПФ машины для литья под давлением исчезает.</translation>
     </message>
     <message>
         <source>[101] 副上下轴在模内区域，注塑机中板模信号消失。</source>
@@ -22927,7 +22926,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[102] 正上下轴在模内区域，注塑机开模完信号消失。</source>
-        <translation type="obsolete">[102] Вертикальная ось находится в области пресс-формы, и сигнал о завершении пресс-формы на машине для литья под давлением исчезает.</translation>
+        <translation type="obsolete">[102] Вертикальная ось находится в области ПФ, и сигнал о завершении ПФ на машине для литья под давлением исчезает.</translation>
     </message>
     <message>
         <source>[103] 正上下轴在模内区域，注塑机中板模信号消失。</source>
@@ -22935,7 +22934,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[100] Z2轴在模内区域，注塑机开模完信号消失。</source>
-        <translation type="obsolete">[100] Ось Z2 находится в области пресс-формы, и сигнал открытия пресс-формы машины для литья под давлением исчезает.</translation>
+        <translation type="obsolete">[100] Ось Z2 находится в области ПФ, и сигнал открытия ПФ машины для литья под давлением исчезает.</translation>
     </message>
     <message>
         <source>[101] Z2轴在模内区域，注塑机中板模信号消失。</source>
@@ -22967,7 +22966,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[100] Y2轴在模内区域，注塑机开模完信号消失。</source>
-        <translation type="obsolete">[100] Ось Y2 находится в области пресс-формы, и сигнал открытия пресс-формы машины для литья под давлением исчезает.</translation>
+        <translation type="obsolete">[100] Ось Y2 находится в области ПФ, и сигнал открытия ПФ машины для литья под давлением исчезает.</translation>
     </message>
     <message>
         <source>[101] Y2轴在模内区域，注塑机中板模信号消失。</source>
@@ -22989,7 +22988,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1934"/>
         <source>[123] 没有模外下行安全信号，手臂不能下行。</source>
-        <translation type="unfinished">[123] Нет сигнала безопасности о наличии плесени, рука не может двигаться вниз.</translation>
+        <translation>[123] Без сигнала безопасности «Откр. формы» рычаг не может двигаться вниз.</translation>
     </message>
     <message>
         <source>[125] 副臂上下轴不在上位，副引拔轴运行不安全。</source>
@@ -22997,7 +22996,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[126] 副引拔轴运行不安全，超出模内安全区。</source>
-        <translation type="obsolete">[126] Вторичный тяговый вал небезопасен для эксплуатации за пределами зоны безопасности пресс-формы.</translation>
+        <translation type="obsolete">[126] Вторичный тяговый вал небезопасен для эксплуатации за пределами зоны безопасности ПФ.</translation>
     </message>
     <message>
         <source>[125] Z轴不在上位，Y2轴运行不安全。</source>
@@ -23005,7 +23004,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[126] Y2轴运行不安全，超出不在模内安全区。</source>
-        <translation type="obsolete">[126] Ось Y2 небезопасна и находится за пределами безопасной зоны пресс-формы.</translation>
+        <translation type="obsolete">[126] Ось Y2 небезопасна и находится за пределами безопасной зоны ПФ.</translation>
     </message>
     <message>
         <source>[125] Z轴不在上位，X2轴运行不安全。</source>
@@ -23026,7 +23025,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[130] 正臂引拔轴和副臂引拔轴位置冲突。</source>
-        <translation type="obsolete">[130] Горизонтальное положение изделия и спру горизонтального положения.</translation>
+        <translation type="obsolete">[130] Положения осей выдвижения основного рычага и оси выдвижения вспомогательного рычага конфликтуют.</translation>
     </message>
     <message>
         <source>[130] Y轴和Y2轴位置冲突。</source>
@@ -23039,12 +23038,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1962"/>
         <source>[141] 不在取物点也不在置物点，副臂下行不安全。</source>
-        <translation type="unfinished">[141] Стрела небезопасна не в пункте выдачи или в месте хранения.</translation>
+        <translation>[141] Ни точка извлечения, ни точка хранения не делают небезопасным движение стрелы вниз.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1963"/>
         <source>[142] 模内没有开模完信号，副臂下行不安全。</source>
-        <translation type="unfinished">[142] В пресс-форме нет сигнала открытия пресс-формы, и стрела не является безопасной.</translation>
+        <translation>[142] В пресс-форме нет сигнала открытия ПФ, и стрела не является безопасной.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1964"/>
@@ -23054,11 +23053,11 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1966"/>
         <source>[144] 副臂在模内下位，机床开模中间信号消失。</source>
-        <translation type="unfinished">[144] Стрела находится в нижнем положении в пресс-форме, и сигнал в отверстии пресс-формы машины исчезает.</translation>
+        <translation>[144] Стрела находится в нижнем положении в пресс-форме, и сигнал в отверстии ПФ машины исчезает.</translation>
     </message>
     <message>
         <source>[145] 正上下轴模内下位，机床开模中间信号消失。</source>
-        <translation type="obsolete">[145] Формы нижней и нижней оси находятся в нижнем положении, и промежуточный сигнал открытия пресс-формы машины исчезает.</translation>
+        <translation type="obsolete">[145] Формы нижней и нижней оси находятся в нижнем положении, и промежуточный сигнал открытия ПФ машины исчезает.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1969"/>
@@ -23086,40 +23085,40 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[158] 正臂引拔轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[158] Выдвижной вал положительного рычага не находится в зоне безопасности пресс-формы, и рычаг небезопасен.</translation>
+        <translation type="obsolete">[158] Выдвижной вал полож. руки не находится в зоне безопасности ПФ, и Рука не в безопасн..</translation>
     </message>
     <message>
         <source>[159] 副臂引拔轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[159] Вал выдвижения стрелы не находится в зоне безопасности пресс-формы, и рычаг не безопасен.</translation>
+        <translation type="obsolete">[159] Вал выдвижения стрелы не находится в зоне безопасности ПФ, и рукой не безопасен.</translation>
     </message>
     <message>
         <source>[160] 扩展轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[160] Удлинительный вал не находится в зоне безопасности внутри пресс-формы, и рычаг не безопасен.</translation>
+        <translation type="obsolete">[160] Удлинительный вал не находится в зоне безопасности внутри ПФ, и рукой не безопасен.</translation>
     </message>
     <message>
         <source>[158] Y轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[158] Ось Y не находится в зоне безопасности пресс-формы, и рычаг не является безопасным.</translation>
+        <translation type="obsolete">[158] Ось Y не находится в зоне безопасности ПФ, и рукой не является безопасным.</translation>
     </message>
     <message>
         <source>[159] Y2轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[159] Ось Y2 не находится в зоне безопасности пресс-формы, и рычаг не является безопасным.</translation>
+        <translation type="obsolete">[159] Ось Y2 не находится в зоне безопасности ПФ, и рукой не является безопасным.</translation>
     </message>
     <message>
         <source>[160] A轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[160] Ось A не находится в зоне безопасности пресс-формы, и рычаг не является безопасным.</translation>
+        <translation type="obsolete">[160] Ось A не находится в зоне безопасности ПФ, и рукой не является безопасным.</translation>
     </message>
     <message>
         <source>[158] X轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[158] Ось X не находится в зоне безопасности пресс-формы, и рычаг не является безопасным.</translation>
+        <translation type="obsolete">[158] Ось X не находится в зоне безопасности ПФ, и рукой не является безопасным.</translation>
     </message>
     <message>
         <source>[159] X2轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[159] Ось X2 не находится в зоне безопасности внутри пресс-формы, и рычаг не является безопасным.</translation>
+        <translation type="obsolete">[159] Ось X2 не находится в зоне безопасности внутри ПФ, и рукой не является безопасным.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1991"/>
         <source>[162] 副臂气动引退但电眼不亮。</source>
-        <translation type="unfinished">[162] Пневматический рычаг движется вперед, но сигнала нет.</translation>
+        <translation>[162] Пневматический рукой движется вперед, но сигнала нет.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1992"/>
@@ -23138,11 +23137,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[169] 正臂上下轴不在上位，手臂倒角不安全。</source>
-        <translation type="obsolete">[169] Верхняя и нижняя оси положительного рычага не находятся в верхнем положении, и снятие фаски плеч небезопасно.</translation>
+        <translation type="obsolete">[169] Верхняя и нижняя оси полож. руки не находятся в верхнем положении, и снятие фаски плеч небезопасно.</translation>
     </message>
     <message>
         <source>[170] 正臂上下轴不在上位，手臂旋转不安全。</source>
-        <translation type="obsolete">[170] Верхняя и нижняя оси положительного рычага не находятся в верхнем положении, и вращение рычага небезопасно.</translation>
+        <translation type="obsolete">[170] Верхняя и нижняя оси полож. руки не находятся в верхнем положении, и вращение рукойа небезопасно.</translation>
     </message>
     <message>
         <source>[174] 副臂上下轴位置超过软件行程。</source>
@@ -23154,11 +23153,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[176] 副臂引拔轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[176] Выдвижной вал стрелы не находится в безопасной зоне, а рычаг небезопасен.</translation>
+        <translation type="obsolete">[176] Выдвижной вал стрелы не находится в безопасной зоне, а Рука не в безопасн..</translation>
     </message>
     <message>
         <source>[179] 正臂引拔轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[179] Вал съемника положительного рычага не находится в безопасной зоне, а рычаг небезопасен.</translation>
+        <translation type="obsolete">[179] Вал съемника полож. руки не находится в безопасной зоне, а Рука не в безопасн..</translation>
     </message>
     <message>
         <source>[174] Z2轴位置超过软件行程。</source>
@@ -23178,7 +23177,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[176] X2轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[176] Ось X2 не находится в безопасной зоне, а рычаг не безопасен.</translation>
+        <translation type="obsolete">[176] Ось X2 не находится в безопасной зоне, а рукой не безопасен.</translation>
     </message>
     <message>
         <source>[174] Y2轴位置超过软件行程。</source>
@@ -23186,7 +23185,7 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[177] A轴不在安全区手，臂横行不安全。</source>
-        <translation type="obsolete">[177] Ось A не находится в безопасной зоне, а рычаг не безопасен.</translation>
+        <translation type="obsolete">[177] Ось A не находится в безопасной зоне, а рукой не безопасен.</translation>
     </message>
     <message>
         <source>[184] 正引拔轴不支持绝对值编码器。</source>
@@ -23222,11 +23221,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[193] 副上下轴绝对值编码器通讯错误。</source>
-        <translation type="obsolete">[193] Ошибка связи абсолютного энкодера под нижней осью.</translation>
+        <translation type="obsolete">[193] Ошибка связи абсолютного энкодера вспомогательной верхней и нижней осей.</translation>
     </message>
     <message>
         <source>[194] 副引拔轴绝对值编码器通讯错误。</source>
-        <translation type="obsolete">[194] Ошибка связи абсолютного энкодера оси под-чертежа.</translation>
+        <translation type="obsolete">[194] Ошибка связи абсолютного энкодера вспомогательной оси.</translation>
     </message>
     <message>
         <source>[184] Y轴不支持绝对值编码器。</source>
@@ -23298,11 +23297,11 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[209] 横行不安全，Y或Y2轴不在模内安全区。</source>
-        <translation type="obsolete">[209] Горизонтальная линия небезопасна, а ось Y или Y2 не находится в зоне безопасности внутри пресс-формы.</translation>
+        <translation type="obsolete">[209] Горизонтальная линия небезопасна, а ось Y или Y2 не находится в зоне безопасности внутри ПФ.</translation>
     </message>
     <message>
         <source>[209] 横行不安全，X或X2轴不在模内安全区。</source>
-        <translation type="obsolete">[209] Горизонтальная линия небезопасна, а ось X или X2 не находится в зоне безопасности внутри пресс-формы.</translation>
+        <translation type="obsolete">[209] Горизонтальная линия небезопасна, а ось X или X2 не находится в зоне безопасности внутри ПФ.</translation>
     </message>
     <message>
         <source>[213] 正引拔轴绝对值编码器电池电压低。</source>
@@ -23385,13 +23384,13 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="3233"/>
         <location filename="xstringresource.cpp" line="3318"/>
         <source>吸具1</source>
-        <translation type="unfinished">Всасывающее устройство 1</translation>
+        <translation>Vac 1</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2251"/>
         <location filename="xstringresource.cpp" line="3087"/>
         <source>夹具1</source>
-        <translation type="unfinished">Светильник 1</translation>
+        <translation>Fixture 1</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2220"/>
@@ -23406,7 +23405,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="3235"/>
         <location filename="xstringresource.cpp" line="3320"/>
         <source>抱具1</source>
-        <translation type="unfinished">Клетка 1</translation>
+        <translation>Grp1</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2210"/>
@@ -23454,13 +23453,13 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="2411"/>
         <location filename="xstringresource.cpp" line="2421"/>
         <source>爪手产品检知1</source>
-        <translation type="unfinished">Коготь ручной осмотр продукта 1</translation>
+        <translation>ПроверПродукКлешн 1</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2412"/>
         <location filename="xstringresource.cpp" line="2422"/>
         <source>爪手产品检知2</source>
-        <translation type="unfinished">Коготь ручной осмотр продукта 2</translation>
+        <translation>ПроверПродукКлешн 2</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2413"/>
@@ -23495,23 +23494,23 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="3234"/>
         <location filename="xstringresource.cpp" line="3319"/>
         <source>吸具2</source>
-        <translation type="unfinished">Всасывающее устройство 2</translation>
+        <translation>Vac 2</translation>
     </message>
     <message>
         <source>[079] A轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="obsolete">[094] Серво-сигнал тревоги оси A, пожалуйста, проверьте сервопривод. {079]?}</translation>
+        <translation type="obsolete">[094] Серво-сигнал тревоги оси A, пожалуйста, проверьте серво</translation>
     </message>
     <message>
         <source>[091] Y轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="obsolete">[082] Серво-сигнал тревоги оси Y, пожалуйста, проверьте сервопривод. {091]?}</translation>
+        <translation type="obsolete">[082] Серво-сигнал тревоги оси Y, пожалуйста, проверьте серво</translation>
     </message>
     <message>
         <source>[094] C轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="obsolete">[088] Серво-сигнал тревоги оси C, пожалуйста, проверьте сервопривод. {094]?}</translation>
+        <translation type="obsolete">[088] Серво-сигнал тревоги оси C, пожалуйста, проверьте серво</translation>
     </message>
     <message>
         <source>[108] 上下轴伺服运行到正极限。</source>
-        <translation type="obsolete">[107] Вертикальная ось сервопривода проходит до положительного предела. {108]?}</translation>
+        <translation type="obsolete">[107] Вертикальная ось сервопривода проходит до положительного предела. </translation>
     </message>
     <message>
         <source>[109] 上下轴伺服运行到负极限。</source>
@@ -23519,99 +23518,99 @@ Cick [отмена] вернется и продолжит обучение пр
     </message>
     <message>
         <source>[104] A轴伺服运行到正极限。</source>
-        <translation type="obsolete">[114] Сервопривод оси А работает до положительного предела. {104]?}</translation>
+        <translation type="obsolete">[114] Сервопривод оси А работает до положительного предела.</translation>
     </message>
     <message>
         <source>[105] A轴伺服运行到负极限。</source>
-        <translation type="obsolete">[115] Сервопривод оси А работает до отрицательного предела. {105]?}</translation>
+        <translation type="obsolete">[115] Сервопривод оси А работает до отрицательного предела. </translation>
     </message>
     <message>
         <source>[112] Y轴伺服运行到负极限。</source>
-        <translation type="obsolete">[106] Сервопривод по оси Y работает до отрицательного предела. {112]?}</translation>
+        <translation type="obsolete">[106] Сервопривод по оси Y работает до отрицательного предела. </translation>
     </message>
     <message>
         <source>[113] Y轴伺服运行到正极限。</source>
-        <translation type="obsolete">[107] Сервопривод по оси Y работает до положительного предела. {113]?}</translation>
+        <translation type="obsolete">[107] Сервопривод по оси Y работает до положительного предела. </translation>
     </message>
     <message>
         <source>[114] C轴伺服运行到正极限。</source>
-        <translation type="obsolete">[110] Сервопривод оси С работает до положительного предела. {114]?}</translation>
+        <translation type="obsolete">[110] Сервопривод оси С работает до положительного предела.</translation>
     </message>
     <message>
         <source>[115] C轴伺服运行到负极限。</source>
-        <translation type="obsolete">[111] Сервопривод оси С перемещается к отрицательному пределу. {115]?}</translation>
+        <translation type="obsolete">[111] Сервопривод оси С перемещается к отрицательному пределу. </translation>
     </message>
     <message>
         <source>[125] Z轴不在上位，Y轴运行不安全。</source>
-        <translation type="obsolete">[037] Ось Z не находится в верхнем положении, и ось Y не безопасна для движения. {125]?}</translation>
+        <translation type="obsolete">[037] Ось Z не находится в верхнем положении, и ось Y не безопасна для движения.</translation>
     </message>
     <message>
         <source>[158] A轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[160] Ось A не находится в зоне безопасности пресс-формы, и рычаг не является безопасным. {158]?}</translation>
+        <translation type="obsolete">[160] Ось A не находится в зоне безопасности ПФ, и рукой не является безопасным.</translation>
     </message>
     <message>
         <source>[159] Y轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[158] Ось Y не находится в зоне безопасности пресс-формы, и рычаг не является безопасным. {159]?}</translation>
+        <translation type="obsolete">[158] Ось Y не находится в зоне безопасности ПФ, и рукой не является безопасным.</translation>
     </message>
     <message>
         <source>[160] C轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="obsolete">[168] Ось C не находится в зоне безопасности пресс-формы, и рычаг не является безопасным. {160]?}</translation>
+        <translation type="obsolete">[168] Ось C не находится в зоне безопасности ПФ, и рукой не является безопасным. </translation>
     </message>
     <message>
         <source>[176] Y轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[179] Ось Y не находится в безопасной зоне, а руки не безопасны. {176]?}</translation>
+        <translation type="obsolete">[176] Ось Y находится за пределами безопасной зоны, и перемещать рычаг по горизонтали небезопасно.</translation>
     </message>
     <message>
         <source>[179] A轴不在安全区，手臂横行不安全。</source>
-        <translation type="obsolete">[177] Ось A не находится в безопасной зоне, и руки не безопасны. {179]?}</translation>
+        <translation type="obsolete">[179] Ось А не находится в безопасной зоне, и горизонтальное перемещение руки небезопасно.</translation>
     </message>
     <message>
         <source>[192] 上下轴绝对值编码器通讯错误。</source>
-        <translation type="obsolete">[191] Ошибка связи абсолютного датчика вертикальной оси. {192]?}</translation>
+        <translation type="obsolete">[192] Ошибка связи абсолютного энкодера верхней и нижней оси.</translation>
     </message>
     <message>
         <source>[184] A轴不支持绝对值编码器。</source>
-        <translation type="obsolete">[189] Ось A не поддерживает абсолютные энкодеры. {184]?}</translation>
+        <translation type="obsolete">[184] Ось А не поддерживает абсолютные энкодеры.</translation>
     </message>
     <message>
         <source>[188] Y轴不支持绝对值编码器。</source>
-        <translation type="obsolete">[185] Ось Y не поддерживает абсолютные датчики. {188]?}</translation>
+        <translation type="obsolete">[188] Абсолютный энкодер не поддерживается для оси Y.</translation>
     </message>
     <message>
         <source>[190] A轴绝对值编码器通讯错误。</source>
-        <translation type="obsolete">[195] Ошибка связи абсолютного энкодера по оси А. {190]?}</translation>
+        <translation type="obsolete">[190] Ошибка связи абсолютного энкодера оси А.</translation>
     </message>
     <message>
         <source>[194] Y轴绝对值编码器通讯错误。</source>
-        <translation type="obsolete">[191] Ошибка связи абсолютного энкодера по оси Y. {194]?}</translation>
+        <translation type="obsolete">[194] Ошибка связи абсолютного энкодера оси Y.</translation>
     </message>
     <message>
         <source>[195] C轴绝对值编码器通讯错误。</source>
-        <translation type="obsolete">[193] Ошибка связи абсолютного датчика положения оси C. {195]?}</translation>
+        <translation type="obsolete">[195] Ошибка связи абсолютного энкодера оси C.</translation>
     </message>
     <message>
         <source>[214] 横行轴绝对值编码器电池电压低。</source>
-        <translation type="obsolete">[215] Напряжение батареи датчика абсолютной величины бегущей оси низкое. {214]?}</translation>
+        <translation type="obsolete">[214] Низкое напряжение аккумулятора абсолютного энкодера поперечной оси.</translation>
     </message>
     <message>
         <source>[213] A轴绝对值编码器电池电压低。</source>
-        <translation type="obsolete">[218] Напряжение батареи абсолютного датчика оси А низкое. {213]?}</translation>
+        <translation type="obsolete">[213] Низкое напряжение батареи абсолютного энкодера оси А.</translation>
     </message>
     <message>
         <source>[217] Y轴绝对值编码器电池电压低。</source>
-        <translation type="obsolete">[214] Напряжение батареи абсолютного датчика оси Y низкое. {217]?}</translation>
+        <translation type="obsolete">[217] Низкое напряжение батареи абсолютного энкодера оси Y.</translation>
     </message>
     <message>
         <source>[218] C轴绝对值编码器电池电压低。</source>
-        <translation type="obsolete">[216] Напряжение аккумулятора абсолютного датчика оси C низкое. {218]?}</translation>
+        <translation type="obsolete">[218] Низкое напряжение батареи абсолютного энкодера оси C.</translation>
     </message>
     <message>
         <source>[221] Y轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
-        <translation type="obsolete">[223] Ось Y небезопасна и не может превышать зону безопасности, когда она горизонтальна (горизонтальная линия в настоящее время не находится в безопасной зоне). {221]?}</translation>
+        <translation type="obsolete">[221] Ось Y небезопасна и не может выходить за пределы безопасной зоны при горизонтальном движении (горизонтальное перемещение в настоящее время не находится в безопасной зоне).</translation>
     </message>
     <message>
         <source>[222] C轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
-        <translation type="obsolete">[220] Ось C небезопасна и не может превышать зону безопасности, когда она горизонтальна (горизонтальная линия в настоящее время не находится в безопасной зоне). {222]?}</translation>
+        <translation type="obsolete">[222] Ось C небезопасна и не может выйти за пределы зоны безопасности при горизонтальном движении (в настоящее время перемещение не находится в безопасной зоне).</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2221"/>
@@ -24284,7 +24283,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="2784"/>
         <source>正臂上位安全</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-PAV.USAF</comment>
-        <translation type="unfinished">Мастер позиция на безопасном участке</translation>
+        <translation>PA.ВерхЗонБезоп</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2664"/>
@@ -24327,7 +24326,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="2792"/>
         <source>副臂上位安全</source>
         <comment>翻译时无论什么语言一律使用(中文除外): S-RAV.USAF</comment>
-        <translation type="unfinished">вторая зона безопасности плеча</translation>
+        <translation>RA.ВерхЗонБезоп</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2672"/>
@@ -24767,53 +24766,53 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="2854"/>
         <location filename="xstringresource.cpp" line="2944"/>
         <source>报警灯</source>
-        <translation type="unfinished">ALM-LAMP</translation>
+        <translation>Авар-Свет</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2862"/>
         <location filename="xstringresource.cpp" line="2945"/>
         <source>报警器</source>
-        <translation type="unfinished">ALM-BEEP</translation>
+        <translation>Авар-Звук</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3201"/>
         <source>吹气阀9</source>
-        <translation type="unfinished">Дутьевой клапан 9</translation>
+        <translation>ВыдувКлап 9</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3202"/>
         <source>吹气阀10</source>
-        <translation type="unfinished">Дутьевой клапан 10</translation>
+        <translation>ВыдувКлап 10</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3203"/>
         <source>吹气阀11</source>
-        <translation type="unfinished">Дутьевой клапан 11</translation>
+        <translation>ВыдувКлап 11</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3204"/>
         <source>吹气阀12</source>
-        <translation type="unfinished">Дутьевой клапан 12</translation>
+        <translation>ВыдувКлап 12</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3205"/>
         <source>喷水阀5</source>
-        <translation type="unfinished">Спринклерный клапан 5</translation>
+        <translation>РаспылКлап 5</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3206"/>
         <source>喷水阀6</source>
-        <translation type="unfinished">Клапан распыления воды 6</translation>
+        <translation>РаспылКлап 6</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3326"/>
         <source>副臂夹</source>
-        <translation type="unfinished">EM1</translation>
+        <translation>ЗажРуки</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3380"/>
         <source>传送带</source>
-        <translation type="unfinished">Ленточный конвейер</translation>
+        <translation>КОНВ.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3400"/>
@@ -24844,63 +24843,63 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="146"/>
         <location filename="xstringresource.cpp" line="461"/>
         <source>[027] 请确认%1轴是否在安全位置，不在则移到安全位置，再关模；在，则检查安全区域信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[027] Убедитесь, что ось %1 находится в безопасном положении. Если это не так, переместите ее в безопасное положение, а затем закройте форму. Если это так, проверьте сигнал безопасной зоны.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="147"/>
         <location filename="xstringresource.cpp" line="462"/>
         <source>[028] 请确认%1轴是否在安全区域，不在则移到安全位置，再关模；在，则检查安全区域信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[028] Подтвердите, находится ли ось %1 в безопасной зоне. Если это не так, переместите ее в безопасное положение, а затем закройте форму, если это так, проверьте сигнал безопасной зоны.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="149"/>
         <location filename="xstringresource.cpp" line="464"/>
         <location filename="xstringresource.cpp" line="778"/>
         <source>[030] 请手动把%1轴移到安全位置或复位一次，再进入自动。</source>
-        <translation type="unfinished"></translation>
+        <translation>[030] Пожалуйста, вручную переместите ось %1 в безопасное положение или выполните сброс один раз, а затем войдите в автоматический режим.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="156"/>
         <location filename="xstringresource.cpp" line="471"/>
         <source>[037] 请确认%1轴是否在安全区域，不在则移到安全位置，再横移；在则检查安全区域信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[037] Подтвердите, находится ли ось %1 в безопасной зоне. Если нет, переместите ее в безопасное положение, а затем переместите вбок, если это так, проверьте сигнал безопасной зоны.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="157"/>
         <location filename="xstringresource.cpp" line="472"/>
         <source>[038] 请确认%1轴是否在安全位置，不在则移到安全位置，再横移；在则检查安全区域信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[038] Пожалуйста, подтвердите, находится ли ось %1 в безопасном положении. Если нет, переместите ее в безопасное положение, а затем переместите вбок, если это так, проверьте сигнал безопасной зоны.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="168"/>
         <source>[049] 请确认%1轴是否在原点位置，如不在则手动移到原点位置，再自动；如已在则确认%2轴SCN4的ORG端口原点信号是否正常。</source>
-        <translation type="unfinished"></translation>
+        <translation>[049] Пожалуйста, подтвердите, находится ли ось %1 в исходной позиции. Если нет, переместите ее вручную в исходную позицию, а затем автоматически, если она уже там, подтвердите, находится ли исходный сигнал порта ORG оси %2 SCN4. нормальный.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="184"/>
         <location filename="xstringresource.cpp" line="499"/>
         <source>[065] 请检查%1轴模内安全区域信号是否故障，如正常请检查伺服设置里的安全区域设置范围是否在感应信号范围内。</source>
-        <translation type="unfinished"></translation>
+        <translation>[065] Проверьте, неисправен ли сигнал зоны безопасности в пресс-форме оси %1. Если он в норме, проверьте, находится ли диапазон настройки зоны безопасности в настройках сервопривода в пределах диапазона индукционного сигнала.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="185"/>
         <location filename="xstringresource.cpp" line="500"/>
         <source>[066] 请检查%1轴模外安全区域信号是否故障，如正常请检查伺服设置里的安全区域设置范围是否在感应信号范围内。</source>
-        <translation type="unfinished"></translation>
+        <translation>[066] Проверьте, неисправен ли сигнал зоны безопасности вне формы по оси %1. Если он в норме, проверьте, находится ли диапазон настройки зоны безопасности в настройках сервопривода в пределах диапазона индукционного сигнала.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="188"/>
         <location filename="xstringresource.cpp" line="503"/>
         <location filename="xstringresource.cpp" line="817"/>
         <source>[069] 请检查%1轴上位待机安全区域信号是否故障，如正常请检查伺服设置里的安全区域设置范围是否在感应信号范围内。</source>
-        <translation type="unfinished"></translation>
+        <translation>[069] Проверьте, неисправен ли сигнал верхней резервной зоны безопасности оси %1. Если он в норме, проверьте, находится ли диапазон настройки зоны безопасности в настройках сервопривода в пределах диапазона сенсорного сигнала.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="189"/>
         <location filename="xstringresource.cpp" line="504"/>
         <location filename="xstringresource.cpp" line="818"/>
         <source>[070] 请检查%1轴上位待机安全区域信号是否故障，如正常请检查伺服设置里的安全区域设置范围是否在感应信号范围内。</source>
-        <translation type="unfinished"></translation>
+        <translation>[070] Проверьте, неисправен ли сигнал верхней резервной зоны безопасности оси %1. Если он в норме, проверьте, находится ли диапазон настройки зоны безопасности в настройках сервопривода в пределах диапазона сенсорного сигнала.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="364"/>
@@ -24999,42 +24998,42 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1715"/>
         <location filename="xstringresource.cpp" line="2107"/>
         <source>[251] 驱动器电源模块报警</source>
-        <translation type="unfinished"></translation>
+        <translation>[251] Аварийный сигнал силового модуля привода</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="379"/>
         <source>[260]%1轴跟随误差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[260]%1 ошибка рассогласования по оси слишком велика</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="380"/>
         <source>[261]%1轴跟随误差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[261]%1 ошибка рассогласования по оси слишком велика</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="381"/>
         <source>[262]%1轴跟随误差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[262]%1 ошибка рассогласования по оси слишком велика</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="382"/>
         <source>[263]%1轴跟随误差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[263]%1 ошибка рассогласования по оси слишком велика</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="383"/>
         <source>[264]%1轴跟随误差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[264]%1 ошибка рассогласования по оси слишком велика</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="384"/>
         <source>[265]%1轴跟随误差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[265]%1 ошибка рассогласования по оси слишком велика</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="483"/>
         <source>[049] 请确认%1轴是否在原点位置，如不在则手动移到原点位置，再自动；如已在则确认%1轴SCN4的ORG端口原点信号是否正常。</source>
-        <translation type="unfinished"></translation>
+        <translation>[049] Пожалуйста, подтвердите, находится ли ось %1 в исходной позиции. Если нет, переместите ее вручную в исходную позицию, а затем автоматически, если она уже там, подтвердите, есть ли исходный сигнал порта ORG оси %1; SCN4 в норме.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="694"/>
@@ -25043,7 +25042,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1724"/>
         <location filename="xstringresource.cpp" line="2116"/>
         <source>[260] %1轴跟随误差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[260] %1 ошибка рассогласования оси слишком велика</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="695"/>
@@ -25052,7 +25051,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1725"/>
         <location filename="xstringresource.cpp" line="2117"/>
         <source>[261] %1轴跟随误差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[261] %1 ошибка рассогласования оси слишком велика</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="696"/>
@@ -25060,7 +25059,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1391"/>
         <location filename="xstringresource.cpp" line="1726"/>
         <source>[262] %1轴跟随误差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[262] %1 ошибка рассогласования оси слишком велика</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="697"/>
@@ -25069,7 +25068,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1727"/>
         <location filename="xstringresource.cpp" line="2119"/>
         <source>[263] %1轴跟随误差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[263] %1 ошибка рассогласования оси слишком велика</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="698"/>
@@ -25078,7 +25077,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1728"/>
         <location filename="xstringresource.cpp" line="2120"/>
         <source>[264] %1轴跟随误差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[264] %1 ошибка рассогласования оси слишком велика</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="699"/>
@@ -25087,419 +25086,419 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1729"/>
         <location filename="xstringresource.cpp" line="2121"/>
         <source>[265] %1轴跟随误差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[265] %1 ошибка рассогласования оси слишком велика</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="775"/>
         <source>[027] 请确认%1是否在安全位置，不在则移到安全位置，再关模；在，则检查%2安全区域信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[027] Убедитесь, что %1 находится в безопасном положении. Если нет, переместите его в безопасное положение и закройте форму. Если это так, проверьте сигнал безопасной зоны %2.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="786"/>
         <source>[038] 请确认%1是否在安全位置，不在则移到安全位置，再横移；在则检查%1安全区域信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[038] Пожалуйста, подтвердите, находится ли %1 в безопасном положении. Если нет, перейдите в безопасное положение, а затем переместите его вбок, если это так, проверьте сигнал безопасной зоны %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="797"/>
         <source>[049] 请确认%1轴是否在原点位置，如不在则手动移到原点位置，再自动；如已在则确认%1SCN4的ORG端口原点信号是否正常。</source>
-        <translation type="unfinished"></translation>
+        <translation>[049] Пожалуйста, подтвердите, находится ли ось %1 в исходной позиции. Если нет, переместите ее вручную в исходную позицию, а затем автоматически, если она уже там, подтвердите, является ли исходный сигнал порта ORG %1SCN4 нормальным. .</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1107"/>
         <source>[027] %1轴位置不在安全区域，禁止机床关模。</source>
-        <translation type="unfinished"></translation>
+        <translation>[027] Положение оси %1 не находится в безопасной зоне, и станку запрещено закрывать форму.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1108"/>
         <source>[028] %1轴位置不在安全区域，禁止机床关模。</source>
-        <translation type="unfinished"></translation>
+        <translation>[028] Положение оси %1 не находится в безопасной зоне, и станку запрещено закрывать форму.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1110"/>
         <source>[027] %1轴位置不在安全区域，禁止注塑机关模。</source>
-        <translation type="unfinished"></translation>
+        <translation>[027] Положение оси %1 не находится в безопасной зоне, и открывать литьевую форму запрещено.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1111"/>
         <source>[028] %1轴位置不在安全区域，禁止注塑机关模。</source>
-        <translation type="unfinished"></translation>
+        <translation>[028] Положение оси %1 не находится в безопасной зоне, и открывать литьевую форму запрещено.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1115"/>
         <source>[030] %1轴没有原点信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[030] Ось %1 не имеет исходного сигнала.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1116"/>
         <source>[031] %1轴没有原点信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[031] Ось %1 не имеет исходного сигнала.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1124"/>
         <location filename="xstringresource.cpp" line="1489"/>
         <location filename="xstringresource.cpp" line="1837"/>
         <source>[037] %1轴不在上位，%2轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[037] Ось %1 не находится в верхнем положении, а ось %2 небезопасна для работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1125"/>
         <location filename="xstringresource.cpp" line="1490"/>
         <location filename="xstringresource.cpp" line="1838"/>
         <source>[038] %1轴不在上位，%2轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[038] Ось %1 не находится в верхнем положении, а ось %2 небезопасна для работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1126"/>
         <location filename="xstringresource.cpp" line="1491"/>
         <source>[039] %1轴不在上位，%2轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[039] Ось %1 не находится в верхнем положении, а ось %2 небезопасна для работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1130"/>
         <location filename="xstringresource.cpp" line="1497"/>
         <location filename="xstringresource.cpp" line="1843"/>
         <source>[043] 没有开模完信号，%1轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[043] Сигнал завершения открытия формы отсутствует, и ось %1 небезопасна для работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1131"/>
         <location filename="xstringresource.cpp" line="1498"/>
         <location filename="xstringresource.cpp" line="1844"/>
         <source>[044] 没有中板模信号，%1轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[044] Без сигнала пресс-формы средней пластины ось %1 работать небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1132"/>
         <location filename="xstringresource.cpp" line="1499"/>
         <location filename="xstringresource.cpp" line="1845"/>
         <source>[045] %1轴不在安全区内，%2轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[045] Ось %1 не находится в безопасной зоне, а ось %2 небезопасна для работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1134"/>
         <source>[047] 模内超出安全区，%1轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[047] Пресс-форма выходит за зону безопасности, и ось %1 небезопасна для работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1148"/>
         <location filename="xstringresource.cpp" line="1861"/>
         <source>[059] %1轴位置超出了软件行程。</source>
-        <translation type="unfinished"></translation>
+        <translation>[059] Положение оси %1 превышает программный ход.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1149"/>
         <location filename="xstringresource.cpp" line="1524"/>
         <location filename="xstringresource.cpp" line="1862"/>
         <source>[060] %1轴位置超出了软件行程。</source>
-        <translation type="unfinished"></translation>
+        <translation>[060] Положение оси %1 превышает программный ход.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1150"/>
         <location filename="xstringresource.cpp" line="1525"/>
         <location filename="xstringresource.cpp" line="1863"/>
         <source>[061] %1轴位置超出了软件行程。</source>
-        <translation type="unfinished"></translation>
+        <translation>[061] Положение оси %1 превышает программный ход.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1151"/>
         <location filename="xstringresource.cpp" line="1864"/>
         <source>[062] %1轴位置超出了软件行程。</source>
-        <translation type="unfinished"></translation>
+        <translation>[062] Положение оси %1 превышает программный ход.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1152"/>
         <location filename="xstringresource.cpp" line="1527"/>
         <location filename="xstringresource.cpp" line="1865"/>
         <source>[063] %1轴位置超出了软件行程。</source>
-        <translation type="unfinished"></translation>
+        <translation>[063] Положение оси %1 превышает программный ход.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1153"/>
         <location filename="xstringresource.cpp" line="1528"/>
         <location filename="xstringresource.cpp" line="1866"/>
         <source>[064] %1轴位置超出了软件行程。</source>
-        <translation type="unfinished"></translation>
+        <translation>[064] Положение оси %1 превышает программный ход.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1154"/>
         <location filename="xstringresource.cpp" line="1529"/>
         <source>[065] %1轴位置在模内安全区域内，但没有检测到模内安全区域信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[065] Положение оси %1 находится внутри зоны безопасности внутри формы, но сигнал зоны безопасности внутри формы не обнаружен.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1155"/>
         <location filename="xstringresource.cpp" line="1530"/>
         <source>[066] %1轴位置在模外安全区域内，但没有检测到模外安全区域信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[066] Положение оси %1 находится внутри зоны безопасности вне формы, но сигнал зоны безопасности вне формы не обнаружен.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1156"/>
         <location filename="xstringresource.cpp" line="1869"/>
         <source>[067] %1轴位置不在安全区内，%2轴运动不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[067] Положение оси %1 находится за пределами безопасной зоны, а перемещение оси %2 небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1157"/>
         <location filename="xstringresource.cpp" line="1870"/>
         <source>[068] %1轴位置不在安全区内，%2轴运动不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[068] Положение оси %1 находится за пределами безопасной зоны, а перемещение оси %2 небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1158"/>
         <location filename="xstringresource.cpp" line="1533"/>
         <location filename="xstringresource.cpp" line="1871"/>
         <source>[069] %1轴位置在上位待机安全区内，但没有上位安全区信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[069] Положение оси %1 находится в пределах верхней резервной зоны безопасности, но сигнал верхней зоны безопасности отсутствует.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1159"/>
         <location filename="xstringresource.cpp" line="1872"/>
         <source>[070] %1轴位置在上位待机安全区内，但没有上位安全区信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[070] Положение оси %1 находится в пределах верхней резервной зоны безопасности, но сигнал верхней зоны безопасности отсутствует.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1170"/>
         <location filename="xstringresource.cpp" line="1545"/>
         <location filename="xstringresource.cpp" line="1883"/>
         <source>[079] %1轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[079] %1 Аварийный сигнал сервопривода оси, проверьте сервопривод.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1171"/>
         <location filename="xstringresource.cpp" line="1546"/>
         <location filename="xstringresource.cpp" line="1884"/>
         <source>[080] 主臂引拔伺服没有就绪</source>
-        <translation type="unfinished"></translation>
+        <translation>[080] Сервопривод извлечения главного рычага не готов.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1172"/>
         <location filename="xstringresource.cpp" line="1547"/>
         <location filename="xstringresource.cpp" line="1885"/>
         <source>[081] 主臂引拔伺服不在线</source>
-        <translation type="unfinished"></translation>
+        <translation>[081] Сервопривод тяги главного рычага не находится в режиме онлайн.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1173"/>
         <location filename="xstringresource.cpp" line="1548"/>
         <location filename="xstringresource.cpp" line="1886"/>
         <source>[082] %1轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[082] %1 Аварийный сигнал сервопривода оси, проверьте сервопривод.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1174"/>
         <location filename="xstringresource.cpp" line="1549"/>
         <location filename="xstringresource.cpp" line="1887"/>
         <source>[083] 主臂上下伺服没有就绪</source>
-        <translation type="unfinished"></translation>
+        <translation>[083] Сервопривод подъема и опускания главного рычага не готов.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1176"/>
         <location filename="xstringresource.cpp" line="1551"/>
         <location filename="xstringresource.cpp" line="1889"/>
         <source>[085] %1轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[085] %1 Аварийный сигнал сервопривода оси, проверьте сервопривод.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1177"/>
         <location filename="xstringresource.cpp" line="1552"/>
         <location filename="xstringresource.cpp" line="1890"/>
         <source>[086] 横行伺服没有就绪</source>
-        <translation type="unfinished"></translation>
+        <translation>[086] Сервопривод поперечного хода не готов</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1178"/>
         <location filename="xstringresource.cpp" line="1553"/>
         <location filename="xstringresource.cpp" line="1891"/>
         <source>[087] 横行伺服不在线</source>
-        <translation type="unfinished"></translation>
+        <translation>[087] Горизонтальный сервопривод не в режиме онлайн.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1179"/>
         <location filename="xstringresource.cpp" line="1554"/>
         <location filename="xstringresource.cpp" line="1892"/>
         <source>[088] %1轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[088] %1 Аварийный сигнал сервопривода оси, проверьте сервопривод.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1180"/>
         <source>[089] 副臂上下伺服没有就绪</source>
-        <translation type="unfinished"></translation>
+        <translation>[089] Сервопривод подъема и опускания стрелы не готов.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1181"/>
         <location filename="xstringresource.cpp" line="1556"/>
         <location filename="xstringresource.cpp" line="1894"/>
         <source>[090] 副臂上下伺服不在线</source>
-        <translation type="unfinished"></translation>
+        <translation>[090] Сервопривод подъема и опускания стрелы не находится в режиме онлайн.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1182"/>
         <location filename="xstringresource.cpp" line="1557"/>
         <location filename="xstringresource.cpp" line="1895"/>
         <source>[091] %1轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[091] Аварийный сигнал сервопривода оси %1, проверьте сервопривод.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1183"/>
         <source>[092] 副臂引拔伺服没有就绪</source>
-        <translation type="unfinished"></translation>
+        <translation>[092] Сервопривод извлечения стрелы не готов.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1184"/>
         <location filename="xstringresource.cpp" line="1897"/>
         <source>[093] 副臂引拔伺服不在线</source>
-        <translation type="unfinished"></translation>
+        <translation>[093] Сервопривод подъема стрелы не находится в режиме онлайн.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1185"/>
         <location filename="xstringresource.cpp" line="1898"/>
         <source>[094] %1轴伺服报警，请检查伺服驱动器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[094] %1 Аварийный сигнал сервопривода оси, проверьте сервопривод.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1187"/>
         <location filename="xstringresource.cpp" line="1900"/>
         <source>[095] 扩展伺服没有就绪 </source>
-        <translation type="unfinished"></translation>
+        <translation>[095] Расширенный сервопривод не готов</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1188"/>
         <location filename="xstringresource.cpp" line="1901"/>
         <source>[096] 扩展伺服不在线</source>
-        <translation type="unfinished"></translation>
+        <translation>[096] Расширенный сервопривод не в режиме онлайн.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1196"/>
         <location filename="xstringresource.cpp" line="1910"/>
         <source>[100] %1轴在模内区域，机床开模完信号消失。</source>
-        <translation type="unfinished"></translation>
+        <translation>[100] Ось %1 находится внутри формы, и сигнал исчезает после того, как станок открывает форму.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1197"/>
         <location filename="xstringresource.cpp" line="1911"/>
         <source>[101] %1轴在模内区域，机床中板模信号消失。</source>
-        <translation type="unfinished"></translation>
+        <translation>[101] Ось %1 находится в области пресс-формы, и сигнал пластинчатой ​​пресс-формы в станке исчезает.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1198"/>
         <location filename="xstringresource.cpp" line="1912"/>
         <source>[102] %1轴在模内区域，机床开模完信号消失。</source>
-        <translation type="unfinished"></translation>
+        <translation>[102] Ось %1 находится внутри формы, и сигнал исчезает после того, как станок открывает форму.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1199"/>
         <location filename="xstringresource.cpp" line="1913"/>
         <source>[103] %1轴在模内区域，机床中板模信号消失。</source>
-        <translation type="unfinished"></translation>
+        <translation>[103] Ось %1 находится в области пресс-формы, и сигнал пластинчатой ​​пресс-формы в станке исчезает.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1200"/>
         <location filename="xstringresource.cpp" line="1914"/>
         <source>[104] %1轴伺服运行到正极限。</source>
-        <translation type="unfinished"></translation>
+        <translation>[104] Сервопривод оси %1 работает до положительного предела.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1201"/>
         <location filename="xstringresource.cpp" line="1915"/>
         <source>[105] %1轴伺服运行到负极限。</source>
-        <translation type="unfinished"></translation>
+        <translation>[105] Сервопривод оси %1 работает до отрицательного предела.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1202"/>
         <location filename="xstringresource.cpp" line="1916"/>
         <source>[106] %1轴伺服运行到负极限。</source>
-        <translation type="unfinished"></translation>
+        <translation>[106] Сервопривод оси %1 работает до отрицательного предела.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1203"/>
         <location filename="xstringresource.cpp" line="1917"/>
         <source>[107] %1轴伺服运行到正极限。</source>
-        <translation type="unfinished"></translation>
+        <translation>[107] Сервопривод оси %1 работает до положительного предела.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1204"/>
         <location filename="xstringresource.cpp" line="1918"/>
         <source>[108] %1轴伺服运行到正极限。</source>
-        <translation type="unfinished"></translation>
+        <translation>[108] Сервопривод оси %1 работает до положительного предела.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1205"/>
         <location filename="xstringresource.cpp" line="1919"/>
         <source>[109] %1轴伺服运行到负极限。</source>
-        <translation type="unfinished"></translation>
+        <translation>[109] Сервопривод оси %1 работает до отрицательного предела.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1206"/>
         <location filename="xstringresource.cpp" line="1920"/>
         <source>[110] %1轴伺服运行到正极限。</source>
-        <translation type="unfinished"></translation>
+        <translation>[110] Сервопривод оси %1 работает до положительного предела.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1207"/>
         <location filename="xstringresource.cpp" line="1921"/>
         <source>[111] %1轴伺服运行到负极限。</source>
-        <translation type="unfinished"></translation>
+        <translation>[111] Сервопривод оси %1 работает до отрицательного предела.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1208"/>
         <location filename="xstringresource.cpp" line="1922"/>
         <source>[112] %1轴伺服运行到负极限。</source>
-        <translation type="unfinished"></translation>
+        <translation>[112] Сервопривод оси %1 работает до отрицательного предела.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1209"/>
         <location filename="xstringresource.cpp" line="1923"/>
         <source>[113] %1轴伺服运行到正极限。</source>
-        <translation type="unfinished"></translation>
+        <translation>[113] Сервопривод оси %1 работает до положительного предела.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1210"/>
         <location filename="xstringresource.cpp" line="1559"/>
         <location filename="xstringresource.cpp" line="1924"/>
         <source>[114] %1轴伺服运行到正极限。</source>
-        <translation type="unfinished"></translation>
+        <translation>[114] Сервопривод оси %1 работает до положительного предела.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1211"/>
         <location filename="xstringresource.cpp" line="1560"/>
         <location filename="xstringresource.cpp" line="1925"/>
         <source>[115] %1轴伺服运行到负极限。</source>
-        <translation type="unfinished"></translation>
+        <translation>[115] Сервопривод оси %1 работает до отрицательного предела.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1221"/>
         <source>[124] 系统设置倒角垂直时，%1轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[124] Если система устанавливает вертикальную фаску, работать с осью %1 небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1222"/>
         <source>[125]%1轴不在上位，%2轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[125] Ось %1 не находится в верхнем положении, а работа оси %2 небезопасна.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1223"/>
         <source>[126]%1轴运行不安全，超出模内安全区。</source>
-        <translation type="unfinished"></translation>
+        <translation>[126] Ось %1 работает небезопасно и превышает безопасную зону в пресс-форме.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1233"/>
         <location filename="xstringresource.cpp" line="1948"/>
         <source>[130] %1轴和%2轴位置冲突。</source>
-        <translation type="unfinished"></translation>
+        <translation>[130] Положения осей %1 и %2 конфликтуют.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1238"/>
         <location filename="xstringresource.cpp" line="1582"/>
         <location filename="xstringresource.cpp" line="1954"/>
         <source>[134] %1轴入模不安全,没有开模完信号(模外待机)。</source>
-        <translation type="unfinished"></translation>
+        <translation>[134] Ось %1 небезопасна для входа в форму, и отсутствует сигнал завершения открытия формы (режим ожидания вне формы).</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1239"/>
         <location filename="xstringresource.cpp" line="1583"/>
         <location filename="xstringresource.cpp" line="1955"/>
         <source>[135] %1轴入模不安全,没有中板模信号(模外待机)。</source>
-        <translation type="unfinished"></translation>
+        <translation>[135] Ось %1 небезопасно входит в форму, и отсутствует сигнал средней пластины формы (режим ожидания вне формы).</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1247"/>
@@ -25508,528 +25507,528 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="1253"/>
         <location filename="xstringresource.cpp" line="1589"/>
         <source>[141] %1轴不在安全区内，副臂气动下行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[141] Ось %1 находится вне безопасной зоны, и пневматическое перемещение стрелы вниз небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1259"/>
         <location filename="xstringresource.cpp" line="1967"/>
         <location filename="xstringresource.cpp" line="1970"/>
         <source>[145] %1轴模内下位，机床开模中间信号消失。</source>
-        <translation type="unfinished"></translation>
+        <translation>[145] Ось %1 находится в нижнем положении в пресс-форме, и промежуточный сигнал открытия пресс-формы станка исчезает.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1262"/>
         <source>[145] %1轴模内下位，塑机开模中间信号消失。</source>
-        <translation type="unfinished"></translation>
+        <translation>[145] Ось %1 находится в нижнем положении в форме, и сигнал во время открытия формы пластиковой машиной исчезает.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1277"/>
         <location filename="xstringresource.cpp" line="1608"/>
         <source>[158] 手臂下行不安全，%1轴不在模内安全区。</source>
-        <translation type="unfinished"></translation>
+        <translation>[158] Движение рычага вниз небезопасно, а ось %1 не находится в безопасной зоне внутри пресс-формы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1278"/>
         <source>[159] 手臂下行不安全，%1轴不在模内安全区。</source>
-        <translation type="unfinished"></translation>
+        <translation>[159] Движение рычага вниз небезопасно, а ось %1 не находится в безопасной зоне внутри пресс-формы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1279"/>
         <location filename="xstringresource.cpp" line="1610"/>
         <source>[160] 手臂下行不安全，%1轴不在模内安全区。</source>
-        <translation type="unfinished"></translation>
+        <translation>[160] Движение рычага вниз небезопасно, а ось %1 не находится в безопасной зоне внутри пресс-формы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1288"/>
         <location filename="xstringresource.cpp" line="1626"/>
         <location filename="xstringresource.cpp" line="2003"/>
         <source>[167] %1轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[167] Ось %1 не находится в безопасной зоне внутри пресс-формы, и перемещение рычага вниз небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1289"/>
         <location filename="xstringresource.cpp" line="2004"/>
         <source>[168] %1轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[168] Ось %1 не находится в безопасной зоне внутри пресс-формы, и перемещение рычага вниз небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1290"/>
         <location filename="xstringresource.cpp" line="1628"/>
         <location filename="xstringresource.cpp" line="2005"/>
         <source>[169] %1轴不在上位，手臂倒角不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[169] Ось %1 не находится в верхнем положении, и снятие фаски рычагом небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1291"/>
         <location filename="xstringresource.cpp" line="1629"/>
         <location filename="xstringresource.cpp" line="2006"/>
         <source>[170] %1轴不在上位，手臂旋转不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[170] Ось %1 не находится в верхнем положении, и вращение рычага небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1292"/>
         <location filename="xstringresource.cpp" line="2007"/>
         <source>[171] %1轴不在安全位，手臂横行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[171] Ось %1 находится в небезопасном положении, и перемещать рычаг по горизонтали небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1295"/>
         <location filename="xstringresource.cpp" line="2010"/>
         <source>[174] %1轴位置超过软件行程。</source>
-        <translation type="unfinished"></translation>
+        <translation>[174] Положение оси %1 превышает программный ход.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1296"/>
         <location filename="xstringresource.cpp" line="1634"/>
         <location filename="xstringresource.cpp" line="2011"/>
         <source>[175] %1轴位置超过软件行程。</source>
-        <translation type="unfinished"></translation>
+        <translation>[175] Положение оси %1 превышает программный ход.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1297"/>
         <location filename="xstringresource.cpp" line="1635"/>
         <location filename="xstringresource.cpp" line="2012"/>
         <source>[176] %1轴不在安全区，手臂横行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[176] Ось %1 не находится в безопасной зоне, и горизонтальное перемещение рычага небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1298"/>
         <location filename="xstringresource.cpp" line="1636"/>
         <location filename="xstringresource.cpp" line="2013"/>
         <source>[177] %1轴不在安全区，手臂横行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[177] Ось %1 находится вне безопасной зоны, и перемещать рычаг по горизонтали небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1299"/>
         <location filename="xstringresource.cpp" line="1637"/>
         <location filename="xstringresource.cpp" line="2014"/>
         <source>[178] %1轴运行不安全，不能超过模内安全区。</source>
-        <translation type="unfinished"></translation>
+        <translation>[178] Работа оси %1 небезопасна и не может превышать безопасную зону в пресс-форме.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1300"/>
         <location filename="xstringresource.cpp" line="2015"/>
         <source>[179] %1轴不在安全区，手臂横行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[179] Ось %1 не находится в безопасной зоне, и горизонтальное перемещение рычага небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1307"/>
         <source>[184] %1轴不支持的绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[184] Абсолютный датчик не поддерживается осью %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1308"/>
         <location filename="xstringresource.cpp" line="1645"/>
         <source>[185] %1轴不支持的绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[185] Абсолютный датчик не поддерживается осью %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1309"/>
         <source>[186] %1轴不支持的绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[186] Абсолютный датчик не поддерживается осью %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1310"/>
         <source>[187] %1轴不支持的绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[187] Абсолютный датчик не поддерживается осью %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1311"/>
         <location filename="xstringresource.cpp" line="1648"/>
         <source>[188] %1轴不支持的绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[188] Абсолютный датчик не поддерживается осью %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1312"/>
         <location filename="xstringresource.cpp" line="1649"/>
         <source>[189] %1轴不支持的绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[189] Абсолютный датчик не поддерживается осью %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1313"/>
         <location filename="xstringresource.cpp" line="2028"/>
         <source>[190] %1轴绝对值编码器通讯错误。</source>
-        <translation type="unfinished"></translation>
+        <translation>[190] %1 Ошибка связи абсолютного энкодера оси.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1314"/>
         <location filename="xstringresource.cpp" line="1651"/>
         <location filename="xstringresource.cpp" line="2029"/>
         <source>[191] %1轴绝对值编码器通讯错误。</source>
-        <translation type="unfinished"></translation>
+        <translation>[191] %1 Ошибка связи абсолютного энкодера оси.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1315"/>
         <location filename="xstringresource.cpp" line="2030"/>
         <source>[192] %1轴绝对值编码器通讯错误。</source>
-        <translation type="unfinished"></translation>
+        <translation>[192] %1 Ошибка связи абсолютного энкодера оси.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1316"/>
         <location filename="xstringresource.cpp" line="2031"/>
         <source>[193] %1轴绝对值编码器通讯错误。</source>
-        <translation type="unfinished"></translation>
+        <translation>[193] %1 Ошибка связи абсолютного энкодера оси.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1317"/>
         <location filename="xstringresource.cpp" line="1654"/>
         <location filename="xstringresource.cpp" line="2032"/>
         <source>[194] %1轴绝对值编码器通讯错误。</source>
-        <translation type="unfinished"></translation>
+        <translation>[194] %1 Ошибка связи абсолютного энкодера оси.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1318"/>
         <location filename="xstringresource.cpp" line="1656"/>
         <location filename="xstringresource.cpp" line="2033"/>
         <source>[195] %1轴绝对值编码器通讯错误。</source>
-        <translation type="unfinished"></translation>
+        <translation>[195] %1 Ошибка связи абсолютного энкодера оси.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1324"/>
         <location filename="xstringresource.cpp" line="1660"/>
         <location filename="xstringresource.cpp" line="2038"/>
         <source>[199] %1轴模内和模外安全区有重叠。</source>
-        <translation type="unfinished"></translation>
+        <translation>[199] Между безопасными зонами внутри и снаружи пресс-формы оси %1 перекрываются.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1335"/>
         <source>[209] 横行不安全,%1轴不在模内安全区。</source>
-        <translation type="unfinished"></translation>
+        <translation>[209] Горизонтальное перемещение небезопасно: ось %1 находится вне безопасной зоны внутри пресс-формы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1341"/>
         <location filename="xstringresource.cpp" line="2068"/>
         <source>[213] %1轴绝对值编码器电池电压低。</source>
-        <translation type="unfinished"></translation>
+        <translation>[213] Низкое напряжение батареи абсолютного энкодера оси %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1342"/>
         <location filename="xstringresource.cpp" line="1677"/>
         <location filename="xstringresource.cpp" line="2069"/>
         <source>[214] %1轴绝对值编码器电池电压低。</source>
-        <translation type="unfinished"></translation>
+        <translation>[214] Низкое напряжение батареи абсолютного энкодера оси %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1343"/>
         <location filename="xstringresource.cpp" line="2070"/>
         <source>[215] %1轴绝对值编码器电池电压低。</source>
-        <translation type="unfinished"></translation>
+        <translation>[215] Низкое напряжение батареи абсолютного энкодера оси %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1344"/>
         <location filename="xstringresource.cpp" line="2071"/>
         <source>[216] %1轴绝对值编码器电池电压低。</source>
-        <translation type="unfinished"></translation>
+        <translation>[216] Низкое напряжение батареи абсолютного энкодера оси %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1345"/>
         <location filename="xstringresource.cpp" line="1680"/>
         <location filename="xstringresource.cpp" line="2072"/>
         <source>[217] %1轴绝对值编码器电池电压低。</source>
-        <translation type="unfinished"></translation>
+        <translation>[217] Низкое напряжение батареи абсолютного энкодера оси %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1346"/>
         <location filename="xstringresource.cpp" line="1681"/>
         <location filename="xstringresource.cpp" line="2073"/>
         <source>[218] %1轴绝对值编码器电池电压低。</source>
-        <translation type="unfinished"></translation>
+        <translation>[218] Низкое напряжение батареи абсолютного энкодера оси %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1348"/>
         <location filename="xstringresource.cpp" line="2075"/>
         <source>[220] %1轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
-        <translation type="unfinished"></translation>
+        <translation>[220] Ось %1 небезопасна и не может выйти за безопасную зону при горизонтальном движении (горизонтальное движение в настоящее время не находится в безопасной зоне).</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1349"/>
         <location filename="xstringresource.cpp" line="1684"/>
         <location filename="xstringresource.cpp" line="2076"/>
         <source>[221] %1轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
-        <translation type="unfinished"></translation>
+        <translation>[221] Ось %1 небезопасна и не может выйти за пределы безопасной зоны при горизонтальном движении (горизонтальное перемещение в настоящее время не находится в безопасной зоне).</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1350"/>
         <location filename="xstringresource.cpp" line="1685"/>
         <location filename="xstringresource.cpp" line="2077"/>
         <source>[222] %1轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
-        <translation type="unfinished"></translation>
+        <translation>[222] Ось %1 небезопасна и не может выйти за безопасную зону при горизонтальном движении (горизонтальное движение в настоящее время не находится в безопасной зоне).</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1351"/>
         <location filename="xstringresource.cpp" line="2078"/>
         <source>[223] %1轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
-        <translation type="unfinished"></translation>
+        <translation>[223] Ось %1 небезопасна и не может выйти за безопасную зону при горизонтальном движении (горизонтальное движение в настоящее время не находится в безопасной зоне).</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1364"/>
         <location filename="xstringresource.cpp" line="2091"/>
         <source>[235] %1轴不在上位安全区</source>
-        <translation type="unfinished"></translation>
+        <translation>[235] Ось %1 не находится в верхней зоне безопасности</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1365"/>
         <location filename="xstringresource.cpp" line="2092"/>
         <source>[236] %1轴不在上位安全区</source>
-        <translation type="unfinished"></translation>
+        <translation>[236] Ось %1 не находится в верхней зоне безопасности</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1367"/>
         <location filename="xstringresource.cpp" line="2094"/>
         <source>[238] 绝对值编码器电池没电或掉线</source>
-        <translation type="unfinished"></translation>
+        <translation>[238] Батарея абсолютного энкодера разряжена или отсоединена.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1370"/>
         <location filename="xstringresource.cpp" line="1705"/>
         <location filename="xstringresource.cpp" line="2097"/>
         <source>[241] 手臂在模内。不允许塑机信号长输出</source>
-        <translation type="unfinished"></translation>
+        <translation>[241] Рука находится в форме. Длинный выход сигнала формовочной машины не допускается.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1371"/>
         <location filename="xstringresource.cpp" line="1706"/>
         <location filename="xstringresource.cpp" line="2098"/>
         <source>[242] 手臂进入模内，但没有X11信号</source>
-        <translation type="unfinished"></translation>
+        <translation>[242] Рычаг входит в форму, но сигнал X11 отсутствует.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1475"/>
         <source>[030] %1轴伺服没有原点信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[030] Сервопривод оси %1 не имеет исходного сигнала.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1476"/>
         <source>[031] 横行%1轴伺服没有原点信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[031] Сервопривод горизонтальной оси %1 не имеет исходного сигнала.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1495"/>
         <location filename="xstringresource.cpp" line="1841"/>
         <source>[041] 没有开模完信号，%1轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[041] Отсутствует сигнал завершения открытия формы, и ось %1 небезопасна для работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1496"/>
         <location filename="xstringresource.cpp" line="1842"/>
         <source>[042] 没有中板模信号，%1轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[042] Без сигнала пресс-формы средней пластины ось %1 работать небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1500"/>
         <location filename="xstringresource.cpp" line="1846"/>
         <source>[046] %1轴不在安全区内，%2轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[046] Ось %1 не находится в безопасной зоне, а ось %2 небезопасна для работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1501"/>
         <source>[047] 超出模内安全区，%1轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[047] За пределами безопасной зоны в форме ось %1 небезопасна для работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1505"/>
         <source>[043] 没有开模完成信号，禁止取件%1轴运转。</source>
-        <translation type="unfinished"></translation>
+        <translation>[043] Отсутствует сигнал завершения открытия формы, и работа оси захвата %1 запрещена.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1506"/>
         <source>[044] 没有开中板模确认信号，禁止取件%1轴运转。</source>
-        <translation type="unfinished"></translation>
+        <translation>[044] Нет сигнала подтверждения открытия формы, и работа оси захвата %1 запрещена.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1507"/>
         <source>[045] %1轴不在安全区域内，%2轴运转不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[045] Ось %1 находится вне безопасной зоны, а ось %2 небезопасна для работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1508"/>
         <source>[046] %1轴不在安全区域内，喷雾%2轴运转不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[046] Ось %1 не находится в безопасной зоне, а ось распыления %2 небезопасна в эксплуатации.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1523"/>
         <source>[059] 前后%1轴位置超出了软件行程。</source>
-        <translation type="unfinished"></translation>
+        <translation>[059] Положения передней и задней оси %1 превышают программный ход.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1526"/>
         <source>[062] 喷雾%1轴位置超出了软件行程。</source>
-        <translation type="unfinished"></translation>
+        <translation>[062] Положение оси распыления %1 превышает программный ход.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1531"/>
         <source>[067] %1轴不在安全区内，%2轴运动不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[067] Ось %1 не находится в безопасной зоне, а перемещение оси %2 небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1532"/>
         <source>[068] %1轴不在安全区内，前后%2轴运动不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[068] Ось %1 не находится в безопасной зоне, а движения передней и задней оси %2 небезопасны.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1534"/>
         <source>[070] 喷雾%1轴位置在上位待机安全区内，但没有上位安全区信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[070] Положение оси распыления %1 находится в верхней резервной зоне безопасности, но сигнал верхней зоны безопасности отсутствует.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1536"/>
         <source>[071] 主臂上下伺服不在线</source>
-        <translation type="unfinished"></translation>
+        <translation>[071] Верхний и нижний сервоприводы главного рычага не подключены к сети.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1555"/>
         <location filename="xstringresource.cpp" line="1893"/>
         <source>[089] 副臂上下伺服没有就绪 </source>
-        <translation type="unfinished"></translation>
+        <translation>[089] Сервопривод подъема и опускания стрелы не готов.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1570"/>
         <location filename="xstringresource.cpp" line="1937"/>
         <source>[125] %1轴不在上位，%2轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[125] Ось %1 не находится в верхнем положении, а работа оси %2 небезопасна.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1571"/>
         <location filename="xstringresource.cpp" line="1938"/>
         <source>[126] %1轴运行不安全，超出模内安全区。</source>
-        <translation type="unfinished"></translation>
+        <translation>[126] Работа оси %1 небезопасна и превышает безопасную зону в пресс-форме.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1576"/>
         <source>[130] %1轴和%1轴位置冲突。</source>
-        <translation type="unfinished"></translation>
+        <translation>[130] Положения оси %1 и оси %1 конфликтуют.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1593"/>
         <source>[145] %1轴模内下位，铸机开模中间信号消失。</source>
-        <translation type="unfinished"></translation>
+        <translation>[145] Ось %1 находится в нижнем положении в форме, и сигнал во время открытия формы литейной машины исчезает.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1609"/>
         <source>[159] 手臂下行不安全，%1轴不在模内安全区</source>
-        <translation type="unfinished"></translation>
+        <translation>[159] Движение рычага вниз небезопасно, ось %1 не находится в безопасной зоне внутри пресс-формы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1627"/>
         <source>[168] 喷雾%1轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[168] Ось распыления %1 не находится в безопасной зоне внутри формы, и перемещение рычага вниз небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1630"/>
         <source>[171] 喷雾%1轴不在安全位，手臂横行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[171] Ось распылителя %1 находится не в безопасном положении, и перемещать рычаг в сторону небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1633"/>
         <source>[174] 喷雾%1轴位置超过软件行程。</source>
-        <translation type="unfinished"></translation>
+        <translation>[174] Положение оси распыления %1 превышает программный ход.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1638"/>
         <source>[179] 前后%1轴不在安全区，手臂横行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[179] Передняя и задняя оси не находятся в безопасной зоне, и перемещать рычаги в стороны небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1644"/>
         <source>[184] 前后%1轴不支持的绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[184] Неподдерживаемый абсолютный энкодер для передней и задней осей %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1646"/>
         <source>[186] 横行%1轴不支持的绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[186] Неподдерживаемый абсолютный датчик для оси %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1647"/>
         <source>[187] 喷雾%1轴不支持的绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[187] Неподдерживаемый абсолютный датчик оси распыления %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1650"/>
         <source>[190] 前后%1轴绝对值编码器通讯错误。</source>
-        <translation type="unfinished"></translation>
+        <translation>[190] Ошибка связи между передним и задним абсолютными энкодерами оси %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1652"/>
         <source>[192] 横行%1轴绝对值编码器通讯错误。</source>
-        <translation type="unfinished"></translation>
+        <translation>[192] Ошибка связи абсолютного энкодера поперечной оси %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1653"/>
         <source>[193] 喷雾%1轴绝对值编码器通讯错误。</source>
-        <translation type="unfinished"></translation>
+        <translation>[193] Распыление %1, ошибка связи абсолютного энкодера оси.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1676"/>
         <source>[213] 前后%1轴绝对值编码器电池电压低。</source>
-        <translation type="unfinished"></translation>
+        <translation>[213] Низкое напряжение аккумуляторной батареи переднего и заднего абсолютного энкодера оси %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1679"/>
         <source>[216] 喷雾%1轴绝对值编码器电池电压低。</source>
-        <translation type="unfinished"></translation>
+        <translation>[216] Низкое напряжение аккумулятора абсолютного энкодера оси распыления %1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1683"/>
         <source>[220] 喷雾%1轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
-        <translation type="unfinished"></translation>
+        <translation>[220] Ось распыления %1 небезопасна и не может выйти за пределы безопасной зоны при горизонтальном движении (горизонтальное движение в данный момент не находится в безопасной зоне).</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1686"/>
         <source>[223] 前后%1轴不安全,不能超过横行时安全区(横行当前不在安全区)。</source>
-        <translation type="unfinished"></translation>
+        <translation>[223] Передняя и задняя оси %1 небезопасны и не могут выходить за пределы безопасной зоны во время движения (в настоящее время движение не находится в безопасной зоне).</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1817"/>
         <source>[027] %1轴不在安全区域，禁止机床关模。</source>
-        <translation type="unfinished"></translation>
+        <translation>[027] Ось %1 не находится в безопасной зоне, и станку запрещено закрывать форму.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1818"/>
         <source>[028] %1轴不在安全区域，禁止机床关模。</source>
-        <translation type="unfinished"></translation>
+        <translation>[028] Ось %1 не находится в безопасной зоне, и станку запрещено закрывать форму.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1820"/>
         <location filename="xstringresource.cpp" line="1823"/>
         <source>[027] %1轴不在安全区域，禁止机床加工。</source>
-        <translation type="unfinished"></translation>
+        <translation>[027] Ось %1 находится вне безопасной зоны, и обработка на станке запрещена.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1821"/>
         <location filename="xstringresource.cpp" line="1824"/>
         <source>[028] %1轴不在安全区域，禁止机床加工。</source>
-        <translation type="unfinished"></translation>
+        <translation>[028] Ось %1 находится вне безопасной зоны, и обработка на станке запрещена.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1828"/>
         <source>[030] %1轴不在原点位置，不能自动运行。</source>
-        <translation type="unfinished"></translation>
+        <translation>[030] Ось %1 не находится в исходном положении и не может работать автоматически.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1829"/>
         <source>[031] %1轴不在模外安全区域，不能自动运行。</source>
-        <translation type="unfinished"></translation>
+        <translation>[031] Ось %1 находится за пределами безопасной зоны за пределами пресс-формы и не может работать автоматически.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1839"/>
         <source>[039] %1轴不在上位，%1轴运行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[039] Ось %1 не находится в верхнем положении, и ось %1 небезопасна для работы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1847"/>
         <source>[047] %1轴运行不安全，超出模内安全区。</source>
-        <translation type="unfinished"></translation>
+        <translation>[047] Работа оси %1 небезопасна и превышает безопасную зону в пресс-форме.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1867"/>
         <source>[065] %1轴位置在模内安全区内，但没有检测到模内安全区域信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[065] Положение оси %1 находится внутри зоны безопасности внутри формы, но сигнал зоны безопасности внутри формы не обнаружен.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1868"/>
         <source>[066] %1轴位置在模外安全区内，但没有检测到模外安全区域信号。</source>
-        <translation type="unfinished"></translation>
+        <translation>[066] Положение оси %1 находится внутри зоны безопасности вне формы, но сигнал зоны безопасности за пределами формы не обнаружен.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1874"/>
@@ -26039,58 +26038,58 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="1896"/>
         <source>[092] 副臂引拔伺服没有就绪 </source>
-        <translation type="unfinished"></translation>
+        <translation>[092] Сервопривод извлечения стрелы не готов.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1985"/>
         <source>[158] %1轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[158] Ось %1 не находится в безопасной зоне внутри пресс-формы, и перемещение рычага вниз небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1986"/>
         <source>[159] %1轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[159] Ось %1 не находится в безопасной зоне внутри пресс-формы, и перемещение рычага вниз небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="1987"/>
         <source>[160] %1轴不在模内安全区，手臂下行不安全。</source>
-        <translation type="unfinished"></translation>
+        <translation>[160] Ось %1 не находится в безопасной зоне внутри пресс-формы, и перемещение рычага вниз небезопасно.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2022"/>
         <source>[184] %1轴不支持绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[184] Ось %1 не поддерживает абсолютные энкодеры.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2023"/>
         <source>[185] %1轴不支持绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[185] Ось %1 не поддерживает абсолютные энкодеры.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2024"/>
         <source>[186] %1轴不支持绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[186] Ось %1 не поддерживает абсолютные энкодеры.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2025"/>
         <source>[187] %1轴不支持绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[187] Ось %1 не поддерживает абсолютные энкодеры.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2026"/>
         <source>[188] %1轴不支持绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[188] Ось %1 не поддерживает абсолютные энкодеры.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2027"/>
         <source>[189] %1轴不支持绝对值编码器。</source>
-        <translation type="unfinished"></translation>
+        <translation>[189] Ось %1 не поддерживает абсолютные энкодеры.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2050"/>
         <location filename="xstringresource.cpp" line="2052"/>
         <source>[209] 横行不安全，%1轴不在模内安全区。</source>
-        <translation type="unfinished"></translation>
+        <translation>[209] Горизонтальное перемещение небезопасно, а ось %1 не находится в безопасной зоне внутри пресс-формы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2054"/>
@@ -26099,88 +26098,88 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="2060"/>
         <location filename="xstringresource.cpp" line="2062"/>
         <source>[209] 横行不安全，%1或%2轴不在模内安全区。</source>
-        <translation type="unfinished"></translation>
+        <translation>[209] Горизонтальное перемещение небезопасно: ось %1 или %2 находится вне безопасной зоны внутри пресс-формы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2276"/>
         <source>光栅1</source>
-        <translation type="unfinished"></translation>
+        <translation>Решетка1</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2277"/>
         <source>光栅2</source>
-        <translation type="unfinished"></translation>
+        <translation>Решетка2</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2292"/>
         <source>上胚启动</source>
-        <translation type="unfinished"></translation>
+        <translation>Запуск машины</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2297"/>
         <location filename="xstringresource.cpp" line="2857"/>
         <source>副夹</source>
-        <translation type="unfinished"></translation>
+        <translation>RClip</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2364"/>
         <location filename="xstringresource.cpp" line="2890"/>
         <source>吸3</source>
-        <translation type="unfinished"></translation>
+        <translation>Vac 3</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2365"/>
         <location filename="xstringresource.cpp" line="2891"/>
         <source>吸4</source>
-        <translation type="unfinished"></translation>
+        <translation>Vac 4</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2834"/>
         <source>副臂水平到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-I.HOR</comment>
-        <translation type="unfinished"></translation>
+        <translation>RA-I HOR</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2835"/>
         <source>副臂垂直到位</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-I.VER</comment>
-        <translation type="unfinished"></translation>
+        <translation>RA-I VER</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2881"/>
         <source>刀1</source>
-        <translation type="unfinished"></translation>
+        <translation>Нож 1</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2882"/>
         <source>刀2</source>
-        <translation type="unfinished"></translation>
+        <translation>Нож 2</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2954"/>
         <source>保留/副臂夹</source>
-        <translation type="unfinished"></translation>
+        <translation>Удерж/Зажим</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2959"/>
         <source>运行灯</source>
-        <translation type="unfinished"></translation>
+        <translation>Старт</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="2960"/>
         <source>送料机</source>
-        <translation type="unfinished"></translation>
+        <translation>Подача</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3381"/>
         <source>剪刀</source>
-        <translation type="unfinished"></translation>
+        <translation>НОЖН.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3403"/>
         <source>EMC 允许加工</source>
         <comment>翻译时无论什么语言一律使用(中文除外): IMM-EMC</comment>
-        <translation type="unfinished"></translation>
+        <translation>ОбрРазр EMC</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3409"/>
@@ -26381,13 +26380,13 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="3468"/>
         <source>副臂倒平</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-O.HOR</comment>
-        <translation type="unfinished"></translation>
+        <translation>RA-O.HOR</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3469"/>
         <source>副臂倒直</source>
         <comment>翻译时无论什么语言一律使用(中文除外): RA-O.VER</comment>
-        <translation type="unfinished"></translation>
+        <translation>RA-O.VER</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3552"/>
@@ -26483,49 +26482,49 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="3483"/>
         <source>打油</source>
         <comment>翻译时无论什么语言一律使用(中文除外): OIL</comment>
-        <translation type="unfinished">OIL</translation>
+        <translation>Смаз</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3484"/>
         <source>传送带</source>
         <comment>翻译时无论什么语言一律使用(中文除外): CONV</comment>
-        <translation type="unfinished">Ленточный конвейер</translation>
+        <translation>КОНВ.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3485"/>
         <source>剪刀</source>
         <comment>翻译时无论什么语言一律使用(中文除外): CUT</comment>
-        <translation type="unfinished"></translation>
+        <translation>НОЖН.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3494"/>
         <source>操作器软件启动完成。</source>
-        <translation type="unfinished">Запуск программного обеспечения оператора завершен.</translation>
+        <translation>Запуск ПО оператора завершен.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3496"/>
         <source>手动控制机械手开始复归操作。</source>
-        <translation type="unfinished">Руководство: робот самонаведения.</translation>
+        <translation>Ручной: робот в Дом</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3498"/>
         <source>载入当前程序：</source>
-        <translation type="unfinished">Загрузить текущую программу:</translation>
+        <translation>Загр.текущ.программу:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3500"/>
         <source>创建新程序文件：</source>
-        <translation type="unfinished">Новая программа:</translation>
+        <translation>Новая прогр.а:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3502"/>
         <source>重命名程序文件：</source>
-        <translation type="unfinished">Переименовать программу:</translation>
+        <translation>Переим. программу:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3504"/>
         <source>复制程序文件：</source>
-        <translation type="unfinished">Скопировать программу:</translation>
+        <translation>Скопир.программу:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3506"/>
@@ -26535,302 +26534,302 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="3508"/>
         <source>导出程序文件到USB存储器：</source>
-        <translation type="unfinished">Экспорт программы на USB-накопитель:</translation>
+        <translation>Экспорт программы на USB:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3510"/>
         <source>从USB存储器导入程序文件：</source>
-        <translation type="unfinished">Импортировать программу с USB-накопителя:</translation>
+        <translation>Импортир. программу с USB:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3512"/>
         <source>登录用户：操作员</source>
-        <translation type="unfinished">Login: Operator</translation>
+        <translation>Login: Оператор</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3514"/>
         <source>登录用户：高级操作员</source>
-        <translation type="unfinished">Login: Advance Operator</translation>
+        <translation>Login: Старший опер.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3516"/>
         <source>登录用户：管理员</source>
-        <translation type="unfinished">Логин: Администратор</translation>
+        <translation>Логин: Админ</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3518"/>
         <source>登录用户：高级管理员</source>
-        <translation type="unfinished">Login: Advance Administrator</translation>
+        <translation>Login: Старш. админ</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3520"/>
         <source>登录用户：超级用户</source>
-        <translation type="unfinished">Login: Super User</translation>
+        <translation>Login: СуперПольз.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3522"/>
         <source>注销当前用户，以操作员登录。</source>
-        <translation type="unfinished">Выйти из системы текущего пользователя.</translation>
+        <translation>Выйти из системы</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3524"/>
         <source>修改高级操作员密码。</source>
-        <translation type="unfinished">Изменить пароль заранее оператора.</translation>
+        <translation>Изм. пароль Старш. оператора</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3526"/>
         <source>修改管理员密码。</source>
-        <translation type="unfinished">Изменить пароль администратора.</translation>
+        <translation>Изм. пароль администратора</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3528"/>
         <source>修改系统时间：</source>
-        <translation type="unfinished">Изменить системное время:</translation>
+        <translation>Изм. систем. время:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3530"/>
         <source>系统从自动待机进入手动操作。</source>
-        <translation type="unfinished">Система вводит ручной статус из статуса автоматического ожидания.</translation>
+        <translation>Система вводит ручн.статус из статуса автом.ожидания.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3532"/>
         <source>系统停止自动运行，进入自动待机状态。</source>
-        <translation type="unfinished">Остановить автозапуск.</translation>
+        <translation>Останов. автозапуск.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3534"/>
         <source>系统停止单周期运行，进入自动待机状态。</source>
-        <translation type="unfinished">The system stops running in a single cycle and enters the automatic standby state.</translation>
+        <translation>Система прекращает работу в одном цикле и переходит в автоматический режим ожидания.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3536"/>
         <source>系统停止单步运行，进入自动待机状态。</source>
-        <translation type="unfinished">Sotp шаг работает.</translation>
+        <translation>Система прекращает пошаговую работу и переходит в автоматический режим ожидания.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3538"/>
         <source>系统从手动操作进入自动待机。</source>
-        <translation type="unfinished">Система вводит статус автоматического ожидания из ручного состояния.</translation>
+        <translation>Система вводит статус автом. ожидания из ручного состояния.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3540"/>
         <source>系统从自动待机进入自动运行。</source>
-        <translation type="unfinished">System enter auto running status from auto waiting status.</translation>
+        <translation>Система переходит в автом.режим работы из ожидания.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3542"/>
         <source>执行程序单周期运行。</source>
-        <translation type="unfinished">Программный период запуска.</translation>
+        <translation>Програм. период запуска.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3544"/>
         <source>执行程序单步运行。</source>
-        <translation type="unfinished">Программа пошаговая.</translation>
+        <translation>Програм. пошаговая.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3546"/>
         <source>修改系统参数。</source>
-        <translation type="unfinished">Изменить параметры системы.</translation>
+        <translation>Измен. парам. системы.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3548"/>
         <source>修改伺服参数。</source>
-        <translation type="unfinished">Изменить параметры сервопривода.</translation>
+        <translation>Измен. парам. сервопривода.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3550"/>
         <source>修改操作器界面设置。</source>
-        <translation type="unfinished">Изменить параметры пользовательского интерфейса.</translation>
+        <translation>Измен. парам. пользов. интерфейса.</translation>
     </message>
     <message>
         <source>伺服调位操作：正臂引拔轴位置改变。</source>
-        <translation type="obsolete">Регулировка сервопривода: изменение положения PA Hor.</translation>
+        <translation type="obsolete">Регул. серво: измен. положения PA Hor.</translation>
     </message>
     <message>
         <source>伺服调位操作：正臂上下轴位置改变。</source>
-        <translation type="obsolete">Servo Adjust: PA Вертикальное изменение положения.</translation>
+        <translation type="obsolete">Регул. серво: измен. положения PA Ver.</translation>
     </message>
     <message>
         <source>伺服调位操作：横行轴位置改变。</source>
-        <translation type="obsolete">Servo Adjust: изменение положения хода.</translation>
+        <translation type="obsolete">Регул. серво: измен. положения хода.</translation>
     </message>
     <message>
         <source>伺服调位操作：副臂引拔轴位置改变。</source>
-        <translation type="obsolete">Регулировка сервопривода: изменение положения RA Hor.</translation>
+        <translation type="obsolete">Регул. серво: измен. положения RA Hor.</translation>
     </message>
     <message>
         <source>伺服调位操作：副臂上下轴位置改变。</source>
-        <translation type="obsolete">Регулировка сервопривода: RA Вертикальное изменение положения.</translation>
+        <translation type="obsolete">Регул. серво: измен. положения RA Ver.</translation>
     </message>
     <message>
         <source>伺服调位操作：扩展轴位置改变。</source>
-        <translation type="obsolete">Регулировка сервопривода: расширить изменение положения.</translation>
+        <translation type="obsolete">Регул. серво: измен. полож. расширений</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3564"/>
         <source>导入开机画面：</source>
-        <translation type="unfinished">Импортировать файл заставки:</translation>
+        <translation>Импорт. заставки:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3566"/>
         <source>导入待机画面：</source>
-        <translation type="unfinished">Import wallpaper file: </translation>
+        <translation>Импорт. обоев:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3568"/>
         <source>导入厂商信息：</source>
-        <translation type="unfinished">Импортировать информационный файл:</translation>
+        <translation>Импорт. инфо.файла:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3570"/>
         <source>导入端口名称定义：</source>
-        <translation type="unfinished">Импортировать файл с именем порта:</translation>
+        <translation>Импорт. имени порта:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3572"/>
         <source>重置端口名称为出厂默认值。</source>
-        <translation type="unfinished">Сброс определения имени порта.</translation>
+        <translation>Сброс имени порта.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3574"/>
         <source>升级操作器软件：</source>
-        <translation type="unfinished">Обновление подвесного программного обеспечения:</translation>
+        <translation>Обновление ПО:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3576"/>
         <source>恢复备份的操作器软件。</source>
-        <translation type="unfinished">Восстановить подвесное программное обеспечение.</translation>
+        <translation>Восстановить ПО.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3578"/>
         <source>操作器软件重新启动。</source>
-        <translation type="unfinished">Pendant software restart.</translation>
+        <translation>Перезапуск ПО.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3580"/>
         <source>导出系统参数和伺服参数设置。</source>
-        <translation type="unfinished">Export system and servo parameters.</translation>
+        <translation>Экспорт сист.парам. и настр. серво.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3582"/>
         <source>导入系统参数和伺服参数设置。</source>
-        <translation type="unfinished">Import system and servo parameters.</translation>
+        <translation>Импорт сист.парам. и настр. серво.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3584"/>
         <source>手动控制正臂倒角垂直。</source>
-        <translation type="unfinished">Manual: rotate vertical.</translation>
+        <translation>Ручной: верт. поворот</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3586"/>
         <source>手动控制正臂倒角水平。</source>
-        <translation type="unfinished">Manual: rotate horizontal.</translation>
+        <translation>Ручной: гориз. поворот</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3588"/>
         <source>手动控制注塑机允许开模。</source>
-        <translation type="unfinished">Manual: IMM EMO.</translation>
+        <translation>Ручной: IMM EMO.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3590"/>
         <source>手动控制注塑机允许关模。</source>
-        <translation type="unfinished">Manual: IMM EMC.</translation>
+        <translation>Ручной: IMM EMC.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3592"/>
         <source>手动控制注塑机允许顶针前进。</source>
-        <translation type="unfinished">Manual: IMM EEF.</translation>
+        <translation>Ручной: IMM EEF.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3594"/>
         <source>手动控制注塑机允许顶针后退。</source>
-        <translation type="unfinished">Manual: IMM EEB.</translation>
+        <translation>Ручной: IMM EEB.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3596"/>
         <source>手动控制注塑机允许抽芯1位置1。</source>
-        <translation type="unfinished">Manual: IMM EC1P1.</translation>
+        <translation>Ручной: IMM EC1P1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3598"/>
         <source>手动控制注塑机允许抽芯1位置2。</source>
-        <translation type="unfinished">Manual: IMM EC1P2.</translation>
+        <translation>Ручной: IMM EC1P2.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3600"/>
         <source>手动控制注塑机允许抽芯2位置1。</source>
-        <translation type="unfinished">Manual: IMM EC2P1.</translation>
+        <translation>Ручной: IMM EC2P1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3602"/>
         <source>手动控制注塑机允许抽芯2位置2。</source>
-        <translation type="unfinished">Manual: IMM EC2P2.</translation>
+        <translation>Ручной: IMM EC2P2.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3604"/>
         <source>手动控制扩展输出打开：</source>
-        <translation type="unfinished">Manual: Ext.Out ON: </translation>
+        <translation>Ручной: Ext.Out ON: </translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3606"/>
         <source>手动控制扩展输出关闭：</source>
-        <translation type="unfinished">Manual: Ext.Out OFF: </translation>
+        <translation>Ручной: Ext.Out OFF: </translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3608"/>
         <source>手动控制伺服运转。
 </source>
-        <translation type="unfinished">Руководство: сервопривод Run.</translation>
+        <translation>Ручной: Запуск серво</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3610"/>
         <source>手动控制关闭注塑机顶针进</source>
-        <translation type="unfinished">Manual: IMM EEF</translation>
+        <translation>Ручной: IMM EEF</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3612"/>
         <source>手动控制关闭注塑机顶针退</source>
-        <translation type="unfinished">Manual: IMM EEB</translation>
+        <translation>Ручной: IMM EEB</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3614"/>
         <source>手动控制关闭注塑机抽芯1位置1。</source>
-        <translation type="unfinished">Manual: IMM EC1P1.</translation>
+        <translation>Ручной: IMM EC1P1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3616"/>
         <source>手动控制关闭注塑机抽芯1位置2。</source>
-        <translation type="unfinished">Manual: IMM EC1P2.</translation>
+        <translation>Ручной: IMM EC1P2.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3618"/>
         <source>手动控制关闭注塑机抽芯2位置1。</source>
-        <translation type="unfinished">Manual: IMM EC2P1.</translation>
+        <translation>Ручной: IMM EC2P1.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3620"/>
         <source>手动控制关闭注塑机抽芯2位置2。</source>
-        <translation type="unfinished">Manual: IMM EC2P2.</translation>
+        <translation>Ручной: IMM EC2P2.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3622"/>
         <source>手动控制气动副臂上升：</source>
-        <translation type="unfinished">Ручной: пневматический бегун, подъем:</translation>
+        <translation>Ручной: пневмо, подъем:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3624"/>
         <source>手动控制气动副臂下降：</source>
-        <translation type="unfinished">Ручной: пневматический бегун, спуск:</translation>
+        <translation>Ручной: пневмо, спуск:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3626"/>
         <source>手动控制气动副臂引进：</source>
-        <translation type="unfinished">Руководство: пневматический бегун заранее:</translation>
+        <translation>Ручной: пневмо движ:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3628"/>
         <source>手动控制气动副臂引退：</source>
-        <translation type="unfinished">Ручной: пневматический возврат бегуна:</translation>
+        <translation>Ручной: пневмо возврат:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3630"/>
@@ -26865,7 +26864,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="3642"/>
         <source>激活码改变。</source>
-        <translation type="unfinished">Активация смена.</translation>
+        <translation>Изм. кода активации</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3644"/>
@@ -26885,12 +26884,12 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="3650"/>
         <source>手动控制冶具组打开。</source>
-        <translation type="unfinished">Руководство: Джиг открыт.</translation>
+        <translation>Ручной: Jig открыт.</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3652"/>
         <source>手动控制冶具组关闭。</source>
-        <translation type="unfinished">Руководство: Jig Close.</translation>
+        <translation>Ручной: Jig закрыт</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3658"/>
@@ -27090,147 +27089,147 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="3705"/>
         <source>[001] 驱动器：超速【伺服电机速度超过设定值】</source>
-        <translation type="unfinished"></translation>
+        <translation>[001] Драйвер: Превышение скорости [скорость серводвигателя превышает заданное значение]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3706"/>
         <source>[002] 驱动器：主电路过压【主电路电源电压过高】</source>
-        <translation type="unfinished"></translation>
+        <translation>[002] Драйвер: Перенапряжение главной цепи [напряжение питания главной цепи слишком высокое]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3707"/>
         <source>[003] 驱动器：主电路过压【主电路电源电压过低】</source>
-        <translation type="unfinished"></translation>
+        <translation>[003] Драйвер: Перенапряжение главной цепи [напряжение питания главной цепи слишком низкое]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3708"/>
         <source>[004] 驱动器：位置超差【位置偏差计数器的数值超过设定值】</source>
-        <translation type="unfinished"></translation>
+        <translation>[004] Драйвер: Отклонение положения [значение счетчика отклонения положения превышает заданное значение]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3709"/>
         <source>[005] 驱动器：驱动器过热【驱动器温度过高】</source>
-        <translation type="unfinished"></translation>
+        <translation>[005] Привод: Перегрев привода [Температура привода слишком высокая]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3710"/>
         <source>[006] 驱动器：速度放大器饱和故障【驱动器温度过高】</source>
-        <translation type="unfinished"></translation>
+        <translation>[006] Драйвер: Ошибка насыщения усилителя скорости [температура привода слишком высокая]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3711"/>
         <source>[007] 驱动器：驱动禁止异常【CCW/CW 驱动禁止输入都 OFF】</source>
-        <translation type="unfinished"></translation>
+        <translation>[007] Драйвер: Ненормальный привод [Драйвер CCW/CW отключает все входы]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3712"/>
         <source>[008] 驱动器：位置偏差计数器溢出【位置偏差计数值的绝对值超过极限值】</source>
-        <translation type="unfinished"></translation>
+        <translation>[008] Драйвер: Переполнение счетчика отклонения положения [Абсолютное значение счетчика отклонения положения превышает предельное значение]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3713"/>
         <source>[009] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[009] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3714"/>
         <source>[010] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[010] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3715"/>
         <source>[011] 驱动器：IPM 模块故障【IPM 智能模块故障】</source>
-        <translation type="unfinished"></translation>
+        <translation>[011] Драйвер: отказ модуля IPM 【Отказ интеллектуального модуля IPM 】</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3716"/>
         <source>[012] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[012] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3717"/>
         <source>[013] 驱动器：驱动器过负载【伺服驱动器及电机过负载(瞬时过热)】</source>
-        <translation type="unfinished"></translation>
+        <translation>[013] Драйвер: перегрузка драйвера [перегрузка сервопривода и двигателя (мгновенный перегрев)]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3718"/>
         <source>[014] 驱动器：制动故障【制动电路故障】</source>
-        <translation type="unfinished"></translation>
+        <translation>[014] Драйвер: отказ тормоза [отказ тормозной цепи]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3719"/>
         <source>[015] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[015] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3720"/>
         <source>[016] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[016] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3721"/>
         <source>[017] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[017] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3722"/>
         <source>[018] 驱动器：继电器开关故障【继电器实际状态跟控制状态不一致】</source>
-        <translation type="unfinished"></translation>
+        <translation>[018] Драйвер: отказ переключателя реле [фактическое состояние реле не соответствует состоянию управления]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3723"/>
         <source>[019] 驱动器：抱闸延时错误【抱闸未打开时有脉冲输入】</source>
-        <translation type="unfinished"></translation>
+        <translation>[019] Драйвер: ошибка задержки замка [импульсный вход, когда замок не открыт]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3724"/>
         <source>[020] 驱动器：EEPROM 错误【EEPROM 错误】</source>
-        <translation type="unfinished"></translation>
+        <translation>[020] Привод: ошибка EEPROM [ошибка EEPROM]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3725"/>
         <source>[021] 驱动器：FPGA 模块故障【FPGA 模块功能异常】</source>
-        <translation type="unfinished"></translation>
+        <translation>[021] Драйвер: неисправность модуля FPGA 【Ненормальная функция модуля FPGA 】</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3726"/>
         <source>[022] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[022] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3727"/>
         <source>[023] 驱动器：电流采集电路故障【电流采集电路故障】</source>
-        <translation type="unfinished"></translation>
+        <translation>[023] Драйвер: неисправность схемы получения тока [Схема получения тока неисправность]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3728"/>
         <source>[024] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[024] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3729"/>
         <source>[025] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[025] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3730"/>
         <source>[026] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[026] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3731"/>
         <source>[027] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[027] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3732"/>
         <source>[028] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[028] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3733"/>
         <source>[029] 驱动器：电流采集电路故障【电机负载超过用户设定的数值和持续时间】</source>
-        <translation type="unfinished"></translation>
+        <translation>[029] Привод: неисправность цепи сбора тока [нагрузка двигателя превышает установленное пользователем значение и длительность]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3734"/>
@@ -27275,27 +27274,27 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="3742"/>
         <source>[038] 驱动器：读写编码器 EEPROM通信失败【编码器线没接好或编码器接口电路故障】</source>
-        <translation type="unfinished"></translation>
+        <translation>[038] Драйвер: Ошибка связи EEPROM энкодера чтения/записи [линия энкодера не подключена или неисправность интерфейсной цепи энкодера]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3743"/>
         <source>[039] 驱动器：数据 CRC 校验错误【电机编码器尚未写入数据，都是 0】</source>
-        <translation type="unfinished"></translation>
+        <translation>[039] Драйвер: Ошибка проверки CRC данных [Энкодер двигателя не записал данные, все 0]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3744"/>
         <source>[040] 驱动器：不支持机型【驱动器不支持此电机型号】</source>
-        <translation type="unfinished"></translation>
+        <translation>[040] Драйвер: Неподдерживаемая модель [Драйвер не поддерживает эту модель двигателя]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3745"/>
         <source>[041] 驱动器：需要切换电机型号【当前电机跟驱动已选的型号不一致。】</source>
-        <translation type="unfinished"></translation>
+        <translation>[041] Драйвер: Необходимо изменить модель двигателя [текущий двигатель не соответствует выбранной модели драйвера.]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3746"/>
         <source>[042] 驱动器：AC 输入电压过低【AC 输入电压过低】</source>
-        <translation type="unfinished"></translation>
+        <translation>[042] Драйвер: Слишком низкое входное напряжение переменного тока [Слишком низкое входное напряжение переменного тока]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3747"/>
@@ -27320,503 +27319,503 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="3751"/>
         <source>[047] 驱动器：上电时主电路电压过高【上电时主电路电压过高】</source>
-        <translation type="unfinished"></translation>
+        <translation>[047] Драйвер: напряжение основной цепи слишком высокое во время включения питания [напряжение основной цепи слишком высокое во время включения питания]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3752"/>
         <source>[048] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[048] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3753"/>
         <source>[049] 驱动器：</source>
-        <translation type="unfinished"></translation>
+        <translation>[049] Привод:</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3754"/>
         <source>[050] 驱动器：编码器通信故障【驱动器跟编码器未建立通信连接】</source>
-        <translation type="unfinished"></translation>
+        <translation>[050] Драйвер: сбой связи с энкодером [коммуникационное соединение между драйвером и энкодером не установлено]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3755"/>
         <source>[051] 驱动器：编码器通信异常【编码器建立通信后，出现中断，断开连接】</source>
-        <translation type="unfinished"></translation>
+        <translation>[051] Драйвер: исключение связи с энкодером [энкодер устанавливает связь, происходит прерывание, отключение]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3756"/>
         <source>[052] 驱动器：编码器电池电压不足报警【编码器电池电压不足报警，信息未丢但需尽快更换】</source>
-        <translation type="unfinished"></translation>
+        <translation>[052] Драйвер: сигнализация недостаточного напряжения батареи энкодера [сигнализация недостаточного напряжения батареи энкодера, информация не теряется, но ее необходимо заменить как можно скорее]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3757"/>
         <source>[053] 驱动器：编码器电池电压错误报警【编码器电池电压错误报警，储存信息已发生错误，需复位编码器】</source>
-        <translation type="unfinished"></translation>
+        <translation>[053] Драйвер: сигнализация ошибки напряжения батареи энкодера [сигнализация ошибки напряжения батареи энкодера, сохраненная информация неверна, необходимо сбросить энкодер]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3758"/>
         <source>[054] 驱动器：编码器错误报警【编码器非电池类报警，但需要重新复位编码器】</source>
-        <translation type="unfinished"></translation>
+        <translation>[054] Драйвер: сигнализация ошибки энкодера [сигнализация отсутствия батареи энкодера, но необходимо сбросить энкодер]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3759"/>
         <source>[055] 驱动器：CRC 校验连续 3 次出错【编码器通信收到的数据 CRC 效验连续 3 次出现错误】</source>
-        <translation type="unfinished"></translation>
+        <translation>[055] Драйвер: ошибка проверки CRC 3 раза подряд [ошибка проверки CRC 3 раза подряд в данных, полученных энкодером </translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3760"/>
         <source>[056] 驱动器：MODBUS 帧过长错误【接收到的 MODBUS 帧数据过长】</source>
-        <translation type="unfinished"></translation>
+        <translation>[056] Драйвер: ошибка слишком длинного кадра MODBUS [полученные данные кадра MODBUS слишком длинные]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3761"/>
         <source>[057] 驱动器：MODBUS 通讯格式错误【通讯参数设定不当或地址或数值不正确】</source>
-        <translation type="unfinished"></translation>
+        <translation>[057] Драйвер: ошибка формата связи MODBUS [параметры связи установлены неправильно или адрес или значение неверны]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3762"/>
         <source>[058] 驱动器：单圈位置值错误【驱动器存储的单圈位置偏移值超出编码器分辨率】</source>
-        <translation type="unfinished"></translation>
+        <translation>[058] Драйвер: ошибка значения однооборотного положения [значение смещения однооборотного положения, сохраненное драйвером, превышает разрешение энкодера]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3763"/>
         <source>[059] 驱动器：编码器上报 CF 错误【编码器连续上报 CF 域错误，需要复位编码器】</source>
-        <translation type="unfinished"></translation>
+        <translation>[059] Драйвер: энкодер сообщает об ошибке CF [энкодер постоянно сообщает об ошибке домена CF, необходимо сбросить энкодер]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3771"/>
         <source>[001]系统参数异常</source>
-        <translation type="unfinished"></translation>
+        <translation>[001] Параметры системы ненормальные</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3772"/>
         <source>[002]产品型号选择故障</source>
-        <translation type="unfinished"></translation>
+        <translation>[002] Ошибка выбора модели продукта</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3773"/>
         <source>[003]参数存储中故障</source>
-        <translation type="unfinished"></translation>
+        <translation> </translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3774"/>
         <source>[004]FPGA 故障</source>
-        <translation type="unfinished"></translation>
+        <translation>[004] FPGA неисправна</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3775"/>
         <source>[005]产品匹配故障</source>
-        <translation type="unfinished"></translation>
+        <translation>[005] Ошибка сопоставления продуктов</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3776"/>
         <source>[006]程序异常</source>
-        <translation type="unfinished"></translation>
+        <translation>[006] Программа ненормальная</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3777"/>
         <source>[007]编码器初始化失败</source>
-        <translation type="unfinished"></translation>
+        <translation>[007] Ошибка инициализации энкодера</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3778"/>
         <source>[008]对地短路检测故障</source>
-        <translation type="unfinished"></translation>
+        <translation>[008] Ошибка обнаружения короткого замыкания на землю</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3779"/>
         <source>[009]过流故障 A  </source>
-        <translation type="unfinished"></translation>
+        <translation>[009] Ошибка перегрузки по току A</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3780"/>
         <source>[010]过流故障 B </source>
-        <translation type="unfinished"></translation>
+        <translation>[010] Ошибка перегрузки по току B</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3781"/>
         <source>[011]</source>
-        <translation type="unfinished">[127] {011]?}</translation>
+        <translation>[011]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3782"/>
         <source>[012]增量光电编码器 Z 断线或者绝对值编码器圈数异常</source>
-        <translation type="unfinished"></translation>
+        <translation>[012] Инкрементальный оптический энкодер Z-break или абсолютное число оборотов энкодера ненормально</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3783"/>
         <source>[013]编码器通信异常</source>
-        <translation type="unfinished"></translation>
+        <translation>[013] Ненормальная связь энкодера</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3784"/>
         <source>[014]编码器数据异常</source>
-        <translation type="unfinished"></translation>
+        <translation>[014] Ненормальные данные энкодера</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3785"/>
         <source>[015]编码器电池电压过低异常</source>
-        <translation type="unfinished"></translation>
+        <translation>[015] Напряжение батареи энкодера ненормально низкое</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3786"/>
         <source>[016]速度偏差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[016] Отклонение скорости слишком большое</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3787"/>
         <source>[017]转矩饱和超时</source>
-        <translation type="unfinished"></translation>
+        <translation>[017] Тайм-аут насыщения крутящего момента</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3788"/>
         <source>[018]控制电欠压</source>
-        <translation type="unfinished"></translation>
+        <translation>[018] Пониженное напряжение управления</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3789"/>
         <source>[019]飞车故障</source>
-        <translation type="unfinished"></translation>
+        <translation>[019] Автомобиль сломался</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3790"/>
         <source>[020]过电压</source>
-        <translation type="unfinished"></translation>
+        <translation>[020] Перенапряжение</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3791"/>
         <source>[021]欠电压</source>
-        <translation type="unfinished"></translation>
+        <translation>[021] Пониженное напряжение</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3792"/>
         <source>[022]电流采样故障</source>
-        <translation type="unfinished"></translation>
+        <translation>[022] Ошибка выборки тока</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3793"/>
         <source>[023]AI 采样电压过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[023] Напряжение выборки AI слишком большое</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3794"/>
         <source>[024]过速</source>
-        <translation type="unfinished"></translation>
+        <translation>[024] Слишком быстро</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3795"/>
         <source>[025]电角度辨识失败</source>
-        <translation type="unfinished"></translation>
+        <translation>[025] Ошибка идентификации электрического угла</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3796"/>
         <source>[026]惯量辨识失败故障</source>
-        <translation type="unfinished"></translation>
+        <translation>[026] Ошибка идентификации инерции</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3797"/>
         <source>[027]DI 端子参数设置故障</source>
-        <translation type="unfinished"></translation>
+        <translation>[027] Неправильные настройки параметров терминала DI</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3798"/>
         <source>[028]DO 端子参数设置故障  </source>
-        <translation type="unfinished"></translation>
+        <translation>[028] Неправильные настройки терминала DO</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3799"/>
         <source>[029]</source>
-        <translation type="unfinished">[127] {029]?}</translation>
+        <translation>[029]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3800"/>
         <source>[030]</source>
-        <translation type="unfinished">[127] {030]?}</translation>
+        <translation>[030]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3801"/>
         <source>[031]</source>
-        <translation type="unfinished">[127] {031]?}</translation>
+        <translation>[031]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3806"/>
         <source>[036]</source>
-        <translation type="unfinished">[127] {036]?}</translation>
+        <translation>[036]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3807"/>
         <source>[037]</source>
-        <translation type="unfinished">[127] {037]?}</translation>
+        <translation>[037]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3808"/>
         <source>[038]</source>
-        <translation type="unfinished">[127] {038]?}</translation>
+        <translation>[038]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3810"/>
         <source>[040]伺服 ON 指令无效故障 </source>
-        <translation type="unfinished"></translation>
+        <translation>[040] Ошибка неверной команды Servo ON</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3812"/>
         <source>[042]分频脉冲输出过速</source>
-        <translation type="unfinished"></translation>
+        <translation>[042] Превышение скорости выходного импульса частотного деления</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3813"/>
         <source>[043]位置偏差过大故障</source>
-        <translation type="unfinished"></translation>
+        <translation>[043] Ошибка большого отклонения положения</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3814"/>
         <source>[044]主回路输入缺相</source>
-        <translation type="unfinished"></translation>
+        <translation>[044] Вход основного контура не совпадает по фазе</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3815"/>
         <source>[045]驱动器输出缺相</source>
-        <translation type="unfinished"></translation>
+        <translation>[045] Выход драйвера не совпадает по фазе</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3816"/>
         <source>[046]驱动器过载</source>
-        <translation type="unfinished"></translation>
+        <translation>[046] Привод перегружен</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3817"/>
         <source>[047]电机过载</source>
-        <translation type="unfinished"></translation>
+        <translation>[047] Перегрузка двигателя</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3818"/>
         <source>[048]电子齿轮设定错误</source>
-        <translation type="unfinished"></translation>
+        <translation>[048] Ошибка настройки электронного редуктора</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3819"/>
         <source>[049]散热器过热</source>
-        <translation type="unfinished"></translation>
+        <translation>[049] Перегрев радиатора</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3820"/>
         <source>[050]脉冲输入异常</source>
-        <translation type="unfinished"></translation>
+        <translation>[050] Ненормальный входной импульс</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3821"/>
         <source>[051]全闭环位置偏差过大</source>
-        <translation type="unfinished"></translation>
+        <translation>[051] Слишком большое отклонение положения полного замкнутого контура</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3824"/>
         <source>[054]用户强制故障</source>
-        <translation type="unfinished"></translation>
+        <translation>[054] Ошибка, вызванная пользователем</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3825"/>
         <source>[055]绝对位置复位故障</source>
-        <translation type="unfinished"></translation>
+        <translation>[055] Ошибка сброса абсолютного положения</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3826"/>
         <source>[056]主电源断电</source>
-        <translation type="unfinished"></translation>
+        <translation>[056] Отказ основного источника питания</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3828"/>
         <source>[058]</source>
-        <translation type="unfinished">[127] {058]?}</translation>
+        <translation>[058]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3829"/>
         <source>[059]</source>
-        <translation type="unfinished">[127] {059]?}</translation>
+        <translation>[059]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3830"/>
         <source>[060]写入定制版程序后第一次启动</source>
-        <translation type="unfinished"></translation>
+        <translation>[060] Первый запуск после написания пользовательской программы</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3831"/>
         <source>[061]</source>
-        <translation type="unfinished">[127] {061]?}</translation>
+        <translation>[061]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3832"/>
         <source>[062]</source>
-        <translation type="unfinished">[127] {062]?}</translation>
+        <translation>[062]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3833"/>
         <source>[063]</source>
-        <translation type="unfinished">[127] {063]?}</translation>
+        <translation>[063]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3834"/>
         <source>[064]</source>
-        <translation type="unfinished">[127] {064]?}</translation>
+        <translation>[064]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3835"/>
         <source>[065]CAN 总线关闭 </source>
-        <translation type="unfinished"></translation>
+        <translation>[065] Шина CAN закрыта</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3836"/>
         <source>[066]异常的 NMT 命令 </source>
-        <translation type="unfinished"></translation>
+        <translation>[066] Ненормальная команда NMT</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3837"/>
         <source>[067]CAN 总线故障</source>
-        <translation type="unfinished"></translation>
+        <translation>[067] Шина CAN неисправна</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3839"/>
         <source>[069]</source>
-        <translation type="unfinished">[127] {069]?}</translation>
+        <translation>[069]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3840"/>
         <source>[070]</source>
-        <translation type="unfinished">[127] {070]?}</translation>
+        <translation>[070]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3841"/>
         <source>[071]节点保护或者心跳超时</source>
-        <translation type="unfinished"></translation>
+        <translation>[071] Защита узла или тайм-аут биения</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3842"/>
         <source>[072]同步失效</source>
-        <translation type="unfinished"></translation>
+        <translation>[072] Сбой синхронизации</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3843"/>
         <source>[073]CANOpen 轨迹缓冲区下溢</source>
-        <translation type="unfinished"></translation>
+        <translation>[073] Недозаполнение буфера трассировки CANOpen</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3844"/>
         <source>[074]CANOpen 轨迹缓冲区上溢</source>
-        <translation type="unfinished"></translation>
+        <translation>[074] Переполнение буфера трассировки CANOpen</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3845"/>
         <source>[075]从站初始化失败</source>
-        <translation type="unfinished"></translation>
+        <translation>[075] Инициализация подчиненной станции не удалась</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3846"/>
         <source>[076]同步失败</source>
-        <translation type="unfinished"></translation>
+        <translation>[076] Синхронизация не удалась</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3847"/>
         <source>[077]EtherCAT 通讯中断</source>
-        <translation type="unfinished"></translation>
+        <translation>[077] Связь EtherCAT не работает</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3848"/>
         <source>[078]指令给定异常</source>
-        <translation type="unfinished"></translation>
+        <translation>[078] Инструкция дала исключение</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3849"/>
         <source>[079]使能时无控制模式</source>
-        <translation type="unfinished"></translation>
+        <translation>[079] Режим управления не включен</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3850"/>
         <source>[080]欠电压警告</source>
-        <translation type="unfinished"></translation>
+        <translation>[080] Предупреждение о пониженном напряжении</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3851"/>
         <source>[081]驱动器过载警告</source>
-        <translation type="unfinished"></translation>
+        <translation>[081] Предупреждение о перегрузке привода</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3852"/>
         <source>[082]电机过载警告</source>
-        <translation type="unfinished"></translation>
+        <translation>[082] Предупреждение о перегрузке двигателя</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3853"/>
         <source>[083]需要重新接通电源的参数变更</source>
-        <translation type="unfinished"></translation>
+        <translation>[083] Изменение параметра, требующее повторного включения</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3854"/>
         <source>[084]伺服未准备好</source>
-        <translation type="unfinished"></translation>
+        <translation>[084] Сервопривод не готов</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3855"/>
         <source>[085]写 E2PROM 频繁操作警告 </source>
-        <translation type="unfinished"></translation>
+        <translation>[085] Предупреждение о частой работе записи E2PROM</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3856"/>
         <source>[086]正向超程警告提示</source>
-        <translation type="unfinished"></translation>
+        <translation>[086] Предупреждение о перегрузке вперед</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3857"/>
         <source>[087]负向超程警告提示</source>
-        <translation type="unfinished"></translation>
+        <translation>[087] Предупреждение о отрицательном выходе за пределы диапазона</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3858"/>
         <source>[088]位置指令过速</source>
-        <translation type="unfinished"></translation>
+        <translation>[088] Превышение скорости команды положения</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3860"/>
         <source>[090]绝对值编码器角度初始化警告</source>
-        <translation type="unfinished"></translation>
+        <translation>[090] Предупреждение об инициализации угла абсолютного энкодера</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3863"/>
         <source>[093]能耗制动过载</source>
-        <translation type="unfinished"></translation>
+        <translation>[093] Перегрузка энергетического тормоза</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3864"/>
         <source>[094]外接再生泄放电阻过小</source>
-        <translation type="unfinished"></translation>
+        <translation>[094] Внешний рекуперативный Сопротивление утечки слишком мало</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3865"/>
         <source>[095]紧急停止</source>
-        <translation type="unfinished"></translation>
+        <translation>[095] Аварийная остановка</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3866"/>
         <source>[096]原点回归错误</source>
-        <translation type="unfinished"></translation>
+        <translation>[096] Ошибка регрессии источника</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3867"/>
         <source>[097]编码器电池欠压</source>
-        <translation type="unfinished"></translation>
+        <translation>[097] Низкое напряжение батареи энкодера</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3868"/>
         <source>[098]</source>
-        <translation type="unfinished">[127] {098]?}</translation>
+        <translation>[098]</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3869"/>
         <source>[099]限位对齐警告</source>
-        <translation type="unfinished"></translation>
+        <translation>[099] Предупреждение о предельном выравнивании</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3915"/>
         <location filename="xstringresource.cpp" line="3922"/>
         <source>未知的驱动器报警</source>
-        <translation type="unfinished"></translation>
+        <translation>Неизвестная сигнализация привода</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="3941"/>
@@ -27842,7 +27841,7 @@ Cick [отмена] вернется и продолжит обучение пр
         <location filename="xstringresource.cpp" line="4020"/>
         <location filename="xstringresource.cpp" line="4024"/>
         <source>无</source>
-        <translation type="unfinished">Никто</translation>
+        <translation>нет</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="4030"/>
@@ -27852,7 +27851,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="4032"/>
         <source>管理员</source>
-        <translation type="unfinished">администратор</translation>
+        <translation>Админ</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="4034"/>
@@ -27867,7 +27866,7 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="4038"/>
         <source>操作员</source>
-        <translation type="unfinished">оператор</translation>
+        <translation>Оператор</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="4059"/>
@@ -27877,17 +27876,17 @@ Cick [отмена] вернется и продолжит обучение пр
     <message>
         <location filename="xstringresource.cpp" line="4070"/>
         <source>(循环)</source>
-        <translation type="unfinished">(Петля)</translation>
+        <translation>(Цикл)</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="4073"/>
         <source>(单步)</source>
-        <translation type="unfinished">(один шаг)</translation>
+        <translation>(Шаг)</translation>
     </message>
     <message>
         <location filename="xstringresource.cpp" line="4076"/>
         <source>(单周期)</source>
-        <translation type="unfinished">(один цикл)</translation>
+        <translation>(Один цикл)</translation>
     </message>
 </context>
 </TS>
