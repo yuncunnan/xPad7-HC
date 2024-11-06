@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include "PyinMap.h"
 //#include "qdebug.h"
 
@@ -66,7 +66,7 @@ uint8_t get_matched_pymb_26Key(uint8_t *strin,char **matchpy,char **matchlist)
             {
                  if(temp==0XFF)  //完全匹配
                  {
-                     matchpy[mcnt]=(char *)t9PY_index[i].PY;
+//                     matchpy[mcnt]=(char *)t9PY_index[i].PY;
                      matchlist[mcnt]=(char *)t9PY_index[i].MB;
                      mcnt++;
                      break;
