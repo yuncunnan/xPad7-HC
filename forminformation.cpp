@@ -70,7 +70,7 @@ bool Forminformation::EnterForm(void)
         if (pModbus->GetFunctions(SUB_FUN_EUROMAP))
             strArm += tr("ECat-欧规");
     }
-    else if(pModbus->GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    else if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         if (pModbus->GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_E4)
             strArm = tr("单臂");

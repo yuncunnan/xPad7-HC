@@ -590,6 +590,8 @@ public:
 
 	static bool GetExtBoard(quint8 idx) { return ((ExtBoardState >> idx) & 0x0001) != 0; }
 	static uint16_t GetSysState(void) { return SystemState; }
+    static uint16_t GetMaxCodes(void);
+    static uint16_t GetMaxPROCESS(void);
 	int8_t ReadRunState(void);
     int16_t ReadSDOPara(void);
     static uint16_t GetRunState(void) { return RunningState; }

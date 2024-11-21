@@ -645,6 +645,9 @@ void Formsystem::LoadPara(void)
         SysPara.m_proc2_use = ui->checkProc2->isChecked() ? 1 : 0;
         // 进程3使用
         SysPara.m_proc3_use = ui->checkProc3->isChecked() ? 1 : 0;
+        // 进程4使用
+		if(pModbus->GetSysTypeHigh()!=BOARD_VERSION_H730_5AXIS)//730 空间有限，只有３个进程．每个进程只有２０４８
+			SysPara.m_proc_use = (ui->checkProc4->isChecked() ? 1 : 0) << 0;
         // 气动倒角使用
         SysPara.m_rotate_use = ui->checkRotateUse->isChecked() ? 1 : 0;
         SysPara.m_run_rotate_use = ui->checkRunRotateUse->isChecked() ? 1 : 0;

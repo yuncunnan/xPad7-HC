@@ -57,8 +57,8 @@
 #define SVADJ_CW		1
 #define SVADJ_CCW		2
 
-quint16 globlecodes[MAX_CODES];
-quint32 globleparas[MAX_CODES];
+quint16 globlecodes[4096];
+quint32 globleparas[4096];
 bool DialogFrame::runled_state;
 extern HardwareInterface *board;
 

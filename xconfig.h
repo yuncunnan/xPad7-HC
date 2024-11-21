@@ -10,7 +10,7 @@
 #define MAX_DISTANCE                6000000
 #define MAX_DEGREE					36000
 // 定义操作器软件版本号宏
-#define XPAD_SVER					"SV14.01-241102"
+#define XPAD_SVER					"SV14.01-24121"
 // 定义操作器类型字符串
 #define XPAD_TYPE_STR				"SR6807A"
 
@@ -20,11 +20,14 @@
 #else
 
 #if defined(Q_WS_WIN)
-#define PENDANT_PROTOCOL			1   // pc端改这个不影响linux
+#define PENDANT_PROTOCOL			0   // pc端改这个不影响linux
 #else
 #define PENDANT_PROTOCOL			1
 #endif
 #endif
+
+#define ANALOG_MOTHERBOARD_TYPE     BOARD_VERSION_H750_5AXIS    // 241115增加模拟主板类型
+
 // 是否是模拟器画面(模拟器界面400*640 某些界面文字大小，坐标会有调整)
 #define SIMULATOR                   0           // 编译模拟器时，打开-640.pro文件，再将 SIMULATOR定义为true
 
@@ -80,6 +83,7 @@
 #define SUB_FUN2_LOOP_MATRIX_EXT    0x10000000      //矩阵增加各轴速度
 #define SUB_DOOR_QUERY				0x20000000      // 信易安全门询问（信易专用）
 #define SUB_FUN2_MAIN64_BITS        0x40000000      // 主板IO64位
+#define SUB_FUN2_8_PROC             0x80000000      // 主板有，并使用8个进程
 
 #define SUB_FUN2_LOOP_FREE_200      ((quint64)0x01<<32)      // 循环定位200个点
 
@@ -151,6 +155,9 @@
 #define BOARD_VERSION_H750_6AXIS            0X70    //H750高速六轴版本
 #define BOARD_VERSION_H750_DVS              0X71            //五轴驱控一体//六轴驱控一体？
 #define BOARD_VERSION_H750_5AXIS            0X72    //H750高速五轴轴版本（0x71F3 750三六轴高速双臂,0x71F4 750三六轴高速单臂）
+
+//H730版本
+#define BOARD_VERSION_H730_5AXIS            0X82    //H730高速五轴轴版本
 
 //手控器主芯片版本
 enum BoardType
@@ -1178,8 +1185,8 @@ enum BoardType
 // *************************************************
 // 机器代码程序最大尺寸
 // *************************************************
-#define MAX_CODES					4096
-#define MAX_PROCESS                 3
+#define MAX_CODES					CMBProtocol::GetMaxCodes()
+#define MAX_PROCESS                 CMBProtocol::GetMaxPROCESS()
 #define MAX_COMBINE                 30
 #define MAX_TRAJ                    100
 #define MAX_USER_VARS               0x400

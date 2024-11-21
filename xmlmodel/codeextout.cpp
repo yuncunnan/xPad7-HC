@@ -11,7 +11,7 @@ CodeExtOut::CodeExtOut(QWidget *form) :	XmlModelItem(QIcon(":/img/action/ExtOutp
 	m_delay = 5;
     if(CMBProtocol::GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_E0)
         m_var1 = MAIN_VAR_Y15;
-	else if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    else if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
 		m_var1 = MAIN_VAR_Y07;
     else
 	m_var1 = EM1_VAR_Y02;

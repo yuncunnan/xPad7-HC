@@ -58,7 +58,7 @@ void FormActMExtOut::retranslateUi(void)
 //    ui->checkExtY13->setText(xStringResource::GetVarName(EM1_VAR_Y13));
 //    ui->checkExtY14->setText(xStringResource::GetVarName(EM1_VAR_Y14));
 //    ui->checkExtY15->setText(xStringResource::GetVarName(EM1_VAR_Y15));//pyq注释
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         ui->checkExtY02->setText(xStringResource::GetVarName(MAIN_VAR_Y17));
         ui->checkExtY03->setText(xStringResource::GetVarName(MAIN_VAR_Y18));
@@ -162,7 +162,7 @@ void FormActMExtOut::SetOutBmp(int bmp)
 //    ui->checkExtY13->setChecked((outbmp>>13)&1);
 //    ui->checkExtY14->setChecked((outbmp>>14)&1);
 //    ui->checkExtY15->setChecked((outbmp>>15)&1);//pyq注释
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+     if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         ui->checkExtY02->setChecked((outbmp>>0)&1);
         ui->checkExtY03->setChecked((outbmp>>1)&1);
@@ -228,7 +228,7 @@ int FormActMExtOut::GetOutBmp()
 //    outbmp |= ((quint16)(ui->checkExtY14->isChecked()?1:0)) << 14;
 //    outbmp |= ((quint16)(ui->checkExtY15->isChecked()?1:0)) << 15;//pyq注释
 
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         outbmp  = ((quint32)(ui->checkExtY02->isChecked()?1:0)) << 0;
         outbmp |= ((quint32)(ui->checkExtY03->isChecked()?1:0)) << 1;

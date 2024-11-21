@@ -1,4 +1,4 @@
-#include <QtCore/QDebug>
+﻿#include <QtCore/QDebug>
 #include <QtCore/QTimer>
 #include <QSettings>
 #include <QWSServer>
@@ -425,6 +425,33 @@ void CMBProtocol::CloseSerialPort(void)
 #if PENDANT_PROTOCOL
 	modbus_close(m_modbus);
 #endif
+}
+uint16_t CMBProtocol::GetMaxCodes()
+{
+    if(GetSysTypeHigh()!= BOARD_VERSION_H730_5AXIS)
+    {
+        if(GetFunctions(SUB_FUN2_8_PROC))
+            return 2048;
+        return 4096;
+    }
+    else
+    {
+        return 2048;
+    }
+}
+
+uint16_t CMBProtocol::GetMaxPROCESS()
+{
+    if(GetSysTypeHigh()!= BOARD_VERSION_H730_5AXIS)
+    {
+        if(GetFunctions(SUB_FUN2_8_PROC))
+            return 8;
+        return 4;
+    }
+    else
+    {
+        return 3;
+    }
 }
 
 int8_t CMBProtocol::ReadRunState(void)
@@ -2144,7 +2171,7 @@ int8_t CMBProtocol::WriteFunctions()
                              | SUB_FUN2_JERK | SUB_FUN2_IO_BMP | SUB_FUN2_WAIT_VAR2 | SUB_FUN2_EXT_POS
                              | SUB_FUN2_ROTATE | SUB_FUN2_X_B_TRAVE_SAFE | SUB_FUN2_VISION | SUB_FUN2_IFTIME
                              | SUB_FUN2_CAN_IMM | SUB_FUN2_MBVISION | SUB_FUN2_LOOP_MATRIX
-                             | SUB_FUN2_LOOP_MATRIX_EXT | SUB_DOOR_QUERY | SUB_FUN2_MAIN64_BITS
+                             | SUB_FUN2_LOOP_MATRIX_EXT | SUB_DOOR_QUERY | SUB_FUN2_MAIN64_BITS | SUB_FUN2_8_PROC
                              | SUB_FUN2_LOOP_FREE_200));
 #if PENDANT_PROTOCOL
     m_mbaddrspace[VERSION_SUB_FUN] = fun;
@@ -3578,7 +3605,11 @@ int CMBProtocol::GetSysType(void)
 
 int CMBProtocol::GetSysTypeHigh()
 {
+#if PENDANT_PROTOCOL
     return sysVersion.m_soft_Ecat;
+#else
+    return ANALOG_MOTHERBOARD_TYPE;
+#endif
 }
 
 bool CMBProtocol::GetProcUse(int procid)

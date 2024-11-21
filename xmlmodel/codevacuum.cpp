@@ -184,7 +184,7 @@ void CodeVacuum::UpdateBaseMember()
 
     QString para;
     QString strvacuum;
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         if ((m_outbmp>>0)&1)
 			strvacuum = xStringResource::GetVarName(MAIN_VAR_Y11);

@@ -1,4 +1,4 @@
-// t113.cpp
+﻿// t113.cpp
 #include <fcntl.h>
 #include "t113.h"
 #include <QFile>
@@ -119,7 +119,7 @@ void T113::SetBuzzer_Gear(quint8 Buzzer_Gear)		//Buzzer_Gear : 蜂鸣器频率
 	if(!Buzzer.open(QIODevice::WriteOnly | QIODevice::Truncate)) {
 		qDebug() << "Unable to open ledRun file2";
 	}
-	if(Buzzer_Gear <= Max_pFreq)
+    if(Buzzer_Gear < Max_pFreq)
 	{
 		Buzzer.write(pFreq[Buzzer_Gear-1]);
 	}
@@ -216,8 +216,11 @@ void T113::readMATKeyData(int type)
 				}
 				else if((in_ev.value == 1)&&(in_ev.type ==1))
 				{
-					qwsServer->sendKeyEvent(0, keyCode[cur_mat_key], Qt::KeypadModifier, KEY_RELEASE, false);
-					cur_mat_key = CUSKEY_NULL;
+//                    if(cur_mat_key == i)      // 241119 和阳工发现这里第二个按键按下会触发松手事件，将Key置为NULL，需要加个保护 待验证
+//                    {
+                        qwsServer->sendKeyEvent(0, keyCode[cur_mat_key], Qt::KeypadModifier, KEY_RELEASE, false);
+                        cur_mat_key = CUSKEY_NULL;
+//                    }
 				}
 				break;
 			}

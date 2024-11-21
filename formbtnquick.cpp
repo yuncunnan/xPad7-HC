@@ -201,7 +201,7 @@ void FormBtnQuick::init(void)
 
 void FormBtnQuick::retranslateUi(void)
 {
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         ui->cBoxFetchPro->setItemText(0, xStringResource::GetVarName(MAIN_VAR_Y11));
         ui->cBoxFetchPro->setItemText(1, xStringResource::GetVarName(MAIN_VAR_Y12));
@@ -270,7 +270,7 @@ void FormBtnQuick::retranslateUi(void)
         ui->cBoxFetchPro->setItemText(12, xStringResource::GetVarName(EM1_VAR_Y14));
         ui->cBoxFetchPro->setItemText(13, xStringResource::GetVarName(EM1_VAR_Y15));
     }
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         ui->cBoxFetchRun->setItemText(0, xStringResource::GetVarName(MAIN_VAR_Y11));
         ui->cBoxFetchRun->setItemText(1, xStringResource::GetVarName(MAIN_VAR_Y12));

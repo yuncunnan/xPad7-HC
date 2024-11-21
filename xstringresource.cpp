@@ -2236,7 +2236,7 @@ void xStringResource::initIoVarRes(quint8 lan)
         inputVarName[MAIN_VAR_X22] = nameCfg.value(curLan + QString("MAIN_VAR_X22"), "Main").toString();
         inputVarName[MAIN_VAR_X23] = nameCfg.value(curLan + QString("MAIN_VAR_X23"), "Main").toString();
     }
-    else if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    else if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
 
         inputVarName[MAIN_VAR_X00] = nameCfg.value(curLan + QString("MAIN_VAR_X00"), "Main").toString();
@@ -2401,7 +2401,7 @@ void xStringResource::initIoVarRes(quint8 lan)
         inputVarName[EM1_VAR_X07] = nameCfg.value(curLan + QString("EM1_VAR_X07"), tr("EM1")).toString();
         inputVarName[EM1_VAR_X09] = nameCfg.value(curLan + QString("EM1_VAR_X09"), tr("压铸完成")).toString();
     }
-   else if ((CMBProtocol::GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_E0) || (CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS) || (CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_DVS))
+   else if ((CMBProtocol::GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_E0) || (CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS) || (CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS) || (CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_DVS))
     {
         inputVarName[EM1_VAR_X02] = nameCfg.value(curLan + QString("EM1_VAR_X02"), "EM1").toString();
         inputVarName[EM1_VAR_X03] = nameCfg.value(curLan + QString("EM1_VAR_X03"), "EM1").toString();
@@ -2820,7 +2820,7 @@ void xStringResource::initIoVarRes(quint8 lan)
 	// 输出变量名称
 	outputVarName.clear();
     // 主控模块输出
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         outputVarName[MAIN_VAR_Y00] = nameCfg.value(curLan + QString("MAIN_VAR_Y00"), "Main").toString();
         outputVarName[MAIN_VAR_Y01] = nameCfg.value(curLan + QString("MAIN_VAR_Y01"), "Main").toString();
@@ -3280,7 +3280,8 @@ void xStringResource::initIoVarRes(quint8 lan)
     {
         outputVarName[EM1_VAR_Y00] = nameCfg.value(curLan + QString("EM1_VAR_Y00"), tr("EM1")).toString();
         outputVarName[EM1_VAR_Y01] = nameCfg.value(curLan + QString("EM1_VAR_Y01"), tr("EM1")).toString();
-        if ((CMBProtocol::GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_E0) || (CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS) || (CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_DVS))
+        if ((CMBProtocol::GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_E0) || (CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+                 || (CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS)|| (CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_DVS))
         {
             outputVarName[EM1_VAR_Y02] = nameCfg.value(curLan + QString("EM1_VAR_Y02"), "EM1").toString();
             outputVarName[EM1_VAR_Y03] = nameCfg.value(curLan + QString("EM1_VAR_Y03"), "EM1").toString();

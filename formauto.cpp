@@ -618,8 +618,8 @@ void FormAuto::pgmPcChange(uint16_t pc, uint16_t idx, bool init)
         ui->tablePgm->scrollTo(ui->tablePgm->currentIndex());
     }
 }
-extern quint16 globlecodes[MAX_CODES];
-extern quint32 globleparas[MAX_CODES];
+extern quint16 globlecodes[];
+extern quint32 globleparas[];
 
 // 发送全自动代码
 bool FormAuto::TransAutoCode()

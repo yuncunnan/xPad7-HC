@@ -161,7 +161,7 @@ void CodeMExtOut::UpdateBaseMember()
 {
     /*************************pyq*不同主板时多扩展输出显示不同***************************************************************************/
     QString outName = "";
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         for(int i=0 ;i<12 ;i++)
         {

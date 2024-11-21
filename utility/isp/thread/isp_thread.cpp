@@ -910,6 +910,12 @@ int ISP_thread::DetectChip(void)
             m_need_boot_ver = true;
             emit FindDevice(QString(Answer)+QString(tr("-PLC主板")));
             break;
+        case 0x80009035://六轴主板 STM32H730VB
+            m_need_select_bank = true;
+            m_need_fast_cmd = true;
+            m_need_boot_ver = true;
+            emit FindDevice(QString(Answer)+QString(tr("-六轴单总线主板")));
+            break;
         case 0x80005001://六轴主板 STM32H750VB
             m_need_select_bank = true;
             m_need_fast_cmd = true;
@@ -994,7 +1000,7 @@ int ISP_thread::DetectChip(void)
             m_need_boot_ver = true;
             emit FindDevice(QString(Answer)+QString(trUtf8("-PLC-Canopen主板")));
             break;
-case 0x0000600F://八寸屏主板 STM32H750XB
+        case 0x0000600F://八寸屏主板 STM32H750XB
             m_need_select_bank = true;
             m_need_fast_cmd = true;
             m_need_boot_ver = true;
@@ -1253,6 +1259,7 @@ int ISP_thread::EraseChip(void)
             else
                 sprintf(tmpString, "E\r\n0001\r\n");
             break;
+        case 0x80009035://5轴Can主板 STM32H730VB
         case 0x80005001://六轴主板 STM32H750VB
         case 0x80005005://五轴主板 STM32H750VB
         case 0x80005011://ECAT六轴主板 STM32H750VB
@@ -1435,6 +1442,7 @@ Aretryagain:
         else
             tmpString[0] = 'O';
             break;
+        case 0x80009035://5轴Can主板 STM32H730VB
         case 0x80005001://六轴主板 STM32H750VB
         case 0x80005005://五轴主板 STM32H750VB
         case 0x80005011://ECAT六轴主板 STM32H750VB

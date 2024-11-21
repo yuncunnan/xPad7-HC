@@ -187,8 +187,8 @@ bool Formalfaoption::isModified(void)
     return false;
 }
 
-extern quint16 globlecodes[MAX_CODES];
-extern quint32 globleparas[MAX_CODES];
+extern quint16 globlecodes[];
+extern quint32 globleparas[];
 
 // 保存参数设置
 bool Formalfaoption::SaveAlfaPara(void)
@@ -405,7 +405,7 @@ void Formalfaoption::changeEvent(QEvent *e)
 }
 void Formalfaoption::retranslateUi(void)
 {
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         ui->ProJig1->setText(xStringResource::GetVarName(MAIN_VAR_Y11));
         ui->ProJig2->setText(xStringResource::GetVarName(MAIN_VAR_Y12));

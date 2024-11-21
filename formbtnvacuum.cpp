@@ -137,7 +137,7 @@ void FormBtnVacuum::init(void)
 void FormBtnVacuum::retranslateUi(void)
 {
 
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         ui->checkBoxJig03->setText(xStringResource::GetVarName(MAIN_VAR_Y11));
         ui->checkBoxJig04->setText(xStringResource::GetVarName(MAIN_VAR_Y12));

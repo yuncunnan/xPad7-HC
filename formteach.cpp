@@ -832,8 +832,8 @@ void FormTeach::MoveDown()
         ui->tableView_teach->scrollTo(ui->tableView_teach->currentIndex());
 	}
 }
-extern quint16 globlecodes[MAX_CODES];
-extern quint32 globleparas[MAX_CODES];
+extern quint16 globlecodes[];
+extern quint32 globleparas[];
 void FormTeach::SaveProgram(int pos, bool isReset)
 {
     int curpos;

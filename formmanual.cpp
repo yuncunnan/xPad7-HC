@@ -110,7 +110,7 @@ FormManual::FormManual(CMBProtocol *modbus, QWidget *parent) : QWidget(parent),	
 //    pInputSelect->addButton(ui->BtnIM2, EXTEND_BOARD_2);
 //    pInputSelect->addButton(ui->BtnIM3, EXTEND_BOARD_3);
 //    pInputSelect->addButton(ui->BtnIM4, EXTEND_BOARD_4);
-    if((pModbus->GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_E0) || (pModbus->GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS) || (pModbus->GetSysTypeHigh() == BOARD_VERSION_H750_DVS))
+    if((pModbus->GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_E0) || (pModbus->GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS) || (pModbus->GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS) || (pModbus->GetSysTypeHigh() == BOARD_VERSION_H750_DVS))
     {
         m_outidx = 0;
         m_inidx = 0;

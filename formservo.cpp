@@ -1526,7 +1526,7 @@ void Formservo::CheckBoxStatus(void)
 void Formservo::GetHomeType(uint8_t idx)
 {
     if (idx > MAX_AXIS_NUM) return;
-    if(pModbus->GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
 //        if(((ServoPara.m_home_mode >> (idx*2)) &3) == 2)              // 20240228 放开限制
 //            m_HomeType[idx]->setCurrentIndex(1); // 每个轴占2位
@@ -1541,7 +1541,7 @@ void Formservo::SetHomeType(uint8_t idx)
 {
     if (idx > MAX_AXIS_NUM) return;
     ServoPara.m_home_mode &= ~(3 <<(idx*2));
-    if(pModbus->GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
 //        if(m_HomeType[idx]->currentIndex() == 1)//0：不归原点。1：原点加Z。2：原点 。五轴主板特殊处理    // 20240228 放开限制
 //            ServoPara.m_home_mode |= 2<< (idx*2) ;

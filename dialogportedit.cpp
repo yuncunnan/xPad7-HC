@@ -207,7 +207,7 @@ void DialogPortEdit::InitInPortName()
         ui->tableWidget_In->setItem(EM4_X14,0,new QTableWidgetItem(tr("扩展模块4X14")));
         ui->tableWidget_In->setItem(EM4_X15,0,new QTableWidgetItem(tr("扩展模块4X15")));
     }
-    else if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    else if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         //pyq 端口号
         //主板 输入端口号
@@ -488,7 +488,7 @@ void DialogPortEdit::InitInPortName()
 
     //主板默认名称
     //pyq
-    if(CMBProtocol::GetSysTypeHigh()==BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         ui->tableWidget_In->setItem(MAIN_X00,1,new QTableWidgetItem(QString::fromUtf8("Main-X00")));
         ui->tableWidget_In->setItem(MAIN_X01,1,new QTableWidgetItem(QString::fromUtf8("Main-X01")));
@@ -638,7 +638,7 @@ void DialogPortEdit::InitInPortName()
     //            ui->tableWidget_In->setItem(EM4_X15,1,new QTableWidgetItem(QString::fromUtf8("EM4-X15")));
     //        }
     //pyq 默认名称
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         ui->tableWidget_In->setItem(EM1_X00,1,new QTableWidgetItem(QString::fromUtf8("抱具1-X16")));
         ui->tableWidget_In->setItem(EM1_X01,1,new QTableWidgetItem(QString::fromUtf8("抱具2-X17")));
@@ -906,7 +906,7 @@ void DialogPortEdit::InitInPortName()
     ui->tableWidget_In->setItem(MAIN_X15,2,new QTableWidgetItem(xStringResource::GetModifyPortName(MAIN_VAR_X15)));
 
     //pyq得到保存在编辑端口名字页面更改后的数据
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         //扩展输入
         ui->tableWidget_In->setItem(EM1_X00,2,new QTableWidgetItem(xStringResource::GetModifyPortName(MAIN_VAR_X16)));
@@ -1243,7 +1243,7 @@ void DialogPortEdit::InitOutPortName()
     //        ui->tableWidget_Out->setItem(EM4_Y15,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y15")));
     //   }
     //pyq 输出端口号
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         ui->tableWidget_Out->setItem(EM1_Y00,0,new QTableWidgetItem(QString::fromUtf8("主板Y16")));
         ui->tableWidget_Out->setItem(EM1_Y01,0,new QTableWidgetItem(QString::fromUtf8("主板Y17")));
@@ -1516,7 +1516,7 @@ void DialogPortEdit::InitOutPortName()
     ui->tableWidget_Out->setItem(RBT_OUT_RUN_VER,   0,new QTableWidgetItem(tr("机械手RUN_VER")));*/
     //--------------------------------------------------------------------------------------------
     //pyq输出默认名称
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         //主板 输出默认名称
         ui->tableWidget_Out->setItem(MAIN_Y00,1,new QTableWidgetItem(QString::fromUtf8("Main-Y00")));
@@ -1902,7 +1902,7 @@ void DialogPortEdit::InitOutPortName()
     ui->tableWidget_Out->setItem(MAIN_Y14,2,new QTableWidgetItem(xStringResource::GetModifyPortName(MAIN_VAR_Y14)));
     ui->tableWidget_Out->setItem(MAIN_Y15,2,new QTableWidgetItem(xStringResource::GetModifyPortName(MAIN_VAR_Y15)));
     //PYQ
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         //扩展输入
         ui->tableWidget_Out->setItem(EM1_Y00,2,new QTableWidgetItem(xStringResource::GetModifyPortName(MAIN_VAR_Y16)));
@@ -2154,7 +2154,7 @@ void DialogPortEdit::setIOVisible()
 
 
     //pyq
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         for(i = 0; i < MAX_INPORT_NUM3; i++)
         {
@@ -2701,7 +2701,7 @@ void DialogPortEdit::setIOVisible()
         }
     }
     //输出表 PYQ
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         for(i = 0; i < MAX_OUTPORT_NUM3; i++)
         {
@@ -3334,7 +3334,7 @@ void DialogPortEdit::tableWidgeCellClicked(int row, int column)
 {
     QString name;
     //pyq
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         if((column == 2 ) && (row < MAX_INPORT_NUM3))
         {
@@ -3360,7 +3360,7 @@ void DialogPortEdit::tableWidgeOutCellClicked(int row, int column)
 {
     QString name;
     //pyq
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         if((column == 2 ) && (row < MAX_OUTPORT_NUM3))
         {
@@ -3394,7 +3394,7 @@ void DialogPortEdit::NewPortFile()
 
     //输入修改名称
     //pyq改变端口名字
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
         for(i = 0; i < MAX_INPORT_NUM3; i++)
         {
@@ -5238,7 +5238,8 @@ void DialogPortEdit::NewPortFile()
     }
 
     //输出修改名称
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS){
+    if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
+    {
         for(i = 0; i < MAX_OUTPORT_NUM3; i++)
         {
             if(ui->tableWidget_Out->item(i,2)->text() != ("")){
