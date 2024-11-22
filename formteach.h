@@ -116,7 +116,8 @@ private:
 	Ui::FormTeach *ui;
 	CMBProtocol *pModbus;					// Modbus协议对象
     int posBak;
-    int curpos[MAX_PROCESS];
+//    int curpos[MAX_PROCESS];
+    int curpos[8];
     int currentCode;
     bool m_haswarning;
     // 参数编辑窗口部件

@@ -648,13 +648,15 @@
 //New Codes
 ////////////////////////////////////////////////////////////////////////////
 #define NEW_CODE_BEG                                0x1000
-#define NEW_CODE_END                                (NEW_CODE_BEG+MAX_CODES*MAX_PROCESS-1)
+//#define NEW_CODE_END                                (NEW_CODE_BEG+MAX_CODES*MAX_PROCESS-1)
+#define NEW_CODE_END                                (NEW_CODE_BEG+4096*4-1)
 
 ////////////////////////////////////////////////////////////////////////////
 //New Paras
 ////////////////////////////////////////////////////////////////////////////
 #define NEW_PARA_BEG                                0x5000
-#define NEW_PARA_END                                (NEW_PARA_BEG+MAX_CODES*MAX_PROCESS-1)
+//#define NEW_PARA_END                                (NEW_PARA_BEG+MAX_CODES*MAX_PROCESS-1)
+#define NEW_PARA_END                                (NEW_PARA_BEG+4096*4-1)
 
 #define MODBUS_ADDRESS_MAX              (NEW_PARA_END+1)
 

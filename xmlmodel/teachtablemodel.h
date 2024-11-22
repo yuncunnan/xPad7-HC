@@ -91,11 +91,13 @@ private:
 	void ClearProgram();//清除所有列表中的指令
 	bool m_ismodifed;   //文件修改标志
     int m_current_process;
-    QList<XmlModelItem *> m_codelist[MAX_PROCESS];
+//    QList<XmlModelItem *> m_codelist[MAX_PROCESS];
+    QList<XmlModelItem *> m_codelist[8];
     QList<XmlModelVarInitItem *> m_varlist;
     bool m_optedit;
     int m_currentopt;
-    QList<XmlModelItemOption *> m_optlist[MAX_PROCESS];
+//    QList<XmlModelItemOption *> m_optlist[MAX_PROCESS];
+    QList<XmlModelItemOption *> m_optlist[8];
 	//XML读接口
     bool XmlReadSinRobotElement(QXmlStreamReader & reader);
     bool XmlReadProgramElement(QXmlStreamReader & reader, int procid);

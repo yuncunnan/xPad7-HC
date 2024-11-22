@@ -38,7 +38,8 @@ signals:
 	void BtnManualClick(void);
 
 private:
-    int curpc[MAX_PROCESS];
+//    int curpc[MAX_PROCESS];
+    int curpc[8];
 	Ui::FormAuto *ui;
 	CMBProtocol *pModbus;					// Modbus协议对象
 	TeachTableModel pgmModel;

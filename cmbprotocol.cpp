@@ -3617,6 +3617,14 @@ bool CMBProtocol::GetProcUse(int procid)
     if (procid == 0) return true;
     if (procid == 1) return m_mbaddrspace[SYS_PROC2_USE] != 0;
     if (procid == 2) return m_mbaddrspace[SYS_PROC3_USE] != 0;
+//    if (procid == 3) return ((m_mbaddrspace[SYS_PROC_USE] >> 0) & 1) != 0;
+//    if(GetFunctions(SUB_FUN2_8_PROC))
+//    {
+//        if (procid == 4) return true;
+//        if (procid == 5) return true;
+//        if (procid == 6) return true;
+//        if (procid == 7) return true;
+//    }
     return false;
 }
 // 得到系统功能支持状态
