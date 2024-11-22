@@ -1161,7 +1161,10 @@ void TeachTableModel::InsertCode(XmlModelItem *item, int insertpos)
     {
         var = GetMinCounter();
         if (var == 0)
+        {
 			xMessageBox::DoWarning(tr("系统提示"), tr("没有可用计数器!"));
+            return;
+        }
         else
         {
             item->SetUserVar(var);
@@ -1172,7 +1175,10 @@ void TeachTableModel::InsertCode(XmlModelItem *item, int insertpos)
     {
         var = GetMinCounter();
         if (var == 0)
+        {
 			xMessageBox::DoWarning(tr("系统提示"), tr("没有可用计数器!"));
+            return;
+        }
         else
         {
             item->SetUserVar(var, 0);
@@ -1180,7 +1186,10 @@ void TeachTableModel::InsertCode(XmlModelItem *item, int insertpos)
         }
         var = GetMinCounter();
         if (var == 0)
+        {
 			xMessageBox::DoWarning(tr("系统提示"), tr("没有可用计数器!"));
+            return;
+        }
         else
         {
             item->SetUserVar(var, 1);
