@@ -1,4 +1,4 @@
-#include "dialogportedit.h"
+﻿#include "dialogportedit.h"
 #include "ui_dialogportedit.h"
 #include "xconfig.h"
 #include <QSettings>
@@ -1171,77 +1171,7 @@ void DialogPortEdit::InitOutPortName()
     ui->tableWidget_Out->setItem(MAIN_Y13,0,new QTableWidgetItem(tr("主板Y13")));
     ui->tableWidget_Out->setItem(MAIN_Y14,0,new QTableWidgetItem(tr("主板Y14")));
     ui->tableWidget_Out->setItem(MAIN_Y15,0,new QTableWidgetItem(tr("主板Y15")));
-    //   if (CMBProtocol::GetSysType() == ROBOTARM_TYPE_SIXSV_PAD_E0)
-    //   {
-    //       //扩展输出
-    //        ui->tableWidget_Out->setItem(EM1_Y00,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y00")));
-    //        ui->tableWidget_Out->setItem(EM1_Y01,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y01")));
-    //        ui->tableWidget_Out->setItem(EM1_Y02,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y02")));
-    //        ui->tableWidget_Out->setItem(EM1_Y03,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y03")));
-    //        ui->tableWidget_Out->setItem(EM1_Y04,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y04")));
-    //        ui->tableWidget_Out->setItem(EM1_Y05,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y05")));
-    //        ui->tableWidget_Out->setItem(EM1_Y06,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y06")));
-    //        ui->tableWidget_Out->setItem(EM1_Y07,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y07")));
-    //        ui->tableWidget_Out->setItem(EM1_Y08,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y08")));
-    //        ui->tableWidget_Out->setItem(EM1_Y09,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y09")));
-    //        ui->tableWidget_Out->setItem(EM1_Y10,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y10")));
-    //        ui->tableWidget_Out->setItem(EM1_Y11,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y11")));
-    //        ui->tableWidget_Out->setItem(EM1_Y12,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y12")));
-    //        ui->tableWidget_Out->setItem(EM1_Y13,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y13")));
-    //        ui->tableWidget_Out->setItem(EM1_Y14,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y14")));
-    //        ui->tableWidget_Out->setItem(EM1_Y15,0,new QTableWidgetItem(QString::fromUtf8("扩展模块1Y15")));
 
-    //        ui->tableWidget_Out->setItem(EM2_Y00,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y00")));
-    //        ui->tableWidget_Out->setItem(EM2_Y01,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y01")));
-    //        ui->tableWidget_Out->setItem(EM2_Y02,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y02")));
-    //        ui->tableWidget_Out->setItem(EM2_Y03,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y03")));
-    //        ui->tableWidget_Out->setItem(EM2_Y04,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y04")));
-    //        ui->tableWidget_Out->setItem(EM2_Y05,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y05")));
-    //        ui->tableWidget_Out->setItem(EM2_Y06,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y06")));
-    //        ui->tableWidget_Out->setItem(EM2_Y07,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y07")));
-    //        ui->tableWidget_Out->setItem(EM2_Y08,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y08")));
-    //        ui->tableWidget_Out->setItem(EM2_Y09,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y09")));
-    //        ui->tableWidget_Out->setItem(EM2_Y10,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y10")));
-    //        ui->tableWidget_Out->setItem(EM2_Y11,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y11")));
-    //        ui->tableWidget_Out->setItem(EM2_Y12,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y12")));
-    //        ui->tableWidget_Out->setItem(EM2_Y13,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y13")));
-    //        ui->tableWidget_Out->setItem(EM2_Y14,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y14")));
-    //        ui->tableWidget_Out->setItem(EM2_Y15,0,new QTableWidgetItem(QString::fromUtf8("扩展模块2Y15")));
-
-    //        ui->tableWidget_Out->setItem(EM3_Y00,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y00")));
-    //        ui->tableWidget_Out->setItem(EM3_Y01,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y01")));
-    //        ui->tableWidget_Out->setItem(EM3_Y02,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y02")));
-    //        ui->tableWidget_Out->setItem(EM3_Y03,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y03")));
-    //        ui->tableWidget_Out->setItem(EM3_Y04,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y04")));
-    //        ui->tableWidget_Out->setItem(EM3_Y05,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y05")));
-    //        ui->tableWidget_Out->setItem(EM3_Y06,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y06")));
-    //        ui->tableWidget_Out->setItem(EM3_Y07,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y07")));
-    //        ui->tableWidget_Out->setItem(EM3_Y08,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y08")));
-    //        ui->tableWidget_Out->setItem(EM3_Y09,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y09")));
-    //        ui->tableWidget_Out->setItem(EM3_Y10,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y10")));
-    //        ui->tableWidget_Out->setItem(EM3_Y11,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y11")));
-    //        ui->tableWidget_Out->setItem(EM3_Y12,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y12")));
-    //        ui->tableWidget_Out->setItem(EM3_Y13,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y13")));
-    //        ui->tableWidget_Out->setItem(EM3_Y14,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y14")));
-    //        ui->tableWidget_Out->setItem(EM3_Y15,0,new QTableWidgetItem(QString::fromUtf8("扩展模块3Y15")));
-
-    //        ui->tableWidget_Out->setItem(EM4_Y00,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y00")));
-    //        ui->tableWidget_Out->setItem(EM4_Y01,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y01")));
-    //        ui->tableWidget_Out->setItem(EM4_Y02,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y02")));
-    //        ui->tableWidget_Out->setItem(EM4_Y03,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y03")));
-    //        ui->tableWidget_Out->setItem(EM4_Y04,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y04")));
-    //        ui->tableWidget_Out->setItem(EM4_Y05,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y05")));
-    //        ui->tableWidget_Out->setItem(EM4_Y06,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y06")));
-    //        ui->tableWidget_Out->setItem(EM4_Y07,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y07")));
-    //        ui->tableWidget_Out->setItem(EM4_Y08,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y08")));
-    //        ui->tableWidget_Out->setItem(EM4_Y09,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y09")));
-    //        ui->tableWidget_Out->setItem(EM4_Y10,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y10")));
-    //        ui->tableWidget_Out->setItem(EM4_Y11,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y11")));
-    //        ui->tableWidget_Out->setItem(EM4_Y12,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y12")));
-    //        ui->tableWidget_Out->setItem(EM4_Y13,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y13")));
-    //        ui->tableWidget_Out->setItem(EM4_Y14,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y14")));
-    //        ui->tableWidget_Out->setItem(EM4_Y15,0,new QTableWidgetItem(QString::fromUtf8("扩展模块4Y15")));
-    //   }
     //pyq 输出端口号
     if((CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_5AXIS)||(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H730_5AXIS))
     {
@@ -5825,7 +5755,7 @@ void DialogPortEdit::NewPortFile()
             }
         }
     }
-    if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_DVS){
+    else if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_DVS){
         for(i = 0; i < MAX_OUTPORT_NUM2; i++)
         {
             if(ui->tableWidget_Out->item(i,2)->text() != (""))

@@ -26,7 +26,7 @@
 #endif
 #endif
 
-#define ANALOG_MOTHERBOARD_TYPE     BOARD_VERSION_H750_5AXIS    // 241115增加模拟主板类型
+#define ANALOG_MOTHERBOARD_TYPE     (BOARD_VERSION_H750_5AXIS)    // 241115增加模拟主板类型
 
 // 是否是模拟器画面(模拟器界面400*640 某些界面文字大小，坐标会有调整)
 #define SIMULATOR                   0           // 编译模拟器时，打开-640.pro文件，再将 SIMULATOR定义为true
