@@ -10,7 +10,7 @@
 #define MAX_DISTANCE                6000000
 #define MAX_DEGREE					36000
 // 定义操作器软件版本号宏
-#define XPAD_SVER					"SV14.01-24121"
+#define XPAD_SVER					"SV14.01-241128"
 // 定义操作器类型字符串
 #define XPAD_TYPE_STR				"SR6807A"
 
@@ -158,6 +158,7 @@
 
 //H730版本
 #define BOARD_VERSION_H730_5AXIS            0X82    //H730高速五轴轴版本
+#define BOARD_VERSION_H730_FIVEBOX          0X83    //驱控一体5合1主板
 
 //手控器主芯片版本
 enum BoardType

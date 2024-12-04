@@ -916,6 +916,12 @@ int ISP_thread::DetectChip(void)
             m_need_boot_ver = true;
             emit FindDevice(QString(Answer)+QString(tr("-六轴单总线主板")));
             break;
+        case 0x80009045://fivebox主板 STM32H730VB
+            m_need_select_bank = true;
+            m_need_fast_cmd = true;
+            m_need_boot_ver = true;
+            emit FindDevice(QString(Answer)+QString(trUtf8("-5合1主板")));
+            break;
         case 0x80005001://六轴主板 STM32H750VB
             m_need_select_bank = true;
             m_need_fast_cmd = true;
@@ -952,7 +958,7 @@ int ISP_thread::DetectChip(void)
             m_need_boot_ver = true;
             emit FindDevice(QString(Answer)+QString(tr("-PLC-ECAT主板")));
             break;
-                case 0x80005021://DVS六轴主板 STM32H750VB
+        case 0x80005021://DVS六轴主板 STM32H750VB
             m_need_select_bank = true;
             m_need_fast_cmd = true;
             m_need_boot_ver = true;
@@ -1260,6 +1266,7 @@ int ISP_thread::EraseChip(void)
                 sprintf(tmpString, "E\r\n0001\r\n");
             break;
         case 0x80009035://5轴Can主板 STM32H730VB
+        case 0x80009045://fivebox主板 STM32H730VB
         case 0x80005001://六轴主板 STM32H750VB
         case 0x80005005://五轴主板 STM32H750VB
         case 0x80005011://ECAT六轴主板 STM32H750VB
@@ -1443,6 +1450,7 @@ Aretryagain:
             tmpString[0] = 'O';
             break;
         case 0x80009035://5轴Can主板 STM32H730VB
+        case 0x80009045://fivebox主板 STM32H730VB
         case 0x80005001://六轴主板 STM32H750VB
         case 0x80005005://五轴主板 STM32H750VB
         case 0x80005011://ECAT六轴主板 STM32H750VB
