@@ -789,8 +789,12 @@ void CMBProtocol::MBPeriodPoll()
 				pTopInfo->hide();
 			srvPos[AXIS_IDX_PHOR] = 0, srvPos[AXIS_IDX_PVER] = 0, srvPos[AXIS_IDX_TRV] = 0;
 			srvPos[AXIS_IDX_RHOR] = 0, srvPos[AXIS_IDX_RVER] = 0, srvPos[AXIS_IDX_EXT] = 0;
-			pTopInfo->ShowInformation(QPixmap(":/img/48X48/ComError.png"), tr("错误"), tr("系统通讯错误：\n操作器与主控模块无法正常通讯，请关闭系统然后检查通讯链路是否正常。"), false);
-			xSysLog::AddRecord(SYSLOG_TYPE_ALM, 255, QString(""), QByteArray((char*)srvPos, sizeof(srvPos)));
+#if defined(Q_WS_QWS)
+            pTopInfo->ShowInformation(QPixmap(":/img/48X48/ComError.png"), tr("错误"), tr("系统通讯错误：\n操作器与主控模块无法正常通讯，请关闭系统然后检查通讯链路是否正常。"), false);
+#else
+            xMessageBox::DoWarning(tr("错误"), tr("系统通讯错误"));
+#endif
+            xSysLog::AddRecord(SYSLOG_TYPE_ALM, 255, QString(""), QByteArray((char*)srvPos, sizeof(srvPos)));
 			xSysLog::SaveChange();
 		}
 		return;

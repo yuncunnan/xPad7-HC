@@ -20,7 +20,7 @@
 #else
 
 #if defined(Q_WS_WIN)
-#define PENDANT_PROTOCOL			0   // pc端改这个不影响linux
+#define PENDANT_PROTOCOL			1   // pc端改这个不影响linux
 #else
 #define PENDANT_PROTOCOL			1
 #endif
