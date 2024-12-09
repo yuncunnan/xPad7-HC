@@ -928,13 +928,13 @@ int ISP_thread::DetectChip(void)
             m_need_boot_ver = true;
             emit FindDevice(QString(Answer)+QString(tr("-六轴主板")));
             break;
-            case 0x80005005://五轴主板 STM32H750VB
+        case 0x80005005://五轴主板 STM32H750VB
             m_need_select_bank = true;
             m_need_fast_cmd = true;
             m_need_boot_ver = true;
             emit FindDevice(QString(Answer)+QString(tr("-5轴主板")));
             break;
-            case 0x80005011://ECAT六轴主板 STM32H750VB
+        case 0x80005011://ECAT六轴主板 STM32H750VB
             m_need_select_bank = true;
             m_need_fast_cmd = true;
             m_need_boot_ver = true;
