@@ -1,4 +1,4 @@
-#if defined(Q_WS_QWS)
+﻿#if defined(Q_WS_QWS)
 #include <unistd.h>
 #endif
 #include <QSettings>
@@ -1534,7 +1534,7 @@ void Formservo::GetHomeType(uint8_t idx)
             m_HomeType[idx]->setCurrentIndex((ServoPara.m_home_mode >> (idx*2)) &3); // 每个轴占2位
     }
     else
-    m_HomeType[idx]->setCurrentIndex((ServoPara.m_home_mode >> (idx*2)) &3); // 每个轴占2位
+        m_HomeType[idx]->setCurrentIndex((ServoPara.m_home_mode >> (idx*2)) &3); // 每个轴占2位
 }
 
 void Formservo::SetHomeType(uint8_t idx)

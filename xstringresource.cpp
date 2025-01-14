@@ -1055,7 +1055,7 @@ void xStringResource::initAlarmSolutionRes(void)
     << tr("[307]")
     << tr("[308]")
     << tr("[309]")
-    << tr("[310]");
+	<< tr("[310] 机械手运行不安全");
 #endif
 }
 
@@ -2163,7 +2163,7 @@ void xStringResource::initAlarmRes(void)
         << tr("[307]")
         << tr("[308]")
         << tr("[309]")
-        << tr("[310]");
+		<< tr("[310] 机械手运行不安全");
     }
 }
 
