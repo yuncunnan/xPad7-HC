@@ -15,16 +15,17 @@
 #define XPAD_TYPE_STR				"SR6807A"
 
 // 是否使用通讯
+// 是否使用通讯
 #if IS_XEDITOR
 #define PENDANT_PROTOCOL			0
 #else
-
-#if defined(Q_WS_WIN)
-#define PENDANT_PROTOCOL			1   // pc端改这个不影响linux
+#if defined(Q_WS_QWS)
+#define PENDANT_PROTOCOL			1       //虚拟机通讯
 #else
-#define PENDANT_PROTOCOL			1
+#define PENDANT_PROTOCOL			0       //PC通讯
 #endif
 #endif
+
 
 #define ANALOG_MOTHERBOARD_TYPE     (BOARD_VERSION_H750_5AXIS)    // 241115增加模拟主板类型
 
@@ -564,6 +565,9 @@ enum BoardType
 #define AXIS_IDX_RVER           	AXES_IDX_A
 #define AXIS_IDX_RHOR           	AXES_IDX_B
 #define AXIS_IDX_EXT            	AXES_IDX_C
+
+#define MAX_AXIS_IDX            	6
+
 // *************************************************
 // 伺服轴映像(手动自动时伺服轴定义)
 // *************************************************

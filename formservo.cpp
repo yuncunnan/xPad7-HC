@@ -44,6 +44,38 @@ Formservo::Formservo(CMBProtocol *modbus, QWidget *parent) :	QWidget(parent), ui
 	pModbus = modbus;
 	retranslateUi();
 
+    // 获取编码器类型
+    cBoxEncoder[0] = ui->cBoxPaHorEncoder;
+    cBoxEncoder[1] = ui->cBoxPaVerEncoder;
+    cBoxEncoder[2] = ui->cBoxTrvEncoder;
+    cBoxEncoder[3] = ui->cBoxRaHorEncoder;
+    cBoxEncoder[4] = ui->cBoxRaVerEncoder;
+    cBoxEncoder[5] = ui->cBoxExtEncoder;
+
+    QStringList list;
+    list<<tr("无")
+        <<tr("禾川X3伺服")
+        <<tr("禾川X3E伺服")
+        <<tr("台达伺服")
+        <<tr("三菱MR-JE-A")
+        <<tr("松下A6")
+        <<tr("新思SS")
+        <<tr("汇川伺服")
+        <<tr("红森伺服")
+        <<tr("日川伺服")
+        <<tr("SIGRINER")
+        <<tr("瑞能")
+        <<tr("新睿DVS")
+        <<tr("东菱DS2");
+    for(quint8 i = 0; i < MAX_AXIS_IDX; i++)
+    {
+        if(cBoxEncoder[i])
+        {
+            cBoxEncoder[i]->clear();
+            cBoxEncoder[i]->addItems(list);
+        }
+    }
+
     m_AxisType[0] = ui->checkBoxPHor;
     m_AxisType[1] = ui->checkBoxPVer;
     m_AxisType[2] = ui->checkBoxTrv;

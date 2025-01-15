@@ -144,7 +144,7 @@
          </font>
         </property>
         <property name="currentIndex">
-         <number>1</number>
+         <number>3</number>
         </property>
         <widget class="QWidget" name="stackedWidgetPage1">
          <layout class="QGridLayout" name="gridLayout_14">
@@ -382,11 +382,11 @@
              </font>
             </property>
             <property name="iconOn">
-             <iconset>
+             <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
             <property name="iconOff">
-             <iconset>
+             <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
             <property name="iconSize">
@@ -884,11 +884,11 @@
              </font>
             </property>
             <property name="iconOn">
-             <iconset>
+             <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
             <property name="iconOff">
-             <iconset>
+             <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
             <property name="iconSize">
@@ -1019,11 +1019,11 @@
              </font>
             </property>
             <property name="iconOn">
-             <iconset>
+             <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
             <property name="iconOff">
-             <iconset>
+             <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
             <property name="iconSize">
@@ -1195,11 +1195,11 @@
              </font>
             </property>
             <property name="iconOn">
-             <iconset>
+             <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
             <property name="iconOff">
-             <iconset>
+             <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
             <property name="iconSize">
@@ -1317,11 +1317,11 @@
              </font>
             </property>
             <property name="iconOn">
-             <iconset>
+             <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
             <property name="iconOff">
-             <iconset>
+             <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
             <property name="iconSize">
@@ -2649,11 +2649,11 @@
              </font>
             </property>
             <property name="iconOn">
-             <iconset>
+             <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedGreenOn.png</normaloff>:/img/widget/LedGreenOn.png</iconset>
             </property>
             <property name="iconOff">
-             <iconset>
+             <iconset resource="xPad.qrc">
               <normaloff>:/img/widget/LedOff.png</normaloff>:/img/widget/LedOff.png</iconset>
             </property>
             <property name="iconSize">
@@ -5419,71 +5419,6 @@
             <property name="styleSheet">
              <string notr="true"/>
             </property>
-            <item>
-             <property name="text">
-              <string>无</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>禾川X3伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>禾川X3E伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>台达A2伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>三菱MR-JE-A</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>松下A6</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>新思SS</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>汇川SV660P</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>红森伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>日川伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>SIGRINER</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>瑞能</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>新睿DVS</string>
-             </property>
-            </item>
            </widget>
           </item>
           <item row="12" column="0">
@@ -7118,71 +7053,6 @@
             <property name="styleSheet">
              <string notr="true"/>
             </property>
-            <item>
-             <property name="text">
-              <string>无</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>禾川X3伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>禾川X3E伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>台达A2伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>三菱MR-JE-A</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>松下A6</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>新思SS</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>汇川SV660P</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>红森伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>日川伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>SIGRINER</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>瑞能</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>新睿DVS</string>
-             </property>
-            </item>
            </widget>
           </item>
           <item row="14" column="0">
@@ -8713,71 +8583,6 @@
             <property name="styleSheet">
              <string notr="true"/>
             </property>
-            <item>
-             <property name="text">
-              <string>无</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>禾川X3伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>禾川X3E伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>台达A2伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>三菱MR-JE-A</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>松下A6</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>新思SS</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>汇川SV660P</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>红森伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>日川伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>SIGRINER</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>瑞能</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>新睿DVS</string>
-             </property>
-            </item>
            </widget>
           </item>
           <item row="14" column="0">
@@ -10216,71 +10021,6 @@
             <property name="styleSheet">
              <string notr="true"/>
             </property>
-            <item>
-             <property name="text">
-              <string>无</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>禾川X3伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>禾川X3E伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>台达A2伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>三菱MR-JE-A</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>松下A6</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>新思SS</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>汇川SV660P</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>红森伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>日川伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>SIGRINER</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>瑞能</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>新睿DVS</string>
-             </property>
-            </item>
            </widget>
           </item>
           <item row="12" column="0">
@@ -11927,71 +11667,6 @@
             <property name="styleSheet">
              <string notr="true"/>
             </property>
-            <item>
-             <property name="text">
-              <string>无</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>禾川X3伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>禾川X3E伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>台达A2伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>三菱MR-JE-A</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>松下A6</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>新思SS</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>汇川SV660P</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>红森伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>日川伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>SIGRINER</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>瑞能</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>新睿DVS</string>
-             </property>
-            </item>
            </widget>
           </item>
           <item row="14" column="0">
@@ -13537,71 +13212,6 @@
             <property name="styleSheet">
              <string notr="true"/>
             </property>
-            <item>
-             <property name="text">
-              <string>无</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>禾川X3伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>禾川X3E伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>台达A2伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>三菱MR-JE-A</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>松下A6</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>新思SS</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>汇川SV660P</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>红森伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>日川伺服</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>SIGRINER</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>瑞能</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>新睿DVS</string>
-             </property>
-            </item>
            </widget>
           </item>
           <item row="14" column="0">
@@ -15685,7 +15295,7 @@
          <string>保存</string>
         </property>
         <property name="icon">
-         <iconset>
+         <iconset resource="xPad.qrc">
           <normaloff>:/img/32X32/Save.png</normaloff>:/img/32X32/Save.png</iconset>
         </property>
         <property name="iconSize">
@@ -15695,10 +15305,10 @@
          </size>
         </property>
         <property name="imageNormal">
-         <pixmap>:/img/widget/BtnBoxNormal.png</pixmap>
+         <pixmap resource="xPad.qrc">:/img/widget/BtnBoxNormal.png</pixmap>
         </property>
         <property name="imagePress">
-         <pixmap>:/img/widget/BtnBoxPress.png</pixmap>
+         <pixmap resource="xPad.qrc">:/img/widget/BtnBoxPress.png</pixmap>
         </property>
         <property name="borderTop">
          <number>8</number>
@@ -16149,7 +15759,9 @@
   <tabstop>BoxTrvSpeed</tabstop>
   <tabstop>BoxTrvAcc</tabstop>
  </tabstops>
- <resources/>
+ <resources>
+  <include location="xPad.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>pushButtonOK</sender>

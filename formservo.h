@@ -1,4 +1,4 @@
-#ifndef FORMSERVO_H
+﻿#ifndef FORMSERVO_H
 #define FORMSERVO_H
 
 #include <QVector>
@@ -36,6 +36,8 @@ protected:
 private:
 	Ui::Formservo *ui;
 	CMBProtocol *pModbus;					// Modbus协议对象
+    QComboBox * cBoxEncoder[MAX_AXIS_IDX];
+
 //	QVector<QString> StrDirection;			// 各伺服轴的名称
 	ServoParameter ServoPara;				// 伺服参数数据
 	ServoParameter ServoParaBak;
