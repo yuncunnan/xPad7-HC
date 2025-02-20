@@ -3634,7 +3634,11 @@ bool CMBProtocol::GetProcUse(int procid)
 // 得到系统功能支持状态
 bool CMBProtocol::GetFunctions(quint64 mask)
 {
+#if PENDANT_PROTOCOL
     return ((m_mbaddrspace[VERSION_SUB_FUN] & mask) | (m_mbaddrspace[VERSION_SUB_FUN2] & (mask >> 16)) | (m_mbaddrspace[VERSION_SUB_FUN3] & (mask >> 32))) != 0;
+#else
+    return true;
+#endif
 }
 
 int CMBProtocol::ReadVisionTestData(quint8 visionidx)

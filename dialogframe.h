@@ -66,7 +66,7 @@ class DialogFrame : public QDialog
 public:
 	explicit DialogFrame(CMBProtocol *modbus, xPermissions *usrPerm, QWidget *parent = 0);
 	~DialogFrame();
-    void CWCCWKeyHandler(quint32 key);
+//    void CWCCWKeyHandler(quint32 key);
     int ScreenSaverUserManager(void);
 
 protected:

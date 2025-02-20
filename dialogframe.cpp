@@ -285,34 +285,34 @@ DialogFrame::~DialogFrame()
 #endif
 	delete pBtnSv;
 }
-void DialogFrame::CWCCWKeyHandler(quint32 key)
-{
-	static int i = 0 ;
-	static quint32 tempKey;
-    if (!ServoCtrl->isHidden())
-        return;
-	if(tempKey != key)
-	{
-		tempKey = key;
-	}
-	else
-	{
-		if (TeachProgram)
-		{
-			if (curScreen==SCR_TEACH)
-			{
-				i++;
-				if((i > 2))
-				{
-					TeachProgram->keyRelease(key);
-					i = 0;
-				}
-				else
-					return;
-			}
-		}
-	}
-}
+//void DialogFrame::CWCCWKeyHandler(quint32 key)
+//{
+//	static int i = 0 ;
+//	static quint32 tempKey;
+//    if (!ServoCtrl->isHidden())
+//        return;
+//	if(tempKey != key)
+//	{
+//		tempKey = key;
+//	}
+//	else
+//	{
+//		if (TeachProgram)
+//		{
+//			if (curScreen==SCR_TEACH)
+//			{
+//				i++;
+//				if((i > 2))
+//				{
+//					TeachProgram->keyRelease(key);
+//					i = 0;
+//				}
+//				else
+//					return;
+//			}
+//		}
+//	}
+//}
 void DialogFrame::btnStatusClick()
 {
     if(CMBProtocol::GetSysState() == SYS_STATE_MANUAL)
@@ -694,21 +694,21 @@ void DialogFrame::keyPress(QKeyEvent *event)
             ServoCtrl->keyRelease(event->key());
             return;
         }
-		if (TeachProgram)
-		{
-			if (curScreen==SCR_TEACH)
-			{
-				i++;
-				if((i > 2))
-				{
-					qDebug()<<"ENCODER_CCW--------------002"<<ENCODER_CCW;
-					TeachProgram->keyRelease(event->key());
-					i = 0;
-				}
-				else
-					return;
-			}
-		}
+        if (TeachProgram)
+        {
+            if (curScreen==SCR_TEACH)
+            {
+                i++;
+                if((i > 2))
+                {
+                    qDebug()<<"ENCODER_CCW--------------002"<<ENCODER_CCW;
+                    TeachProgram->keyRelease(event->key());
+                    i = 0;
+                }
+                else
+                    return;
+            }
+        }
 		if(pModbus->GetSysState() != SYS_STATE_MANUAL)
 			return;
         break;

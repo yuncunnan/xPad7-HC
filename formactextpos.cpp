@@ -43,10 +43,13 @@ FormActExtPos::FormActExtPos(QWidget *parent) : QWidget(parent), ui(new Ui::Form
     ui->BoxDelay->setDecimals(1);
     ui->BoxDelay->setMaximum(99.9);
 #endif
+
+#if (FACTORY != FA_XIONGCHUAN)			// 熊创（显示加速度和加加速调整框）
     ui->labelAcc->setVisible(false);
     ui->BoxAcc->setVisible(false);
     ui->labelJerk->setVisible(false);
     ui->BoxJerk->setVisible(false);
+#endif
 }
 
 FormActExtPos::~FormActExtPos()

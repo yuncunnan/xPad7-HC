@@ -123,17 +123,18 @@ MyApplication::MyApplication(int &argc,char **argv):QApplication(argc,argv)
 
 bool MyApplication::notify(QObject *obj, QEvent *event)
 {
-     if (pDialogMain)
-     {
-         if((event->type() == QEvent::KeyPress)||(event->type() == QEvent::KeyRelease))
-         {
-             QKeyEvent *keyEvent = static_cast<QKeyEvent *>(event);
-             if (keyVector.contains(keyEvent->key()) == true)
-             {
-                 pDialogMain->CWCCWKeyHandler(keyEvent->key());
-             }
-         }
-     }
+    // 已在DialogFrame::keyPress实现，不在重复操作 250205
+//     if (pDialogMain)
+//     {
+//         if((event->type() == QEvent::KeyPress)||(event->type() == QEvent::KeyRelease))
+//         {
+//             QKeyEvent *keyEvent = static_cast<QKeyEvent *>(event);
+//             if (keyVector.contains(keyEvent->key()) == true)
+//             {
+//                 pDialogMain->CWCCWKeyHandler(keyEvent->key());
+//             }
+//         }
+//     }
      return QApplication::notify(obj, event);
 }
 
