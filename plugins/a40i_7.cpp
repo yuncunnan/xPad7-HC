@@ -1,17 +1,18 @@
-// a40i_7.cpp
+﻿// a40i_7.cpp
 #include <fcntl.h>
 #include "a40i_7.h"
 #include <QFile>
 #include <QDebug>
 #include <QWSServer>
 #include <QSocketNotifier>
+#include <QStringList>
 #if defined(Q_WS_QWS)
 #include <linux/input.h>
 #endif
 #include "HardwareInterface.h"
 
-#define EVE_MATRIX_KEY_a40  "/dev/input/event1"
-#define EVE_ENCODER_a40		"/dev/input/event2"
+#define EVE_MATRIX_KEY_A40  "/dev/input/event1"
+#define EVE_ENCODER_A40		"/dev/input/event2"
 
 #define CUSKEY_NULL			DEV_KEYPAD_MAX_A40_II
 
@@ -165,8 +166,8 @@ void A40I_7::SetLED(quint8 Led_Name,bool Led_Status)
 
 void A40I_7::xKey_Init()
 {
-	m_fd_MATkey = open(EVE_MATRIX_KEY_a40,O_RDONLY);
-	m_fd_encode = open(EVE_ENCODER_a40,O_RDONLY);
+	m_fd_MATkey = open(EVE_MATRIX_KEY_A40,O_RDONLY);
+	m_fd_encode = open(EVE_ENCODER_A40,O_RDONLY);
 	if(m_fd_MATkey>0)
 	{
 		m_notify_MATkey = new QSocketNotifier(m_fd_MATkey, QSocketNotifier::Read, this);
@@ -180,6 +181,70 @@ void A40I_7::xKey_Init()
 }
 
 void A40I_7::ReadKeys(bool Key_State){}
+
+void A40I_7::xSafeSwitch_Init(){}
+
+
+quint8 A40I_7::getKeyValue(quint8 key)
+{
+	quint8 ret = SAFE_SWITCH_OFF;
+    QFile safeSwitch("/sys/devices/platform/soc@1c00000/soc@1c00000:gpio-keys/key_value");
+	if (!safeSwitch.open(QIODevice::ReadOnly | QIODevice::Text)) {
+		qDebug() << "Unable to open SafeSwitch file2:" << safeSwitch.errorString();
+		return ret;
+	}
+	QTextStream in(&safeSwitch);
+	QString content = in.readLine();  // 读取文件内容（假设文件只有一行）
+
+    // 将内容按逗号分割
+    QStringList values = content.split(',', QString::SkipEmptyParts);
+
+    // 检查是否读取到足够的值
+    if (values.size() < 3) {
+        qDebug() << "Not enough values in the file.";
+        return -1;
+    }
+
+	// 获取第几个值（索引为 key）
+    QString thirdValue = values.at(key);
+	safeSwitch.close();
+
+	// 判断内容是否为 "1"
+    if (thirdValue == "1") {
+		ret = SAFE_SWITCH_ON;
+    } else if (thirdValue == "0"){
+		ret = SAFE_SWITCH_OFF;
+	}
+	else{
+		qDebug() << "ReadSafeSwitch ERROR";
+	}
+    return ret;
+}
+
+quint8 A40I_7::ReadSafeSwitch()
+{
+    return getKeyValue(KEYSAFE);
+}
+
+quint8 A40I_7::ReadSelectSwitch()
+{
+    quint8 read0 = getKeyValue(KEYSEL0);
+    quint8 read1 = getKeyValue(KEYSEL1);
+    quint8 ret = 0xFF;
+    if (read0 == SAFE_SWITCH_ON)
+    {
+        if (read1 == SAFE_SWITCH_OFF)
+            ret = SELSW_MANUAL;
+    }
+    else if (read0 == SAFE_SWITCH_OFF)
+    {
+        if (read1 == SAFE_SWITCH_OFF)
+            ret = SELSW_STOP;
+        else if (read1 == SAFE_SWITCH_ON)
+            ret = SELSW_AUTO;
+    }
+	return ret;
+}
 
 void A40I_7::readMATKeyData(int type)
 {

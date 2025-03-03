@@ -1,10 +1,10 @@
-#include "xconfig.h"
+﻿#include "xconfig.h"
 #include "safeswitch.h"
 #include "dialognumberpad.h"
 #include "cmbprotocol.h"
 #include "formactpro.h"
 #include "ui_formactpro.h"
-
+#include "HardwareInterface.h"
 FormActPro::FormActPro(CMBProtocol *modbus, QWidget *parent) : QWidget(parent), ui(new Ui::FormActPro)
 {
     ui->setupUi(this);

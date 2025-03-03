@@ -1,9 +1,10 @@
-#include "xconfig.h"
+﻿#include "xconfig.h"
 #include "safeswitch.h"
 #include "dialognumberpad.h"
 #include "cmbprotocol.h"
 #include "formbtnpro.h"
 #include "ui_formbtnpro.h"
+#include "HardwareInterface.h"
 
 FormBtnPro::FormBtnPro(CMBProtocol *modbus, QWidget *parent) : QWidget(parent), ui(new Ui::FormBtnPro)
 {

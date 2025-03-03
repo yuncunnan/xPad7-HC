@@ -1,4 +1,4 @@
-// t113.h
+﻿// t113.h
 #ifndef T113_H
 #define T113_H
 #include "HardwareInterface.h"
@@ -27,6 +27,10 @@
 #define Max_pFreq						3
 #define Max_backLightTab				10
 
+#define KEYSEL0                         0
+#define KEYSEL1                         1
+#define KEYSAFE                         2
+
 class QSocketNotifier;
 
 class T113 : public HardwareInterface
@@ -49,6 +53,13 @@ public:
 
 	virtual void xKey_Init();
 	virtual void ReadKeys(bool Key_State);
+
+    virtual void xSafeSwitch_Init();
+    virtual quint8 ReadSafeSwitch(void);
+	virtual quint8 ReadSelectSwitch(void);
+
+private:
+    quint8 getKeyValue(quint8 key);
 
 public:
 //	enum Key_code {

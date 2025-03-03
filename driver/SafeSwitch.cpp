@@ -4,40 +4,29 @@
 #include "safeswitch.h"
 #include "cmbprotocol.h"
 #include <QDebug>
+#include "HalBoard.h"
+#include "HardwareInterface.h"
+
+extern HardwareInterface *board;
 
 SafeSwitch *xSafeSw = 0;
 
-int SafeSwitch::fd = -1;
 quint8 SafeSwitch::keyState = SAFE_SWITCH_OFF;
 quint8 SafeSwitch::keyStateBak = SAFE_SWITCH_OFF;
 
 SafeSwitch::SafeSwitch(QObject *parent) : QObject(parent)
 {
-	xSafeSw = this;
+    xSafeSw = this;
 #if defined(Q_WS_QWS)
-	// 打开安全开关驱动设备
-    unsigned char set = '0';
-    // 设置安全开关驱动设备
-    fd = open(DEV_SAFESWITCH_CFG, O_WRONLY);
-    if (fd >= 0)
-    {
-        write(fd, &set, sizeof(set));
-        close(fd);
-        fd = -1;
-    }
-    fd = open(DEV_SAFESWITCH_DATA, O_RDONLY);
+    // 初始化安全开关状态
+    if(board)
+        keyState = keyStateBak = board->ReadSafeSwitch();
+    else
+        qDebug()<<"SafeSwitch::SafeSwitch board is NULL";
 #endif
-	// 初始化安全开关状态
-	keyState = keyStateBak = ReadSwitch();
 }
 
-SafeSwitch::~SafeSwitch(void)
-{
-#if defined(Q_WS_QWS)
-	if (fd >= 0)
-		close(fd);
-#endif
-}
+SafeSwitch::~SafeSwitch(void){}
 
 quint8 SafeSwitch::GetSafeSwState(void)
 {
@@ -47,18 +36,10 @@ quint8 SafeSwitch::GetSafeSwState(void)
     return keyState;
 }
 
-quint8 SafeSwitch::ReadSwitch(void)
+quint8 SafeSwitch::ReadSafeSwitch(void)
 {
 #if defined(Q_WS_QWS)
-	if (fd < 0)
-		return SAFE_SWITCH_OFF;
-    quint8 key;
-    lseek(fd, 0, SEEK_SET);
-    read(fd, &key, sizeof(key));
-    if (key=='0')
-        keyState = SAFE_SWITCH_ON;
-    else
-        keyState = SAFE_SWITCH_OFF;
+    keyState = board->ReadSafeSwitch();
 
     if (keyState != keyStateBak)
     {

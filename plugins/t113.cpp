@@ -5,7 +5,7 @@
 #include <QDebug>
 #include <QWSServer>
 #include <QSocketNotifier>
-
+#include <QStringList>
 #if defined(Q_WS_QWS)
 #include <linux/input.h>
 #endif
@@ -119,7 +119,7 @@ void T113::SetBuzzer_Gear(quint8 Buzzer_Gear)		//Buzzer_Gear : 蜂鸣器频率
 	if(!Buzzer.open(QIODevice::WriteOnly | QIODevice::Truncate)) {
 		qDebug() << "Unable to open ledRun file2";
 	}
-    if(Buzzer_Gear < Max_pFreq)
+	if(Buzzer_Gear <= Max_pFreq)
 	{
 		Buzzer.write(pFreq[Buzzer_Gear-1]);
 	}
@@ -160,6 +160,7 @@ void T113::SetLED(quint8 Led_Name,bool Led_Status)
 		QFile ledRun("/sys/class/leds/LED1_KEY/brightness");
 		if(!ledRun.open(QIODevice::WriteOnly | QIODevice::Truncate)) {
 			qDebug() << "Unable to open ledErr file2";
+			return;
 		}
 		if(Led_Status)
 			ledRun.write("1");
@@ -187,6 +188,69 @@ void T113::xKey_Init()
 }
 
 void T113::ReadKeys(bool Key_State){}
+
+void T113::xSafeSwitch_Init(){}
+
+quint8 T113::getKeyValue(quint8 key)
+{
+	quint8 ret = SAFE_SWITCH_OFF;
+	QFile safeSwitch("/sys/devices/platform/soc@1c00000/soc@1c00000:gpio-keys/key_value");
+	if (!safeSwitch.open(QIODevice::ReadOnly | QIODevice::Text)) {
+		qDebug() << "Unable to open SafeSwitch file2:" << safeSwitch.errorString();
+		return ret;
+	}
+	QTextStream in(&safeSwitch);
+	QString content = in.readLine();  // 读取文件内容（假设文件只有一行）
+
+	// 将内容按逗号分割
+	QStringList values = content.split(',', QString::SkipEmptyParts);
+
+	// 检查是否读取到足够的值
+	if (values.size() < 3) {
+		qDebug() << "Not enough values in the file.";
+		return -1;
+	}
+
+	// 获取第几个值（索引为 key）
+	QString thirdValue = values.at(key);
+	safeSwitch.close();
+
+	// 判断内容是否为 "1"
+	if (thirdValue == "1") {
+		ret = SAFE_SWITCH_ON;
+	} else if (thirdValue == "0"){
+		ret = SAFE_SWITCH_OFF;
+	}
+	else{
+		qDebug() << "ReadSafeSwitch ERROR";
+	}
+	return ret;
+}
+
+quint8 T113::ReadSafeSwitch()
+{
+    return getKeyValue(KEYSAFE);
+}
+
+quint8 T113::ReadSelectSwitch()
+{
+    quint8 read0 = getKeyValue(KEYSEL0);
+    quint8 read1 = getKeyValue(KEYSEL1);
+    quint8 ret = 0xFF;
+    if (read0 == SAFE_SWITCH_ON)
+    {
+        if (read1 == SAFE_SWITCH_OFF)
+            ret = SELSW_MANUAL;
+    }
+    else if (read0 == SAFE_SWITCH_OFF)
+    {
+        if (read1 == SAFE_SWITCH_OFF)
+            ret = SELSW_STOP;
+        else if (read1 == SAFE_SWITCH_ON)
+            ret = SELSW_AUTO;
+    }
+	return ret;
+}
 
 void T113::readMATKeyData(int type)
 {
@@ -216,11 +280,8 @@ void T113::readMATKeyData(int type)
 				}
 				else if((in_ev.value == 1)&&(in_ev.type ==1))
 				{
-//                    if(cur_mat_key == i)      // 241119 和阳工发现这里第二个按键按下会触发松手事件，将Key置为NULL，需要加个保护 待验证
-//                    {
-                        qwsServer->sendKeyEvent(0, keyCode[cur_mat_key], Qt::KeypadModifier, KEY_RELEASE, false);
-                        cur_mat_key = CUSKEY_NULL;
-//                    }
+					qwsServer->sendKeyEvent(0, keyCode[cur_mat_key], Qt::KeypadModifier, KEY_RELEASE, false);
+					cur_mat_key = CUSKEY_NULL;
 				}
 				break;
 			}

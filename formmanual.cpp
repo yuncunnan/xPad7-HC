@@ -1,4 +1,4 @@
-#include <QButtonGroup>
+﻿#include <QButtonGroup>
 #include <QMessageBox>
 #include "xconfig.h"
 #include "cmbprotocol.h"
@@ -13,6 +13,7 @@
 #include "ui_formmanual.h"
 #include <QDebug>
 #include "xKeyPad.h"
+#include "HardwareInterface.h"
 #define RARM_CTRL_HOR			0
 #define RARM_CTRL_VER			1
 

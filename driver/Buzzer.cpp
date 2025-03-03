@@ -7,14 +7,12 @@
 #include <QDebug>
 #include <QFile>
 #endif
+
 #include "HalBoard.h"
-
-
 extern HardwareInterface *board;
 
 Buzzer *xBuzzer = 0;
 
-int Buzzer::fd = -1;
 bool Buzzer::useKeyBell = false;
 bool Buzzer::useTouchBell = false;
 
@@ -34,8 +32,6 @@ Buzzer::Buzzer(QObject *parent) : QObject(parent)
 
 Buzzer::~Buzzer(void)
 {
-#if defined(Q_WS_QWS)
-#endif
 }
 
 // 开启蜂鸣器

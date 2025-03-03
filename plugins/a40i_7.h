@@ -1,4 +1,4 @@
-// A40I_7.h
+﻿// A40I_7.h
 #ifndef A40I_7_H
 #define A40I_7_H
 #include "HardwareInterface.h"
@@ -28,6 +28,10 @@
 #define Max_pFreq						3
 #define Max_backLightTab				10
 
+#define KEYSEL0                         0    // 选择开关数据位0
+#define KEYSEL1                         1    // 选择开关数据位1
+#define KEYSAFE                         2    // 安全开关数据位0
+
 class QSocketNotifier;
 
 class A40I_7 : public HardwareInterface
@@ -50,6 +54,13 @@ public:
 
 	virtual void xKey_Init();
 	virtual void ReadKeys(bool Key_State);
+
+    virtual void xSafeSwitch_Init();
+    virtual quint8 ReadSafeSwitch(void);
+    virtual quint8 ReadSelectSwitch(void);
+
+private:
+    quint8 getKeyValue(quint8 key);
 
 public:
 	//	enum Key_code {

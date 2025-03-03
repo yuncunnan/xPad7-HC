@@ -19,7 +19,6 @@ public slots:
 private:
 	static bool useKeyBell;
 	static bool useTouchBell;
-	static int fd;
 };
 
 extern Buzzer *xBuzzer;

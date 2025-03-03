@@ -1,4 +1,4 @@
-// a40i.cpp
+﻿// a40i.cpp
 #include "a40i.h"
 #include <QFile>
 #include <QDebug>
@@ -33,10 +33,26 @@ const char* A40i::backLightTab[10] =
 int A40i::freqidx = 0;
 
 #define DEV_LCD_POWER			"/sys/devices/virtual/disp/disp/attr/lcd"
+// 三态安全开关
+#define DEV_SAFESWITCH_CFG		"/sys/class/gpio_xr/gpio54/cfg"
+#define DEV_SAFESWITCH_DATA		"/sys/class/gpio_xr/gpio54/data"
+int    A40i::fd_safe_switch = -1;
+
+// 状态选择开关
+#define DEV_SWITCH_CFG0			"/sys/class/gpio_xr/gpio52/cfg"
+#define DEV_SWITCH_CFG1			"/sys/class/gpio_xr/gpio53/cfg"
+#define DEV_SWITCH_DATA0		"/sys/class/gpio_xr/gpio52/data"
+#define DEV_SWITCH_DATA1		"/sys/class/gpio_xr/gpio53/data"
+int A40i::cfg0 = -1;
+int A40i::cfg1 = -1;
+int A40i::data0 = -1;
+int A40i::data1 = -1;
+
 
 qint32 A40i::key_repeat_counter[DEV_KEYPAD_MAX];
 quint8 A40i::key_vaild = 0xff;
 int	   A40i::fd[DEV_KEYPAD_MAX];
+
 quint8 A40i::key[DEV_KEYPAD_MAX];
 quint8 A40i::keyBak[DEV_KEYPAD_MAX];
 quint8 A40i::Filter[DEV_KEYPAD_MAX];
@@ -172,9 +188,38 @@ const quint32 A40i::keyCode[DEV_KEYPAD_MAX] =
 };
 
 
-A40i::A40i(QObject *parent) : HardwareInterface(parent) {}
+A40i::A40i(QObject *parent) : HardwareInterface(parent) {
+    selectSwitchInit();
+}
 
-A40i::~A40i() {}
+A40i::~A40i() {
+#if defined(Q_WS_QWS)
+    // 原安全开关析构
+    if (fd_safe_switch >= 0)
+		close(fd_safe_switch);
+    // 原选择开关析构
+    if (cfg0 >= 0)
+    {
+        close(cfg0);
+        cfg0 = -1;
+    }
+    if (cfg1 >= 0)
+    {
+        close(cfg1);
+        cfg1 = -1;
+    }
+    if (data0 >= 0)
+    {
+        close(data0);
+        data0 = -1;
+    }
+    if (data1 >= 0)
+    {
+        close(data1);
+        data1 = -1;
+    }
+#endif
+}
 
 void A40i::BuzzerInit(){}
 
@@ -224,7 +269,7 @@ void A40i::SetBuzzer_Gear(quint8 Buzzer_Gear)
 	Buzzer.close();
 }
 
-// 其他函数的实�?..
+// 其他函数的实现
 
 void A40i::SetBacklight(quint8 light)
 {
@@ -276,7 +321,7 @@ void A40i::xKey_Init()
 {
 	unsigned char set = '0';
 	int fdCfg;
-	// 初始化键盘驱动设�?
+	// 初始化键盘驱动
 	for (quint8 i = 0; i < DEV_KEYPAD_MAX; i ++)
 	{
 		// 配置键盘端口
@@ -388,6 +433,90 @@ void A40i::ReadKeys(bool Key_State)
 #endif
 }
 
+void A40i::xSafeSwitch_Init()
+{
+#if defined(Q_WS_QWS)
+    // 打开安全开关驱动设备
+    unsigned char set = '0';
+    // 设置安全开关驱动设备
+    fd_safe_switch = open(DEV_SAFESWITCH_CFG, O_WRONLY);
+    if (fd_safe_switch >= 0)
+    {
+        write(fd_safe_switch, &set, sizeof(set));
+        close(fd_safe_switch);
+        fd_safe_switch = -1;
+    }
+    fd_safe_switch = open(DEV_SAFESWITCH_DATA, O_RDONLY);
+#endif
+}
+
+quint8 A40i::ReadSafeSwitch()
+{
+    quint8 keyState = SAFE_SWITCH_OFF;
+#if defined(Q_WS_QWS)
+    if (fd_safe_switch < 0)
+        return SAFE_SWITCH_OFF;
+    quint8 key;
+    lseek(fd_safe_switch, 0, SEEK_SET);
+    read(fd_safe_switch, &key, sizeof(key));
+    if (key=='0')
+        keyState = SAFE_SWITCH_ON;
+    else
+        keyState = SAFE_SWITCH_OFF;
+#endif
+    return keyState;
+}
+
+quint8 A40i::ReadSelectSwitch()
+{
+    quint8 read0, read1;
+    if (data0 < 0 || data1 < 0)
+        return SELSW_ERR;
+    // 读取选择开关设备
+    lseek(data0, 0, SEEK_SET);
+    read(data0, &read0, sizeof(read0));
+    lseek(data1, 0, SEEK_SET);
+    read(data1, &read1, sizeof(read1));
+    // 判断选择开关位置
+    quint8 ret = 0xFF;
+    if (read0 == '1')
+    {
+        if (read1 == '0')
+            ret = SELSW_MANUAL;
+    }
+    else if (read0 == '0')
+    {
+        if (read1 == '0')
+            ret = SELSW_STOP;
+        else if (read1 == '1')
+            ret = SELSW_AUTO;
+    }
+    return ret;
+}
+
+void A40i::selectSwitchInit()
+{
+#if defined(Q_WS_QWS)
+    unsigned char set = '0';
+    // 打开选择开关设备
+    data0 = open(DEV_SWITCH_DATA0, O_RDONLY);
+    data1 = open(DEV_SWITCH_DATA1, O_RDONLY);
+    cfg0 = open(DEV_SWITCH_CFG0, O_WRONLY);
+    cfg1 = open(DEV_SWITCH_CFG1, O_WRONLY);
+    if (cfg0 >= 0)
+    {
+        write(cfg0, &set, sizeof(set));
+        close(cfg0);
+        cfg0 = -1;
+    }
+    if (cfg1 >= 0)
+    {
+        write(cfg1, &set, sizeof(set));
+        close(cfg1);
+        cfg1 = -1;
+    }
+#endif
+}
 
 const char* A40i::get_MB_PORT() const
 {

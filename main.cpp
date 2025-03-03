@@ -222,7 +222,7 @@ int main (int argv, char **args)
 	Buzzer *pBuzzer = new Buzzer();									// 构造蜂鸣器对象
 	SafeSwitch *pSwitch = new SafeSwitch();							// 构造安全开关对象
 //	Motor *pMotor = new Motor();									// 构造振动电机对象
-	xKeypad *pKeypad = new xKeypad(&app);
+    xKeypad *pKeypad = new xKeypad();
 	IndicatorLed *pLed = new IndicatorLed();						// 构造面板指示灯对象
 	ispDialog *pIsp = new ispDialog();
     bool ish750 = false;

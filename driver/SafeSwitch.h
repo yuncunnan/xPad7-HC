@@ -3,9 +3,6 @@
 
 #include <QObject>
 
-#define SAFE_SWITCH_ON	1
-#define SAFE_SWITCH_OFF	0
-
 class SafeSwitch : public QObject
 {
 	Q_OBJECT
@@ -13,7 +10,7 @@ public:
 	explicit SafeSwitch(QObject *parent = 0);
 	~SafeSwitch(void);
 	quint8 GetSafeSwState(void);
-	quint8 ReadSwitch(void);
+    quint8 ReadSafeSwitch(void);
 
     void UseSwitch(bool use);
 
@@ -24,7 +21,6 @@ signals:
 public slots:
 	
 private:
-	static int fd;
 	static quint8 keyState;
 	static quint8 keyStateBak;
 };

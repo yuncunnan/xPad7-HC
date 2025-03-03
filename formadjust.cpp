@@ -12,6 +12,7 @@
 #include "dialognumberpad.h"
 #include "servoalias.h"
 #include "indicatorled.h"
+#include "HardwareInterface.h"
 
 #define SVADJ_STOP		0
 #define SVADJ_CW		1

@@ -554,6 +554,11 @@ QString xIoPort::GetInSuffix(quint32 idx)
         quint32 ioidx = m_fun2in[idx];
         if (ioidx<64)//主板
         {
+            if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_DVS)     // 一体机只有X32
+            {
+                if(ioidx > 31)
+                    return ret;
+            }
             ret = (ioidx < 10) ? ("-X0" + QString::number(ioidx)) : ("-X" + QString::number(ioidx));
         }
         else
@@ -587,7 +592,7 @@ QString xIoPort::GetInSuffix(quint32 idx)
 bool xIoPort::GetOut(quint32 idx, quint16 *outbuf)
 {
     bool ret = false;
-    quint32 mainout = CMBProtocol::GetOutMain();
+    quint64 mainout = CMBProtocol::GetOutMain();
     quint16 ioout[4];
     ioout[0] = CMBProtocol::GetOutEm1();
     ioout[1] = CMBProtocol::GetOutEm2();
@@ -645,6 +650,11 @@ QString xIoPort::GetOutSuffix(quint32 idx)
         quint32 ioidx = m_fun2out[idx];
         if (ioidx<64)//主板
         {
+            if(CMBProtocol::GetSysTypeHigh() == BOARD_VERSION_H750_DVS)     // 一体机只有Y23
+            {
+                if(ioidx > 23)
+                    return ret;
+            }
             ret = (ioidx < 10) ? ("-Y0" + QString::number(ioidx)) : ("-Y" + QString::number(ioidx));
         }
         else

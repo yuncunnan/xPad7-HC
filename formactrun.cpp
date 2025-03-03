@@ -1,10 +1,11 @@
-#include "xconfig.h"
+﻿#include "xconfig.h"
 #include "safeswitch.h"
 #include "xioport.h"
 #include "dialognumberpad.h"
 #include "cmbprotocol.h"
 #include "formactrun.h"
 #include "ui_formactrun.h"
+#include "HardwareInterface.h"
 
 FormActRun::FormActRun(CMBProtocol *modbus, QWidget *parent) : QWidget(parent), ui(new Ui::FormActRun)
 {

@@ -6,6 +6,7 @@
 #include "xstringresource.h"
 #include "formactassist.h"
 #include "ui_formactassist.h"
+#include "HardwareInterface.h"
 
 FormActAssist::FormActAssist(CMBProtocol *modbus, QWidget *parent) : QWidget(parent), ui(new Ui::FormActAssist)
 {

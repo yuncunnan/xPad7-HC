@@ -1,4 +1,4 @@
-#ifndef HARDWAREINTERFACE_H
+﻿#ifndef HARDWAREINTERFACE_H
 #define HARDWAREINTERFACE_H
 using namespace std;
 
@@ -7,6 +7,16 @@ using namespace std;
 
 #define KEY_RELEASE		0
 #define KEY_PRESS		1
+
+#define SAFE_SWITCH_ON	1
+#define SAFE_SWITCH_OFF	0
+
+#define SELSW_STOP			0
+#define SELSW_AUTO			1
+#define SELSW_MANUAL		2
+
+#define SELSW_ERR			3
+
 
 #define KEY_NULL			0
 
@@ -54,7 +64,11 @@ public:
 	virtual QString get_Current() const = 0;		//当前工作路径
 	virtual QString get_xPad_upg()=0;
 
-	virtual void ReadKeys(bool Key_State)=0;
+    virtual void ReadKeys(bool Key_State)=0;
+
+    virtual void xSafeSwitch_Init() = 0;
+    virtual quint8 ReadSafeSwitch(void) = 0;
+    virtual quint8 ReadSelectSwitch(void) = 0;
 };
 
 HardwareInterface::HardwareInterface(QObject *parent)

@@ -1335,10 +1335,15 @@ void CMBProtocol::MBPeriodPoll()
 		}
 		// 更新扩展模块连接状态
 		ExtBoardState = ReadReg16(EXT_BOARD_STATE);
-		// 更新安全开关状态
-		xSafeSw->ReadSwitch();
-		// Update the select switch state
-		xLed->ReadSwitch();
+        // 更新安全开关状态
+        QSettings settings(XPAD_SETTING_FILE, QSettings::IniFormat);
+        if (settings.value(XPAD_SET_SWITCHUSE, true).toBool()){
+            xSafeSw->ReadSafeSwitch();
+        }
+        // Update the select switch state
+#if SELECT_SWITCH_USE
+        xLed->ReadSwitch();
+#endif
 		// 调用周期函数
         emit signal_PeriodPoll(sysMessage);
     }
