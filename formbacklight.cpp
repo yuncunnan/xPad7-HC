@@ -20,16 +20,9 @@ FormBacklight::FormBacklight(CMBProtocol *modbus, QWidget *parent) :	QWidget(par
 	connect(pModbus, SIGNAL(signal_TotalMoldChange(uint32_t)), this, SLOT(prdSumChange(uint32_t)));//生产模数
 	connect(pModbus, SIGNAL(signal_PeriodTimeChange(uint32_t, uint16_t)), this, SLOT(periodChange(uint32_t, uint16_t)));//循环周期
 	connect(pModbus, SIGNAL(signal_InmoldTimeChange(uint32_t, uint16_t)), this, SLOT(inmoldTimeChange(uint32_t, uint16_t)));//取件周期
-	qDebug()<<"001-7-----------------------";
 	ui->label_lastSumMold->setText(QString::number(pModbus->GetPrdSum())+"pcs");
-
-	qDebug()<<"001-8-----------------------";
-
 	ui->label_curCyc->setText(QString::number((double)lastCyc / (100.0), 'f', 2) +"S" );
-	qDebug()<<"001-9-----------------------";
-
 	ui->label_curInMold->setText(QString::number((double)lastInMold / (100.0), 'f', 2) +"S" );
-	qDebug()<<"001-10-----------------------";
 
 }
 
