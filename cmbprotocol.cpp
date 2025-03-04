@@ -428,7 +428,7 @@ void CMBProtocol::CloseSerialPort(void)
 }
 uint16_t CMBProtocol::GetMaxCodes()
 {
-    if(GetSysTypeHigh()!= BOARD_VERSION_H730_5AXIS)
+    if((GetSysTypeHigh()!= BOARD_VERSION_H730_5AXIS) && (GetSysTypeHigh()!= BOARD_VERSION_H730_FIVEBOX))
     {
         if(GetFunctions(SUB_FUN2_8_PROC))
             return 2048;
