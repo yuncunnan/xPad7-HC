@@ -10,7 +10,7 @@
 #define MAX_DISTANCE                6000000
 #define MAX_DEGREE					36000
 // 定义操作器软件版本号宏
-#define XPAD_SVER					"SV14.01-250220"
+#define XPAD_SVER					"SV14.01-250313"
 // 定义操作器类型字符串
 #define XPAD_TYPE_STR				"SR6807A"
 
@@ -21,7 +21,7 @@
 #if defined(Q_WS_QWS)
 #define PENDANT_PROTOCOL			1       //虚拟机通讯
 #else
-#define PENDANT_PROTOCOL			0       //PC通讯
+#define PENDANT_PROTOCOL			1       //PC通讯
 #endif
 #endif
 

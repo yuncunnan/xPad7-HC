@@ -446,11 +446,17 @@ static const KeyFunTab singlekeyfuntable[] =
     {true, SRV_PAHOR, false, 0},                         //#define KEY_SCAN_LEFT1				(0x100+3)
     {true, SRV_PAVER, false, 0},                         //#define KEY_SCAN_ASC1				(0x100+4)
 
+#if FACTORY == FA_JINYI     // 金益20250313（要求物理按键控制更改：单臂程序参考双臂——左右轴2控制旋转轴；上下轴2控制倒角，伺服轴）
+    {false, 0, true, PRO_ACT_HOZIONTAL},          //#define KEY_SCAN_ROTHOR				(0x100+5)
+    {false, 0, true, RUN_ACT_HORIZONTAL},         //#define KEY_SCAN_RELHOR				(0x100+6)
+    {true,  SRV_RAHOR, false, 0},              //#define KEY_SCAN_LEFT2                (0x100+7)
+    {true,  SRV_RAVER,  false, 0},                    //#define KEY_SCAN_ASC2				(0x100+8)
+#else
     {true, SRV_RAVER, true, PRO_ACT_HOZIONTAL},          //#define KEY_SCAN_ROTHOR				(0x100+5)
     {true, SRV_RAHOR, true, RUN_ACT_HORIZONTAL},         //#define KEY_SCAN_RELHOR				(0x100+6)
     {true, SRV_EXT, true, RUN_ACT_RETURN},              //#define KEY_SCAN_LEFT2                (0x100+7)
     {false, 0, true, RUN_ACT_ASCENT},                    //#define KEY_SCAN_ASC2				(0x100+8)
-
+#endif
     {false, 0, false, 0},                                //#define KEY_SCAN_AUX					(0x100+9)
     {false, 0, false, 0},                                //#define KEY_SCAN_STOP				(0x100+10)
 
@@ -458,10 +464,17 @@ static const KeyFunTab singlekeyfuntable[] =
     {true, SRV_PAHOR, false, 0},                         //#define KEY_SCAN_RIGHT1				(0x100+12)
     {true, SRV_PAVER, false, 0},                         //#define KEY_SCAN_DES1				(0x100+13)
 
+#if FACTORY == FA_JINYI     // 金益20250313（要求物理按键控制更改：单臂程序参考双臂——左右轴2控制旋转轴；上下轴2控制倒角，伺服轴）
+    {false, 0, true, PRO_ACT_VERTIACL},           //#define KEY_SCAN_ROTVER				(0x100+14)
+    {false, 0, true, RUN_ACT_VERTIACL},           //#define KEY_SCAN_RELVER				(0x100+15)
+    {true,  SRV_RAHOR, false, 0},             //#define KEY_SCAN_RIGHT2           (0x100+16)
+    {true,  SRV_RAVER, false, 0},                   //#define KEY_SCAN_DES2				(0x100+17)
+#else
     {true, SRV_RAVER, true, PRO_ACT_VERTIACL},           //#define KEY_SCAN_ROTVER				(0x100+14)
     {true, SRV_RAHOR, true, RUN_ACT_VERTIACL},           //#define KEY_SCAN_RELVER				(0x100+15)
     {true, SRV_EXT, true, RUN_ACT_ADVANCE},             //#define KEY_SCAN_RIGHT2           (0x100+16)
     {false, 0, true, RUN_ACT_DESCENT},                   //#define KEY_SCAN_DES2				(0x100+17)
+#endif
 #endif
 };
 
