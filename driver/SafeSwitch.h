@@ -2,6 +2,7 @@
 #define SAFESWITCH_H
 
 #include <QObject>
+#include "HardwareInterface.h"
 
 class SafeSwitch : public QObject
 {

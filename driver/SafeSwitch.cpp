@@ -5,7 +5,6 @@
 #include "cmbprotocol.h"
 #include <QDebug>
 #include "HalBoard.h"
-#include "HardwareInterface.h"
 
 extern HardwareInterface *board;
 
